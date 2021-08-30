@@ -3294,6 +3294,7 @@ let data = {
             dark_green: 'modules/jb2a_patreon/Library/2nd_Level/Misty_Step/MistyStep_01_Dark_Green_400x400.webm',
             dark_red: 'modules/jb2a_patreon/Library/2nd_Level/Misty_Step/MistyStep_01_Dark_Red_400x400.webm',
             green: 'modules/jb2a_patreon/Library/2nd_Level/Misty_Step/MistyStep_01_Regular_Green_400x400.webm',
+            grey: 'modules/jb2a_patreon/Library/2nd_Level/Misty_Step/MistyStep_01_Regular_Grey_400x400.webm',
             orange: 'modules/jb2a_patreon/Library/2nd_Level/Misty_Step/MistyStep_01_Regular_Orange_400x400.webm',
             purple: 'modules/jb2a_patreon/Library/2nd_Level/Misty_Step/MistyStep_01_Regular_Purple_400x400.webm'
         },
@@ -3302,6 +3303,7 @@ let data = {
             dark_green: 'modules/jb2a_patreon/Library/2nd_Level/Misty_Step/MistyStep_02_Dark_Green_400x400.webm',
             dark_red: 'modules/jb2a_patreon/Library/2nd_Level/Misty_Step/MistyStep_02_Dark_Red_400x400.webm',
             green: 'modules/jb2a_patreon/Library/2nd_Level/Misty_Step/MistyStep_02_Regular_Green_400x400.webm',
+            grey:'modules/jb2a_patreon/Library/2nd_Level/Misty_Step/MistyStep_02_Regular_Grey_400x400.webm',
             orange: 'modules/jb2a_patreon/Library/2nd_Level/Misty_Step/MistyStep_02_Regular_Orange_400x400.webm',
             purple: 'modules/jb2a_patreon/Library/2nd_Level/Misty_Step/MistyStep_02_Regular_Purple_400x400.webm'
         }
