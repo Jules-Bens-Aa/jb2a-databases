@@ -4,7 +4,7 @@ export const Effects = {
   //    effects: [
   //      
   //  },
-  folder10: {
+  folder100: {
     label: "JB2A - 1st Level",
     effects: [
       {
@@ -584,6 +584,342 @@ export const Effects = {
         "angle": 0,
         "anchor": {
           "x": 0,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "DetectMagicCircle_01_Regular_Blue_1200x1200",
+        "file": "modules/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCircle_01_Regular_Blue_1200x1200.webm",
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0,
+          "y": 0
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "DetectMagicCircle_01_Regular_Green_1200x1200",
+        "file": "modules/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCircle_01_Regular_Green_1200x1200.webm",
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0,
+          "y": 0
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "DetectMagicCircle_01_Regular_Purple_1200x1200",
+        "file": "modules/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCircle_01_Regular_Purple_1200x1200.webm",
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0,
+          "y": 0
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "DetectMagicCircle_01_Regular_GreenOrange_1200x1200",
+        "file": "modules/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCircle_01_Regular_GreenOrange_1200x1200.webm",
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0,
+          "y": 0
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "DetectMagicCone_01_Regular_Blue_05ft_300x300",
+        "file": "modules/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Regular_Blue_05ft_300x300.webm",
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.33,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "DetectMagicCone_01_Regular_Blue_15ft_500x500",
+        "file": "modules/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Regular_Blue_15ft_500x500.webm",
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.25,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "DetectMagicCone_01_Regular_Blue_30ft_800x800",
+        "file": "modules/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Regular_Blue_30ft_800x800.webm",
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.125,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "DetectMagicCone_01_Regular_Green_05ft_300x300",
+        "file": "modules/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Regular_Green_05ft_300x300.webm",
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.33,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "DetectMagicCone_01_Regular_Green_15ft_500x500",
+        "file": "modules/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Regular_Green_15ft_500x500.webm",
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.25,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "DetectMagicCone_01_Regular_Green_30ft_800x800",
+        "file": "modules/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Regular_Green_30ft_800x800.webm",
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.125,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "DetectMagicCone_01_Regular_Purple_05ft_300x300",
+        "file": "modules/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Regular_Purple_05ft_300x300.webm",
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.33,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "DetectMagicCone_01_Regular_Purple_15ft_500x500",
+        "file": "modules/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Regular_Purple_15ft_500x500.webm",
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.25,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "DetectMagicCone_01_Regular_Purple_30ft_800x800",
+        "file": "modules/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Regular_Purple_30ft_800x800.webm",
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.125,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "DetectMagicCone_01_Regular_GreenOrange_05ft_300x300",
+        "file": "modules/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Regular_GreenOrange_05ft_300x300.webm",
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.33,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "DetectMagicCone_01_Regular_GreenOrange_15ft_500x500",
+        "file": "modules/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Regular_GreenOrange_15ft_500x500.webm",
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.25,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "DetectMagicCone_01_Regular_GreenOrange_30ft_800x800",
+        "file": "modules/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Regular_GreenOrange_30ft_800x800.webm",
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.25,
           "y": 0.5
         },
         "speed": 0,
@@ -2550,7 +2886,7 @@ export const Effects = {
       }
     ]
   },
-  folder20: {
+  folder200: {
     label: "JB2A - 2nd Level",
     effects: [
       {
@@ -3647,7 +3983,7 @@ export const Effects = {
       }
     ]
   },
-  folder25: {
+  folder250: {
     label: "JB2A - 3rd Level",
     effects: [
       {
@@ -4068,7 +4404,7 @@ export const Effects = {
       },
     ]
   },
-  folder30: {
+  folder300: {
     label: "JB2A - 5th Level",
     effects: [
       {
@@ -4173,7 +4509,264 @@ export const Effects = {
       },
     ]
   },
-  folder35: {
+  folder325:{
+    label: "JB2A - Cantrip",
+    effects: [
+      {
+        "label": "TollTheDead_01_Regular_Green_400x400",
+        "file": "modules/jb2a_patreon/Library/Cantrip/Toll_The_Dead/TollTheDead_01_Regular_Green_400x400.webm",
+        "scale": {
+          "x": 0.32,
+          "y": 0.32
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "TollTheDead_01_Regular_Purple_400x400",
+        "file": "modules/jb2a_patreon/Library/Cantrip/Toll_The_Dead/TollTheDead_01_Regular_Purple_400x400.webm",
+        "scale": {
+          "x": 0.32,
+          "y": 0.32
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "TollTheDead_01_Regular_Red_400x400",
+        "file": "modules/jb2a_patreon/Library/Cantrip/Toll_The_Dead/TollTheDead_01_Regular_Red_400x400.webm",
+        "scale": {
+          "x": 0.32,
+          "y": 0.32
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "TollTheDeadBell_01_Regular_Green_400x400",
+        "file": "modules/jb2a_patreon/Library/Cantrip/Toll_The_Dead/TollTheDeadBell_01_Regular_Green_400x400.webm",
+        "scale": {
+          "x": 0.32,
+          "y": 0.32
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "TollTheDeadBell_01_Regular_Purple_400x400",
+        "file": "modules/jb2a_patreon/Library/Cantrip/Toll_The_Dead/TollTheDeadBell_01_Regular_Purple_400x400.webm",
+        "scale": {
+          "x": 0.32,
+          "y": 0.32
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "TollTheDeadBell_01_Regular_Red_400x400",
+        "file": "modules/jb2a_patreon/Library/Cantrip/Toll_The_Dead/TollTheDeadBell_01_Regular_Red_400x400.webm",
+        "scale": {
+          "x": 0.32,
+          "y": 0.32
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "TollTheDeadShockwave_01_Regular_Green_400x400",
+        "file": "modules/jb2a_patreon/Library/Cantrip/Toll_The_Dead/TollTheDeadShockwave_01_Regular_Green_400x400.webm",
+        "scale": {
+          "x": 0.32,
+          "y": 0.32
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "TollTheDeadShockwave_01_Regular_Purple_400x400",
+        "file": "modules/jb2a_patreon/Library/Cantrip/Toll_The_Dead/TollTheDeadShockwave_01_Regular_Purple_400x400.webm",
+        "scale": {
+          "x": 0.32,
+          "y": 0.32
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "TollTheDeadShockwave_01_Regular_Red_400x400",
+        "file": "modules/jb2a_patreon/Library/Cantrip/Toll_The_Dead/TollTheDeadShockwave_01_Regular_Red_400x400.webm",
+        "scale": {
+          "x": 0.32,
+          "y": 0.32
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "TollTheDeadSkullSmoke_01_Regular_Green_400x400",
+        "file": "modules/jb2a_patreon/Library/Cantrip/Toll_The_Dead/TollTheDeadSkullSmoke_01_Regular_Green_400x400.webm",
+        "scale": {
+          "x": 0.32,
+          "y": 0.32
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "TollTheDeadSkullSmoke_01_Regular_Purple_400x400",
+        "file": "modules/jb2a_patreon/Library/Cantrip/Toll_The_Dead/TollTheDeadSkullSmoke_01_Regular_Purple_400x400.webm",
+        "scale": {
+          "x": 0.32,
+          "y": 0.32
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "TollTheDeadSkullSmoke_01_Regular_Red_400x400",
+        "file": "modules/jb2a_patreon/Library/Cantrip/Toll_The_Dead/TollTheDeadSkullSmoke_01_Regular_Red_400x400.webm",
+        "scale": {
+          "x": 0.32,
+          "y": 0.32
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+    ]
+  },
+  folder350: {
     label: "JB2A - Generic - Breath Weapon",
     effects: [
       {
@@ -4766,7 +5359,7 @@ export const Effects = {
       },
     ]
   },
-  folder40: {
+  folder400: {
     label: "JB2A - Generic - Creature",
     effects: [
       {
@@ -5359,7 +5952,7 @@ export const Effects = {
       }
     ]
   },
-  folder50: {
+  folder500: {
     label: "JB2A - Generic - Explosion",
     effects: [
       {
@@ -5684,7 +6277,7 @@ export const Effects = {
       },
     ]
   },
-  folder60: {
+  folder600: {
     label: "JB2A - Generic - Fire",
     effects: [
       {
@@ -5857,7 +6450,7 @@ export const Effects = {
       }
     ]
   },
-  folder80: {
+  folder800: {
     label: "JB2A - Generic - Impact",
     effects: [
       {
@@ -6646,7 +7239,7 @@ export const Effects = {
       },
     ]
   },
-  folder70: {
+  folder700: {
     label: "JB2A - Generic - Healing",
     effects: [
       {
@@ -6843,7 +7436,7 @@ export const Effects = {
       },
     ]
   },
-  folder90: {
+  folder900: {
     label: "JB2A - Generic - Ice",
     effects: [
       {
@@ -7008,7 +7601,7 @@ export const Effects = {
       },
     ]
   },
-  folder100: {
+  folder1000: {
     label: "JB2A - Generic - Lightning",
     effects: [
       {
@@ -7301,7 +7894,7 @@ export const Effects = {
       },
     ]
   },
-  folder110: {
+  folder1100: {
     label: "JB2A - Generic - Template Circle",
     effects: [
       {
@@ -7402,7 +7995,7 @@ export const Effects = {
       },
     ]
   },
-  folder120: {
+  folder1200: {
     label: "JB2A - Generic - Weapon Attacks",
     effects: [
       {
