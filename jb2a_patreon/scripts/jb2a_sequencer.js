@@ -2093,43 +2093,15 @@ let data = {
         melee: {
             _template: 'melee',
             '01': {
-                '01': {
-                    white: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_01_Regular_White_800x600.webm',
-                    orange: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_01_Regular_Orange_800x600.webm',
-                    purple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_01_Regular_Purple_800x600.webm',
-                    dark_orangepurple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_01_Dark_OrangePurple_800x600.webm'
-                },
-                '02': {
-                    white: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_02_Regular_White_800x600.webm',
-                    orange: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_02_Regular_Orange_800x600.webm',
-                    purple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_02_Regular_Purple_800x600.webm',
-                    dark_orangepurple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_02_Dark_OrangePurple_800x600.webm'
-                },
-                '03': {
-                    white: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_03_Regular_White_800x600.webm',
-                    orange: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_03_Regular_Orange_800x600.webm',
-                    purple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_03_Regular_Purple_800x600.webm',
-                    dark_orangepurple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_03_Dark_OrangePurple_800x600.webm'
-                },
-                '04': {
-                    white: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_04_Regular_White_800x600.webm',
-                    orange: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_04_Regular_Orange_800x600.webm',
-                    purple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_04_Regular_Purple_800x600.webm',
-                    dark_orangepurple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_04_Dark_OrangePurple_800x600.webm'
-                },
-                '05': {
-                    white: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_05_Regular_White_800x600.webm',
-                    orange: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_05_Regular_Orange_800x600.webm',
-                    purple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_05_Regular_Purple_800x600.webm',
-                    dark_orangepurple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_05_Dark_OrangePurple_800x600.webm'
-                },
-                '06': {
-                    white: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_06_Regular_White_800x600.webm',
-                    orange: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_06_Regular_Orange_800x600.webm',
-                    purple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_06_Regular_Purple_800x600.webm',
-                    dark_orangepurple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_06_Dark_OrangePurple_800x600.webm'
-                },
-                random_white: [
+                dark_orangepurple: [
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_01_Dark_OrangePurple_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_02_Dark_OrangePurple_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_03_Dark_OrangePurple_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_04_Dark_OrangePurple_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_05_Dark_OrangePurple_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_06_Dark_OrangePurple_800x600.webm'
+                ],
+                white: [
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_01_Regular_White_800x600.webm',
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_02_Regular_White_800x600.webm',
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_03_Regular_White_800x600.webm',
@@ -2137,7 +2109,7 @@ let data = {
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_05_Regular_White_800x600.webm',
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_06_Regular_White_800x600.webm'
                 ],
-                random_orange: [
+                orange: [
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_01_Regular_Orange_800x600.webm',
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_02_Regular_Orange_800x600.webm',
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_03_Regular_Orange_800x600.webm',
@@ -2145,21 +2117,13 @@ let data = {
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_05_Regular_Orange_800x600.webm',
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_06_Regular_Orange_800x600.webm'
                 ],
-                random_purple: [
+                purple: [
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_01_Regular_Purple_800x600.webm',
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_02_Regular_Purple_800x600.webm',
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_03_Regular_Purple_800x600.webm',
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_04_Regular_Purple_800x600.webm',
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_05_Regular_Purple_800x600.webm',
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_06_Regular_Purple_800x600.webm'
-                ],
-                random_dark_orangepurple: [
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_01_Dark_OrangePurple_800x600.webm',
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_02_Dark_OrangePurple_800x600.webm',
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_03_Dark_OrangePurple_800x600.webm',
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_04_Dark_OrangePurple_800x600.webm',
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_05_Dark_OrangePurple_800x600.webm',
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_06_Dark_OrangePurple_800x600.webm'
                 ]
             }
         }
@@ -3547,51 +3511,15 @@ let data = {
         melee: {
             _template: 'melee',
             '01': {
-                '01': {
-                    white: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_01_Regular_White_800x600.webm',
-                    orange: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_01_Regular_Orange_800x600.webm',
-                    purple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_01_Regular_Purple_800x600.webm',
-                    dark_orangepurple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_01_Dark_OrangePurple_800x600.webm'
-                },
-                '02': {
-                    white: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_02_Regular_White_800x600.webm',
-                    orange: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_02_Regular_Orange_800x600.webm',
-                    purple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_02_Regular_Purple_800x600.webm',
-                    dark_orangepurple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_02_Dark_OrangePurple_800x600.webm'
-                },
-                '03': {
-                    white: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_03_Regular_White_800x600.webm',
-                    orange: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_03_Regular_Orange_800x600.webm',
-                    purple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_03_Regular_Purple_800x600.webm',
-                    dark_orangepurple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_03_Dark_OrangePurple_800x600.webm'
-                },
-                '04': {
-                    white: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_04_Regular_White_800x600.webm',
-                    orange: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_04_Regular_Orange_800x600.webm',
-                    purple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_04_Regular_Purple_800x600.webm',
-                    dark_orangepurple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_04_Dark_OrangePurple_800x600.webm'
-                },
-                '05': {
-                    white: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_05_Regular_White_800x600.webm',
-                    orange: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_05_Regular_Orange_800x600.webm',
-                    purple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_05_Regular_Purple_800x600.webm',
-                    dark_orangepurple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_05_Dark_OrangePurple_800x600.webm'
-                },
-                '06': {
-                    white: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_06_Regular_White_800x600.webm',
-                    orange: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_06_Regular_Orange_800x600.webm',
-                    purple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_06_Regular_Purple_800x600.webm',
-                    dark_orangepurple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_06_Dark_OrangePurple_800x600.webm'
-                },
-                random_white: [
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_01_Regular_White_800x600.webm',
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_02_Regular_White_800x600.webm',
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_03_Regular_White_800x600.webm',
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_04_Regular_White_800x600.webm',
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_05_Regular_White_800x600.webm',
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_06_Regular_White_800x600.webm'
+                dark_orangepurple: [
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_01_Dark_OrangePurple_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_02_Dark_OrangePurple_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_03_Dark_OrangePurple_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_04_Dark_OrangePurple_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_05_Dark_OrangePurple_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_06_Dark_OrangePurple_800x600.webm'
                 ],
-                random_orange: [
+                orange: [
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_01_Regular_Orange_800x600.webm',
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_02_Regular_Orange_800x600.webm',
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_03_Regular_Orange_800x600.webm',
@@ -3599,7 +3527,7 @@ let data = {
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_05_Regular_Orange_800x600.webm',
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_06_Regular_Orange_800x600.webm'
                 ],
-                random_purple: [
+                purple: [
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_01_Regular_Purple_800x600.webm',
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_02_Regular_Purple_800x600.webm',
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_03_Regular_Purple_800x600.webm',
@@ -3607,61 +3535,25 @@ let data = {
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_05_Regular_Purple_800x600.webm',
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_06_Regular_Purple_800x600.webm'
                 ],
-                random_dark_orangepurple: [
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_01_Dark_OrangePurple_800x600.webm',
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_02_Dark_OrangePurple_800x600.webm',
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_03_Dark_OrangePurple_800x600.webm',
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_04_Dark_OrangePurple_800x600.webm',
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_05_Dark_OrangePurple_800x600.webm',
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_06_Dark_OrangePurple_800x600.webm'
+                white: [
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_01_Regular_White_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_02_Regular_White_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_03_Regular_White_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_04_Regular_White_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_05_Regular_White_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff01_06_Regular_White_800x600.webm'
                 ]
             },
             '02': {
-                '01': {
-                    white: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_01_Regular_White_800x600.webm',
-                    orange: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_01_Regular_Orange_800x600.webm',
-                    purple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_01_Regular_Purple_800x600.webm',
-                    dark_orangepurple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_01_Dark_OrangePurple_800x600.webm'
-                },
-                '02': {
-                    white: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_02_Regular_White_800x600.webm',
-                    orange: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_02_Regular_Orange_800x600.webm',
-                    purple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_02_Regular_Purple_800x600.webm',
-                    dark_orangepurple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_02_Dark_OrangePurple_800x600.webm'
-                },
-                '03': {
-                    white: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_03_Regular_White_800x600.webm',
-                    orange: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_03_Regular_Orange_800x600.webm',
-                    purple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_03_Regular_Purple_800x600.webm',
-                    dark_orangepurple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_03_Dark_OrangePurple_800x600.webm'
-                },
-                '04': {
-                    white: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_04_Regular_White_800x600.webm',
-                    orange: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_04_Regular_Orange_800x600.webm',
-                    purple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_04_Regular_Purple_800x600.webm',
-                    dark_orangepurple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_04_Dark_OrangePurple_800x600.webm'
-                },
-                '05': {
-                    white: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_05_Regular_White_800x600.webm',
-                    orange: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_05_Regular_Orange_800x600.webm',
-                    purple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_05_Regular_Purple_800x600.webm',
-                    dark_orangepurple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_05_Dark_OrangePurple_800x600.webm'
-                },
-                '06': {
-                    white: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_06_Regular_White_800x600.webm',
-                    orange: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_06_Regular_Orange_800x600.webm',
-                    purple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_06_Regular_Purple_800x600.webm',
-                    dark_orangepurple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_06_Dark_OrangePurple_800x600.webm'
-                },
-                random_white: [
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_01_Regular_White_800x600.webm',
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_02_Regular_White_800x600.webm',
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_03_Regular_White_800x600.webm',
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_04_Regular_White_800x600.webm',
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_05_Regular_White_800x600.webm',
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_06_Regular_White_800x600.webm'
+                dark_orangepurple: [
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_01_Dark_OrangePurple_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_02_Dark_OrangePurple_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_03_Dark_OrangePurple_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_04_Dark_OrangePurple_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_05_Dark_OrangePurple_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_06_Dark_OrangePurple_800x600.webm'
                 ],
-                random_orange: [
+                orange: [
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_01_Regular_Orange_800x600.webm',
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_02_Regular_Orange_800x600.webm',
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_03_Regular_Orange_800x600.webm',
@@ -3669,7 +3561,7 @@ let data = {
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_05_Regular_Orange_800x600.webm',
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_06_Regular_Orange_800x600.webm'
                 ],
-                random_purple: [
+                purple: [
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_01_Regular_Purple_800x600.webm',
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_02_Regular_Purple_800x600.webm',
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_03_Regular_Purple_800x600.webm',
@@ -3677,61 +3569,25 @@ let data = {
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_05_Regular_Purple_800x600.webm',
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_06_Regular_Purple_800x600.webm'
                 ],
-                random_dark_orangepurple: [
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_01_Dark_OrangePurple_800x600.webm',
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_02_Dark_OrangePurple_800x600.webm',
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_03_Dark_OrangePurple_800x600.webm',
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_04_Dark_OrangePurple_800x600.webm',
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_05_Dark_OrangePurple_800x600.webm',
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_06_Dark_OrangePurple_800x600.webm'
+                white: [
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_01_Regular_White_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_02_Regular_White_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_03_Regular_White_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_04_Regular_White_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_05_Regular_White_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff02_06_Regular_White_800x600.webm'
                 ]
             },
             '03': {
-                '01': {
-                    white: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_01_Regular_White_800x600.webm',
-                    orange: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_01_Regular_Orange_800x600.webm',
-                    purple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_01_Regular_Purple_800x600.webm',
-                    dark_orangepurple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_01_Dark_OrangePurple_800x600.webm'
-                },
-                '02': {
-                    white: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_02_Regular_White_800x600.webm',
-                    orange: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_02_Regular_Orange_800x600.webm',
-                    purple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_02_Regular_Purple_800x600.webm',
-                    dark_orangepurple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_02_Dark_OrangePurple_800x600.webm'
-                },
-                '03': {
-                    white: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_03_Regular_White_800x600.webm',
-                    orange: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_03_Regular_Orange_800x600.webm',
-                    purple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_03_Regular_Purple_800x600.webm',
-                    dark_orangepurple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_03_Dark_OrangePurple_800x600.webm'
-                },
-                '04': {
-                    white: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_04_Regular_White_800x600.webm',
-                    orange: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_04_Regular_Orange_800x600.webm',
-                    purple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_04_Regular_Purple_800x600.webm',
-                    dark_orangepurple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_04_Dark_OrangePurple_800x600.webm'
-                },
-                '05': {
-                    white: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_05_Regular_White_800x600.webm',
-                    orange: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_05_Regular_Orange_800x600.webm',
-                    purple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_05_Regular_Purple_800x600.webm',
-                    dark_orangepurple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_05_Dark_OrangePurple_800x600.webm'
-                },
-                '06': {
-                    white: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_06_Regular_White_800x600.webm',
-                    orange: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_06_Regular_Orange_800x600.webm',
-                    purple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_06_Regular_Purple_800x600.webm',
-                    dark_orangepurple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_06_Dark_OrangePurple_800x600.webm'
-                },
-                random_white: [
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_01_Regular_White_800x600.webm',
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_02_Regular_White_800x600.webm',
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_03_Regular_White_800x600.webm',
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_04_Regular_White_800x600.webm',
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_05_Regular_White_800x600.webm',
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_06_Regular_White_800x600.webm'
+                dark_orangepurple: [
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_01_Dark_OrangePurple_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_02_Dark_OrangePurple_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_03_Dark_OrangePurple_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_04_Dark_OrangePurple_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_05_Dark_OrangePurple_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_06_Dark_OrangePurple_800x600.webm'
                 ],
-                random_orange: [
+                orange: [
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_01_Regular_Orange_800x600.webm',
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_02_Regular_Orange_800x600.webm',
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_03_Regular_Orange_800x600.webm',
@@ -3739,7 +3595,7 @@ let data = {
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_05_Regular_Orange_800x600.webm',
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_06_Regular_Orange_800x600.webm'
                 ],
-                random_purple: [
+                purple: [
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_01_Regular_Purple_800x600.webm',
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_02_Regular_Purple_800x600.webm',
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_03_Regular_Purple_800x600.webm',
@@ -3747,53 +3603,25 @@ let data = {
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_05_Regular_Purple_800x600.webm',
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_06_Regular_Purple_800x600.webm'
                 ],
-                random_dark_orangepurple: [
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_01_Dark_OrangePurple_800x600.webm',
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_02_Dark_OrangePurple_800x600.webm',
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_03_Dark_OrangePurple_800x600.webm',
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_04_Dark_OrangePurple_800x600.webm',
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_05_Dark_OrangePurple_800x600.webm',
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_06_Dark_OrangePurple_800x600.webm'
+                white: [
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_01_Regular_White_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_02_Regular_White_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_03_Regular_White_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_04_Regular_White_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_05_Regular_White_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff03_06_Regular_White_800x600.webm'
                 ]
             },
             '04': {
-                '01': {
-                    white: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff04_01_Regular_White_800x600.webm',
-                    orange: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff04_01_Regular_Orange_800x600.webm',
-                    purple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff04_01_Regular_Purple_800x600.webm',
-                    dark_orangepurple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff04_01_Dark_OrangePurple_800x600.webm'
-                },
-                '02': {
-                    white: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff04_02_Regular_White_800x600.webm',
-                    orange: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff04_02_Regular_Orange_800x600.webm',
-                    purple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff04_02_Regular_Purple_800x600.webm',
-                    dark_orangepurple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff04_02_Dark_OrangePurple_800x600.webm'
-                },
-                '03': {
-                    white: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff04_03_Regular_White_800x600.webm',
-                    orange: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff04_03_Regular_Orange_800x600.webm',
-                    purple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff04_03_Regular_Purple_800x600.webm',
-                    dark_orangepurple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff04_03_Dark_OrangePurple_800x600.webm'
-                },
-                '04': {
-                    white: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff04_04_Regular_White_800x600.webm',
-                    orange: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff04_04_Regular_Orange_800x600.webm',
-                    purple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff04_04_Regular_Purple_800x600.webm',
-                    dark_orangepurple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff04_04_Dark_OrangePurple_800x600.webm'
-                },
-                '05': {
-                    white: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff04_05_Regular_White_800x600.webm',
-                    orange: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff04_05_Regular_Orange_800x600.webm',
-                    purple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff04_05_Regular_Purple_800x600.webm',
-                    dark_orangepurple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff04_05_Dark_OrangePurple_800x600.webm'
-                },
-                '06': {
-                    white: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff04_06_Regular_White_800x600.webm',
-                    orange: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff04_06_Regular_Orange_800x600.webm',
-                    purple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff04_06_Regular_Purple_800x600.webm',
-                    dark_orangepurple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff04_06_Dark_OrangePurple_800x600.webm'
-                },
-                random_white: [
+                dark_orangepurple: [
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff04_01_Dark_OrangePurple_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff04_02_Dark_OrangePurple_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff04_03_Dark_OrangePurple_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff04_04_Dark_OrangePurple_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff04_05_Dark_OrangePurple_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff04_06_Dark_OrangePurple_800x600.webm'
+                ],
+                white: [
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff04_01_Regular_White_800x600.webm',
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff04_02_Regular_White_800x600.webm',
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff04_03_Regular_White_800x600.webm',
@@ -3801,7 +3629,7 @@ let data = {
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff04_05_Regular_White_800x600.webm',
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff04_06_Regular_White_800x600.webm'
                 ],
-                random_orange: [
+                orange: [
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff04_01_Regular_Orange_800x600.webm',
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff04_02_Regular_Orange_800x600.webm',
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff04_03_Regular_Orange_800x600.webm',
@@ -3809,21 +3637,13 @@ let data = {
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff04_05_Regular_Orange_800x600.webm',
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff04_06_Regular_Orange_800x600.webm'
                 ],
-                random_purple: [
+                purple: [
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff04_01_Regular_Purple_800x600.webm',
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff04_02_Regular_Purple_800x600.webm',
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff04_03_Regular_Purple_800x600.webm',
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff04_04_Regular_Purple_800x600.webm',
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff04_05_Regular_Purple_800x600.webm',
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff04_06_Regular_Purple_800x600.webm'
-                ],
-                random_dark_orangepurple: [
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff04_01_Dark_OrangePurple_800x600.webm',
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff04_02_Dark_OrangePurple_800x600.webm',
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff04_03_Dark_OrangePurple_800x600.webm',
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff04_04_Dark_OrangePurple_800x600.webm',
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff04_05_Dark_OrangePurple_800x600.webm',
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Quarterstaff04_06_Dark_OrangePurple_800x600.webm'
                 ]
             }
         }
@@ -4169,67 +3989,7 @@ let data = {
                 yellow: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_Fire_Regular_Yellow_800x600.webm'
             },
             '01': {
-                '01': {
-                    white: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_01_Regular_White_800x600.webm',
-                    orange: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_01_Regular_Orange_800x600.webm',
-                    purple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_01_Regular_Purple_800x600.webm',
-                    dark_orangepurple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_01_Dark_OrangePurple_800x600.webm'
-                },
-                '02': {
-                    white: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_02_Regular_White_800x600.webm',
-                    orange: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_02_Regular_Orange_800x600.webm',
-                    purple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_02_Regular_Purple_800x600.webm',
-                    dark_orangepurple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_02_Dark_OrangePurple_800x600.webm'
-                },
-                '03': {
-                    white: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_03_Regular_White_800x600.webm',
-                    orange: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_03_Regular_Orange_800x600.webm',
-                    purple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_03_Regular_Purple_800x600.webm',
-                    dark_orangepurple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_03_Dark_OrangePurple_800x600.webm'
-                },
-                '04': {
-                    white: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_04_Regular_White_800x600.webm',
-                    orange: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_04_Regular_Orange_800x600.webm',
-                    purple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_04_Regular_Purple_800x600.webm',
-                    dark_orangepurple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_04_Dark_OrangePurple_800x600.webm'
-                },
-                '05': {
-                    white: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_05_Regular_White_800x600.webm',
-                    orange: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_05_Regular_Orange_800x600.webm',
-                    purple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_05_Regular_Purple_800x600.webm',
-                    dark_orangepurple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_05_Dark_OrangePurple_800x600.webm'
-                },
-                '06': {
-                    white: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_06_Regular_White_800x600.webm',
-                    orange: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_06_Regular_Orange_800x600.webm',
-                    purple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_06_Regular_Purple_800x600.webm',
-                    dark_orangepurple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_06_Dark_OrangePurple_800x600.webm'
-                },
-                random_white: [
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_01_Regular_White_800x600.webm',
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_02_Regular_White_800x600.webm',
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_03_Regular_White_800x600.webm',
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_04_Regular_White_800x600.webm',
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_05_Regular_White_800x600.webm',
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_06_Regular_White_800x600.webm'
-                ],
-                random_orange: [
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_01_Regular_Orange_800x600.webm',
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_02_Regular_Orange_800x600.webm',
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_03_Regular_Orange_800x600.webm',
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_04_Regular_Orange_800x600.webm',
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_05_Regular_Orange_800x600.webm',
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_06_Regular_Orange_800x600.webm'
-                ],
-                random_purple: [
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_01_Regular_Purple_800x600.webm',
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_02_Regular_Purple_800x600.webm',
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_03_Regular_Purple_800x600.webm',
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_04_Regular_Purple_800x600.webm',
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_05_Regular_Purple_800x600.webm',
-                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_06_Regular_Purple_800x600.webm'
-                ],
-                random_dark_orangepurple: [
+                dark_orangepurple: [
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_01_Dark_OrangePurple_800x600.webm',
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_02_Dark_OrangePurple_800x600.webm',
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_03_Dark_OrangePurple_800x600.webm',
@@ -4237,6 +3997,30 @@ let data = {
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_05_Dark_OrangePurple_800x600.webm',
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_06_Dark_OrangePurple_800x600.webm'
                 ],
+                orange: [
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_01_Regular_Orange_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_02_Regular_Orange_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_03_Regular_Orange_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_04_Regular_Orange_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_05_Regular_Orange_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_06_Regular_Orange_800x600.webm'
+                ],
+                purple: [
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_01_Regular_Purple_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_02_Regular_Purple_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_03_Regular_Purple_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_04_Regular_Purple_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_05_Regular_Purple_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_06_Regular_Purple_800x600.webm'
+                ],
+                white: [
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_01_Regular_White_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_02_Regular_White_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_03_Regular_White_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_04_Regular_White_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_05_Regular_White_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Spear01_06_Regular_White_800x600.webm'
+                ]
             }
         },
         throw: {
@@ -4449,7 +4233,6 @@ let data = {
             skull_smoke: 'modules/jb2a_patreon/Library/Cantrip/Toll_The_Dead/TollTheDeadSkullSmoke_01_Regular_Red_400x400.webm'
         }
     },
-
     thunderwave: {
         bottom_left: {
             blue: 'modules/jb2a_patreon/Library/1st_Level/Thunderwave/Thunderwave_01_Bright_Blue_BLeft_600x600.webm',

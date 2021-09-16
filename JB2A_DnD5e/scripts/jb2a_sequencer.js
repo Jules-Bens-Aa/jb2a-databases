@@ -708,25 +708,7 @@ let data = {
         melee: {
             _template: 'melee',
             '01': {
-                '01': {
-                    white: 'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Halberd01_01_Regular_White_800x600.webm',
-                },
-                '02': {
-                    white: 'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Halberd01_02_Regular_White_800x600.webm',
-                },
-                '03': {
-                    white: 'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Halberd01_03_Regular_White_800x600.webm',
-                },
-                '04': {
-                    white: 'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Halberd01_04_Regular_White_800x600.webm',
-                },
-                '05': {
-                    white: 'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Halberd01_05_Regular_White_800x600.webm',
-                },
-                '06': {
-                    white: 'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Halberd01_06_Regular_White_800x600.webm',
-                },
-                random_white: [
+                white: [
                     'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Halberd01_01_Regular_White_800x600.webm',
                     'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Halberd01_02_Regular_White_800x600.webm',
                     'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Halberd01_03_Regular_White_800x600.webm',
@@ -1262,25 +1244,7 @@ let data = {
         melee: {
             _template: 'melee',
             '01': {
-                '01': {
-                    white: 'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/QuarterStaff01_01_Regular_White_800x600.webm',
-                },
-                '02': {
-                    white: 'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/QuarterStaff01_02_Regular_White_800x600.webm',
-                },
-                '03': {
-                    white: 'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/QuarterStaff01_03_Regular_White_800x600.webm',
-                },
-                '04': {
-                    white: 'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/QuarterStaff01_04_Regular_White_800x600.webm',
-                },
-                '05': {
-                    white: 'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/QuarterStaff01_05_Regular_White_800x600.webm',
-                },
-                '06': {
-                    white: 'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/QuarterStaff01_06_Regular_White_800x600.webm',
-                },
-                random_white: [
+                    white: [
                     'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/QuarterStaff01_01_Regular_White_800x600.webm',
                     'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/QuarterStaff01_02_Regular_White_800x600.webm',
                     'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/QuarterStaff01_03_Regular_White_800x600.webm',
@@ -1374,25 +1338,7 @@ let data = {
         melee: {
             _template: 'melee',
             '01': {
-                '01': {
-                    white: 'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Spear01_01_Regular_White_800x600.webm',
-                },
-                '02': {
-                    white: 'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Spear01_02_Regular_White_800x600.webm',
-                },
-                '03': {
-                    white: 'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Spear01_03_Regular_White_800x600.webm',
-                },
-                '04': {
-                    white: 'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Spear01_04_Regular_White_800x600.webm',
-                },
-                '05': {
-                    white: 'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Spear01_05_Regular_White_800x600.webm',
-                },
-                '06': {
-                    white: 'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Spear01_06_Regular_White_800x600.webm',
-                },
-                random_white: [
+                white: [
                     'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Spear01_01_Regular_White_800x600.webm',
                     'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Spear01_02_Regular_White_800x600.webm',
                     'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Spear01_03_Regular_White_800x600.webm',
