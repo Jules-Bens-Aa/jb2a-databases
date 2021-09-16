@@ -638,6 +638,27 @@ export const Effects = {
         "author": "JB2A"
       },
       {
+        "label": "DetectMagicCircle_01_Regular_Grey_1200x1200",
+        "file": "modules/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCircle_01_Regular_Grey_1200x1200.webm",
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0,
+          "y": 0
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
         "label": "DetectMagicCircle_01_Regular_Purple_1200x1200",
         "file": "modules/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCircle_01_Regular_Purple_1200x1200.webm",
         "scale": {
@@ -787,6 +808,69 @@ export const Effects = {
       {
         "label": "DetectMagicCone_01_Regular_Green_30ft_800x800",
         "file": "modules/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Regular_Green_30ft_800x800.webm",
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.125,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "DetectMagicCone_01_Regular_Grey_05ft_300x300",
+        "file": "modules/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Regular_Grey_05ft_300x300.webm",
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.33,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "DetectMagicCone_01_Regular_Grey_15ft_500x500",
+        "file": "modules/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Regular_Grey_15ft_500x500.webm",
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.25,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "DetectMagicCone_01_Regular_Grey_30ft_800x800",
+        "file": "modules/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Regular_Grey_30ft_800x800.webm",
         "scale": {
           "x": 1,
           "y": 1
@@ -2551,6 +2635,426 @@ export const Effects = {
       {
         "label": "Shield_03_Regular_Yellow_OutroFade_400x400",
         "file": "modules/jb2a_patreon/Library/1st_Level/Shield/Shield_03_Regular_Yellow_OutroFade_400x400.webm",
+        "scale": {
+          "x": 0.35,
+          "y": 0.35
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "Cloud01_01_Dark_OrangePurple_400x400",
+        "file": "modules/jb2a_patreon/Library/1st_Level/Sleep/Cloud01_01_Dark_OrangePurple_400x400.webm",
+        "scale": {
+          "x": 0.35,
+          "y": 0.35
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "Cloud01_01_Dark_Purple_400x400",
+        "file": "modules/jb2a_patreon/Library/1st_Level/Sleep/Cloud01_01_Dark_Purple_400x400.webm",
+        "scale": {
+          "x": 0.35,
+          "y": 0.35
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "Cloud01_01_Regular_Green_400x400",
+        "file": "modules/jb2a_patreon/Library/1st_Level/Sleep/Cloud01_01_Regular_Green_400x400.webm",
+        "scale": {
+          "x": 0.35,
+          "y": 0.35
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "Cloud01_01_Regular_Pink_400x400",
+        "file": "modules/jb2a_patreon/Library/1st_Level/Sleep/Cloud01_01_Regular_Pink_400x400.webm",
+        "scale": {
+          "x": 0.35,
+          "y": 0.35
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "Cloud01_02_Dark_OrangePurple_400x400",
+        "file": "modules/jb2a_patreon/Library/1st_Level/Sleep/Cloud01_02_Dark_OrangePurple_400x400.webm",
+        "scale": {
+          "x": 0.35,
+          "y": 0.35
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "Cloud01_02_Dark_Purple_400x400",
+        "file": "modules/jb2a_patreon/Library/1st_Level/Sleep/Cloud01_02_Dark_Purple_400x400.webm",
+        "scale": {
+          "x": 0.35,
+          "y": 0.35
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "Cloud01_02_Regular_Green_400x400",
+        "file": "modules/jb2a_patreon/Library/1st_Level/Sleep/Cloud01_02_Regular_Green_400x400.webm",
+        "scale": {
+          "x": 0.35,
+          "y": 0.35
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "Cloud01_02_Regular_Pink_400x400",
+        "file": "modules/jb2a_patreon/Library/1st_Level/Sleep/Cloud01_02_Regular_Pink_400x400.webm",
+        "scale": {
+          "x": 0.35,
+          "y": 0.35
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "SleepMarker01_01_Dark_OrangePurple_400x400",
+        "file": "modules/jb2a_patreon/Library/1st_Level/Sleep/SleepMarker01_01_Dark_OrangePurple_400x400.webm",
+        "scale": {
+          "x": 0.35,
+          "y": 0.35
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "SleepMarker01_01_Dark_Purple_400x400",
+        "file": "modules/jb2a_patreon/Library/1st_Level/Sleep/SleepMarker01_01_Dark_Purple_400x400.webm",
+        "scale": {
+          "x": 0.35,
+          "y": 0.35
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "SleepMarker01_01_Regular_Green_400x400",
+        "file": "modules/jb2a_patreon/Library/1st_Level/Sleep/SleepMarker01_01_Regular_Green_400x400.webm",
+        "scale": {
+          "x": 0.35,
+          "y": 0.35
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "SleepMarker01_01_Regular_Pink_400x400",
+        "file": "modules/jb2a_patreon/Library/1st_Level/Sleep/SleepMarker01_01_Regular_Pink_400x400.webm",
+        "scale": {
+          "x": 0.35,
+          "y": 0.35
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "SleepSymbol01_01_Dark_Green_400x400",
+        "file": "modules/jb2a_patreon/Library/1st_Level/Sleep/SleepSymbol01_01_Dark_Green_400x400.webm",
+        "scale": {
+          "x": 0.35,
+          "y": 0.35
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "SleepSymbol01_01_Dark_OrangePurple_400x400",
+        "file": "modules/jb2a_patreon/Library/1st_Level/Sleep/SleepSymbol01_01_Dark_OrangePurple_400x400.webm",
+        "scale": {
+          "x": 0.35,
+          "y": 0.35
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "SleepSymbol01_01_Dark_Pink_400x400",
+        "file": "modules/jb2a_patreon/Library/1st_Level/Sleep/SleepSymbol01_01_Dark_Pink_400x400.webm",
+        "scale": {
+          "x": 0.35,
+          "y": 0.35
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "SleepSymbol01_01_Dark_Purple_400x400",
+        "file": "modules/jb2a_patreon/Library/1st_Level/Sleep/SleepSymbol01_01_Dark_Purple_400x400.webm",
+        "scale": {
+          "x": 0.35,
+          "y": 0.35
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "SleepSymbol01_01_Regular_Green_400x400",
+        "file": "modules/jb2a_patreon/Library/1st_Level/Sleep/SleepSymbol01_01_Regular_Green_400x400.webm",
+        "scale": {
+          "x": 0.35,
+          "y": 0.35
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "SleepSymbol01_01_Regular_OrangePurple_400x400",
+        "file": "modules/jb2a_patreon/Library/1st_Level/Sleep/SleepSymbol01_01_Regular_OrangePurple_400x400.webm",
+        "scale": {
+          "x": 0.35,
+          "y": 0.35
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "SleepSymbol01_01_Regular_Pink_400x400",
+        "file": "modules/jb2a_patreon/Library/1st_Level/Sleep/SleepSymbol01_01_Regular_Pink_400x400.webm",
+        "scale": {
+          "x": 0.35,
+          "y": 0.35
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "SleepSymbol01_01_Regular_Purple_400x400",
+        "file": "modules/jb2a_patreon/Library/1st_Level/Sleep/SleepSymbol01_01_Regular_Purple_400x400.webm",
         "scale": {
           "x": 0.35,
           "y": 0.35
@@ -4513,6 +5017,27 @@ export const Effects = {
     label: "JB2A - Cantrip",
     effects: [
       {
+        "label": "TollTheDead_01_Regular_Blue_400x400",
+        "file": "modules/jb2a_patreon/Library/Cantrip/Toll_The_Dead/TollTheDead_01_Regular_Blue_400x400.webm",
+        "scale": {
+          "x": 0.32,
+          "y": 0.32
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
         "label": "TollTheDead_01_Regular_Green_400x400",
         "file": "modules/jb2a_patreon/Library/Cantrip/Toll_The_Dead/TollTheDead_01_Regular_Green_400x400.webm",
         "scale": {
@@ -4557,6 +5082,27 @@ export const Effects = {
       {
         "label": "TollTheDead_01_Regular_Red_400x400",
         "file": "modules/jb2a_patreon/Library/Cantrip/Toll_The_Dead/TollTheDead_01_Regular_Red_400x400.webm",
+        "scale": {
+          "x": 0.32,
+          "y": 0.32
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "TollTheDeadBell_01_Regular_Blue_400x400",
+        "file": "modules/jb2a_patreon/Library/Cantrip/Toll_The_Dead/TollTheDeadBell_01_Regular_Blue_400x400.webm",
         "scale": {
           "x": 0.32,
           "y": 0.32
@@ -4639,6 +5185,27 @@ export const Effects = {
         "author": "JB2A"
       },
       {
+        "label": "TollTheDeadShockwave_01_Regular_Blue_400x400",
+        "file": "modules/jb2a_patreon/Library/Cantrip/Toll_The_Dead/TollTheDeadShockwave_01_Regular_Blue_400x400.webm",
+        "scale": {
+          "x": 0.32,
+          "y": 0.32
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
         "label": "TollTheDeadShockwave_01_Regular_Green_400x400",
         "file": "modules/jb2a_patreon/Library/Cantrip/Toll_The_Dead/TollTheDeadShockwave_01_Regular_Green_400x400.webm",
         "scale": {
@@ -4683,6 +5250,27 @@ export const Effects = {
       {
         "label": "TollTheDeadShockwave_01_Regular_Red_400x400",
         "file": "modules/jb2a_patreon/Library/Cantrip/Toll_The_Dead/TollTheDeadShockwave_01_Regular_Red_400x400.webm",
+        "scale": {
+          "x": 0.32,
+          "y": 0.32
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "TollTheDeadSkullSmoke_01_Regular_Blue_400x400",
+        "file": "modules/jb2a_patreon/Library/Cantrip/Toll_The_Dead/TollTheDeadSkullSmoke_01_Regular_Blue_400x400.webm",
         "scale": {
           "x": 0.32,
           "y": 0.32
@@ -6447,7 +7035,343 @@ export const Effects = {
         "ease": "Linear",
         "preset": false,
         "author": "JB2A"
-      }
+      },
+      {
+        "label": "GroundCrackLoop_01_Regular_Blue_600x600",
+        "file": "modules/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_01_Regular_Blue_600x600.webm",
+        "scale": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "GroundCrackLoop_01_Regular_Green_600x600",
+        "file": "modules/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_01_Regular_Green_600x600.webm",
+        "scale": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "GroundCrackLoop_01_Regular_Orange_600x600",
+        "file": "modules/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_01_Regular_Orange_600x600.webm",
+        "scale": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "GroundCrackLoop_01_Regular_Purple_600x600",
+        "file": "modules/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_01_Regular_Purple_600x600.webm",
+        "scale": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "GroundCrackLoop_02_Regular_Blue_600x600",
+        "file": "modules/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_02_Regular_Blue_600x600.webm",
+        "scale": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "GroundCrackLoop_02_Regular_Green_600x600",
+        "file": "modules/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_02_Regular_Green_600x600.webm",
+        "scale": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "GroundCrackLoop_02_Regular_Orange_600x600",
+        "file": "modules/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_02_Regular_Orange_600x600.webm",
+        "scale": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "GroundCrackLoop_02_Regular_Purple_600x600",
+        "file": "modules/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_02_Regular_Purple_600x600.webm",
+        "scale": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "GroundCrackLoop_03_Regular_Blue_600x600",
+        "file": "modules/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_03_Regular_Blue_600x600.webm",
+        "scale": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "GroundCrackLoop_03_Regular_Green_600x600",
+        "file": "modules/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_03_Regular_Green_600x600.webm",
+        "scale": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "GroundCrackLoop_03_Regular_Orange_600x600",
+        "file": "modules/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_03_Regular_Orange_600x600.webm",
+        "scale": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "GroundCrackLoop_03_Regular_Purple_600x600",
+        "file": "modules/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_03_Regular_Purple_600x600.webm",
+        "scale": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "ScorchedEarth_01_Black_800x800",
+        "file": "modules/jb2a_patreon/Library/Generic/Fire/ScorchedEarth_01_Black_800x800.webm",
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "ScorchedEarth_01_Green_800x800",
+        "file": "modules/jb2a_patreon/Library/Generic/Fire/ScorchedEarth_01_Green_800x800.webm",
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "ScorchedEarth_01_Orange_800x800",
+        "file": "modules/jb2a_patreon/Library/Generic/Fire/ScorchedEarth_01_Orange_800x800.webm",
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "ScorchedEarth_01_Red_800x800",
+        "file": "modules/jb2a_patreon/Library/Generic/Fire/ScorchedEarth_01_Red_800x800.webm",
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
     ]
   },
   folder800: {
@@ -6459,6 +7383,198 @@ export const Effects = {
         "scale": {
           "x": 1,
           "y": 1
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "GroundCrackImpact_01_Regular_Blue_600x600",
+        "file": "modules/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_01_Regular_Blue_600x600.webm",
+        "scale": {
+          "x": .5,
+          "y": .5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "GroundCrackImpact_01_Regular_Green_600x600",
+        "file": "modules/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_01_Regular_Green_600x600.webm",
+        "scale": {
+          "x": .5,
+          "y": .5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "GroundCrackImpact_01_Regular_Orange_600x600",
+        "file": "modules/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_01_Regular_Orange_600x600.webm",
+        "scale": {
+          "x": .5,
+          "y": .5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "GroundCrackImpact_01_Regular_Purple_600x600",
+        "file": "modules/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_01_Regular_Purple_600x600.webm",
+        "scale": {
+          "x": .5,
+          "y": .5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "GroundCrackImpact_02_Regular_Blue_600x600",
+        "file": "modules/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_02_Regular_Blue_600x600.webm",
+        "scale": {
+          "x": .5,
+          "y": .5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "GroundCrackImpact_02_Regular_Green_600x600",
+        "file": "modules/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_02_Regular_Green_600x600.webm",
+        "scale": {
+          "x": .5,
+          "y": .5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "GroundCrackImpact_02_Regular_Orange_600x600",
+        "file": "modules/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_02_Regular_Orange_600x600.webm",
+        "scale": {
+          "x": .5,
+          "y": .5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "GroundCrackImpact_02_Regular_Purple_600x600",
+        "file": "modules/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_02_Regular_Purple_600x600.webm",
+        "scale": {
+          "x": .5,
+          "y": .5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "GroundCrackImpact_03_Regular_Blue_600x600",
+        "file": "modules/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_03_Regular_Blue_600x600.webm",
+        "scale": {
+          "x": .5,
+          "y": .5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "GroundCrackImpact_03_Regular_Green_600x600",
+        "file": "modules/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_03_Regular_Green_600x600.webm",
+        "scale": {
+          "x": .5,
+          "y": .5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "GroundCrackImpact_03_Regular_Orange_600x600",
+        "file": "modules/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_03_Regular_Orange_600x600.webm",
+        "scale": {
+          "x": .5,
+          "y": .5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "GroundCrackImpact_03_Regular_Purple_600x600",
+        "file": "modules/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_03_Regular_Purple_600x600.webm",
+        "scale": {
+          "x": .5,
+          "y": .5
         },
         "angle": 0,
         "anchor": {
