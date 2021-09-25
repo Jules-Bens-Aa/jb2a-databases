@@ -871,13 +871,13 @@ let data = {
             yellow: 'modules/jb2a_patreon/Library/3rd_Level/Call_Lightning/CallLightning_01_Yellow_1000x1000.webm'
         },
         high_res: {
-            blue: 'modules/jb2a_patreon/Library/3rd_Level/Call_Lightning/CallLightning_01_Blue_2400x2400.webm',
-            blueorange: 'modules/jb2a_patreon/Library/3rd_Level/Call_Lightning/CallLightning_01_BlueOrange_2400x2400.webm',
-            green: 'modules/jb2a_patreon/Library/3rd_Level/Call_Lightning/CallLightning_01_Green_2400x2400.webm',
-            pinkyellow: 'modules/jb2a_patreon/Library/3rd_Level/Call_Lightning/CallLightning_01_PinkYellow_2400x2400.webm',
-            purple: 'modules/jb2a_patreon/Library/3rd_Level/Call_Lightning/CallLightning_01_Purple_2400x2400.webm',
-            red: 'modules/jb2a_patreon/Library/3rd_Level/Call_Lightning/CallLightning_01_Red_2400x2400.webm',
-            yellow: 'modules/jb2a_patreon/Library/3rd_Level/Call_Lightning/CallLightning_01_Yellow_2400x2400.webm',
+            blue: 'modules/jb2a_patreon/Library/3rd_Level/High_Res/Call_Lightning/CallLightning_01_Blue_2400x2400.webm',
+            blueorange: 'modules/jb2a_patreon/Library/3rd_Level/High_Res/Call_Lightning/CallLightning_01_BlueOrange_2400x2400.webm',
+            green: 'modules/jb2a_patreon/Library/3rd_Level/High_Res/Call_Lightning/CallLightning_01_Green_2400x2400.webm',
+            pinkyellow: 'modules/jb2a_patreon/Library/3rd_Level/High_Res/Call_Lightning/CallLightning_01_PinkYellow_2400x2400.webm',
+            purple: 'modules/jb2a_patreon/Library/3rd_Level/High_Res/Call_Lightning/CallLightning_01_Purple_2400x2400.webm',
+            red: 'modules/jb2a_patreon/Library/3rd_Level/High_Res/Call_Lightning/CallLightning_01_Red_2400x2400.webm',
+            yellow: 'modules/jb2a_patreon/Library/3rd_Level/High_Res/Call_Lightning/CallLightning_01_Yellow_2400x2400.webm',
         }
     },
     campfire: {
@@ -3364,15 +3364,17 @@ let data = {
         }
     },
     maul: {
-        _template: 'melee',
-        blue: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Maul01_Fire_Regular_Blue_800x600.webm',
-        dark_purple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Maul01_Fire_Dark_Purple_800x600.webm',
-        green: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Maul01_Fire_Regular_Green_800x600.webm',
-        orange: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Maul01_Fire_Regular_Orange_800x600.webm',
-        pink: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Maul01_Fire_Regular_Pink_800x600.webm',
-        red: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Maul01_Fire_Regular_Red_800x600.webm',
-        white: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Maul01_01_Regular_White_800x600.webm',
-        yellow: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Maul01_Fire_Regular_Yellow_800x600.webm'
+        melee: {
+            _template: 'melee',
+            blue: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Maul01_Fire_Regular_Blue_800x600.webm',
+            dark_purple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Maul01_Fire_Dark_Purple_800x600.webm',
+            green: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Maul01_Fire_Regular_Green_800x600.webm',
+            orange: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Maul01_Fire_Regular_Orange_800x600.webm',
+            pink: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Maul01_Fire_Regular_Pink_800x600.webm',
+            red: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Maul01_Fire_Regular_Red_800x600.webm',
+            white: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Maul01_01_Regular_White_800x600.webm',
+            yellow: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Maul01_Fire_Regular_Yellow_800x600.webm'
+        },
     },
     melee_generic: {
         _template: "melee",
