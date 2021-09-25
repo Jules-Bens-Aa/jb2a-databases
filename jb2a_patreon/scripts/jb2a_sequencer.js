@@ -873,8 +873,6 @@ let data = {
         high_res: {
             blue: 'modules/jb2a_patreon/Library/3rd_Level/Call_Lightning/High_Res/CallLightning_01_Blue_2400x2400.webm',
             blueorange: 'modules/jb2a_patreon/Library/3rd_Level/Call_Lightning/High_Res/CallLightning_01_BlueOrange_2400x2400.webm',
-            green: 'modules/jb2a_patreon/Library/3rd_Level/Call_Lightning/High_Res/CallLightning_01_Green_2400x2400.webm',
-            pinkyellow: 'modules/jb2a_patreon/Library/3rd_Level/Call_Lightning/High_Res/CallLightning_01_PinkYellow_2400x2400.webm',
             purple: 'modules/jb2a_patreon/Library/3rd_Level/Call_Lightning/High_Res/CallLightning_01_Purple_2400x2400.webm',
             red: 'modules/jb2a_patreon/Library/3rd_Level/Call_Lightning/High_Res/CallLightning_01_Red_2400x2400.webm',
             yellow: 'modules/jb2a_patreon/Library/3rd_Level/Call_Lightning/High_Res/CallLightning_01_Yellow_2400x2400.webm',
