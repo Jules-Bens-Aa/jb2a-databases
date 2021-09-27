@@ -1986,6 +1986,26 @@ let data = {
         }
     },
     ground_cracks: {
+        blue: {
+            '01': 'modules/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_01_Regular_Blue_600x600.webm',
+            '02': 'modules/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_02_Regular_Blue_600x600.webm',
+            '03': 'modules/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_03_Regular_Blue_600x600.webm'
+        },
+        green: {
+            '01': 'modules/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_01_Regular_Green_600x600.webm',
+            '02': 'modules/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_02_Regular_Green_600x600.webm',
+            '03': 'modules/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_03_Regular_Green_600x600.webm'
+        },
+        orange: {
+            '01': 'modules/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_01_Regular_Orange_600x600.webm',
+            '02': 'modules/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_02_Regular_Orange_600x600.webm',
+            '03': 'modules/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_03_Regular_Orange_600x600.webm'
+        },
+        purple: {
+            '01': 'modules/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_01_Regular_Purple_600x600.webm',
+            '02': 'modules/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_02_Regular_Purple_600x600.webm',
+            '03': 'modules/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_03_Regular_Purple_600x600.webm'
+        },
         '01': {
             blue: 'modules/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_01_Regular_Blue_600x600.webm',
             green: 'modules/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_01_Regular_Green_600x600.webm',
@@ -2343,6 +2363,26 @@ let data = {
         ],
         boulder: 'modules/jb2a_patreon/Library/Generic/Impact/BoulderImpact_01_Regular_White_500x500.webm',
         ground_crack: {
+            blue: {
+                '01': 'modules/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_01_Regular_Blue_600x600.webm',
+                '02': 'modules/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_02_Regular_Blue_600x600.webm',
+                '03': 'modules/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_03_Regular_Blue_600x600.webm'
+            },
+            green: {
+                '01': 'modules/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_01_Regular_Green_600x600.webm',
+                '02': 'modules/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_02_Regular_Green_600x600.webm',
+                '03': 'modules/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_03_Regular_Green_600x600.webm',
+            },
+            orange: {
+                '01': 'modules/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_01_Regular_Orange_600x600.webm',
+                '02': 'modules/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_02_Regular_Orange_600x600.webm',
+                '03': 'modules/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_03_Regular_Orange_600x600.webm',
+            },
+            purple: {
+                '01': 'modules/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_01_Regular_Purple_600x600.webm',
+                '02': 'modules/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_02_Regular_Purple_600x600.webm',
+                '03': 'modules/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_03_Regular_Purple_600x600.webm'
+            },
             '01': {
                 blue: 'modules/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_01_Regular_Blue_600x600.webm',
                 green: 'modules/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_01_Regular_Green_600x600.webm',
