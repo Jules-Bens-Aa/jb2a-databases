@@ -948,11 +948,11 @@ let data = {
                 '90ft': 'modules/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Green_90ft_Secondary_4000x400.webm'
             },
             purple: {
-                '05ft': 'modules/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Purple_05ft_Primary_600x400.webm',
-                '15ft': 'modules/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Purple_15ft_Primary_1000x400.webm',
-                '30ft': 'modules/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Purple_30ft_Primary_1600x400.webm',
-                '60ft': 'modules/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Purple_60ft_Primary_2800x400.webm',
-                '90ft': 'modules/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Purple_90ft_Primary_4000x400.webm'
+                '05ft': 'modules/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Purple_05ft_Secondary_600x400.webm',
+                '15ft': 'modules/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Purple_15ft_Secondary_1000x400.webm',
+                '30ft': 'modules/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Purple_30ft_Secondary_1600x400.webm',
+                '60ft': 'modules/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Purple_60ft_Secondary_2800x400.webm',
+                '90ft': 'modules/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Purple_90ft_Secondary_4000x400.webm'
             }
         }
     },
