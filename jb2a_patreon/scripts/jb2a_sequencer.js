@@ -1323,6 +1323,48 @@ let data = {
         '03': 'modules/jb2a_patreon/Library/Generic/Lightning/ElectricArc03_01_Regular_Blue_1600x500.webm',
         '04': 'modules/jb2a_patreon/Library/Generic/Lightning/ElectricArc04_01_Regular_Blue_1600x500.webm'
     },
+    energy_strands: {
+        complete:{
+            blue: {
+                '01': 'modules/jb2a_patreon/Library/Generic/Marker/EnergyStrands_01_Regular_Blue_600x600.webm'
+            },
+            blueorange: {
+                '01': 'modules/jb2a_patreon/Library/Generic/Marker/EnergyStrands_01_Regular_BlueOrange_600x600.webm'
+            },
+            dark_red: {
+                '01': 'modules/jb2a_patreon/Library/Generic/Marker/EnergyStrands_01_Dark_Red_600x600.webm'
+            },
+            orange: {
+                '01': 'modules/jb2a_patreon/Library/Generic/Marker/EnergyStrands_01_Regular_Orange_600x600.webm'
+            },
+            pinkyellow: {
+                '01': 'modules/jb2a_patreon/Library/Generic/Marker/EnergyStrands_01_Regular_PinkYellow_600x600.webm'
+            },
+            purple: {
+                '01': 'modules/jb2a_patreon/Library/Generic/Marker/EnergyStrands_01_Regular_Purple_600x600.webm'
+            }
+        },
+        overlay:{
+            blue: {
+                '01': 'modules/jb2a_patreon/Library/Generic/Marker/EnergyStrandsOverlay_01_Regular_Blue_600x600.webm'
+            },
+            blueorange: {
+                '01': 'modules/jb2a_patreon/Library/Generic/Marker/EnergyStrandsOverlay_01_Regular_BlueOrange_600x600.webm'
+            },
+            dark_red: {
+                '01': 'modules/jb2a_patreon/Library/Generic/Marker/EnergyStrandsOverlay_01_Dark_Red_600x600.webm'
+            },
+            orange: {
+                '01': 'modules/jb2a_patreon/Library/Generic/Marker/EnergyStrandsOverlay_01_Regular_Orange_600x600.webm'
+            },
+            pinkyellow: {
+                '01': 'modules/jb2a_patreon/Library/Generic/Marker/EnergyStrandsOverlay_01_Regular_PinkYellow_600x600.webm'
+            },
+            purple: {
+                '01': 'modules/jb2a_patreon/Library/Generic/Marker/EnergyStrandsOverlay_01_Regular_Purple_600x600.webm'
+            }
+        },        
+    },
     entangle: {
         brown: 'modules/jb2a_patreon/Library/1st_Level/Entangle/Entangle_01_Brown_400x400.webm',
         dark_purple: 'modules/jb2a_patreon/Library/1st_Level/Entangle/Entangle_01_Dark_Purple_400x400.webm',
@@ -1947,7 +1989,7 @@ let data = {
         },
         '2': { 
             white: 'modules/jb2a_patreon/Library/1st_Level/Fog_Cloud/FogCloud_02_Regular_White_800x800.webm',
-            white: 'modules/jb2a_patreon/Library/1st_Level/Fog_Cloud/FogCloud_02_Regular_White_800x800.webm'
+            Green: 'modules/jb2a_patreon/Library/1st_Level/Fog_Cloud/FogCloud_02_Regular_Green_800x800.webm'
         }
     },
     footprints: {
@@ -3887,44 +3929,44 @@ let data = {
         },
         '01': {
             dark_orangepurple: [
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_01_Dark_OrangePurple_800x600.webm',
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_02_Dark_OrangePurple_800x600.webm',
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_03_Dark_OrangePurple_800x600.webm',
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_04_Dark_OrangePurple_800x600.webm',
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_05_Dark_OrangePurple_800x600.webm',
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_06_Dark_OrangePurple_800x600.webm'
+                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_01_Dark_OrangePurple_800x600.webm',
+                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_02_Dark_OrangePurple_800x600.webm',
+                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_03_Dark_OrangePurple_800x600.webm',
+                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_04_Dark_OrangePurple_800x600.webm',
+                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_05_Dark_OrangePurple_800x600.webm',
+                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_06_Dark_OrangePurple_800x600.webm'
             ],
             blue: [
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_01_Regular_Blue_800x600.webm',
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_02_Regular_Blue_800x600.webm',
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_03_Regular_Blue_800x600.webm',
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_04_Regular_Blue_800x600.webm',
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_05_Regular_Blue_800x600.webm',
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_06_Regular_Blue_800x600.webm'
+                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_01_Regular_Blue_800x600.webm',
+                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_02_Regular_Blue_800x600.webm',
+                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_03_Regular_Blue_800x600.webm',
+                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_04_Regular_Blue_800x600.webm',
+                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_05_Regular_Blue_800x600.webm',
+                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_06_Regular_Blue_800x600.webm'
             ],
             orange: [
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_01_Regular_Orange_800x600.webm',
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_02_Regular_Orange_800x600.webm',
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_03_Regular_Orange_800x600.webm',
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_04_Regular_Orange_800x600.webm',
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_05_Regular_Orange_800x600.webm',
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_06_Regular_Orange_800x600.webm'
+                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_01_Regular_Orange_800x600.webm',
+                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_02_Regular_Orange_800x600.webm',
+                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_03_Regular_Orange_800x600.webm',
+                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_04_Regular_Orange_800x600.webm',
+                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_05_Regular_Orange_800x600.webm',
+                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_06_Regular_Orange_800x600.webm'
             ],
             purple: [
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_01_Regular_Purple_800x600.webm',
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_02_Regular_Purple_800x600.webm',
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_03_Regular_Purple_800x600.webm',
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_04_Regular_Purple_800x600.webm',
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_05_Regular_Purple_800x600.webm',
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_06_Regular_Purple_800x600.webm'
+                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_01_Regular_Purple_800x600.webm',
+                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_02_Regular_Purple_800x600.webm',
+                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_03_Regular_Purple_800x600.webm',
+                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_04_Regular_Purple_800x600.webm',
+                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_05_Regular_Purple_800x600.webm',
+                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_06_Regular_Purple_800x600.webm'
             ],
             white: [
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_01_Regular_White_800x600.webm',
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_02_Regular_White_800x600.webm',
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_03_Regular_White_800x600.webm',
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_04_Regular_White_800x600.webm',
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_05_Regular_White_800x600.webm',
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_06_Regular_White_800x600.webm'
+                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_01_Regular_White_800x600.webm',
+                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_02_Regular_White_800x600.webm',
+                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_03_Regular_White_800x600.webm',
+                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_04_Regular_White_800x600.webm',
+                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_05_Regular_White_800x600.webm',
+                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_06_Regular_White_800x600.webm'
             ]
         }
     },
@@ -4527,7 +4569,7 @@ let data = {
                 orange: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Sword01_Fire_Regular_Orange_800x600.webm',
                 pink: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Sword01_Fire_Regular_Pink_800x600.webm',
                 purple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Sword01_Fire_Dark_Purple_800x600.webm',
-                red: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Sword01_Fire_Regular_Red_800x600.webm',
+                red: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Sword01_Fire_Regular_Red_800x600.webm',               
                 yellow: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Sword01_Fire_Regular_Yellow_800x600.webm'
             },
             '01': {
@@ -4618,6 +4660,40 @@ let data = {
                     purplepink: 'modules/jb2a_patreon/Library/Generic/Template/Circle/OutPulse/OutPulse_02_Regular_PurplePink_Loop_600x600.webm',
                     tealyellow: 'modules/jb2a_patreon/Library/Generic/Template/Circle/OutPulse/OutPulse_02_Regular_TealYellow_Loop_600x600.webm'
                 }
+            }
+        },
+        vortex: {
+            loop: {
+                blue: 'modules/jb2a_patreon/Library/Generic/Template/Circle/Vortex_01_Regular_Blue_600x600.webm',
+                green: 'modules/jb2a_patreon/Library/Generic/Template/Circle/Vortex_01_Regular_Green_600x600.webm',
+                purple: 'modules/jb2a_patreon/Library/Generic/Template/Circle/Vortex_01_Regular_Purple_600x600.webm'
+            },
+            intro: {
+                blue: 'modules/jb2a_patreon/Library/Generic/Template/Circle/VortexIntro_01_Regular_Blue_600x600.webm',
+                green: 'modules/jb2a_patreon/Library/Generic/Template/Circle/VortexIntro_01_Regular_Green_600x600.webm',
+                purple: 'modules/jb2a_patreon/Library/Generic/Template/Circle/VortexIntro_01_Regular_Purple_600x600.webm'
+            },
+            outro: {
+                blue: 'modules/jb2a_patreon/Library/Generic/Template/Circle/VortexOutro_01_Regular_Blue_600x600.webm',
+                green: 'modules/jb2a_patreon/Library/Generic/Template/Circle/VortexOutro_01_Regular_Green_600x600.webm',
+                purple: 'modules/jb2a_patreon/Library/Generic/Template/Circle/VortexOutro_01_Regular_Purple_600x600.webm'
+            }
+        },
+        whirl: {
+            loop: {
+                blue: 'modules/jb2a_patreon/Library/Generic/Template/Circle/Whirl_01_Regular_Blue_600x600.webm',
+                green: 'modules/jb2a_patreon/Library/Generic/Template/Circle/Whirl_01_Regular_Green_600x600.webm',
+                purple: 'modules/jb2a_patreon/Library/Generic/Template/Circle/Whirl_01_Regular_Purple_600x600.webm'
+            },
+            intro: {
+                blue: 'modules/jb2a_patreon/Library/Generic/Template/Circle/WhirlIntro_01_Regular_Blue_600x600.webm',
+                green: 'modules/jb2a_patreon/Library/Generic/Template/Circle/WhirlIntro_01_Regular_Green_600x600.webm',
+                purple: 'modules/jb2a_patreon/Library/Generic/Template/Circle/WhirlIntro_01_Regular_Purple_600x600.webm'
+            },
+            outro: {
+                blue: 'modules/jb2a_patreon/Library/Generic/Template/Circle/WhirlOutro_01_Regular_Blue_600x600.webm',
+                green: 'modules/jb2a_patreon/Library/Generic/Template/Circle/WhirlOutro_01_Regular_Green_600x600.webm',
+                purple: 'modules/jb2a_patreon/Library/Generic/Template/Circle/WhirlOutro_01_Regular_Purple_600x600.webm'
             }
         }
     },

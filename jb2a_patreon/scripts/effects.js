@@ -71,6 +71,27 @@ export const Effects = {
         "author": "JB2A"
       },
       {
+        "label": "BardicInspiration_01_Regular_Pink_400x400",
+        "file": "modules/jb2a_patreon/Library/1st_Level/Bardic_Inspiration/BardicInspiration_01_Regular_Pink_400x400.webm",
+        "scale": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
         "label": "BardicInspiration_01_Regular_PurplePink_400x400",
         "file": "modules/jb2a_patreon/Library/1st_Level/Bardic_Inspiration/BardicInspiration_01_Regular_PurplePink_400x400.webm",
         "scale": {
@@ -409,6 +430,216 @@ export const Effects = {
       {
         "label": "Bless_01_Regular_Yellow_Loop_400x400",
         "file": "modules/jb2a_patreon/Library/1st_Level/Bless/Bless_01_Regular_Yellow_Loop_400x400.webm",
+        "scale": {
+          "x": 0.7,
+          "y": 0.7
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "CureWounds_01_Blue_200x200",
+        "file": "modules/jb2a_patreon/Library/1st_Level/Cure_Wounds/CureWounds_01_Blue_200x200.webm",
+        "scale": {
+          "x": 0.7,
+          "y": 0.7
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "CureWounds_01_Blue_400x400",
+        "file": "modules/jb2a_patreon/Library/1st_Level/Cure_Wounds/CureWounds_01_Blue_400x400.webm",
+        "scale": {
+          "x": 0.7,
+          "y": 0.7
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "CureWounds_01_Green_200x200",
+        "file": "modules/jb2a_patreon/Library/1st_Level/Cure_Wounds/CureWounds_01_Green_200x200.webm",
+        "scale": {
+          "x": 0.7,
+          "y": 0.7
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "CureWounds_01_Green_400x400",
+        "file": "modules/jb2a_patreon/Library/1st_Level/Cure_Wounds/CureWounds_01_Green_400x400.webm",
+        "scale": {
+          "x": 0.7,
+          "y": 0.7
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "CureWounds_01_Pink_200x200",
+        "file": "modules/jb2a_patreon/Library/1st_Level/Cure_Wounds/CureWounds_01_Pink_200x200.webm",
+        "scale": {
+          "x": 0.7,
+          "y": 0.7
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "CureWounds_01_Pink_400x400",
+        "file": "modules/jb2a_patreon/Library/1st_Level/Cure_Wounds/CureWounds_01_Pink_400x400.webm",
+        "scale": {
+          "x": 0.7,
+          "y": 0.7
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "CureWounds_01_Purple_200x200",
+        "file": "modules/jb2a_patreon/Library/1st_Level/Cure_Wounds/CureWounds_01_Purple_200x200.webm",
+        "scale": {
+          "x": 0.7,
+          "y": 0.7
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "CureWounds_01_Purple_400x400",
+        "file": "modules/jb2a_patreon/Library/1st_Level/Cure_Wounds/CureWounds_01_Purple_400x400.webm",
+        "scale": {
+          "x": 0.7,
+          "y": 0.7
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "CureWounds_01_Red_200x200",
+        "file": "modules/jb2a_patreon/Library/1st_Level/Cure_Wounds/CureWounds_01_Red_200x200.webm",
+        "scale": {
+          "x": 0.7,
+          "y": 0.7
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "animationDelay": {
+          "start": 0,
+          "end": 0
+        },
+        "ease": "Linear",
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "CureWounds_01_Red_400x400",
+        "file": "modules/jb2a_patreon/Library/1st_Level/Cure_Wounds/CureWounds_01_Red_400x400.webm",
         "scale": {
           "x": 0.7,
           "y": 0.7
@@ -9010,6 +9241,331 @@ export const Effects = {
       },
     ]
   },
+  folder1000: {
+    label: "JB2A - Generic - Marker",
+    effects: [
+        {
+          "label": "EnergyStrands_01_Dark_Red_600x600",
+          "file": "modules/jb2a_patreon/Library/Generic/Marker/EnergyStrands_01_Dark_Red_600x600.webm",
+          "scale": {
+            "x": .5,
+            "y": .5
+          },
+          "angle": 0,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "speed": 0,
+          "preset": false,
+          "author": "JB2A"
+        },
+        {
+          "label": "EnergyStrands_01_Regular_Blue_600x600",
+          "file": "modules/jb2a_patreon/Library/Generic/Marker/EnergyStrands_01_Regular_Blue_600x600.webm",
+          "scale": {
+            "x": .5,
+            "y": .5
+          },
+          "angle": 0,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "speed": 0,
+          "preset": false,
+          "author": "JB2A"
+        },
+        {
+          "label": "EnergyStrands_01_Regular_BlueOrange_600x600",
+          "file": "modules/jb2a_patreon/Library/Generic/Marker/EnergyStrands_01_Regular_BlueOrange_600x600.webm",
+          "scale": {
+            "x": .5,
+            "y": .5
+          },
+          "angle": 0,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "speed": 0,
+          "preset": false,
+          "author": "JB2A"
+        },
+        {
+          "label": "EnergyStrands_01_Regular_Orange_600x600",
+          "file": "modules/jb2a_patreon/Library/Generic/Marker/EnergyStrands_01_Regular_Orange_600x600.webm",
+          "scale": {
+            "x": .5,
+            "y": .5
+          },
+          "angle": 0,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "speed": 0,
+          "preset": false,
+          "author": "JB2A"
+        },
+        {
+          "label": "EnergyStrands_01_Regular_PinkYellow_600x600",
+          "file": "modules/jb2a_patreon/Library/Generic/Marker/EnergyStrands_01_Regular_PinkYellow_600x600.webm",
+          "scale": {
+            "x": .5,
+            "y": .5
+          },
+          "angle": 0,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "speed": 0,
+          "preset": false,
+          "author": "JB2A"
+        },
+        {
+          "label": "EnergyStrands_01_Regular_Purple_600x600",
+          "file": "modules/jb2a_patreon/Library/Generic/Marker/EnergyStrands_01_Regular_Purple_600x600.webm",
+          "scale": {
+            "x": .5,
+            "y": .5
+          },
+          "angle": 0,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "speed": 0,
+          "preset": false,
+          "author": "JB2A"
+        },
+        {
+          "label": "Marker_01_Dark_BlueWhite_400x400",
+          "file": "modules/jb2a_patreon/Library/Generic/Marker/Marker_01_Dark_BlueWhite_400x400.webm",
+          "scale": {
+            "x": .5,
+            "y": .5
+          },
+          "angle": 0,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "speed": 0,
+          "preset": false,
+          "author": "JB2A"
+        },
+        {
+          "label": "Marker_01_Regular_BlueYellow_400x400",
+          "file": "modules/jb2a_patreon/Library/Generic/Marker/Marker_01_Regular_BlueYellow_400x400.webm",
+          "scale": {
+            "x": .5,
+            "y": .5
+          },
+          "angle": 0,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "speed": 0,
+          "preset": false,
+          "author": "JB2A"
+        },
+        {
+          "label": "Marker_01_Regular_GreenOrange_400x400",
+          "file": "modules/jb2a_patreon/Library/Generic/Marker/Marker_01_Regular_GreenOrange_400x400.webm",
+          "scale": {
+            "x": .5,
+            "y": .5
+          },
+          "angle": 0,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "speed": 0,
+          "preset": false,
+          "author": "JB2A"
+        },
+        {
+          "label": "Marker_01_Regular_Pink_400x400",
+          "file": "modules/jb2a_patreon/Library/Generic/Marker/Marker_01_Regular_Pink_400x400.webm",
+          "scale": {
+            "x": .5,
+            "y": .5
+          },
+          "angle": 0,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "speed": 0,
+          "preset": false,
+          "author": "JB2A"
+        },
+        {
+          "label": "Marker_01_Regular_PurplePink_400x400",
+          "file": "modules/jb2a_patreon/Library/Generic/Marker/Marker_01_Regular_PurplePink_400x400.webm",
+          "scale": {
+            "x": .5,
+            "y": .5
+          },
+          "angle": 0,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "speed": 0,
+          "preset": false,
+          "author": "JB2A"
+        },
+        {
+          "label": "Marker_02_Dark_BlueWhite_400x400",
+          "file": "modules/jb2a_patreon/Library/Generic/Marker/Marker_02_Dark_BlueWhite_400x400.webm",
+          "scale": {
+            "x": .5,
+            "y": .5
+          },
+          "angle": 0,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "speed": 0,
+          "preset": false,
+          "author": "JB2A"
+        },
+        {
+          "label": "Marker_02_Regular_BlueYellow_400x400",
+          "file": "modules/jb2a_patreon/Library/Generic/Marker/Marker_02_Regular_BlueYellow_400x400.webm",
+          "scale": {
+            "x": .5,
+            "y": .5
+          },
+          "angle": 0,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "speed": 0,
+          "preset": false,
+          "author": "JB2A"
+        },
+        {
+          "label": "Marker_02_Regular_GreenOrange_400x400",
+          "file": "modules/jb2a_patreon/Library/Generic/Marker/Marker_02_Regular_GreenOrange_400x400.webm",
+          "scale": {
+            "x": .5,
+            "y": .5
+          },
+          "angle": 0,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "speed": 0,
+          "preset": false,
+          "author": "JB2A"
+        },
+        {
+          "label": "Marker_02_Regular_Pink_400x400",
+          "file": "modules/jb2a_patreon/Library/Generic/Marker/Marker_02_Regular_Pink_400x400.webm",
+          "scale": {
+            "x": .5,
+            "y": .5
+          },
+          "angle": 0,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "speed": 0,
+          "preset": false,
+          "author": "JB2A"
+        },
+        {
+          "label": "Marker_02_Regular_PurplePink_400x400",
+          "file": "modules/jb2a_patreon/Library/Generic/Marker/Marker_02_Regular_PurplePink_400x400.webm",
+          "scale": {
+            "x": .5,
+            "y": .5
+          },
+          "angle": 0,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "speed": 0,
+          "preset": false,
+          "author": "JB2A"
+        },
+        {
+          "label": "MusicMarker_01_Regular_BlueYellow_400x400",
+          "file": "modules/jb2a_patreon/Library/Generic/Marker/MusicMarker_01_Regular_BlueYellow_400x400.webm",
+          "scale": {
+            "x": .5,
+            "y": .5
+          },
+          "angle": 0,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "speed": 0,
+          "preset": false,
+          "author": "JB2A"
+        },
+        {
+          "label": "MusicMarker_01_Regular_GreenOrange_400x400",
+          "file": "modules/jb2a_patreon/Library/Generic/Marker/MusicMarker_01_Regular_GreenOrange_400x400.webm",
+          "scale": {
+            "x": .5,
+            "y": .5
+          },
+          "angle": 0,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "speed": 0,
+          "preset": false,
+          "author": "JB2A"
+        },
+        {
+          "label": "MusicMarker_01_Regular_Pink_400x400",
+          "file": "modules/jb2a_patreon/Library/Generic/Marker/MusicMarker_01_Regular_Pink_400x400.webm",
+          "scale": {
+            "x": .5,
+            "y": .5
+          },
+          "angle": 0,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "speed": 0,
+          "preset": false,
+          "author": "JB2A"
+        },
+        {
+          "label": "MusicMarker_01_Regular_PurplePink_400x400",
+          "file": "modules/jb2a_patreon/Library/Generic/Marker/MusicMarker_01_Regular_PurplePink_400x400.webm",
+          "scale": {
+            "x": .5,
+            "y": .5
+          },
+          "angle": 0,
+          "anchor": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "speed": 0,
+          "preset": false,
+          "author": "JB2A"
+        },
+    ]
+  },
   folder1100: {
     label: "JB2A - Generic - Template Circle",
     effects: [
@@ -9096,6 +9652,102 @@ export const Effects = {
       {
         "label": "OutPulse_01_Regular_TealYellow_Burst_600x600",
         "file": "modules/jb2a_patreon/Library/Generic/Template/Circle/OutPulse/OutPulse_01_Regular_TealYellow_Burst_600x600.webm",
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "Vortex_01_Regular_Blue_600x600",
+        "file": "modules/jb2a_patreon/Library/Generic/Template/Circle/Vortex_01_Regular_Blue_600x600.webm",
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "Vortex_01_Regular_Green_600x600",
+        "file": "modules/jb2a_patreon/Library/Generic/Template/Circle/Vortex_01_Regular_Green_600x600.webm",
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "Vortex_01_Regular_Purple_600x600",
+        "file": "modules/jb2a_patreon/Library/Generic/Template/Circle/Vortex_01_Regular_Purple_600x600.webm",
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "Whirl_01_Regular_Blue_600x600",
+        "file": "modules/jb2a_patreon/Library/Generic/Template/Circle/Whirl_01_Regular_Blue_600x600.webm",
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "Whirl_01_Regular_Green_600x600",
+        "file": "modules/jb2a_patreon/Library/Generic/Template/Circle/Whirl_01_Regular_Green_600x600.webm",
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "angle": 0,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "speed": 0,
+        "preset": false,
+        "author": "JB2A"
+      },
+      {
+        "label": "Whirl_01_Regular_Purple_600x600",
+        "file": "modules/jb2a_patreon/Library/Generic/Template/Circle/Whirl_01_Regular_Purple_600x600.webm",
         "scale": {
           "x": 1,
           "y": 1
