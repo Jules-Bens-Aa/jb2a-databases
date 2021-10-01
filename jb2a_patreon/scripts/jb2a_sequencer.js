@@ -2622,8 +2622,8 @@ let data = {
             'modules/jb2a_patreon/Library/Generic/Impact/Impact_08_Regular_Green_400x400.webm',
             'modules/jb2a_patreon/Library/Generic/Impact/Impact_09_Regular_Green_400x400.webm',
             'modules/jb2a_patreon/Library/Generic/Impact/Impact_10_Regular_Green_400x400.webm',
-            'modules/jb2a_patreon/Library/Generic/Impact/Impact_11_Regular_Blue_400x400.webm',
-            'modules/jb2a_patreon/Library/Generic/Impact/Impact_12_Regular_Blue_400x400.webm',
+            'modules/jb2a_patreon/Library/Generic/Impact/Impact_11_Regular_Green_400x400.webm',
+            'modules/jb2a_patreon/Library/Generic/Impact/Impact_12_Regular_Green_400x400.webm',
             'modules/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_01_Regular_Green_600x600.webm',
             'modules/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_02_Regular_Green_600x600.webm',
             'modules/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_03_Regular_Green_600x600.webm'
@@ -2640,8 +2640,8 @@ let data = {
         ],
         purple: [
             'modules/jb2a_patreon/Library/Generic/Impact/Impact_05_Regular_Purple_400x400.webm',
-            'modules/jb2a_patreon/Library/Generic/Impact/Impact_11_Regular_Blue_400x400.webm',
-            'modules/jb2a_patreon/Library/Generic/Impact/Impact_12_Regular_Blue_400x400.webm',
+            'modules/jb2a_patreon/Library/Generic/Impact/Impact_11_Regular_Purple_400x400.webm',
+            'modules/jb2a_patreon/Library/Generic/Impact/Impact_12_Regular_Purple_400x400.webm',
             'modules/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_01_Regular_Purple_600x600.webm',
             'modules/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_02_Regular_Purple_600x600.webm',
             'modules/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_03_Regular_Purple_600x600.webm'
