@@ -3918,6 +3918,15 @@ let data = {
     },
     rapier: {
         _template: 'melee',
+        fire: {
+            blue: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_Fire_Regular_Blue_800x600.webm',
+            green: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_Fire_Regular_Green_800x600.webm',
+            orange: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_Fire_Regular_Orange_800x600.webm',
+            pink: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_Fire_Regular_Pink_800x600.webm',
+            purple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_Fire_Dark_Purple_800x600.webm',
+            red: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_Fire_Regular_Red_800x600.webm',               
+            yellow: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_Fire_Regular_Yellow_800x600.webm'
+        },
         '01': {
             dark_orangepurple: [
                 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_01_Dark_OrangePurple_800x600.webm',
