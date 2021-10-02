@@ -3917,57 +3917,59 @@ let data = {
         }
     },
     rapier: {
-        _template: 'melee',
-        fire: {
-            blue: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_Fire_Regular_Blue_800x600.webm',
-            green: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_Fire_Regular_Green_800x600.webm',
-            orange: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_Fire_Regular_Orange_800x600.webm',
-            pink: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_Fire_Regular_Pink_800x600.webm',
-            purple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_Fire_Dark_Purple_800x600.webm',
-            red: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_Fire_Regular_Red_800x600.webm',               
-            yellow: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_Fire_Regular_Yellow_800x600.webm'
-        },
-        '01': {
-            dark_orangepurple: [
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_01_Dark_OrangePurple_800x600.webm',
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_02_Dark_OrangePurple_800x600.webm',
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_03_Dark_OrangePurple_800x600.webm',
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_04_Dark_OrangePurple_800x600.webm',
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_05_Dark_OrangePurple_800x600.webm',
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_06_Dark_OrangePurple_800x600.webm'
-            ],
-            blue: [
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_01_Regular_Blue_800x600.webm',
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_02_Regular_Blue_800x600.webm',
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_03_Regular_Blue_800x600.webm',
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_04_Regular_Blue_800x600.webm',
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_05_Regular_Blue_800x600.webm',
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_06_Regular_Blue_800x600.webm'
-            ],
-            orange: [
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_01_Regular_Orange_800x600.webm',
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_02_Regular_Orange_800x600.webm',
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_03_Regular_Orange_800x600.webm',
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_04_Regular_Orange_800x600.webm',
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_05_Regular_Orange_800x600.webm',
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_06_Regular_Orange_800x600.webm'
-            ],
-            purple: [
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_01_Regular_Purple_800x600.webm',
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_02_Regular_Purple_800x600.webm',
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_03_Regular_Purple_800x600.webm',
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_04_Regular_Purple_800x600.webm',
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_05_Regular_Purple_800x600.webm',
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_06_Regular_Purple_800x600.webm'
-            ],
-            white: [
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_01_Regular_White_800x600.webm',
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_02_Regular_White_800x600.webm',
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_03_Regular_White_800x600.webm',
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_04_Regular_White_800x600.webm',
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_05_Regular_White_800x600.webm',
-                'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_06_Regular_White_800x600.webm'
-            ]
+        melee: {
+            _template: 'melee',
+            fire: {
+                blue: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_Fire_Regular_Blue_800x600.webm',
+                green: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_Fire_Regular_Green_800x600.webm',
+                orange: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_Fire_Regular_Orange_800x600.webm',
+                pink: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_Fire_Regular_Pink_800x600.webm',
+                purple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_Fire_Dark_Purple_800x600.webm',
+                red: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_Fire_Regular_Red_800x600.webm',
+                yellow: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_Fire_Regular_Yellow_800x600.webm'
+            },
+            '01': {
+                dark_orangepurple: [
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_01_Dark_OrangePurple_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_02_Dark_OrangePurple_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_03_Dark_OrangePurple_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_04_Dark_OrangePurple_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_05_Dark_OrangePurple_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_06_Dark_OrangePurple_800x600.webm'
+                ],
+                blue: [
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_01_Regular_Blue_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_02_Regular_Blue_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_03_Regular_Blue_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_04_Regular_Blue_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_05_Regular_Blue_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_06_Regular_Blue_800x600.webm'
+                ],
+                orange: [
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_01_Regular_Orange_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_02_Regular_Orange_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_03_Regular_Orange_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_04_Regular_Orange_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_05_Regular_Orange_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_06_Regular_Orange_800x600.webm'
+                ],
+                purple: [
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_01_Regular_Purple_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_02_Regular_Purple_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_03_Regular_Purple_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_04_Regular_Purple_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_05_Regular_Purple_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_06_Regular_Purple_800x600.webm'
+                ],
+                white: [
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_01_Regular_White_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_02_Regular_White_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_03_Regular_White_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_04_Regular_White_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_05_Regular_White_800x600.webm',
+                    'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Rapier01_06_Regular_White_800x600.webm'
+                ]
+            }
         }
     },
     ray_of_frost: {
