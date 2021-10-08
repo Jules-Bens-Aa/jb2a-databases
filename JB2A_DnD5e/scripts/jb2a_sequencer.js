@@ -1305,16 +1305,18 @@ let data = {
         }
     },
     rapier: {
-        _template: 'melee',
-        '01': {
-            white: [
-                'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Rapier01_01_Regular_White_800x600.webm',
-                'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Rapier01_02_Regular_White_800x600.webm',
-                'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Rapier01_03_Regular_White_800x600.webm',
-                'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Rapier01_04_Regular_White_800x600.webm',
-                'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Rapier01_05_Regular_White_800x600.webm',
-                'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Rapier01_06_Regular_White_800x600.webm'
-            ]
+        melee: {
+            _template: 'melee',
+            '01': {
+                white: [
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Rapier01_01_Regular_White_800x600.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Rapier01_02_Regular_White_800x600.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Rapier01_03_Regular_White_800x600.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Rapier01_04_Regular_White_800x600.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Rapier01_05_Regular_White_800x600.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Rapier01_06_Regular_White_800x600.webm'
+                ]
+            }
         }
     },
     ray_of_frost: {
