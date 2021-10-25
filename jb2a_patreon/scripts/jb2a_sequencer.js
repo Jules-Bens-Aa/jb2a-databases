@@ -1756,24 +1756,24 @@ let data = {
             runes: {
                 circle: {
                     inpulse: {
-                        abjuration: 'modules/jb2a_patreon/Library/TMFX/Runes/Circle/AbjurationInpulse_01_Circle_Normal_500.webm',
-                        conjuration: 'modules/jb2a_patreon/Library/TMFX/Runes/Circle/ConjurationInpulse_01_Circle_Normal_500.webm',
-                        divination: 'modules/jb2a_patreon/Library/TMFX/Runes/Circle/DivinationInpulse_01_Circle_Normal_500.webm',
-                        enchantment: 'modules/jb2a_patreon/Library/TMFX/Runes/Circle/EnchantmentInpulse_01_Circle_Normal_500.webm',
-                        evocation: 'modules/jb2a_patreon/Library/TMFX/Runes/Circle/EvocationInpulse_01_Circle_Normal_500.webm',
-                        illusion: 'modules/jb2a_patreon/Library/TMFX/Runes/Circle/IllusionInpulse_01_Circle_Normal_500.webm',
-                        necromancy: 'modules/jb2a_patreon/Library/TMFX/Runes/Circle/NecromancyInpulse_01_Circle_Normal_500.webm',
-                        tramnsmutation: 'modules/jb2a_patreon/Library/TMFX/Runes/Circle/TransmutationInpulse_01_Circle_Normal_500.webm'
+                        abjuration: 'modules/jb2a_patreon/Library/TMFX/Runes/Circle/AbjurationInPulse_01_Circle_Normal_500.webm',
+                        conjuration: 'modules/jb2a_patreon/Library/TMFX/Runes/Circle/ConjurationInPulse_01_Circle_Normal_500.webm',
+                        divination: 'modules/jb2a_patreon/Library/TMFX/Runes/Circle/DivinationInPulse_01_Circle_Normal_500.webm',
+                        enchantment: 'modules/jb2a_patreon/Library/TMFX/Runes/Circle/EnchantmentInPulse_01_Circle_Normal_500.webm',
+                        evocation: 'modules/jb2a_patreon/Library/TMFX/Runes/Circle/EvocationInPulse_01_Circle_Normal_500.webm',
+                        illusion: 'modules/jb2a_patreon/Library/TMFX/Runes/Circle/IllusionInPulse_01_Circle_Normal_500.webm',
+                        necromancy: 'modules/jb2a_patreon/Library/TMFX/Runes/Circle/NecromancyInPulse_01_Circle_Normal_500.webm',
+                        tramnsmutation: 'modules/jb2a_patreon/Library/TMFX/Runes/Circle/TransmutationInPulse_01_Circle_Normal_500.webm'
                     },
                     outpulse: {
-                        abjuration: 'modules/jb2a_patreon/Library/TMFX/Runes/Circle/AbjurationOutpulse_01_Circle_Normal_500.webm',
-                        conjuration: 'modules/jb2a_patreon/Library/TMFX/Runes/Circle/ConjurationOutpulse_01_Circle_Normal_500.webm',
-                        divination: 'modules/jb2a_patreon/Library/TMFX/Runes/Circle/DivinationOutpulse_01_Circle_Normal_500.webm',
-                        enchantment: 'modules/jb2a_patreon/Library/TMFX/Runes/Circle/EnchantmentOutpulse_01_Circle_Normal_500.webm',
-                        evocation: 'modules/jb2a_patreon/Library/TMFX/Runes/Circle/EvocationOutpulse_01_Circle_Normal_500.webm',
-                        illusion: 'modules/jb2a_patreon/Library/TMFX/Runes/Circle/IllusionOutpulse_01_Circle_Normal_500.webm',
-                        necromancy: 'modules/jb2a_patreon/Library/TMFX/Runes/Circle/NecromancyOutpulse_01_Circle_Normal_500.webm',
-                        tramnsmutation: 'modules/jb2a_patreon/Library/TMFX/Runes/Circle/TransmutationOutpulse_01_Circle_Normal_500.webm'
+                        abjuration: 'modules/jb2a_patreon/Library/TMFX/Runes/Circle/AbjurationOutPulse_01_Circle_Normal_500.webm',
+                        conjuration: 'modules/jb2a_patreon/Library/TMFX/Runes/Circle/ConjurationOutPulse_01_Circle_Normal_500.webm',
+                        divination: 'modules/jb2a_patreon/Library/TMFX/Runes/Circle/DivinationOutPulse_01_Circle_Normal_500.webm',
+                        enchantment: 'modules/jb2a_patreon/Library/TMFX/Runes/Circle/EnchantmentOutPulse_01_Circle_Normal_500.webm',
+                        evocation: 'modules/jb2a_patreon/Library/TMFX/Runes/Circle/EvocationOutPulse_01_Circle_Normal_500.webm',
+                        illusion: 'modules/jb2a_patreon/Library/TMFX/Runes/Circle/IllusionOutPulse_01_Circle_Normal_500.webm',
+                        necromancy: 'modules/jb2a_patreon/Library/TMFX/Runes/Circle/NecromancyOutPulse_01_Circle_Normal_500.webm',
+                        tramnsmutation: 'modules/jb2a_patreon/Library/TMFX/Runes/Circle/TransmutationOutPulse_01_Circle_Normal_500.webm'
                     },
                     simple: {
                         abjuration: 'modules/jb2a_patreon/Library/TMFX/Runes/Circle/AbjurationSimple_01_Circle_Normal_500.webm',
