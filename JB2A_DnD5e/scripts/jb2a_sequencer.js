@@ -597,7 +597,7 @@ let freeDatabase = {
                         evocation: "modules/JB2A_DnD5e/Library/TMFX/Runes/Circle/EvocationSimple_01_Circle_Normal_500.webm",
                         illusion: "modules/JB2A_DnD5e/Library/TMFX/Runes/Circle/IllusionSimple_01_Circle_Normal_500.webm",
                         necromancy: "modules/JB2A_DnD5e/Library/TMFX/Runes/Circle/NecromancySimple_01_Circle_Normal_500.webm",
-                        tramnsmutation: "modules/JB2A_DnD5e/Library/TMFX/Runes/Circle/TransmutationSimple_01_Circle_Normal_500.webm"
+                        transmutation: "modules/JB2A_DnD5e/Library/TMFX/Runes/Circle/TransmutationSimple_01_Circle_Normal_500.webm"
                     }
                 }
             }

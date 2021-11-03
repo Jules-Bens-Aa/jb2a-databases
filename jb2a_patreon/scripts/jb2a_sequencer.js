@@ -1939,7 +1939,7 @@ let patreonDatabase = {
                         evocation: 'modules/jb2a_patreon/Library/TMFX/Runes/Circle/EvocationInPulse_01_Circle_Normal_500.webm',
                         illusion: 'modules/jb2a_patreon/Library/TMFX/Runes/Circle/IllusionInPulse_01_Circle_Normal_500.webm',
                         necromancy: 'modules/jb2a_patreon/Library/TMFX/Runes/Circle/NecromancyInPulse_01_Circle_Normal_500.webm',
-                        tramnsmutation: 'modules/jb2a_patreon/Library/TMFX/Runes/Circle/TransmutationInPulse_01_Circle_Normal_500.webm'
+                        transmutation: 'modules/jb2a_patreon/Library/TMFX/Runes/Circle/TransmutationInPulse_01_Circle_Normal_500.webm'
                     },
                     outpulse: {
                         abjuration: 'modules/jb2a_patreon/Library/TMFX/Runes/Circle/AbjurationOutPulse_01_Circle_Normal_500.webm',
@@ -1949,7 +1949,7 @@ let patreonDatabase = {
                         evocation: 'modules/jb2a_patreon/Library/TMFX/Runes/Circle/EvocationOutPulse_01_Circle_Normal_500.webm',
                         illusion: 'modules/jb2a_patreon/Library/TMFX/Runes/Circle/IllusionOutPulse_01_Circle_Normal_500.webm',
                         necromancy: 'modules/jb2a_patreon/Library/TMFX/Runes/Circle/NecromancyOutPulse_01_Circle_Normal_500.webm',
-                        tramnsmutation: 'modules/jb2a_patreon/Library/TMFX/Runes/Circle/TransmutationOutPulse_01_Circle_Normal_500.webm'
+                        transmutation: 'modules/jb2a_patreon/Library/TMFX/Runes/Circle/TransmutationOutPulse_01_Circle_Normal_500.webm'
                     },
                     simple: {
                         abjuration: 'modules/jb2a_patreon/Library/TMFX/Runes/Circle/AbjurationSimple_01_Circle_Normal_500.webm',
@@ -1959,7 +1959,7 @@ let patreonDatabase = {
                         evocation: 'modules/jb2a_patreon/Library/TMFX/Runes/Circle/EvocationSimple_01_Circle_Normal_500.webm',
                         illusion: 'modules/jb2a_patreon/Library/TMFX/Runes/Circle/IllusionSimple_01_Circle_Normal_500.webm',
                         necromancy: 'modules/jb2a_patreon/Library/TMFX/Runes/Circle/NecromancySimple_01_Circle_Normal_500.webm',
-                        tramnsmutation: 'modules/jb2a_patreon/Library/TMFX/Runes/Circle/TransmutationSimple_01_Circle_Normal_500.webm'
+                        transmutation: 'modules/jb2a_patreon/Library/TMFX/Runes/Circle/TransmutationSimple_01_Circle_Normal_500.webm'
                     }
                 }
             }
