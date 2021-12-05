@@ -1123,6 +1123,17 @@ let patreonDatabase = {
     dagger: {
         melee: {
             _template: 'melee',
+            fire: {
+                dark_purple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Dagger02_Fire_Dark_Purple_800x600.webm',
+                blue: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Dagger02_Fire_Regular_Blue_800x600.webm',
+                green: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Dagger02_Fire_Regular_Green_800x600.webm',
+                orange: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Dagger02_Fire_Regular_Orange_800x600.webm',
+                pink: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Dagger02_Fire_Regular_Pink_800x600.webm',
+                red: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Dagger02_Fire_Regular_Red_800x600.webm',
+                white: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Dagger02_01_Regular_White_800x600.webm',
+                yellow: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Dagger02_Fire_Regular_Yellow_800x600.webm'
+            }, 
+            //TO BE REMOVED           
             '02': {
                 blue: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Dagger02_Fire_Regular_Blue_800x600.webm',
                 dark_purple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Dagger02_Fire_Dark_Purple_800x600.webm',
@@ -1130,9 +1141,10 @@ let patreonDatabase = {
                 orange: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Dagger02_Fire_Regular_Orange_800x600.webm',
                 pink: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Dagger02_Fire_Regular_Pink_800x600.webm',
                 red: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Dagger02_Fire_Regular_Red_800x600.webm',
-                white: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Dagger02_01_Regular_White_800x600.webm',
+                white: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Dagger02_01_Regular_White_800x600.webm',//LEGACY
                 yellow: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Dagger02_Fire_Regular_Yellow_800x600.webm'
             }
+            //TO BE REMOVED
         },
         return: {
             _template: 'ranged',
@@ -1528,6 +1540,7 @@ let patreonDatabase = {
             green: 'modules/jb2a_patreon/Library/Generic/Energy/EnergyField_01_Regular_Green_600x600.webm',
             purple: 'modules/jb2a_patreon/Library/Generic/Energy/EnergyField_01_Regular_Rainbow_600x600.webm'
         },
+//TO BE REMOVED [-->
         '02': {
             bot: {
                 blue: 'modules/jb2a_patreon/Library/Generic/Energy/EnergyFieldBot_02_Regular_Blue_400x400.webm',
@@ -1535,6 +1548,17 @@ let patreonDatabase = {
                 purple: 'modules/jb2a_patreon/Library/Generic/Energy/EnergyFieldBot_02_Regular_Purple_400x400.webm'
             },
             top: {
+                blue: 'modules/jb2a_patreon/Library/Generic/Energy/EnergyFieldTop_02_Regular_Blue_400x400.webm',
+                green: 'modules/jb2a_patreon/Library/Generic/Energy/EnergyFieldTop_02_Regular_Green_400x400.webm',
+                purple: 'modules/jb2a_patreon/Library/Generic/Energy/EnergyFieldTop_02_Regular_Purple_400x400.webm'
+            },
+//TO BE REMOVED <--]
+            below: {
+                blue: 'modules/jb2a_patreon/Library/Generic/Energy/EnergyFieldBot_02_Regular_Blue_400x400.webm',
+                green: 'modules/jb2a_patreon/Library/Generic/Energy/EnergyFieldBot_02_Regular_Green_400x400.webm',
+                purple: 'modules/jb2a_patreon/Library/Generic/Energy/EnergyFieldBot_02_Regular_Purple_400x400.webm'
+            },
+            above: {
                 blue: 'modules/jb2a_patreon/Library/Generic/Energy/EnergyFieldTop_02_Regular_Blue_400x400.webm',
                 green: 'modules/jb2a_patreon/Library/Generic/Energy/EnergyFieldTop_02_Regular_Green_400x400.webm',
                 purple: 'modules/jb2a_patreon/Library/Generic/Energy/EnergyFieldTop_02_Regular_Purple_400x400.webm'
@@ -2467,6 +2491,7 @@ let patreonDatabase = {
         }
     },
     flaming_sphere: {
+//TO BE REMOVED [-->
         blue: {
             '01': 'modules/jb2a_patreon/Library/2nd_Level/Flaming_Sphere/FlamingSphere_01_Blue_200x200.webm',
             '02': 'modules/jb2a_patreon/Library/2nd_Level/Flaming_Sphere/FlamingSphere_02_Blue_200x200.webm',
@@ -2484,8 +2509,40 @@ let patreonDatabase = {
         },
         rainbow: 'modules/jb2a_patreon/Library/2nd_Level/Flaming_Sphere/Multicoloured/FlamingSphere_01_Rainbow_200x200.webm',
         red: 'modules/jb2a_patreon/Library/2nd_Level/Flaming_Sphere/FlamingSphere_01_Red_200x200.webm',
+//TO BE REMOVED <--]
+        "200px": {
+            blue: {
+                '01': 'modules/jb2a_patreon/Library/2nd_Level/Flaming_Sphere/FlamingSphere_01_Blue_200x200.webm',
+                '02': 'modules/jb2a_patreon/Library/2nd_Level/Flaming_Sphere/FlamingSphere_02_Blue_200x200.webm'
+            },
+            green: 'modules/jb2a_patreon/Library/2nd_Level/Flaming_Sphere/FlamingSphere_01_Green_200x200.webm',
+            greenblue: 'modules/jb2a_patreon/Library/2nd_Level/Flaming_Sphere/Multicoloured/FlamingSphere_01_GreenToBlue_200x200.webm',
+            orange: {
+                '01': 'modules/jb2a_patreon/Library/2nd_Level/Flaming_Sphere/FlamingSphere_01_Orange_200x200.webm',
+                '02': 'modules/jb2a_patreon/Library/2nd_Level/Flaming_Sphere/FlamingSphere_02_Orange_200x200.webm'
+            },
+            pink: 'modules/jb2a_patreon/Library/2nd_Level/Flaming_Sphere/FlamingSphere_01_Pink_200x200.webm',
+            purple: {
+                '01': 'modules/jb2a_patreon/Library/2nd_Level/Flaming_Sphere/FlamingSphere_01_Purple_200x200.webm',
+                '02': 'modules/jb2a_patreon/Library/2nd_Level/Flaming_Sphere/FlamingSphere_02_Purple_200x200.webm'
+            },
+            rainbow: 'modules/jb2a_patreon/Library/2nd_Level/Flaming_Sphere/Multicoloured/FlamingSphere_01_Rainbow_200x200.webm',
+            red: 'modules/jb2a_patreon/Library/2nd_Level/Flaming_Sphere/FlamingSphere_01_Red_200x200.webm',
+        },
+        '400px': {
+            blue: {
+                '02': 'modules/jb2a_patreon/Library/2nd_Level/Flaming_Sphere/FlamingSphere_02_Blue_400x400.webm'
+            },
+            orange: {
+                '02': 'modules/jb2a_patreon/Library/2nd_Level/Flaming_Sphere/FlamingSphere_02_Orange_400x400.webm'
+            },
+            purple: {
+                '02': 'modules/jb2a_patreon/Library/2nd_Level/Flaming_Sphere/FlamingSphere_02_Purple_400x400.webm'
+            }
+        }
     },
     flurry_of_blows: {
+        _template: 'melee',
         magical: {
             '01': {
                 blue: 'modules/jb2a_patreon/Library/Generic/Unarmed_Attacks/Flurry_Of_Blows/FlurryOfBlows_01_Regular_Blue_Magical01_800x600.webm',
@@ -2662,14 +2719,25 @@ let patreonDatabase = {
     greataxe: {
         melee: {
             _template: 'melee',
+            fire: {
+                dark_purple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatAxe01_Fire_Dark_Purple_800x600.webm',
+                blue: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatAxe01_Fire_Regular_Blue_800x600.webm',
+                green: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatAxe01_Fire_Regular_Green_800x600.webm',
+                orange: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatAxe01_Fire_Regular_Orange_800x600.webm',
+                pink: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatAxe01_Fire_Regular_Pink_800x600.webm',
+                red: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatAxe01_Fire_Regular_Red_800x600.webm',
+                yellow: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatAxe01_Fire_Regular_Yellow_800x600.webm'
+            },
+            //TO BE REMOVED    
             blue: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatAxe01_Fire_Regular_Blue_800x600.webm',
             dark_purple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatAxe01_Fire_Dark_Purple_800x600.webm',
             green: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatAxe01_Fire_Regular_Green_800x600.webm',
             orange: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatAxe01_Fire_Regular_Orange_800x600.webm',
             pink: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatAxe01_Fire_Regular_Pink_800x600.webm',
             red: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatAxe01_Fire_Regular_Red_800x600.webm',
-            white: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatAxe01_01_Regular_White_800x600.webm',
+            white: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatAxe01_01_Regular_White_800x600.webm',//LEGACY
             yellow: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatAxe01_Fire_Regular_Yellow_800x600.webm'
+            //TO BE REMOVED
         },
         throw: {
             _template: 'ranged',
@@ -2689,18 +2757,40 @@ let patreonDatabase = {
     },
     greatclub: {
         _template: 'melee',
+        fire: {
+            dark_purple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatClub01_Fire_Dark_Purple_800x600.webm',
+            blue: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatClub01_Fire_Regular_Blue_800x600.webm',            
+            green: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatClub01_Fire_Regular_Green_800x600.webm',
+            orange: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatClub01_Fire_Regular_Orange_800x600.webm',
+            pink: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatClub01_Fire_Regular_Pink_800x600.webm',
+            red: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatClub01_Fire_Regular_Red_800x600.webm',
+            yellow: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatClub01_Fire_Regular_Yellow_800x600.webm'
+        },
+        //TO BE REMOVED
         blue: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatClub01_Fire_Regular_Blue_800x600.webm',
         dark_purple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatClub01_Fire_Dark_Purple_800x600.webm',
         green: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatClub01_Fire_Regular_Green_800x600.webm',
         orange: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatClub01_Fire_Regular_Orange_800x600.webm',
         pink: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatClub01_Fire_Regular_Pink_800x600.webm',
         red: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatClub01_Fire_Regular_Red_800x600.webm',
-        white: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatClub01_01_Regular_White_800x600.webm',
+        white: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatClub01_01_Regular_White_800x600.webm',//LEGACY
         yellow: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatClub01_Fire_Regular_Yellow_800x600.webm'
+        //TO BE REMOVED
     },
     greatsword: {
         melee: {
             _template: 'melee',
+            fire: {
+                dark_purple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatSword01_Fire_Dark_Purple_800x600.webm',
+                black: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatSword01_Fire_Regular_Black_800x600.webm',
+                blue: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatSword01_Fire_Regular_Blue_800x600.webm',
+                green: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatSword01_Fire_Regular_Green_800x600.webm',
+                orange: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatSword01_Fire_Regular_Orange_800x600.webm',
+                pink: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatSword01_Fire_Regular_Pink_800x600.webm',
+                red: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatSword01_Fire_Regular_Red_800x600.webm',
+                yellow: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatSword01_Fire_Regular_Yellow_800x600.webm'
+            },
+            //TO BE REMOVED            
             black: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatSword01_Fire_Regular_Black_800x600.webm',
             blue: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatSword01_Fire_Regular_Blue_800x600.webm',
             dark_purple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatSword01_Fire_Dark_Purple_800x600.webm',
@@ -2708,8 +2798,9 @@ let patreonDatabase = {
             orange: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatSword01_Fire_Regular_Orange_800x600.webm',
             pink: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatSword01_Fire_Regular_Pink_800x600.webm',
             red: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatSword01_Fire_Regular_Red_800x600.webm',
-            white: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatSword01_01_Regular_White_800x600.webm',
+            white: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatSword01_01_Regular_White_800x600.webm',//LEGACY
             yellow: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatSword01_Fire_Regular_Yellow_800x600.webm'
+            //TO BE REMOVED
         },
         return: {
             _template: 'ranged',
@@ -2974,14 +3065,25 @@ let patreonDatabase = {
     handaxe: {
         melee: {
             _template: 'melee',
+            fire: {
+                dark_purple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/HandAxe02_Fire_Dark_Purple_800x600.webm',
+                blue: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/HandAxe02_Fire_Regular_Blue_800x600.webm',
+                green: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/HandAxe02_Fire_Regular_Green_800x600.webm',
+                orange: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/HandAxe02_Fire_Regular_Orange_800x600.webm',
+                pink: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/HandAxe02_Fire_Regular_Pink_800x600.webm',
+                red: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/HandAxe02_Fire_Regular_Red_800x600.webm',
+                yellow: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/HandAxe02_Fire_Regular_Yellow_800x600.webm'
+            },
+            //To BE REMOVED            
             blue: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/HandAxe02_Fire_Regular_Blue_800x600.webm',
             dark_purple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/HandAxe02_Fire_Dark_Purple_800x600.webm',
             green: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/HandAxe02_Fire_Regular_Green_800x600.webm',
             orange: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/HandAxe02_Fire_Regular_Orange_800x600.webm',
             pink: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/HandAxe02_Fire_Regular_Pink_800x600.webm',
             red: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/HandAxe02_Fire_Regular_Red_800x600.webm',
-            white: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/HandAxe02_01_Regular_White_800x600.webm',
+            white: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/HandAxe02_01_Regular_White_800x600.webm',//LEGACY
             yellow: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/HandAxe02_Fire_Regular_Yellow_800x600.webm'
+            //To BE REMOVED
         },
         throw: {
             _template: 'ranged',
@@ -3085,16 +3187,19 @@ let patreonDatabase = {
             red: 'modules/jb2a_patreon/Library/Generic/UI/IconDrop_01_Regular_Red_200x200.webm',
         },
         fear: {
+            dark_orange: 'modules/jb2a_patreon/Library/Generic/UI/IconFear_01_Dark_Orange_200x200.webm',
             dark_purple: 'modules/jb2a_patreon/Library/Generic/UI/IconFear_01_Dark_Purple_200x200.webm',
             orange: 'modules/jb2a_patreon/Library/Generic/UI/IconFear_01_Regular_Orange_200x200.webm',
         },
         heart: {
             dark_red: 'modules/jb2a_patreon/Library/Generic/UI/IconHeart_01_Dark_Red_200x200.webm',
             pink: 'modules/jb2a_patreon/Library/Generic/UI/IconHeart_01_Regular_Pink_200x200.webm',
+            teal: 'modules/jb2a_patreon/Library/Generic/UI/IconHeart_01_Regular_Teal_200x200.webm',
         },
         horror: {
             dark_teal: 'modules/jb2a_patreon/Library/Generic/UI/IconHorror_01_Dark_Teal_200x200.webm',
             purple: 'modules/jb2a_patreon/Library/Generic/UI/IconHorror_01_Regular_Purple_200x200.webm',
+            teal: 'modules/jb2a_patreon/Library/Generic/UI/IconHorror_01_Regular_Teal_200x200.webm',
         },
         poison: {
             dark_green: 'modules/jb2a_patreon/Library/Generic/UI/IconPoison_01_Dark_Green_200x200.webm',
@@ -3114,6 +3219,7 @@ let patreonDatabase = {
         },
         skull: {
             dark_green: 'modules/jb2a_patreon/Library/Generic/UI/IconSkull_01_Dark_Green_200x200.webm',
+            dark_orange: 'modules/jb2a_patreon/Library/Generic/UI/IconSkull_01_Dark_Orange_200x200.webm',
             purple: 'modules/jb2a_patreon/Library/Generic/UI/IconSkull_01_Regular_Purple_200x200.webm',
         },
         snowflake: {
@@ -3645,6 +3751,15 @@ let patreonDatabase = {
     mace: {
         melee: {
             _template: 'melee',
+            fire: {
+                dark_purple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Mace01_Fire_Dark_Purple_800x600.webm',
+                blue: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Mace01_Fire_Regular_Blue_800x600.webm',
+                green: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Mace01_Fire_Regular_Green_800x600.webm',
+                orange: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Mace01_Fire_Regular_Orange_800x600.webm',
+                pink: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Mace01_Fire_Regular_Pink_800x600.webm',
+                red: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Mace01_Fire_Regular_Red_800x600.webm',
+                yellow: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Mace01_Fire_Regular_Yellow_800x600.webm'
+            },
             '01': {
                 dark_orangepurple: [
                     'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Mace01_01_Dark_OrangePurple_800x600.webm',
@@ -4479,6 +4594,11 @@ let patreonDatabase = {
             }
         },
         runes: {
+            dark_orange: {
+                '01': 'modules/jb2a_patreon/Library/Generic/Marker/MarkerRunes_01_Dark_Orange_400x400.webm',
+                '02': 'modules/jb2a_patreon/Library/Generic/Marker/MarkerRunes_02_Dark_Orange_400x400.webm',
+                '03': 'modules/jb2a_patreon/Library/Generic/Marker/MarkerRunes_03_Dark_Orange_400x400.webm'
+            },
             dark_red: {
                 '01': 'modules/jb2a_patreon/Library/Generic/Marker/MarkerRunes_01_Dark_Red_400x400.webm',
                 '02': 'modules/jb2a_patreon/Library/Generic/Marker/MarkerRunes_02_Dark_Red_400x400.webm',
@@ -4559,14 +4679,25 @@ let patreonDatabase = {
     maul: {
         melee: {
             _template: 'melee',
+            fire: {
+                blue: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Maul01_Fire_Regular_Blue_800x600.webm',
+                dark_purple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Maul01_Fire_Dark_Purple_800x600.webm',
+                green: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Maul01_Fire_Regular_Green_800x600.webm',
+                orange: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Maul01_Fire_Regular_Orange_800x600.webm',
+                pink: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Maul01_Fire_Regular_Pink_800x600.webm',
+                red: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Maul01_Fire_Regular_Red_800x600.webm',
+                yellow: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Maul01_Fire_Regular_Yellow_800x600.webm'    
+            },
+            //TO BE REMOVED
             blue: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Maul01_Fire_Regular_Blue_800x600.webm',
             dark_purple: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Maul01_Fire_Dark_Purple_800x600.webm',
             green: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Maul01_Fire_Regular_Green_800x600.webm',
             orange: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Maul01_Fire_Regular_Orange_800x600.webm',
             pink: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Maul01_Fire_Regular_Pink_800x600.webm',
             red: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Maul01_Fire_Regular_Red_800x600.webm',
-            white: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Maul01_01_Regular_White_800x600.webm',
+            white: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Maul01_01_Regular_White_800x600.webm',//LEGACY
             yellow: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Maul01_Fire_Regular_Yellow_800x600.webm'
+            //TO BE REMOVED
         },
     },
     melee_generic: {
@@ -5452,7 +5583,7 @@ let patreonDatabase = {
             dark_purple: 'modules/jb2a_patreon/Library/1st_Level/Sleep/SleepMarker01_01_Dark_Purple_400x400.webm',
             green: 'modules/jb2a_patreon/Library/1st_Level/Sleep/SleepMarker01_01_Regular_Green_400x400.webm',
             pink: 'modules/jb2a_patreon/Library/1st_Level/Sleep/SleepMarker01_01_Regular_Pink_400x400.webm',
-            dark_purple: 'modules/jb2a_patreon/Library/1st_Level/Sleep/SleepMarker01_01_Dark_Purple_400x400.webm'
+            yellow: 'modules/jb2a_patreon/Library/1st_Level/Sleep/SleepMarker01_01_Regular_Yellow_400x400.webm'
         },
         symbol: {
             dark_green: 'modules/jb2a_patreon/Library/1st_Level/Sleep/SleepSymbol01_01_Dark_Green_400x400.webm',
@@ -5462,20 +5593,23 @@ let patreonDatabase = {
             green: 'modules/jb2a_patreon/Library/1st_Level/Sleep/SleepSymbol01_01_Regular_Green_400x400.webm',
             pink: 'modules/jb2a_patreon/Library/1st_Level/Sleep/SleepSymbol01_01_Regular_Pink_400x400.webm',
             purple: 'modules/jb2a_patreon/Library/1st_Level/Sleep/SleepSymbol01_01_Regular_Purple_400x400.webm',
-            orangepurple: 'modules/jb2a_patreon/Library/1st_Level/Sleep/SleepSymbol01_01_Regular_OrangePurple_400x400.webm'
+            orangepurple: 'modules/jb2a_patreon/Library/1st_Level/Sleep/SleepSymbol01_01_Regular_OrangePurple_400x400.webm',
+            yellow: 'modules/jb2a_patreon/Library/1st_Level/Sleep/SleepSymbol01_01_Regular_Yellow_400x400.webm'
         },
         cloud: {
             '01': {
                 dark_orangepurple: 'modules/jb2a_patreon/Library/1st_Level/Sleep/Cloud01_01_Dark_OrangePurple_400x400.webm',
                 dark_purple: 'modules/jb2a_patreon/Library/1st_Level/Sleep/Cloud01_01_Dark_Purple_400x400.webm',
                 green: 'modules/jb2a_patreon/Library/1st_Level/Sleep/Cloud01_01_Regular_Green_400x400.webm',
-                pink: 'modules/jb2a_patreon/Library/1st_Level/Sleep/Cloud01_01_Regular_Pink_400x400.webm'
+                pink: 'modules/jb2a_patreon/Library/1st_Level/Sleep/Cloud01_01_Regular_Pink_400x400.webm',
+                yellow: 'modules/jb2a_patreon/Library/1st_Level/Sleep/Cloud01_01_Regular_Yellow_400x400.webm'
             },
             '02': {
                 dark_orangepurple: 'modules/jb2a_patreon/Library/1st_Level/Sleep/Cloud01_02_Dark_OrangePurple_400x400.webm',
                 dark_purple: 'modules/jb2a_patreon/Library/1st_Level/Sleep/Cloud01_02_Dark_Purple_400x400.webm',
                 green: 'modules/jb2a_patreon/Library/1st_Level/Sleep/Cloud01_02_Regular_Green_400x400.webm',
-                pink: 'modules/jb2a_patreon/Library/1st_Level/Sleep/Cloud01_02_Regular_Pink_400x400.webm'
+                pink: 'modules/jb2a_patreon/Library/1st_Level/Sleep/Cloud01_02_Regular_Pink_400x400.webm',
+                yellow: 'modules/jb2a_patreon/Library/1st_Level/Sleep/Cloud01_02_Regular_Yellow_400x400.webm'
             }
         }
     },
@@ -5598,14 +5732,33 @@ let patreonDatabase = {
         }
     },
     spirit_guardians: {
+        blue: {
+            ring: 'modules/jb2a_patreon/Library/3rd_Level/Spirit_Guardians/SpiritGuardians_01_Light_Blue_600x600.webm',
+            no_ring: 'modules/jb2a_patreon/Library/3rd_Level/Spirit_Guardians/SpiritGuardiansNoRing_01_Light_Blue_600x600.webm',
+            particles: 'modules/jb2a_patreon/Library/3rd_Level/Spirit_Guardians/SpiritGuardiansParticles_01_Light_Blue_600x600.webm',
+            spirits:'modules/jb2a_patreon/Library/3rd_Level/Spirit_Guardians/SpiritGuardiansSpirits_01_Light_Blue_600x600.webm'
+        },
         blueyellow: 'modules/jb2a_patreon/Library/3rd_Level/Spirit_Guardians/SpiritGuardians_01_Light_BlueYellow_600x600.webm',
         dark_blue: 'modules/jb2a_patreon/Library/3rd_Level/Spirit_Guardians/SpiritGuardians_01_Dark_Blue_600x600.webm',
         dark_purple: 'modules/jb2a_patreon/Library/3rd_Level/Spirit_Guardians/SpiritGuardians_01_Dark_Purple_600x600.webm',
-        dark_red: 'modules/jb2a_patreon/Library/3rd_Level/Spirit_Guardians/SpiritGuardians_01_Dark_Red_600x600.webm',
+        dark_red: {
+            ring: 'modules/jb2a_patreon/Library/3rd_Level/Spirit_Guardians/SpiritGuardians_01_Dark_Red_600x600.webm',
+            no_ring: 'modules/jb2a_patreon/Library/3rd_Level/Spirit_Guardians/SpiritGuardiansNoRing_01_Dark_Red_600x600.webm',
+            particles: 'modules/jb2a_patreon/Library/3rd_Level/Spirit_Guardians/SpiritGuardiansParticles_01_Dark_Red_600x600.webm',
+            spirits:'modules/jb2a_patreon/Library/3rd_Level/Spirit_Guardians/SpiritGuardiansSpirits_01_Dark_Red_600x600.webm'
+        },
         dark_whiteblue: 'modules/jb2a_patreon/Library/3rd_Level/Spirit_Guardians/SpiritGuardians_01_Dark_WhiteBlue_600x600.webm',
+        green: {
+            ring: 'modules/jb2a_patreon/Library/3rd_Level/Spirit_Guardians/SpiritGuardians_01_Light_Green_600x600.webm',
+            no_ring: 'modules/jb2a_patreon/Library/3rd_Level/Spirit_Guardians/SpiritGuardiansNoRing_01_Light_Green_600x600.webm',
+            particles: 'modules/jb2a_patreon/Library/3rd_Level/Spirit_Guardians/SpiritGuardiansParticles_01_Light_Green_600x600.webm',
+            spirits:'modules/jb2a_patreon/Library/3rd_Level/Spirit_Guardians/SpiritGuardiansSpirits_01_Light_Green_600x600.webm'
+        },
         orange: {
             ring: 'modules/jb2a_patreon/Library/3rd_Level/Spirit_Guardians/SpiritGuardians_01_Light_Orange_600x600.webm',
-            no_ring: 'modules/jb2a_patreon/Library/3rd_Level/Spirit_Guardians/SpiritGuardiansNoRing_01_Light_Orange_600x600.webm'
+            no_ring: 'modules/jb2a_patreon/Library/3rd_Level/Spirit_Guardians/SpiritGuardiansNoRing_01_Light_Orange_600x600.webm',
+            particles: 'modules/jb2a_patreon/Library/3rd_Level/Spirit_Guardians/SpiritGuardiansParticles_01_Light_Orange_600x600.webm',
+            spirits:'modules/jb2a_patreon/Library/3rd_Level/Spirit_Guardians/SpiritGuardiansSpirits_01_Light_Orange_600x600.webm'
         },
         greenorange: 'modules/jb2a_patreon/Library/3rd_Level/Spirit_Guardians/SpiritGuardians_01_Light_GreenOrange_600x600.webm',
         pinkpurple: 'modules/jb2a_patreon/Library/3rd_Level/Spirit_Guardians/SpiritGuardians_01_Light_PinkPurple_600x600.webm',
@@ -5812,6 +5965,7 @@ let patreonDatabase = {
                     purple: 'modules/jb2a_patreon/Library/Generic/Template/Circle/TemplatePoisonCircle_01_Regular_Purple_800x800.webm'
                 },
                 runes: {
+                    dark_orange: 'modules/jb2a_patreon/Library/Generic/Template/Circle/TemplateRunesCircle_01_Dark_Orange_800x800.webm',
                     dark_red: 'modules/jb2a_patreon/Library/Generic/Template/Circle/TemplateRunesCircle_01_Dark_Red_800x800.webm',
                     orange: 'modules/jb2a_patreon/Library/Generic/Template/Circle/TemplateRunesCircle_01_Regular_Orange_800x800.webm'
                 },
@@ -5862,6 +6016,7 @@ let patreonDatabase = {
                     purple: 'modules/jb2a_patreon/Library/Generic/Template/Circle/OutFlow/TemplatePoisonCircleOutFlow_01_Regular_Purple_800x800.webm'
                 },
                 runes: {
+                    dark_orange: 'modules/jb2a_patreon/Library/Generic/Template/Circle/OutFlow/TemplateRunesCircleOutFlow_01_Dark_Orange_800x800.webm',
                     dark_red: 'modules/jb2a_patreon/Library/Generic/Template/Circle/OutFlow/TemplateRunesCircleOutFlow_01_Dark_Red_800x800.webm',
                     orange: 'modules/jb2a_patreon/Library/Generic/Template/Circle/OutFlow/TemplateRunesCircleOutFlow_01_Regular_Orange_800x800.webm'
                 },
@@ -5980,6 +6135,7 @@ let patreonDatabase = {
                     purple: 'modules/jb2a_patreon/Library/Generic/Template/Square/TemplatePoisonSquare_01_Regular_Purple_600x600.webm'
                 },
                 runes: {
+                    dark_orange: 'modules/jb2a_patreon/Library/Generic/Template/Square/TemplateRunesSquare_01_Dark_Orange_600x600.webm',
                     dark_red: 'modules/jb2a_patreon/Library/Generic/Template/Square/TemplateRunesSquare_01_Dark_Red_600x600.webm',
                     orange: 'modules/jb2a_patreon/Library/Generic/Template/Square/TemplateRunesSquare_01_Regular_Orange_600x600.webm'
                 },
@@ -6030,6 +6186,7 @@ let patreonDatabase = {
                     purple: 'modules/jb2a_patreon/Library/Generic/Template/Square/OutFlow/TemplatePoisonSquareOutFlow_01_Regular_Purple_600x600.webm'
                 },
                 runes: {
+                    dark_orange: 'modules/jb2a_patreon/Library/Generic/Template/Square/OutFlow/TemplateRunesSquareOutFlow_01_Dark_Orange_600x600.webm',
                     dark_red: 'modules/jb2a_patreon/Library/Generic/Template/Square/OutFlow/TemplateRunesSquareOutFlow_01_Dark_Red_600x600.webm',
                     orange: 'modules/jb2a_patreon/Library/Generic/Template/Square/OutFlow/TemplateRunesSquareOutFlow_01_Regular_Orange_600x600.webm'
                 },
@@ -6155,6 +6312,7 @@ let patreonDatabase = {
         }
     },
     unarmed_strike: {
+        _template: 'melee',
         magical: {
             '01': {
                 blue: 'modules/jb2a_patreon/Library/Generic/Unarmed_Attacks/Unarmed_Strike/UnarmedStrike_01_Regular_Blue_Magical01_800x600.webm',
