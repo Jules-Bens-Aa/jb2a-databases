@@ -7,7 +7,8 @@ let freeDatabase = {
         large: [200, 0, 0],
         melee: [200, 300, 300],
         ranged: [200, 200, 200],
-        ray: [100, 0, 0]
+        ray: [100, 0, 0],
+        side_impact: [200, 100, 0]
     },
     antilife_shell: {
         blue_no_circle: 'modules/JB2A_DnD5e/Library/5th_Level/Antilife_Shell/AntilifeShell_01_Blue_NoCircle_400x400.webm',
@@ -471,7 +472,7 @@ let freeDatabase = {
                 }
             },
             multiple: {
-                dark_purple: {
+                purple: {
                     '05ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Purple_05ft_600x400.webm',
                     '15ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Purple_15ft_1000x400.webm',
                     '30ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Purple_30ft_1600x400.webm',
@@ -708,6 +709,7 @@ let freeDatabase = {
         }
     },
     fireball: {
+        _template: 'cone100',
         loop_debris: {
             orange: 'modules/JB2A_DnD5e/Library/3rd_Level/Fireball/FireballLoop_01_Orange_800x800.webm',
         },
@@ -1868,6 +1870,7 @@ let freeDatabase = {
         }
     },
     side_impact: {
+        _template: 'side_impact',
         ice_shard: {
             blue: 'modules/JB2A_DnD5e/Library/Generic/Impact/SideImpactIceShard01_01_Regular_Blue_600x600.webm'
         },
@@ -1953,6 +1956,7 @@ let freeDatabase = {
         }
     },
     spell_projectile: {
+        _template: 'ranged',
         ice_shard: {
             blue: {
                 '05ft': 'modules/JB2A_DnD5e/Library/Generic/RangedSpell/ProjectileIceShard01_01_Regular_Blue_05ft_600x400.webm',

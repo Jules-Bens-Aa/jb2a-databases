@@ -7,7 +7,8 @@ let patreonDatabase = {
         large: [200, 0, 0],
         melee: [200, 300, 300],
         ranged: [200, 200, 200],
-        ray: [100, 0, 0]
+        ray: [100, 0, 0],
+        side_impact: [200, 100, 0]
     },
     antilife_shell: {
         blue_no_circle: 'modules/jb2a_patreon/Library/5th_Level/Antilife_Shell/AntilifeShell_01_Blue_NoCircle_400x400.webm',
@@ -2406,6 +2407,7 @@ let patreonDatabase = {
         }
     },
     fireball: {
+        _template: 'cone100',
         loop_debris: {
             blue: 'modules/jb2a_patreon/Library/3rd_Level/Fireball/FireballLoop_01_Blue_800x800.webm',
             orange: 'modules/jb2a_patreon/Library/3rd_Level/Fireball/FireballLoop_01_Orange_800x800.webm',
@@ -5905,6 +5907,7 @@ let patreonDatabase = {
         }
     },
     side_impact: {
+        _template: 'side_impact',
         heart: {
             pink_yellow: 'modules/jb2a_patreon/Library/Generic/Impact/SideImpactHeart01_01_Regular_PinkYellow_600x600.webm'
         },
@@ -6132,6 +6135,7 @@ let patreonDatabase = {
         },
     },
     spell_projectile: {
+        _template: 'ranged',
         heart: {
             pinkyellow: {
                 '05ft': 'modules/jb2a_patreon/Library/Generic/RangedSpell/ProjectileHeart01_01_Regular_PinkYellow_05ft_600x400.webm',
@@ -6415,7 +6419,7 @@ let patreonDatabase = {
                     teal: 'modules/jb2a_patreon/Library/Generic/Template/Circle/TemplateHorrorCircle_01_Regular_Teal_800x800.webm'
                 },
                 music_note: {
-                    dark_green: 'modules/jb2a_patreon/Library/Generic/Template/Circle/TemplateMusicNoteCircle_01_Dark_Red_800x800.webm',
+                    dark_red: 'modules/jb2a_patreon/Library/Generic/Template/Circle/TemplateMusicNoteCircle_01_Dark_Red_800x800.webm',
                     blue: 'modules/jb2a_patreon/Library/Generic/Template/Circle/TemplateMusicNoteCircle_01_Regular_Blue_800x800.webm',
                     purple: 'modules/jb2a_patreon/Library/Generic/Template/Circle/TemplateMusicNoteCircle_01_Regular_Purple_800x800.webm'
                 },
@@ -6473,7 +6477,7 @@ let patreonDatabase = {
                     teal: 'modules/jb2a_patreon/Library/Generic/Template/Circle/OutFlow/TemplateHorrorCircleOutFlow_01_Regular_Teal_800x800.webm'
                 },
                 music_note: {
-                    dark_green: 'modules/jb2a_patreon/Library/Generic/Template/Circle/OutFlow/TemplateMusicNoteCircleOutFlow_01_Dark_Red_800x800.webm',
+                    dark_red: 'modules/jb2a_patreon/Library/Generic/Template/Circle/OutFlow/TemplateMusicNoteCircleOutFlow_01_Dark_Red_800x800.webm',
                     blue: 'modules/jb2a_patreon/Library/Generic/Template/Circle/OutFlow/TemplateMusicNoteCircleOutFlow_01_Regular_Blue_800x800.webm',
                     purple: 'modules/jb2a_patreon/Library/Generic/Template/Circle/OutFlow/TemplateMusicNoteCircleOutFlow_01_Regular_Purple_800x800.webm'
                 },
