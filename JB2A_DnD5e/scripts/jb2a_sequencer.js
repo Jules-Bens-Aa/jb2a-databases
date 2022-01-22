@@ -1140,6 +1140,11 @@ let freeDatabase = {
             'modules/JB2A_DnD5e/Library/Generic/Impact/Impact_12_Regular_Blue_400x400.webm'
         ],
         ground_crack: {
+            orange:{
+                '01': 'modules/JB2A_DnD5e/Library/Generic/Impact/GroundCrackImpact_01_Regular_Orange_600x600.webm',
+                '02': 'modules/JB2A_DnD5e/Library/Generic/Impact/GroundCrackImpact_02_Regular_Orange_600x600.webm',
+                '03': 'modules/JB2A_DnD5e/Library/Generic/Impact/GroundCrackImpact_03_Regular_Orange_600x600.webm'
+            },
             '01': {
                 orange: 'modules/JB2A_DnD5e/Library/Generic/Impact/GroundCrackImpact_01_Regular_Orange_600x600.webm',
             },
@@ -2223,16 +2228,30 @@ let freeDatabase = {
     },
     ui: {
         chevrons3: {
-            yellow: "modules/JB2A_DnD5e/Library/Generic/UI/3Chevrons_01_Regular_Yellow_200x200.webm"
+            yellow: 'modules/JB2A_DnD5e/Library/Generic/UI/3Chevrons_01_Regular_Yellow_200x200.webm'
         },
         critical: {
-            red: "modules/JB2A_DnD5e/Library/Generic/UI/Critical_02_Red_200x200.webm"
+            red: 'modules/JB2A_DnD5e/Library/Generic/UI/Critical_02_Red_200x200.webm'
         },
         indicator: {
-            yellow: "modules/JB2A_DnD5e/Library/Generic/UI/Indicator_01_Regular_Yellow_200x200.webm"
+            yellow: {
+                '01': {
+                    '01': 'modules/JB2A_DnD5e/Library/Generic/UI/Indicator_01_Regular_Yellow_200x200.webm'
+                }
+            },
+            bluegreen: {
+                '02': {
+                    '01': 'modules/JB2A_DnD5e/Library/Generic/UI/Indicator01_02_Regular_BlueGreen_400x400.webm',
+                    '02': 'modules/JB2A_DnD5e/Library/Generic/UI/Indicator02_02_Regular_BlueGreen_400x400.webm'
+                },
+                '03': {
+                    '01': 'modules/JB2A_DnD5e/Library/Generic/UI/Indicator01_03_Regular_BlueGreen_200x200.webm',
+                    '02': 'modules/JB2A_DnD5e/Library/Generic/UI/Indicator02_03_Regular_BlueGreen_200x200.webm'
+                }
+            }
         },
         miss: {
-            white: "modules/JB2A_DnD5e/Library/Generic/UI/Miss_02_White_200x200.webm"
+            white: 'modules/JB2A_DnD5e/Library/Generic/UI/Miss_02_White_200x200.webm'
         }
     },
     unarmed_strike: {
@@ -2355,6 +2374,215 @@ let freeDatabase = {
             }
         }
     },
+    zoning: {
+        ground: {
+            circle: {
+                '01': {
+                    '01': 'modules/JB2A_DnD5e/Library/Generic/Zoning/ZoningCircle01_01_600x600.webp'
+                }
+            },
+            square: {
+                '01': {
+                    '01': 'modules/JB2A_DnD5e/Library/Generic/Zoning/ZoningSquare01_01_600x600.webp',
+                    '02': 'modules/JB2A_DnD5e/Library/Generic/Zoning/ZoningSquare02_01_600x600.webp'
+                }
+            },
+            indicator: {
+                inward: {
+                    '01': {
+                        '01': 'modules/JB2A_DnD5e/Library/Generic/Zoning/ZoningIndicator01In_01_600x600.webp',
+                        '02': 'modules/JB2A_DnD5e/Library/Generic/Zoning/ZoningIndicator02In_01_600x600.webp'
+                    },
+                    '02': {
+                        '01': 'modules/JB2A_DnD5e/Library/Generic/Zoning/ZoningIndicator01In_02_600x600.webp',
+                        '02': 'modules/JB2A_DnD5e/Library/Generic/Zoning/ZoningIndicator02In_02_600x600.webp'
+                    }
+                },
+                outward: {
+                    '01': {
+                        '01': 'modules/JB2A_DnD5e/Library/Generic/Zoning/ZoningIndicator01Out_01_600x600.webp',
+                        '02': 'modules/JB2A_DnD5e/Library/Generic/Zoning/ZoningIndicator02Out_01_600x600.webp'
+                    },
+                    '02': {
+                        '01': 'modules/JB2A_DnD5e/Library/Generic/Zoning/ZoningIndicator01Out_02_600x600.webp',
+                        '02': 'modules/JB2A_DnD5e/Library/Generic/Zoning/ZoningIndicator02Out_02_600x600.webp'
+                    }
+                }
+            },
+            directional: {
+                line200: {
+                    '01': 'modules/JB2A_DnD5e/Library/Generic/Zoning/DirectionalIndicator01Line_01_200x200.webp',
+                    '02': 'modules/JB2A_DnD5e/Library/Generic/Zoning/DirectionalIndicator02Line_01_200x200.webp'
+                },
+                line400: {
+                    '01': 'modules/JB2A_DnD5e/Library/Generic/Zoning/DirectionalIndicator01Line_02_400x200.webp',
+                    '02': 'modules/JB2A_DnD5e/Library/Generic/Zoning/DirectionalIndicator02Line_02_400x200.webp'
+                },
+                single: {
+                    '01': 'modules/JB2A_DnD5e/Library/Generic/Zoning/DirectionalIndicator01Single_01_200x200.webp',
+                    '02': 'modules/JB2A_DnD5e/Library/Generic/Zoning/DirectionalIndicator02Single_01_200x200.webp'
+                }
+            }
+        },
+        inward: {
+            circle: {
+                once: {
+                    bluegreen: {
+                        '01': {
+                            '01': 'modules/JB2A_DnD5e/Library/Generic/Zoning/ZoningCircle01In_01_Regular_BlueGreen_600x600.webm',
+                            '02': 'modules/JB2A_DnD5e/Library/Generic/Zoning/ZoningCircle02In_01_Regular_BlueGreen_600x600.webm'
+                        }
+                    },
+                },
+                loop: {
+                    bluegreen: {
+                        '01': {
+                            '01': 'modules/JB2A_DnD5e/Library/Generic/Zoning/ZoningCircle01In_01_Regular_BlueGreen_Loop_600x600.webm',
+                            '02': 'modules/JB2A_DnD5e/Library/Generic/Zoning/ZoningCircle02In_01_Regular_BlueGreen_Loop_600x600.webm'
+                        }
+                    }
+                }
+            },
+            square: {
+                once: {
+                    bluegreen: {
+                        '01': {
+                            '01': 'modules/JB2A_DnD5e/Library/Generic/Zoning/ZoningSquare01In_01_Regular_BlueGreen_600x600.webm',
+                            '02': 'modules/JB2A_DnD5e/Library/Generic/Zoning/ZoningSquare02In_01_Regular_BlueGreen_600x600.webm'
+                        }
+                    }
+                },
+                loop: {
+                    bluegreen: {
+                        '01': {
+                            '01': 'modules/JB2A_DnD5e/Library/Generic/Zoning/ZoningSquare01In_01_Regular_BlueGreen_Loop_600x600.webm',
+                            '02': 'modules/JB2A_DnD5e/Library/Generic/Zoning/ZoningSquare02In_01_Regular_BlueGreen_Loop_600x600.webm'
+                        }
+                    }
+                }
+            },
+            indicator: {
+                once: {
+                    bluegreen: {
+                        '01': {
+                            '01': 'modules/JB2A_DnD5e/Library/Generic/Zoning/ZoningIndicator01In_01_Regular_BlueGreen_600x600.webm',
+                            '02': 'modules/JB2A_DnD5e/Library/Generic/Zoning/ZoningIndicator02In_01_Regular_BlueGreen_600x600.webm'
+                        },
+                        '02': {
+                            '01': 'modules/JB2A_DnD5e/Library/Generic/Zoning/ZoningIndicator01In_02_Regular_BlueGreen_600x600.webm',
+                            '02': 'modules/JB2A_DnD5e/Library/Generic/Zoning/ZoningIndicator02In_02_Regular_BlueGreen_600x600.webm'
+                        }
+                    }
+                },
+                loop: {
+                    bluegreen: {
+                        '01': {
+                            '01': 'modules/JB2A_DnD5e/Library/Generic/Zoning/ZoningIndicator01In_01_Regular_BlueGreen_Loop_600x600.webm',
+                            '02': 'modules/JB2A_DnD5e/Library/Generic/Zoning/ZoningIndicator02In_01_Regular_BlueGreen_Loop_600x600.webm'
+                        },
+                        '02': {
+                            '01': 'modules/JB2A_DnD5e/Library/Generic/Zoning/ZoningIndicator01In_02_Regular_BlueGreen_Loop_600x600.webm',
+                            '02': 'modules/JB2A_DnD5e/Library/Generic/Zoning/ZoningIndicator02In_02_Regular_BlueGreen_Loop_600x600.webm'
+                        }
+                    }
+                }
+            }
+        },
+        outward: {
+            circle: {
+                once: {
+                    bluegreen: {
+                        '01': {
+                            '01': 'modules/JB2A_DnD5e/Library/Generic/Zoning/ZoningCircle01Out_01_Regular_BlueGreen_600x600.webm',
+                            '02': 'modules/JB2A_DnD5e/Library/Generic/Zoning/ZoningCircle02Out_01_Regular_BlueGreen_600x600.webm'
+                        }
+                    }
+                },
+                loop: {
+                    bluegreen: {
+                        '01': {
+                            '01': 'modules/JB2A_DnD5e/Library/Generic/Zoning/ZoningCircle01Out_01_Regular_BlueGreen_Loop_600x600.webm',
+                            '02': 'modules/JB2A_DnD5e/Library/Generic/Zoning/ZoningCircle02Out_01_Regular_BlueGreen_Loop_600x600.webm'
+                        }
+                    }
+                }
+            },
+            square: {
+                once: {
+                    bluegreen: {
+                        '01': {
+                            '01': 'modules/JB2A_DnD5e/Library/Generic/Zoning/ZoningSquare01Out_01_Regular_BlueGreen_600x600.webm',
+                            '02': 'modules/JB2A_DnD5e/Library/Generic/Zoning/ZoningSquare02Out_01_Regular_BlueGreen_600x600.webm'
+                        }
+                    }
+                },
+                loop: {
+                    bluegreen: {
+                        '01': {
+                            '01': 'modules/JB2A_DnD5e/Library/Generic/Zoning/ZoningSquare01Out_01_Regular_BlueGreen_Loop_600x600.webm',
+                            '02': 'modules/JB2A_DnD5e/Library/Generic/Zoning/ZoningSquare02Out_01_Regular_BlueGreen_Loop_600x600.webm'
+                        }
+                    }
+                }
+            },
+            indicator: {
+                once: {
+                    bluegreen: {
+                        '01': {
+                            '01': 'modules/JB2A_DnD5e/Library/Generic/Zoning/ZoningIndicator01Out_01_Regular_BlueGreen_600x600.webm',
+                            '02': 'modules/JB2A_DnD5e/Library/Generic/Zoning/ZoningIndicator02Out_01_Regular_BlueGreen_600x600.webm'
+                        },
+                        '02': {
+                            '01': 'modules/JB2A_DnD5e/Library/Generic/Zoning/ZoningIndicator01Out_02_Regular_BlueGreen_600x600.webm',
+                            '02': 'modules/JB2A_DnD5e/Library/Generic/Zoning/ZoningIndicator02Out_02_Regular_BlueGreen_600x600.webm'
+                        }
+                    }
+                },
+                loop: {
+                    bluegreen: {
+                        '01': {
+                            '01': 'modules/JB2A_DnD5e/Library/Generic/Zoning/ZoningIndicator01Out_01_Regular_BlueGreen_Loop_600x600.webm',
+                            '02': 'modules/JB2A_DnD5e/Library/Generic/Zoning/ZoningIndicator02Out_01_Regular_BlueGreen_Loop_600x600.webm'
+                        },
+                        '02': {
+                            '01': 'modules/JB2A_DnD5e/Library/Generic/Zoning/ZoningIndicator01Out_02_Regular_BlueGreen_Loop_600x600.webm',
+                            '02': 'modules/JB2A_DnD5e/Library/Generic/Zoning/ZoningIndicator02Out_02_Regular_BlueGreen_Loop_600x600.webm'
+                        }
+                    }
+                }
+            }
+        },
+        directional: {
+            once: {
+                bluegreen: {
+                    line200: {
+                        '01': 'modules/JB2A_DnD5e/Library/Generic/Zoning/DirectionalIndicator01Line_01_Regular_BlueGreen_200x200.webm',
+                        '02': 'modules/JB2A_DnD5e/Library/Generic/Zoning/DirectionalIndicator02Line_01_Regular_BlueGreen_200x200.webm'
+                    },
+                    line400: {
+                        '01': 'modules/JB2A_DnD5e/Library/Generic/Zoning/DirectionalIndicator01Line_02_Regular_BlueGreen_400x200.webm',
+                        '02': 'modules/JB2A_DnD5e/Library/Generic/Zoning/DirectionalIndicator02Line_02_Regular_BlueGreen_400x200.webm'
+                    },
+                    single: {
+                        '01': 'modules/JB2A_DnD5e/Library/Generic/Zoning/DirectionalIndicator01Single_01_Regular_BlueGreen_200x200.webm',
+                        '02': 'modules/JB2A_DnD5e/Library/Generic/Zoning/DirectionalIndicator02Single_01_Regular_BlueGreen_200x200.webm'
+                    }
+                }
+            },
+            loop: {
+                bluegreen: {
+                    line200: {
+                        '01': 'modules/JB2A_DnD5e/Library/Generic/Zoning/DirectionalIndicator01Line_01_Regular_BlueGreen_Loop_200x200.webm',
+                        '02': 'modules/JB2A_DnD5e/Library/Generic/Zoning/DirectionalIndicator02Line_01_Regular_BlueGreen_Loop_200x200.webm'
+                    },
+                    line400: {
+                        '01': 'modules/JB2A_DnD5e/Library/Generic/Zoning/DirectionalIndicator01Line_02_Regular_BlueGreen_Loop_400x200.webm',
+                        '02': 'modules/JB2A_DnD5e/Library/Generic/Zoning/DirectionalIndicator02Line_02_Regular_BlueGreen_Loop_400x200.webm'
+                    }
+                }
+            }
+        }
+    }
 }
 Hooks.on("sequencer.ready", () => {
     Sequencer.Database.registerEntries("jb2a", freeDatabase);
