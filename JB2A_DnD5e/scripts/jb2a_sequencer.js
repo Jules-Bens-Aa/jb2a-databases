@@ -1,6 +1,6 @@
 let freeDatabase = {
     _templates: {
-        default: [100, 0, 0],
+        //default: [100, 0, 0],
         cone: [100, 0, 0],
         cone100: [100, 100, 100],
         cone200: [200, 100, 100],
@@ -406,11 +406,53 @@ let freeDatabase = {
     },
     energy_beam: {
         _template: 'ranged',
-        blue: {
-            '15ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyBeam_01_Regular_Blue_15ft_1000x400.webm',
-            '30ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyBeam_01_Regular_Blue_30ft_1600x400.webm',
-            '60ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyBeam_01_Regular_Blue_60ft_2800x400.webm',
-            '90ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyBeam_01_Regular_Blue_90ft_4000x400.webm'
+        normal: {
+            blue: {
+                '01': {
+                    '15ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyBeam_01_Regular_Blue_15ft_1000x400.webm',
+                    '30ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyBeam_01_Regular_Blue_30ft_1600x400.webm',
+                    '60ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyBeam_01_Regular_Blue_60ft_2800x400.webm',
+                    '90ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyBeam_01_Regular_Blue_90ft_4000x400.webm'
+                }
+
+            }
+        },
+        '02': {
+            bluepink:{
+                '02': {
+                '05ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyBeam_02_Regular_BluePink_05ft_600x400.webm',
+                '15ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyBeam_02_Regular_BluePink_15ft_1000x400.webm',
+                '30ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyBeam_02_Regular_BluePink_30ft_1600x400.webm',
+                '60ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyBeam_02_Regular_BluePink_60ft_2800x400.webm',
+                '90ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyBeam_02_Regular_BluePink_90ft_4000x400.webm'
+                }
+
+            }
+        },
+        '03': {
+            bluepink:{
+                '03': {
+                '05ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyBeam_03_Regular_BluePink_05ft_600x400.webm',
+                '15ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyBeam_03_Regular_BluePink_15ft_1000x400.webm',
+                '30ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyBeam_03_Regular_BluePink_30ft_1600x400.webm',
+                '60ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyBeam_03_Regular_BluePink_60ft_2800x400.webm',
+                '90ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyBeam_03_Regular_BluePink_90ft_4000x400.webm'
+                }
+
+            }
+        }
+    },
+    energy_conduit: {
+        bluepurple: {
+            circle: {
+                '01': {
+                    '05ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyConduitCircle_01_Regular_BluePurple_05ft_600x400.webm',
+                    '15ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyConduitCircle_01_Regular_BluePurple_15ft_1000x400.webm',
+                    '30ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyConduitCircle_01_Regular_BluePurple_30ft_1600x400.webm',
+                    '60ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyConduitCircle_01_Regular_BluePurple_60ft_2800x400.webm',
+                    '90ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyConduitCircle_01_Regular_BluePurple_90ft_4000x400.webm'
+                }
+            }
         }
     },
     energy_field: {
@@ -479,7 +521,21 @@ let freeDatabase = {
                     '60ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Purple_60ft_2800x400.webm',
                     '90ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Purple_90ft_4000x400.webm'
                 },
+                '02': {
+                    bluepink: {
+                        '05ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyStrand_Multiple02_Regular_BluePink_05ft_600x400.webm',
+                        '15ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyStrand_Multiple02_Regular_BluePink_15ft_1000x400.webm',
+                        '30ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyStrand_Multiple02_Regular_BluePink_30ft_1600x400.webm',
+                        '60ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyStrand_Multiple02_Regular_BluePink_60ft_2800x400.webm',
+                        '90ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyStrand_Multiple02_Regular_BluePink_90ft_4000x400.webm'
+                    }
+                }
             }
+        }
+    },
+    eruption: {
+        orange:{
+            '01': 'modules/JB2A_DnD5e/Library/Generic/Fire/Eruption_01_Regular_Orange_600x600.webm'
         }
     },
     entangle: {
@@ -1283,6 +1339,15 @@ let freeDatabase = {
     lightning_strike: {
         '01': "modules/JB2A_DnD5e/Library/Generic/Lightning/LightningStrike_01a_800x800.webm",
         '02': "modules/JB2A_DnD5e/Library/Generic/Lightning/LightningStrike_01b_800x800.webm",
+    },
+    liquid: {
+        splash: {
+            blue: 'modules/JB2A_DnD5e/Library/Generic/Liquid/LiquidSplash01_Regular_Blue_400x400.webm'
+        },
+        splash_side: {
+            _template: 'side_impact',
+            blue: 'modules/JB2A_DnD5e/Library/Generic/Liquid/LiquidSplashSide01_Regular_Blue_600x600.webm'
+        }
     },
     mace: {
         melee: {

@@ -1,6 +1,6 @@
 let patreonDatabase = {
     _templates: {
-        default: [100, 0, 0],
+        //default: [100, 0, 0],
         cone: [100, 0, 0],
         cone100: [100, 100, 100],
         cone200: [200, 100, 100],
@@ -1500,23 +1500,100 @@ let patreonDatabase = {
         _template: 'ranged',
         normal: {
             blue: {
-                '15ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_01_Regular_Blue_15ft_1000x400.webm',
-                '30ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_01_Regular_Blue_30ft_1600x400.webm',
-                '60ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_01_Regular_Blue_60ft_2800x400.webm',
-                '90ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_01_Regular_Blue_90ft_4000x400.webm'
+                '01': {
+                    '15ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_01_Regular_Blue_15ft_1000x400.webm',
+                    '30ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_01_Regular_Blue_30ft_1600x400.webm',
+                    '60ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_01_Regular_Blue_60ft_2800x400.webm',
+                    '90ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_01_Regular_Blue_90ft_4000x400.webm'
+                }
+
             },
             bluegreen: {
-                '15ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_01_Regular_BlueGreen_15ft_1000x400.webm',
-                '30ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_01_Regular_BlueGreen_30ft_1600x400.webm',
-                '60ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_01_Regular_BlueGreen_60ft_2800x400.webm',
-                '90ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_01_Regular_BlueGreen_90ft_4000x400.webm'
+                '01': {
+                    '15ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_01_Regular_BlueGreen_15ft_1000x400.webm',
+                    '30ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_01_Regular_BlueGreen_30ft_1600x400.webm',
+                    '60ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_01_Regular_BlueGreen_60ft_2800x400.webm',
+                    '90ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_01_Regular_BlueGreen_90ft_4000x400.webm'
+                }
+
             },
             dark_green: {
-                '15ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_01_Dark_Green_15ft_1000x400.webm',
-                '30ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_01_Dark_Green_30ft_1600x400.webm',
-                '60ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_01_Dark_Green_60ft_2800x400.webm',
-                '90ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_01_Dark_Green_90ft_4000x400.webm'
-            }
+                '01': {
+                    '15ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_01_Dark_Green_15ft_1000x400.webm',
+                    '30ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_01_Dark_Green_30ft_1600x400.webm',
+                    '60ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_01_Dark_Green_60ft_2800x400.webm',
+                    '90ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_01_Dark_Green_90ft_4000x400.webm'
+                }
+
+            },
+            dark_purplered: {
+                '02': {
+                    '05ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Dark_PurpleRed_05ft_600x400.webm',
+                    '15ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Dark_PurpleRed_15ft_1000x400.webm',
+                    '30ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Dark_PurpleRed_30ft_1600x400.webm',
+                    '60ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Dark_PurpleRed_60ft_2800x400.webm',
+                    '90ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Dark_PurpleRed_90ft_4000x400.webm'
+                },
+                '03': {
+                    '05ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Dark_PurpleRed_05ft_600x400.webm',
+                    '15ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Dark_PurpleRed_15ft_1000x400.webm',
+                    '30ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Dark_PurpleRed_30ft_1600x400.webm',
+                    '60ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Dark_PurpleRed_60ft_2800x400.webm',
+                    '90ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Dark_PurpleRed_90ft_4000x400.webm'
+                }
+
+            },
+            dark_greenpurple: {
+                '02': {
+                    '05ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Dark_GreenPurple_05ft_600x400.webm',
+                    '15ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Dark_GreenPurple_15ft_1000x400.webm',
+                    '30ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Dark_GreenPurple_30ft_1600x400.webm',
+                    '60ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Dark_GreenPurple_60ft_2800x400.webm',
+                    '90ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Dark_GreenPurple_90ft_4000x400.webm'
+                },
+                '03': {
+                    '05ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Dark_GreenPurple_05ft_600x400.webm',
+                    '15ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Dark_GreenPurple_15ft_1000x400.webm',
+                    '30ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Dark_GreenPurple_30ft_1600x400.webm',
+                    '60ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Dark_GreenPurple_60ft_2800x400.webm',
+                    '90ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Dark_GreenPurple_90ft_4000x400.webm'
+                }
+
+            },
+            bluepink: {
+                '02': {
+                    '05ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Regular_BluePink_05ft_600x400.webm',
+                    '15ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Regular_BluePink_15ft_1000x400.webm',
+                    '30ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Regular_BluePink_30ft_1600x400.webm',
+                    '60ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Regular_BluePink_60ft_2800x400.webm',
+                    '90ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Regular_BluePink_90ft_4000x400.webm'
+                },
+                '03': {
+                    '05ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Regular_BluePink_05ft_600x400.webm',
+                    '15ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Regular_BluePink_15ft_1000x400.webm',
+                    '30ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Regular_BluePink_30ft_1600x400.webm',
+                    '60ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Regular_BluePink_60ft_2800x400.webm',
+                    '90ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Regular_BluePink_90ft_4000x400.webm'
+                }
+
+            },
+            greenyellow: {
+                '02': {
+                    '05ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Regular_GreenYellow_05ft_600x400.webm',
+                    '15ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Regular_GreenYellow_15ft_1000x400.webm',
+                    '30ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Regular_GreenYellow_30ft_1600x400.webm',
+                    '60ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Regular_GreenYellow_60ft_2800x400.webm',
+                    '90ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Regular_GreenYellow_90ft_4000x400.webm'
+                },
+                '03': {
+                    '05ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Regular_GreenYellow_05ft_600x400.webm',
+                    '15ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Regular_GreenYellow_15ft_1000x400.webm',
+                    '30ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Regular_GreenYellow_30ft_1600x400.webm',
+                    '60ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Regular_GreenYellow_60ft_2800x400.webm',
+                    '90ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Regular_GreenYellow_90ft_4000x400.webm'
+                }
+
+            },
         },
         reverse: {
             blue: {
@@ -1536,6 +1613,48 @@ let patreonDatabase = {
                 '30ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeamReverse_01_Dark_Green_30ft_1600x400.webm',
                 '60ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeamReverse_01_Dark_Green_60ft_2800x400.webm',
                 '90ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyBeamReverse_01_Dark_Green_90ft_4000x400.webm'
+            }
+        }
+    },
+    energy_conduit: {
+        bluepurple: {
+            circle: {
+                '01': {
+                    '05ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyConduitCircle_01_Regular_BluePurple_05ft_600x400.webm',
+                    '15ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyConduitCircle_01_Regular_BluePurple_15ft_1000x400.webm',
+                    '30ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyConduitCircle_01_Regular_BluePurple_30ft_1600x400.webm',
+                    '60ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyConduitCircle_01_Regular_BluePurple_60ft_2800x400.webm',
+                    '90ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyConduitCircle_01_Regular_BluePurple_90ft_4000x400.webm'
+                }
+            },
+            square: {
+                '01': {
+                    '05ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyConduitSquare_01_Regular_BluePurple_05ft_600x400.webm',
+                    '15ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyConduitSquare_01_Regular_BluePurple_15ft_1000x400.webm',
+                    '30ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyConduitSquare_01_Regular_BluePurple_30ft_1600x400.webm',
+                    '60ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyConduitSquare_01_Regular_BluePurple_60ft_2800x400.webm',
+                    '90ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyConduitSquare_01_Regular_BluePurple_90ft_4000x400.webm'
+                }
+            }
+        },
+        greenyellow: {
+            circle: {
+                '01': {
+                    '05ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyConduitCircle_01_Regular_GreenYellow_05ft_600x400.webm',
+                    '15ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyConduitCircle_01_Regular_GreenYellow_15ft_1000x400.webm',
+                    '30ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyConduitCircle_01_Regular_GreenYellow_30ft_1600x400.webm',
+                    '60ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyConduitCircle_01_Regular_GreenYellow_60ft_2800x400.webm',
+                    '90ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyConduitCircle_01_Regular_GreenYellow_90ft_4000x400.webm'
+                }
+            },
+            square: {
+                '01': {
+                    '05ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyConduitSquare_01_Regular_GreenYellow_05ft_600x400.webm',
+                    '15ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyConduitSquare_01_Regular_GreenYellow_15ft_1000x400.webm',
+                    '30ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyConduitSquare_01_Regular_GreenYellow_30ft_1600x400.webm',
+                    '60ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyConduitSquare_01_Regular_GreenYellow_60ft_2800x400.webm',
+                    '90ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyConduitSquare_01_Regular_GreenYellow_90ft_4000x400.webm'
+                }
             }
         }
     },
@@ -1566,6 +1685,9 @@ let patreonDatabase = {
             blueorange: {
                 '01': 'modules/jb2a_patreon/Library/Generic/Marker/EnergyStrands_01_Regular_BlueOrange_600x600.webm'
             },
+            dark_green: {
+                '01': 'modules/jb2a_patreon/Library/Generic/Marker/EnergyStrands_01_Dark_Green_600x600.webm'
+            },
             dark_red: {
                 '01': 'modules/jb2a_patreon/Library/Generic/Marker/EnergyStrands_01_Dark_Red_600x600.webm'
             },
@@ -1585,6 +1707,9 @@ let patreonDatabase = {
             },
             blueorange: {
                 '01': 'modules/jb2a_patreon/Library/Generic/Marker/EnergyStrandsOverlay_01_Regular_BlueOrange_600x600.webm'
+            },
+            dark_green: {
+                '01': 'modules/jb2a_patreon/Library/Generic/Marker/EnergyStrandsOverlay_01_Dark_Green_600x600.webm'
             },
             dark_red: {
                 '01': 'modules/jb2a_patreon/Library/Generic/Marker/EnergyStrandsOverlay_01_Dark_Red_600x600.webm'
@@ -1784,35 +1909,109 @@ let patreonDatabase = {
                 }
             },
             multiple: {
+                dark_green: {
+                    '01': {
+                        '05ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Green_05ft_600x400.webm',
+                        '15ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Green_15ft_1000x400.webm',
+                        '30ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Green_30ft_1600x400.webm',
+                        '60ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Green_60ft_2800x400.webm',
+                        '90ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Green_90ft_4000x400.webm'
+                    }
+
+                },
                 dark_purple: {
-                    '05ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Purple_05ft_600x400.webm',
-                    '15ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Purple_15ft_1000x400.webm',
-                    '30ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Purple_30ft_1600x400.webm',
-                    '60ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Purple_60ft_2800x400.webm',
-                    '90ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Purple_90ft_4000x400.webm'
+                    '01': {
+                        '05ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Purple_05ft_600x400.webm',
+                        '15ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Purple_15ft_1000x400.webm',
+                        '30ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Purple_30ft_1600x400.webm',
+                        '60ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Purple_60ft_2800x400.webm',
+                        '90ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Purple_90ft_4000x400.webm'
+                    }
+
                 },
                 dark_red: {
-                    '05ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Red_05ft_600x400.webm',
-                    '15ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Red_15ft_1000x400.webm',
-                    '30ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Red_30ft_1600x400.webm',
-                    '60ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Red_60ft_2800x400.webm',
-                    '90ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Red_90ft_4000x400.webm'
+                    '01': {
+                        '05ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Red_05ft_600x400.webm',
+                        '15ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Red_15ft_1000x400.webm',
+                        '30ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Red_30ft_1600x400.webm',
+                        '60ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Red_60ft_2800x400.webm',
+                        '90ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Red_90ft_4000x400.webm'
+                    }
+
                 },
                 blue: {
-                    '05ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Blue_05ft_600x400.webm',
-                    '15ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Blue_15ft_1000x400.webm',
-                    '30ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Blue_30ft_1600x400.webm',
-                    '60ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Blue_60ft_2800x400.webm',
-                    '90ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Blue_90ft_4000x400.webm'
+                    '01': {
+                        '05ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Blue_05ft_600x400.webm',
+                        '15ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Blue_15ft_1000x400.webm',
+                        '30ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Blue_30ft_1600x400.webm',
+                        '60ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Blue_60ft_2800x400.webm',
+                        '90ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Blue_90ft_4000x400.webm'
+                    }
+
                 },
                 purple: {
-                    '05ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Purple_05ft_600x400.webm',
-                    '15ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Purple_15ft_1000x400.webm',
-                    '30ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Purple_30ft_1600x400.webm',
-                    '60ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Purple_60ft_2800x400.webm',
-                    '90ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Purple_90ft_4000x400.webm'
+                    '01': {
+                        '05ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Purple_05ft_600x400.webm',
+                        '15ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Purple_15ft_1000x400.webm',
+                        '30ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Purple_30ft_1600x400.webm',
+                        '60ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Purple_60ft_2800x400.webm',
+                        '90ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Purple_90ft_4000x400.webm'
+                    }
+
+                },
+                dark_purplered: {
+                    '02': {
+                        '05ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Dark_PurpleRed_05ft_600x400.webm',
+                        '15ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Dark_PurpleRed_15ft_1000x400.webm',
+                        '30ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Dark_PurpleRed_30ft_1600x400.webm',
+                        '60ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Dark_PurpleRed_60ft_2800x400.webm',
+                        '90ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Dark_PurpleRed_90ft_4000x400.webm'
+                    }
+
+                },
+                dark_greenpurple: {
+                    '02': {
+                        '05ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Dark_GreenPurple_05ft_600x400.webm',
+                        '15ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Dark_GreenPurple_15ft_1000x400.webm',
+                        '30ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Dark_GreenPurple_30ft_1600x400.webm',
+                        '60ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Dark_GreenPurple_60ft_2800x400.webm',
+                        '90ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Dark_GreenPurple_90ft_4000x400.webm'
+                    }
+
+                },
+                bluepink: {
+                    '02': {
+                        '05ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Regular_BluePink_05ft_600x400.webm',
+                        '15ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Regular_BluePink_15ft_1000x400.webm',
+                        '30ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Regular_BluePink_30ft_1600x400.webm',
+                        '60ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Regular_BluePink_60ft_2800x400.webm',
+                        '90ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Regular_BluePink_90ft_4000x400.webm'
+                    }
+
+                },
+                greenyellow: {
+                    '02': {
+                        '05ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Regular_GreenYellow_05ft_600x400.webm',
+                        '15ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Regular_GreenYellow_15ft_1000x400.webm',
+                        '30ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Regular_GreenYellow_30ft_1600x400.webm',
+                        '60ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Regular_GreenYellow_60ft_2800x400.webm',
+                        '90ft': 'modules/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Regular_GreenYellow_90ft_4000x400.webm'
+                    }
+
                 }
+
             }
+        }
+    },
+    eruption: {
+        blue: {
+            '01': 'modules/jb2a_patreon/Library/Generic/Fire/Eruption_01_Regular_Blue_600x600.webm'
+        },
+        green: {
+            '01': 'modules/jb2a_patreon/Library/Generic/Fire/Eruption_01_Regular_Green_600x600.webm'
+        },
+        orange: {
+            '01': 'modules/jb2a_patreon/Library/Generic/Fire/Eruption_01_Regular_Orange_600x600.webm'
         }
     },
     entangle: {
@@ -3572,7 +3771,7 @@ let patreonDatabase = {
             'modules/jb2a_patreon/Library/Generic/Impact/Impact_07_Regular_Yellow_400x400.webm'
         ]
     },
-    impact_themed:{
+    impact_themed: {
         heart: {
             pinkyellow: 'modules/jb2a_patreon/Library/Generic/Impact/ImpactHeart01_01_Regular_PinkYellow_400x400.webm'
         },
@@ -3645,9 +3844,9 @@ let patreonDatabase = {
                 sustenance: 'modules/jb2a_patreon/Library/Generic/Item/IounStone_02_Sustenance_White_200x200.webm'
             }
         }
-    }, 
+    },
     javelin: {
-//[--> WILL BE REMOVED   
+        //[--> WILL BE REMOVED   
         throw: {
             _template: 'ranged',
             '15ft': 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Javelin01_01_Regular_White_15ft_1000x400.webm',
@@ -3655,7 +3854,7 @@ let patreonDatabase = {
             '60ft': 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Javelin01_01_Regular_White_60ft_2800x400.webm',
             '90ft': 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Javelin01_01_Regular_White_90ft_4000x400.webm'
         },
-//<--] WILL BE REMOVED        
+        //<--] WILL BE REMOVED        
         '01': {
             throw: {
                 _template: 'ranged',
@@ -3929,6 +4128,25 @@ let patreonDatabase = {
         '04': 'modules/jb2a_patreon/Library/Generic/Lightning/LightningStrike_01d_800x800.webm',
         '05': 'modules/jb2a_patreon/Library/Generic/Lightning/LightningStrike_01e_800x800.webm',
         '06': 'modules/jb2a_patreon/Library/Generic/Lightning/LightningStrike_01f_800x800.webm',
+    },
+    liquid: {
+        splash: {
+            bright_blue: 'modules/jb2a_patreon/Library/Generic/Liquid/LiquidSplash01_Bright_Blue_400x400.webm',
+            bright_green: 'modules/jb2a_patreon/Library/Generic/Liquid/LiquidSplash01_Bright_Green_400x400.webm',
+            bright_purple: 'modules/jb2a_patreon/Library/Generic/Liquid/LiquidSplash01_Bright_Purple_400x400.webm',
+            blue: 'modules/jb2a_patreon/Library/Generic/Liquid/LiquidSplash01_Regular_Blue_400x400.webm',
+            green: 'modules/jb2a_patreon/Library/Generic/Liquid/LiquidSplash01_Regular_Green_400x400.webm',
+            red: 'modules/jb2a_patreon/Library/Generic/Liquid/LiquidSplash01_Regular_Red_400x400.webm'
+        },
+        splash_side: {
+            _template: 'side_impact',
+            bright_blue: 'modules/jb2a_patreon/Library/Generic/Liquid/LiquidSplashSide01_Bright_Blue_600x600.webm',
+            bright_green: 'modules/jb2a_patreon/Library/Generic/Liquid/LiquidSplashSide01_Bright_Green_600x600.webm',
+            bright_purple: 'modules/jb2a_patreon/Library/Generic/Liquid/LiquidSplashSide01_Bright_Purple_600x600.webm',
+            blue: 'modules/jb2a_patreon/Library/Generic/Liquid/LiquidSplashSide01_Regular_Blue_600x600.webm',
+            green: 'modules/jb2a_patreon/Library/Generic/Liquid/LiquidSplashSide01_Regular_Green_600x600.webm',
+            red: 'modules/jb2a_patreon/Library/Generic/Liquid/LiquidSplashSide01_Regular_Red_600x600.webm'
+        }
     },
     mace: {
         melee: {
@@ -5033,6 +5251,20 @@ let patreonDatabase = {
                 red: 'modules/jb2a_patreon/Library/Generic/Portals/Portal_Bright_Red_H_400x400.webm',
                 yellow: 'modules/jb2a_patreon/Library/Generic/Portals/Portal_Bright_Yellow_H_400x400.webm'
             },
+            ring_masked: {
+                blue: 'modules/jb2a_patreon/Library/Generic/Portals/Masked/Portal_Bright_Blue_H_NoBG_400x400.webm',
+                dark_blue: 'modules/jb2a_patreon/Library/Generic/Portals/Masked/Portal_Dark_Blue_H_NoBG_400x400.webm',
+                dark_green: 'modules/jb2a_patreon/Library/Generic/Portals/Masked/Portal_Dark_Green_H_NoBG_400x400.webm',
+                dark_purple: 'modules/jb2a_patreon/Library/Generic/Portals/Masked/Portal_Dark_Purple_H_NoBG_400x400.webm',
+                dark_red: 'modules/jb2a_patreon/Library/Generic/Portals/Masked/Portal_Dark_Red_H_NoBG_400x400.webm',
+                dark_red_yellow: 'modules/jb2a_patreon/Library/Generic/Portals/Masked/Portal_Dark_RedYellow_H_NoBG_400x400.webm',
+                dark_yellow: 'modules/jb2a_patreon/Library/Generic/Portals/Masked/Portal_Dark_Yellow_H_NoBG_400x400.webm',
+                green: 'modules/jb2a_patreon/Library/Generic/Portals/Masked/Portal_Bright_Green_H_NoBG_400x400.webm',
+                orange: 'modules/jb2a_patreon/Library/Generic/Portals/Masked/Portal_Bright_Orange_H_NoBG_400x400.webm',
+                purple: 'modules/jb2a_patreon/Library/Generic/Portals/Masked/Portal_Bright_Purple_H_NoBG_400x400.webm',
+                red: 'modules/jb2a_patreon/Library/Generic/Portals/Masked/Portal_Bright_Red_H_NoBG_400x400.webm',
+                yellow: 'modules/jb2a_patreon/Library/Generic/Portals/Masked/Portal_Bright_Yellow_H_NoBG_400x400.webm'
+            },
             vortex: {
                 black: 'modules/jb2a_patreon/Library/Generic/Portals/Portal_Vortex_Black_H_400x400.webm',
                 blue: 'modules/jb2a_patreon/Library/Generic/Portals/Portal_Vortex_Blue_H_400x400.webm',
@@ -5041,6 +5273,14 @@ let patreonDatabase = {
                 purple: 'modules/jb2a_patreon/Library/Generic/Portals/Portal_Vortex_Purple_H_400x400.webm',
                 red: 'modules/jb2a_patreon/Library/Generic/Portals/Portal_Vortex_Red_H_400x400.webm',
                 yellow: 'modules/jb2a_patreon/Library/Generic/Portals/Portal_Vortex_Yellow_H_400x400.webm'
+            },
+            vortex_masked: {
+                blue: 'modules/jb2a_patreon/Library/Generic/Portals/Masked/Portal_Vortex_Blue_H_NoBG_400x400.webm',
+                green: 'modules/jb2a_patreon/Library/Generic/Portals/Masked/Portal_Vortex_Green_H_NoBG_400x400.webm',
+                orange: 'modules/jb2a_patreon/Library/Generic/Portals/Masked/Portal_Vortex_Orange_H_NoBG_400x400.webm',
+                purple: 'modules/jb2a_patreon/Library/Generic/Portals/Masked/Portal_Vortex_Purple_H_NoBG_400x400.webm',
+                red: 'modules/jb2a_patreon/Library/Generic/Portals/Masked/Portal_Vortex_Red_H_NoBG_400x400.webm',
+                yellow: 'modules/jb2a_patreon/Library/Generic/Portals/Masked/Portal_Vortex_Yellow_H_NoBG_400x400.webm'
             }
         },
         vertical: {
@@ -5058,6 +5298,20 @@ let patreonDatabase = {
                 red: 'modules/jb2a_patreon/Library/Generic/Portals/Portal_Bright_Red_V_400x250.webm',
                 yellow: 'modules/jb2a_patreon/Library/Generic/Portals/Portal_Bright_Yellow_V_400x250.webm'
             },
+            ring_masked: {
+                blue: 'modules/jb2a_patreon/Library/Generic/Portals/Masked/Portal_Bright_Blue_V_NoBG_400x250.webm',
+                dark_blue: 'modules/jb2a_patreon/Library/Generic/Portals/Masked/Portal_Dark_Blue_V_NoBG_400x250.webm',
+                dark_green: 'modules/jb2a_patreon/Library/Generic/Portals/Masked/Portal_Dark_Green_V_NoBG_400x250.webm',
+                dark_purple: 'modules/jb2a_patreon/Library/Generic/Portals/Masked/Portal_Dark_Purple_V_NoBG_400x250.webm',
+                dark_red: 'modules/jb2a_patreon/Library/Generic/Portals/Masked/Portal_Dark_Red_V_NoBG_400x250.webm',
+                dark_red_yellow: 'modules/jb2a_patreon/Library/Generic/Portals/Masked/Portal_Dark_RedYellow_V_NoBG_400x250.webm',
+                dark_yellow: 'modules/jb2a_patreon/Library/Generic/Portals/Masked/Portal_Dark_Yellow_V_NoBG_400x250.webm',
+                green: 'modules/jb2a_patreon/Library/Generic/Portals/Masked/Portal_Bright_Green_V_NoBG_400x250.webm',
+                orange: 'modules/jb2a_patreon/Library/Generic/Portals/Masked/Portal_Bright_Orange_V_NoBG_400x250.webm',
+                purple: 'modules/jb2a_patreon/Library/Generic/Portals/Masked/Portal_Bright_Purple_V_NoBG_400x250.webm',
+                red: 'modules/jb2a_patreon/Library/Generic/Portals/Masked/Portal_Bright_Red_V_NoBG_400x250.webm',
+                yellow: 'modules/jb2a_patreon/Library/Generic/Portals/Masked/Portal_Bright_Yellow_V_NoBG_400x250.webm'
+            },
             vortex: {
                 black: 'modules/jb2a_patreon/Library/Generic/Portals/Portal_Vortex_Black_V_400x300.webm',
                 blue: 'modules/jb2a_patreon/Library/Generic/Portals/Portal_Vortex_Blue_V_400x300.webm',
@@ -5066,6 +5320,14 @@ let patreonDatabase = {
                 purple: 'modules/jb2a_patreon/Library/Generic/Portals/Portal_Vortex_Purple_V_400x300.webm',
                 red: 'modules/jb2a_patreon/Library/Generic/Portals/Portal_Vortex_Red_V_400x300.webm',
                 yellow: 'modules/jb2a_patreon/Library/Generic/Portals/Portal_Vortex_Yellow_V_400x300.webm'
+            },
+            vortex_masked: {
+                blue: 'modules/jb2a_patreon/Library/Generic/Portals/Masked/Portal_Vortex_Blue_V_NoBG_400x300.webm',
+                green: 'modules/jb2a_patreon/Library/Generic/Portals/Masked/Portal_Vortex_Green_V_NoBG_400x300.webm',
+                orange: 'modules/jb2a_patreon/Library/Generic/Portals/Masked/Portal_Vortex_Orange_V_NoBG_400x300.webm',
+                purple: 'modules/jb2a_patreon/Library/Generic/Portals/Masked/Portal_Vortex_Purple_V_NoBG_400x300.webm',
+                red: 'modules/jb2a_patreon/Library/Generic/Portals/Masked/Portal_Vortex_Red_V_NoBG_400x300.webm',
+                yellow: 'modules/jb2a_patreon/Library/Generic/Portals/Masked/Portal_Vortex_Yellow_V_NoBG_400x300.webm'
             }
         }
     },
