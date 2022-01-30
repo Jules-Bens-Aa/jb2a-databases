@@ -1617,6 +1617,7 @@ let patreonDatabase = {
         }
     },
     energy_conduit: {
+        _template: 'ranged',
         bluepurple: {
             circle: {
                 '01': {

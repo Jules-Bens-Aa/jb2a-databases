@@ -443,6 +443,7 @@ let freeDatabase = {
         }
     },
     energy_conduit: {
+        _template: 'ranged',
         bluepurple: {
             circle: {
                 '01': {
