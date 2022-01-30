@@ -418,25 +418,25 @@ let freeDatabase = {
             }
         },
         '02': {
-            bluepink:{
+            bluepink: {
                 '02': {
-                '05ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyBeam_02_Regular_BluePink_05ft_600x400.webm',
-                '15ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyBeam_02_Regular_BluePink_15ft_1000x400.webm',
-                '30ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyBeam_02_Regular_BluePink_30ft_1600x400.webm',
-                '60ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyBeam_02_Regular_BluePink_60ft_2800x400.webm',
-                '90ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyBeam_02_Regular_BluePink_90ft_4000x400.webm'
+                    '05ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyBeam_02_Regular_BluePink_05ft_600x400.webm',
+                    '15ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyBeam_02_Regular_BluePink_15ft_1000x400.webm',
+                    '30ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyBeam_02_Regular_BluePink_30ft_1600x400.webm',
+                    '60ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyBeam_02_Regular_BluePink_60ft_2800x400.webm',
+                    '90ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyBeam_02_Regular_BluePink_90ft_4000x400.webm'
                 }
 
             }
         },
         '03': {
-            bluepink:{
+            bluepink: {
                 '03': {
-                '05ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyBeam_03_Regular_BluePink_05ft_600x400.webm',
-                '15ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyBeam_03_Regular_BluePink_15ft_1000x400.webm',
-                '30ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyBeam_03_Regular_BluePink_30ft_1600x400.webm',
-                '60ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyBeam_03_Regular_BluePink_60ft_2800x400.webm',
-                '90ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyBeam_03_Regular_BluePink_90ft_4000x400.webm'
+                    '05ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyBeam_03_Regular_BluePink_05ft_600x400.webm',
+                    '15ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyBeam_03_Regular_BluePink_15ft_1000x400.webm',
+                    '30ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyBeam_03_Regular_BluePink_30ft_1600x400.webm',
+                    '60ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyBeam_03_Regular_BluePink_60ft_2800x400.webm',
+                    '90ft': 'modules/JB2A_DnD5e/Library/Generic/Energy/EnergyBeam_03_Regular_BluePink_90ft_4000x400.webm'
                 }
 
             }
@@ -534,7 +534,7 @@ let freeDatabase = {
         }
     },
     eruption: {
-        orange:{
+        orange: {
             '01': 'modules/JB2A_DnD5e/Library/Generic/Fire/Eruption_01_Regular_Orange_600x600.webm'
         }
     },
@@ -1196,7 +1196,7 @@ let freeDatabase = {
             'modules/JB2A_DnD5e/Library/Generic/Impact/Impact_12_Regular_Blue_400x400.webm'
         ],
         ground_crack: {
-            orange:{
+            orange: {
                 '01': 'modules/JB2A_DnD5e/Library/Generic/Impact/GroundCrackImpact_01_Regular_Orange_600x600.webm',
                 '02': 'modules/JB2A_DnD5e/Library/Generic/Impact/GroundCrackImpact_02_Regular_Orange_600x600.webm',
                 '03': 'modules/JB2A_DnD5e/Library/Generic/Impact/GroundCrackImpact_03_Regular_Orange_600x600.webm'
@@ -1231,7 +1231,7 @@ let freeDatabase = {
             'modules/JB2A_DnD5e/Library/Generic/Impact/Impact_07_Regular_Yellow_400x400.webm'
         ]
     },
-    impact_themed:{
+    impact_themed: {
         ice_shard: {
             blue: 'modules/JB2A_DnD5e/Library/Generic/Impact/ImpactIceShard01_01_Regular_Blue_400x400.webm'
         }
@@ -1604,7 +1604,7 @@ let freeDatabase = {
                 blue: 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerBubbleOutro_01_Regular_Blue_400x400.webm'
             }
         },
-        circle_of_stars:{
+        circle_of_stars: {
             blue: 'modules/JB2A_DnD5e/Library/Generic/Marker/MarkerCircleOfStars_Regular_Blue_400x400.webm'
         },
         drop: {
