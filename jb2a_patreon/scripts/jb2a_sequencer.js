@@ -3014,6 +3014,9 @@ let patreonDatabase = {
                 pink: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatAxe01_Fire_Regular_Pink_800x600.webm',
                 red: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatAxe01_Fire_Regular_Red_800x600.webm',
                 yellow: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatAxe01_Fire_Regular_Yellow_800x600.webm'
+            },
+            standard: {
+                white: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatAxe01_01_Regular_White_800x600.webm'
             }
         },
         throw: {
@@ -3043,6 +3046,9 @@ let patreonDatabase = {
             red: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatClub01_Fire_Regular_Red_800x600.webm',
             yellow: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatClub01_Fire_Regular_Yellow_800x600.webm'
         },
+        standard: {
+            white: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatClub01_01_Regular_White_800x600.webm'
+        }
     },
     greatsword: {
         melee: {
@@ -3057,6 +3063,9 @@ let patreonDatabase = {
                 red: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatSword01_Fire_Regular_Red_800x600.webm',
                 yellow: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatSword01_Fire_Regular_Yellow_800x600.webm'
             },
+            standard: {
+                white: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatSword01_01_Regular_White_800x600.webm'
+            }
         },
         return: {
             _template: 'ranged',
@@ -3329,6 +3338,9 @@ let patreonDatabase = {
                 pink: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/HandAxe02_Fire_Regular_Pink_800x600.webm',
                 red: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/HandAxe02_Fire_Regular_Red_800x600.webm',
                 yellow: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/HandAxe02_Fire_Regular_Yellow_800x600.webm'
+            },
+            standard: {
+                white: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/HandAxe02_01_Regular_White_800x600.webm'
             }
         },
         throw: {
@@ -5125,6 +5137,9 @@ let patreonDatabase = {
                 pink: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Maul01_Fire_Regular_Pink_800x600.webm',
                 red: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Maul01_Fire_Regular_Red_800x600.webm',
                 yellow: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Maul01_Fire_Regular_Yellow_800x600.webm'
+            },
+            standard: {
+                white: 'modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Maul01_01_Regular_White_800x600.webm'
             }
         }
     },

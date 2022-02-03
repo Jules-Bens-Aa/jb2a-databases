@@ -944,17 +944,23 @@ let freeDatabase = {
     greataxe: {
         melee: {
             _template: 'melee',
-            white: 'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/GreatAxe01_01_Regular_White_800x600.webm'
+            standard: {
+                white: 'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/GreatAxe01_01_Regular_White_800x600.webm'
+            }
         }
     },
     greatclub: {
         _template: 'melee',
-        white: 'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/GreatClub01_01_Regular_White_800x600.webm'
+        standard: {
+            white: 'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/GreatClub01_01_Regular_White_800x600.webm'
+        }                    
     },
     greatsword: {
         melee: {
             _template: 'melee',
-            white: 'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/GreatSword01_01_Regular_White_800x600.webm'
+            standard: {
+                white: 'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/GreatSword01_01_Regular_White_800x600.webm'
+            }
         }
     },
     ground_cracks: {
@@ -1023,7 +1029,9 @@ let freeDatabase = {
     handaxe: {
         melee: {
             _template: 'melee',
-            white: 'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/HandAxe02_01_Regular_White_800x600.webm'
+            standard: {
+                white: 'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/HandAxe02_01_Regular_White_800x600.webm'
+            }
         }
     },
     healing_generic: {
@@ -1723,7 +1731,9 @@ let freeDatabase = {
     maul: {
         _template: 'melee',
         melee: {
-            white: 'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Maul01_01_Regular_White_800x600.webm'
+            standard: {
+                white: 'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Maul01_01_Regular_White_800x600.webm'
+            }
         }
     },
     misty_step: {
