@@ -934,6 +934,22 @@ let freeDatabase = {
             }
         }
     },
+    glint: {
+        yellow: {
+            few: [
+                'modules/JB2A_DnD5e/Library/Generic/Item/GlintFew01_01_Regular_Yellow_200x200.webm',
+                'modules/JB2A_DnD5e/Library/Generic/Item/GlintFew01_02_Regular_Yellow_200x200.webm',
+                'modules/JB2A_DnD5e/Library/Generic/Item/GlintFew01_03_Regular_Yellow_200x200.webm',
+                'modules/JB2A_DnD5e/Library/Generic/Item/GlintFew01_04_Regular_Yellow_200x200.webm',
+            ],
+            many: [
+                'modules/JB2A_DnD5e/Library/Generic/Item/GlintMany01_01_Regular_Yellow_200x200.webm',
+                'modules/JB2A_DnD5e/Library/Generic/Item/GlintMany01_02_Regular_Yellow_200x200.webm',
+                'modules/JB2A_DnD5e/Library/Generic/Item/GlintMany01_03_Regular_Yellow_200x200.webm',
+                'modules/JB2A_DnD5e/Library/Generic/Item/GlintMany01_04_Regular_Yellow_200x200.webm',
+            ]
+        }
+    },
     grease: {
         _template: 'large',
         dark_brown: {
@@ -953,7 +969,7 @@ let freeDatabase = {
         _template: 'melee',
         standard: {
             white: 'modules/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/GreatClub01_01_Regular_White_800x600.webm'
-        }                    
+        }
     },
     greatsword: {
         melee: {
@@ -1783,6 +1799,26 @@ let freeDatabase = {
             blue: "modules/JB2A_DnD5e/Library/Generic/Music_Notation/TrebleClef_01_Regular_Blue_200x200.webm"
         }
     },
+    particles: {
+        outward: {
+            greenyellow: {
+                '01': {
+                    '01': 'modules/JB2A_DnD5e/Library/Generic/Particles/ParticlesOutward01_01_Regular_GreenYellow_400x400.webm',
+                    '02': 'modules/JB2A_DnD5e/Library/Generic/Particles/ParticlesOutward01_02_Regular_GreenYellow_400x400.webm',
+                    '03': 'modules/JB2A_DnD5e/Library/Generic/Particles/ParticlesOutward01_03_Regular_GreenYellow_400x400.webm',
+                    '04': 'modules/JB2A_DnD5e/Library/Generic/Particles/ParticlesOutward01_04_Regular_GreenYellow_400x400.webm',
+                    '05': 'modules/JB2A_DnD5e/Library/Generic/Particles/ParticlesOutward01_05_Regular_GreenYellow_400x400.webm'
+                },
+                '02': {
+                    '01': 'modules/JB2A_DnD5e/Library/Generic/Particles/ParticlesOutward02_01_Regular_GreenYellow_400x400.webm',
+                    '02': 'modules/JB2A_DnD5e/Library/Generic/Particles/ParticlesOutward02_02_Regular_GreenYellow_400x400.webm',
+                    '03': 'modules/JB2A_DnD5e/Library/Generic/Particles/ParticlesOutward02_03_Regular_GreenYellow_400x400.webm',
+                    '04': 'modules/JB2A_DnD5e/Library/Generic/Particles/ParticlesOutward02_04_Regular_GreenYellow_400x400.webm',
+                    '05': 'modules/JB2A_DnD5e/Library/Generic/Particles/ParticlesOutward02_05_Regular_GreenYellow_400x400.webm'
+                }
+            }
+        }
+    },
     portals: {
         horizontal: {
             ring: {
@@ -1935,6 +1971,11 @@ let freeDatabase = {
             }
         }
     },
+    shimmer: {
+        '01': {
+            blue: 'modules/JB2A_DnD5e/Library/Generic/Energy/Shimmer01_01_Regular_Blue_400x400.webm'
+        }
+    },
     shortsword: {
         melee: {
             _template: 'melee',
@@ -1997,6 +2038,26 @@ let freeDatabase = {
     },
     sleet_storm: {
         blue: 'modules/JB2A_DnD5e/Library/3rd_Level/Sleet_Storm/SleetStorm_01_Blue_800x800.webm'
+    },
+    smoke: {
+        puff: {
+            side: {
+                grey: [
+                    'modules/JB2A_DnD5e/Library/Generic/Smoke/SmokePuffSide01_01_Regular_Grey_400x400.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Smoke/SmokePuffSide01_02_Regular_Grey_400x400.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Smoke/SmokePuffSide01_03_Regular_Grey_400x400.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Smoke/SmokePuffSide01_04_Regular_Grey_400x400.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Smoke/SmokePuffSide01_05_Regular_Grey_400x400.webm',
+                ]
+            },
+            centered: {
+                grey: [
+                    'modules/JB2A_DnD5e/Library/Generic/Smoke/SmokePuff01_01_Regular_Grey_400x400.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Smoke/SmokePuff01_02_Regular_Grey_400x400.webm',
+                    'modules/JB2A_DnD5e/Library/Generic/Smoke/SmokePuff01_03_Regular_Grey_400x400.webm',
+                ]
+            }
+        },
     },
     sneak_attack: {
         dark_green: 'modules/JB2A_DnD5e/Library/1st_Level/Sneak_Attack/Sneak_Attack_Dark_Green_300x300.webm'
@@ -2253,6 +2314,25 @@ let freeDatabase = {
                     '005': 'modules/JB2A_DnD5e/Library/Generic/Token_Border/TokenBorderCircleSpin_05_Regular_Blue_400x400.webm',
                     '006': 'modules/JB2A_DnD5e/Library/Generic/Token_Border/TokenBorderCircleSpin_06_Regular_Blue_400x400.webm',
                     '007': 'modules/JB2A_DnD5e/Library/Generic/Token_Border/TokenBorderCircleSpin_07_Regular_Blue_400x400.webm'
+                }
+            }
+        }
+    },
+    token_stage: {
+        round: {
+            blue: {
+                '01': {
+                    '01': 'modules/JB2A_DnD5e/Library/Generic/Token_Stage/TokenStageRound01_01_Regular_Blue_400x400.webm',
+                    '02': 'modules/JB2A_DnD5e/Library/Generic/Token_Stage/TokenStageRound01_02_Regular_Blue_400x400.webm',
+                    '03': 'modules/JB2A_DnD5e/Library/Generic/Token_Stage/TokenStageRound01_03_Regular_Blue_400x400.webm',
+                    '04': 'modules/JB2A_DnD5e/Library/Generic/Token_Stage/TokenStageRound01_04_Regular_Blue_400x400.webm',
+                    '05': 'modules/JB2A_DnD5e/Library/Generic/Token_Stage/TokenStageRound01_05_Regular_Blue_400x400.webm',
+                    '06': 'modules/JB2A_DnD5e/Library/Generic/Token_Stage/TokenStageRound01_06_Regular_Blue_400x400.webm'
+                },
+                '02': {
+                    '01': 'modules/JB2A_DnD5e/Library/Generic/Token_Stage/TokenStageRound02_01_Regular_Blue_400x400.webm',
+                    '02': 'modules/JB2A_DnD5e/Library/Generic/Token_Stage/TokenStageRound02_02_Regular_Blue_400x400.webm',
+                    '03': 'modules/JB2A_DnD5e/Library/Generic/Token_Stage/TokenStageRound02_03_Regular_Blue_400x400.webm'
                 }
             }
         }
