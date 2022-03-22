@@ -953,6 +953,13 @@ let patreonDatabase = {
                 '60ft': 'modules/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Green02_60ft_Primary_2800x400.webm',
                 '90ft': 'modules/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Green02_90ft_Primary_4000x400.webm'
             },
+            orange: {
+                '05ft': 'modules/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Orange_05ft_Primary_600x400.webm',
+                '15ft': 'modules/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Orange_15ft_Primary_1000x400.webm',
+                '30ft': 'modules/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Orange_30ft_Primary_1600x400.webm',
+                '60ft': 'modules/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Orange_60ft_Primary_2800x400.webm',
+                '90ft': 'modules/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Orange_90ft_Primary_4000x400.webm'
+            },
             purple: {
                 '05ft': 'modules/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Purple_05ft_Primary_600x400.webm',
                 '15ft': 'modules/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Purple_15ft_Primary_1000x400.webm',
@@ -1003,6 +1010,13 @@ let patreonDatabase = {
                 '30ft': 'modules/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Green02_30ft_Secondary_1600x400.webm',
                 '60ft': 'modules/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Green02_60ft_Secondary_2800x400.webm',
                 '90ft': 'modules/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Green02_90ft_Secondary_4000x400.webm'
+            },
+            orange: {
+                '05ft': 'modules/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Orange_05ft_Secondary_600x400.webm',
+                '15ft': 'modules/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Orange_15ft_Secondary_1000x400.webm',
+                '30ft': 'modules/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Orange_30ft_Secondary_1600x400.webm',
+                '60ft': 'modules/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Orange_60ft_Secondary_2800x400.webm',
+                '90ft': 'modules/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Orange_90ft_Secondary_4000x400.webm'
             },
             purple: {
                 '05ft': 'modules/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Purple_05ft_Secondary_600x400.webm',
@@ -2790,6 +2804,7 @@ let patreonDatabase = {
         }
     },
     flames: {
+        //[--> WILL BE REMOVED 
         '01': {
             blue: 'modules/jb2a_patreon/Library/Generic/Fire/Flame/Flames_01_Regular_Blue_200x200.webm',
             green: 'modules/jb2a_patreon/Library/Generic/Fire/Flame/Flames_01_Regular_Green_200x200.webm',
@@ -2801,6 +2816,79 @@ let patreonDatabase = {
             green: 'modules/jb2a_patreon/Library/Generic/Fire/Flame/Flames_02_Regular_Green_400x400.webm',
             orange: 'modules/jb2a_patreon/Library/Generic/Fire/Flame/Flames_02_Regular_Orange_400x400.webm',
             purple: 'modules/jb2a_patreon/Library/Generic/Fire/Flame/Flames_02_Regular_Purple_400x400.webm'
+        },
+        //<--] WILL BE REMOVED 
+        blue:{
+            '01': 'modules/jb2a_patreon/Library/Generic/Fire/Flame/Flames_01_Regular_Blue_200x200.webm',
+            '02': 'modules/jb2a_patreon/Library/Generic/Fire/Flame/Flames_02_Regular_Blue_400x400.webm',
+            '03': {
+                '1x1': [
+                    'modules/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_01_Regular_Blue_05x05ft_300x300.webm',
+                    'modules/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_02_Regular_Blue_05x05ft_300x300.webm'
+                ],
+                '2x1': [
+                    'modules/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_01_Regular_Blue_10x05ft_400x300.webm',
+                    'modules/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_02_Regular_Blue_10x05ft_400x300.webm'
+                ],
+                '2x2': [
+                    'modules/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_01_Regular_Blue_10x10ft_400x400.webm',
+                    'modules/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_02_Regular_Blue_10x10ft_400x400.webm'
+                ]
+            }
+        },
+        green:{
+            '01': 'modules/jb2a_patreon/Library/Generic/Fire/Flame/Flames_01_Regular_Green_200x200.webm',
+            '02': 'modules/jb2a_patreon/Library/Generic/Fire/Flame/Flames_02_Regular_Green_400x400.webm',
+            '03': {
+                '1x1': [
+                    'modules/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_01_Regular_Green_05x05ft_300x300.webm',
+                    'modules/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_02_Regular_Green_05x05ft_300x300.webm'
+                ],
+                '2x1': [
+                    'modules/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_01_Regular_Green_10x05ft_400x300.webm',
+                    'modules/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_02_Regular_Green_10x05ft_400x300.webm'
+                ],
+                '2x2': [
+                    'modules/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_01_Regular_Green_10x10ft_400x400.webm',
+                    'modules/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_02_Regular_Green_10x10ft_400x400.webm'
+                ]
+            }
+        },
+        orange:{
+            '01': 'modules/jb2a_patreon/Library/Generic/Fire/Flame/Flames_01_Regular_Orange_200x200.webm',
+            '02': 'modules/jb2a_patreon/Library/Generic/Fire/Flame/Flames_02_Regular_Orange_400x400.webm',
+            '03': {
+                '1x1': [
+                    'modules/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_01_Regular_Orange_05x05ft_300x300.webm',
+                    'modules/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_02_Regular_Orange_05x05ft_300x300.webm'
+                ],
+                '2x1': [
+                    'modules/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_01_Regular_Orange_10x05ft_400x300.webm',
+                    'modules/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_02_Regular_Orange_10x05ft_400x300.webm'
+                ],
+                '2x2': [
+                    'modules/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_01_Regular_Orange_10x10ft_400x400.webm',
+                    'modules/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_02_Regular_Orange_10x10ft_400x400.webm'
+                ]
+            }
+        },
+        purple:{
+            '01': 'modules/jb2a_patreon/Library/Generic/Fire/Flame/Flames_01_Regular_Purple_200x200.webm',
+            '02': 'modules/jb2a_patreon/Library/Generic/Fire/Flame/Flames_02_Regular_Purple_400x400.webm',
+            '03': {
+                '1x1': [
+                    'modules/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_01_Regular_Purple_05x05ft_300x300.webm',
+                    'modules/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_02_Regular_Purple_05x05ft_300x300.webm'
+                ],
+                '2x1': [
+                    'modules/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_01_Regular_Purple_10x05ft_400x300.webm',
+                    'modules/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_02_Regular_Purple_10x05ft_400x300.webm'
+                ],
+                '2x2': [
+                    'modules/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_01_Regular_Purple_10x10ft_400x400.webm',
+                    'modules/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_02_Regular_Purple_10x10ft_400x400.webm'
+                ]
+            }
         }
     },
     flaming_sphere: {
@@ -3688,6 +3776,7 @@ let patreonDatabase = {
             dark_red: 'modules/jb2a_patreon/Library/Generic/Impact/Impact_11_Dark_Red_400x400.webm',
             green: 'modules/jb2a_patreon/Library/Generic/Impact/Impact_11_Regular_Green_400x400.webm',
             green02: 'modules/jb2a_patreon/Library/Generic/Impact/Impact_11_Regular_Green02_400x400.webm',
+            orange: 'modules/jb2a_patreon/Library/Generic/Impact/Impact_11_Regular_Orange_400x400.webm',
             purple: 'modules/jb2a_patreon/Library/Generic/Impact/Impact_11_Regular_Purple_400x400.webm',
             red: 'modules/jb2a_patreon/Library/Generic/Impact/Impact_11_Regular_Red_400x400.webm'
         },
@@ -3697,6 +3786,7 @@ let patreonDatabase = {
             dark_red: 'modules/jb2a_patreon/Library/Generic/Impact/Impact_12_Dark_Red_400x400.webm',
             green: 'modules/jb2a_patreon/Library/Generic/Impact/Impact_12_Regular_Green_400x400.webm',
             green02: 'modules/jb2a_patreon/Library/Generic/Impact/Impact_12_Regular_Green02_400x400.webm',
+            orange: 'modules/jb2a_patreon/Library/Generic/Impact/Impact_12_Regular_Orange_400x400.webm',
             purple: 'modules/jb2a_patreon/Library/Generic/Impact/Impact_12_Regular_Purple_400x400.webm',
             red: 'modules/jb2a_patreon/Library/Generic/Impact/Impact_12_Regular_Red_400x400.webm'
         },
@@ -3810,6 +3900,8 @@ let patreonDatabase = {
             'modules/jb2a_patreon/Library/Generic/Impact/Impact_08_Regular_Orange_400x400.webm',
             'modules/jb2a_patreon/Library/Generic/Impact/Impact_09_Regular_Orange_400x400.webm',
             'modules/jb2a_patreon/Library/Generic/Impact/Impact_10_Regular_Orange_400x400.webm',
+            'modules/jb2a_patreon/Library/Generic/Impact/Impact_11_Regular_Orange_400x400.webm',
+            'modules/jb2a_patreon/Library/Generic/Impact/Impact_12_Regular_Orange_400x400.webm',
             'modules/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_01_Regular_Orange_600x600.webm',
             'modules/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_02_Regular_Orange_600x600.webm',
             'modules/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_03_Regular_Orange_600x600.webm'
@@ -4183,6 +4275,7 @@ let patreonDatabase = {
         dark_red: 'modules/jb2a_patreon/Library/Generic/Lightning/LightningBall_01_Dark_Red_400x400.webm',
         green: 'modules/jb2a_patreon/Library/Generic/Lightning/LightningBall_01_Regular_Green_400x400.webm',
         green02: 'modules/jb2a_patreon/Library/Generic/Lightning/LightningBall_01_Regular_Green02_400x400.webm',
+        orange: 'modules/jb2a_patreon/Library/Generic/Lightning/LightningBall_01_Regular_Orange_400x400.webm',
         purple: 'modules/jb2a_patreon/Library/Generic/Lightning/LightningBall_01_Regular_Purple_400x400.webm',
         red: 'modules/jb2a_patreon/Library/Generic/Lightning/LightningBall_01_Regular_Red_400x400.webm'
     },
@@ -4192,12 +4285,14 @@ let patreonDatabase = {
             blue: 'modules/jb2a_patreon/Library/3rd_Level/Lightning_Bolt/LightningBolt_01_Regular_Blue_4000x200.webm',
             dark_blue: 'modules/jb2a_patreon/Library/3rd_Level/Lightning_Bolt/LightningBolt_01_Dark_Blue_4000x200.webm',
             green: 'modules/jb2a_patreon/Library/3rd_Level/Lightning_Bolt/LightningBolt_01_Regular_Green_4000x200.webm',
+            orange: 'modules/jb2a_patreon/Library/3rd_Level/Lightning_Bolt/LightningBolt_01_Regular_Orange_4000x200.webm',
             purple: 'modules/jb2a_patreon/Library/3rd_Level/Lightning_Bolt/LightningBolt_01_Regular_Purple_4000x200.webm'
         },
         wide: {
             blue: 'modules/jb2a_patreon/Library/3rd_Level/Lightning_Bolt/LightningBolt_01_Regular_Blue_4000x400.webm',
             dark_blue: 'modules/jb2a_patreon/Library/3rd_Level/Lightning_Bolt/LightningBolt_01_Dark_Blue_4000x400.webm',
             green: 'modules/jb2a_patreon/Library/3rd_Level/Lightning_Bolt/LightningBolt_01_Regular_Green_4000x400.webm',
+            orange: 'modules/jb2a_patreon/Library/3rd_Level/Lightning_Bolt/LightningBolt_01_Regular_Orange_4000x400.webm',
             purple: 'modules/jb2a_patreon/Library/3rd_Level/Lightning_Bolt/LightningBolt_01_Regular_Purple_4000x400.webm'
         }
     },
@@ -4520,6 +4615,12 @@ let patreonDatabase = {
             '02': {
                 abjuration: {
                     intro: {
+                        dark_blue: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/AbjurationCircleIntro_02_Dark_Blue_800x800.webm',
+                        dark_green: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/AbjurationCircleIntro_02_Dark_Green_800x800.webm',
+                        dark_pink: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/AbjurationCircleIntro_02_Dark_Pink_800x800.webm',
+                        dark_purple: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/AbjurationCircleIntro_02_Dark_Purple_800x800.webm',
+                        dark_red: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/AbjurationCircleIntro_02_Dark_Red_800x800.webm',
+                        dark_yellow: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/AbjurationCircleIntro_02_Dark_Yellow_800x800.webm',
                         blue: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/AbjurationCircleIntro_02_Regular_Blue_800x800.webm',
                         green: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/AbjurationCircleIntro_02_Regular_Green_800x800.webm',
                         pink: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/AbjurationCircleIntro_02_Regular_Pink_800x800.webm',
@@ -4528,6 +4629,12 @@ let patreonDatabase = {
                         yellow: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/AbjurationCircleIntro_02_Regular_Yellow_800x800.webm'
                     },
                     loop: {
+                        dark_blue: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/AbjurationCircleLoop_02_Dark_Blue_800x800.webm',
+                        dark_green: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/AbjurationCircleLoop_02_Dark_Green_800x800.webm',
+                        dark_pink: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/AbjurationCircleLoop_02_Dark_Pink_800x800.webm',
+                        dark_purple: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/AbjurationCircleLoop_02_Dark_Purple_800x800.webm',
+                        dark_red: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/AbjurationCircleLoop_02_Dark_Red_800x800.webm',
+                        dark_yellow: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/AbjurationCircleLoop_02_Dark_Yellow_800x800.webm',
                         blue: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/AbjurationCircleLoop_02_Regular_Blue_800x800.webm',
                         green: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/AbjurationCircleLoop_02_Regular_Green_800x800.webm',
                         pink: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/AbjurationCircleLoop_02_Regular_Pink_800x800.webm',
@@ -4536,16 +4643,28 @@ let patreonDatabase = {
                         yellow: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/AbjurationCircleLoop_02_Regular_Yellow_800x800.webm'
                     },
                     outro: {
+                        dark_blue: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/AbjurationCircleOutro_02_Dark_Blue_800x800.webm',
+                        dark_green: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/AbjurationCircleOutro_02_Dark_Green_800x800.webm',
+                        dark_pink: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/AbjurationCircleOutro_02_Dark_Pink_800x800.webm',
+                        dark_purple: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/AbjurationCircleOutro_02_Dark_Purple_800x800.webm',
+                        dark_red: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/AbjurationCircleOutro_02_Dark_Red_800x800.webm',
+                        dark_yellow: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/AbjurationCircleOutro_02_Dark_Yellow_800x800.webm',
                         blue: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/AbjurationCircleOutro_02_Regular_Blue_800x800.webm',
                         green: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/AbjurationCircleOutro_02_Regular_Green_800x800.webm',
                         pink: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/AbjurationCircleOutro_02_Regular_Pink_800x800.webm',
                         purple: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/AbjurationCircleOutro_02_Regular_Purple_800x800.webm',
                         red: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/AbjurationCircleOutro_02_Regular_Red_800x800.webm',
-                        yellow: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/AbjurationCircleOutro_02_Regular_Yellow_800x800.webm',
+                        yellow: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/AbjurationCircleOutro_02_Regular_Yellow_800x800.webm'
                     }
                 },
                 conjuration: {
                     intro: {
+                        dark_blue: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/ConjurationCircleIntro_02_Dark_Blue_800x800.webm',
+                        dark_green: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/ConjurationCircleIntro_02_Dark_Green_800x800.webm',
+                        dark_pink: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/ConjurationCircleIntro_02_Dark_Pink_800x800.webm',
+                        dark_purple: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/ConjurationCircleIntro_02_Dark_Purple_800x800.webm',
+                        dark_red: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/ConjurationCircleIntro_02_Dark_Red_800x800.webm',
+                        dark_yellow: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/ConjurationCircleIntro_02_Dark_Yellow_800x800.webm',
                         blue: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/ConjurationCircleIntro_02_Regular_Blue_800x800.webm',
                         green: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/ConjurationCircleIntro_02_Regular_Green_800x800.webm',
                         pink: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/ConjurationCircleIntro_02_Regular_Pink_800x800.webm',
@@ -4554,6 +4673,12 @@ let patreonDatabase = {
                         yellow: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/ConjurationCircleIntro_02_Regular_Yellow_800x800.webm'
                     },
                     loop: {
+                        dark_blue: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/ConjurationCircleLoop_02_Dark_Blue_800x800.webm',
+                        dark_green: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/ConjurationCircleLoop_02_Dark_Green_800x800.webm',
+                        dark_pink: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/ConjurationCircleLoop_02_Dark_Pink_800x800.webm',
+                        dark_purple: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/ConjurationCircleLoop_02_Dark_Purple_800x800.webm',
+                        dark_red: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/ConjurationCircleLoop_02_Dark_Red_800x800.webm',
+                        dark_yellow: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/ConjurationCircleLoop_02_Dark_Yellow_800x800.webm',
                         blue: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/ConjurationCircleLoop_02_Regular_Blue_800x800.webm',
                         green: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/ConjurationCircleLoop_02_Regular_Green_800x800.webm',
                         pink: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/ConjurationCircleLoop_02_Regular_Pink_800x800.webm',
@@ -4562,6 +4687,12 @@ let patreonDatabase = {
                         yellow: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/ConjurationCircleLoop_02_Regular_Yellow_800x800.webm'
                     },
                     outro: {
+                        dark_blue: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/ConjurationCircleOutro_02_Dark_Blue_800x800.webm',
+                        dark_green: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/ConjurationCircleOutro_02_Dark_Green_800x800.webm',
+                        dark_pink: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/ConjurationCircleOutro_02_Dark_Pink_800x800.webm',
+                        dark_purple: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/ConjurationCircleOutro_02_Dark_Purple_800x800.webm',
+                        dark_red: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/ConjurationCircleOutro_02_Dark_Red_800x800.webm',
+                        dark_yellow: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/ConjurationCircleOutro_02_Dark_Yellow_800x800.webm',
                         blue: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/ConjurationCircleOutro_02_Regular_Blue_800x800.webm',
                         green: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/ConjurationCircleOutro_02_Regular_Green_800x800.webm',
                         pink: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/ConjurationCircleOutro_02_Regular_Pink_800x800.webm',
@@ -4572,6 +4703,12 @@ let patreonDatabase = {
                 },
                 divination: {
                     intro: {
+                        dark_blue: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/DivinationCircleIntro_02_Dark_Blue_800x800.webm',
+                        dark_green: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/DivinationCircleIntro_02_Dark_Green_800x800.webm',
+                        dark_pink: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/DivinationCircleIntro_02_Dark_Pink_800x800.webm',
+                        dark_purple: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/DivinationCircleIntro_02_Dark_Purple_800x800.webm',
+                        dark_red: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/DivinationCircleIntro_02_Dark_Red_800x800.webm',
+                        dark_yellow: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/DivinationCircleIntro_02_Dark_Yellow_800x800.webm',
                         blue: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/DivinationCircleIntro_02_Regular_Blue_800x800.webm',
                         green: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/DivinationCircleIntro_02_Regular_Green_800x800.webm',
                         pink: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/DivinationCircleIntro_02_Regular_Pink_800x800.webm',
@@ -4580,6 +4717,12 @@ let patreonDatabase = {
                         yellow: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/DivinationCircleIntro_02_Regular_Yellow_800x800.webm'
                     },
                     loop: {
+                        dark_blue: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/DivinationCircleLoop_02_Dark_Blue_800x800.webm',
+                        dark_green: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/DivinationCircleLoop_02_Dark_Green_800x800.webm',
+                        dark_pink: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/DivinationCircleLoop_02_Dark_Pink_800x800.webm',
+                        dark_purple: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/DivinationCircleLoop_02_Dark_Purple_800x800.webm',
+                        dark_red: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/DivinationCircleLoop_02_Dark_Red_800x800.webm',
+                        dark_yellow: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/DivinationCircleLoop_02_Dark_Yellow_800x800.webm',
                         blue: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/DivinationCircleLoop_02_Regular_Blue_800x800.webm',
                         green: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/DivinationCircleLoop_02_Regular_Green_800x800.webm',
                         pink: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/DivinationCircleLoop_02_Regular_Pink_800x800.webm',
@@ -4588,16 +4731,28 @@ let patreonDatabase = {
                         yellow: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/DivinationCircleLoop_02_Regular_Yellow_800x800.webm'
                     },
                     outro: {
+                        dark_blue: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/DivinationCircleOutro_02_Dark_Blue_800x800.webm',
+                        dark_green: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/DivinationCircleOutro_02_Dark_Green_800x800.webm',
+                        dark_pink: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/DivinationCircleOutro_02_Dark_Pink_800x800.webm',
+                        dark_purple: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/DivinationCircleOutro_02_Dark_Purple_800x800.webm',
+                        dark_red: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/DivinationCircleOutro_02_Dark_Red_800x800.webm',
+                        dark_yellow: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/DivinationCircleOutro_02_Dark_Yellow_800x800.webm',
                         blue: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/DivinationCircleOutro_02_Regular_Blue_800x800.webm',
                         green: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/DivinationCircleOutro_02_Regular_Green_800x800.webm',
                         pink: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/DivinationCircleOutro_02_Regular_Pink_800x800.webm',
                         purple: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/DivinationCircleOutro_02_Regular_Purple_800x800.webm',
                         red: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/DivinationCircleOutro_02_Regular_Red_800x800.webm',
-                        yellow: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/DivinationCircleOutro_02_Regular_Yellow_800x800.webm',
+                        yellow: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/DivinationCircleOutro_02_Regular_Yellow_800x800.webm'
                     }
                 },
                 enchantment: {
                     intro: {
+                        dark_blue: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EnchantmentCircleIntro_02_Dark_Blue_800x800.webm',
+                        dark_green: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EnchantmentCircleIntro_02_Dark_Green_800x800.webm',
+                        dark_pink: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EnchantmentCircleIntro_02_Dark_Pink_800x800.webm',
+                        dark_purple: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EnchantmentCircleIntro_02_Dark_Purple_800x800.webm',
+                        dark_red: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EnchantmentCircleIntro_02_Dark_Red_800x800.webm',
+                        dark_yellow: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EnchantmentCircleIntro_02_Dark_Yellow_800x800.webm',
                         blue: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EnchantmentCircleIntro_02_Regular_Blue_800x800.webm',
                         green: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EnchantmentCircleIntro_02_Regular_Green_800x800.webm',
                         pink: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EnchantmentCircleIntro_02_Regular_Pink_800x800.webm',
@@ -4606,6 +4761,12 @@ let patreonDatabase = {
                         yellow: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EnchantmentCircleIntro_02_Regular_Yellow_800x800.webm'
                     },
                     loop: {
+                        dark_blue: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EnchantmentCircleLoop_02_Dark_Blue_800x800.webm',
+                        dark_green: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EnchantmentCircleLoop_02_Dark_Green_800x800.webm',
+                        dark_pink: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EnchantmentCircleLoop_02_Dark_Pink_800x800.webm',
+                        dark_purple: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EnchantmentCircleLoop_02_Dark_Purple_800x800.webm',
+                        dark_red: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EnchantmentCircleLoop_02_Dark_Red_800x800.webm',
+                        dark_yellow: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EnchantmentCircleLoop_02_Dark_Yellow_800x800.webm',
                         blue: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EnchantmentCircleLoop_02_Regular_Blue_800x800.webm',
                         green: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EnchantmentCircleLoop_02_Regular_Green_800x800.webm',
                         pink: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EnchantmentCircleLoop_02_Regular_Pink_800x800.webm',
@@ -4614,16 +4775,28 @@ let patreonDatabase = {
                         yellow: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EnchantmentCircleLoop_02_Regular_Yellow_800x800.webm'
                     },
                     outro: {
+                        dark_blue: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EnchantmentCircleOutro_02_Dark_Blue_800x800.webm',
+                        dark_green: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EnchantmentCircleOutro_02_Dark_Green_800x800.webm',
+                        dark_pink: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EnchantmentCircleOutro_02_Dark_Pink_800x800.webm',
+                        dark_purple: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EnchantmentCircleOutro_02_Dark_Purple_800x800.webm',
+                        dark_red: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EnchantmentCircleOutro_02_Dark_Red_800x800.webm',
+                        dark_yellow: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EnchantmentCircleOutro_02_Dark_Yellow_800x800.webm',
                         blue: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EnchantmentCircleOutro_02_Regular_Blue_800x800.webm',
                         green: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EnchantmentCircleOutro_02_Regular_Green_800x800.webm',
                         pink: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EnchantmentCircleOutro_02_Regular_Pink_800x800.webm',
                         purple: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EnchantmentCircleOutro_02_Regular_Purple_800x800.webm',
                         red: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EnchantmentCircleOutro_02_Regular_Red_800x800.webm',
-                        yellow: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EnchantmentCircleOutro_02_Regular_Yellow_800x800.webm',
+                        yellow: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EnchantmentCircleOutro_02_Regular_Yellow_800x800.webm'
                     }
                 },
                 evocation: {
                     intro: {
+                        dark_blue: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EvocationCircleIntro_02_Dark_Blue_800x800.webm',
+                        dark_green: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EvocationCircleIntro_02_Dark_Green_800x800.webm',
+                        dark_pink: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EvocationCircleIntro_02_Dark_Pink_800x800.webm',
+                        dark_purple: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EvocationCircleIntro_02_Dark_Purple_800x800.webm',
+                        dark_red: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EvocationCircleIntro_02_Dark_Red_800x800.webm',
+                        dark_yellow: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EvocationCircleIntro_02_Dark_Yellow_800x800.webm',
                         blue: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EvocationCircleIntro_02_Regular_Blue_800x800.webm',
                         green: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EvocationCircleIntro_02_Regular_Green_800x800.webm',
                         pink: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EvocationCircleIntro_02_Regular_Pink_800x800.webm',
@@ -4632,6 +4805,12 @@ let patreonDatabase = {
                         yellow: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EvocationCircleIntro_02_Regular_Yellow_800x800.webm'
                     },
                     loop: {
+                        dark_blue: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EvocationCircleLoop_02_Dark_Blue_800x800.webm',
+                        dark_green: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EvocationCircleLoop_02_Dark_Green_800x800.webm',
+                        dark_pink: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EvocationCircleLoop_02_Dark_Pink_800x800.webm',
+                        dark_purple: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EvocationCircleLoop_02_Dark_Purple_800x800.webm',
+                        dark_red: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EvocationCircleLoop_02_Dark_Red_800x800.webm',
+                        dark_yellow: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EvocationCircleLoop_02_Dark_Yellow_800x800.webm',
                         blue: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EvocationCircleLoop_02_Regular_Blue_800x800.webm',
                         green: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EvocationCircleLoop_02_Regular_Green_800x800.webm',
                         pink: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EvocationCircleLoop_02_Regular_Pink_800x800.webm',
@@ -4640,16 +4819,28 @@ let patreonDatabase = {
                         yellow: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EvocationCircleLoop_02_Regular_Yellow_800x800.webm'
                     },
                     outro: {
+                        dark_blue: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EvocationCircleOutro_02_Dark_Blue_800x800.webm',
+                        dark_green: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EvocationCircleOutro_02_Dark_Green_800x800.webm',
+                        dark_pink: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EvocationCircleOutro_02_Dark_Pink_800x800.webm',
+                        dark_purple: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EvocationCircleOutro_02_Dark_Purple_800x800.webm',
+                        dark_red: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EvocationCircleOutro_02_Dark_Red_800x800.webm',
+                        dark_yellow: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EvocationCircleOutro_02_Dark_Yellow_800x800.webm',
                         blue: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EvocationCircleOutro_02_Regular_Blue_800x800.webm',
                         green: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EvocationCircleOutro_02_Regular_Green_800x800.webm',
                         pink: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EvocationCircleOutro_02_Regular_Pink_800x800.webm',
                         purple: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EvocationCircleOutro_02_Regular_Purple_800x800.webm',
                         red: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EvocationCircleOutro_02_Regular_Red_800x800.webm',
-                        yellow: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EvocationCircleOutro_02_Regular_Yellow_800x800.webm',
+                        yellow: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/EvocationCircleOutro_02_Regular_Yellow_800x800.webm'
                     }
                 },
                 illusion: {
                     intro: {
+                        dark_blue: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/IllusionCircleIntro_02_Dark_Blue_800x800.webm',
+                        dark_green: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/IllusionCircleIntro_02_Dark_Green_800x800.webm',
+                        dark_pink: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/IllusionCircleIntro_02_Dark_Pink_800x800.webm',
+                        dark_purple: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/IllusionCircleIntro_02_Dark_Purple_800x800.webm',
+                        dark_red: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/IllusionCircleIntro_02_Dark_Red_800x800.webm',
+                        dark_yellow: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/IllusionCircleIntro_02_Dark_Yellow_800x800.webm',
                         blue: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/IllusionCircleIntro_02_Regular_Blue_800x800.webm',
                         green: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/IllusionCircleIntro_02_Regular_Green_800x800.webm',
                         pink: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/IllusionCircleIntro_02_Regular_Pink_800x800.webm',
@@ -4658,6 +4849,12 @@ let patreonDatabase = {
                         yellow: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/IllusionCircleIntro_02_Regular_Yellow_800x800.webm'
                     },
                     loop: {
+                        dark_blue: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/IllusionCircleLoop_02_Dark_Blue_800x800.webm',
+                        dark_green: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/IllusionCircleLoop_02_Dark_Green_800x800.webm',
+                        dark_pink: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/IllusionCircleLoop_02_Dark_Pink_800x800.webm',
+                        dark_purple: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/IllusionCircleLoop_02_Dark_Purple_800x800.webm',
+                        dark_red: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/IllusionCircleLoop_02_Dark_Red_800x800.webm',
+                        dark_yellow: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/IllusionCircleLoop_02_Dark_Yellow_800x800.webm',
                         blue: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/IllusionCircleLoop_02_Regular_Blue_800x800.webm',
                         green: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/IllusionCircleLoop_02_Regular_Green_800x800.webm',
                         pink: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/IllusionCircleLoop_02_Regular_Pink_800x800.webm',
@@ -4666,16 +4863,28 @@ let patreonDatabase = {
                         yellow: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/IllusionCircleLoop_02_Regular_Yellow_800x800.webm'
                     },
                     outro: {
+                        dark_blue: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/IllusionCircleOutro_02_Dark_Blue_800x800.webm',
+                        dark_green: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/IllusionCircleOutro_02_Dark_Green_800x800.webm',
+                        dark_pink: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/IllusionCircleOutro_02_Dark_Pink_800x800.webm',
+                        dark_purple: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/IllusionCircleOutro_02_Dark_Purple_800x800.webm',
+                        dark_red: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/IllusionCircleOutro_02_Dark_Red_800x800.webm',
+                        dark_yellow: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/IllusionCircleOutro_02_Dark_Yellow_800x800.webm',
                         blue: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/IllusionCircleOutro_02_Regular_Blue_800x800.webm',
                         green: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/IllusionCircleOutro_02_Regular_Green_800x800.webm',
                         pink: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/IllusionCircleOutro_02_Regular_Pink_800x800.webm',
                         purple: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/IllusionCircleOutro_02_Regular_Purple_800x800.webm',
                         red: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/IllusionCircleOutro_02_Regular_Red_800x800.webm',
-                        yellow: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/IllusionCircleOutro_02_Regular_Yellow_800x800.webm',
+                        yellow: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/IllusionCircleOutro_02_Regular_Yellow_800x800.webm'
                     }
                 },
                 necromancy: {
                     intro: {
+                        dark_blue: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/NecromancyCircleIntro_02_Dark_Blue_800x800.webm',
+                        dark_green: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/NecromancyCircleIntro_02_Dark_Green_800x800.webm',
+                        dark_pink: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/NecromancyCircleIntro_02_Dark_Pink_800x800.webm',
+                        dark_purple: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/NecromancyCircleIntro_02_Dark_Purple_800x800.webm',
+                        dark_red: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/NecromancyCircleIntro_02_Dark_Red_800x800.webm',
+                        dark_yellow: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/NecromancyCircleIntro_02_Dark_Yellow_800x800.webm',
                         blue: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/NecromancyCircleIntro_02_Regular_Blue_800x800.webm',
                         green: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/NecromancyCircleIntro_02_Regular_Green_800x800.webm',
                         pink: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/NecromancyCircleIntro_02_Regular_Pink_800x800.webm',
@@ -4684,6 +4893,12 @@ let patreonDatabase = {
                         yellow: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/NecromancyCircleIntro_02_Regular_Yellow_800x800.webm'
                     },
                     loop: {
+                        dark_blue: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/NecromancyCircleLoop_02_Dark_Blue_800x800.webm',
+                        dark_green: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/NecromancyCircleLoop_02_Dark_Green_800x800.webm',
+                        dark_pink: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/NecromancyCircleLoop_02_Dark_Pink_800x800.webm',
+                        dark_purple: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/NecromancyCircleLoop_02_Dark_Purple_800x800.webm',
+                        dark_red: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/NecromancyCircleLoop_02_Dark_Red_800x800.webm',
+                        dark_yellow: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/NecromancyCircleLoop_02_Dark_Yellow_800x800.webm',
                         blue: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/NecromancyCircleLoop_02_Regular_Blue_800x800.webm',
                         green: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/NecromancyCircleLoop_02_Regular_Green_800x800.webm',
                         pink: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/NecromancyCircleLoop_02_Regular_Pink_800x800.webm',
@@ -4692,16 +4907,28 @@ let patreonDatabase = {
                         yellow: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/NecromancyCircleLoop_02_Regular_Yellow_800x800.webm'
                     },
                     outro: {
+                        dark_blue: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/NecromancyCircleOutro_02_Dark_Blue_800x800.webm',
+                        dark_green: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/NecromancyCircleOutro_02_Dark_Green_800x800.webm',
+                        dark_pink: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/NecromancyCircleOutro_02_Dark_Pink_800x800.webm',
+                        dark_purple: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/NecromancyCircleOutro_02_Dark_Purple_800x800.webm',
+                        dark_red: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/NecromancyCircleOutro_02_Dark_Red_800x800.webm',
+                        dark_yellow: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/NecromancyCircleOutro_02_Dark_Yellow_800x800.webm',
                         blue: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/NecromancyCircleOutro_02_Regular_Blue_800x800.webm',
                         green: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/NecromancyCircleOutro_02_Regular_Green_800x800.webm',
                         pink: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/NecromancyCircleOutro_02_Regular_Pink_800x800.webm',
                         purple: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/NecromancyCircleOutro_02_Regular_Purple_800x800.webm',
                         red: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/NecromancyCircleOutro_02_Regular_Red_800x800.webm',
-                        yellow: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/NecromancyCircleOutro_02_Regular_Yellow_800x800.webm',
+                        yellow: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/NecromancyCircleOutro_02_Regular_Yellow_800x800.webm'
                     }
                 },
                 transmutation: {
                     intro: {
+                        dark_blue: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/TransmutationCircleIntro_02_Dark_Blue_800x800.webm',
+                        dark_green: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/TransmutationCircleIntro_02_Dark_Green_800x800.webm',
+                        dark_pink: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/TransmutationCircleIntro_02_Dark_Pink_800x800.webm',
+                        dark_purple: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/TransmutationCircleIntro_02_Dark_Purple_800x800.webm',
+                        dark_red: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/TransmutationCircleIntro_02_Dark_Red_800x800.webm',
+                        dark_yellow: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/TransmutationCircleIntro_02_Dark_Yellow_800x800.webm',
                         blue: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/TransmutationCircleIntro_02_Regular_Blue_800x800.webm',
                         green: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/TransmutationCircleIntro_02_Regular_Green_800x800.webm',
                         pink: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/TransmutationCircleIntro_02_Regular_Pink_800x800.webm',
@@ -4710,6 +4937,12 @@ let patreonDatabase = {
                         yellow: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/TransmutationCircleIntro_02_Regular_Yellow_800x800.webm'
                     },
                     loop: {
+                        dark_blue: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/TransmutationCircleLoop_02_Dark_Blue_800x800.webm',
+                        dark_green: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/TransmutationCircleLoop_02_Dark_Green_800x800.webm',
+                        dark_pink: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/TransmutationCircleLoop_02_Dark_Pink_800x800.webm',
+                        dark_purple: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/TransmutationCircleLoop_02_Dark_Purple_800x800.webm',
+                        dark_red: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/TransmutationCircleLoop_02_Dark_Red_800x800.webm',
+                        dark_yellow: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/TransmutationCircleLoop_02_Dark_Yellow_800x800.webm',
                         blue: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/TransmutationCircleLoop_02_Regular_Blue_800x800.webm',
                         green: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/TransmutationCircleLoop_02_Regular_Green_800x800.webm',
                         pink: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/TransmutationCircleLoop_02_Regular_Pink_800x800.webm',
@@ -4718,12 +4951,18 @@ let patreonDatabase = {
                         yellow: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/TransmutationCircleLoop_02_Regular_Yellow_800x800.webm'
                     },
                     outro: {
+                        dark_blue: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/TransmutationCircleOutro_02_Dark_Blue_800x800.webm',
+                        dark_green: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/TransmutationCircleOutro_02_Dark_Green_800x800.webm',
+                        dark_pink: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/TransmutationCircleOutro_02_Dark_Pink_800x800.webm',
+                        dark_purple: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/TransmutationCircleOutro_02_Dark_Purple_800x800.webm',
+                        dark_red: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/TransmutationCircleOutro_02_Dark_Red_800x800.webm',
+                        dark_yellow: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/TransmutationCircleOutro_02_Dark_Yellow_800x800.webm',
                         blue: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/TransmutationCircleOutro_02_Regular_Blue_800x800.webm',
                         green: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/TransmutationCircleOutro_02_Regular_Green_800x800.webm',
                         pink: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/TransmutationCircleOutro_02_Regular_Pink_800x800.webm',
                         purple: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/TransmutationCircleOutro_02_Regular_Purple_800x800.webm',
                         red: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/TransmutationCircleOutro_02_Regular_Red_800x800.webm',
-                        yellow: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/TransmutationCircleOutro_02_Regular_Yellow_800x800.webm',
+                        yellow: 'modules/jb2a_patreon/Library/Generic/Magic_Signs/TransmutationCircleOutro_02_Regular_Yellow_800x800.webm'
                     }
                 }
             }
@@ -6679,14 +6918,24 @@ let patreonDatabase = {
             spirits: 'modules/jb2a_patreon/Library/3rd_Level/Spirit_Guardians/SpiritGuardiansSpirits_01_Dark_Black_600x600.webm'
         },
         dark_blue: 'modules/jb2a_patreon/Library/3rd_Level/Spirit_Guardians/SpiritGuardians_01_Dark_Blue_600x600.webm',
-        dark_purple: 'modules/jb2a_patreon/Library/3rd_Level/Spirit_Guardians/SpiritGuardians_01_Dark_Purple_600x600.webm',
+        dark_purple: {
+            ring: 'modules/jb2a_patreon/Library/3rd_Level/Spirit_Guardians/SpiritGuardians_01_Dark_Purple_600x600.webm',
+            no_ring: 'modules/jb2a_patreon/Library/3rd_Level/Spirit_Guardians/SpiritGuardiansNoRing_01_Dark_Purple_600x600.webm',
+            particles: 'modules/jb2a_patreon/Library/3rd_Level/Spirit_Guardians/SpiritGuardiansParticles_01_Dark_Purple_600x600.webm',
+            spirits: 'modules/jb2a_patreon/Library/3rd_Level/Spirit_Guardians/SpiritGuardiansSpirits_01_Dark_Purple_600x600.webm'
+        },
         dark_red: {
             ring: 'modules/jb2a_patreon/Library/3rd_Level/Spirit_Guardians/SpiritGuardians_01_Dark_Red_600x600.webm',
             no_ring: 'modules/jb2a_patreon/Library/3rd_Level/Spirit_Guardians/SpiritGuardiansNoRing_01_Dark_Red_600x600.webm',
             particles: 'modules/jb2a_patreon/Library/3rd_Level/Spirit_Guardians/SpiritGuardiansParticles_01_Dark_Red_600x600.webm',
             spirits: 'modules/jb2a_patreon/Library/3rd_Level/Spirit_Guardians/SpiritGuardiansSpirits_01_Dark_Red_600x600.webm'
         },
-        dark_whiteblue: 'modules/jb2a_patreon/Library/3rd_Level/Spirit_Guardians/SpiritGuardians_01_Dark_WhiteBlue_600x600.webm',
+        dark_whiteblue: {
+            ring: 'modules/jb2a_patreon/Library/3rd_Level/Spirit_Guardians/SpiritGuardians_01_Dark_WhiteBlue_600x600.webm',
+            no_ring: 'modules/jb2a_patreon/Library/3rd_Level/Spirit_Guardians/SpiritGuardiansNoRing_01_Dark_WhiteBlue_600x600.webm',
+            particles: 'modules/jb2a_patreon/Library/3rd_Level/Spirit_Guardians/SpiritGuardiansParticles_01_Dark_WhiteBlue_600x600.webm',
+            spirits: 'modules/jb2a_patreon/Library/3rd_Level/Spirit_Guardians/SpiritGuardiansSpirits_01_Dark_WhiteBlue_600x600.webm'
+        },
         green: {
             ring: 'modules/jb2a_patreon/Library/3rd_Level/Spirit_Guardians/SpiritGuardians_01_Light_Green_600x600.webm',
             no_ring: 'modules/jb2a_patreon/Library/3rd_Level/Spirit_Guardians/SpiritGuardiansNoRing_01_Light_Green_600x600.webm',
@@ -6699,8 +6948,18 @@ let patreonDatabase = {
             particles: 'modules/jb2a_patreon/Library/3rd_Level/Spirit_Guardians/SpiritGuardiansParticles_01_Light_Orange_600x600.webm',
             spirits: 'modules/jb2a_patreon/Library/3rd_Level/Spirit_Guardians/SpiritGuardiansSpirits_01_Light_Orange_600x600.webm'
         },
-        greenorange: 'modules/jb2a_patreon/Library/3rd_Level/Spirit_Guardians/SpiritGuardians_01_Light_GreenOrange_600x600.webm',
-        pinkpurple: 'modules/jb2a_patreon/Library/3rd_Level/Spirit_Guardians/SpiritGuardians_01_Light_PinkPurple_600x600.webm',
+        greenorange: {
+            ring: 'modules/jb2a_patreon/Library/3rd_Level/Spirit_Guardians/SpiritGuardians_01_Light_GreenOrange_600x600.webm',
+            no_ring: 'modules/jb2a_patreon/Library/3rd_Level/Spirit_Guardians/SpiritGuardiansNoRing_01_Light_GreenOrange_600x600.webm',
+            particles: 'modules/jb2a_patreon/Library/3rd_Level/Spirit_Guardians/SpiritGuardiansParticles_01_Light_GreenOrange_600x600.webm',
+            spirits: 'modules/jb2a_patreon/Library/3rd_Level/Spirit_Guardians/SpiritGuardiansSpirits_01_Light_GreenOrange_600x600.webm'
+        },
+        pinkpurple: {
+            ring: 'modules/jb2a_patreon/Library/3rd_Level/Spirit_Guardians/SpiritGuardians_01_Light_PinkPurple_600x600.webm',
+            no_ring: 'modules/jb2a_patreon/Library/3rd_Level/Spirit_Guardians/SpiritGuardiansNoRing_01_Light_PinkPurple_600x600.webm',
+            particles: 'modules/jb2a_patreon/Library/3rd_Level/Spirit_Guardians/SpiritGuardiansParticles_01_Light_PinkPurple_600x600.webm',
+            spirits: 'modules/jb2a_patreon/Library/3rd_Level/Spirit_Guardians/SpiritGuardiansSpirits_01_Light_PinkPurple_600x600.webm'
+        },
     },
     spiritual_weapon: {
         mace: {
@@ -6786,6 +7045,7 @@ let patreonDatabase = {
             dark_red: 'modules/jb2a_patreon/Library/Generic/Lightning/StaticElectricity_01_Dark_Red_400x400.webm',
             green: 'modules/jb2a_patreon/Library/Generic/Lightning/StaticElectricity_01_Regular_Green_400x400.webm',
             green02: 'modules/jb2a_patreon/Library/Generic/Lightning/StaticElectricity_01_Regular_Green02_400x400.webm',
+            orange: 'modules/jb2a_patreon/Library/Generic/Lightning/StaticElectricity_01_Regular_Orange_400x400.webm',
             red: 'modules/jb2a_patreon/Library/Generic/Lightning/StaticElectricity_01_Regular_Red_400x400.webm',
             purple: 'modules/jb2a_patreon/Library/Generic/Lightning/StaticElectricity_01_Regular_Purple_400x400.webm'
         },
@@ -6795,6 +7055,7 @@ let patreonDatabase = {
             dark_red: 'modules/jb2a_patreon/Library/Generic/Lightning/StaticElectricity_02_Dark_Red_400x400.webm',
             green: 'modules/jb2a_patreon/Library/Generic/Lightning/StaticElectricity_02_Regular_Green_400x400.webm',
             green02: 'modules/jb2a_patreon/Library/Generic/Lightning/StaticElectricity_02_Regular_Green02_400x400.webm',
+            orange: 'modules/jb2a_patreon/Library/Generic/Lightning/StaticElectricity_02_Regular_Orange_400x400.webm',
             red: 'modules/jb2a_patreon/Library/Generic/Lightning/StaticElectricity_02_Regular_Red_400x400.webm',
             purple: 'modules/jb2a_patreon/Library/Generic/Lightning/StaticElectricity_02_Regular_Purple_400x400.webm'
         }
@@ -7030,16 +7291,19 @@ let patreonDatabase = {
         },
         vortex: {
             loop: {
+                dark_black: 'modules/jb2a_patreon/Library/Generic/Template/Circle/Vortex_01_Dark_Black_600x600.webm',
                 blue: 'modules/jb2a_patreon/Library/Generic/Template/Circle/Vortex_01_Regular_Blue_600x600.webm',
                 green: 'modules/jb2a_patreon/Library/Generic/Template/Circle/Vortex_01_Regular_Green_600x600.webm',
                 purple: 'modules/jb2a_patreon/Library/Generic/Template/Circle/Vortex_01_Regular_Purple_600x600.webm'
             },
             intro: {
+                dark_black: 'modules/jb2a_patreon/Library/Generic/Template/Circle/VortexIntro_01_Dark_Black_600x600.webm',
                 blue: 'modules/jb2a_patreon/Library/Generic/Template/Circle/VortexIntro_01_Regular_Blue_600x600.webm',
                 green: 'modules/jb2a_patreon/Library/Generic/Template/Circle/VortexIntro_01_Regular_Green_600x600.webm',
                 purple: 'modules/jb2a_patreon/Library/Generic/Template/Circle/VortexIntro_01_Regular_Purple_600x600.webm'
             },
             outro: {
+                dark_black: 'modules/jb2a_patreon/Library/Generic/Template/Circle/VortexOutro_01_Dark_Black_600x600.webm',
                 blue: 'modules/jb2a_patreon/Library/Generic/Template/Circle/VortexOutro_01_Regular_Blue_600x600.webm',
                 green: 'modules/jb2a_patreon/Library/Generic/Template/Circle/VortexOutro_01_Regular_Green_600x600.webm',
                 purple: 'modules/jb2a_patreon/Library/Generic/Template/Circle/VortexOutro_01_Regular_Purple_600x600.webm'
@@ -7047,16 +7311,19 @@ let patreonDatabase = {
         },
         whirl: {
             loop: {
+                dark_black: 'modules/jb2a_patreon/Library/Generic/Template/Circle/Whirl_01_Dark_Black_600x600.webm',
                 blue: 'modules/jb2a_patreon/Library/Generic/Template/Circle/Whirl_01_Regular_Blue_600x600.webm',
                 green: 'modules/jb2a_patreon/Library/Generic/Template/Circle/Whirl_01_Regular_Green_600x600.webm',
                 purple: 'modules/jb2a_patreon/Library/Generic/Template/Circle/Whirl_01_Regular_Purple_600x600.webm'
             },
             intro: {
+                dark_black: 'modules/jb2a_patreon/Library/Generic/Template/Circle/WhirlIntro_01_Dark_Black_600x600.webm',
                 blue: 'modules/jb2a_patreon/Library/Generic/Template/Circle/WhirlIntro_01_Regular_Blue_600x600.webm',
                 green: 'modules/jb2a_patreon/Library/Generic/Template/Circle/WhirlIntro_01_Regular_Green_600x600.webm',
                 purple: 'modules/jb2a_patreon/Library/Generic/Template/Circle/WhirlIntro_01_Regular_Purple_600x600.webm'
             },
             outro: {
+                dark_black: 'modules/jb2a_patreon/Library/Generic/Template/Circle/WhirlOutro_01_Dark_Black_600x600.webm',
                 blue: 'modules/jb2a_patreon/Library/Generic/Template/Circle/WhirlOutro_01_Regular_Blue_600x600.webm',
                 green: 'modules/jb2a_patreon/Library/Generic/Template/Circle/WhirlOutro_01_Regular_Green_600x600.webm',
                 purple: 'modules/jb2a_patreon/Library/Generic/Template/Circle/WhirlOutro_01_Regular_Purple_600x600.webm'
