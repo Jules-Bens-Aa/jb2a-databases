@@ -2821,6 +2821,16 @@ let freeDatabase = {
         }
     }
 }
+let warning = false;
 Hooks.on("sequencer.ready", () => {
-    Sequencer.Database.registerEntries("jb2a", freeDatabase);
+    if (game.modules.get('jb2a_patreon')?.active) {
+        warning = "JB2A Warning : You have both the free and the Patreon modules activated at the same time !";
+    }
+    else{
+        Sequencer.Database.registerEntries("jb2a", freeDatabase);
+    }
+    if(warning){
+        ui.notifications.warn(warning);
+        return;
+    }
 });
