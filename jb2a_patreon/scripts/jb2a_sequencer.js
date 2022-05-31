@@ -1,7 +1,5 @@
 const patreonDatabase = {};
 export async function jb2aPatreonDatabase(prefix) {
-
-
     patreonDatabase._templates = {
         //default: [100, 0, 0],
         cone: [100, 0, 0],
@@ -13,3774 +11,4347 @@ export async function jb2aPatreonDatabase(prefix) {
         melee: [200, 300, 300],
         ranged: [200, 200, 200],
         ray: [100, 0, 0],
-        side_impact: [200, 100, 0]
+        side_impact: [200, 100, 0]    
     },
-        patreonDatabase.antilife_shell = {
-            blue_no_circle: `${prefix}/jb2a_patreon/Library/5th_Level/Antilife_Shell/AntilifeShell_01_Blue_NoCircle_400x400.webm`,
-            blue_with_circle: `${prefix}/jb2a_patreon/Library/5th_Level/Antilife_Shell/AntilifeShell_01_Blue_Circle_400x400.webm`
+    patreonDatabase.antilife_shell = {
+        _metadata: {
+            name: "Anti-Life Shell",
+            tag: ["DnD"]
         },
-        patreonDatabase.arcane_hand = {
-            blue: `${prefix}/jb2a_patreon/Library/5th_Level/Arcane_Hand/ArcaneHand_Human_01_Idle_Blue_400x400.webm`,
-            green: `${prefix}/jb2a_patreon/Library/5th_Level/Arcane_Hand/ArcaneHand_Human_01_Idle_Green_400x400.webm`,
-            purple: `${prefix}/jb2a_patreon/Library/5th_Level/Arcane_Hand/ArcaneHand_Human_01_Idle_Purple_400x400.webm`,
-            red: `${prefix}/jb2a_patreon/Library/5th_Level/Arcane_Hand/ArcaneHand_Human_01_Idle_Red_400x400.webm`,
-            rock: `${prefix}/jb2a_patreon/Library/5th_Level/Arcane_Hand/ArcaneHand_Human_01_Idle_Rock01_400x400.webm`,
-            rainbow: `${prefix}/jb2a_patreon/Library/5th_Level/Arcane_Hand/ArcaneHand_Human_01_Idle_Rainbow_400x400.webm`
+        blue_no_circle: `${prefix}/jb2a_patreon/Library/5th_Level/Antilife_Shell/AntilifeShell_01_Blue_NoCircle_400x400.webm`,
+        blue_with_circle: `${prefix}/jb2a_patreon/Library/5th_Level/Antilife_Shell/AntilifeShell_01_Blue_Circle_400x400.webm`
+    },
+    patreonDatabase.arcane_hand = {
+        _metadata: {
+            name: "Arcane Hand",
+            tags: ["Bigsby"]
         },
-        patreonDatabase.arms_of_hadar = {
-            dark_green: `${prefix}/jb2a_patreon/Library/1st_Level/Arms_Of_Hadar/ArmsOfHadar_01_Dark_Green_500x500.webm`,
-            dark_purple: `${prefix}/jb2a_patreon/Library/1st_Level/Arms_Of_Hadar/ArmsOfHadar_01_Dark_Purple_500x500.webm`,
-            dark_red: `${prefix}/jb2a_patreon/Library/1st_Level/Arms_Of_Hadar/ArmsOfHadar_01_Dark_Red_500x500.webm`
+        blue: `${prefix}/jb2a_patreon/Library/5th_Level/Arcane_Hand/ArcaneHand_Human_01_Idle_Blue_400x400.webm`,
+        green: `${prefix}/jb2a_patreon/Library/5th_Level/Arcane_Hand/ArcaneHand_Human_01_Idle_Green_400x400.webm`,
+        purple: `${prefix}/jb2a_patreon/Library/5th_Level/Arcane_Hand/ArcaneHand_Human_01_Idle_Purple_400x400.webm`,
+        red: `${prefix}/jb2a_patreon/Library/5th_Level/Arcane_Hand/ArcaneHand_Human_01_Idle_Red_400x400.webm`,
+        rock: `${prefix}/jb2a_patreon/Library/5th_Level/Arcane_Hand/ArcaneHand_Human_01_Idle_Rock01_400x400.webm`,
+        rainbow: `${prefix}/jb2a_patreon/Library/5th_Level/Arcane_Hand/ArcaneHand_Human_01_Idle_Rainbow_400x400.webm`
+    },
+    patreonDatabase.arms_of_hadar = {
+        _metadata: {
+            name: "Arms of Hadar"
         },
-        patreonDatabase.arrow = {
-            _template: 'ranged',
-            cold: {
-                blue: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Blue_Cold_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Blue_Cold_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Blue_Cold_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Blue_Cold_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Blue_Cold_90ft_4000x400.webm`
-                },
-                green: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Green_Cold_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Green_Cold_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Green_Cold_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Green_Cold_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Green_Cold_90ft_4000x400.webm`
-                },
-                pink: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Pink_Cold_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Pink_Cold_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Pink_Cold_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Pink_Cold_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Pink_Cold_90ft_4000x400.webm`
-                },
-                purple: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Purple_Cold_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Purple_Cold_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Purple_Cold_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Purple_Cold_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Purple_Cold_90ft_4000x400.webm`
-                },
-                orange: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Orange_Cold_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Orange_Cold_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Orange_Cold_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Orange_Cold_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Orange_Cold_90ft_4000x400.webm`
-                }
-            },
-            fire: {
-                blue: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Blue_Fire_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Blue_Fire_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Blue_Fire_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Blue_Fire_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Blue_Fire_90ft_4000x400.webm`
-                },
-                green: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Green_Fire_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Green_Fire_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Green_Fire_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Green_Fire_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Green_Fire_90ft_4000x400.webm`
-                },
-                pink: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Pink_Fire_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Pink_Fire_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Pink_Fire_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Pink_Fire_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Pink_Fire_90ft_4000x400.webm`
-                },
-                purple: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Purple_Fire_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Purple_Fire_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Purple_Fire_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Purple_Fire_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Purple_Fire_90ft_4000x400.webm`
-                },
-                orange: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Orange_Fire_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Orange_Fire_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Orange_Fire_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Orange_Fire_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Orange_Fire_90ft_4000x400.webm`
-                }
-            },
-            lightning: {
-                blue: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Blue_Lightning_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Blue_Lightning_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Blue_Lightning_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Blue_Lightning_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Blue_Lightning_90ft_4000x400.webm`
-                },
-                green: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Green_Lightning_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Green_Lightning_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Green_Lightning_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Green_Lightning_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Green_Lightning_90ft_4000x400.webm`
-                },
-                pink: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Pink_Lightning_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Pink_Lightning_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Pink_Lightning_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Pink_Lightning_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Pink_Lightning_90ft_4000x400.webm`
-                },
-                purple: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Purple_Lightning_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Purple_Lightning_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Purple_Lightning_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Purple_Lightning_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Purple_Lightning_90ft_4000x400.webm`
-                },
-                orange: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Orange_Lightning_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Orange_Lightning_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Orange_Lightning_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Orange_Lightning_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Orange_Lightning_90ft_4000x400.webm`
-                }
-            },
-            physical: {
-                blue: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Blue_Physical_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Blue_Physical_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Blue_Physical_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Blue_Physical_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Blue_Physical_90ft_4000x400.webm`
-                },
-                green: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Green_Physical_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Green_Physical_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Green_Physical_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Green_Physical_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Green_Physical_90ft_4000x400.webm`
-                },
-                pink: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Pink_Physical_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Pink_Physical_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Pink_Physical_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Pink_Physical_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Pink_Physical_90ft_4000x400.webm`
-                },
-                purple: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Purple_Physical_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Purple_Physical_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Purple_Physical_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Purple_Physical_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Purple_Physical_90ft_4000x400.webm`
-                },
-                orange: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Orange_Physical_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Orange_Physical_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Orange_Physical_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Orange_Physical_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Orange_Physical_90ft_4000x400.webm`
-                },
-                white: {
-                    '01': {
-                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow01_01_Regular_White_05ft_600x400.webm`,
-                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow01_01_Regular_White_15ft_1000x400.webm`,
-                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow01_01_Regular_White_30ft_1600x400.webm`,
-                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow01_01_Regular_White_60ft_2800x400.webm`,
-                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow01_01_Regular_White_90ft_4000x400.webm`
-                    },
-                    '02': {
-                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_White_Physical_05ft_600x400.webm`,
-                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_White_Physical_15ft_1000x400.webm`,
-                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_White_Physical_30ft_1600x400.webm`,
-                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_White_Physical_60ft_2800x400.webm`,
-                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_White_Physical_90ft_4000x400.webm`
-                    }
-                }
-            },
-            poison: {
-                blue: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Blue_Poison_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Blue_Poison_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Blue_Poison_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Blue_Poison_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Blue_Poison_90ft_4000x400.webm`
-                },
-                green: {
-                    '01': {
-                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow01_01_Glowing_Green_05ft_600x400.webm`,
-                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow01_01_Glowing_Green_15ft_1000x400.webm`,
-                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow01_01_Glowing_Green_30ft_1600x400.webm`,
-                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow01_01_Glowing_Green_60ft_2800x400.webm`,
-                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow01_01_Glowing_Green_90ft_4000x400.webm`
-                    },
-                    '02': {
-                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Green_Poison_05ft_600x400.webm`,
-                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Green_Poison_15ft_1000x400.webm`,
-                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Green_Poison_30ft_1600x400.webm`,
-                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Green_Poison_60ft_2800x400.webm`,
-                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Green_Poison_90ft_4000x400.webm`
-                    }
-                },
-                pink: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Pink_Poison_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Pink_Poison_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Pink_Poison_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Pink_Poison_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Pink_Poison_90ft_4000x400.webm`
-                },
-                purple: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Purple_Poison_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Purple_Poison_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Purple_Poison_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Purple_Poison_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Purple_Poison_90ft_4000x400.webm`
-                },
-                orange: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Orange_Poison_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Orange_Poison_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Orange_Poison_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Orange_Poison_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Orange_Poison_90ft_4000x400.webm`
-                }
-            }
+        dark_green: `${prefix}/jb2a_patreon/Library/1st_Level/Arms_Of_Hadar/ArmsOfHadar_01_Dark_Green_500x500.webm`,
+        dark_purple: `${prefix}/jb2a_patreon/Library/1st_Level/Arms_Of_Hadar/ArmsOfHadar_01_Dark_Purple_500x500.webm`,
+        dark_red: `${prefix}/jb2a_patreon/Library/1st_Level/Arms_Of_Hadar/ArmsOfHadar_01_Dark_Red_500x500.webm`
+    },
+    patreonDatabase.arrow = {
+        _metadata: {
+            name: "Arrow",
+            new: [
+                "cold.red*",
+                "fire.red*",
+                "lightning.red*",
+                "physical.red*",
+                "poison.red*"
+            ]
         },
-        patreonDatabase.bardic_inspiration = {
-            blueyellow: `${prefix}/jb2a_patreon/Library/1st_Level/Bardic_Inspiration/BardicInspiration_01_Regular_BlueYellow_400x400.webm`,
-            dark_red: `${prefix}/jb2a_patreon/Library/1st_Level/Bardic_Inspiration/BardicInspiration_01_Dark_Red_400x400.webm`,
-            greenorange: `${prefix}/jb2a_patreon/Library/1st_Level/Bardic_Inspiration/BardicInspiration_01_Regular_GreenOrange_400x400.webm`,
-            purplepink: `${prefix}/jb2a_patreon/Library/1st_Level/Bardic_Inspiration/BardicInspiration_01_Regular_PurplePink_400x400.webm`,
-            pink: `${prefix}/jb2a_patreon/Library/1st_Level/Bardic_Inspiration/BardicInspiration_01_Regular_Pink_400x400.webm`,
-        },
-        patreonDatabase.bite = {
-            '200px': {
-                blue: `${prefix}/jb2a_patreon/Library/Generic/Creature/Bite_01_Regular_Blue_200x200.webm`,
-                green: `${prefix}/jb2a_patreon/Library/Generic/Creature/Bite_01_Regular_Green_200x200.webm`,
-                grey: `${prefix}/jb2a_patreon/Library/Generic/Creature/Bite_01_Regular_Grey_200x200.webm`,
-                orange: `${prefix}/jb2a_patreon/Library/Generic/Creature/Bite_01_Regular_Orange_200x200.webm`,
-                purple: `${prefix}/jb2a_patreon/Library/Generic/Creature/Bite_01_Regular_Purple_200x200.webm`,
-                red: `${prefix}/jb2a_patreon/Library/Generic/Creature/Bite_01_Regular_Red_200x200.webm`,
-                yellow: `${prefix}/jb2a_patreon/Library/Generic/Creature/Bite_01_Regular_Yellow_200x200.webm`
-            },
-            '400px': {
-                blue: `${prefix}/jb2a_patreon/Library/Generic/Creature/Bite_01_Regular_Blue_400x400.webm`,
-                green: `${prefix}/jb2a_patreon/Library/Generic/Creature/Bite_01_Regular_Green_400x400.webm`,
-                grey: `${prefix}/jb2a_patreon/Library/Generic/Creature/Bite_01_Regular_Grey_400x400.webm`,
-                orange: `${prefix}/jb2a_patreon/Library/Generic/Creature/Bite_01_Regular_Orange_400x400.webm`,
-                purple: `${prefix}/jb2a_patreon/Library/Generic/Creature/Bite_01_Regular_Purple_400x400.webm`,
-                red: `${prefix}/jb2a_patreon/Library/Generic/Creature/Bite_01_Regular_Red_400x400.webm`,
-                yellow: `${prefix}/jb2a_patreon/Library/Generic/Creature/Bite_01_Regular_Yellow_400x400.webm`
-            }
-        },
-        patreonDatabase.black_tentacles = {
-            dark_green: `${prefix}/jb2a_patreon/Library/4th_Level/Black_Tentacles/BlackTentacles_01_Dark_Green_600x600.webm`,
-            dark_purple: `${prefix}/jb2a_patreon/Library/4th_Level/Black_Tentacles/BlackTentacles_01_Dark_Purple_600x600.webm`,
-            dark_red: `${prefix}/jb2a_patreon/Library/4th_Level/Black_Tentacles/BlackTentacles_01_Dark_Red_600x600.webm`
-        },
-        patreonDatabase.bless = {
-            '200px': {
-                intro: {
-                    blue: `${prefix}/jb2a_patreon/Library/1st_Level/Bless/Bless_01_Regular_Blue_Intro_200x200.webm`,
-                    green: `${prefix}/jb2a_patreon/Library/1st_Level/Bless/Bless_01_Regular_Green_Intro_200x200.webm`,
-                    purple: `${prefix}/jb2a_patreon/Library/1st_Level/Bless/Bless_01_Regular_Purple_Intro_200x200.webm`,
-                    yellow: `${prefix}/jb2a_patreon/Library/1st_Level/Bless/Bless_01_Regular_Yellow_Intro_200x200.webm`
-                },
-                loop: {
-                    blue: `${prefix}/jb2a_patreon/Library/1st_Level/Bless/Bless_01_Regular_Blue_Loop_200x200.webm`,
-                    green: `${prefix}/jb2a_patreon/Library/1st_Level/Bless/Bless_01_Regular_Green_Loop_200x200.webm`,
-                    purple: `${prefix}/jb2a_patreon/Library/1st_Level/Bless/Bless_01_Regular_Purple_Loop_200x200.webm`,
-                    yellow: `${prefix}/jb2a_patreon/Library/1st_Level/Bless/Bless_01_Regular_Yellow_Loop_200x200.webm`
-                }
-            },
-            '400px': {
-                intro: {
-                    blue: `${prefix}/jb2a_patreon/Library/1st_Level/Bless/Bless_01_Regular_Blue_Intro_400x400.webm`,
-                    green: `${prefix}/jb2a_patreon/Library/1st_Level/Bless/Bless_01_Regular_Green_Intro_400x400.webm`,
-                    purple: `${prefix}/jb2a_patreon/Library/1st_Level/Bless/Bless_01_Regular_Purple_Intro_400x400.webm`,
-                    yellow: `${prefix}/jb2a_patreon/Library/1st_Level/Bless/Bless_01_Regular_Yellow_Intro_400x400.webm`
-                },
-                loop: {
-                    blue: `${prefix}/jb2a_patreon/Library/1st_Level/Bless/Bless_01_Regular_Blue_Loop_400x400.webm`,
-                    green: `${prefix}/jb2a_patreon/Library/1st_Level/Bless/Bless_01_Regular_Green_Loop_400x400.webm`,
-                    purple: `${prefix}/jb2a_patreon/Library/1st_Level/Bless/Bless_01_Regular_Purple_Loop_400x400.webm`,
-                    yellow: `${prefix}/jb2a_patreon/Library/1st_Level/Bless/Bless_01_Regular_Yellow_Loop_400x400.webm`
-                }
-            }
-        },
-        patreonDatabase.bolt = {
-            _template: 'ranged',
-            cold: {
-                blue: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Blue_Cold_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Blue_Cold_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Blue_Cold_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Blue_Cold_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Blue_Cold_90ft_4000x400.webm`
-                },
-                green: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Green_Cold_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Green_Cold_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Green_Cold_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Green_Cold_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Green_Cold_90ft_4000x400.webm`
-                },
-                pink: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Pink_Cold_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Pink_Cold_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Pink_Cold_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Pink_Cold_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Pink_Cold_90ft_4000x400.webm`
-                },
-                purple: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Purple_Cold_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Purple_Cold_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Purple_Cold_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Purple_Cold_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Purple_Cold_90ft_4000x400.webm`
-                },
-                orange: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Orange_Cold_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Orange_Cold_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Orange_Cold_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Orange_Cold_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Orange_Cold_90ft_4000x400.webm`
-                }
-            },
-            fire: {
-                blue: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Blue_Fire_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Blue_Fire_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Blue_Fire_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Blue_Fire_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Blue_Fire_90ft_4000x400.webm`
-                },
-                green: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Green_Fire_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Green_Fire_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Green_Fire_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Green_Fire_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Green_Fire_90ft_4000x400.webm`
-                },
-                pink: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Pink_Fire_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Pink_Fire_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Pink_Fire_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Pink_Fire_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Pink_Fire_90ft_4000x400.webm`
-                },
-                purple: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Purple_Fire_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Purple_Fire_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Purple_Fire_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Purple_Fire_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Purple_Fire_90ft_4000x400.webm`
-                },
-                orange: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Orange_Fire_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Orange_Fire_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Orange_Fire_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Orange_Fire_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Orange_Fire_90ft_4000x400.webm`
-                }
-            },
-            lightning: {
-                blue: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Blue_Lightning_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Blue_Lightning_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Blue_Lightning_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Blue_Lightning_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Blue_Lightning_90ft_4000x400.webm`
-                },
-                green: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Green_Lightning_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Green_Lightning_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Green_Lightning_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Green_Lightning_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Green_Lightning_90ft_4000x400.webm`
-                },
-                pink: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Pink_Lightning_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Pink_Lightning_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Pink_Lightning_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Pink_Lightning_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Pink_Lightning_90ft_4000x400.webm`
-                },
-                purple: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Purple_Lightning_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Purple_Lightning_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Purple_Lightning_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Purple_Lightning_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Purple_Lightning_90ft_4000x400.webm`
-                },
-                orange: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Orange_Lightning_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Orange_Lightning_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Orange_Lightning_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Orange_Lightning_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Orange_Lightning_90ft_4000x400.webm`
-                }
-            },
-            physical: {
-                blue: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Blue_Physical_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Blue_Physical_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Blue_Physical_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Blue_Physical_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Blue_Physical_90ft_4000x400.webm`
-                },
-                green: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Green_Physical_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Green_Physical_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Green_Physical_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Green_Physical_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Green_Physical_90ft_4000x400.webm`
-                },
-                pink: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Pink_Physical_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Pink_Physical_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Pink_Physical_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Pink_Physical_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Pink_Physical_90ft_4000x400.webm`
-                },
-                purple: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Purple_Physical_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Purple_Physical_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Purple_Physical_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Purple_Physical_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Purple_Physical_90ft_4000x400.webm`
-                },
-                orange: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Orange_Physical_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Orange_Physical_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Orange_Physical_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Orange_Physical_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Orange_Physical_90ft_4000x400.webm`
-                },
-                white: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_White_Physical_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_White_Physical_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_White_Physical_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_White_Physical_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_White_Physical_90ft_4000x400.webm`
-                },
-                white02: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_02_Regular_White_Physical_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_02_Regular_White_Physical_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_02_Regular_White_Physical_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_02_Regular_White_Physical_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_02_Regular_White_Physical_90ft_4000x400.webm`
-                }
-            },
-            poison: {
-                blue: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Blue_Poison_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Blue_Poison_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Blue_Poison_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Blue_Poison_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Blue_Poison_90ft_4000x400.webm`
-                },
-                green: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Green_Poison_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Green_Poison_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Green_Poison_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Green_Poison_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Green_Poison_90ft_4000x400.webm`
-                },
-                pink: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Pink_Poison_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Pink_Poison_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Pink_Poison_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Pink_Poison_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Pink_Poison_90ft_4000x400.webm`
-                },
-                purple: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Purple_Poison_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Purple_Poison_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Purple_Poison_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Purple_Poison_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Purple_Poison_90ft_4000x400.webm`
-                },
-                orange: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Orange_Poison_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Orange_Poison_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Orange_Poison_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Orange_Poison_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Orange_Poison_90ft_4000x400.webm`
-                }
-            }
-        },
-        patreonDatabase.bonfire = {
-            '01': {
-                blue: `${prefix}/jb2a_patreon/Library/Generic/Fire/Campfire/Bonfire_01_Regular_Blue_400x400.webm`,
-                green: `${prefix}/jb2a_patreon/Library/Generic/Fire/Campfire/Bonfire_01_Regular_Green_400x400.webm`,
-                orange: `${prefix}/jb2a_patreon/Library/Generic/Fire/Campfire/Bonfire_01_Regular_Orange_400x400.webm`,
-                purple: `${prefix}/jb2a_patreon/Library/Generic/Fire/Campfire/Bonfire_01_Regular_Purple_400x400.webm`
-            },
-            '02': {
-                blue: `${prefix}/jb2a_patreon/Library/Generic/Fire/Campfire/Bonfire_02_Regular_Blue_400x400.webm`,
-                green: `${prefix}/jb2a_patreon/Library/Generic/Fire/Campfire/Bonfire_02_Regular_Green_400x400.webm`,
-                orange: `${prefix}/jb2a_patreon/Library/Generic/Fire/Campfire/Bonfire_02_Regular_Orange_400x400.webm`,
-                purple: `${prefix}/jb2a_patreon/Library/Generic/Fire/Campfire/Bonfire_02_Regular_Purple_400x400.webm`
-            }
-        },
-        patreonDatabase.boulder = {
-            _template: 'ranged',
-            siege: {
-                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/SiegeBoulder01_01_Regular_White_05ft_600x500.webm`,
-                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/SiegeBoulder01_01_Regular_White_15ft_1000x500.webm`,
-                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/SiegeBoulder01_01_Regular_White_30ft_1600x500.webm`,
-                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/SiegeBoulder01_01_Regular_White_60ft_2800x500.webm`,
-                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/SiegeBoulder01_01_Regular_White_90ft_4000x500.webm`
-            },
-            toss: {
-                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/BoulderToss01_01_Regular_White_05ft_600x500.webm`,
-                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/BoulderToss01_01_Regular_White_15ft_1000x500.webm`,
-                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/BoulderToss01_01_Regular_White_30ft_1600x500.webm`,
-                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/BoulderToss01_01_Regular_White_60ft_2800x500.webm`,
-                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/BoulderToss01_01_Regular_White_90ft_4000x500.webm`
-            }
-        },
-        patreonDatabase.braziers = {
+        _template: 'ranged',
+        cold: {
             blue: {
-                bordered: {
-                    '01': {
-                        '05x05ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_01_Wall_Blue_05x05ft_200x200.webm`,
-                        '10x05ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_01_Wall_Blue_10x05ft_400x200.webm`,
-                        '10x10ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_01_Wall_Blue_10x10ft_400x400.webm`
-                    },
-                    '02': {
-                        '05x05ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_02_Wall_Blue_05x05ft_200x200.webm`,
-                        '10x05ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_02_Wall_Blue_10x05ft_400x200.webm`,
-                        '10x10ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_02_Wall_Blue_10x10ft_400x400.webm`
-                    },
-                    '03': {
-                        '05x05ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_03_Wall_Blue_05x05ft_200x200.webm`,
-                        '10x05ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_03_Wall_Blue_10x05ft_400x200.webm`,
-                        '10x10ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_03_Wall_Blue_10x10ft_400x400.webm`
-                    }
-                },
-                hard_edge: {
-                    '01': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Coal_01_HardEdge_Blue_10x10_500x500.webm`,
-                    '02': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Coal_02_HardEdge_Blue_10x10_500x500.webm`
-                },
-                soft_edge: {
-                    '01': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Coal_01_SoftEdge_Blue_10x10_500x500.webm`,
-                    '02': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Coal_02_SoftEdge_Blue_10x10_500x500.webm`
-                }
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Blue_Cold_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Blue_Cold_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Blue_Cold_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Blue_Cold_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Blue_Cold_90ft_4000x400.webm`
             },
             green: {
-                bordered: {
-                    '01': {
-                        '05x05ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_01_Wall_Green_05x05ft_200x200.webm`,
-                        '10x05ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_01_Wall_Green_10x05ft_400x200.webm`,
-                        '10x10ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_01_Wall_Green_10x10ft_400x400.webm`
-                    },
-                    '02': {
-                        '05x05ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_02_Wall_Green_05x05ft_200x200.webm`,
-                        '10x05ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_02_Wall_Green_10x05ft_400x200.webm`,
-                        '10x10ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_02_Wall_Green_10x10ft_400x400.webm`
-                    },
-                    '03': {
-                        '05x05ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_03_Wall_Green_05x05ft_200x200.webm`,
-                        '10x05ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_03_Wall_Green_10x05ft_400x200.webm`,
-                        '10x10ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_03_Wall_Green_10x10ft_400x400.webm`
-                    }
-                },
-                hard_edge: {
-                    '01': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Coal_01_HardEdge_Green_10x10_500x500.webm`,
-                    '02': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Coal_02_HardEdge_Green_10x10_500x500.webm`
-                },
-                soft_edge: {
-                    '01': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Coal_01_SoftEdge_Green_10x10_500x500.webm`,
-                    '02': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Coal_02_SoftEdge_Green_10x10_500x500.webm`
-                }
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Green_Cold_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Green_Cold_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Green_Cold_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Green_Cold_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Green_Cold_90ft_4000x400.webm`
+            },
+            pink: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Pink_Cold_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Pink_Cold_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Pink_Cold_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Pink_Cold_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Pink_Cold_90ft_4000x400.webm`
+            },
+            purple: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Purple_Cold_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Purple_Cold_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Purple_Cold_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Purple_Cold_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Purple_Cold_90ft_4000x400.webm`
+            },
+            red: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Red_Cold_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Red_Cold_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Red_Cold_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Red_Cold_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Red_Cold_90ft_4000x400.webm`
             },
             orange: {
-                bordered: {
-                    '01': {
-                        '05x05ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_01_Wall_Orange_05x05ft_200x200.webm`,
-                        '10x05ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_01_Wall_Orange_10x05ft_400x200.webm`,
-                        '10x10ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_01_Wall_Orange_10x10ft_400x400.webm`
-                    },
-                    '02': {
-                        '05x05ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_02_Wall_Orange_05x05ft_200x200.webm`,
-                        '10x05ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_02_Wall_Orange_10x05ft_400x200.webm`,
-                        '10x10ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_02_Wall_Orange_10x10ft_400x400.webm`
-                    },
-                    '03': {
-                        '05x05ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_03_Wall_Orange_05x05ft_200x200.webm`,
-                        '10x05ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_03_Wall_Orange_10x05ft_400x200.webm`,
-                        '10x10ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_03_Wall_Orange_10x10ft_400x400.webm`
-                    }
-                },
-                hard_edge: {
-                    '01': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Coal_01_HardEdge_Orange_10x10_500x500.webm`,
-                    '02': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Coal_02_HardEdge_Orange_10x10_500x500.webm`
-                },
-                soft_edge: {
-                    '01': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Coal_01_SoftEdge_Orange_10x10_500x500.webm`,
-                    '02': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Coal_02_SoftEdge_Orange_10x10_500x500.webm`
-                }
-            },
-            unlit: {
-                bordered: {
-                    '01': {
-                        '05x05ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_01_Wall_Black_05x05ft.webp`,
-                        '10x05ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_01_Wall_Black_10x05ft.webp`,
-                        '10x10ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_01_Wall_Black_10x10ft.webp`
-                    },
-                    '02': {
-                        '05x05ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_02_Wall_Black_05x05ft.webp`,
-                        '10x05ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_02_Wall_Black_10x05ft.webp`,
-                        '10x10ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_02_Wall_Black_10x10ft.webp`
-                    },
-                    '03': {
-                        '05x05ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_03_Wall_Black_05x05ft.webp`,
-                        '10x05ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_03_Wall_Black_10x05ft.webp`,
-                        '10x10ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_03_Wall_Black_10x10ft.webp`
-                    }
-                },
-                hard_edge: {
-                    '01': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Coal_01_HardEdge_Black_10x10ft.webp`,
-                    '02': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Coal_02_HardEdge_Black_10x10ft.webp`
-                },
-                soft_edge: {
-                    '01': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Coal_01_SoftEdge_Black_10x10ft.webp`,
-                    '02': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Coal_02_SoftEdge_Black_10x10ft.webp`
-                }
-
-
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Orange_Cold_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Orange_Cold_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Orange_Cold_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Orange_Cold_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Orange_Cold_90ft_4000x400.webm`
             }
         },
-        patreonDatabase.breath_weapons = {
-            acid: {
-                line: {
-                    _template: "ray",
-                    blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Breath_Weapon/BreathWeapon_Acid01_Regular_Blue_30ft_Line_Burst_1200x200.webm`,
-                    green: `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Breath_Weapon/BreathWeapon_Acid01_Regular_Green_30ft_Line_Burst_1200x200.webm`,
-                    orange: `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Breath_Weapon/BreathWeapon_Acid01_Regular_Orange_30ft_Line_Burst_1200x200.webm`,
-                    purple: `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Breath_Weapon/BreathWeapon_Acid01_Regular_Purple_30ft_Line_Burst_1200x200.webm`
-                }
+        fire: {
+            blue: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Blue_Fire_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Blue_Fire_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Blue_Fire_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Blue_Fire_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Blue_Fire_90ft_4000x400.webm`
             },
-            cold: {
-                cone: {
-                    _template: "cone",
-                    blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/BreathWeapon_Cold01_Regular_Blue_30ft_Cone_Burst_600x600.webm`,
-                    green: `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/BreathWeapon_Cold01_Regular_Green_30ft_Cone_Burst_600x600.webm`,
-                    orange: `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/BreathWeapon_Cold01_Regular_Orange_30ft_Cone_Burst_600x600.webm`,
-                    purple: `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/BreathWeapon_Cold01_Regular_Purple_30ft_Cone_Burst_600x600.webm`
-                }
+            green: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Green_Fire_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Green_Fire_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Green_Fire_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Green_Fire_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Green_Fire_90ft_4000x400.webm`
             },
-            fire: {
-                cone: {
-                    _template: "cone",
-                    blue: {
-                        '01': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/BreathWeapon_Fire01_Regular_Blue_30ft_Cone_Burst_600x600.webm`,
-                        '02': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/BreathWeapon_Fire02_Regular_Blue_30ft_Cone_Burst_600x600.webm`
-                    },
-                    green: {
-                        '01': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/BreathWeapon_Fire01_Regular_Green_30ft_Cone_Burst_600x600.webm`,
-                        '02': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/BreathWeapon_Fire02_Regular_Green_30ft_Cone_Burst_600x600.webm`
-                    },
-                    orange: {
-                        '01': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/BreathWeapon_Fire01_Regular_Orange_30ft_Cone_Burst_600x600.webm`,
-                        '02': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/BreathWeapon_Fire02_Regular_Orange_30ft_Cone_Burst_600x600.webm`
-                    },
-                    purple: {
-                        '01': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/BreathWeapon_Fire01_Regular_Purple_30ft_Cone_Burst_600x600.webm`,
-                        '02': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/BreathWeapon_Fire02_Regular_Purple_30ft_Cone_Burst_600x600.webm`
-                    },
-                    yellow: {
-                        '01': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/BreathWeapon_Fire01_Regular_Yellow_30ft_Cone_Burst_600x600.webm`,
-                        '02': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/BreathWeapon_Fire02_Regular_Yellow_30ft_Cone_Burst_600x600.webm`
-                    }
+            pink: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Pink_Fire_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Pink_Fire_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Pink_Fire_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Pink_Fire_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Pink_Fire_90ft_4000x400.webm`
+            },
+            purple: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Purple_Fire_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Purple_Fire_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Purple_Fire_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Purple_Fire_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Purple_Fire_90ft_4000x400.webm`
+            },
+            red: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Red_Fire_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Red_Fire_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Red_Fire_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Red_Fire_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Red_Fire_90ft_4000x400.webm`
+            },
+            orange: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Orange_Fire_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Orange_Fire_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Orange_Fire_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Orange_Fire_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Orange_Fire_90ft_4000x400.webm`
+            }
+        },
+        lightning: {
+            blue: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Blue_Lightning_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Blue_Lightning_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Blue_Lightning_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Blue_Lightning_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Blue_Lightning_90ft_4000x400.webm`
+            },
+            green: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Green_Lightning_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Green_Lightning_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Green_Lightning_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Green_Lightning_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Green_Lightning_90ft_4000x400.webm`
+            },
+            pink: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Pink_Lightning_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Pink_Lightning_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Pink_Lightning_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Pink_Lightning_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Pink_Lightning_90ft_4000x400.webm`
+            },
+            purple: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Purple_Lightning_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Purple_Lightning_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Purple_Lightning_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Purple_Lightning_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Purple_Lightning_90ft_4000x400.webm`
+            },
+            red: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Red_Lightning_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Red_Lightning_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Red_Lightning_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Red_Lightning_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Red_Lightning_90ft_4000x400.webm`
+            },
+            orange: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Orange_Lightning_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Orange_Lightning_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Orange_Lightning_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Orange_Lightning_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Orange_Lightning_90ft_4000x400.webm`
+            }
+        },
+        physical: {
+            blue: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Blue_Physical_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Blue_Physical_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Blue_Physical_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Blue_Physical_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Blue_Physical_90ft_4000x400.webm`
+            },
+            green: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Green_Physical_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Green_Physical_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Green_Physical_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Green_Physical_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Green_Physical_90ft_4000x400.webm`
+            },
+            pink: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Pink_Physical_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Pink_Physical_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Pink_Physical_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Pink_Physical_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Pink_Physical_90ft_4000x400.webm`
+            },
+            purple: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Purple_Physical_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Purple_Physical_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Purple_Physical_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Purple_Physical_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Purple_Physical_90ft_4000x400.webm`
+            },
+            red: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Red_Physical_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Red_Physical_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Red_Physical_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Red_Physical_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Red_Physical_90ft_4000x400.webm`
+            },
+            orange: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Orange_Physical_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Orange_Physical_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Orange_Physical_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Orange_Physical_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Orange_Physical_90ft_4000x400.webm`
+            },
+            white: {
+                '01': {
+                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow01_01_Regular_White_05ft_600x400.webm`,
+                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow01_01_Regular_White_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow01_01_Regular_White_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow01_01_Regular_White_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow01_01_Regular_White_90ft_4000x400.webm`
                 },
-                line: {
-                    _template: "line",
-                    blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Breath_Weapon/BreathWeapon_Fire01_Regular_Blue_30ft_Line_Burst_1200x200.webm`,
-                    green: `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Breath_Weapon/BreathWeapon_Fire01_Regular_Green_30ft_Line_Burst_1200x200.webm`,
-                    orange: `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Breath_Weapon/BreathWeapon_Fire01_Regular_Orange_30ft_Line_Burst_1200x200.webm`,
-                    purple: `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Breath_Weapon/BreathWeapon_Fire01_Regular_Purple_30ft_Line_Burst_1200x200.webm`
-                }
-            },
-            lightning: {
-                line: {
-                    _template: "line",
-                    blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Breath_Weapon/BreathWeapon_Lightning01_Regular_Blue_30ft_Line_Burst_1200x200.webm`,
-                    green: `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Breath_Weapon/BreathWeapon_Lightning01_Regular_Green_30ft_Line_Burst_1200x200.webm`,
-                    orange: `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Breath_Weapon/BreathWeapon_Lightning01_Regular_Orange_30ft_Line_Burst_1200x200.webm`,
-                    purple: `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Breath_Weapon/BreathWeapon_Lightning01_Regular_Purple_30ft_Line_Burst_1200x200.webm`
-                }
-            },
-            poison: {
-                cone: {
-                    _template: "cone",
-                    dark_black: `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/BreathWeapon_Poison01_Dark_Black_30ft_Cone_Burst_600x600.webm`,
-                    dark_red: `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/BreathWeapon_Poison01_Dark_Red_30ft_Cone_Burst_600x600.webm`,
-                    blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/BreathWeapon_Poison01_Regular_Blue_30ft_Cone_Burst_600x600.webm`,
-                    green: `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/BreathWeapon_Poison01_Regular_Green_30ft_Cone_Burst_600x600.webm`,
-                    orange: `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/BreathWeapon_Poison01_Regular_Orange_30ft_Cone_Burst_600x600.webm`,
-                    purple: `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/BreathWeapon_Poison01_Regular_Purple_30ft_Cone_Burst_600x600.webm`,
-                    red: `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/BreathWeapon_Poison01_Regular_Red_30ft_Cone_Burst_600x600.webm`
+                '02': {
+                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_White_Physical_05ft_600x400.webm`,
+                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_White_Physical_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_White_Physical_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_White_Physical_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_White_Physical_90ft_4000x400.webm`
                 }
             }
         },
-        patreonDatabase.breath_weapons02 = {
-            burst: {
-                cone: {
-                    _template: "cone100_02",
-                    arcana: {
-                        purple: {
-                            '01': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/Breathweapon02_Arcana01_Regular_Purple_Cone_Burst_800x800.webm`,
-                            '02': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/Breathweapon02_Arcana02_Regular_Purple_Cone_Burst_800x800.webm`
-                        }
-                    },
-                    fire: {
-                        green: {
-                            '01': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/Breathweapon02_Fire01_Regular_Green_Cone_Burst_800x800.webm`,
-                            '02': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/Breathweapon02_Fire02_Regular_Green_Cone_Burst_800x800.webm`
-                        },
-                        orange: {
-                            '01': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/Breathweapon02_Fire01_Regular_Orange_Cone_Burst_800x800.webm`,
-                            '02': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/Breathweapon02_Fire02_Regular_Orange_Cone_Burst_800x800.webm`
-                        }
-                    },
-                    holy: {
-                        yellow: {
-                            '01': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/Breathweapon02_Holy01_Regular_Yellow_Cone_Burst_800x800.webm`,
-                            '02': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/Breathweapon02_Holy02_Regular_Yellow_Cone_Burst_800x800.webm`
-                        }
-                    }
+        poison: {
+            blue: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Blue_Poison_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Blue_Poison_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Blue_Poison_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Blue_Poison_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Blue_Poison_90ft_4000x400.webm`
+            },
+            green: {
+                '01': {
+                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow01_01_Glowing_Green_05ft_600x400.webm`,
+                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow01_01_Glowing_Green_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow01_01_Glowing_Green_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow01_01_Glowing_Green_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow01_01_Glowing_Green_90ft_4000x400.webm`
                 },
-                line: {
-                    _template: "line100",
-                    arcana: {
-                        purple: {
-                            '01': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Breath_Weapon/Breathweapon02_Arcana01_Regular_Purple_Line_Burst_1200x400.webm`
-                        }
-                    },
-                    fire: {
-                        green: {
-                            '01': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Breath_Weapon/Breathweapon02_Fire01_Regular_Green_Line_Burst_1200x400.webm`
-                        },
-                        orange: {
-                            '01': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Breath_Weapon/Breathweapon02_Fire01_Regular_Orange_Line_Burst_1200x400.webm`
-                        }
-                    },
-                    holy: {
-                        yellow: {
-                            '01': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Breath_Weapon/Breathweapon02_Holy01_Regular_Yellow_Line_Burst_1200x400.webm`
-                        }
-                    }
+                '02': {
+                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Green_Poison_05ft_600x400.webm`,
+                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Green_Poison_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Green_Poison_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Green_Poison_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Green_Poison_90ft_4000x400.webm`
                 }
+            },
+            pink: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Pink_Poison_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Pink_Poison_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Pink_Poison_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Pink_Poison_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Pink_Poison_90ft_4000x400.webm`
+            },
+            purple: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Purple_Poison_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Purple_Poison_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Purple_Poison_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Purple_Poison_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Purple_Poison_90ft_4000x400.webm`
+            },
+            red: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Red_Poison_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Red_Poison_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Red_Poison_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Red_Poison_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Red_Poison_90ft_4000x400.webm`
+            },
+            orange: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Orange_Poison_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Orange_Poison_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Orange_Poison_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Orange_Poison_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Arrow02_01_Regular_Orange_Poison_90ft_4000x400.webm`
+            }
+        }
+    },
+    patreonDatabase.bardic_inspiration = {
+        _metadata: {
+            name: "Bardic Inspiration"
+        },
+        blueyellow: `${prefix}/jb2a_patreon/Library/1st_Level/Bardic_Inspiration/BardicInspiration_01_Regular_BlueYellow_400x400.webm`,
+        dark_red: `${prefix}/jb2a_patreon/Library/1st_Level/Bardic_Inspiration/BardicInspiration_01_Dark_Red_400x400.webm`,
+        greenorange: `${prefix}/jb2a_patreon/Library/1st_Level/Bardic_Inspiration/BardicInspiration_01_Regular_GreenOrange_400x400.webm`,
+        purplepink: `${prefix}/jb2a_patreon/Library/1st_Level/Bardic_Inspiration/BardicInspiration_01_Regular_PurplePink_400x400.webm`,
+        pink: `${prefix}/jb2a_patreon/Library/1st_Level/Bardic_Inspiration/BardicInspiration_01_Regular_Pink_400x400.webm`,
+    },
+    patreonDatabase.bite = {
+        '200px': {
+            blue: `${prefix}/jb2a_patreon/Library/Generic/Creature/Bite_01_Regular_Blue_200x200.webm`,
+            green: `${prefix}/jb2a_patreon/Library/Generic/Creature/Bite_01_Regular_Green_200x200.webm`,
+            grey: `${prefix}/jb2a_patreon/Library/Generic/Creature/Bite_01_Regular_Grey_200x200.webm`,
+            orange: `${prefix}/jb2a_patreon/Library/Generic/Creature/Bite_01_Regular_Orange_200x200.webm`,
+            purple: `${prefix}/jb2a_patreon/Library/Generic/Creature/Bite_01_Regular_Purple_200x200.webm`,
+            red: `${prefix}/jb2a_patreon/Library/Generic/Creature/Bite_01_Regular_Red_200x200.webm`,
+            yellow: `${prefix}/jb2a_patreon/Library/Generic/Creature/Bite_01_Regular_Yellow_200x200.webm`
+        },
+        '400px': {
+            _metadata: {
+                name: "Bite"
+            },
+            blue: `${prefix}/jb2a_patreon/Library/Generic/Creature/Bite_01_Regular_Blue_400x400.webm`,
+            green: `${prefix}/jb2a_patreon/Library/Generic/Creature/Bite_01_Regular_Green_400x400.webm`,
+            grey: `${prefix}/jb2a_patreon/Library/Generic/Creature/Bite_01_Regular_Grey_400x400.webm`,
+            orange: `${prefix}/jb2a_patreon/Library/Generic/Creature/Bite_01_Regular_Orange_400x400.webm`,
+            purple: `${prefix}/jb2a_patreon/Library/Generic/Creature/Bite_01_Regular_Purple_400x400.webm`,
+            red: `${prefix}/jb2a_patreon/Library/Generic/Creature/Bite_01_Regular_Red_400x400.webm`,
+            yellow: `${prefix}/jb2a_patreon/Library/Generic/Creature/Bite_01_Regular_Yellow_400x400.webm`
+        }
+    },
+    patreonDatabase.black_tentacles = {
+        _metadata: {
+            name: "Black Tentacles"
+        },
+        dark_green: `${prefix}/jb2a_patreon/Library/4th_Level/Black_Tentacles/BlackTentacles_01_Dark_Green_600x600.webm`,
+        dark_purple: `${prefix}/jb2a_patreon/Library/4th_Level/Black_Tentacles/BlackTentacles_01_Dark_Purple_600x600.webm`,
+        dark_red: `${prefix}/jb2a_patreon/Library/4th_Level/Black_Tentacles/BlackTentacles_01_Dark_Red_600x600.webm`
+    },
+    patreonDatabase.bless = {
+        '200px': {
+            intro: {
+                blue: `${prefix}/jb2a_patreon/Library/1st_Level/Bless/Bless_01_Regular_Blue_Intro_200x200.webm`,
+                green: `${prefix}/jb2a_patreon/Library/1st_Level/Bless/Bless_01_Regular_Green_Intro_200x200.webm`,
+                purple: `${prefix}/jb2a_patreon/Library/1st_Level/Bless/Bless_01_Regular_Purple_Intro_200x200.webm`,
+                yellow: `${prefix}/jb2a_patreon/Library/1st_Level/Bless/Bless_01_Regular_Yellow_Intro_200x200.webm`
             },
             loop: {
-                cone: {
-                    arcana: {
-                        purple: {
-                            '01': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/Breathweapon02_Arcana01_Regular_Purple_Cone_Loop_800x800.webm`,
-                            '02': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/Breathweapon02_Arcana02_Regular_Purple_Cone_Loop_800x800.webm`
-                        }
-                    },
-                    fire: {
-                        green: {
-                            '01': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/Breathweapon02_Fire01_Regular_Green_Cone_Loop_800x800.webm`,
-                            '02': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/Breathweapon02_Fire02_Regular_Green_Cone_Loop_800x800.webm`
-                        },
-                        orange: {
-                            '01': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/Breathweapon02_Fire01_Regular_Orange_Cone_Loop_800x800.webm`,
-                            '02': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/Breathweapon02_Fire02_Regular_Orange_Cone_Loop_800x800.webm`
-                        }
-                    },
-                    holy: {
-                        yellow: {
-                            '01': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/Breathweapon02_Holy01_Regular_Yellow_Cone_Loop_800x800.webm`,
-                            '02': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/Breathweapon02_Holy02_Regular_Yellow_Cone_Loop_800x800.webm`
-                        }
-                    }
-                },
-                line: {
-                    arcana: {
-                        purple: {
-                            '01': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Breath_Weapon/Breathweapon02_Arcana01_Regular_Purple_Line_Loop_1200x400.webm`
-                        }
-                    },
-                    fire: {
-                        green: {
-                            '01': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Breath_Weapon/Breathweapon02_Fire01_Regular_Green_Line_Loop_1200x400.webm`
-                        },
-                        orange: {
-                            '01': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Breath_Weapon/Breathweapon02_Fire01_Regular_Orange_Line_Loop_1200x400.webm`
-                        }
-                    },
-                    holy: {
-                        yellow: {
-                            '01': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Breath_Weapon/Breathweapon02_Holy01_Regular_Yellow_Line_Loop_1200x400.webm`
-                        }
-                    }
-                }
+                blue: `${prefix}/jb2a_patreon/Library/1st_Level/Bless/Bless_01_Regular_Blue_Loop_200x200.webm`,
+                green: `${prefix}/jb2a_patreon/Library/1st_Level/Bless/Bless_01_Regular_Green_Loop_200x200.webm`,
+                purple: `${prefix}/jb2a_patreon/Library/1st_Level/Bless/Bless_01_Regular_Purple_Loop_200x200.webm`,
+                yellow: `${prefix}/jb2a_patreon/Library/1st_Level/Bless/Bless_01_Regular_Yellow_Loop_200x200.webm`
             }
         },
-        patreonDatabase.bullet = {
+        '400px': {
+            _metadata: {
+                name: "Bless"
+            },
+            intro: {
+                blue: `${prefix}/jb2a_patreon/Library/1st_Level/Bless/Bless_01_Regular_Blue_Intro_400x400.webm`,
+                green: `${prefix}/jb2a_patreon/Library/1st_Level/Bless/Bless_01_Regular_Green_Intro_400x400.webm`,
+                purple: `${prefix}/jb2a_patreon/Library/1st_Level/Bless/Bless_01_Regular_Purple_Intro_400x400.webm`,
+                yellow: `${prefix}/jb2a_patreon/Library/1st_Level/Bless/Bless_01_Regular_Yellow_Intro_400x400.webm`
+            },
+            loop: {
+                blue: `${prefix}/jb2a_patreon/Library/1st_Level/Bless/Bless_01_Regular_Blue_Loop_400x400.webm`,
+                green: `${prefix}/jb2a_patreon/Library/1st_Level/Bless/Bless_01_Regular_Green_Loop_400x400.webm`,
+                purple: `${prefix}/jb2a_patreon/Library/1st_Level/Bless/Bless_01_Regular_Purple_Loop_400x400.webm`,
+                yellow: `${prefix}/jb2a_patreon/Library/1st_Level/Bless/Bless_01_Regular_Yellow_Loop_400x400.webm`
+            }
+        }
+    },
+    patreonDatabase.bolt = {
+        _metadata: {
+            name: "Bolt",
+            new: [
+                "cold.red*",
+                "fire.red*",
+                "lightning.red*",
+                "physical.red*",
+                "poison.red*"
+            ]
+        },
+        _template: 'ranged',
+        cold: {
+            blue: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Blue_Cold_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Blue_Cold_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Blue_Cold_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Blue_Cold_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Blue_Cold_90ft_4000x400.webm`
+            },
+            green: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Green_Cold_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Green_Cold_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Green_Cold_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Green_Cold_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Green_Cold_90ft_4000x400.webm`
+            },
+            pink: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Pink_Cold_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Pink_Cold_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Pink_Cold_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Pink_Cold_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Pink_Cold_90ft_4000x400.webm`
+            },
+            purple: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Purple_Cold_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Purple_Cold_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Purple_Cold_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Purple_Cold_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Purple_Cold_90ft_4000x400.webm`
+            },
+            red: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Red_Cold_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Red_Cold_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Red_Cold_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Red_Cold_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Red_Cold_90ft_4000x400.webm`
+            },
+            orange: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Orange_Cold_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Orange_Cold_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Orange_Cold_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Orange_Cold_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Orange_Cold_90ft_4000x400.webm`
+            }
+        },
+        fire: {
+            blue: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Blue_Fire_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Blue_Fire_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Blue_Fire_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Blue_Fire_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Blue_Fire_90ft_4000x400.webm`
+            },
+            green: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Green_Fire_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Green_Fire_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Green_Fire_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Green_Fire_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Green_Fire_90ft_4000x400.webm`
+            },
+            pink: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Pink_Fire_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Pink_Fire_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Pink_Fire_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Pink_Fire_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Pink_Fire_90ft_4000x400.webm`
+            },
+            purple: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Purple_Fire_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Purple_Fire_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Purple_Fire_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Purple_Fire_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Purple_Fire_90ft_4000x400.webm`
+            },
+            red: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Red_Fire_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Red_Fire_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Red_Fire_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Red_Fire_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Red_Fire_90ft_4000x400.webm`
+            },
+            orange: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Orange_Fire_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Orange_Fire_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Orange_Fire_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Orange_Fire_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Orange_Fire_90ft_4000x400.webm`
+            }
+        },
+        lightning: {
+            blue: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Blue_Lightning_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Blue_Lightning_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Blue_Lightning_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Blue_Lightning_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Blue_Lightning_90ft_4000x400.webm`
+            },
+            green: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Green_Lightning_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Green_Lightning_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Green_Lightning_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Green_Lightning_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Green_Lightning_90ft_4000x400.webm`
+            },
+            pink: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Pink_Lightning_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Pink_Lightning_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Pink_Lightning_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Pink_Lightning_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Pink_Lightning_90ft_4000x400.webm`
+            },
+            purple: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Purple_Lightning_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Purple_Lightning_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Purple_Lightning_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Purple_Lightning_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Purple_Lightning_90ft_4000x400.webm`
+            },
+            red: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Red_Lightning_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Red_Lightning_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Red_Lightning_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Red_Lightning_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Red_Lightning_90ft_4000x400.webm`
+            },
+            orange: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Orange_Lightning_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Orange_Lightning_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Orange_Lightning_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Orange_Lightning_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Orange_Lightning_90ft_4000x400.webm`
+            }
+        },
+        physical: {
+            blue: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Blue_Physical_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Blue_Physical_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Blue_Physical_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Blue_Physical_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Blue_Physical_90ft_4000x400.webm`
+            },
+            green: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Green_Physical_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Green_Physical_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Green_Physical_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Green_Physical_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Green_Physical_90ft_4000x400.webm`
+            },
+            pink: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Pink_Physical_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Pink_Physical_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Pink_Physical_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Pink_Physical_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Pink_Physical_90ft_4000x400.webm`
+            },
+            purple: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Purple_Physical_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Purple_Physical_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Purple_Physical_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Purple_Physical_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Purple_Physical_90ft_4000x400.webm`
+            },
+            red: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Red_Physical_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Red_Physical_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Red_Physical_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Red_Physical_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Red_Physical_90ft_4000x400.webm`
+            },
+            orange: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Orange_Physical_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Orange_Physical_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Orange_Physical_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Orange_Physical_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Orange_Physical_90ft_4000x400.webm`
+            },
+            white: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_White_Physical_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_White_Physical_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_White_Physical_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_White_Physical_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_White_Physical_90ft_4000x400.webm`
+            },
+            white02: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_02_Regular_White_Physical_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_02_Regular_White_Physical_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_02_Regular_White_Physical_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_02_Regular_White_Physical_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_02_Regular_White_Physical_90ft_4000x400.webm`
+            }
+        },
+        poison: {
+            blue: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Blue_Poison_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Blue_Poison_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Blue_Poison_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Blue_Poison_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Blue_Poison_90ft_4000x400.webm`
+            },
+            green: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Green_Poison_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Green_Poison_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Green_Poison_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Green_Poison_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Green_Poison_90ft_4000x400.webm`
+            },
+            pink: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Pink_Poison_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Pink_Poison_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Pink_Poison_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Pink_Poison_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Pink_Poison_90ft_4000x400.webm`
+            },
+            purple: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Purple_Poison_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Purple_Poison_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Purple_Poison_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Purple_Poison_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Purple_Poison_90ft_4000x400.webm`
+            },
+            red: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Red_Poison_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Red_Poison_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Red_Poison_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Red_Poison_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Red_Poison_90ft_4000x400.webm`
+            },
+            orange: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Orange_Poison_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Orange_Poison_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Orange_Poison_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Orange_Poison_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bolt01_01_Regular_Orange_Poison_90ft_4000x400.webm`
+            }
+        }
+    },
+    patreonDatabase.bone = {
+        _metadata: {
+            name: "Bone",
+            new: true
+        },
+        return: {
             _template: 'ranged',
             '01': {
-                blue: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_01_Regular_Blue_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_01_Regular_Blue_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_01_Regular_Blue_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_01_Regular_Blue_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_01_Regular_Blue_90ft_4000x400.webm`
-                },
-                green: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_01_Regular_Green_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_01_Regular_Green_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_01_Regular_Green_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_01_Regular_Green_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_01_Regular_Green_90ft_4000x400.webm`
-                },
-                orange: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_01_Regular_Orange_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_01_Regular_Orange_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_01_Regular_Orange_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_01_Regular_Orange_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_01_Regular_Orange_90ft_4000x400.webm`
-                },
-                red: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_01_Regular_Red_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_01_Regular_Red_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_01_Regular_Red_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_01_Regular_Red_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_01_Regular_Red_90ft_4000x400.webm`
-                }
-            },
-            '02': {
-                blue: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_02_Regular_Blue_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_02_Regular_Blue_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_02_Regular_Blue_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_02_Regular_Blue_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_02_Regular_Blue_90ft_4000x400.webm`
-                },
-                green: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_02_Regular_Green_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_02_Regular_Green_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_02_Regular_Green_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_02_Regular_Green_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_02_Regular_Green_90ft_4000x400.webm`
-                },
-                orange: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_02_Regular_Orange_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_02_Regular_Orange_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_02_Regular_Orange_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_02_Regular_Orange_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_02_Regular_Orange_90ft_4000x400.webm`
-                },
-                red: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_02_Regular_Red_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_02_Regular_Red_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_02_Regular_Red_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_02_Regular_Red_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_02_Regular_Red_90ft_4000x400.webm`
-                }
-            },
-            '03': {
-                blue: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_03_Regular_Blue_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_03_Regular_Blue_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_03_Regular_Blue_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_03_Regular_Blue_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_03_Regular_Blue_90ft_4000x400.webm`
-                },
-                green: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_03_Regular_Green_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_03_Regular_Green_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_03_Regular_Green_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_03_Regular_Green_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_03_Regular_Green_90ft_4000x400.webm`
-                },
-                orange: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_03_Regular_Orange_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_03_Regular_Orange_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_03_Regular_Orange_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_03_Regular_Orange_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_03_Regular_Orange_90ft_4000x400.webm`
-                },
-                red: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_03_Regular_Red_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_03_Regular_Red_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_03_Regular_Red_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_03_Regular_Red_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_03_Regular_Red_90ft_4000x400.webm`
-                }
-            },
-            Snipe: {
-                blue: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Snipe_01_Regular_Blue_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Snipe_01_Regular_Blue_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Snipe_01_Regular_Blue_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Snipe_01_Regular_Blue_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Snipe_01_Regular_Blue_90ft_4000x400.webm`
-                },
-                green: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Snipe_01_Regular_Green_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Snipe_01_Regular_Green_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Snipe_01_Regular_Green_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Snipe_01_Regular_Green_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Snipe_01_Regular_Green_90ft_4000x400.webm`
-                },
-                orange: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Snipe_01_Regular_Orange_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Snipe_01_Regular_Orange_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Snipe_01_Regular_Orange_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Snipe_01_Regular_Orange_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Snipe_01_Regular_Orange_90ft_4000x400.webm`
-                },
-                red: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Snipe_01_Regular_Red_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Snipe_01_Regular_Red_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Snipe_01_Regular_Red_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Snipe_01_Regular_Red_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Snipe_01_Regular_Red_90ft_4000x400.webm`
-                }
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bone01_01_Regular_White_Return_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bone01_01_Regular_White_Return_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bone01_01_Regular_White_Return_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bone01_01_Regular_White_Return_90ft_4000x400.webm`
             }
         },
-        patreonDatabase.burning_hands = {
-            _template: 'cone',
-            '01': {
-                blue: `${prefix}/jb2a_patreon/Library/1st_Level/Burning_Hands/BurningHands_01_Regular_Blue_600x600.webm`,
-                green: `${prefix}/jb2a_patreon/Library/1st_Level/Burning_Hands/BurningHands_01_Regular_Green_600x600.webm`,
-                orange: `${prefix}/jb2a_patreon/Library/1st_Level/Burning_Hands/BurningHands_01_Regular_Orange_600x600.webm`,
-                purple: `${prefix}/jb2a_patreon/Library/1st_Level/Burning_Hands/BurningHands_01_Regular_Purple_600x600.webm`
-            },
-            '02': {
-                blue: `${prefix}/jb2a_patreon/Library/1st_Level/Burning_Hands/BurningHands_02_Regular_Blue_600x600.webm`,
-                green: `${prefix}/jb2a_patreon/Library/1st_Level/Burning_Hands/BurningHands_02_Regular_Green_600x600.webm`,
-                orange: `${prefix}/jb2a_patreon/Library/1st_Level/Burning_Hands/BurningHands_02_Regular_Orange_600x600.webm`,
-                purple: `${prefix}/jb2a_patreon/Library/1st_Level/Burning_Hands/BurningHands_02_Regular_Purple_600x600.webm`
-            }
-        },
-        patreonDatabase.butterflies = {
-            few: {
-                blue: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/Butterflies_01_Bright_Blue_Few_400x400.webm`,
-                bright_orange: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/Butterflies_01_Bright_Orange_Few_400x400.webm`,
-                green: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/Butterflies_01_Bright_Green_Few_400x400.webm`,
-                orange: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/Butterflies_01_Regular_Orange_Few_400x400.webm`,
-                purple: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/Butterflies_01_Bright_Purple_Few_400x400.webm`,
-                red: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/Butterflies_01_Dark_Red_Few_400x400.webm`,
-                yellow: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/Butterflies_01_Bright_Yellow_Few_400x400.webm`
-            },
-            many: {
-                blue: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/Butterflies_01_Bright_Blue_Many_400x400.webm`,
-                bright_orange: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/Butterflies_01_Bright_Orange_Many_400x400.webm`,
-                green: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/Butterflies_01_Bright_Green_Many_400x400.webm`,
-                orange: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/Butterflies_01_Regular_Orange_Many_400x400.webm`,
-                purple: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/Butterflies_01_Bright_Purple_Many_400x400.webm`,
-                red: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/Butterflies_01_Dark_Red_Many_400x400.webm`,
-                yellow: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/Butterflies_01_Bright_Yellow_Many_400x400.webm`
-            },
-            single: {
-                blue: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/Butterflies_01_Bright_Blue_Single_400x400.webm`,
-                bright_orange: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/Butterflies_01_Bright_Orange_Single_400x400.webm`,
-                green: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/Butterflies_01_Bright_Green_Single_400x400.webm`,
-                orange: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/Butterflies_01_Regular_Orange_Single_400x400.webm`,
-                purple: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/Butterflies_01_Bright_Purple_Single_400x400.webm`,
-                red: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/Butterflies_01_Dark_Red_Single_400x400.webm`,
-                yellow: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/Butterflies_01_Bright_Yellow_Single_400x400.webm`
-            }
-        },
-        patreonDatabase.call_lightning = {
-            low_res: {
-                blue: `${prefix}/jb2a_patreon/Library/3rd_Level/Call_Lightning/CallLightning_01_Blue_1000x1000.webm`,
-                blueorange: `${prefix}/jb2a_patreon/Library/3rd_Level/Call_Lightning/CallLightning_01_BlueOrange_1000x1000.webm`,
-                green: `${prefix}/jb2a_patreon/Library/3rd_Level/Call_Lightning/CallLightning_01_Green_1000x1000.webm`,
-                pinkyellow: `${prefix}/jb2a_patreon/Library/3rd_Level/Call_Lightning/CallLightning_01_PinkYellow_1000x1000.webm`,
-                purple: `${prefix}/jb2a_patreon/Library/3rd_Level/Call_Lightning/CallLightning_01_Purple_1000x1000.webm`,
-                red: `${prefix}/jb2a_patreon/Library/3rd_Level/Call_Lightning/CallLightning_01_Red_1000x1000.webm`,
-                yellow: `${prefix}/jb2a_patreon/Library/3rd_Level/Call_Lightning/CallLightning_01_Yellow_1000x1000.webm`
-            },
-            high_res: {
-                blue: `${prefix}/jb2a_patreon/Library/3rd_Level/Call_Lightning/High_Res/CallLightning_01_Blue_2400x2400.webm`,
-                blueorange: `${prefix}/jb2a_patreon/Library/3rd_Level/Call_Lightning/High_Res/CallLightning_01_BlueOrange_2400x2400.webm`,
-                purple: `${prefix}/jb2a_patreon/Library/3rd_Level/Call_Lightning/High_Res/CallLightning_01_Purple_2400x2400.webm`,
-                red: `${prefix}/jb2a_patreon/Library/3rd_Level/Call_Lightning/High_Res/CallLightning_01_Red_2400x2400.webm`,
-                yellow: `${prefix}/jb2a_patreon/Library/3rd_Level/Call_Lightning/High_Res/CallLightning_01_Yellow_2400x2400.webm`,
-            }
-        },
-        patreonDatabase.campfire = {
-            '01': {
-                blue: `${prefix}/jb2a_patreon/Library/Generic/Fire/Campfire/Campfire_01_Regular_Blue_200x200.webm`,
-                green: `${prefix}/jb2a_patreon/Library/Generic/Fire/Campfire/Campfire_01_Regular_Green_200x200.webm`,
-                orange: `${prefix}/jb2a_patreon/Library/Generic/Fire/Campfire/Campfire_01_Regular_Orange_200x200.webm`,
-                purple: `${prefix}/jb2a_patreon/Library/Generic/Fire/Campfire/Campfire_01_Regular_Purple_200x200.webm`
-            },
-            '02': {
-                blue: `${prefix}/jb2a_patreon/Library/Generic/Fire/Campfire/Campfire_02_Regular_Blue_200x200.webm`,
-                green: `${prefix}/jb2a_patreon/Library/Generic/Fire/Campfire/Campfire_02_Regular_Green_200x200.webm`,
-                orange: `${prefix}/jb2a_patreon/Library/Generic/Fire/Campfire/Campfire_02_Regular_Orange_200x200.webm`,
-                purple: `${prefix}/jb2a_patreon/Library/Generic/Fire/Campfire/Campfire_02_Regular_Purple_200x200.webm`
-            }
-        },
-        patreonDatabase.chain_lightning = {
-            _template: 'ranged',
-            primary: {
-                blue: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Blue_05ft_Primary_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Blue_15ft_Primary_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Blue_30ft_Primary_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Blue_60ft_Primary_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Blue_90ft_Primary_4000x400.webm`
-                },
-                dark_purple: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Dark_Purple_05ft_Primary_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Dark_Purple_15ft_Primary_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Dark_Purple_30ft_Primary_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Dark_Purple_60ft_Primary_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Dark_Purple_90ft_Primary_4000x400.webm`
-                },
-                dark_red: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Dark_Red_05ft_Primary_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Dark_Red_15ft_Primary_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Dark_Red_30ft_Primary_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Dark_Red_60ft_Primary_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Dark_Red_90ft_Primary_4000x400.webm`
-                },
-                green: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Green_05ft_Primary_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Green_15ft_Primary_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Green_30ft_Primary_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Green_60ft_Primary_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Green_90ft_Primary_4000x400.webm`
-                },
-                green02: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Green02_05ft_Primary_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Green02_15ft_Primary_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Green02_30ft_Primary_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Green02_60ft_Primary_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Green02_90ft_Primary_4000x400.webm`
-                },
-                orange: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Orange_05ft_Primary_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Orange_15ft_Primary_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Orange_30ft_Primary_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Orange_60ft_Primary_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Orange_90ft_Primary_4000x400.webm`
-                },
-                purple: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Purple_05ft_Primary_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Purple_15ft_Primary_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Purple_30ft_Primary_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Purple_60ft_Primary_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Purple_90ft_Primary_4000x400.webm`
-                },
-                red: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Red_05ft_Primary_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Red_15ft_Primary_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Red_30ft_Primary_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Red_60ft_Primary_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Red_90ft_Primary_4000x400.webm`
-                },
-                yellow: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Yellow_05ft_Primary_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Yellow_15ft_Primary_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Yellow_30ft_Primary_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Yellow_60ft_Primary_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Yellow_90ft_Primary_4000x400.webm`
-                }
-            },
-            secondary: {
-                blue: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Blue_05ft_Secondary_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Blue_15ft_Secondary_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Blue_30ft_Secondary_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Blue_60ft_Secondary_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Blue_90ft_Secondary_4000x400.webm`
-                },
-                dark_purple: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Dark_Purple_05ft_Secondary_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Dark_Purple_15ft_Secondary_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Dark_Purple_30ft_Secondary_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Dark_Purple_60ft_Secondary_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Dark_Purple_90ft_Secondary_4000x400.webm`
-                },
-                dark_red: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Dark_Red_05ft_Secondary_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Dark_Red_15ft_Secondary_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Dark_Red_30ft_Secondary_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Dark_Red_60ft_Secondary_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Dark_Red_90ft_Secondary_4000x400.webm`
-                },
-                green: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Green_05ft_Secondary_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Green_15ft_Secondary_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Green_30ft_Secondary_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Green_60ft_Secondary_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Green_90ft_Secondary_4000x400.webm`
-                },
-                green02: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Green02_05ft_Secondary_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Green02_15ft_Secondary_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Green02_30ft_Secondary_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Green02_60ft_Secondary_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Green02_90ft_Secondary_4000x400.webm`
-                },
-                orange: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Orange_05ft_Secondary_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Orange_15ft_Secondary_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Orange_30ft_Secondary_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Orange_60ft_Secondary_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Orange_90ft_Secondary_4000x400.webm`
-                },
-                purple: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Purple_05ft_Secondary_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Purple_15ft_Secondary_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Purple_30ft_Secondary_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Purple_60ft_Secondary_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Purple_90ft_Secondary_4000x400.webm`
-                },
-                red: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Red_05ft_Secondary_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Red_15ft_Secondary_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Red_30ft_Secondary_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Red_60ft_Secondary_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Red_90ft_Secondary_4000x400.webm`
-                },
-                yellow: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Yellow_05ft_Secondary_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Yellow_15ft_Secondary_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Yellow_30ft_Secondary_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Yellow_60ft_Secondary_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Yellow_90ft_Secondary_4000x400.webm`
-                }
-            }
-        },
-        patreonDatabase.chakram = {
+        throw: {
             _template: 'ranged',
             '01': {
-                return: {
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram01_01_Regular_White_Return_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram01_01_Regular_White_Return_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram01_01_Regular_White_Return_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram01_01_Regular_White_Return_90ft_4000x400.webm`
-                },
-                throw: {
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram01_01_Regular_White_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram01_01_Regular_White_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram01_01_Regular_White_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram01_01_Regular_White_90ft_4000x400.webm`
-                }
-            },
-            '02': {
-                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram01_02_Regular_White_15ft_1000x400.webm`,
-                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram01_02_Regular_White_30ft_1600x400.webm`,
-                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram01_02_Regular_White_60ft_2800x400.webm`,
-                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram01_02_Regular_White_90ft_4000x400.webm`
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bone01_01_Regular_White_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bone01_01_Regular_White_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bone01_01_Regular_White_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bone01_01_Regular_White_90ft_4000x400.webm`
             }
+        }
+    },
+    patreonDatabase.bonfire = {
+        _metadata: {
+            name: "Bonfire"
         },
-        patreonDatabase.claws = {
-            '200px': {
-                bright_blue: `${prefix}/jb2a_patreon/Library/Generic/Creature/Claws_01_Bright_Blue_200x200.webm`,
-                bright_green: `${prefix}/jb2a_patreon/Library/Generic/Creature/Claws_01_Bright_Green_200x200.webm`,
-                bright_orange: `${prefix}/jb2a_patreon/Library/Generic/Creature/Claws_01_Bright_Orange_200x200.webm`,
-                bright_purple: `${prefix}/jb2a_patreon/Library/Generic/Creature/Claws_01_Bright_Purple_200x200.webm`,
-                bright_yellow: `${prefix}/jb2a_patreon/Library/Generic/Creature/Claws_01_Bright_Yellow_200x200.webm`,
-                brown: `${prefix}/jb2a_patreon/Library/Generic/Creature/Claws_01_Regular_Brown_200x200.webm`,
-                dark_red: `${prefix}/jb2a_patreon/Library/Generic/Creature/Claws_01_Dark_Red_200x200.webm`,
-                red: `${prefix}/jb2a_patreon/Library/Generic/Creature/Claws_01_Regular_Red_200x200.webm`
-            },
-            '400px': {
-                bright_blue: `${prefix}/jb2a_patreon/Library/Generic/Creature/Claws_01_Bright_Blue_400x400.webm`,
-                bright_green: `${prefix}/jb2a_patreon/Library/Generic/Creature/Claws_01_Bright_Green_400x400.webm`,
-                bright_orange: `${prefix}/jb2a_patreon/Library/Generic/Creature/Claws_01_Bright_Orange_400x400.webm`,
-                bright_purple: `${prefix}/jb2a_patreon/Library/Generic/Creature/Claws_01_Bright_Purple_400x400.webm`,
-                bright_yellow: `${prefix}/jb2a_patreon/Library/Generic/Creature/Claws_01_Bright_Yellow_400x400.webm`,
-                brown: `${prefix}/jb2a_patreon/Library/Generic/Creature/Claws_01_Regular_Brown_400x400.webm`,
-                dark_red: `${prefix}/jb2a_patreon/Library/Generic/Creature/Claws_01_Dark_Red_400x400.webm`,
-                red: `${prefix}/jb2a_patreon/Library/Generic/Creature/Claws_01_Regular_Red_400x400.webm`
-            }
+        '01': {
+            blue: `${prefix}/jb2a_patreon/Library/Generic/Fire/Campfire/Bonfire_01_Regular_Blue_400x400.webm`,
+            green: `${prefix}/jb2a_patreon/Library/Generic/Fire/Campfire/Bonfire_01_Regular_Green_400x400.webm`,
+            orange: `${prefix}/jb2a_patreon/Library/Generic/Fire/Campfire/Bonfire_01_Regular_Orange_400x400.webm`,
+            purple: `${prefix}/jb2a_patreon/Library/Generic/Fire/Campfire/Bonfire_01_Regular_Purple_400x400.webm`
         },
-        patreonDatabase.cloud_of_daggers = {
-            daggers: {
-                blue: `${prefix}/jb2a_patreon/Library/2nd_Level/Cloud_Of_Daggers/CloudOfDaggers_01_Light_Blue_400x400.webm`,
-                dark_purple: `${prefix}/jb2a_patreon/Library/2nd_Level/Cloud_Of_Daggers/CloudOfDaggers_01_Dark_Purple_400x400.webm`,
-                dark_red: `${prefix}/jb2a_patreon/Library/2nd_Level/Cloud_Of_Daggers/CloudOfDaggers_01_Dark_Red_400x400.webm`,
-                green: `${prefix}/jb2a_patreon/Library/2nd_Level/Cloud_Of_Daggers/CloudOfDaggers_01_Light_Green_400x400.webm`,
-                orange: `${prefix}/jb2a_patreon/Library/2nd_Level/Cloud_Of_Daggers/CloudOfDaggers_01_Light_Orange_400x400.webm`,
-                purple: `${prefix}/jb2a_patreon/Library/2nd_Level/Cloud_Of_Daggers/CloudOfDaggers_01_Light_Purple_400x400.webm`,
-                red: `${prefix}/jb2a_patreon/Library/2nd_Level/Cloud_Of_Daggers/CloudOfDaggers_01_Light_Red_400x400.webm`,
-                yellow: `${prefix}/jb2a_patreon/Library/2nd_Level/Cloud_Of_Daggers/CloudOfDaggers_01_Light_Yellow_400x400.webm`
-            },
-            kunai: {
-                blue: `${prefix}/jb2a_patreon/Library/2nd_Level/Cloud_Of_Daggers/CloudOfDaggers_Kunai_01_Light_Blue_400x400.webm`,
-                dark_purple: `${prefix}/jb2a_patreon/Library/2nd_Level/Cloud_Of_Daggers/CloudOfDaggers_Kunai_01_Dark_Purple_400x400.webm`,
-                dark_red: `${prefix}/jb2a_patreon/Library/2nd_Level/Cloud_Of_Daggers/CloudOfDaggers_Kunai_01_Dark_Red_400x400.webm`,
-                green: `${prefix}/jb2a_patreon/Library/2nd_Level/Cloud_Of_Daggers/CloudOfDaggers_Kunai_01_Light_Green_400x400.webm`,
-                orange: `${prefix}/jb2a_patreon/Library/2nd_Level/Cloud_Of_Daggers/CloudOfDaggers_Kunai_01_Light_Orange_400x400.webm`,
-                purple: `${prefix}/jb2a_patreon/Library/2nd_Level/Cloud_Of_Daggers/CloudOfDaggers_Kunai_01_Light_Purple_400x400.webm`,
-                red: `${prefix}/jb2a_patreon/Library/2nd_Level/Cloud_Of_Daggers/CloudOfDaggers_Kunai_01_Light_Red_400x400.webm`,
-                yellow: `${prefix}/jb2a_patreon/Library/2nd_Level/Cloud_Of_Daggers/CloudOfDaggers_Kunai_01_Light_Yellow_400x400.webm`
-            }
+        '02': {
+            blue: `${prefix}/jb2a_patreon/Library/Generic/Fire/Campfire/Bonfire_02_Regular_Blue_400x400.webm`,
+            green: `${prefix}/jb2a_patreon/Library/Generic/Fire/Campfire/Bonfire_02_Regular_Green_400x400.webm`,
+            orange: `${prefix}/jb2a_patreon/Library/Generic/Fire/Campfire/Bonfire_02_Regular_Orange_400x400.webm`,
+            purple: `${prefix}/jb2a_patreon/Library/Generic/Fire/Campfire/Bonfire_02_Regular_Purple_400x400.webm`
+        }
+    },
+    patreonDatabase.boulder = {
+        _metadata: {
+            name: "Boulder",
         },
-        patreonDatabase.club = {
-            melee: {
-                _template: 'melee',
+        _template: 'ranged',
+        siege: {
+            '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/SiegeBoulder01_01_Regular_White_05ft_600x500.webm`,
+            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/SiegeBoulder01_01_Regular_White_15ft_1000x500.webm`,
+            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/SiegeBoulder01_01_Regular_White_30ft_1600x500.webm`,
+            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/SiegeBoulder01_01_Regular_White_60ft_2800x500.webm`,
+            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/SiegeBoulder01_01_Regular_White_90ft_4000x500.webm`
+        },
+        toss: {
+            '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/BoulderToss01_01_Regular_White_05ft_600x500.webm`,
+            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/BoulderToss01_01_Regular_White_15ft_1000x500.webm`,
+            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/BoulderToss01_01_Regular_White_30ft_1600x500.webm`,
+            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/BoulderToss01_01_Regular_White_60ft_2800x500.webm`,
+            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/BoulderToss01_01_Regular_White_90ft_4000x500.webm`
+        }
+    },
+    patreonDatabase.braziers = {
+        _metadata: {
+            name: "Braziers"
+        },
+        blue: {
+            bordered: {
                 '01': {
-                    dark_orangepurple: [
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_01_Dark_OrangePurple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_02_Dark_OrangePurple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_03_Dark_OrangePurple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_04_Dark_OrangePurple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_05_Dark_OrangePurple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_06_Dark_OrangePurple_800x600.webm`
-                    ],
-                    blue: [
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_01_Regular_Blue_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_02_Regular_Blue_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_03_Regular_Blue_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_04_Regular_Blue_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_05_Regular_Blue_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_06_Regular_Blue_800x600.webm`
-                    ],
-                    orange: [
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_01_Regular_Orange_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_02_Regular_Orange_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_03_Regular_Orange_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_04_Regular_Orange_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_05_Regular_Orange_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_06_Regular_Orange_800x600.webm`
-                    ],
-                    purple: [
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_01_Regular_Purple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_02_Regular_Purple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_03_Regular_Purple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_04_Regular_Purple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_05_Regular_Purple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_06_Regular_Purple_800x600.webm`
-                    ],
-                    white: [
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_01_Regular_White_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_02_Regular_White_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_03_Regular_White_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_04_Regular_White_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_05_Regular_White_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_06_Regular_White_800x600.webm`
-                    ]
+                    '05x05ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_01_Wall_Blue_05x05ft_200x200.webm`,
+                    '10x05ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_01_Wall_Blue_10x05ft_400x200.webm`,
+                    '10x10ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_01_Wall_Blue_10x10ft_400x400.webm`
+                },
+                '02': {
+                    '05x05ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_02_Wall_Blue_05x05ft_200x200.webm`,
+                    '10x05ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_02_Wall_Blue_10x05ft_400x200.webm`,
+                    '10x10ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_02_Wall_Blue_10x10ft_400x400.webm`
+                },
+                '03': {
+                    '05x05ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_03_Wall_Blue_05x05ft_200x200.webm`,
+                    '10x05ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_03_Wall_Blue_10x05ft_400x200.webm`,
+                    '10x10ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_03_Wall_Blue_10x10ft_400x400.webm`
+                }
+            },
+            hard_edge: {
+                '01': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Coal_01_HardEdge_Blue_10x10_500x500.webm`,
+                '02': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Coal_02_HardEdge_Blue_10x10_500x500.webm`
+            },
+            soft_edge: {
+                '01': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Coal_01_SoftEdge_Blue_10x10_500x500.webm`,
+                '02': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Coal_02_SoftEdge_Blue_10x10_500x500.webm`
+            }
+        },
+        green: {
+            bordered: {
+                '01': {
+                    '05x05ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_01_Wall_Green_05x05ft_200x200.webm`,
+                    '10x05ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_01_Wall_Green_10x05ft_400x200.webm`,
+                    '10x10ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_01_Wall_Green_10x10ft_400x400.webm`
+                },
+                '02': {
+                    '05x05ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_02_Wall_Green_05x05ft_200x200.webm`,
+                    '10x05ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_02_Wall_Green_10x05ft_400x200.webm`,
+                    '10x10ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_02_Wall_Green_10x10ft_400x400.webm`
+                },
+                '03': {
+                    '05x05ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_03_Wall_Green_05x05ft_200x200.webm`,
+                    '10x05ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_03_Wall_Green_10x05ft_400x200.webm`,
+                    '10x10ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_03_Wall_Green_10x10ft_400x400.webm`
+                }
+            },
+            hard_edge: {
+                '01': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Coal_01_HardEdge_Green_10x10_500x500.webm`,
+                '02': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Coal_02_HardEdge_Green_10x10_500x500.webm`
+            },
+            soft_edge: {
+                '01': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Coal_01_SoftEdge_Green_10x10_500x500.webm`,
+                '02': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Coal_02_SoftEdge_Green_10x10_500x500.webm`
+            }
+        },
+        orange: {
+            bordered: {
+                '01': {
+                    '05x05ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_01_Wall_Orange_05x05ft_200x200.webm`,
+                    '10x05ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_01_Wall_Orange_10x05ft_400x200.webm`,
+                    '10x10ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_01_Wall_Orange_10x10ft_400x400.webm`
+                },
+                '02': {
+                    '05x05ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_02_Wall_Orange_05x05ft_200x200.webm`,
+                    '10x05ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_02_Wall_Orange_10x05ft_400x200.webm`,
+                    '10x10ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_02_Wall_Orange_10x10ft_400x400.webm`
+                },
+                '03': {
+                    '05x05ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_03_Wall_Orange_05x05ft_200x200.webm`,
+                    '10x05ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_03_Wall_Orange_10x05ft_400x200.webm`,
+                    '10x10ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_03_Wall_Orange_10x10ft_400x400.webm`
+                }
+            },
+            hard_edge: {
+                '01': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Coal_01_HardEdge_Orange_10x10_500x500.webm`,
+                '02': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Coal_02_HardEdge_Orange_10x10_500x500.webm`
+            },
+            soft_edge: {
+                '01': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Coal_01_SoftEdge_Orange_10x10_500x500.webm`,
+                '02': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Coal_02_SoftEdge_Orange_10x10_500x500.webm`
+            }
+        },
+        unlit: {
+            bordered: {
+                '01': {
+                    '05x05ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_01_Wall_Black_05x05ft.webp`,
+                    '10x05ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_01_Wall_Black_10x05ft.webp`,
+                    '10x10ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_01_Wall_Black_10x10ft.webp`
+                },
+                '02': {
+                    '05x05ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_02_Wall_Black_05x05ft.webp`,
+                    '10x05ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_02_Wall_Black_10x05ft.webp`,
+                    '10x10ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_02_Wall_Black_10x10ft.webp`
+                },
+                '03': {
+                    '05x05ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_03_Wall_Black_05x05ft.webp`,
+                    '10x05ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_03_Wall_Black_10x05ft.webp`,
+                    '10x10ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_03_Wall_Black_10x10ft.webp`
+                }
+            },
+            hard_edge: {
+                '01': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Coal_01_HardEdge_Black_10x10ft.webp`,
+                '02': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Coal_02_HardEdge_Black_10x10ft.webp`
+            },
+            soft_edge: {
+                '01': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Coal_01_SoftEdge_Black_10x10ft.webp`,
+                '02': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Coal_02_SoftEdge_Black_10x10ft.webp`
+            }
+    
+    
+        }
+    },
+    patreonDatabase.breath_weapons = {
+        acid: {
+            line: {
+                _metadata: {
+                    name: "Breath Weapons - Line",
+                },
+                _template: "ray",
+                blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Breath_Weapon/BreathWeapon_Acid01_Regular_Blue_30ft_Line_Burst_1200x200.webm`,
+                green: `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Breath_Weapon/BreathWeapon_Acid01_Regular_Green_30ft_Line_Burst_1200x200.webm`,
+                orange: `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Breath_Weapon/BreathWeapon_Acid01_Regular_Orange_30ft_Line_Burst_1200x200.webm`,
+                purple: `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Breath_Weapon/BreathWeapon_Acid01_Regular_Purple_30ft_Line_Burst_1200x200.webm`
+            }
+        },
+        cold: {
+            cone: {
+                _metadata: {
+                    name: "Breath Weapons - Cone",
+                },
+                _template: "cone",
+                blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/BreathWeapon_Cold01_Regular_Blue_30ft_Cone_Burst_600x600.webm`,
+                green: `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/BreathWeapon_Cold01_Regular_Green_30ft_Cone_Burst_600x600.webm`,
+                orange: `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/BreathWeapon_Cold01_Regular_Orange_30ft_Cone_Burst_600x600.webm`,
+                purple: `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/BreathWeapon_Cold01_Regular_Purple_30ft_Cone_Burst_600x600.webm`
+            }
+        },
+        fire: {
+            cone: {
+                _metadata: {
+                    name: "Breath Weapons - Cone",
+                },
+                _template: "cone",
+                blue: {
+                    '01': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/BreathWeapon_Fire01_Regular_Blue_30ft_Cone_Burst_600x600.webm`,
+                    '02': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/BreathWeapon_Fire02_Regular_Blue_30ft_Cone_Burst_600x600.webm`
+                },
+                green: {
+                    '01': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/BreathWeapon_Fire01_Regular_Green_30ft_Cone_Burst_600x600.webm`,
+                    '02': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/BreathWeapon_Fire02_Regular_Green_30ft_Cone_Burst_600x600.webm`
+                },
+                orange: {
+                    '01': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/BreathWeapon_Fire01_Regular_Orange_30ft_Cone_Burst_600x600.webm`,
+                    '02': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/BreathWeapon_Fire02_Regular_Orange_30ft_Cone_Burst_600x600.webm`
+                },
+                purple: {
+                    '01': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/BreathWeapon_Fire01_Regular_Purple_30ft_Cone_Burst_600x600.webm`,
+                    '02': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/BreathWeapon_Fire02_Regular_Purple_30ft_Cone_Burst_600x600.webm`
+                },
+                yellow: {
+                    '01': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/BreathWeapon_Fire01_Regular_Yellow_30ft_Cone_Burst_600x600.webm`,
+                    '02': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/BreathWeapon_Fire02_Regular_Yellow_30ft_Cone_Burst_600x600.webm`
+                }
+            },
+            line: {
+                _metadata: {
+                    name: "Breath Weapons - Line",
+                },
+                _template: "line",
+                blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Breath_Weapon/BreathWeapon_Fire01_Regular_Blue_30ft_Line_Burst_1200x200.webm`,
+                green: `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Breath_Weapon/BreathWeapon_Fire01_Regular_Green_30ft_Line_Burst_1200x200.webm`,
+                orange: `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Breath_Weapon/BreathWeapon_Fire01_Regular_Orange_30ft_Line_Burst_1200x200.webm`,
+                purple: `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Breath_Weapon/BreathWeapon_Fire01_Regular_Purple_30ft_Line_Burst_1200x200.webm`
+            }
+        },
+        lightning: {
+            line: {
+                _metadata: {
+                    name: "Breath Weapons - Line",
+                },
+                _template: "line",
+                blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Breath_Weapon/BreathWeapon_Lightning01_Regular_Blue_30ft_Line_Burst_1200x200.webm`,
+                green: `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Breath_Weapon/BreathWeapon_Lightning01_Regular_Green_30ft_Line_Burst_1200x200.webm`,
+                orange: `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Breath_Weapon/BreathWeapon_Lightning01_Regular_Orange_30ft_Line_Burst_1200x200.webm`,
+                purple: `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Breath_Weapon/BreathWeapon_Lightning01_Regular_Purple_30ft_Line_Burst_1200x200.webm`
+            }
+        },
+        poison: {
+            cone: {
+                _metadata: {
+                    name: "Breath Weapons - Cone",
+                },
+                _template: "cone",
+                dark_black: `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/BreathWeapon_Poison01_Dark_Black_30ft_Cone_Burst_600x600.webm`,
+                dark_red: `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/BreathWeapon_Poison01_Dark_Red_30ft_Cone_Burst_600x600.webm`,
+                blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/BreathWeapon_Poison01_Regular_Blue_30ft_Cone_Burst_600x600.webm`,
+                green: `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/BreathWeapon_Poison01_Regular_Green_30ft_Cone_Burst_600x600.webm`,
+                orange: `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/BreathWeapon_Poison01_Regular_Orange_30ft_Cone_Burst_600x600.webm`,
+                purple: `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/BreathWeapon_Poison01_Regular_Purple_30ft_Cone_Burst_600x600.webm`,
+                red: `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/BreathWeapon_Poison01_Regular_Red_30ft_Cone_Burst_600x600.webm`
+            }
+        }
+    },
+    patreonDatabase.breath_weapons02 = {
+        burst: {
+            cone: {
+                _metadata: {
+                    name: "Breath Weapons V2 - Cone"
+                },
+                _template: "cone100_02",
+                arcana: {
+                    purple: {
+                        '01': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/Breathweapon02_Arcana01_Regular_Purple_Cone_Burst_800x800.webm`,
+                        '02': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/Breathweapon02_Arcana02_Regular_Purple_Cone_Burst_800x800.webm`
+                    }
+                },
+                fire: {
+                    green: {
+                        '01': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/Breathweapon02_Fire01_Regular_Green_Cone_Burst_800x800.webm`,
+                        '02': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/Breathweapon02_Fire02_Regular_Green_Cone_Burst_800x800.webm`
+                    },
+                    orange: {
+                        '01': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/Breathweapon02_Fire01_Regular_Orange_Cone_Burst_800x800.webm`,
+                        '02': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/Breathweapon02_Fire02_Regular_Orange_Cone_Burst_800x800.webm`
+                    }
+                },
+                holy: {
+                    yellow: {
+                        '01': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/Breathweapon02_Holy01_Regular_Yellow_Cone_Burst_800x800.webm`,
+                        '02': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/Breathweapon02_Holy02_Regular_Yellow_Cone_Burst_800x800.webm`
+                    }
+                }
+            },
+            line: {
+                _metadata: {
+                    name: "Breath Weapons V2 - Line"
+                },
+                _template: "line100",
+                arcana: {
+                    purple: {
+                        '01': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Breath_Weapon/Breathweapon02_Arcana01_Regular_Purple_Line_Burst_1200x400.webm`
+                    }
+                },
+                fire: {
+                    green: {
+                        '01': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Breath_Weapon/Breathweapon02_Fire01_Regular_Green_Line_Burst_1200x400.webm`
+                    },
+                    orange: {
+                        '01': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Breath_Weapon/Breathweapon02_Fire01_Regular_Orange_Line_Burst_1200x400.webm`
+                    }
+                },
+                holy: {
+                    yellow: {
+                        '01': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Breath_Weapon/Breathweapon02_Holy01_Regular_Yellow_Line_Burst_1200x400.webm`
+                    }
                 }
             }
         },
-        patreonDatabase.cone_of_cold = {
-            _template: "cone",
-            blue: `${prefix}/jb2a_patreon/Library/5th_Level/Cone_Of_Cold/ConeOfCold_01_Regular_Blue_600x600.webm`,
-            green: `${prefix}/jb2a_patreon/Library/5th_Level/Cone_Of_Cold/ConeOfCold_01_Regular_Green_600x600.webm`,
-            orange: `${prefix}/jb2a_patreon/Library/5th_Level/Cone_Of_Cold/ConeOfCold_01_Regular_Orange_600x600.webm`,
-            purple: `${prefix}/jb2a_patreon/Library/5th_Level/Cone_Of_Cold/ConeOfCold_01_Regular_Purple_600x600.webm`
-        },
-        patreonDatabase.cure_wounds = {
-            '200px': {
-                blue: `${prefix}/jb2a_patreon/Library/1st_Level/Cure_Wounds/CureWounds_01_Blue_200x200.webm`,
-                green: `${prefix}/jb2a_patreon/Library/1st_Level/Cure_Wounds/CureWounds_01_Green_200x200.webm`,
-                pink: `${prefix}/jb2a_patreon/Library/1st_Level/Cure_Wounds/CureWounds_01_Pink_200x200.webm`,
-                purple: `${prefix}/jb2a_patreon/Library/1st_Level/Cure_Wounds/CureWounds_01_Purple_200x200.webm`,
-                red: `${prefix}/jb2a_patreon/Library/1st_Level/Cure_Wounds/CureWounds_01_Red_200x200.webm`
+        loop: {
+            cone: {
+                _metadata: {
+                    name: "Breath Weapons V2 - Cone"
+                },
+                arcana: {
+                    purple: {
+                        '01': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/Breathweapon02_Arcana01_Regular_Purple_Cone_Loop_800x800.webm`,
+                        '02': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/Breathweapon02_Arcana02_Regular_Purple_Cone_Loop_800x800.webm`
+                    }
+                },
+                fire: {
+                    green: {
+                        '01': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/Breathweapon02_Fire01_Regular_Green_Cone_Loop_800x800.webm`,
+                        '02': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/Breathweapon02_Fire02_Regular_Green_Cone_Loop_800x800.webm`
+                    },
+                    orange: {
+                        '01': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/Breathweapon02_Fire01_Regular_Orange_Cone_Loop_800x800.webm`,
+                        '02': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/Breathweapon02_Fire02_Regular_Orange_Cone_Loop_800x800.webm`
+                    }
+                },
+                holy: {
+                    yellow: {
+                        '01': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/Breathweapon02_Holy01_Regular_Yellow_Cone_Loop_800x800.webm`,
+                        '02': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/Breathweapon02_Holy02_Regular_Yellow_Cone_Loop_800x800.webm`
+                    }
+                }
             },
-            '400px': {
-                blue: `${prefix}/jb2a_patreon/Library/1st_Level/Cure_Wounds/CureWounds_01_Blue_400x400.webm`,
-                green: `${prefix}/jb2a_patreon/Library/1st_Level/Cure_Wounds/CureWounds_01_Green_400x400.webm`,
-                pink: `${prefix}/jb2a_patreon/Library/1st_Level/Cure_Wounds/CureWounds_01_Pink_400x400.webm`,
-                purple: `${prefix}/jb2a_patreon/Library/1st_Level/Cure_Wounds/CureWounds_01_Purple_400x400.webm`,
-                red: `${prefix}/jb2a_patreon/Library/1st_Level/Cure_Wounds/CureWounds_01_Red_400x400.webm`
+            line: {
+                _metadata: {
+                    name: "Breath Weapons V2 - Line"
+                },
+                arcana: {
+                    purple: {
+                        '01': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Breath_Weapon/Breathweapon02_Arcana01_Regular_Purple_Line_Loop_1200x400.webm`
+                    }
+                },
+                fire: {
+                    green: {
+                        '01': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Breath_Weapon/Breathweapon02_Fire01_Regular_Green_Line_Loop_1200x400.webm`
+                    },
+                    orange: {
+                        '01': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Breath_Weapon/Breathweapon02_Fire01_Regular_Orange_Line_Loop_1200x400.webm`
+                    }
+                },
+                holy: {
+                    yellow: {
+                        '01': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Breath_Weapon/Breathweapon02_Holy01_Regular_Yellow_Line_Loop_1200x400.webm`
+                    }
+                }
+            }
+        }
+    },
+    patreonDatabase.bullet = {
+        _metadata: {
+            name: "Bullet",
+        },
+        _template: 'ranged',
+        '01': {
+            blue: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_01_Regular_Blue_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_01_Regular_Blue_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_01_Regular_Blue_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_01_Regular_Blue_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_01_Regular_Blue_90ft_4000x400.webm`
+            },
+            green: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_01_Regular_Green_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_01_Regular_Green_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_01_Regular_Green_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_01_Regular_Green_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_01_Regular_Green_90ft_4000x400.webm`
+            },
+            orange: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_01_Regular_Orange_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_01_Regular_Orange_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_01_Regular_Orange_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_01_Regular_Orange_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_01_Regular_Orange_90ft_4000x400.webm`
+            },
+            red: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_01_Regular_Red_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_01_Regular_Red_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_01_Regular_Red_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_01_Regular_Red_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_01_Regular_Red_90ft_4000x400.webm`
             }
         },
-        patreonDatabase.dagger = {
-            melee: {
-                _template: 'melee',
-                fire: {
-                    dark_purple: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Dagger02_Fire_Dark_Purple_800x600.webm`,
-                    blue: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Dagger02_Fire_Regular_Blue_800x600.webm`,
-                    green: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Dagger02_Fire_Regular_Green_800x600.webm`,
-                    orange: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Dagger02_Fire_Regular_Orange_800x600.webm`,
-                    pink: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Dagger02_Fire_Regular_Pink_800x600.webm`,
-                    red: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Dagger02_Fire_Regular_Red_800x600.webm`,
-                    white: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Dagger02_01_Regular_White_800x600.webm`,
-                    yellow: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Dagger02_Fire_Regular_Yellow_800x600.webm`
+        '02': {
+            blue: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_02_Regular_Blue_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_02_Regular_Blue_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_02_Regular_Blue_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_02_Regular_Blue_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_02_Regular_Blue_90ft_4000x400.webm`
+            },
+            green: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_02_Regular_Green_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_02_Regular_Green_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_02_Regular_Green_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_02_Regular_Green_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_02_Regular_Green_90ft_4000x400.webm`
+            },
+            orange: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_02_Regular_Orange_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_02_Regular_Orange_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_02_Regular_Orange_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_02_Regular_Orange_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_02_Regular_Orange_90ft_4000x400.webm`
+            },
+            red: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_02_Regular_Red_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_02_Regular_Red_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_02_Regular_Red_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_02_Regular_Red_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_02_Regular_Red_90ft_4000x400.webm`
+            }
+        },
+        '03': {
+            blue: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_03_Regular_Blue_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_03_Regular_Blue_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_03_Regular_Blue_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_03_Regular_Blue_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_03_Regular_Blue_90ft_4000x400.webm`
+            },
+            green: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_03_Regular_Green_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_03_Regular_Green_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_03_Regular_Green_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_03_Regular_Green_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_03_Regular_Green_90ft_4000x400.webm`
+            },
+            orange: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_03_Regular_Orange_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_03_Regular_Orange_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_03_Regular_Orange_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_03_Regular_Orange_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_03_Regular_Orange_90ft_4000x400.webm`
+            },
+            red: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_03_Regular_Red_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_03_Regular_Red_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_03_Regular_Red_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_03_Regular_Red_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Bullet_03_Regular_Red_90ft_4000x400.webm`
+            }
+        },
+        Snipe: {
+            blue: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Snipe_01_Regular_Blue_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Snipe_01_Regular_Blue_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Snipe_01_Regular_Blue_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Snipe_01_Regular_Blue_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Snipe_01_Regular_Blue_90ft_4000x400.webm`
+            },
+            green: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Snipe_01_Regular_Green_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Snipe_01_Regular_Green_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Snipe_01_Regular_Green_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Snipe_01_Regular_Green_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Snipe_01_Regular_Green_90ft_4000x400.webm`
+            },
+            orange: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Snipe_01_Regular_Orange_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Snipe_01_Regular_Orange_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Snipe_01_Regular_Orange_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Snipe_01_Regular_Orange_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Snipe_01_Regular_Orange_90ft_4000x400.webm`
+            },
+            red: {
+                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Snipe_01_Regular_Red_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Snipe_01_Regular_Red_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Snipe_01_Regular_Red_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Snipe_01_Regular_Red_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Snipe_01_Regular_Red_90ft_4000x400.webm`
+            }
+        }
+    }
+    patreonDatabase.burning_hands = {
+        _metadata: {
+            name: "Burning Hands"
+        },
+        _template: 'cone',
+        '01': {
+            blue: `${prefix}/jb2a_patreon/Library/1st_Level/Burning_Hands/BurningHands_01_Regular_Blue_600x600.webm`,
+            green: `${prefix}/jb2a_patreon/Library/1st_Level/Burning_Hands/BurningHands_01_Regular_Green_600x600.webm`,
+            orange: `${prefix}/jb2a_patreon/Library/1st_Level/Burning_Hands/BurningHands_01_Regular_Orange_600x600.webm`,
+            purple: `${prefix}/jb2a_patreon/Library/1st_Level/Burning_Hands/BurningHands_01_Regular_Purple_600x600.webm`
+        },
+        '02': {
+            blue: `${prefix}/jb2a_patreon/Library/1st_Level/Burning_Hands/BurningHands_02_Regular_Blue_600x600.webm`,
+            green: `${prefix}/jb2a_patreon/Library/1st_Level/Burning_Hands/BurningHands_02_Regular_Green_600x600.webm`,
+            orange: `${prefix}/jb2a_patreon/Library/1st_Level/Burning_Hands/BurningHands_02_Regular_Orange_600x600.webm`,
+            purple: `${prefix}/jb2a_patreon/Library/1st_Level/Burning_Hands/BurningHands_02_Regular_Purple_600x600.webm`
+        }
+    }
+    patreonDatabase.butterflies = {
+        _metadata: {
+            name: "Butterflies",
+        },
+        few: {
+            blue: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/Butterflies_01_Bright_Blue_Few_400x400.webm`,
+            bright_orange: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/Butterflies_01_Bright_Orange_Few_400x400.webm`,
+            green: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/Butterflies_01_Bright_Green_Few_400x400.webm`,
+            orange: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/Butterflies_01_Regular_Orange_Few_400x400.webm`,
+            purple: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/Butterflies_01_Bright_Purple_Few_400x400.webm`,
+            red: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/Butterflies_01_Dark_Red_Few_400x400.webm`,
+            yellow: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/Butterflies_01_Bright_Yellow_Few_400x400.webm`
+        },
+        many: {
+            blue: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/Butterflies_01_Bright_Blue_Many_400x400.webm`,
+            bright_orange: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/Butterflies_01_Bright_Orange_Many_400x400.webm`,
+            green: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/Butterflies_01_Bright_Green_Many_400x400.webm`,
+            orange: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/Butterflies_01_Regular_Orange_Many_400x400.webm`,
+            purple: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/Butterflies_01_Bright_Purple_Many_400x400.webm`,
+            red: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/Butterflies_01_Dark_Red_Many_400x400.webm`,
+            yellow: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/Butterflies_01_Bright_Yellow_Many_400x400.webm`
+        },
+        single: {
+            blue: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/Butterflies_01_Bright_Blue_Single_400x400.webm`,
+            bright_orange: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/Butterflies_01_Bright_Orange_Single_400x400.webm`,
+            green: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/Butterflies_01_Bright_Green_Single_400x400.webm`,
+            orange: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/Butterflies_01_Regular_Orange_Single_400x400.webm`,
+            purple: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/Butterflies_01_Bright_Purple_Single_400x400.webm`,
+            red: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/Butterflies_01_Dark_Red_Single_400x400.webm`,
+            yellow: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/Butterflies_01_Bright_Yellow_Single_400x400.webm`
+        }
+    },
+    patreonDatabase.call_lightning = {
+        _metadata: {
+            name: "Call Lightning",
+        },
+        low_res: {
+            blue: `${prefix}/jb2a_patreon/Library/3rd_Level/Call_Lightning/CallLightning_01_Blue_1000x1000.webm`,
+            blueorange: `${prefix}/jb2a_patreon/Library/3rd_Level/Call_Lightning/CallLightning_01_BlueOrange_1000x1000.webm`,
+            green: `${prefix}/jb2a_patreon/Library/3rd_Level/Call_Lightning/CallLightning_01_Green_1000x1000.webm`,
+            pinkyellow: `${prefix}/jb2a_patreon/Library/3rd_Level/Call_Lightning/CallLightning_01_PinkYellow_1000x1000.webm`,
+            purple: `${prefix}/jb2a_patreon/Library/3rd_Level/Call_Lightning/CallLightning_01_Purple_1000x1000.webm`,
+            red: `${prefix}/jb2a_patreon/Library/3rd_Level/Call_Lightning/CallLightning_01_Red_1000x1000.webm`,
+            yellow: `${prefix}/jb2a_patreon/Library/3rd_Level/Call_Lightning/CallLightning_01_Yellow_1000x1000.webm`
+        },
+        high_res: {
+            blue: `${prefix}/jb2a_patreon/Library/3rd_Level/Call_Lightning/High_Res/CallLightning_01_Blue_2400x2400.webm`,
+            blueorange: `${prefix}/jb2a_patreon/Library/3rd_Level/Call_Lightning/High_Res/CallLightning_01_BlueOrange_2400x2400.webm`,
+            purple: `${prefix}/jb2a_patreon/Library/3rd_Level/Call_Lightning/High_Res/CallLightning_01_Purple_2400x2400.webm`,
+            red: `${prefix}/jb2a_patreon/Library/3rd_Level/Call_Lightning/High_Res/CallLightning_01_Red_2400x2400.webm`,
+            yellow: `${prefix}/jb2a_patreon/Library/3rd_Level/Call_Lightning/High_Res/CallLightning_01_Yellow_2400x2400.webm`,
+        }
+    },
+    patreonDatabase.campfire = {
+        _metadata: {
+            name: "Campfire",
+        },
+        '01': {
+            blue: `${prefix}/jb2a_patreon/Library/Generic/Fire/Campfire/Campfire_01_Regular_Blue_200x200.webm`,
+            green: `${prefix}/jb2a_patreon/Library/Generic/Fire/Campfire/Campfire_01_Regular_Green_200x200.webm`,
+            orange: `${prefix}/jb2a_patreon/Library/Generic/Fire/Campfire/Campfire_01_Regular_Orange_200x200.webm`,
+            purple: `${prefix}/jb2a_patreon/Library/Generic/Fire/Campfire/Campfire_01_Regular_Purple_200x200.webm`
+        },
+        '02': {
+            blue: `${prefix}/jb2a_patreon/Library/Generic/Fire/Campfire/Campfire_02_Regular_Blue_200x200.webm`,
+            green: `${prefix}/jb2a_patreon/Library/Generic/Fire/Campfire/Campfire_02_Regular_Green_200x200.webm`,
+            orange: `${prefix}/jb2a_patreon/Library/Generic/Fire/Campfire/Campfire_02_Regular_Orange_200x200.webm`,
+            purple: `${prefix}/jb2a_patreon/Library/Generic/Fire/Campfire/Campfire_02_Regular_Purple_200x200.webm`
+        }
+    },
+    patreonDatabase.celestial_bodies = {
+        _metadata: {
+            name: "Celestial Bodies",
+            new: true
+        },
+        planet: {
+            atmo: {
+                '01': {
+                    blueorange: `${prefix}/jb2a_patreon/Library/Generic/Celestial_Bodies/PlanetAtmo_01_Regular_BlueOrange_800x800.webm`
+                },
+                '02': {
+                    orange: `${prefix}/jb2a_patreon/Library/Generic/Celestial_Bodies/PlanetAtmo_02_Regular_Orange_800x800.webm`
+                },
+                '03': {
+                    green: `${prefix}/jb2a_patreon/Library/Generic/Celestial_Bodies/PlanetAtmo_03_Regular_Green_800x800.webm`
+                },
+                '04': {
+                    green: `${prefix}/jb2a_patreon/Library/Generic/Celestial_Bodies/PlanetAtmo_04_Regular_Purple_800x800.webm`
+                }
+            },
+            no_atmo: {
+                '01': {
+                    bluewhite: `${prefix}/jb2a_patreon/Library/Generic/Celestial_Bodies/PlanetNoAtmo_01_Regular_BlueWhite_800x800.webm`
+                },
+                '02': {
+                    blueyellow: `${prefix}/jb2a_patreon/Library/Generic/Celestial_Bodies/PlanetNoAtmo_02_Regular_BlueYellow_800x800.webm`
+                },
+                '03': {
+                    grey: `${prefix}/jb2a_patreon/Library/Generic/Celestial_Bodies/PlanetNoAtmo_03_Regular_Grey_800x800.webm`
+                }
+            }
+        }
+    },
+    patreonDatabase.chain_lightning = {
+        _metadata: {
+            name: "Chain Lightning",
+            new: [
+                "primary.blue02*",
+                "secondary.blue02*"
+            ]
+        },
+        _template: 'ranged',
+        primary: {
+            blue: {
+                '05ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Blue_05ft_Primary_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Blue_15ft_Primary_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Blue_30ft_Primary_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Blue_60ft_Primary_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Blue_90ft_Primary_4000x400.webm`
+            },
+            blue02: {
+                '05ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Blue02_05ft_Primary_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Blue02_15ft_Primary_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Blue02_30ft_Primary_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Blue02_60ft_Primary_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Blue02_90ft_Primary_4000x400.webm`
+            },
+            dark_purple: {
+                '05ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Dark_Purple_05ft_Primary_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Dark_Purple_15ft_Primary_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Dark_Purple_30ft_Primary_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Dark_Purple_60ft_Primary_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Dark_Purple_90ft_Primary_4000x400.webm`
+            },
+            dark_red: {
+                '05ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Dark_Red_05ft_Primary_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Dark_Red_15ft_Primary_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Dark_Red_30ft_Primary_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Dark_Red_60ft_Primary_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Dark_Red_90ft_Primary_4000x400.webm`
+            },
+            green: {
+                '05ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Green_05ft_Primary_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Green_15ft_Primary_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Green_30ft_Primary_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Green_60ft_Primary_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Green_90ft_Primary_4000x400.webm`
+            },
+            green02: {
+                '05ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Green02_05ft_Primary_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Green02_15ft_Primary_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Green02_30ft_Primary_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Green02_60ft_Primary_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Green02_90ft_Primary_4000x400.webm`
+            },
+            orange: {
+                '05ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Orange_05ft_Primary_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Orange_15ft_Primary_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Orange_30ft_Primary_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Orange_60ft_Primary_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Orange_90ft_Primary_4000x400.webm`
+            },
+            purple: {
+                '05ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Purple_05ft_Primary_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Purple_15ft_Primary_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Purple_30ft_Primary_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Purple_60ft_Primary_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Purple_90ft_Primary_4000x400.webm`
+            },
+            red: {
+                '05ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Red_05ft_Primary_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Red_15ft_Primary_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Red_30ft_Primary_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Red_60ft_Primary_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Red_90ft_Primary_4000x400.webm`
+            },
+            yellow: {
+                '05ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Yellow_05ft_Primary_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Yellow_15ft_Primary_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Yellow_30ft_Primary_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Yellow_60ft_Primary_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Yellow_90ft_Primary_4000x400.webm`
+            }
+        },
+        secondary: {
+            blue: {
+                '05ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Blue_05ft_Secondary_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Blue_15ft_Secondary_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Blue_30ft_Secondary_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Blue_60ft_Secondary_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Blue_90ft_Secondary_4000x400.webm`
+            },
+            blue02: {
+                '05ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Blue02_05ft_Secondary_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Blue02_15ft_Secondary_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Blue02_30ft_Secondary_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Blue02_60ft_Secondary_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Blue02_90ft_Secondary_4000x400.webm`
+            },
+            dark_purple: {
+                '05ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Dark_Purple_05ft_Secondary_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Dark_Purple_15ft_Secondary_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Dark_Purple_30ft_Secondary_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Dark_Purple_60ft_Secondary_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Dark_Purple_90ft_Secondary_4000x400.webm`
+            },
+            dark_red: {
+                '05ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Dark_Red_05ft_Secondary_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Dark_Red_15ft_Secondary_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Dark_Red_30ft_Secondary_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Dark_Red_60ft_Secondary_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Dark_Red_90ft_Secondary_4000x400.webm`
+            },
+            green: {
+                '05ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Green_05ft_Secondary_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Green_15ft_Secondary_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Green_30ft_Secondary_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Green_60ft_Secondary_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Green_90ft_Secondary_4000x400.webm`
+            },
+            green02: {
+                '05ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Green02_05ft_Secondary_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Green02_15ft_Secondary_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Green02_30ft_Secondary_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Green02_60ft_Secondary_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Green02_90ft_Secondary_4000x400.webm`
+            },
+            orange: {
+                '05ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Orange_05ft_Secondary_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Orange_15ft_Secondary_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Orange_30ft_Secondary_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Orange_60ft_Secondary_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Orange_90ft_Secondary_4000x400.webm`
+            },
+            purple: {
+                '05ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Purple_05ft_Secondary_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Purple_15ft_Secondary_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Purple_30ft_Secondary_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Purple_60ft_Secondary_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Purple_90ft_Secondary_4000x400.webm`
+            },
+            red: {
+                '05ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Red_05ft_Secondary_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Red_15ft_Secondary_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Red_30ft_Secondary_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Red_60ft_Secondary_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Red_90ft_Secondary_4000x400.webm`
+            },
+            yellow: {
+                '05ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Yellow_05ft_Secondary_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Yellow_15ft_Secondary_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Yellow_30ft_Secondary_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Yellow_60ft_Secondary_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/6th_Level/Chain_Lightning/ChainLightning_01_Regular_Yellow_90ft_Secondary_4000x400.webm`
+            }
+        }
+    },
+    patreonDatabase.chakram = {
+        _metadata: {
+            name: "Chakram",
+        },
+        _template: 'ranged',
+        '01': {
+            return: {
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram01_01_Regular_White_Return_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram01_01_Regular_White_Return_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram01_01_Regular_White_Return_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram01_01_Regular_White_Return_90ft_4000x400.webm`
+            },
+            throw: {
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram01_01_Regular_White_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram01_01_Regular_White_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram01_01_Regular_White_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram01_01_Regular_White_90ft_4000x400.webm`
+            }
+        },
+        '02': {
+            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram01_02_Regular_White_15ft_1000x400.webm`,
+            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram01_02_Regular_White_30ft_1600x400.webm`,
+            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram01_02_Regular_White_60ft_2800x400.webm`,
+            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram01_02_Regular_White_90ft_4000x400.webm`
+        }
+    },
+    patreonDatabase.claws = {
+        '200px': {
+            bright_blue: `${prefix}/jb2a_patreon/Library/Generic/Creature/Claws_01_Bright_Blue_200x200.webm`,
+            bright_green: `${prefix}/jb2a_patreon/Library/Generic/Creature/Claws_01_Bright_Green_200x200.webm`,
+            bright_orange: `${prefix}/jb2a_patreon/Library/Generic/Creature/Claws_01_Bright_Orange_200x200.webm`,
+            bright_purple: `${prefix}/jb2a_patreon/Library/Generic/Creature/Claws_01_Bright_Purple_200x200.webm`,
+            bright_yellow: `${prefix}/jb2a_patreon/Library/Generic/Creature/Claws_01_Bright_Yellow_200x200.webm`,
+            brown: `${prefix}/jb2a_patreon/Library/Generic/Creature/Claws_01_Regular_Brown_200x200.webm`,
+            dark_red: `${prefix}/jb2a_patreon/Library/Generic/Creature/Claws_01_Dark_Red_200x200.webm`,
+            red: `${prefix}/jb2a_patreon/Library/Generic/Creature/Claws_01_Regular_Red_200x200.webm`
+        },
+        '400px': {
+            _metadata: {
+                name: "Claws",
+            },
+            bright_blue: `${prefix}/jb2a_patreon/Library/Generic/Creature/Claws_01_Bright_Blue_400x400.webm`,
+            bright_green: `${prefix}/jb2a_patreon/Library/Generic/Creature/Claws_01_Bright_Green_400x400.webm`,
+            bright_orange: `${prefix}/jb2a_patreon/Library/Generic/Creature/Claws_01_Bright_Orange_400x400.webm`,
+            bright_purple: `${prefix}/jb2a_patreon/Library/Generic/Creature/Claws_01_Bright_Purple_400x400.webm`,
+            bright_yellow: `${prefix}/jb2a_patreon/Library/Generic/Creature/Claws_01_Bright_Yellow_400x400.webm`,
+            brown: `${prefix}/jb2a_patreon/Library/Generic/Creature/Claws_01_Regular_Brown_400x400.webm`,
+            dark_red: `${prefix}/jb2a_patreon/Library/Generic/Creature/Claws_01_Dark_Red_400x400.webm`,
+            red: `${prefix}/jb2a_patreon/Library/Generic/Creature/Claws_01_Regular_Red_400x400.webm`
+        }
+    },
+    patreonDatabase.cloud_of_daggers = {
+        _metadata: {
+            name: "Cloud of Daggers",
+        },
+        daggers: {
+            blue: `${prefix}/jb2a_patreon/Library/2nd_Level/Cloud_Of_Daggers/CloudOfDaggers_01_Light_Blue_400x400.webm`,
+            dark_purple: `${prefix}/jb2a_patreon/Library/2nd_Level/Cloud_Of_Daggers/CloudOfDaggers_01_Dark_Purple_400x400.webm`,
+            dark_red: `${prefix}/jb2a_patreon/Library/2nd_Level/Cloud_Of_Daggers/CloudOfDaggers_01_Dark_Red_400x400.webm`,
+            green: `${prefix}/jb2a_patreon/Library/2nd_Level/Cloud_Of_Daggers/CloudOfDaggers_01_Light_Green_400x400.webm`,
+            orange: `${prefix}/jb2a_patreon/Library/2nd_Level/Cloud_Of_Daggers/CloudOfDaggers_01_Light_Orange_400x400.webm`,
+            purple: `${prefix}/jb2a_patreon/Library/2nd_Level/Cloud_Of_Daggers/CloudOfDaggers_01_Light_Purple_400x400.webm`,
+            red: `${prefix}/jb2a_patreon/Library/2nd_Level/Cloud_Of_Daggers/CloudOfDaggers_01_Light_Red_400x400.webm`,
+            yellow: `${prefix}/jb2a_patreon/Library/2nd_Level/Cloud_Of_Daggers/CloudOfDaggers_01_Light_Yellow_400x400.webm`
+        },
+        kunai: {
+            blue: `${prefix}/jb2a_patreon/Library/2nd_Level/Cloud_Of_Daggers/CloudOfDaggers_Kunai_01_Light_Blue_400x400.webm`,
+            dark_purple: `${prefix}/jb2a_patreon/Library/2nd_Level/Cloud_Of_Daggers/CloudOfDaggers_Kunai_01_Dark_Purple_400x400.webm`,
+            dark_red: `${prefix}/jb2a_patreon/Library/2nd_Level/Cloud_Of_Daggers/CloudOfDaggers_Kunai_01_Dark_Red_400x400.webm`,
+            green: `${prefix}/jb2a_patreon/Library/2nd_Level/Cloud_Of_Daggers/CloudOfDaggers_Kunai_01_Light_Green_400x400.webm`,
+            orange: `${prefix}/jb2a_patreon/Library/2nd_Level/Cloud_Of_Daggers/CloudOfDaggers_Kunai_01_Light_Orange_400x400.webm`,
+            purple: `${prefix}/jb2a_patreon/Library/2nd_Level/Cloud_Of_Daggers/CloudOfDaggers_Kunai_01_Light_Purple_400x400.webm`,
+            red: `${prefix}/jb2a_patreon/Library/2nd_Level/Cloud_Of_Daggers/CloudOfDaggers_Kunai_01_Light_Red_400x400.webm`,
+            yellow: `${prefix}/jb2a_patreon/Library/2nd_Level/Cloud_Of_Daggers/CloudOfDaggers_Kunai_01_Light_Yellow_400x400.webm`
+        }
+    }
+    patreonDatabase.club = {
+        _metadata: {
+            name: "Club",
+        },
+        melee: {
+            _template: 'melee',
+            '01': {
+                dark_orangepurple: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_01_Dark_OrangePurple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_02_Dark_OrangePurple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_03_Dark_OrangePurple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_04_Dark_OrangePurple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_05_Dark_OrangePurple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_06_Dark_OrangePurple_800x600.webm`
+                ],
+                blue: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_01_Regular_Blue_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_02_Regular_Blue_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_03_Regular_Blue_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_04_Regular_Blue_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_05_Regular_Blue_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_06_Regular_Blue_800x600.webm`
+                ],
+                orange: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_01_Regular_Orange_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_02_Regular_Orange_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_03_Regular_Orange_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_04_Regular_Orange_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_05_Regular_Orange_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_06_Regular_Orange_800x600.webm`
+                ],
+                purple: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_01_Regular_Purple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_02_Regular_Purple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_03_Regular_Purple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_04_Regular_Purple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_05_Regular_Purple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_06_Regular_Purple_800x600.webm`
+                ],
+                white: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_01_Regular_White_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_02_Regular_White_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_03_Regular_White_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_04_Regular_White_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_05_Regular_White_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Club01_06_Regular_White_800x600.webm`
+                ]
+            }
+        }
+    }
+    patreonDatabase.cone_of_cold = {
+        _metadata: {
+            name: "Cone of Cold",
+        },
+        _template: "cone",
+        blue: `${prefix}/jb2a_patreon/Library/5th_Level/Cone_Of_Cold/ConeOfCold_01_Regular_Blue_600x600.webm`,
+        green: `${prefix}/jb2a_patreon/Library/5th_Level/Cone_Of_Cold/ConeOfCold_01_Regular_Green_600x600.webm`,
+        orange: `${prefix}/jb2a_patreon/Library/5th_Level/Cone_Of_Cold/ConeOfCold_01_Regular_Orange_600x600.webm`,
+        purple: `${prefix}/jb2a_patreon/Library/5th_Level/Cone_Of_Cold/ConeOfCold_01_Regular_Purple_600x600.webm`
+    }
+    patreonDatabase.cure_wounds = {
+        '200px': {
+            blue: `${prefix}/jb2a_patreon/Library/1st_Level/Cure_Wounds/CureWounds_01_Blue_200x200.webm`,
+            green: `${prefix}/jb2a_patreon/Library/1st_Level/Cure_Wounds/CureWounds_01_Green_200x200.webm`,
+            pink: `${prefix}/jb2a_patreon/Library/1st_Level/Cure_Wounds/CureWounds_01_Pink_200x200.webm`,
+            purple: `${prefix}/jb2a_patreon/Library/1st_Level/Cure_Wounds/CureWounds_01_Purple_200x200.webm`,
+            red: `${prefix}/jb2a_patreon/Library/1st_Level/Cure_Wounds/CureWounds_01_Red_200x200.webm`
+        },
+        '400px': {
+            _metadata: {
+                name: "Cure Wounds",
+            },
+            blue: `${prefix}/jb2a_patreon/Library/1st_Level/Cure_Wounds/CureWounds_01_Blue_400x400.webm`,
+            green: `${prefix}/jb2a_patreon/Library/1st_Level/Cure_Wounds/CureWounds_01_Green_400x400.webm`,
+            pink: `${prefix}/jb2a_patreon/Library/1st_Level/Cure_Wounds/CureWounds_01_Pink_400x400.webm`,
+            purple: `${prefix}/jb2a_patreon/Library/1st_Level/Cure_Wounds/CureWounds_01_Purple_400x400.webm`,
+            red: `${prefix}/jb2a_patreon/Library/1st_Level/Cure_Wounds/CureWounds_01_Red_400x400.webm`
+        }
+    }
+    patreonDatabase.dagger = {
+        _metadata: {
+            name: "Dagger",
+        },    
+        melee: {
+            _template: 'melee',
+            fire: {
+                dark_purple: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Dagger02_Fire_Dark_Purple_800x600.webm`,
+                blue: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Dagger02_Fire_Regular_Blue_800x600.webm`,
+                green: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Dagger02_Fire_Regular_Green_800x600.webm`,
+                orange: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Dagger02_Fire_Regular_Orange_800x600.webm`,
+                pink: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Dagger02_Fire_Regular_Pink_800x600.webm`,
+                red: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Dagger02_Fire_Regular_Red_800x600.webm`,
+                white: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Dagger02_01_Regular_White_800x600.webm`,
+                yellow: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Dagger02_Fire_Regular_Yellow_800x600.webm`
+            },
+        },
+        return: {
+            _template: 'ranged',
+            '01': {
+                blue: {
+                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Blue_Return_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Blue_Return_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Blue_Return_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Blue_Return_90ft_4000x400.webm`
+                },
+                dark_purple: {
+                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Dark_Purple_Return_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Dark_Purple_Return_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Dark_Purple_Return_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Dark_Purple_Return_90ft_4000x400.webm`
+                },
+                pink: {
+                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Pink_Return_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Pink_Return_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Pink_Return_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Pink_Return_90ft_4000x400.webm`
+                },
+                red: {
+                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Red_Return_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Red_Return_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Red_Return_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Red_Return_90ft_4000x400.webm`
+                },
+                white: {
+                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_White_Return_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_White_Return_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_White_Return_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_White_Return_90ft_4000x400.webm`
+                }
+            },
+            '02': {
+                blue: {
+                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Blue_Return_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Blue_Return_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Blue_Return_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Blue_Return_90ft_4000x400.webm`
+                },
+                dark_purple: {
+                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Dark_Purple_Return_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Dark_Purple_Return_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Dark_Purple_Return_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Dark_Purple_Return_90ft_4000x400.webm`
+                },
+                pink: {
+                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Pink_Return_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Pink_Return_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Pink_Return_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Pink_Return_90ft_4000x400.webm`
+                },
+                red: {
+                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Red_Return_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Red_Return_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Red_Return_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Red_Return_90ft_4000x400.webm`
+                },
+                white: {
+                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_White_Return_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_White_Return_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_White_Return_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_White_Return_90ft_4000x400.webm`
+                }
+            }
+        },
+        throw: {
+            _template: 'ranged',
+            '01': {
+                blue: {
+                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Blue_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Blue_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Blue_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Blue_90ft_4000x400.webm`
+                },
+                dark_purple: {
+                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Dark_Purple_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Dark_Purple_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Dark_Purple_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Dark_Purple_90ft_4000x400.webm`
+                },
+                pink: {
+                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Pink_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Pink_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Pink_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Pink_90ft_4000x400.webm`
+                },
+                red: {
+                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Red_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Red_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Red_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Red_90ft_4000x400.webm`
+                },
+                white: {
+                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_White_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_White_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_White_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_White_90ft_4000x400.webm`
+                }
+            },
+            '02': {
+                white: {
+                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Blue_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Blue_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Blue_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Blue_90ft_4000x400.webm`
+                },
+                dark_purple: {
+                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Dark_Purple_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Dark_Purple_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Dark_Purple_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Dark_Purple_90ft_4000x400.webm`
+                },
+                pink: {
+                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Pink_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Pink_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Pink_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Pink_90ft_4000x400.webm`
+                },
+                red: {
+                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Red_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Red_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Red_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Red_90ft_4000x400.webm`
+                },
+                white: {
+                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_White_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_White_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_White_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_White_90ft_4000x400.webm`
+                }
+            }
+        }
+    },
+    patreonDatabase.dancing_light = {
+        _metadata: {
+            name: "Dancing Lights",
+        },
+        blueteal: `${prefix}/jb2a_patreon/Library/Cantrip/Dancing_Lights/DancingLights_01_BlueTeal_200x200.webm`,
+        blueyellow: `${prefix}/jb2a_patreon/Library/Cantrip/Dancing_Lights/DancingLights_01_BlueYellow_200x200.webm`,
+        green: `${prefix}/jb2a_patreon/Library/Cantrip/Dancing_Lights/DancingLights_01_Green_200x200.webm`,
+        pink: `${prefix}/jb2a_patreon/Library/Cantrip/Dancing_Lights/DancingLights_01_Pink_200x200.webm`,
+        purplegreen: `${prefix}/jb2a_patreon/Library/Cantrip/Dancing_Lights/DancingLights_01_PurpleGreen_200x200.webm`,
+        red: `${prefix}/jb2a_patreon/Library/Cantrip/Dancing_Lights/DancingLights_01_Red_200x200.webm`,
+        yellow: `${prefix}/jb2a_patreon/Library/Cantrip/Dancing_Lights/DancingLights_01_Yellow_200x200.webm`
+    }
+    patreonDatabase.darkness = {
+        _metadata: {
+            name: "Darkness"
+        },
+        black: `${prefix}/jb2a_patreon/Library/2nd_Level/Darkness/Darkness_01_Black_600x600.webm`,
+        green: `${prefix}/jb2a_patreon/Library/2nd_Level/Darkness/Darkness_01_Green_600x600.webm`
+    }
+    patreonDatabase.dart = {
+        _metadata: {
+            name: "Dart",
+        },
+        _template: 'ranged',
+        '01': {
+            throw: {
+                physical: {
+                    white: {
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dart01_01_Regular_White_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dart01_01_Regular_White_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dart01_01_Regular_White_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dart01_01_Regular_White_90ft_4000x400.webm`
+                    },
                 },
             },
             return: {
-                _template: 'ranged',
-                '01': {
-                    blue: {
-                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Blue_Return_15ft_1000x400.webm`,
-                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Blue_Return_30ft_1600x400.webm`,
-                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Blue_Return_60ft_2800x400.webm`,
-                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Blue_Return_90ft_4000x400.webm`
-                    },
-                    dark_purple: {
-                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Dark_Purple_Return_15ft_1000x400.webm`,
-                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Dark_Purple_Return_30ft_1600x400.webm`,
-                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Dark_Purple_Return_60ft_2800x400.webm`,
-                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Dark_Purple_Return_90ft_4000x400.webm`
-                    },
-                    pink: {
-                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Pink_Return_15ft_1000x400.webm`,
-                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Pink_Return_30ft_1600x400.webm`,
-                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Pink_Return_60ft_2800x400.webm`,
-                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Pink_Return_90ft_4000x400.webm`
-                    },
-                    red: {
-                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Red_Return_15ft_1000x400.webm`,
-                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Red_Return_30ft_1600x400.webm`,
-                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Red_Return_60ft_2800x400.webm`,
-                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Red_Return_90ft_4000x400.webm`
-                    },
+                physical: {
                     white: {
-                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_White_Return_15ft_1000x400.webm`,
-                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_White_Return_30ft_1600x400.webm`,
-                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_White_Return_60ft_2800x400.webm`,
-                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_White_Return_90ft_4000x400.webm`
-                    }
-                },
-                '02': {
-                    blue: {
-                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Blue_Return_15ft_1000x400.webm`,
-                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Blue_Return_30ft_1600x400.webm`,
-                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Blue_Return_60ft_2800x400.webm`,
-                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Blue_Return_90ft_4000x400.webm`
-                    },
-                    dark_purple: {
-                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Dark_Purple_Return_15ft_1000x400.webm`,
-                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Dark_Purple_Return_30ft_1600x400.webm`,
-                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Dark_Purple_Return_60ft_2800x400.webm`,
-                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Dark_Purple_Return_90ft_4000x400.webm`
-                    },
-                    pink: {
-                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Pink_Return_15ft_1000x400.webm`,
-                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Pink_Return_30ft_1600x400.webm`,
-                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Pink_Return_60ft_2800x400.webm`,
-                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Pink_Return_90ft_4000x400.webm`
-                    },
-                    red: {
-                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Red_Return_15ft_1000x400.webm`,
-                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Red_Return_30ft_1600x400.webm`,
-                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Red_Return_60ft_2800x400.webm`,
-                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Red_Return_90ft_4000x400.webm`
-                    },
-                    white: {
-                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_White_Return_15ft_1000x400.webm`,
-                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_White_Return_30ft_1600x400.webm`,
-                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_White_Return_60ft_2800x400.webm`,
-                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_White_Return_90ft_4000x400.webm`
-                    }
-                }
-            },
-            throw: {
-                _template: 'ranged',
-                '01': {
-                    blue: {
-                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Blue_15ft_1000x400.webm`,
-                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Blue_30ft_1600x400.webm`,
-                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Blue_60ft_2800x400.webm`,
-                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Blue_90ft_4000x400.webm`
-                    },
-                    dark_purple: {
-                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Dark_Purple_15ft_1000x400.webm`,
-                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Dark_Purple_30ft_1600x400.webm`,
-                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Dark_Purple_60ft_2800x400.webm`,
-                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Dark_Purple_90ft_4000x400.webm`
-                    },
-                    pink: {
-                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Pink_15ft_1000x400.webm`,
-                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Pink_30ft_1600x400.webm`,
-                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Pink_60ft_2800x400.webm`,
-                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Pink_90ft_4000x400.webm`
-                    },
-                    red: {
-                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Red_15ft_1000x400.webm`,
-                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Red_30ft_1600x400.webm`,
-                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Red_60ft_2800x400.webm`,
-                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Red_90ft_4000x400.webm`
-                    },
-                    white: {
-                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_White_15ft_1000x400.webm`,
-                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_White_30ft_1600x400.webm`,
-                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_White_60ft_2800x400.webm`,
-                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_White_90ft_4000x400.webm`
-                    }
-                },
-                '02': {
-                    white: {
-                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Blue_15ft_1000x400.webm`,
-                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Blue_30ft_1600x400.webm`,
-                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Blue_60ft_2800x400.webm`,
-                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Blue_90ft_4000x400.webm`
-                    },
-                    dark_purple: {
-                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Dark_Purple_15ft_1000x400.webm`,
-                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Dark_Purple_30ft_1600x400.webm`,
-                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Dark_Purple_60ft_2800x400.webm`,
-                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Dark_Purple_90ft_4000x400.webm`
-                    },
-                    pink: {
-                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Pink_15ft_1000x400.webm`,
-                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Pink_30ft_1600x400.webm`,
-                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Pink_60ft_2800x400.webm`,
-                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Pink_90ft_4000x400.webm`
-                    },
-                    red: {
-                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Red_15ft_1000x400.webm`,
-                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Red_30ft_1600x400.webm`,
-                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Red_60ft_2800x400.webm`,
-                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Red_90ft_4000x400.webm`
-                    },
-                    white: {
-                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_White_15ft_1000x400.webm`,
-                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_White_30ft_1600x400.webm`,
-                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_White_60ft_2800x400.webm`,
-                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_White_90ft_4000x400.webm`
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dart01_01_Regular_White_Return_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dart01_01_Regular_White_Return_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dart01_01_Regular_White_Return_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dart01_01_Regular_White_Return_90ft_4000x400.webm`
                     }
                 }
             }
+        }
+
+    },
+    patreonDatabase.detect_magic = {
+        _metadata: {
+            name: "Detect Magic",
         },
-        patreonDatabase.dancing_light = {
-            blueteal: `${prefix}/jb2a_patreon/Library/Cantrip/Dancing_Lights/DancingLights_01_BlueTeal_200x200.webm`,
-            blueyellow: `${prefix}/jb2a_patreon/Library/Cantrip/Dancing_Lights/DancingLights_01_BlueYellow_200x200.webm`,
-            green: `${prefix}/jb2a_patreon/Library/Cantrip/Dancing_Lights/DancingLights_01_Green_200x200.webm`,
-            pink: `${prefix}/jb2a_patreon/Library/Cantrip/Dancing_Lights/DancingLights_01_Pink_200x200.webm`,
-            purplegreen: `${prefix}/jb2a_patreon/Library/Cantrip/Dancing_Lights/DancingLights_01_PurpleGreen_200x200.webm`,
-            red: `${prefix}/jb2a_patreon/Library/Cantrip/Dancing_Lights/DancingLights_01_Red_200x200.webm`,
-            yellow: `${prefix}/jb2a_patreon/Library/Cantrip/Dancing_Lights/DancingLights_01_Yellow_200x200.webm`
+        circle: {
+            blue: `${prefix}/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCircle_01_Regular_Blue_1200x1200.webm`,
+            green: `${prefix}/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCircle_01_Regular_Green_1200x1200.webm`,
+            greenorange: `${prefix}/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCircle_01_Regular_GreenOrange_1200x1200.webm`,
+            grey: `${prefix}/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCircle_01_Regular_Grey_1200x1200.webm`,
+            purple: `${prefix}/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCircle_01_Regular_Purple_1200x1200.webm`
         },
-        patreonDatabase.darkness = {
-            black: `${prefix}/jb2a_patreon/Library/2nd_Level/Darkness/Darkness_01_Black_600x600.webm`,
-            green: `${prefix}/jb2a_patreon/Library/2nd_Level/Darkness/Darkness_01_Green_600x600.webm`
-        },
-        patreonDatabase.detect_magic = {
-            circle: {
-                blue: `${prefix}/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCircle_01_Regular_Blue_1200x1200.webm`,
-                green: `${prefix}/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCircle_01_Regular_Green_1200x1200.webm`,
-                greenorange: `${prefix}/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCircle_01_Regular_GreenOrange_1200x1200.webm`,
-                grey: `${prefix}/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCircle_01_Regular_Grey_1200x1200.webm`,
-                purple: `${prefix}/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCircle_01_Regular_Purple_1200x1200.webm`
-            },
-            cone: {
-                _template: 'cone100',
-                blue: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Regular_Blue_05ft_300x300.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Regular_Blue_15ft_500x500.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Regular_Blue_30ft_800x800.webm`
-                },
-                green: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Regular_Green_05ft_300x300.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Regular_Green_15ft_500x500.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Regular_Green_30ft_800x800.webm`
-                },
-                greenorange: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Regular_GreenOrange_05ft_300x300.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Regular_GreenOrange_15ft_500x500.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Regular_GreenOrange_30ft_800x800.webm`
-                },
-                grey: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Regular_Grey_05ft_300x300.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Regular_Grey_15ft_500x500.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Regular_Grey_30ft_800x800.webm`
-                },
-                purple: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Regular_Purple_05ft_300x300.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Regular_Purple_15ft_500x500.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Regular_Purple_30ft_800x800.webm`
-                }
-            }
-        },
-        patreonDatabase.disintegrate = {
-            _template: 'ranged',
-            dark_red: {
-                '05ft': `${prefix}/jb2a_patreon/Library/6th_Level/Disintegrate/Disintegrate_01_Dark_Red_05ft_600x400.webm`,
-                '15ft': `${prefix}/jb2a_patreon/Library/6th_Level/Disintegrate/Disintegrate_01_Dark_Red_15ft_1000x400.webm`,
-                '30ft': `${prefix}/jb2a_patreon/Library/6th_Level/Disintegrate/Disintegrate_01_Dark_Red_30ft_1600x400.webm`,
-                '60ft': `${prefix}/jb2a_patreon/Library/6th_Level/Disintegrate/Disintegrate_01_Dark_Red_60ft_2800x400.webm`,
-                '90ft': `${prefix}/jb2a_patreon/Library/6th_Level/Disintegrate/Disintegrate_01_Dark_Red_90ft_4000x400.webm`
+        cone: {
+            _template: 'cone100',
+            blue: {
+                '05ft': `${prefix}/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Regular_Blue_05ft_300x300.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Regular_Blue_15ft_500x500.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Regular_Blue_30ft_800x800.webm`
             },
             green: {
-                '05ft': `${prefix}/jb2a_patreon/Library/6th_Level/Disintegrate/Disintegrate_01_Regular_Green01_05ft_600x400.webm`,
-                '15ft': `${prefix}/jb2a_patreon/Library/6th_Level/Disintegrate/Disintegrate_01_Regular_Green01_15ft_1000x400.webm`,
-                '30ft': `${prefix}/jb2a_patreon/Library/6th_Level/Disintegrate/Disintegrate_01_Regular_Green01_30ft_1600x400.webm`,
-                '60ft': `${prefix}/jb2a_patreon/Library/6th_Level/Disintegrate/Disintegrate_01_Regular_Green01_60ft_2800x400.webm`,
-                '90ft': `${prefix}/jb2a_patreon/Library/6th_Level/Disintegrate/Disintegrate_01_Regular_Green01_90ft_4000x400.webm`
+                '05ft': `${prefix}/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Regular_Green_05ft_300x300.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Regular_Green_15ft_500x500.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Regular_Green_30ft_800x800.webm`
             },
-            orangepink: {
-                '05ft': `${prefix}/jb2a_patreon/Library/6th_Level/Disintegrate/Disintegrate_01_Regular_OrangePink_05ft_600x400.webm`,
-                '15ft': `${prefix}/jb2a_patreon/Library/6th_Level/Disintegrate/Disintegrate_01_Regular_OrangePink_15ft_1000x400.webm`,
-                '30ft': `${prefix}/jb2a_patreon/Library/6th_Level/Disintegrate/Disintegrate_01_Regular_OrangePink_30ft_1600x400.webm`,
-                '60ft': `${prefix}/jb2a_patreon/Library/6th_Level/Disintegrate/Disintegrate_01_Regular_OrangePink_60ft_2800x400.webm`,
-                '90ft': `${prefix}/jb2a_patreon/Library/6th_Level/Disintegrate/Disintegrate_01_Regular_OrangePink_90ft_4000x400.webm`
+            greenorange: {
+                '05ft': `${prefix}/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Regular_GreenOrange_05ft_300x300.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Regular_GreenOrange_15ft_500x500.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Regular_GreenOrange_30ft_800x800.webm`
             },
-            pink: {
-                '05ft': `${prefix}/jb2a_patreon/Library/6th_Level/Disintegrate/Disintegrate_01_Regular_Pink_05ft_600x400.webm`,
-                '15ft': `${prefix}/jb2a_patreon/Library/6th_Level/Disintegrate/Disintegrate_01_Regular_Pink_15ft_1000x400.webm`,
-                '30ft': `${prefix}/jb2a_patreon/Library/6th_Level/Disintegrate/Disintegrate_01_Regular_Pink_30ft_1600x400.webm`,
-                '60ft': `${prefix}/jb2a_patreon/Library/6th_Level/Disintegrate/Disintegrate_01_Regular_Pink_60ft_2800x400.webm`,
-                '90ft': `${prefix}/jb2a_patreon/Library/6th_Level/Disintegrate/Disintegrate_01_Regular_Pink_90ft_4000x400.webm`
-            },
-            purpleblue: {
-                '05ft': `${prefix}/jb2a_patreon/Library/6th_Level/Disintegrate/Disintegrate_01_Regular_PurpleBlue_05ft_600x400.webm`,
-                '15ft': `${prefix}/jb2a_patreon/Library/6th_Level/Disintegrate/Disintegrate_01_Regular_PurpleBlue_15ft_1000x400.webm`,
-                '30ft': `${prefix}/jb2a_patreon/Library/6th_Level/Disintegrate/Disintegrate_01_Regular_PurpleBlue_30ft_1600x400.webm`,
-                '60ft': `${prefix}/jb2a_patreon/Library/6th_Level/Disintegrate/Disintegrate_01_Regular_PurpleBlue_60ft_2800x400.webm`,
-                '90ft': `${prefix}/jb2a_patreon/Library/6th_Level/Disintegrate/Disintegrate_01_Regular_PurpleBlue_90ft_4000x400.webm`
-            }
-        },
-        patreonDatabase.divine_smite = {
-            caster: {
-                blueyellow: `${prefix}/jb2a_patreon/Library/2nd_Level/Divine_Smite/DivineSmite_01_Regular_BlueYellow_Caster_400x400.webm`,
-                dark_purple: `${prefix}/jb2a_patreon/Library/2nd_Level/Divine_Smite/DivineSmite_01_Dark_Purple_Caster_400x400.webm`,
-                dark_red: `${prefix}/jb2a_patreon/Library/2nd_Level/Divine_Smite/DivineSmite_01_Dark_Red_Caster_400x400.webm`,
-                greenyellow: `${prefix}/jb2a_patreon/Library/2nd_Level/Divine_Smite/DivineSmite_01_Regular_GreenYellow_Caster_400x400.webm`,
-                orange: `${prefix}/jb2a_patreon/Library/2nd_Level/Divine_Smite/DivineSmite_01_Regular_Orange_Caster_400x400.webm`,
-                purplepink: `${prefix}/jb2a_patreon/Library/2nd_Level/Divine_Smite/DivineSmite_01_Regular_PurplePink_Caster_400x400.webm`,
-                yellowwhite: `${prefix}/jb2a_patreon/Library/2nd_Level/Divine_Smite/DivineSmite_01_Regular_YellowWhite_Caster_400x400.webm`
-            },
-            target: {
-                blueyellow: `${prefix}/jb2a_patreon/Library/2nd_Level/Divine_Smite/DivineSmite_01_Regular_BlueYellow_Target_400x400.webm`,
-                dark_purple: `${prefix}/jb2a_patreon/Library/2nd_Level/Divine_Smite/DivineSmite_01_Dark_Purple_Target_400x400.webm`,
-                dark_red: `${prefix}/jb2a_patreon/Library/2nd_Level/Divine_Smite/DivineSmite_01_Dark_Red_Target_400x400.webm`,
-                greenyellow: `${prefix}/jb2a_patreon/Library/2nd_Level/Divine_Smite/DivineSmite_01_Regular_GreenYellow_Target_400x400.webm`,
-                orange: `${prefix}/jb2a_patreon/Library/2nd_Level/Divine_Smite/DivineSmite_01_Regular_Orange_Target_400x400.webm`,
-                purplepink: `${prefix}/jb2a_patreon/Library/2nd_Level/Divine_Smite/DivineSmite_01_Regular_PurplePink_Target_400x400.webm`,
-                yellowwhite: `${prefix}/jb2a_patreon/Library/2nd_Level/Divine_Smite/DivineSmite_01_Regular_YellowWhite_Target_400x400.webm`
-            }
-        },
-        patreonDatabase.dizzy_stars = {
-            '200px': {
-                black: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Dizzy_Stars/DizzyStars_01_Black_200x200.webm`,
-                blueorange: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Dizzy_Stars/DizzyStars_01_BlueOrange_200x200.webm`,
-                green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Dizzy_Stars/DizzyStars_01_Green_200x200.webm`,
-                orange: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Dizzy_Stars/DizzyStars_01_Orange_200x200.webm`,
-                pink: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Dizzy_Stars/DizzyStars_01_Pink_200x200.webm`,
-                purple: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Dizzy_Stars/DizzyStars_01_Purple_200x200.webm`,
-                red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Dizzy_Stars/DizzyStars_01_Red_200x200.webm`,
-                white: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Dizzy_Stars/DizzyStars_01_White_200x200.webm`,
-                yellow: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Dizzy_Stars/DizzyStars_01_Yellow_200x200.webm`
-            },
-            '400px': {
-                black: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Dizzy_Stars/DizzyStars_01_Black_400x400.webm`,
-                blueorange: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Dizzy_Stars/DizzyStars_01_BlueOrange_400x400.webm`,
-                green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Dizzy_Stars/DizzyStars_01_Green_400x400.webm`,
-                orange: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Dizzy_Stars/DizzyStars_01_Orange_400x400.webm`,
-                pink: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Dizzy_Stars/DizzyStars_01_Pink_400x400.webm`,
-                purple: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Dizzy_Stars/DizzyStars_01_Purple_400x400.webm`,
-                red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Dizzy_Stars/DizzyStars_01_Red_400x400.webm`,
-                white: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Dizzy_Stars/DizzyStars_01_White_400x400.webm`,
-                yellow: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Dizzy_Stars/DizzyStars_01_Yellow_400x400.webm`
-            }
-        },
-        patreonDatabase.dodecahedron = {
-            simple: {
-                blue: `${prefix}/jb2a_patreon/Library/Generic/Energy/Dodecahedron_01_Regular_Blue_600x600.webm`,
-                green: `${prefix}/jb2a_patreon/Library/Generic/Energy/Dodecahedron_01_Regular_Green_600x600.webm`
-            },
-            roll: {
-                blue: `${prefix}/jb2a_patreon/Library/Generic/Energy/DodecahedronRoll_01_Regular_Blue_600x600.webm`,
-                green: `${prefix}/jb2a_patreon/Library/Generic/Energy/DodecahedronRoll_01_Regular_Green_600x600.webm`
-            },
-            rune: {
-                above: {
-                    dark_greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Energy/DodecahedronRuneAbove_01_Dark_GreenPurple_600x600.webm`,
-                    blueyellow: `${prefix}/jb2a_patreon/Library/Generic/Energy/DodecahedronRuneAbove_01_Regular_BlueYellow_600x600.webm`
-                },
-                below: {
-                    dark_greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Energy/DodecahedronRuneBelow_01_Dark_GreenPurple_600x600.webm`,
-                    blueyellow: `${prefix}/jb2a_patreon/Library/Generic/Energy/DodecahedronRuneBelow_01_Regular_BlueYellow_600x600.webm`
-                }
-            },
-            skull: {
-                above: {
-                    dark_greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Energy/DodecahedronSkullAbove_01_Dark_GreenPurple_600x600.webm`
-                },
-                below: {
-                    dark_greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Energy/DodecahedronSkullBelow_01_Dark_GreenPurple_600x600.webm`
-                }
-            },
-            star: {
-                above: {
-                    blueyellow: `${prefix}/jb2a_patreon/Library/Generic/Energy/DodecahedronStarAbove_01_Regular_BlueYellow_600x600.webm`
-                },
-                below: {
-                    blueyellow: `${prefix}/jb2a_patreon/Library/Generic/Energy/DodecahedronStarBelow_01_Regular_BlueYellow_600x600.webm`
-                }
-            }
-        },
-        patreonDatabase.eldritch_blast = {
-            _template: 'ranged',
-            dark_green: {
-                '05ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Dark_Green_05ft_600x400.webm`,
-                '15ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Dark_Green_15ft_1000x400.webm`,
-                '30ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Dark_Green_30ft_1600x400.webm`,
-                '60ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Dark_Green_60ft_2800x400.webm`,
-                '90ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Dark_Green_90ft_4000x400.webm`
-            },
-            dark_red: {
-                '05ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Dark_Red_05ft_600x400.webm`,
-                '15ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Dark_Red_15ft_1000x400.webm`,
-                '30ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Dark_Red_30ft_1600x400.webm`,
-                '60ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Dark_Red_60ft_2800x400.webm`,
-                '90ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Dark_Red_90ft_4000x400.webm`
-            },
-            green: {
-                '05ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Green_05ft_600x400.webm`,
-                '15ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Green_15ft_1000x400.webm`,
-                '30ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Green_30ft_1600x400.webm`,
-                '60ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Green_60ft_2800x400.webm`,
-                '90ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Green_90ft_4000x400.webm`
-            },
-            lightblue: {
-                '05ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_LightBlue_05ft_600x400.webm`,
-                '15ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_LightBlue_15ft_1000x400.webm`,
-                '30ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_LightBlue_30ft_1600x400.webm`,
-                '60ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_LightBlue_60ft_2800x400.webm`,
-                '90ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_LightBlue_90ft_4000x400.webm`
-            },
-            lightgreen: {
-                '05ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_LightGreen_05ft_600x400.webm`,
-                '15ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_LightGreen_15ft_1000x400.webm`,
-                '30ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_LightGreen_30ft_1600x400.webm`,
-                '60ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_LightGreen_60ft_2800x400.webm`,
-                '90ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_LightGreen_90ft_4000x400.webm`
-            },
-            orange: {
-                '05ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Orange_05ft_600x400.webm`,
-                '15ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Orange_15ft_1000x400.webm`,
-                '30ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Orange_30ft_1600x400.webm`,
-                '60ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Orange_60ft_2800x400.webm`,
-                '90ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Orange_90ft_4000x400.webm`
-            },
-            pink: {
-                '05ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Pink_05ft_600x400.webm`,
-                '15ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Pink_15ft_1000x400.webm`,
-                '30ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Pink_30ft_1600x400.webm`,
-                '60ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Pink_60ft_2800x400.webm`,
-                '90ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Pink_90ft_4000x400.webm`
+            grey: {
+                '05ft': `${prefix}/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Regular_Grey_05ft_300x300.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Regular_Grey_15ft_500x500.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Regular_Grey_30ft_800x800.webm`
             },
             purple: {
-                '05ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Purple_05ft_600x400.webm`,
-                '15ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Purple_15ft_1000x400.webm`,
-                '30ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Purple_30ft_1600x400.webm`,
-                '60ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Purple_60ft_2800x400.webm`,
-                '90ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Purple_90ft_4000x400.webm`
+                '05ft': `${prefix}/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Regular_Purple_05ft_300x300.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Regular_Purple_15ft_500x500.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Regular_Purple_30ft_800x800.webm`
+            }
+        }
+    }
+    patreonDatabase.disintegrate = {
+        _metadata: {
+            name: "Disintegrate",
+        },
+        _template: 'ranged',
+        dark_red: {
+            '05ft': `${prefix}/jb2a_patreon/Library/6th_Level/Disintegrate/Disintegrate_01_Dark_Red_05ft_600x400.webm`,
+            '15ft': `${prefix}/jb2a_patreon/Library/6th_Level/Disintegrate/Disintegrate_01_Dark_Red_15ft_1000x400.webm`,
+            '30ft': `${prefix}/jb2a_patreon/Library/6th_Level/Disintegrate/Disintegrate_01_Dark_Red_30ft_1600x400.webm`,
+            '60ft': `${prefix}/jb2a_patreon/Library/6th_Level/Disintegrate/Disintegrate_01_Dark_Red_60ft_2800x400.webm`,
+            '90ft': `${prefix}/jb2a_patreon/Library/6th_Level/Disintegrate/Disintegrate_01_Dark_Red_90ft_4000x400.webm`
+        },
+        green: {
+            '05ft': `${prefix}/jb2a_patreon/Library/6th_Level/Disintegrate/Disintegrate_01_Regular_Green01_05ft_600x400.webm`,
+            '15ft': `${prefix}/jb2a_patreon/Library/6th_Level/Disintegrate/Disintegrate_01_Regular_Green01_15ft_1000x400.webm`,
+            '30ft': `${prefix}/jb2a_patreon/Library/6th_Level/Disintegrate/Disintegrate_01_Regular_Green01_30ft_1600x400.webm`,
+            '60ft': `${prefix}/jb2a_patreon/Library/6th_Level/Disintegrate/Disintegrate_01_Regular_Green01_60ft_2800x400.webm`,
+            '90ft': `${prefix}/jb2a_patreon/Library/6th_Level/Disintegrate/Disintegrate_01_Regular_Green01_90ft_4000x400.webm`
+        },
+        orangepink: {
+            '05ft': `${prefix}/jb2a_patreon/Library/6th_Level/Disintegrate/Disintegrate_01_Regular_OrangePink_05ft_600x400.webm`,
+            '15ft': `${prefix}/jb2a_patreon/Library/6th_Level/Disintegrate/Disintegrate_01_Regular_OrangePink_15ft_1000x400.webm`,
+            '30ft': `${prefix}/jb2a_patreon/Library/6th_Level/Disintegrate/Disintegrate_01_Regular_OrangePink_30ft_1600x400.webm`,
+            '60ft': `${prefix}/jb2a_patreon/Library/6th_Level/Disintegrate/Disintegrate_01_Regular_OrangePink_60ft_2800x400.webm`,
+            '90ft': `${prefix}/jb2a_patreon/Library/6th_Level/Disintegrate/Disintegrate_01_Regular_OrangePink_90ft_4000x400.webm`
+        },
+        pink: {
+            '05ft': `${prefix}/jb2a_patreon/Library/6th_Level/Disintegrate/Disintegrate_01_Regular_Pink_05ft_600x400.webm`,
+            '15ft': `${prefix}/jb2a_patreon/Library/6th_Level/Disintegrate/Disintegrate_01_Regular_Pink_15ft_1000x400.webm`,
+            '30ft': `${prefix}/jb2a_patreon/Library/6th_Level/Disintegrate/Disintegrate_01_Regular_Pink_30ft_1600x400.webm`,
+            '60ft': `${prefix}/jb2a_patreon/Library/6th_Level/Disintegrate/Disintegrate_01_Regular_Pink_60ft_2800x400.webm`,
+            '90ft': `${prefix}/jb2a_patreon/Library/6th_Level/Disintegrate/Disintegrate_01_Regular_Pink_90ft_4000x400.webm`
+        },
+        purpleblue: {
+            '05ft': `${prefix}/jb2a_patreon/Library/6th_Level/Disintegrate/Disintegrate_01_Regular_PurpleBlue_05ft_600x400.webm`,
+            '15ft': `${prefix}/jb2a_patreon/Library/6th_Level/Disintegrate/Disintegrate_01_Regular_PurpleBlue_15ft_1000x400.webm`,
+            '30ft': `${prefix}/jb2a_patreon/Library/6th_Level/Disintegrate/Disintegrate_01_Regular_PurpleBlue_30ft_1600x400.webm`,
+            '60ft': `${prefix}/jb2a_patreon/Library/6th_Level/Disintegrate/Disintegrate_01_Regular_PurpleBlue_60ft_2800x400.webm`,
+            '90ft': `${prefix}/jb2a_patreon/Library/6th_Level/Disintegrate/Disintegrate_01_Regular_PurpleBlue_90ft_4000x400.webm`
+        }
+    },
+    patreonDatabase.divine_smite = {
+        _metadata: {
+            name: "Divine Smite",
+        },
+        caster: {
+            blueyellow: `${prefix}/jb2a_patreon/Library/2nd_Level/Divine_Smite/DivineSmite_01_Regular_BlueYellow_Caster_400x400.webm`,
+            dark_purple: `${prefix}/jb2a_patreon/Library/2nd_Level/Divine_Smite/DivineSmite_01_Dark_Purple_Caster_400x400.webm`,
+            dark_red: `${prefix}/jb2a_patreon/Library/2nd_Level/Divine_Smite/DivineSmite_01_Dark_Red_Caster_400x400.webm`,
+            greenyellow: `${prefix}/jb2a_patreon/Library/2nd_Level/Divine_Smite/DivineSmite_01_Regular_GreenYellow_Caster_400x400.webm`,
+            orange: `${prefix}/jb2a_patreon/Library/2nd_Level/Divine_Smite/DivineSmite_01_Regular_Orange_Caster_400x400.webm`,
+            purplepink: `${prefix}/jb2a_patreon/Library/2nd_Level/Divine_Smite/DivineSmite_01_Regular_PurplePink_Caster_400x400.webm`,
+            yellowwhite: `${prefix}/jb2a_patreon/Library/2nd_Level/Divine_Smite/DivineSmite_01_Regular_YellowWhite_Caster_400x400.webm`
+        },
+        target: {
+            blueyellow: `${prefix}/jb2a_patreon/Library/2nd_Level/Divine_Smite/DivineSmite_01_Regular_BlueYellow_Target_400x400.webm`,
+            dark_purple: `${prefix}/jb2a_patreon/Library/2nd_Level/Divine_Smite/DivineSmite_01_Dark_Purple_Target_400x400.webm`,
+            dark_red: `${prefix}/jb2a_patreon/Library/2nd_Level/Divine_Smite/DivineSmite_01_Dark_Red_Target_400x400.webm`,
+            greenyellow: `${prefix}/jb2a_patreon/Library/2nd_Level/Divine_Smite/DivineSmite_01_Regular_GreenYellow_Target_400x400.webm`,
+            orange: `${prefix}/jb2a_patreon/Library/2nd_Level/Divine_Smite/DivineSmite_01_Regular_Orange_Target_400x400.webm`,
+            purplepink: `${prefix}/jb2a_patreon/Library/2nd_Level/Divine_Smite/DivineSmite_01_Regular_PurplePink_Target_400x400.webm`,
+            yellowwhite: `${prefix}/jb2a_patreon/Library/2nd_Level/Divine_Smite/DivineSmite_01_Regular_YellowWhite_Target_400x400.webm`
+        }
+    },
+    patreonDatabase.dizzy_stars = {
+        '200px': {
+            black: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Dizzy_Stars/DizzyStars_01_Black_200x200.webm`,
+            blueorange: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Dizzy_Stars/DizzyStars_01_BlueOrange_200x200.webm`,
+            green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Dizzy_Stars/DizzyStars_01_Green_200x200.webm`,
+            orange: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Dizzy_Stars/DizzyStars_01_Orange_200x200.webm`,
+            pink: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Dizzy_Stars/DizzyStars_01_Pink_200x200.webm`,
+            purple: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Dizzy_Stars/DizzyStars_01_Purple_200x200.webm`,
+            red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Dizzy_Stars/DizzyStars_01_Red_200x200.webm`,
+            white: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Dizzy_Stars/DizzyStars_01_White_200x200.webm`,
+            yellow: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Dizzy_Stars/DizzyStars_01_Yellow_200x200.webm`
+        },
+        '400px': {
+            _metadata: {
+                name: "Dizzy Stars",
             },
-            rainbow: {
-                '05ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Rainbow_05ft_600x400.webm`,
-                '15ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Rainbow_15ft_1000x400.webm`,
-                '30ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Rainbow_30ft_1600x400.webm`,
-                '60ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Rainbow_60ft_2800x400.webm`,
-                '90ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Rainbow_90ft_4000x400.webm`
+            black: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Dizzy_Stars/DizzyStars_01_Black_400x400.webm`,
+            blueorange: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Dizzy_Stars/DizzyStars_01_BlueOrange_400x400.webm`,
+            green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Dizzy_Stars/DizzyStars_01_Green_400x400.webm`,
+            orange: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Dizzy_Stars/DizzyStars_01_Orange_400x400.webm`,
+            pink: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Dizzy_Stars/DizzyStars_01_Pink_400x400.webm`,
+            purple: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Dizzy_Stars/DizzyStars_01_Purple_400x400.webm`,
+            red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Dizzy_Stars/DizzyStars_01_Red_400x400.webm`,
+            white: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Dizzy_Stars/DizzyStars_01_White_400x400.webm`,
+            yellow: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Dizzy_Stars/DizzyStars_01_Yellow_400x400.webm`
+        }
+    },
+    patreonDatabase.dodecahedron = {
+        _metadata: {
+            name: "Dodecahedron",
+        },
+        simple: {
+            blue: `${prefix}/jb2a_patreon/Library/Generic/Energy/Dodecahedron_01_Regular_Blue_600x600.webm`,
+            green: `${prefix}/jb2a_patreon/Library/Generic/Energy/Dodecahedron_01_Regular_Green_600x600.webm`
+        },
+        roll: {
+            blue: `${prefix}/jb2a_patreon/Library/Generic/Energy/DodecahedronRoll_01_Regular_Blue_600x600.webm`,
+            green: `${prefix}/jb2a_patreon/Library/Generic/Energy/DodecahedronRoll_01_Regular_Green_600x600.webm`
+        },
+        rune: {
+            above: {
+                dark_greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Energy/DodecahedronRuneAbove_01_Dark_GreenPurple_600x600.webm`,
+                blueyellow: `${prefix}/jb2a_patreon/Library/Generic/Energy/DodecahedronRuneAbove_01_Regular_BlueYellow_600x600.webm`
             },
-            yellow: {
-                '05ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Yellow_05ft_600x400.webm`,
-                '15ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Yellow_15ft_1000x400.webm`,
-                '30ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Yellow_30ft_1600x400.webm`,
-                '60ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Yellow_60ft_2800x400.webm`,
-                '90ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Yellow_90ft_4000x400.webm`
+            below: {
+                dark_greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Energy/DodecahedronRuneBelow_01_Dark_GreenPurple_600x600.webm`,
+                blueyellow: `${prefix}/jb2a_patreon/Library/Generic/Energy/DodecahedronRuneBelow_01_Regular_BlueYellow_600x600.webm`
             }
         },
+        skull: {
+            above: {
+                dark_greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Energy/DodecahedronSkullAbove_01_Dark_GreenPurple_600x600.webm`
+            },
+            below: {
+                dark_greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Energy/DodecahedronSkullBelow_01_Dark_GreenPurple_600x600.webm`
+            }
+        },
+        star: {
+            above: {
+                blueyellow: `${prefix}/jb2a_patreon/Library/Generic/Energy/DodecahedronStarAbove_01_Regular_BlueYellow_600x600.webm`
+            },
+            below: {
+                blueyellow: `${prefix}/jb2a_patreon/Library/Generic/Energy/DodecahedronStarBelow_01_Regular_BlueYellow_600x600.webm`
+            }
+        }
+    },
+    patreonDatabase.drop_shadow = {
+        _metadata: {
+            name: "Drop Shadow",
+        },
+        dark_black: `${prefix}/jb2a_patreon/Library/Generic/Impact/DropShadow_01_Dark_Black_400x400.webm`
+    }
+    patreonDatabase.eldritch_blast = {
+        _metadata: {
+            name: "Eldritch Blast",
+        },
+        _template: 'ranged',
+        dark_green: {
+            '05ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Dark_Green_05ft_600x400.webm`,
+            '15ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Dark_Green_15ft_1000x400.webm`,
+            '30ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Dark_Green_30ft_1600x400.webm`,
+            '60ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Dark_Green_60ft_2800x400.webm`,
+            '90ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Dark_Green_90ft_4000x400.webm`
+        },
+        dark_purple: {
+            '05ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Dark_Purple_05ft_600x400.webm`,
+            '15ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Dark_Purple_15ft_1000x400.webm`,
+            '30ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Dark_Purple_30ft_1600x400.webm`,
+            '60ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Dark_Purple_60ft_2800x400.webm`,
+            '90ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Dark_Purple_90ft_4000x400.webm`
+        },
+        dark_red: {
+            '05ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Dark_Red_05ft_600x400.webm`,
+            '15ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Dark_Red_15ft_1000x400.webm`,
+            '30ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Dark_Red_30ft_1600x400.webm`,
+            '60ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Dark_Red_60ft_2800x400.webm`,
+            '90ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Dark_Red_90ft_4000x400.webm`
+        },
+        green: {
+            '05ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Green_05ft_600x400.webm`,
+            '15ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Green_15ft_1000x400.webm`,
+            '30ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Green_30ft_1600x400.webm`,
+            '60ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Green_60ft_2800x400.webm`,
+            '90ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Green_90ft_4000x400.webm`
+        },
+        lightblue: {
+            '05ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_LightBlue_05ft_600x400.webm`,
+            '15ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_LightBlue_15ft_1000x400.webm`,
+            '30ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_LightBlue_30ft_1600x400.webm`,
+            '60ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_LightBlue_60ft_2800x400.webm`,
+            '90ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_LightBlue_90ft_4000x400.webm`
+        },
+        lightgreen: {
+            '05ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_LightGreen_05ft_600x400.webm`,
+            '15ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_LightGreen_15ft_1000x400.webm`,
+            '30ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_LightGreen_30ft_1600x400.webm`,
+            '60ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_LightGreen_60ft_2800x400.webm`,
+            '90ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_LightGreen_90ft_4000x400.webm`
+        },
+        orange: {
+            '05ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Orange_05ft_600x400.webm`,
+            '15ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Orange_15ft_1000x400.webm`,
+            '30ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Orange_30ft_1600x400.webm`,
+            '60ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Orange_60ft_2800x400.webm`,
+            '90ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Orange_90ft_4000x400.webm`
+        },
+        pink: {
+            '05ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Pink_05ft_600x400.webm`,
+            '15ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Pink_15ft_1000x400.webm`,
+            '30ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Pink_30ft_1600x400.webm`,
+            '60ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Pink_60ft_2800x400.webm`,
+            '90ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Pink_90ft_4000x400.webm`
+        },
+        purple: {
+            '05ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Purple_05ft_600x400.webm`,
+            '15ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Purple_15ft_1000x400.webm`,
+            '30ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Purple_30ft_1600x400.webm`,
+            '60ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Purple_60ft_2800x400.webm`,
+            '90ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Purple_90ft_4000x400.webm`
+        },
+        rainbow: {
+            '05ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Rainbow_05ft_600x400.webm`,
+            '15ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Rainbow_15ft_1000x400.webm`,
+            '30ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Rainbow_30ft_1600x400.webm`,
+            '60ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Rainbow_60ft_2800x400.webm`,
+            '90ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Rainbow_90ft_4000x400.webm`
+        },
+        yellow: {
+            '05ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Yellow_05ft_600x400.webm`,
+            '15ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Yellow_15ft_1000x400.webm`,
+            '30ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Yellow_30ft_1600x400.webm`,
+            '60ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Yellow_60ft_2800x400.webm`,
+            '90ft': `${prefix}/jb2a_patreon/Library/Cantrip/Eldritch_Blast/EldritchBlast_01_Regular_Yellow_90ft_4000x400.webm`
+        }
+    },
         patreonDatabase.electric_arc = {
-            '01': `${prefix}/jb2a_patreon/Library/Generic/Lightning/ElectricArc01_01_Regular_Blue_1600x500.webm`,
-            '02': `${prefix}/jb2a_patreon/Library/Generic/Lightning/ElectricArc02_01_Regular_Blue_1600x500.webm`,
-            '03': `${prefix}/jb2a_patreon/Library/Generic/Lightning/ElectricArc03_01_Regular_Blue_1600x500.webm`,
-            '04': `${prefix}/jb2a_patreon/Library/Generic/Lightning/ElectricArc04_01_Regular_Blue_1600x500.webm`
-        },
-        patreonDatabase.energy_beam = {
-            _template: 'ranged',
-            normal: {
-                dark_green: {
-                    '01': {
-                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_01_Dark_Green_15ft_1000x400.webm`,
-                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_01_Dark_Green_30ft_1600x400.webm`,
-                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_01_Dark_Green_60ft_2800x400.webm`,
-                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_01_Dark_Green_90ft_4000x400.webm`
-                    }
-                },
-                dark_greenpurple: {
-                    '02': {
-                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Dark_GreenPurple_05ft_600x400.webm`,
-                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Dark_GreenPurple_15ft_1000x400.webm`,
-                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Dark_GreenPurple_30ft_1600x400.webm`,
-                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Dark_GreenPurple_60ft_2800x400.webm`,
-                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Dark_GreenPurple_90ft_4000x400.webm`
-                    },
-                    '03': {
-                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Dark_GreenPurple_05ft_600x400.webm`,
-                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Dark_GreenPurple_15ft_1000x400.webm`,
-                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Dark_GreenPurple_30ft_1600x400.webm`,
-                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Dark_GreenPurple_60ft_2800x400.webm`,
-                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Dark_GreenPurple_90ft_4000x400.webm`
-                    }
-                },
-                dark_purplered: {
-                    '02': {
-                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Dark_PurpleRed_05ft_600x400.webm`,
-                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Dark_PurpleRed_15ft_1000x400.webm`,
-                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Dark_PurpleRed_30ft_1600x400.webm`,
-                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Dark_PurpleRed_60ft_2800x400.webm`,
-                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Dark_PurpleRed_90ft_4000x400.webm`
-                    },
-                    '03': {
-                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Dark_PurpleRed_05ft_600x400.webm`,
-                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Dark_PurpleRed_15ft_1000x400.webm`,
-                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Dark_PurpleRed_30ft_1600x400.webm`,
-                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Dark_PurpleRed_60ft_2800x400.webm`,
-                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Dark_PurpleRed_90ft_4000x400.webm`
-                    }
-                },
-                blue: {
-                    '01': {
-                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_01_Regular_Blue_15ft_1000x400.webm`,
-                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_01_Regular_Blue_30ft_1600x400.webm`,
-                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_01_Regular_Blue_60ft_2800x400.webm`,
-                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_01_Regular_Blue_90ft_4000x400.webm`
-                    }
-                },
-                bluegreen: {
-                    '01': {
-                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_01_Regular_BlueGreen_15ft_1000x400.webm`,
-                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_01_Regular_BlueGreen_30ft_1600x400.webm`,
-                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_01_Regular_BlueGreen_60ft_2800x400.webm`,
-                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_01_Regular_BlueGreen_90ft_4000x400.webm`
-                    }
-                },
-                bluepink: {
-                    '02': {
-                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Regular_BluePink_05ft_600x400.webm`,
-                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Regular_BluePink_15ft_1000x400.webm`,
-                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Regular_BluePink_30ft_1600x400.webm`,
-                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Regular_BluePink_60ft_2800x400.webm`,
-                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Regular_BluePink_90ft_4000x400.webm`
-                    },
-                    '03': {
-                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Regular_BluePink_05ft_600x400.webm`,
-                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Regular_BluePink_15ft_1000x400.webm`,
-                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Regular_BluePink_30ft_1600x400.webm`,
-                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Regular_BluePink_60ft_2800x400.webm`,
-                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Regular_BluePink_90ft_4000x400.webm`
-                    }
-                },
-                greenyellow: {
-                    '02': {
-                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Regular_GreenYellow_05ft_600x400.webm`,
-                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Regular_GreenYellow_15ft_1000x400.webm`,
-                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Regular_GreenYellow_30ft_1600x400.webm`,
-                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Regular_GreenYellow_60ft_2800x400.webm`,
-                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Regular_GreenYellow_90ft_4000x400.webm`
-                    },
-                    '03': {
-                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Regular_GreenYellow_05ft_600x400.webm`,
-                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Regular_GreenYellow_15ft_1000x400.webm`,
-                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Regular_GreenYellow_30ft_1600x400.webm`,
-                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Regular_GreenYellow_60ft_2800x400.webm`,
-                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Regular_GreenYellow_90ft_4000x400.webm`
-                    }
-                },
-                red: {
-                    '02': {
-                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Regular_Red_05ft_600x400.webm`,
-                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Regular_Red_15ft_1000x400.webm`,
-                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Regular_Red_30ft_1600x400.webm`,
-                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Regular_Red_60ft_2800x400.webm`,
-                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Regular_Red_90ft_4000x400.webm`
-                    },
-                    '03': {
-                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Regular_Red_05ft_600x400.webm`,
-                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Regular_Red_15ft_1000x400.webm`,
-                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Regular_Red_30ft_1600x400.webm`,
-                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Regular_Red_60ft_2800x400.webm`,
-                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Regular_Red_90ft_4000x400.webm`
-                    }
-                }
+            _metadata: {
+                name: "Electric Arc",
+                new: "blue02*"
             },
-            reverse: {
-                dark_green: {
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeamReverse_01_Dark_Green_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeamReverse_01_Dark_Green_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeamReverse_01_Dark_Green_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeamReverse_01_Dark_Green_90ft_4000x400.webm`
-                },
-                blue: {
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeamReverse_01_Regular_Blue_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeamReverse_01_Regular_Blue_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeamReverse_01_Regular_Blue_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeamReverse_01_Regular_Blue_90ft_4000x400.webm`
-                },
-                bluegreen: {
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeamReverse_01_Regular_BlueGreen_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeamReverse_01_Regular_BlueGreen_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeamReverse_01_Regular_BlueGreen_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeamReverse_01_Regular_BlueGreen_90ft_4000x400.webm`
-                }
+            blue: {
+                '01': `${prefix}/jb2a_patreon/Library/Generic/Lightning/ElectricArc01_01_Regular_Blue_1600x500.webm`,
+                '02': `${prefix}/jb2a_patreon/Library/Generic/Lightning/ElectricArc02_01_Regular_Blue_1600x500.webm`,
+                '03': `${prefix}/jb2a_patreon/Library/Generic/Lightning/ElectricArc03_01_Regular_Blue_1600x500.webm`,
+                '04': `${prefix}/jb2a_patreon/Library/Generic/Lightning/ElectricArc04_01_Regular_Blue_1600x500.webm`
+            },
+            blue02: {
+                '01': `${prefix}/jb2a_patreon/Library/Generic/Lightning/ElectricArc01_01_Regular_Blue02_1600x500.webm`,
+                '02': `${prefix}/jb2a_patreon/Library/Generic/Lightning/ElectricArc02_01_Regular_Blue02_1600x500.webm`,
+                '03': `${prefix}/jb2a_patreon/Library/Generic/Lightning/ElectricArc03_01_Regular_Blue02_1600x500.webm`,
+                '04': `${prefix}/jb2a_patreon/Library/Generic/Lightning/ElectricArc04_01_Regular_Blue02_1600x500.webm`
             }
         },
-        patreonDatabase.energy_conduit = {
-            _template: 'ranged',
-            bluepurple: {
-                circle: {
-                    '01': {
-                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyConduitCircle_01_Regular_BluePurple_05ft_600x400.webm`,
-                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyConduitCircle_01_Regular_BluePurple_15ft_1000x400.webm`,
-                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyConduitCircle_01_Regular_BluePurple_30ft_1600x400.webm`,
-                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyConduitCircle_01_Regular_BluePurple_60ft_2800x400.webm`,
-                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyConduitCircle_01_Regular_BluePurple_90ft_4000x400.webm`
-                    }
+    patreonDatabase.energy_beam = {
+        _metadata: {
+            name: "Energy Beam",
+            new: [
+                "normal.red",
+                "normal.dark_red",
+                "reverse.red",
+                "reverse.dark_red"
+            ]
+        },
+        _template: 'ranged',
+        normal: {
+            dark_green: {
+                '01': {
+                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_01_Dark_Green_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_01_Dark_Green_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_01_Dark_Green_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_01_Dark_Green_90ft_4000x400.webm`
+                }
+            },
+            dark_greenpurple: {
+                '02': {
+                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Dark_GreenPurple_05ft_600x400.webm`,
+                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Dark_GreenPurple_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Dark_GreenPurple_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Dark_GreenPurple_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Dark_GreenPurple_90ft_4000x400.webm`
                 },
-                square: {
-                    '01': {
-                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyConduitSquare_01_Regular_BluePurple_05ft_600x400.webm`,
-                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyConduitSquare_01_Regular_BluePurple_15ft_1000x400.webm`,
-                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyConduitSquare_01_Regular_BluePurple_30ft_1600x400.webm`,
-                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyConduitSquare_01_Regular_BluePurple_60ft_2800x400.webm`,
-                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyConduitSquare_01_Regular_BluePurple_90ft_4000x400.webm`
-                    }
+                '03': {
+                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Dark_GreenPurple_05ft_600x400.webm`,
+                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Dark_GreenPurple_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Dark_GreenPurple_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Dark_GreenPurple_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Dark_GreenPurple_90ft_4000x400.webm`
+                }
+            },
+            dark_purplered: {
+                '02': {
+                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Dark_PurpleRed_05ft_600x400.webm`,
+                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Dark_PurpleRed_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Dark_PurpleRed_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Dark_PurpleRed_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Dark_PurpleRed_90ft_4000x400.webm`
+                },
+                '03': {
+                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Dark_PurpleRed_05ft_600x400.webm`,
+                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Dark_PurpleRed_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Dark_PurpleRed_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Dark_PurpleRed_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Dark_PurpleRed_90ft_4000x400.webm`
+                }
+            },
+            dark_red: {
+                '01': {
+                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_01_Dark_Red_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_01_Dark_Red_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_01_Dark_Red_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_01_Dark_Red_90ft_4000x400.webm`
+                }
+            },
+            blue: {
+                '01': {
+                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_01_Regular_Blue_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_01_Regular_Blue_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_01_Regular_Blue_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_01_Regular_Blue_90ft_4000x400.webm`
+                }
+            },
+            bluegreen: {
+                '01': {
+                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_01_Regular_BlueGreen_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_01_Regular_BlueGreen_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_01_Regular_BlueGreen_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_01_Regular_BlueGreen_90ft_4000x400.webm`
+                }
+            },
+            bluepink: {
+                '02': {
+                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Regular_BluePink_05ft_600x400.webm`,
+                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Regular_BluePink_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Regular_BluePink_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Regular_BluePink_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Regular_BluePink_90ft_4000x400.webm`
+                },
+                '03': {
+                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Regular_BluePink_05ft_600x400.webm`,
+                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Regular_BluePink_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Regular_BluePink_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Regular_BluePink_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Regular_BluePink_90ft_4000x400.webm`
                 }
             },
             greenyellow: {
-                circle: {
-                    '01': {
-                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyConduitCircle_01_Regular_GreenYellow_05ft_600x400.webm`,
-                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyConduitCircle_01_Regular_GreenYellow_15ft_1000x400.webm`,
-                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyConduitCircle_01_Regular_GreenYellow_30ft_1600x400.webm`,
-                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyConduitCircle_01_Regular_GreenYellow_60ft_2800x400.webm`,
-                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyConduitCircle_01_Regular_GreenYellow_90ft_4000x400.webm`
-                    }
+                '02': {
+                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Regular_GreenYellow_05ft_600x400.webm`,
+                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Regular_GreenYellow_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Regular_GreenYellow_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Regular_GreenYellow_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Regular_GreenYellow_90ft_4000x400.webm`
                 },
-                square: {
-                    '01': {
-                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyConduitSquare_01_Regular_GreenYellow_05ft_600x400.webm`,
-                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyConduitSquare_01_Regular_GreenYellow_15ft_1000x400.webm`,
-                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyConduitSquare_01_Regular_GreenYellow_30ft_1600x400.webm`,
-                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyConduitSquare_01_Regular_GreenYellow_60ft_2800x400.webm`,
-                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyConduitSquare_01_Regular_GreenYellow_90ft_4000x400.webm`
-                    }
+                '03': {
+                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Regular_GreenYellow_05ft_600x400.webm`,
+                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Regular_GreenYellow_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Regular_GreenYellow_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Regular_GreenYellow_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Regular_GreenYellow_90ft_4000x400.webm`
+                }
+            },
+            red: {
+                '01': {
+                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_01_Regular_Red_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_01_Regular_Red_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_01_Regular_Red_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_01_Regular_Red_90ft_4000x400.webm`
+                },
+                '02': {
+                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Regular_Red_05ft_600x400.webm`,
+                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Regular_Red_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Regular_Red_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Regular_Red_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_02_Regular_Red_90ft_4000x400.webm`
+                },
+                '03': {
+                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Regular_Red_05ft_600x400.webm`,
+                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Regular_Red_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Regular_Red_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Regular_Red_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeam_03_Regular_Red_90ft_4000x400.webm`
                 }
             }
         },
-        patreonDatabase.energy_field = {
-            '01': {
-                blue: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyField_01_Regular_Blue_600x600.webm`,
-                green: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyField_01_Regular_Green_600x600.webm`,
-                purple: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyField_01_Regular_Rainbow_600x600.webm`
+        reverse: {
+            dark_green: {
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeamReverse_01_Dark_Green_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeamReverse_01_Dark_Green_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeamReverse_01_Dark_Green_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeamReverse_01_Dark_Green_90ft_4000x400.webm`
             },
-            '02': {
-                below: {
-                    blue: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyFieldBot_02_Regular_Blue_400x400.webm`,
-                    green: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyFieldBot_02_Regular_Green_400x400.webm`,
-                    purple: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyFieldBot_02_Regular_Purple_400x400.webm`
-                },
-                above: {
-                    blue: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyFieldTop_02_Regular_Blue_400x400.webm`,
-                    green: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyFieldTop_02_Regular_Green_400x400.webm`,
-                    purple: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyFieldTop_02_Regular_Purple_400x400.webm`
-                }
-            }
-        },
-        patreonDatabase.energy_strands = {
-            complete: {
-                blue: {
-                    '01': `${prefix}/jb2a_patreon/Library/Generic/Marker/EnergyStrands_01_Regular_Blue_600x600.webm`
-                },
-                blueorange: {
-                    '01': `${prefix}/jb2a_patreon/Library/Generic/Marker/EnergyStrands_01_Regular_BlueOrange_600x600.webm`
-                },
-                dark_green: {
-                    '01': `${prefix}/jb2a_patreon/Library/Generic/Marker/EnergyStrands_01_Dark_Green_600x600.webm`
-                },
-                dark_red: {
-                    '01': `${prefix}/jb2a_patreon/Library/Generic/Marker/EnergyStrands_01_Dark_Red_600x600.webm`
-                },
-                orange: {
-                    '01': `${prefix}/jb2a_patreon/Library/Generic/Marker/EnergyStrands_01_Regular_Orange_600x600.webm`
-                },
-                pinkyellow: {
-                    '01': `${prefix}/jb2a_patreon/Library/Generic/Marker/EnergyStrands_01_Regular_PinkYellow_600x600.webm`
-                },
-                purple: {
-                    '01': `${prefix}/jb2a_patreon/Library/Generic/Marker/EnergyStrands_01_Regular_Purple_600x600.webm`
-                }
+            dark_red: {
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeamReverse_01_Dark_Red_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeamReverse_01_Dark_Red_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeamReverse_01_Dark_Red_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeamReverse_01_Dark_Red_90ft_4000x400.webm`
             },
-            overlay: {
-                blue: {
-                    '01': `${prefix}/jb2a_patreon/Library/Generic/Marker/EnergyStrandsOverlay_01_Regular_Blue_600x600.webm`
-                },
-                blueorange: {
-                    '01': `${prefix}/jb2a_patreon/Library/Generic/Marker/EnergyStrandsOverlay_01_Regular_BlueOrange_600x600.webm`
-                },
-                dark_green: {
-                    '01': `${prefix}/jb2a_patreon/Library/Generic/Marker/EnergyStrandsOverlay_01_Dark_Green_600x600.webm`
-                },
-                dark_red: {
-                    '01': `${prefix}/jb2a_patreon/Library/Generic/Marker/EnergyStrandsOverlay_01_Dark_Red_600x600.webm`
-                },
-                orange: {
-                    '01': `${prefix}/jb2a_patreon/Library/Generic/Marker/EnergyStrandsOverlay_01_Regular_Orange_600x600.webm`
-                },
-                pinkyellow: {
-                    '01': `${prefix}/jb2a_patreon/Library/Generic/Marker/EnergyStrandsOverlay_01_Regular_PinkYellow_600x600.webm`
-                },
-                purple: {
-                    '01': `${prefix}/jb2a_patreon/Library/Generic/Marker/EnergyStrandsOverlay_01_Regular_Purple_600x600.webm`
-                }
-            },
-            range: {
-                _template: 'ranged',
-                standard: {
-                    dark_green: {
-                        '01': {
-                            '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Dark_Green_05ft_600x400.webm`,
-                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Dark_Green_15ft_1000x400.webm`,
-                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Dark_Green_30ft_1600x400.webm`,
-                            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Dark_Green_60ft_2800x400.webm`,
-                            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Dark_Green_90ft_4000x400.webm`
-                        },
-                        '02': {
-                            '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Dark_Green_05ft_600x400.webm`,
-                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Dark_Green_15ft_1000x400.webm`,
-                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Dark_Green_30ft_1600x400.webm`,
-                            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Dark_Green_60ft_2800x400.webm`,
-                            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Dark_Green_90ft_4000x400.webm`
-                        },
-                        '03': {
-                            '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Dark_Green_05ft_600x400.webm`,
-                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Dark_Green_15ft_1000x400.webm`,
-                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Dark_Green_30ft_1600x400.webm`,
-                            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Dark_Green_60ft_2800x400.webm`,
-                            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Dark_Green_90ft_4000x400.webm`
-                        },
-                        '04': {
-                            '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Dark_Green_05ft_600x400.webm`,
-                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Dark_Green_15ft_1000x400.webm`,
-                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Dark_Green_30ft_1600x400.webm`,
-                            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Dark_Green_60ft_2800x400.webm`,
-                            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Dark_Green_90ft_4000x400.webm`
-                        }
-                    },
-                    dark_purple: {
-                        '01': {
-                            '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Dark_Purple_05ft_600x400.webm`,
-                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Dark_Purple_15ft_1000x400.webm`,
-                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Dark_Purple_30ft_1600x400.webm`,
-                            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Dark_Purple_60ft_2800x400.webm`,
-                            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Dark_Purple_90ft_4000x400.webm`
-                        },
-                        '02': {
-                            '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Dark_Purple_05ft_600x400.webm`,
-                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Dark_Purple_15ft_1000x400.webm`,
-                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Dark_Purple_30ft_1600x400.webm`,
-                            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Dark_Purple_60ft_2800x400.webm`,
-                            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Dark_Purple_90ft_4000x400.webm`
-                        },
-                        '03': {
-                            '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Dark_Purple_05ft_600x400.webm`,
-                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Dark_Purple_15ft_1000x400.webm`,
-                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Dark_Purple_30ft_1600x400.webm`,
-                            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Dark_Purple_60ft_2800x400.webm`,
-                            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Dark_Purple_90ft_4000x400.webm`
-                        },
-                        '04': {
-                            '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Dark_Purple_05ft_600x400.webm`,
-                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Dark_Purple_15ft_1000x400.webm`,
-                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Dark_Purple_30ft_1600x400.webm`,
-                            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Dark_Purple_60ft_2800x400.webm`,
-                            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Dark_Purple_90ft_4000x400.webm`
-                        }
-                    },
-                    dark_red: {
-                        '01': {
-                            '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Dark_Red_05ft_600x400.webm`,
-                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Dark_Red_15ft_1000x400.webm`,
-                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Dark_Red_30ft_1600x400.webm`,
-                            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Dark_Red_60ft_2800x400.webm`,
-                            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Dark_Red_90ft_4000x400.webm`
-                        },
-                        '02': {
-                            '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Dark_Red_05ft_600x400.webm`,
-                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Dark_Red_15ft_1000x400.webm`,
-                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Dark_Red_30ft_1600x400.webm`,
-                            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Dark_Red_60ft_2800x400.webm`,
-                            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Dark_Red_90ft_4000x400.webm`
-                        },
-                        '03': {
-                            '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Dark_Red_05ft_600x400.webm`,
-                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Dark_Red_15ft_1000x400.webm`,
-                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Dark_Red_30ft_1600x400.webm`,
-                            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Dark_Red_60ft_2800x400.webm`,
-                            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Dark_Red_90ft_4000x400.webm`
-                        },
-                        '04': {
-                            '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Dark_Red_05ft_600x400.webm`,
-                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Dark_Red_15ft_1000x400.webm`,
-                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Dark_Red_30ft_1600x400.webm`,
-                            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Dark_Red_60ft_2800x400.webm`,
-                            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Dark_Red_90ft_4000x400.webm`
-                        }
-                    },
-                    blue: {
-                        '01': {
-                            '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Regular_Blue_05ft_600x400.webm`,
-                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Regular_Blue_15ft_1000x400.webm`,
-                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Regular_Blue_30ft_1600x400.webm`,
-                            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Regular_Blue_60ft_2800x400.webm`,
-                            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Regular_Blue_90ft_4000x400.webm`
-                        },
-                        '02': {
-                            '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Regular_Blue_05ft_600x400.webm`,
-                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Regular_Blue_15ft_1000x400.webm`,
-                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Regular_Blue_30ft_1600x400.webm`,
-                            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Regular_Blue_60ft_2800x400.webm`,
-                            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Regular_Blue_90ft_4000x400.webm`
-                        },
-                        '03': {
-                            '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Regular_Blue_05ft_600x400.webm`,
-                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Regular_Blue_15ft_1000x400.webm`,
-                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Regular_Blue_30ft_1600x400.webm`,
-                            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Regular_Blue_60ft_2800x400.webm`,
-                            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Regular_Blue_90ft_4000x400.webm`
-                        },
-                        '04': {
-                            '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Regular_Blue_05ft_600x400.webm`,
-                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Regular_Blue_15ft_1000x400.webm`,
-                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Regular_Blue_30ft_1600x400.webm`,
-                            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Regular_Blue_60ft_2800x400.webm`,
-                            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Regular_Blue_90ft_4000x400.webm`
-                        }
-                    },
-                    orange: {
-                        '01': {
-                            '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Regular_Orange_05ft_600x400.webm`,
-                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Regular_Orange_15ft_1000x400.webm`,
-                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Regular_Orange_30ft_1600x400.webm`,
-                            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Regular_Orange_60ft_2800x400.webm`,
-                            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Regular_Orange_90ft_4000x400.webm`
-                        },
-                        '02': {
-                            '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Regular_Orange_05ft_600x400.webm`,
-                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Regular_Orange_15ft_1000x400.webm`,
-                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Regular_Orange_30ft_1600x400.webm`,
-                            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Regular_Orange_60ft_2800x400.webm`,
-                            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Regular_Orange_90ft_4000x400.webm`
-                        },
-                        '03': {
-                            '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Regular_Orange_05ft_600x400.webm`,
-                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Regular_Orange_15ft_1000x400.webm`,
-                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Regular_Orange_30ft_1600x400.webm`,
-                            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Regular_Orange_60ft_2800x400.webm`,
-                            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Regular_Orange_90ft_4000x400.webm`
-                        },
-                        '04': {
-                            '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Regular_Orange_05ft_600x400.webm`,
-                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Regular_Orange_15ft_1000x400.webm`,
-                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Regular_Orange_30ft_1600x400.webm`,
-                            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Regular_Orange_60ft_2800x400.webm`,
-                            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Regular_Orange_90ft_4000x400.webm`
-                        }
-                    },
-                    purple: {
-                        '01': {
-                            '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Regular_Purple_05ft_600x400.webm`,
-                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Regular_Purple_15ft_1000x400.webm`,
-                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Regular_Purple_30ft_1600x400.webm`,
-                            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Regular_Purple_60ft_2800x400.webm`,
-                            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Regular_Purple_90ft_4000x400.webm`
-                        },
-                        '02': {
-                            '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Regular_Purple_05ft_600x400.webm`,
-                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Regular_Purple_15ft_1000x400.webm`,
-                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Regular_Purple_30ft_1600x400.webm`,
-                            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Regular_Purple_60ft_2800x400.webm`,
-                            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Regular_Purple_90ft_4000x400.webm`
-                        },
-                        '03': {
-                            '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Regular_Purple_05ft_600x400.webm`,
-                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Regular_Purple_15ft_1000x400.webm`,
-                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Regular_Purple_30ft_1600x400.webm`,
-                            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Regular_Purple_60ft_2800x400.webm`,
-                            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Regular_Purple_90ft_4000x400.webm`
-                        },
-                        '04': {
-                            '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Regular_Purple_05ft_600x400.webm`,
-                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Regular_Purple_15ft_1000x400.webm`,
-                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Regular_Purple_30ft_1600x400.webm`,
-                            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Regular_Purple_60ft_2800x400.webm`,
-                            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Regular_Purple_90ft_4000x400.webm`
-                        }
-                    }
-                },
-                multiple: {
-                    dark_green: {
-                        '01': {
-                            '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Green_05ft_600x400.webm`,
-                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Green_15ft_1000x400.webm`,
-                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Green_30ft_1600x400.webm`,
-                            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Green_60ft_2800x400.webm`,
-                            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Green_90ft_4000x400.webm`
-                        }
-
-                    },
-                    dark_purple: {
-                        '01': {
-                            '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Purple_05ft_600x400.webm`,
-                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Purple_15ft_1000x400.webm`,
-                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Purple_30ft_1600x400.webm`,
-                            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Purple_60ft_2800x400.webm`,
-                            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Purple_90ft_4000x400.webm`
-                        }
-
-                    },
-                    dark_red: {
-                        '01': {
-                            '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Red_05ft_600x400.webm`,
-                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Red_15ft_1000x400.webm`,
-                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Red_30ft_1600x400.webm`,
-                            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Red_60ft_2800x400.webm`,
-                            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Red_90ft_4000x400.webm`
-                        }
-
-                    },
-                    blue: {
-                        '01': {
-                            '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Blue_05ft_600x400.webm`,
-                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Blue_15ft_1000x400.webm`,
-                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Blue_30ft_1600x400.webm`,
-                            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Blue_60ft_2800x400.webm`,
-                            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Blue_90ft_4000x400.webm`
-                        }
-
-                    },
-                    purple: {
-                        '01': {
-                            '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Purple_05ft_600x400.webm`,
-                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Purple_15ft_1000x400.webm`,
-                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Purple_30ft_1600x400.webm`,
-                            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Purple_60ft_2800x400.webm`,
-                            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Purple_90ft_4000x400.webm`
-                        }
-
-                    },
-                    dark_purplered: {
-                        '02': {
-                            '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Dark_PurpleRed_05ft_600x400.webm`,
-                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Dark_PurpleRed_15ft_1000x400.webm`,
-                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Dark_PurpleRed_30ft_1600x400.webm`,
-                            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Dark_PurpleRed_60ft_2800x400.webm`,
-                            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Dark_PurpleRed_90ft_4000x400.webm`
-                        }
-
-                    },
-                    dark_greenpurple: {
-                        '02': {
-                            '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Dark_GreenPurple_05ft_600x400.webm`,
-                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Dark_GreenPurple_15ft_1000x400.webm`,
-                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Dark_GreenPurple_30ft_1600x400.webm`,
-                            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Dark_GreenPurple_60ft_2800x400.webm`,
-                            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Dark_GreenPurple_90ft_4000x400.webm`
-                        }
-
-                    },
-                    bluepink: {
-                        '02': {
-                            '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Regular_BluePink_05ft_600x400.webm`,
-                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Regular_BluePink_15ft_1000x400.webm`,
-                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Regular_BluePink_30ft_1600x400.webm`,
-                            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Regular_BluePink_60ft_2800x400.webm`,
-                            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Regular_BluePink_90ft_4000x400.webm`
-                        }
-
-                    },
-                    greenyellow: {
-                        '02': {
-                            '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Regular_GreenYellow_05ft_600x400.webm`,
-                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Regular_GreenYellow_15ft_1000x400.webm`,
-                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Regular_GreenYellow_30ft_1600x400.webm`,
-                            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Regular_GreenYellow_60ft_2800x400.webm`,
-                            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Regular_GreenYellow_90ft_4000x400.webm`
-                        }
-
-                    }
-
-                }
-            }
-        },
-        patreonDatabase.eruption = {
             blue: {
-                '01': `${prefix}/jb2a_patreon/Library/Generic/Fire/Eruption_01_Regular_Blue_600x600.webm`
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeamReverse_01_Regular_Blue_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeamReverse_01_Regular_Blue_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeamReverse_01_Regular_Blue_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeamReverse_01_Regular_Blue_90ft_4000x400.webm`
+            },
+            bluegreen: {
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeamReverse_01_Regular_BlueGreen_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeamReverse_01_Regular_BlueGreen_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeamReverse_01_Regular_BlueGreen_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeamReverse_01_Regular_BlueGreen_90ft_4000x400.webm`
+            },
+            red: {
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeamReverse_01_Regular_Red_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeamReverse_01_Regular_Red_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeamReverse_01_Regular_Red_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyBeamReverse_01_Regular_Red_90ft_4000x400.webm`
+            },
+        }
+    },
+    patreonDatabase.energy_conduit = {
+        _metadata: {
+            name: "Energy Conduit",
+        },
+        _template: 'ranged',
+        bluepurple: {
+            circle: {
+                '01': {
+                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyConduitCircle_01_Regular_BluePurple_05ft_600x400.webm`,
+                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyConduitCircle_01_Regular_BluePurple_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyConduitCircle_01_Regular_BluePurple_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyConduitCircle_01_Regular_BluePurple_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyConduitCircle_01_Regular_BluePurple_90ft_4000x400.webm`
+                }
+            },
+            square: {
+                '01': {
+                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyConduitSquare_01_Regular_BluePurple_05ft_600x400.webm`,
+                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyConduitSquare_01_Regular_BluePurple_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyConduitSquare_01_Regular_BluePurple_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyConduitSquare_01_Regular_BluePurple_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyConduitSquare_01_Regular_BluePurple_90ft_4000x400.webm`
+                }
+            }
+        },
+        greenyellow: {
+            circle: {
+                '01': {
+                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyConduitCircle_01_Regular_GreenYellow_05ft_600x400.webm`,
+                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyConduitCircle_01_Regular_GreenYellow_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyConduitCircle_01_Regular_GreenYellow_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyConduitCircle_01_Regular_GreenYellow_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyConduitCircle_01_Regular_GreenYellow_90ft_4000x400.webm`
+                }
+            },
+            square: {
+                '01': {
+                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyConduitSquare_01_Regular_GreenYellow_05ft_600x400.webm`,
+                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyConduitSquare_01_Regular_GreenYellow_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyConduitSquare_01_Regular_GreenYellow_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyConduitSquare_01_Regular_GreenYellow_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyConduitSquare_01_Regular_GreenYellow_90ft_4000x400.webm`
+                }
+            }
+        }
+    },
+    patreonDatabase.energy_field = {
+        _metadata: {
+            name: "Energy Field",
+        },
+        '01': {
+            blue: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyField_01_Regular_Blue_600x600.webm`,
+            green: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyField_01_Regular_Green_600x600.webm`,
+            purple: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyField_01_Regular_Rainbow_600x600.webm`
+        },
+        '02': {
+            below: {
+                blue: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyFieldBot_02_Regular_Blue_400x400.webm`,
+                green: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyFieldBot_02_Regular_Green_400x400.webm`,
+                purple: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyFieldBot_02_Regular_Purple_400x400.webm`
+            },
+            above: {
+                blue: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyFieldTop_02_Regular_Blue_400x400.webm`,
+                green: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyFieldTop_02_Regular_Green_400x400.webm`,
+                purple: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyFieldTop_02_Regular_Purple_400x400.webm`
+            }
+        }
+    },
+    patreonDatabase.energy_strands = {
+        in: {
+            _metadata: {
+                name: "Energy Strands: IN",
             },
             green: {
-                '01': `${prefix}/jb2a_patreon/Library/Generic/Fire/Eruption_01_Regular_Green_600x600.webm`
+                '01': [
+                    `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrandIN01_01_Regular_Green_600x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrandIN01_02_Regular_Green_600x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrandIN01_03_Regular_Green_600x600.webm`
+                ]
+            },
+            purple: {
+                '01': [
+                    `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrandIN01_01_Regular_Purple_600x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrandIN01_02_Regular_Purple_600x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrandIN01_03_Regular_Purple_600x600.webm`
+                ]
+            },
+            red: {
+                '01': [
+                    `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrandIN01_01_Regular_Red_600x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrandIN01_02_Regular_Red_600x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrandIN01_03_Regular_Red_600x600.webm`
+                ]
+            },
+            yellow: {
+                '01': [
+                    `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrandIN01_01_Regular_Yellow_600x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrandIN01_02_Regular_Yellow_600x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrandIN01_03_Regular_Yellow_600x600.webm`
+                ]
+            }
+        },
+        complete: {
+            _metadata: {
+                name: "Energy Strands: Complete",
+            },
+            blue: {
+                '01': `${prefix}/jb2a_patreon/Library/Generic/Marker/EnergyStrands_01_Regular_Blue_600x600.webm`
+            },
+            blueorange: {
+                '01': `${prefix}/jb2a_patreon/Library/Generic/Marker/EnergyStrands_01_Regular_BlueOrange_600x600.webm`
+            },
+            dark_green: {
+                '01': `${prefix}/jb2a_patreon/Library/Generic/Marker/EnergyStrands_01_Dark_Green_600x600.webm`
+            },
+            dark_red: {
+                '01': `${prefix}/jb2a_patreon/Library/Generic/Marker/EnergyStrands_01_Dark_Red_600x600.webm`
             },
             orange: {
-                '01': `${prefix}/jb2a_patreon/Library/Generic/Fire/Eruption_01_Regular_Orange_600x600.webm`
+                '01': `${prefix}/jb2a_patreon/Library/Generic/Marker/EnergyStrands_01_Regular_Orange_600x600.webm`
+            },
+            pinkyellow: {
+                '01': `${prefix}/jb2a_patreon/Library/Generic/Marker/EnergyStrands_01_Regular_PinkYellow_600x600.webm`
+            },
+            purple: {
+                '01': `${prefix}/jb2a_patreon/Library/Generic/Marker/EnergyStrands_01_Regular_Purple_600x600.webm`
             }
         },
-        patreonDatabase.entangle = {
-            brown: `${prefix}/jb2a_patreon/Library/1st_Level/Entangle/Entangle_01_Brown_400x400.webm`,
-            dark_purple: `${prefix}/jb2a_patreon/Library/1st_Level/Entangle/Entangle_01_Dark_Purple_400x400.webm`,
-            green: `${prefix}/jb2a_patreon/Library/1st_Level/Entangle/Entangle_01_Green_400x400.webm`,
-            green02: `${prefix}/jb2a_patreon/Library/1st_Level/Entangle/Entangle_01_Regular_Green02_400x400.webm`,
-            yellow: `${prefix}/jb2a_patreon/Library/1st_Level/Entangle/Entangle_01_Yellow_400x400.webm`
+        overlay: {
+            _metadata: {
+                name: "Energy Strands: Overlay",
+            },
+            blue: {
+                '01': `${prefix}/jb2a_patreon/Library/Generic/Marker/EnergyStrandsOverlay_01_Regular_Blue_600x600.webm`
+            },
+            blueorange: {
+                '01': `${prefix}/jb2a_patreon/Library/Generic/Marker/EnergyStrandsOverlay_01_Regular_BlueOrange_600x600.webm`
+            },
+            dark_green: {
+                '01': `${prefix}/jb2a_patreon/Library/Generic/Marker/EnergyStrandsOverlay_01_Dark_Green_600x600.webm`
+            },
+            dark_red: {
+                '01': `${prefix}/jb2a_patreon/Library/Generic/Marker/EnergyStrandsOverlay_01_Dark_Red_600x600.webm`
+            },
+            orange: {
+                '01': `${prefix}/jb2a_patreon/Library/Generic/Marker/EnergyStrandsOverlay_01_Regular_Orange_600x600.webm`
+            },
+            pinkyellow: {
+                '01': `${prefix}/jb2a_patreon/Library/Generic/Marker/EnergyStrandsOverlay_01_Regular_PinkYellow_600x600.webm`
+            },
+            purple: {
+                '01': `${prefix}/jb2a_patreon/Library/Generic/Marker/EnergyStrandsOverlay_01_Regular_Purple_600x600.webm`
+            }
         },
-        patreonDatabase.explosion = {
+        range: {
+            standard: {
+                _metadata: {
+                    name: "Energy Strands: Ranged",
+                },
+            _template: 'ranged',
+    
+                dark_green: {
+                    '01': {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Dark_Green_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Dark_Green_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Dark_Green_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Dark_Green_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Dark_Green_90ft_4000x400.webm`
+                    },
+                    '02': {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Dark_Green_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Dark_Green_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Dark_Green_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Dark_Green_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Dark_Green_90ft_4000x400.webm`
+                    },
+                    '03': {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Dark_Green_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Dark_Green_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Dark_Green_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Dark_Green_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Dark_Green_90ft_4000x400.webm`
+                    },
+                    '04': {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Dark_Green_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Dark_Green_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Dark_Green_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Dark_Green_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Dark_Green_90ft_4000x400.webm`
+                    }
+                },
+                dark_purple: {
+                    '01': {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Dark_Purple_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Dark_Purple_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Dark_Purple_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Dark_Purple_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Dark_Purple_90ft_4000x400.webm`
+                    },
+                    '02': {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Dark_Purple_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Dark_Purple_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Dark_Purple_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Dark_Purple_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Dark_Purple_90ft_4000x400.webm`
+                    },
+                    '03': {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Dark_Purple_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Dark_Purple_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Dark_Purple_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Dark_Purple_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Dark_Purple_90ft_4000x400.webm`
+                    },
+                    '04': {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Dark_Purple_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Dark_Purple_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Dark_Purple_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Dark_Purple_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Dark_Purple_90ft_4000x400.webm`
+                    }
+                },
+                dark_red: {
+                    '01': {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Dark_Red_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Dark_Red_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Dark_Red_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Dark_Red_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Dark_Red_90ft_4000x400.webm`
+                    },
+                    '02': {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Dark_Red_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Dark_Red_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Dark_Red_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Dark_Red_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Dark_Red_90ft_4000x400.webm`
+                    },
+                    '03': {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Dark_Red_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Dark_Red_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Dark_Red_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Dark_Red_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Dark_Red_90ft_4000x400.webm`
+                    },
+                    '04': {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Dark_Red_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Dark_Red_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Dark_Red_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Dark_Red_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Dark_Red_90ft_4000x400.webm`
+                    }
+                },
+                blue: {
+                    '01': {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Regular_Blue_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Regular_Blue_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Regular_Blue_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Regular_Blue_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Regular_Blue_90ft_4000x400.webm`
+                    },
+                    '02': {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Regular_Blue_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Regular_Blue_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Regular_Blue_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Regular_Blue_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Regular_Blue_90ft_4000x400.webm`
+                    },
+                    '03': {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Regular_Blue_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Regular_Blue_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Regular_Blue_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Regular_Blue_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Regular_Blue_90ft_4000x400.webm`
+                    },
+                    '04': {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Regular_Blue_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Regular_Blue_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Regular_Blue_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Regular_Blue_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Regular_Blue_90ft_4000x400.webm`
+                    }
+                },
+                orange: {
+                    '01': {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Regular_Orange_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Regular_Orange_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Regular_Orange_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Regular_Orange_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Regular_Orange_90ft_4000x400.webm`
+                    },
+                    '02': {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Regular_Orange_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Regular_Orange_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Regular_Orange_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Regular_Orange_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Regular_Orange_90ft_4000x400.webm`
+                    },
+                    '03': {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Regular_Orange_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Regular_Orange_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Regular_Orange_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Regular_Orange_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Regular_Orange_90ft_4000x400.webm`
+                    },
+                    '04': {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Regular_Orange_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Regular_Orange_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Regular_Orange_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Regular_Orange_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Regular_Orange_90ft_4000x400.webm`
+                    }
+                },
+                purple: {
+                    '01': {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Regular_Purple_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Regular_Purple_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Regular_Purple_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Regular_Purple_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Regular_Purple_90ft_4000x400.webm`
+                    },
+                    '02': {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Regular_Purple_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Regular_Purple_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Regular_Purple_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Regular_Purple_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Regular_Purple_90ft_4000x400.webm`
+                    },
+                    '03': {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Regular_Purple_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Regular_Purple_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Regular_Purple_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Regular_Purple_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Regular_Purple_90ft_4000x400.webm`
+                    },
+                    '04': {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Regular_Purple_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Regular_Purple_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Regular_Purple_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Regular_Purple_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Regular_Purple_90ft_4000x400.webm`
+                    }
+                }
+            },
+            multiple: {
+                _metadata: {
+                    name: "Energy Strands: Multiple",
+                },
+                dark_green: {
+                    '01': {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Green_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Green_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Green_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Green_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Green_90ft_4000x400.webm`
+                    }
+    
+                },
+                dark_purple: {
+                    '01': {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Purple_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Purple_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Purple_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Purple_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Purple_90ft_4000x400.webm`
+                    }
+    
+                },
+                dark_red: {
+                    '01': {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Red_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Red_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Red_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Red_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Red_90ft_4000x400.webm`
+                    }
+    
+                },
+                blue: {
+                    '01': {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Blue_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Blue_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Blue_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Blue_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Blue_90ft_4000x400.webm`
+                    }
+    
+                },
+                purple: {
+                    '01': {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Purple_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Purple_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Purple_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Purple_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Purple_90ft_4000x400.webm`
+                    }
+    
+                },
+                dark_purplered: {
+                    '02': {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Dark_PurpleRed_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Dark_PurpleRed_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Dark_PurpleRed_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Dark_PurpleRed_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Dark_PurpleRed_90ft_4000x400.webm`
+                    }
+    
+                },
+                dark_greenpurple: {
+                    '02': {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Dark_GreenPurple_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Dark_GreenPurple_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Dark_GreenPurple_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Dark_GreenPurple_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Dark_GreenPurple_90ft_4000x400.webm`
+                    }
+    
+                },
+                bluepink: {
+                    '02': {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Regular_BluePink_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Regular_BluePink_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Regular_BluePink_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Regular_BluePink_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Regular_BluePink_90ft_4000x400.webm`
+                    }
+    
+                },
+                greenyellow: {
+                    '02': {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Regular_GreenYellow_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Regular_GreenYellow_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Regular_GreenYellow_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Regular_GreenYellow_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple02_Regular_GreenYellow_90ft_4000x400.webm`
+                    }
+    
+                }
+    
+            }
+        }
+    },
+    patreonDatabase.eruption = {
+        _metadata: {
+            name: "Eruption",
+        },
+        blue: {
+            '01': `${prefix}/jb2a_patreon/Library/Generic/Fire/Eruption_01_Regular_Blue_600x600.webm`
+        },
+        green: {
+            '01': `${prefix}/jb2a_patreon/Library/Generic/Fire/Eruption_01_Regular_Green_600x600.webm`
+        },
+        orange: {
+            '01': `${prefix}/jb2a_patreon/Library/Generic/Fire/Eruption_01_Regular_Orange_600x600.webm`
+        }
+    },
+    patreonDatabase.entangle = {
+        _metadata: {
+            name: "Entangle",
+        },
+        brown: `${prefix}/jb2a_patreon/Library/1st_Level/Entangle/Entangle_01_Brown_400x400.webm`,
+        dark_purple: `${prefix}/jb2a_patreon/Library/1st_Level/Entangle/Entangle_01_Dark_Purple_400x400.webm`,
+        green: `${prefix}/jb2a_patreon/Library/1st_Level/Entangle/Entangle_01_Green_400x400.webm`,
+        green02: `${prefix}/jb2a_patreon/Library/1st_Level/Entangle/Entangle_01_Regular_Green02_400x400.webm`,
+        yellow: `${prefix}/jb2a_patreon/Library/1st_Level/Entangle/Entangle_01_Yellow_400x400.webm`
+    },
+    patreonDatabase.explosion = {
+        '01': {
+            _metadata: {
+                name: "Explosion",
+            },
+            blue: `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_01_Blue_400x400.webm`,
+            green: `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_01_Green_400x400.webm`,
+            orange: `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_01_Orange_400x400.webm`,
+            purple: `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_01_Purple_400x400.webm`,
+            yellow: `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_01_Yellow_400x400.webm`
+        },
+        '02': {
+                _metadata: {
+                    name: "Explosion",
+        },
+            blue: `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_02_Blue_400x400.webm`,
+            green: `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_02_Green_400x400.webm`,
+            orange: `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_02_Orange_400x400.webm`,
+            purple: `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_02_Purple_400x400.webm`,
+            yellow: `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_02_Yellow_400x400.webm`
+        },
+        '03': {
+            _metadata: {
+                name: "Explosion",
+        },
+            bluewhite: `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_03_Dark_BlueWhite_400x400.webm`,
+            blueyellow: `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_03_Regular_BlueYellow_400x400.webm`,
+            greenorange: `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_03_Regular_GreenOrange_400x400.webm`,
+            pink: `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_03_Regular_Pink_400x400.webm`,
+            purplepink: `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_03_Regular_PurplePink_400x400.webm`,
+            red: `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_03_Regular_Red_400x400.webm`
+        },
+        '04': {
+            _metadata: {
+                name: "Explosion",
+        },
+            blue: `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_04_Regular_Blue_400x400.webm`,
+            dark_purple: `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_04_Dark_Purple_400x400.webm`,
+            dark_red: `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_04_Dark_Red_400x400.webm`,
+            green: `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_04_Regular_Green_400x400.webm`,
+            orange: `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_04_Regular_Orange_400x400.webm`
+        },
+        '05': {
+                _metadata: {
+            name: "Explosion",
+        },
+            bluewhite: `${prefix}/jb2a_patreon/Library/Generic/Ice/SnowflakeBurst_01_Regular_BlueWhite_Burst_600x600.webm`,
+            greenorange: `${prefix}/jb2a_patreon/Library/Generic/Ice/SnowflakeBurst_01_Regular_GreenOrange_Burst_600x600.webm`,
+            purplepink: `${prefix}/jb2a_patreon/Library/Generic/Ice/SnowflakeBurst_01_Regular_PurplePink_Burst_600x600.webm`,
+            tealyellow: `${prefix}/jb2a_patreon/Library/Generic/Ice/SnowflakeBurst_01_Regular_TealYellow_Burst_600x600.webm`
+        },
+        '06': {
+                _metadata: {
+            name: "Explosion",
+        },
+            bluewhite: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/OutPulse/OutPulse_01_Regular_BlueWhite_Burst_600x600.webm`,
+            greenorange: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/OutPulse/OutPulse_01_Regular_GreenOrange_Burst_600x600.webm`,
+            purplepink: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/OutPulse/OutPulse_01_Regular_PurplePink_Burst_600x600.webm`,
+            tealyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/OutPulse/OutPulse_01_Regular_TealYellow_Burst_600x600.webm`
+        },
+        '07': {
+                _metadata: {
+            name: "Explosion",
+        },
+            bluewhite: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/OutPulse/OutPulse_02_Regular_BlueWhite_Burst_600x600.webm`,
+            greenorange: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/OutPulse/OutPulse_02_Regular_GreenOrange_Burst_600x600.webm`,
+            purplepink: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/OutPulse/OutPulse_02_Regular_PurplePink_Burst_600x600.webm`,
+            tealyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/OutPulse/OutPulse_02_Regular_TealYellow_Burst_600x600.webm`
+        },
+        blue: [
+            `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_01_Blue_400x400.webm`,
+            `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_02_Blue_400x400.webm`,
+            `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_04_Regular_Blue_400x400.webm`
+        ],
+        bluewhite: [
+            `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_03_Dark_BlueWhite_400x400.webm`,
+            `${prefix}/jb2a_patreon/Library/Generic/Ice/SnowflakeBurst_01_Regular_BlueWhite_Burst_600x600.webm`,
+            `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/OutPulse/OutPulse_01_Regular_BlueWhite_Burst_600x600.webm`,
+            `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/OutPulse/OutPulse_02_Regular_BlueWhite_Burst_600x600.webm`
+        ],
+        blueyellow: [
+            `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_03_Regular_BlueYellow_400x400.webm`
+        ],
+        dark_purple: [
+            `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_04_Dark_Purple_400x400.webm`
+        ],
+        dark_red: [
+            `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_04_Dark_Red_400x400.webm`
+        ],
+        green: [
+            `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_01_Green_400x400.webm`,
+            `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_02_Green_400x400.webm`,
+            `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_04_Regular_Green_400x400.webm`
+        ],
+        greenorange: [
+            `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_03_Regular_GreenOrange_400x400.webm`,
+            `${prefix}/jb2a_patreon/Library/Generic/Ice/SnowflakeBurst_01_Regular_GreenOrange_Burst_600x600.webm`,
+            `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/OutPulse/OutPulse_01_Regular_GreenOrange_Burst_600x600.webm`,
+            `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/OutPulse/OutPulse_02_Regular_GreenOrange_Burst_600x600.webm`
+        ],
+        orange: [
+            `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_01_Orange_400x400.webm`,
+            `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_02_Orange_400x400.webm`,
+            `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_04_Regular_Orange_400x400.webm`
+        ],
+        pink: [
+            `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_03_Regular_Pink_400x400.webm`
+        ],
+        purple: [
+            `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_01_Purple_400x400.webm`,
+            `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_02_Purple_400x400.webm`
+        ],
+        purplepink: [
+            `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_03_Regular_PurplePink_400x400.webm`,
+            `${prefix}/jb2a_patreon/Library/Generic/Ice/SnowflakeBurst_01_Regular_PurplePink_Burst_600x600.webm`,
+            `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/OutPulse/OutPulse_01_Regular_PurplePink_Burst_600x600.webm`,
+            `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/OutPulse/OutPulse_02_Regular_PurplePink_Burst_600x600.webm`
+        ],
+        red: [
+            `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_03_Regular_Red_400x400.webm`
+        ],
+        tealyellow: [
+            `${prefix}/jb2a_patreon/Library/Generic/Ice/SnowflakeBurst_01_Regular_TealYellow_Burst_600x600.webm`,
+            `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/OutPulse/OutPulse_01_Regular_TealYellow_Burst_600x600.webm`,
+            `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/OutPulse/OutPulse_02_Regular_TealYellow_Burst_600x600.webm`
+        ],
+        yellow: [
+            `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_01_Yellow_400x400.webm`,
+            `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_02_Yellow_400x400.webm`
+        ]
+    },
+    patreonDatabase.extras = {
+        _metadata: {
+            name: "Extras",
+        },
+        tmfx: {
+            border: {
+                circle: {
+                    inpulse: {
+                        '01': {
+                            fast: `${prefix}/jb2a_patreon/Library/TMFX/Border/Circle/BorderInPulse_01_Circle_Fast_500.webm`,
+                            normal: `${prefix}/jb2a_patreon/Library/TMFX/Border/Circle/BorderInPulse_01_Circle_Normal_500.webm`
+                        },
+                        '02': {
+                            fast: `${prefix}/jb2a_patreon/Library/TMFX/Border/Circle/BorderInPulse_02_Circle_Fast_500.webm`,
+                            normal: `${prefix}/jb2a_patreon/Library/TMFX/Border/Circle/BorderInPulse_02_Circle_Normal_500.webm`
+                        }
+                    },
+                    outpulse: {
+                        '01': {
+                            fast: `${prefix}/jb2a_patreon/Library/TMFX/Border/Circle/BorderOutPulse_01_Circle_Fast_500.webm`,
+                            normal: `${prefix}/jb2a_patreon/Library/TMFX/Border/Circle/BorderOutPulse_01_Circle_Normal_500.webm`
+                        },
+                        '02': {
+                            fast: `${prefix}/jb2a_patreon/Library/TMFX/Border/Circle/BorderOutPulse_02_Circle_Fast_500.webm`,
+                            normal: `${prefix}/jb2a_patreon/Library/TMFX/Border/Circle/BorderOutPulse_02_Circle_Normal_500.webm`
+                        }
+                    },
+                    simple: {
+                        '01': `${prefix}/jb2a_patreon/Library/TMFX/Border/Circle/BorderSimple_01_Circle_Normal_500.webm`,
+                        '02': `${prefix}/jb2a_patreon/Library/TMFX/Border/Circle/BorderSimple_02_Circle_Normal_500.webm`,
+                        '03': `${prefix}/jb2a_patreon/Library/TMFX/Border/Circle/BorderSimple_03_Circle_Normal_500.webm`,
+                        '04': `${prefix}/jb2a_patreon/Library/TMFX/Border/Circle/BorderSimple_04_Circle_Normal_500.webm`
+                    }
+                }
+            },
+            inflow: {
+                circle: {
+                    '01': `${prefix}/jb2a_patreon/Library/TMFX/InFlow/Circle/InFlow_01_Circle_500x500.webm`,
+                    '02': `${prefix}/jb2a_patreon/Library/TMFX/InFlow/Circle/InFlow_02_Circle_500x500.webm`,
+                    '03': `${prefix}/jb2a_patreon/Library/TMFX/InFlow/Circle/InFlow_03_Circle_500x500.webm`,
+                    '04': `${prefix}/jb2a_patreon/Library/TMFX/InFlow/Circle/InFlow_04_Circle_500x500.webm`
+                }
+            },
+            inpulse: {
+                circle: {
+                    '01': {
+                        fast: `${prefix}/jb2a_patreon/Library/TMFX/InPulse/Circle/InPulse_01_Circle_Fast_500.webm`,
+                        normal: `${prefix}/jb2a_patreon/Library/TMFX/InPulse/Circle/InPulse_01_Circle_Normal_500.webm`
+                    },
+                    '02': {
+                        fast: `${prefix}/jb2a_patreon/Library/TMFX/InPulse/Circle/InPulse_02_Circle_Fast_500.webm`,
+                        normal: `${prefix}/jb2a_patreon/Library/TMFX/InPulse/Circle/InPulse_02_Circle_Normal_500.webm`
+                    },
+                    '03': {
+                        fast: `${prefix}/jb2a_patreon/Library/TMFX/InPulse/Circle/InPulse_03_Circle_Fast_500.webm`,
+                        normal: `${prefix}/jb2a_patreon/Library/TMFX/InPulse/Circle/InPulse_03_Circle_Normal_500.webm`
+                    },
+                    '04': {
+                        fast: `${prefix}/jb2a_patreon/Library/TMFX/InPulse/Circle/InPulse_04_Circle_Fast_500.webm`,
+                        normal: `${prefix}/jb2a_patreon/Library/TMFX/InPulse/Circle/InPulse_04_Circle_Normal_500.webm`
+                    }
+                }
+            },
+            outflow: {
+                circle: {
+                    '01': `${prefix}/jb2a_patreon/Library/TMFX/OutFlow/Circle/OutFlow_01_Circle_500x500.webm`,
+                    '02': `${prefix}/jb2a_patreon/Library/TMFX/OutFlow/Circle/OutFlow_02_Circle_500x500.webm`,
+                    '03': `${prefix}/jb2a_patreon/Library/TMFX/OutFlow/Circle/OutFlow_03_Circle_500x500.webm`,
+                    '04': `${prefix}/jb2a_patreon/Library/TMFX/OutFlow/Circle/OutFlow_04_Circle_500x500.webm`,
+                },
+                cone: {
+                    '01': `${prefix}/jb2a_patreon/Library/TMFX/OutFlow/Cone/OutFlow_01_Cone_500x500.webm`,
+                    '02': `${prefix}/jb2a_patreon/Library/TMFX/OutFlow/Cone/OutFlow_02_Cone_500x500.webm`,
+                    '03': `${prefix}/jb2a_patreon/Library/TMFX/OutFlow/Cone/OutFlow_03_Cone_500x500.webm`,
+                    '04': `${prefix}/jb2a_patreon/Library/TMFX/OutFlow/Cone/OutFlow_04_Cone_500x500.webm`,
+                }
+            },
+            outpulse: {
+                circle: {
+                    '01': {
+                        fast: `${prefix}/jb2a_patreon/Library/TMFX/OutPulse/Circle/OutPulse_01_Circle_Fast_500.webm`,
+                        normal: `${prefix}/jb2a_patreon/Library/TMFX/OutPulse/Circle/OutPulse_01_Circle_Normal_500.webm`,
+                        slow: `${prefix}/jb2a_patreon/Library/TMFX/OutPulse/Circle/OutPulse_01_Circle_Slow_500.webm`
+                    },
+                    '02': {
+                        fast: `${prefix}/jb2a_patreon/Library/TMFX/OutPulse/Circle/OutPulse_02_Circle_Fast_500.webm`,
+                        normal: `${prefix}/jb2a_patreon/Library/TMFX/OutPulse/Circle/OutPulse_02_Circle_Normal_500.webm`,
+                        slow: `${prefix}/jb2a_patreon/Library/TMFX/OutPulse/Circle/OutPulse_02_Circle_Slow_500.webm`
+                    },
+                    '03': {
+                        fast: `${prefix}/jb2a_patreon/Library/TMFX/OutPulse/Circle/OutPulse_03_Circle_Fast_500.webm`,
+                        normal: `${prefix}/jb2a_patreon/Library/TMFX/OutPulse/Circle/OutPulse_03_Circle_Normal_500.webm`,
+                        slow: `${prefix}/jb2a_patreon/Library/TMFX/OutPulse/Circle/OutPulse_03_Circle_Slow_500.webm`
+                    },
+                    '04': {
+                        fast: `${prefix}/jb2a_patreon/Library/TMFX/OutPulse/Circle/OutPulse_04_Circle_Fast_500.webm`,
+                        normal: `${prefix}/jb2a_patreon/Library/TMFX/OutPulse/Circle/OutPulse_04_Circle_Normal_500.webm`,
+                        slow: `${prefix}/jb2a_patreon/Library/TMFX/OutPulse/Circle/OutPulse_04_Circle_Slow_500.webm`
+                    }
+                },
+                cone: {
+                    '01': {
+                        fast: `${prefix}/jb2a_patreon/Library/TMFX/OutPulse/Cone/OutPulse_01_Cone_Fast_500.webm`,
+                        normal: `${prefix}/jb2a_patreon/Library/TMFX/OutPulse/Cone/OutPulse_01_Cone_Normal_500.webm`
+                    },
+                    '02': {
+                        fast: `${prefix}/jb2a_patreon/Library/TMFX/OutPulse/Cone/OutPulse_02_Cone_Fast_500.webm`,
+                        normal: `${prefix}/jb2a_patreon/Library/TMFX/OutPulse/Cone/OutPulse_02_Cone_Normal_500.webm`
+                    },
+                    '03': {
+                        fast: `${prefix}/jb2a_patreon/Library/TMFX/OutPulse/Cone/OutPulse_03_Cone_Fast_500.webm`,
+                        normal: `${prefix}/jb2a_patreon/Library/TMFX/OutPulse/Cone/OutPulse_03_Cone_Normal_500.webm`
+                    },
+                    '04': {
+                        fast: `${prefix}/jb2a_patreon/Library/TMFX/OutPulse/Cone/OutPulse_04_Cone_Fast_500.webm`,
+                        normal: `${prefix}/jb2a_patreon/Library/TMFX/OutPulse/Cone/OutPulse_04_Cone_Normal_500.webm`
+                    }
+                },
+                line: {
+                    '01': {
+                        fast: `${prefix}/jb2a_patreon/Library/TMFX/OutPulse/Line/OutPulse_01_Line_Fast_500.webm`,
+                        normal: `${prefix}/jb2a_patreon/Library/TMFX/OutPulse/Line/OutPulse_01_Line_Normal_500.webm`
+                    },
+                    '02': {
+                        fast: `${prefix}/jb2a_patreon/Library/TMFX/OutPulse/Line/OutPulse_02_Line_Fast_500.webm`,
+                        normal: `${prefix}/jb2a_patreon/Library/TMFX/OutPulse/Line/OutPulse_02_Line_Normal_500.webm`
+                    },
+                    '03': {
+                        fast: `${prefix}/jb2a_patreon/Library/TMFX/OutPulse/Line/OutPulse_03_Line_Fast_500.webm`,
+                        normal: `${prefix}/jb2a_patreon/Library/TMFX/OutPulse/Line/OutPulse_03_Line_Normal_500.webm`
+                    },
+                    '04': {
+                        fast: `${prefix}/jb2a_patreon/Library/TMFX/OutPulse/Line/OutPulse_04_Line_Fast_500.webm`,
+                        normal: `${prefix}/jb2a_patreon/Library/TMFX/OutPulse/Line/OutPulse_04_Line_Normal_500.webm`
+                    }
+                }
+            },
+            projectile: {
+                circle: {
+                    fast: `${prefix}/jb2a_patreon/Library/TMFX/Projectile/Circle/ProjectileOutPulse_01_Circle_Fast_500.webm`,
+                    normal: `${prefix}/jb2a_patreon/Library/TMFX/Projectile/Circle/ProjectileOutPulse_01_Circle_Normal_500.webm`
+                }
+            },
+            radar: {
+                circle: {
+                    loop: {
+                        '01': {
+                            fast: `${prefix}/jb2a_patreon/Library/TMFX/Radar/Circle/RadarLoop_01_Circle_Fast_500x500.webm`,
+                            normal: `${prefix}/jb2a_patreon/Library/TMFX/Radar/Circle/RadarLoop_01_Circle_Normal_500x500.webm`,
+                            slow: `${prefix}/jb2a_patreon/Library/TMFX/Radar/Circle/RadarLoop_01_Circle_Slow_500x500.webm`
+                        },
+                        '02': {
+                            fast: `${prefix}/jb2a_patreon/Library/TMFX/Radar/Circle/RadarLoop_02_Circle_Fast_500x500.webm`,
+                            normal: `${prefix}/jb2a_patreon/Library/TMFX/Radar/Circle/RadarLoop_02_Circle_Normal_500x500.webm`,
+                            slow: `${prefix}/jb2a_patreon/Library/TMFX/Radar/Circle/RadarLoop_02_Circle_Slow_500x500.webm`
+                        }
+                    },
+                    pulse: {
+                        '01': {
+                            fast: `${prefix}/jb2a_patreon/Library/TMFX/Radar/Circle/RadarPulse_01_Circle_Fast_500x500.webm`,
+                            normal: `${prefix}/jb2a_patreon/Library/TMFX/Radar/Circle/RadarPulse_01_Circle_Normal_500x500.webm`,
+                            slow: `${prefix}/jb2a_patreon/Library/TMFX/Radar/Circle/RadarPulse_01_Circle_Slow_500x500.webm`
+                        },
+                        '02': {
+                            fast: `${prefix}/jb2a_patreon/Library/TMFX/Radar/Circle/RadarPulse_02_Circle_Fast_500x500.webm`,
+                            normal: `${prefix}/jb2a_patreon/Library/TMFX/Radar/Circle/RadarPulse_02_Circle_Normal_500x500.webm`,
+                            slow: `${prefix}/jb2a_patreon/Library/TMFX/Radar/Circle/RadarPulse_02_Circle_Slow_500x500.webm`
+                        }
+                    }
+                }
+            },
+            runes: {
+                circle: {
+                    inpulse: {
+                        abjuration: `${prefix}/jb2a_patreon/Library/TMFX/Runes/Circle/AbjurationInPulse_01_Circle_Normal_500.webm`,
+                        conjuration: `${prefix}/jb2a_patreon/Library/TMFX/Runes/Circle/ConjurationInPulse_01_Circle_Normal_500.webm`,
+                        divination: `${prefix}/jb2a_patreon/Library/TMFX/Runes/Circle/DivinationInPulse_01_Circle_Normal_500.webm`,
+                        enchantment: `${prefix}/jb2a_patreon/Library/TMFX/Runes/Circle/EnchantmentInPulse_01_Circle_Normal_500.webm`,
+                        evocation: `${prefix}/jb2a_patreon/Library/TMFX/Runes/Circle/EvocationInPulse_01_Circle_Normal_500.webm`,
+                        illusion: `${prefix}/jb2a_patreon/Library/TMFX/Runes/Circle/IllusionInPulse_01_Circle_Normal_500.webm`,
+                        necromancy: `${prefix}/jb2a_patreon/Library/TMFX/Runes/Circle/NecromancyInPulse_01_Circle_Normal_500.webm`,
+                        transmutation: `${prefix}/jb2a_patreon/Library/TMFX/Runes/Circle/TransmutationInPulse_01_Circle_Normal_500.webm`
+                    },
+                    outpulse: {
+                        abjuration: `${prefix}/jb2a_patreon/Library/TMFX/Runes/Circle/AbjurationOutPulse_01_Circle_Normal_500.webm`,
+                        conjuration: `${prefix}/jb2a_patreon/Library/TMFX/Runes/Circle/ConjurationOutPulse_01_Circle_Normal_500.webm`,
+                        divination: `${prefix}/jb2a_patreon/Library/TMFX/Runes/Circle/DivinationOutPulse_01_Circle_Normal_500.webm`,
+                        enchantment: `${prefix}/jb2a_patreon/Library/TMFX/Runes/Circle/EnchantmentOutPulse_01_Circle_Normal_500.webm`,
+                        evocation: `${prefix}/jb2a_patreon/Library/TMFX/Runes/Circle/EvocationOutPulse_01_Circle_Normal_500.webm`,
+                        illusion: `${prefix}/jb2a_patreon/Library/TMFX/Runes/Circle/IllusionOutPulse_01_Circle_Normal_500.webm`,
+                        necromancy: `${prefix}/jb2a_patreon/Library/TMFX/Runes/Circle/NecromancyOutPulse_01_Circle_Normal_500.webm`,
+                        transmutation: `${prefix}/jb2a_patreon/Library/TMFX/Runes/Circle/TransmutationOutPulse_01_Circle_Normal_500.webm`
+                    },
+                    simple: {
+                        abjuration: `${prefix}/jb2a_patreon/Library/TMFX/Runes/Circle/AbjurationSimple_01_Circle_Normal_500.webm`,
+                        conjuration: `${prefix}/jb2a_patreon/Library/TMFX/Runes/Circle/ConjurationSimple_01_Circle_Normal_500.webm`,
+                        divination: `${prefix}/jb2a_patreon/Library/TMFX/Runes/Circle/DivinationSimple_01_Circle_Normal_500.webm`,
+                        enchantment: `${prefix}/jb2a_patreon/Library/TMFX/Runes/Circle/EnchantmentSimple_01_Circle_Normal_500.webm`,
+                        evocation: `${prefix}/jb2a_patreon/Library/TMFX/Runes/Circle/EvocationSimple_01_Circle_Normal_500.webm`,
+                        illusion: `${prefix}/jb2a_patreon/Library/TMFX/Runes/Circle/IllusionSimple_01_Circle_Normal_500.webm`,
+                        necromancy: `${prefix}/jb2a_patreon/Library/TMFX/Runes/Circle/NecromancySimple_01_Circle_Normal_500.webm`,
+                        transmutation: `${prefix}/jb2a_patreon/Library/TMFX/Runes/Circle/TransmutationSimple_01_Circle_Normal_500.webm`
+                    }
+                }
+            }
+        }
+    },
+    patreonDatabase.falchion = {
+        _metadata: {
+            name: "Falchion",
+        },
+        melee: {
+            _template: 'melee',
             '01': {
-                blue: `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_01_Blue_400x400.webm`,
-                green: `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_01_Green_400x400.webm`,
-                orange: `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_01_Orange_400x400.webm`,
-                purple: `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_01_Purple_400x400.webm`,
-                yellow: `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_01_Yellow_400x400.webm`
-            },
-            '02': {
-                blue: `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_02_Blue_400x400.webm`,
-                green: `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_02_Green_400x400.webm`,
-                orange: `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_02_Orange_400x400.webm`,
-                purple: `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_02_Purple_400x400.webm`,
-                yellow: `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_02_Yellow_400x400.webm`
-            },
-            '03': {
-                bluewhite: `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_03_Dark_BlueWhite_400x400.webm`,
-                blueyellow: `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_03_Regular_BlueYellow_400x400.webm`,
-                greenorange: `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_03_Regular_GreenOrange_400x400.webm`,
-                pink: `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_03_Regular_Pink_400x400.webm`,
-                purplepink: `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_03_Regular_PurplePink_400x400.webm`,
-                red: `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_03_Regular_Red_400x400.webm`
-            },
-            '04': {
-                blue: `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_04_Regular_Blue_400x400.webm`,
-                dark_purple: `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_04_Dark_Purple_400x400.webm`,
-                dark_red: `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_04_Dark_Red_400x400.webm`,
-                green: `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_04_Regular_Green_400x400.webm`,
-                orange: `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_04_Regular_Orange_400x400.webm`
-            },
-            '05': {
-                bluewhite: `${prefix}/jb2a_patreon/Library/Generic/Ice/SnowflakeBurst_01_Regular_BlueWhite_Burst_600x600.webm`,
-                greenorange: `${prefix}/jb2a_patreon/Library/Generic/Ice/SnowflakeBurst_01_Regular_GreenOrange_Burst_600x600.webm`,
-                purplepink: `${prefix}/jb2a_patreon/Library/Generic/Ice/SnowflakeBurst_01_Regular_PurplePink_Burst_600x600.webm`,
-                tealyellow: `${prefix}/jb2a_patreon/Library/Generic/Ice/SnowflakeBurst_01_Regular_TealYellow_Burst_600x600.webm`
-            },
-            '06': {
-                bluewhite: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/OutPulse/OutPulse_01_Regular_BlueWhite_Burst_600x600.webm`,
-                greenorange: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/OutPulse/OutPulse_01_Regular_GreenOrange_Burst_600x600.webm`,
-                purplepink: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/OutPulse/OutPulse_01_Regular_PurplePink_Burst_600x600.webm`,
-                tealyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/OutPulse/OutPulse_01_Regular_TealYellow_Burst_600x600.webm`
-            },
-            '07': {
-                bluewhite: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/OutPulse/OutPulse_02_Regular_BlueWhite_Burst_600x600.webm`,
-                greenorange: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/OutPulse/OutPulse_02_Regular_GreenOrange_Burst_600x600.webm`,
-                purplepink: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/OutPulse/OutPulse_02_Regular_PurplePink_Burst_600x600.webm`,
-                tealyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/OutPulse/OutPulse_02_Regular_TealYellow_Burst_600x600.webm`
-            },
-            blue: [
-                `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_01_Blue_400x400.webm`,
-                `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_02_Blue_400x400.webm`,
-                `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_04_Regular_Blue_400x400.webm`
-            ],
-            bluewhite: [
-                `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_03_Dark_BlueWhite_400x400.webm`,
-                `${prefix}/jb2a_patreon/Library/Generic/Ice/SnowflakeBurst_01_Regular_BlueWhite_Burst_600x600.webm`,
-                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/OutPulse/OutPulse_01_Regular_BlueWhite_Burst_600x600.webm`,
-                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/OutPulse/OutPulse_02_Regular_BlueWhite_Burst_600x600.webm`
-            ],
-            blueyellow: [
-                `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_03_Regular_BlueYellow_400x400.webm`
-            ],
-            dark_purple: [
-                `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_04_Dark_Purple_400x400.webm`
-            ],
-            dark_red: [
-                `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_04_Dark_Red_400x400.webm`
-            ],
-            green: [
-                `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_01_Green_400x400.webm`,
-                `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_02_Green_400x400.webm`,
-                `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_04_Regular_Green_400x400.webm`
-            ],
-            greenorange: [
-                `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_03_Regular_GreenOrange_400x400.webm`,
-                `${prefix}/jb2a_patreon/Library/Generic/Ice/SnowflakeBurst_01_Regular_GreenOrange_Burst_600x600.webm`,
-                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/OutPulse/OutPulse_01_Regular_GreenOrange_Burst_600x600.webm`,
-                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/OutPulse/OutPulse_02_Regular_GreenOrange_Burst_600x600.webm`
-            ],
-            orange: [
-                `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_01_Orange_400x400.webm`,
-                `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_02_Orange_400x400.webm`,
-                `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_04_Regular_Orange_400x400.webm`
-            ],
-            pink: [
-                `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_03_Regular_Pink_400x400.webm`
-            ],
-            purple: [
-                `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_01_Purple_400x400.webm`,
-                `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_02_Purple_400x400.webm`
-            ],
-            purplepink: [
-                `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_03_Regular_PurplePink_400x400.webm`,
-                `${prefix}/jb2a_patreon/Library/Generic/Ice/SnowflakeBurst_01_Regular_PurplePink_Burst_600x600.webm`,
-                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/OutPulse/OutPulse_01_Regular_PurplePink_Burst_600x600.webm`,
-                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/OutPulse/OutPulse_02_Regular_PurplePink_Burst_600x600.webm`
-            ],
-            red: [
-                `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_03_Regular_Red_400x400.webm`
-            ],
-            tealyellow: [
-                `${prefix}/jb2a_patreon/Library/Generic/Ice/SnowflakeBurst_01_Regular_TealYellow_Burst_600x600.webm`,
-                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/OutPulse/OutPulse_01_Regular_TealYellow_Burst_600x600.webm`,
-                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/OutPulse/OutPulse_02_Regular_TealYellow_Burst_600x600.webm`
-            ],
-            yellow: [
-                `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_01_Yellow_400x400.webm`,
-                `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_02_Yellow_400x400.webm`
-            ]
-        },
-        patreonDatabase.extras = {
-            tmfx: {
-                border: {
-                    circle: {
-                        inpulse: {
-                            '01': {
-                                fast: `${prefix}/jb2a_patreon/Library/TMFX/Border/Circle/BorderInPulse_01_Circle_Fast_500.webm`,
-                                normal: `${prefix}/jb2a_patreon/Library/TMFX/Border/Circle/BorderInPulse_01_Circle_Normal_500.webm`
-                            },
-                            '02': {
-                                fast: `${prefix}/jb2a_patreon/Library/TMFX/Border/Circle/BorderInPulse_02_Circle_Fast_500.webm`,
-                                normal: `${prefix}/jb2a_patreon/Library/TMFX/Border/Circle/BorderInPulse_02_Circle_Normal_500.webm`
-                            }
-                        },
-                        outpulse: {
-                            '01': {
-                                fast: `${prefix}/jb2a_patreon/Library/TMFX/Border/Circle/BorderOutPulse_01_Circle_Fast_500.webm`,
-                                normal: `${prefix}/jb2a_patreon/Library/TMFX/Border/Circle/BorderOutPulse_01_Circle_Normal_500.webm`
-                            },
-                            '02': {
-                                fast: `${prefix}/jb2a_patreon/Library/TMFX/Border/Circle/BorderOutPulse_02_Circle_Fast_500.webm`,
-                                normal: `${prefix}/jb2a_patreon/Library/TMFX/Border/Circle/BorderOutPulse_02_Circle_Normal_500.webm`
-                            }
-                        },
-                        simple: {
-                            '01': `${prefix}/jb2a_patreon/Library/TMFX/Border/Circle/BorderSimple_01_Circle_Normal_500.webm`,
-                            '02': `${prefix}/jb2a_patreon/Library/TMFX/Border/Circle/BorderSimple_02_Circle_Normal_500.webm`,
-                            '03': `${prefix}/jb2a_patreon/Library/TMFX/Border/Circle/BorderSimple_03_Circle_Normal_500.webm`,
-                            '04': `${prefix}/jb2a_patreon/Library/TMFX/Border/Circle/BorderSimple_04_Circle_Normal_500.webm`
-                        }
-                    }
-                },
-                inflow: {
-                    circle: {
-                        '01': `${prefix}/jb2a_patreon/Library/TMFX/InFlow/Circle/InFlow_01_Circle_500x500.webm`,
-                        '02': `${prefix}/jb2a_patreon/Library/TMFX/InFlow/Circle/InFlow_02_Circle_500x500.webm`,
-                        '03': `${prefix}/jb2a_patreon/Library/TMFX/InFlow/Circle/InFlow_03_Circle_500x500.webm`,
-                        '04': `${prefix}/jb2a_patreon/Library/TMFX/InFlow/Circle/InFlow_04_Circle_500x500.webm`
-                    }
-                },
-                inpulse: {
-                    circle: {
-                        '01': {
-                            fast: `${prefix}/jb2a_patreon/Library/TMFX/InPulse/Circle/InPulse_01_Circle_Fast_500.webm`,
-                            normal: `${prefix}/jb2a_patreon/Library/TMFX/InPulse/Circle/InPulse_01_Circle_Normal_500.webm`
-                        },
-                        '02': {
-                            fast: `${prefix}/jb2a_patreon/Library/TMFX/InPulse/Circle/InPulse_02_Circle_Fast_500.webm`,
-                            normal: `${prefix}/jb2a_patreon/Library/TMFX/InPulse/Circle/InPulse_02_Circle_Normal_500.webm`
-                        },
-                        '03': {
-                            fast: `${prefix}/jb2a_patreon/Library/TMFX/InPulse/Circle/InPulse_03_Circle_Fast_500.webm`,
-                            normal: `${prefix}/jb2a_patreon/Library/TMFX/InPulse/Circle/InPulse_03_Circle_Normal_500.webm`
-                        },
-                        '04': {
-                            fast: `${prefix}/jb2a_patreon/Library/TMFX/InPulse/Circle/InPulse_04_Circle_Fast_500.webm`,
-                            normal: `${prefix}/jb2a_patreon/Library/TMFX/InPulse/Circle/InPulse_04_Circle_Normal_500.webm`
-                        }
-                    }
-                },
-                outflow: {
-                    circle: {
-                        '01': `${prefix}/jb2a_patreon/Library/TMFX/OutFlow/Circle/OutFlow_01_Circle_500x500.webm`,
-                        '02': `${prefix}/jb2a_patreon/Library/TMFX/OutFlow/Circle/OutFlow_02_Circle_500x500.webm`,
-                        '03': `${prefix}/jb2a_patreon/Library/TMFX/OutFlow/Circle/OutFlow_03_Circle_500x500.webm`,
-                        '04': `${prefix}/jb2a_patreon/Library/TMFX/OutFlow/Circle/OutFlow_04_Circle_500x500.webm`,
-                    },
-                    cone: {
-                        '01': `${prefix}/jb2a_patreon/Library/TMFX/OutFlow/Cone/OutFlow_01_Cone_500x500.webm`,
-                        '02': `${prefix}/jb2a_patreon/Library/TMFX/OutFlow/Cone/OutFlow_02_Cone_500x500.webm`,
-                        '03': `${prefix}/jb2a_patreon/Library/TMFX/OutFlow/Cone/OutFlow_03_Cone_500x500.webm`,
-                        '04': `${prefix}/jb2a_patreon/Library/TMFX/OutFlow/Cone/OutFlow_04_Cone_500x500.webm`,
-                    }
-                },
-                outpulse: {
-                    circle: {
-                        '01': {
-                            fast: `${prefix}/jb2a_patreon/Library/TMFX/OutPulse/Circle/OutPulse_01_Circle_Fast_500.webm`,
-                            normal: `${prefix}/jb2a_patreon/Library/TMFX/OutPulse/Circle/OutPulse_01_Circle_Normal_500.webm`,
-                            slow: `${prefix}/jb2a_patreon/Library/TMFX/OutPulse/Circle/OutPulse_01_Circle_Slow_500.webm`
-                        },
-                        '02': {
-                            fast: `${prefix}/jb2a_patreon/Library/TMFX/OutPulse/Circle/OutPulse_02_Circle_Fast_500.webm`,
-                            normal: `${prefix}/jb2a_patreon/Library/TMFX/OutPulse/Circle/OutPulse_02_Circle_Normal_500.webm`,
-                            slow: `${prefix}/jb2a_patreon/Library/TMFX/OutPulse/Circle/OutPulse_02_Circle_Slow_500.webm`
-                        },
-                        '03': {
-                            fast: `${prefix}/jb2a_patreon/Library/TMFX/OutPulse/Circle/OutPulse_03_Circle_Fast_500.webm`,
-                            normal: `${prefix}/jb2a_patreon/Library/TMFX/OutPulse/Circle/OutPulse_03_Circle_Normal_500.webm`,
-                            slow: `${prefix}/jb2a_patreon/Library/TMFX/OutPulse/Circle/OutPulse_03_Circle_Slow_500.webm`
-                        },
-                        '04': {
-                            fast: `${prefix}/jb2a_patreon/Library/TMFX/OutPulse/Circle/OutPulse_04_Circle_Fast_500.webm`,
-                            normal: `${prefix}/jb2a_patreon/Library/TMFX/OutPulse/Circle/OutPulse_04_Circle_Normal_500.webm`,
-                            slow: `${prefix}/jb2a_patreon/Library/TMFX/OutPulse/Circle/OutPulse_04_Circle_Slow_500.webm`
-                        }
-                    },
-                    cone: {
-                        '01': {
-                            fast: `${prefix}/jb2a_patreon/Library/TMFX/OutPulse/Cone/OutPulse_01_Cone_Fast_500.webm`,
-                            normal: `${prefix}/jb2a_patreon/Library/TMFX/OutPulse/Cone/OutPulse_01_Cone_Normal_500.webm`
-                        },
-                        '02': {
-                            fast: `${prefix}/jb2a_patreon/Library/TMFX/OutPulse/Cone/OutPulse_02_Cone_Fast_500.webm`,
-                            normal: `${prefix}/jb2a_patreon/Library/TMFX/OutPulse/Cone/OutPulse_02_Cone_Normal_500.webm`
-                        },
-                        '03': {
-                            fast: `${prefix}/jb2a_patreon/Library/TMFX/OutPulse/Cone/OutPulse_03_Cone_Fast_500.webm`,
-                            normal: `${prefix}/jb2a_patreon/Library/TMFX/OutPulse/Cone/OutPulse_03_Cone_Normal_500.webm`
-                        },
-                        '04': {
-                            fast: `${prefix}/jb2a_patreon/Library/TMFX/OutPulse/Cone/OutPulse_04_Cone_Fast_500.webm`,
-                            normal: `${prefix}/jb2a_patreon/Library/TMFX/OutPulse/Cone/OutPulse_04_Cone_Normal_500.webm`
-                        }
-                    },
-                    line: {
-                        '01': {
-                            fast: `${prefix}/jb2a_patreon/Library/TMFX/OutPulse/Line/OutPulse_01_Line_Fast_500.webm`,
-                            normal: `${prefix}/jb2a_patreon/Library/TMFX/OutPulse/Line/OutPulse_01_Line_Normal_500.webm`
-                        },
-                        '02': {
-                            fast: `${prefix}/jb2a_patreon/Library/TMFX/OutPulse/Line/OutPulse_02_Line_Fast_500.webm`,
-                            normal: `${prefix}/jb2a_patreon/Library/TMFX/OutPulse/Line/OutPulse_02_Line_Normal_500.webm`
-                        },
-                        '03': {
-                            fast: `${prefix}/jb2a_patreon/Library/TMFX/OutPulse/Line/OutPulse_03_Line_Fast_500.webm`,
-                            normal: `${prefix}/jb2a_patreon/Library/TMFX/OutPulse/Line/OutPulse_03_Line_Normal_500.webm`
-                        },
-                        '04': {
-                            fast: `${prefix}/jb2a_patreon/Library/TMFX/OutPulse/Line/OutPulse_04_Line_Fast_500.webm`,
-                            normal: `${prefix}/jb2a_patreon/Library/TMFX/OutPulse/Line/OutPulse_04_Line_Normal_500.webm`
-                        }
-                    }
-                },
-                projectile: {
-                    circle: {
-                        fast: `${prefix}/jb2a_patreon/Library/TMFX/Projectile/Circle/ProjectileOutPulse_01_Circle_Fast_500.webm`,
-                        normal: `${prefix}/jb2a_patreon/Library/TMFX/Projectile/Circle/ProjectileOutPulse_01_Circle_Normal_500.webm`
-                    }
-                },
-                radar: {
-                    circle: {
-                        loop: {
-                            '01': {
-                                fast: `${prefix}/jb2a_patreon/Library/TMFX/Radar/Circle/RadarLoop_01_Circle_Fast_500x500.webm`,
-                                normal: `${prefix}/jb2a_patreon/Library/TMFX/Radar/Circle/RadarLoop_01_Circle_Normal_500x500.webm`,
-                                slow: `${prefix}/jb2a_patreon/Library/TMFX/Radar/Circle/RadarLoop_01_Circle_Slow_500x500.webm`
-                            },
-                            '02': {
-                                fast: `${prefix}/jb2a_patreon/Library/TMFX/Radar/Circle/RadarLoop_02_Circle_Fast_500x500.webm`,
-                                normal: `${prefix}/jb2a_patreon/Library/TMFX/Radar/Circle/RadarLoop_02_Circle_Normal_500x500.webm`,
-                                slow: `${prefix}/jb2a_patreon/Library/TMFX/Radar/Circle/RadarLoop_02_Circle_Slow_500x500.webm`
-                            }
-                        },
-                        pulse: {
-                            '01': {
-                                fast: `${prefix}/jb2a_patreon/Library/TMFX/Radar/Circle/RadarPulse_01_Circle_Fast_500x500.webm`,
-                                normal: `${prefix}/jb2a_patreon/Library/TMFX/Radar/Circle/RadarPulse_01_Circle_Normal_500x500.webm`,
-                                slow: `${prefix}/jb2a_patreon/Library/TMFX/Radar/Circle/RadarPulse_01_Circle_Slow_500x500.webm`
-                            },
-                            '02': {
-                                fast: `${prefix}/jb2a_patreon/Library/TMFX/Radar/Circle/RadarPulse_02_Circle_Fast_500x500.webm`,
-                                normal: `${prefix}/jb2a_patreon/Library/TMFX/Radar/Circle/RadarPulse_02_Circle_Normal_500x500.webm`,
-                                slow: `${prefix}/jb2a_patreon/Library/TMFX/Radar/Circle/RadarPulse_02_Circle_Slow_500x500.webm`
-                            }
-                        }
-                    }
-                },
-                runes: {
-                    circle: {
-                        inpulse: {
-                            abjuration: `${prefix}/jb2a_patreon/Library/TMFX/Runes/Circle/AbjurationInPulse_01_Circle_Normal_500.webm`,
-                            conjuration: `${prefix}/jb2a_patreon/Library/TMFX/Runes/Circle/ConjurationInPulse_01_Circle_Normal_500.webm`,
-                            divination: `${prefix}/jb2a_patreon/Library/TMFX/Runes/Circle/DivinationInPulse_01_Circle_Normal_500.webm`,
-                            enchantment: `${prefix}/jb2a_patreon/Library/TMFX/Runes/Circle/EnchantmentInPulse_01_Circle_Normal_500.webm`,
-                            evocation: `${prefix}/jb2a_patreon/Library/TMFX/Runes/Circle/EvocationInPulse_01_Circle_Normal_500.webm`,
-                            illusion: `${prefix}/jb2a_patreon/Library/TMFX/Runes/Circle/IllusionInPulse_01_Circle_Normal_500.webm`,
-                            necromancy: `${prefix}/jb2a_patreon/Library/TMFX/Runes/Circle/NecromancyInPulse_01_Circle_Normal_500.webm`,
-                            transmutation: `${prefix}/jb2a_patreon/Library/TMFX/Runes/Circle/TransmutationInPulse_01_Circle_Normal_500.webm`
-                        },
-                        outpulse: {
-                            abjuration: `${prefix}/jb2a_patreon/Library/TMFX/Runes/Circle/AbjurationOutPulse_01_Circle_Normal_500.webm`,
-                            conjuration: `${prefix}/jb2a_patreon/Library/TMFX/Runes/Circle/ConjurationOutPulse_01_Circle_Normal_500.webm`,
-                            divination: `${prefix}/jb2a_patreon/Library/TMFX/Runes/Circle/DivinationOutPulse_01_Circle_Normal_500.webm`,
-                            enchantment: `${prefix}/jb2a_patreon/Library/TMFX/Runes/Circle/EnchantmentOutPulse_01_Circle_Normal_500.webm`,
-                            evocation: `${prefix}/jb2a_patreon/Library/TMFX/Runes/Circle/EvocationOutPulse_01_Circle_Normal_500.webm`,
-                            illusion: `${prefix}/jb2a_patreon/Library/TMFX/Runes/Circle/IllusionOutPulse_01_Circle_Normal_500.webm`,
-                            necromancy: `${prefix}/jb2a_patreon/Library/TMFX/Runes/Circle/NecromancyOutPulse_01_Circle_Normal_500.webm`,
-                            transmutation: `${prefix}/jb2a_patreon/Library/TMFX/Runes/Circle/TransmutationOutPulse_01_Circle_Normal_500.webm`
-                        },
-                        simple: {
-                            abjuration: `${prefix}/jb2a_patreon/Library/TMFX/Runes/Circle/AbjurationSimple_01_Circle_Normal_500.webm`,
-                            conjuration: `${prefix}/jb2a_patreon/Library/TMFX/Runes/Circle/ConjurationSimple_01_Circle_Normal_500.webm`,
-                            divination: `${prefix}/jb2a_patreon/Library/TMFX/Runes/Circle/DivinationSimple_01_Circle_Normal_500.webm`,
-                            enchantment: `${prefix}/jb2a_patreon/Library/TMFX/Runes/Circle/EnchantmentSimple_01_Circle_Normal_500.webm`,
-                            evocation: `${prefix}/jb2a_patreon/Library/TMFX/Runes/Circle/EvocationSimple_01_Circle_Normal_500.webm`,
-                            illusion: `${prefix}/jb2a_patreon/Library/TMFX/Runes/Circle/IllusionSimple_01_Circle_Normal_500.webm`,
-                            necromancy: `${prefix}/jb2a_patreon/Library/TMFX/Runes/Circle/NecromancySimple_01_Circle_Normal_500.webm`,
-                            transmutation: `${prefix}/jb2a_patreon/Library/TMFX/Runes/Circle/TransmutationSimple_01_Circle_Normal_500.webm`
-                        }
-                    }
-                }
+                dark_orangepurple: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_01_Dark_OrangePurple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_02_Dark_OrangePurple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_03_Dark_OrangePurple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_04_Dark_OrangePurple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_05_Dark_OrangePurple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_06_Dark_OrangePurple_800x600.webm`
+                ],
+                blue: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_01_Regular_Blue_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_02_Regular_Blue_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_03_Regular_Blue_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_04_Regular_Blue_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_05_Regular_Blue_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_06_Regular_Blue_800x600.webm`
+                ],
+                orange: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_01_Regular_Orange_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_02_Regular_Orange_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_03_Regular_Orange_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_04_Regular_Orange_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_05_Regular_Orange_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_06_Regular_Orange_800x600.webm`
+                ],
+                purple: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_01_Regular_Purple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_02_Regular_Purple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_03_Regular_Purple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_04_Regular_Purple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_05_Regular_Purple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_06_Regular_Purple_800x600.webm`
+                ],
+                white: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_01_Regular_White_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_02_Regular_White_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_03_Regular_White_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_04_Regular_White_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_05_Regular_White_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_06_Regular_White_800x600.webm`
+                ]
             }
-        },
-        patreonDatabase.falchion = {
-            melee: {
-                _template: 'melee',
-                '01': {
-                    dark_orangepurple: [
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_01_Dark_OrangePurple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_02_Dark_OrangePurple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_03_Dark_OrangePurple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_04_Dark_OrangePurple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_05_Dark_OrangePurple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_06_Dark_OrangePurple_800x600.webm`
-                    ],
-                    blue: [
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_01_Regular_Blue_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_02_Regular_Blue_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_03_Regular_Blue_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_04_Regular_Blue_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_05_Regular_Blue_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_06_Regular_Blue_800x600.webm`
-                    ],
-                    orange: [
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_01_Regular_Orange_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_02_Regular_Orange_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_03_Regular_Orange_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_04_Regular_Orange_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_05_Regular_Orange_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_06_Regular_Orange_800x600.webm`
-                    ],
-                    purple: [
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_01_Regular_Purple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_02_Regular_Purple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_03_Regular_Purple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_04_Regular_Purple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_05_Regular_Purple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_06_Regular_Purple_800x600.webm`
-                    ],
-                    white: [
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_01_Regular_White_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_02_Regular_White_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_03_Regular_White_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_04_Regular_White_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_05_Regular_White_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_06_Regular_White_800x600.webm`
-                    ]
-                }
-            }
-        },
-        patreonDatabase.falling_rocks = {
-            endframe: {
-                side: {
-                    '1x1': {
-                        black: [
-                            `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_01_Regular_Black_05x05ft_Endframe.webp`,
-                            `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_02_Regular_Black_05x05ft_Endframe.webp`
-                        ],
-                        grey: [
-                            `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_01_Regular_Grey_05x05ft_Endframe.webp`,
-                            `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_02_Regular_Grey_05x05ft_Endframe.webp`
-                        ],
-                        orange: [
-                            `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_01_Regular_Orange_05x05ft_Endframe.webp`,
-                            `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_02_Regular_Orange_05x05ft_Endframe.webp`
-                        ],
-                        sandstone: [
-                            `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_01_Regular_Sandstone_05x05ft_Endframe.webp`,
-                            `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_02_Regular_Sandstone_05x05ft_Endframe.webp`
-                        ],
-                        white: [
-                            `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_01_Regular_White_05x05ft_Endframe.webp`,
-                            `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_02_Regular_White_05x05ft_Endframe.webp`
-                        ]
-                    },
-                    '2x1': {
-                        black: [
-                            `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_01_Regular_Black_10x05ft_Endframe.webp`,
-                            `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_02_Regular_Black_10x05ft_Endframe.webp`
-                        ],
-                        grey: [
-                            `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_01_Regular_Grey_10x05ft_Endframe.webp`,
-                            `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_02_Regular_Grey_10x05ft_Endframe.webp`
-                        ],
-                        orange: [
-                            `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_01_Regular_Orange_10x05ft_Endframe.webp`,
-                            `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_02_Regular_Orange_10x05ft_Endframe.webp`
-                        ],
-                        sandstone: [
-                            `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_01_Regular_Sandstone_10x05ft_Endframe.webp`,
-                            `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_02_Regular_Sandstone_10x05ft_Endframe.webp`
-                        ],
-                        white: [
-                            `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_01_Regular_White_10x05ft_Endframe.webp`,
-                            `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_02_Regular_White_10x05ft_Endframe.webp`
-                        ]
-                    }
-                },
-                top: {
-                    '1x1': {
-                        black: [
-                            `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_01_Regular_Black_05x05ft_Endframe.webp`,
-                            `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_02_Regular_Black_05x05ft_Endframe.webp`
-                        ],
-                        grey: [
-                            `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_01_Regular_Grey_05x05ft_Endframe.webp`,
-                            `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_02_Regular_Grey_05x05ft_Endframe.webp`
-                        ],
-                        orange: [
-                            `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_01_Regular_Orange_05x05ft_Endframe.webp`,
-                            `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_02_Regular_Orange_05x05ft_Endframe.webp`
-                        ],
-                        sandstone: [
-                            `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_01_Regular_Sandstone_05x05ft_Endframe.webp`,
-                            `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_02_Regular_Sandstone_05x05ft_Endframe.webp`
-                        ],
-                        white: [
-                            `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_01_Regular_White_05x05ft_Endframe.webp`,
-                            `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_02_Regular_White_05x05ft_Endframe.webp`
-                        ]
-                    },
-                    '2x1': {
-                        black: [
-                            `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_01_Regular_Black_10x05ft_Endframe.webp`,
-                            `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_02_Regular_Black_10x05ft_Endframe.webp`
-                        ],
-                        grey: [
-                            `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_01_Regular_Grey_10x05ft_Endframe.webp`,
-                            `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_02_Regular_Grey_10x05ft_Endframe.webp`
-                        ],
-                        orange: [
-                            `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_01_Regular_Orange_10x05ft_Endframe.webp`,
-                            `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_02_Regular_Orange_10x05ft_Endframe.webp`
-                        ],
-                        sandstone: [
-                            `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_01_Regular_Sandstone_10x05ft_Endframe.webp`,
-                            `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_02_Regular_Sandstone_10x05ft_Endframe.webp`
-                        ],
-                        white: [
-                            `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_01_Regular_White_10x05ft_Endframe.webp`,
-                            `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_02_Regular_White_10x05ft_Endframe.webp`
-                        ]
-                    }
-                }
-            },
+        }
+    },
+    patreonDatabase.falling_rocks = {
+        endframe: {
             side: {
                 '1x1': {
                     black: [
-                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_01_Regular_Black_05x05ft_600x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_02_Regular_Black_05x05ft_600x600.webm`
+                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_01_Regular_Black_05x05ft_Endframe.webp`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_02_Regular_Black_05x05ft_Endframe.webp`
                     ],
                     grey: [
-                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_01_Regular_Grey_05x05ft_600x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_02_Regular_Grey_05x05ft_600x600.webm`
+                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_01_Regular_Grey_05x05ft_Endframe.webp`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_02_Regular_Grey_05x05ft_Endframe.webp`
                     ],
                     orange: [
-                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_01_Regular_Orange_05x05ft_600x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_02_Regular_Orange_05x05ft_600x600.webm`
+                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_01_Regular_Orange_05x05ft_Endframe.webp`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_02_Regular_Orange_05x05ft_Endframe.webp`
                     ],
                     sandstone: [
-                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_01_Regular_Sandstone_05x05ft_600x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_02_Regular_Sandstone_05x05ft_600x600.webm`
+                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_01_Regular_Sandstone_05x05ft_Endframe.webp`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_02_Regular_Sandstone_05x05ft_Endframe.webp`
                     ],
                     white: [
-                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_01_Regular_White_05x05ft_600x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_02_Regular_White_05x05ft_600x600.webm`
+                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_01_Regular_White_05x05ft_Endframe.webp`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_02_Regular_White_05x05ft_Endframe.webp`
                     ]
                 },
                 '2x1': {
                     black: [
-                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_01_Regular_Black_10x05ft_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_02_Regular_Black_10x05ft_800x600.webm`
+                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_01_Regular_Black_10x05ft_Endframe.webp`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_02_Regular_Black_10x05ft_Endframe.webp`
                     ],
                     grey: [
-                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_01_Regular_Grey_10x05ft_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_02_Regular_Grey_10x05ft_800x600.webm`
+                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_01_Regular_Grey_10x05ft_Endframe.webp`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_02_Regular_Grey_10x05ft_Endframe.webp`
                     ],
                     orange: [
-                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_01_Regular_Orange_10x05ft_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_02_Regular_Orange_10x05ft_800x600.webm`
+                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_01_Regular_Orange_10x05ft_Endframe.webp`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_02_Regular_Orange_10x05ft_Endframe.webp`
                     ],
                     sandstone: [
-                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_01_Regular_Sandstone_10x05ft_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_02_Regular_Sandstone_10x05ft_800x600.webm`
+                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_01_Regular_Sandstone_10x05ft_Endframe.webp`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_02_Regular_Sandstone_10x05ft_Endframe.webp`
                     ],
                     white: [
-                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_01_Regular_White_10x05ft_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_02_Regular_White_10x05ft_800x600.webm`
+                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_01_Regular_White_10x05ft_Endframe.webp`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_02_Regular_White_10x05ft_Endframe.webp`
                     ]
                 }
             },
             top: {
                 '1x1': {
                     black: [
-                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_01_Regular_Black_05x05ft_600x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_02_Regular_Black_05x05ft_600x600.webm`
+                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_01_Regular_Black_05x05ft_Endframe.webp`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_02_Regular_Black_05x05ft_Endframe.webp`
                     ],
                     grey: [
-                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_01_Regular_Grey_05x05ft_600x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_02_Regular_Grey_05x05ft_600x600.webm`
+                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_01_Regular_Grey_05x05ft_Endframe.webp`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_02_Regular_Grey_05x05ft_Endframe.webp`
                     ],
                     orange: [
-                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_01_Regular_Orange_05x05ft_600x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_02_Regular_Orange_05x05ft_600x600.webm`
+                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_01_Regular_Orange_05x05ft_Endframe.webp`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_02_Regular_Orange_05x05ft_Endframe.webp`
                     ],
                     sandstone: [
-                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_01_Regular_Sandstone_05x05ft_600x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_02_Regular_Sandstone_05x05ft_600x600.webm`
+                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_01_Regular_Sandstone_05x05ft_Endframe.webp`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_02_Regular_Sandstone_05x05ft_Endframe.webp`
                     ],
                     white: [
-                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_01_Regular_White_05x05ft_600x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_02_Regular_White_05x05ft_600x600.webm`
+                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_01_Regular_White_05x05ft_Endframe.webp`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_02_Regular_White_05x05ft_Endframe.webp`
                     ]
                 },
                 '2x1': {
                     black: [
-                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_01_Regular_Black_10x05ft_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_02_Regular_Black_10x05ft_800x600.webm`
+                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_01_Regular_Black_10x05ft_Endframe.webp`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_02_Regular_Black_10x05ft_Endframe.webp`
                     ],
                     grey: [
-                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_01_Regular_Grey_10x05ft_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_02_Regular_Grey_10x05ft_800x600.webm`
+                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_01_Regular_Grey_10x05ft_Endframe.webp`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_02_Regular_Grey_10x05ft_Endframe.webp`
                     ],
                     orange: [
-                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_01_Regular_Orange_10x05ft_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_02_Regular_Orange_10x05ft_800x600.webm`
+                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_01_Regular_Orange_10x05ft_Endframe.webp`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_02_Regular_Orange_10x05ft_Endframe.webp`
                     ],
                     sandstone: [
-                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_01_Regular_Sandstone_10x05ft_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_02_Regular_Sandstone_10x05ft_800x600.webm`
+                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_01_Regular_Sandstone_10x05ft_Endframe.webp`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_02_Regular_Sandstone_10x05ft_Endframe.webp`
                     ],
                     white: [
-                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_01_Regular_White_10x05ft_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_02_Regular_White_10x05ft_800x600.webm`
+                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_01_Regular_White_10x05ft_Endframe.webp`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_02_Regular_White_10x05ft_Endframe.webp`
                     ]
                 }
             }
         },
-        patreonDatabase.fireball = {
-            _template: 'cone100',
-            loop_debris: {
-                dark_purple: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballLoop_01_Dark_Purple_800x800.webm`,
-                blue: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballLoop_01_Blue_800x800.webm`,
-                orange: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballLoop_01_Orange_800x800.webm`,
-                purple: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballLoop_01_Purple_800x800.webm`
+        side: {
+            _metadata: {
+                name: "Falling Rocks",
             },
-            loop_no_debris: {
-                dark_purple: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballLoopNoDebris_01_Dark_Purple_800x800.webm`,
-                blue: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballLoopNoDebris_01_Blue_800x800.webm`,
-                orange: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballLoopNoDebris_01_Orange_800x800.webm`,
-                purple: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballLoopNoDebris_01_Purple_800x800.webm`
+            '1x1': {
+                black: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_01_Regular_Black_05x05ft_600x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_02_Regular_Black_05x05ft_600x600.webm`
+                ],
+                grey: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_01_Regular_Grey_05x05ft_600x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_02_Regular_Grey_05x05ft_600x600.webm`
+                ],
+                orange: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_01_Regular_Orange_05x05ft_600x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_02_Regular_Orange_05x05ft_600x600.webm`
+                ],
+                sandstone: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_01_Regular_Sandstone_05x05ft_600x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_02_Regular_Sandstone_05x05ft_600x600.webm`
+                ],
+                white: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_01_Regular_White_05x05ft_600x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_02_Regular_White_05x05ft_600x600.webm`
+                ]
             },
-            explosion: {
-                dark_purple: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballExplosion_01_Dark_Purple_800x800.webm`,
-                blue: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballExplosion_01_Blue_800x800.webm`,
-                orange: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballExplosion_01_Orange_800x800.webm`,
-                purple: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballExplosion_01_Purple_800x800.webm`
-            },
-            beam: {
-                _template: 'ranged',
-                dark_purple: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballBeam_01_Dark_Purple_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballBeam_01_Dark_Purple_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballBeam_01_Dark_Purple_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballBeam_01_Dark_Purple_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballBeam_01_Dark_Purple_90ft_4000x400.webm`
-                },
-                blue: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballBeam_01_Blue_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballBeam_01_Blue_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballBeam_01_Blue_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballBeam_01_Blue_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballBeam_01_Blue_90ft_4000x400.webm`
-                },
-                orange: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballBeam_01_Orange_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballBeam_01_Orange_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballBeam_01_Orange_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballBeam_01_Orange_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballBeam_01_Orange_90ft_4000x400.webm`
-                },
-                purple: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballBeam_01_Purple_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballBeam_01_Purple_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballBeam_01_Purple_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballBeam_01_Purple_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballBeam_01_Purple_90ft_4000x400.webm`
-                }
+            '2x1': {
+                black: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_01_Regular_Black_10x05ft_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_02_Regular_Black_10x05ft_800x600.webm`
+                ],
+                grey: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_01_Regular_Grey_10x05ft_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_02_Regular_Grey_10x05ft_800x600.webm`
+                ],
+                orange: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_01_Regular_Orange_10x05ft_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_02_Regular_Orange_10x05ft_800x600.webm`
+                ],
+                sandstone: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_01_Regular_Sandstone_10x05ft_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_02_Regular_Sandstone_10x05ft_800x600.webm`
+                ],
+                white: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_01_Regular_White_10x05ft_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Side_02_Regular_White_10x05ft_800x600.webm`
+                ]
             }
-
         },
-        patreonDatabase.fire_bolt = {
+        top: {
+            _metadata: {
+                name: "Falling Rocks",
+            },
+            '1x1': {
+                black: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_01_Regular_Black_05x05ft_600x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_02_Regular_Black_05x05ft_600x600.webm`
+                ],
+                grey: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_01_Regular_Grey_05x05ft_600x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_02_Regular_Grey_05x05ft_600x600.webm`
+                ],
+                orange: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_01_Regular_Orange_05x05ft_600x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_02_Regular_Orange_05x05ft_600x600.webm`
+                ],
+                sandstone: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_01_Regular_Sandstone_05x05ft_600x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_02_Regular_Sandstone_05x05ft_600x600.webm`
+                ],
+                white: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_01_Regular_White_05x05ft_600x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_02_Regular_White_05x05ft_600x600.webm`
+                ]
+            },
+            '2x1': {
+                black: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_01_Regular_Black_10x05ft_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_02_Regular_Black_10x05ft_800x600.webm`
+                ],
+                grey: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_01_Regular_Grey_10x05ft_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_02_Regular_Grey_10x05ft_800x600.webm`
+                ],
+                orange: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_01_Regular_Orange_10x05ft_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_02_Regular_Orange_10x05ft_800x600.webm`
+                ],
+                sandstone: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_01_Regular_Sandstone_10x05ft_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_02_Regular_Sandstone_10x05ft_800x600.webm`
+                ],
+                white: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_01_Regular_White_10x05ft_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Traps/Falling_Rocks/FallingRocks01Top_02_Regular_White_10x05ft_800x600.webm`
+                ]
+            }
+        }
+    },
+    patreonDatabase.fireball = {
+        _metadata: {
+            name: "Fireball",
+        },
+        _template: 'cone100',
+        loop_debris: {
+            dark_purple: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballLoop_01_Dark_Purple_800x800.webm`,
+            blue: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballLoop_01_Blue_800x800.webm`,
+            orange: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballLoop_01_Orange_800x800.webm`,
+            purple: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballLoop_01_Purple_800x800.webm`
+        },
+        loop_no_debris: {
+            dark_purple: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballLoopNoDebris_01_Dark_Purple_800x800.webm`,
+            blue: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballLoopNoDebris_01_Blue_800x800.webm`,
+            orange: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballLoopNoDebris_01_Orange_800x800.webm`,
+            purple: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballLoopNoDebris_01_Purple_800x800.webm`
+        },
+        explosion: {
+            dark_purple: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballExplosion_01_Dark_Purple_800x800.webm`,
+            blue: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballExplosion_01_Blue_800x800.webm`,
+            orange: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballExplosion_01_Orange_800x800.webm`,
+            purple: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballExplosion_01_Purple_800x800.webm`
+        },
+        beam: {
             _template: 'ranged',
+            dark_purple: {
+                '05ft': `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballBeam_01_Dark_Purple_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballBeam_01_Dark_Purple_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballBeam_01_Dark_Purple_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballBeam_01_Dark_Purple_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballBeam_01_Dark_Purple_90ft_4000x400.webm`
+            },
             blue: {
-                '05ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Regular_Blue_05ft_600x400.webm`,
-                '15ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Regular_Blue_15ft_1000x400.webm`,
-                '30ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Regular_Blue_30ft_1600x400.webm`,
-                '60ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Regular_Blue_60ft_2800x400.webm`,
-                '90ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Regular_Blue_90ft_4000x400.webm`
-            },
-            dark_green: {
-                '05ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Dark_Green02_05ft_600x400.webm`,
-                '15ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Dark_Green02_15ft_1000x400.webm`,
-                '30ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Dark_Green02_30ft_1600x400.webm`,
-                '60ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Dark_Green02_60ft_2800x400.webm`,
-                '90ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Dark_Green02_90ft_4000x400.webm`
-            },
-            dark_red: {
-                '05ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Dark_Red_05ft_600x400.webm`,
-                '15ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Dark_Red_15ft_1000x400.webm`,
-                '30ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Dark_Red_30ft_1600x400.webm`,
-                '60ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Dark_Red_60ft_2800x400.webm`,
-                '90ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Dark_Red_90ft_4000x400.webm`
-            },
-            green: {
-                '05ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Regular_Green_05ft_600x400.webm`,
-                '15ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Regular_Green_15ft_1000x400.webm`,
-                '30ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Regular_Green_30ft_1600x400.webm`,
-                '60ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Regular_Green_60ft_2800x400.webm`,
-                '90ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Regular_Green_90ft_4000x400.webm`
-            },
-            green02: {
-                '05ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Regular_Green02_05ft_600x400.webm`,
-                '15ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Regular_Green02_15ft_1000x400.webm`,
-                '30ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Regular_Green02_30ft_1600x400.webm`,
-                '60ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Regular_Green02_60ft_2800x400.webm`,
-                '90ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Regular_Green02_90ft_4000x400.webm`
+                '05ft': `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballBeam_01_Blue_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballBeam_01_Blue_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballBeam_01_Blue_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballBeam_01_Blue_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballBeam_01_Blue_90ft_4000x400.webm`
             },
             orange: {
-                '05ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Regular_Orange_05ft_600x400.webm`,
-                '15ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Regular_Orange_15ft_1000x400.webm`,
-                '30ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Regular_Orange_30ft_1600x400.webm`,
-                '60ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Regular_Orange_60ft_2800x400.webm`,
-                '90ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Regular_Orange_90ft_4000x400.webm`
+                '05ft': `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballBeam_01_Orange_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballBeam_01_Orange_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballBeam_01_Orange_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballBeam_01_Orange_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballBeam_01_Orange_90ft_4000x400.webm`
             },
             purple: {
-                '05ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Regular_Purple_05ft_600x400.webm`,
-                '15ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Regular_Purple_15ft_1000x400.webm`,
-                '30ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Regular_Purple_30ft_1600x400.webm`,
-                '60ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Regular_Purple_60ft_2800x400.webm`,
-                '90ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Regular_Purple_90ft_4000x400.webm`
+                '05ft': `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballBeam_01_Purple_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballBeam_01_Purple_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballBeam_01_Purple_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballBeam_01_Purple_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballBeam_01_Purple_90ft_4000x400.webm`
             }
+        }
+    
+    },
+    patreonDatabase.fire_bolt = {
+        _metadata: {
+            name: "Fire Bolt",
         },
-        patreonDatabase.fireflies = {
-            few: {
-                '01': {
-                    blue: `${prefix}/jb2a_patreon/Library/Generic/Fireflies/Fireflies_01_Blue_Few01_400x400.webm`,
-                    green: `${prefix}/jb2a_patreon/Library/Generic/Fireflies/Fireflies_01_Green_Few01_400x400.webm`,
-                    purple: `${prefix}/jb2a_patreon/Library/Generic/Fireflies/Fireflies_01_Purple_Few01_400x400.webm`,
-                    red: `${prefix}/jb2a_patreon/Library/Generic/Fireflies/Fireflies_01_Red_Few01_400x400.webm`,
-                    yellow: `${prefix}/jb2a_patreon/Library/Generic/Fireflies/Fireflies_01_Yellow_Few01_400x400.webm`
-                },
-                '02': {
-                    blue: `${prefix}/jb2a_patreon/Library/Generic/Fireflies/Fireflies_01_Blue_Few02_400x400.webm`,
-                    green: `${prefix}/jb2a_patreon/Library/Generic/Fireflies/Fireflies_01_Green_Few02_400x400.webm`,
-                    purple: `${prefix}/jb2a_patreon/Library/Generic/Fireflies/Fireflies_01_Purple_Few02_400x400.webm`,
-                    red: `${prefix}/jb2a_patreon/Library/Generic/Fireflies/Fireflies_01_Red_Few02_400x400.webm`,
-                    yellow: `${prefix}/jb2a_patreon/Library/Generic/Fireflies/Fireflies_01_Yellow_Few02_400x400.webm`
-                }
+        _template: 'ranged',
+        blue: {
+            '05ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Regular_Blue_05ft_600x400.webm`,
+            '15ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Regular_Blue_15ft_1000x400.webm`,
+            '30ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Regular_Blue_30ft_1600x400.webm`,
+            '60ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Regular_Blue_60ft_2800x400.webm`,
+            '90ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Regular_Blue_90ft_4000x400.webm`
+        },
+        dark_green: {
+            '05ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Dark_Green02_05ft_600x400.webm`,
+            '15ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Dark_Green02_15ft_1000x400.webm`,
+            '30ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Dark_Green02_30ft_1600x400.webm`,
+            '60ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Dark_Green02_60ft_2800x400.webm`,
+            '90ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Dark_Green02_90ft_4000x400.webm`
+        },
+        dark_red: {
+            '05ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Dark_Red_05ft_600x400.webm`,
+            '15ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Dark_Red_15ft_1000x400.webm`,
+            '30ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Dark_Red_30ft_1600x400.webm`,
+            '60ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Dark_Red_60ft_2800x400.webm`,
+            '90ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Dark_Red_90ft_4000x400.webm`
+        },
+        green: {
+            '05ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Regular_Green_05ft_600x400.webm`,
+            '15ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Regular_Green_15ft_1000x400.webm`,
+            '30ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Regular_Green_30ft_1600x400.webm`,
+            '60ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Regular_Green_60ft_2800x400.webm`,
+            '90ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Regular_Green_90ft_4000x400.webm`
+        },
+        green02: {
+            '05ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Regular_Green02_05ft_600x400.webm`,
+            '15ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Regular_Green02_15ft_1000x400.webm`,
+            '30ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Regular_Green02_30ft_1600x400.webm`,
+            '60ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Regular_Green02_60ft_2800x400.webm`,
+            '90ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Regular_Green02_90ft_4000x400.webm`
+        },
+        orange: {
+            '05ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Regular_Orange_05ft_600x400.webm`,
+            '15ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Regular_Orange_15ft_1000x400.webm`,
+            '30ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Regular_Orange_30ft_1600x400.webm`,
+            '60ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Regular_Orange_60ft_2800x400.webm`,
+            '90ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Regular_Orange_90ft_4000x400.webm`
+        },
+        purple: {
+            '05ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Regular_Purple_05ft_600x400.webm`,
+            '15ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Regular_Purple_15ft_1000x400.webm`,
+            '30ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Regular_Purple_30ft_1600x400.webm`,
+            '60ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Regular_Purple_60ft_2800x400.webm`,
+            '90ft': `${prefix}/jb2a_patreon/Library/Cantrip/Fire_Bolt/FireBolt_01_Regular_Purple_90ft_4000x400.webm`
+        }
+    },
+    patreonDatabase.fireflies = {
+        _metadata: {
+            name: "Fireflies",
+        },
+        few: {
+            '01': {
+                blue: `${prefix}/jb2a_patreon/Library/Generic/Fireflies/Fireflies_01_Blue_Few01_400x400.webm`,
+                green: `${prefix}/jb2a_patreon/Library/Generic/Fireflies/Fireflies_01_Green_Few01_400x400.webm`,
+                purple: `${prefix}/jb2a_patreon/Library/Generic/Fireflies/Fireflies_01_Purple_Few01_400x400.webm`,
+                red: `${prefix}/jb2a_patreon/Library/Generic/Fireflies/Fireflies_01_Red_Few01_400x400.webm`,
+                yellow: `${prefix}/jb2a_patreon/Library/Generic/Fireflies/Fireflies_01_Yellow_Few01_400x400.webm`
             },
-            many: {
-                '01': {
-                    blue: `${prefix}/jb2a_patreon/Library/Generic/Fireflies/Fireflies_01_Blue_Many01_400x400.webm`,
-                    green: `${prefix}/jb2a_patreon/Library/Generic/Fireflies/Fireflies_01_Green_Many01_400x400.webm`,
-                    purple: `${prefix}/jb2a_patreon/Library/Generic/Fireflies/Fireflies_01_Purple_Many01_400x400.webm`,
-                    red: `${prefix}/jb2a_patreon/Library/Generic/Fireflies/Fireflies_01_Red_Many01_400x400.webm`,
-                    yellow: `${prefix}/jb2a_patreon/Library/Generic/Fireflies/Fireflies_01_Yellow_Many01_400x400.webm`
-                },
-                '02': {
-                    blue: `${prefix}/jb2a_patreon/Library/Generic/Fireflies/Fireflies_01_Blue_Many02_400x400.webm`,
-                    green: `${prefix}/jb2a_patreon/Library/Generic/Fireflies/Fireflies_01_Green_Many02_400x400.webm`,
-                    purple: `${prefix}/jb2a_patreon/Library/Generic/Fireflies/Fireflies_01_Purple_Many02_400x400.webm`,
-                    red: `${prefix}/jb2a_patreon/Library/Generic/Fireflies/Fireflies_01_Red_Many02_400x400.webm`,
-                    yellow: `${prefix}/jb2a_patreon/Library/Generic/Fireflies/Fireflies_01_Yellow_Many02_400x400.webm`
-                }
+            '02': {
+                blue: `${prefix}/jb2a_patreon/Library/Generic/Fireflies/Fireflies_01_Blue_Few02_400x400.webm`,
+                green: `${prefix}/jb2a_patreon/Library/Generic/Fireflies/Fireflies_01_Green_Few02_400x400.webm`,
+                purple: `${prefix}/jb2a_patreon/Library/Generic/Fireflies/Fireflies_01_Purple_Few02_400x400.webm`,
+                red: `${prefix}/jb2a_patreon/Library/Generic/Fireflies/Fireflies_01_Red_Few02_400x400.webm`,
+                yellow: `${prefix}/jb2a_patreon/Library/Generic/Fireflies/Fireflies_01_Yellow_Few02_400x400.webm`
             }
         },
-        patreonDatabase.fire_jet = {
-            blue: {
-                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/FireJet_01_Blue_15ft_600x200.webm`,
-                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/FireJet_01_Blue_30ft_1200x200.webm`
+        many: {
+            '01': {
+                blue: `${prefix}/jb2a_patreon/Library/Generic/Fireflies/Fireflies_01_Blue_Many01_400x400.webm`,
+                green: `${prefix}/jb2a_patreon/Library/Generic/Fireflies/Fireflies_01_Green_Many01_400x400.webm`,
+                purple: `${prefix}/jb2a_patreon/Library/Generic/Fireflies/Fireflies_01_Purple_Many01_400x400.webm`,
+                red: `${prefix}/jb2a_patreon/Library/Generic/Fireflies/Fireflies_01_Red_Many01_400x400.webm`,
+                yellow: `${prefix}/jb2a_patreon/Library/Generic/Fireflies/Fireflies_01_Yellow_Many01_400x400.webm`
+            },
+            '02': {
+                blue: `${prefix}/jb2a_patreon/Library/Generic/Fireflies/Fireflies_01_Blue_Many02_400x400.webm`,
+                green: `${prefix}/jb2a_patreon/Library/Generic/Fireflies/Fireflies_01_Green_Many02_400x400.webm`,
+                purple: `${prefix}/jb2a_patreon/Library/Generic/Fireflies/Fireflies_01_Purple_Many02_400x400.webm`,
+                red: `${prefix}/jb2a_patreon/Library/Generic/Fireflies/Fireflies_01_Red_Many02_400x400.webm`,
+                yellow: `${prefix}/jb2a_patreon/Library/Generic/Fireflies/Fireflies_01_Yellow_Many02_400x400.webm`
+            }
+        }
+    },
+    patreonDatabase.fire_jet = {
+        _metadata: {
+            name: "Fire Jet",
+        },
+        blue: {
+            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/FireJet_01_Blue_15ft_600x200.webm`,
+            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/FireJet_01_Blue_30ft_1200x200.webm`
+        },
+        green: {
+            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/FireJet_01_Green_15ft_600x200.webm`,
+            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/FireJet_01_Green_30ft_1200x200.webm`
+        },
+        orange: {
+            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/FireJet_01_Orange_15ft_600x200.webm`,
+            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/FireJet_01_Orange_30ft_1200x200.webm`
+        },
+        purple: {
+            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/FireJet_01_Purple_15ft_600x200.webm`,
+            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/FireJet_01_Purple_30ft_1200x200.webm`
+        }
+    },
+    patreonDatabase.fire_ring = {
+        _metadata: {
+            name: "Fire Ring",
+        },
+        '500px': {
+            blue: `${prefix}/jb2a_patreon/Library/Generic/Fire/FireRing_01_Circle_Blue_500.webm`,
+            green: `${prefix}/jb2a_patreon/Library/Generic/Fire/FireRing_01_Circle_Green_500.webm`,
+            red: `${prefix}/jb2a_patreon/Library/Generic/Fire/FireRing_01_Circle_Red_500.webm`
+        },
+        '900px': {
+            blue: `${prefix}/jb2a_patreon/Library/Generic/Fire/FireRing_01_Circle_Blue_900.webm`,
+            green: `${prefix}/jb2a_patreon/Library/Generic/Fire/FireRing_01_Circle_Green_900.webm`,
+            red: `${prefix}/jb2a_patreon/Library/Generic/Fire/FireRing_01_Circle_Red_900.webm`
+        }
+    },
+    patreonDatabase.fire_trap = {
+        _metadata: {
+            name: "Fire Trap"
+        },
+        '01':{
+            green: `${prefix}/jb2a_patreon/Library/Generic/Traps/FireTrap01_01_Regular_Green_1000x1000.webm`,
+            orange: `${prefix}/jb2a_patreon/Library/Generic/Traps/FireTrap01_01_Regular_Orange_1000x1000.webm`
+        },
+        '02':{
+            single:{
+                green: `${prefix}/jb2a_patreon/Library/Generic/Traps/FireTrap02_01_Regular_Green_1400x1400.webm`,
+                orange: `${prefix}/jb2a_patreon/Library/Generic/Traps/FireTrap02_01_Regular_Orange_1400x1400.webm`
+            },
+            dual:{
+                green: `${prefix}/jb2a_patreon/Library/Generic/Traps/FireTrapDual02_01_Regular_Green_1400x1400.webm`,
+                orange: `${prefix}/jb2a_patreon/Library/Generic/Traps/FireTrapDual02_01_Regular_Orange_1400x1400.webm`
+            }
+        }
+    },
+    patreonDatabase.firework = {
+        _metadata: {
+            name: "Fireworks",
+        },
+        '01': {
+            bluepink: {
+                '03': `${prefix}/jb2a_patreon/Library/Generic/Fireworks/Firework03_01_Regular_BluePink_600x600.webm`,
             },
             green: {
-                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/FireJet_01_Green_15ft_600x200.webm`,
-                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/FireJet_01_Green_30ft_1200x200.webm`
+                '02': `${prefix}/jb2a_patreon/Library/Generic/Fireworks/Firework02_01_Regular_Green_600x600.webm`,
+            },
+            greenorange: {
+                '01': `${prefix}/jb2a_patreon/Library/Generic/Fireworks/Firework01_01_Regular_GreenOrange_600x600.webm`,
+            },
+            greenred: {
+                '01': `${prefix}/jb2a_patreon/Library/Generic/Fireworks/Firework01_01_Regular_GreenRed_600x600.webm`,
+                '03': `${prefix}/jb2a_patreon/Library/Generic/Fireworks/Firework03_01_Regular_GreenRed_600x600.webm`,
             },
             orange: {
-                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/FireJet_01_Orange_15ft_600x200.webm`,
-                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/FireJet_01_Orange_30ft_1200x200.webm`
+                '02': `${prefix}/jb2a_patreon/Library/Generic/Fireworks/Firework02_01_Regular_Orange_600x600.webm`,
             },
-            purple: {
-                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/FireJet_01_Purple_15ft_600x200.webm`,
-                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/FireJet_01_Purple_30ft_1200x200.webm`
-            }
-        },
-        patreonDatabase.fire_ring = {
-            '500px': {
-                blue: `${prefix}/jb2a_patreon/Library/Generic/Fire/FireRing_01_Circle_Blue_500.webm`,
-                green: `${prefix}/jb2a_patreon/Library/Generic/Fire/FireRing_01_Circle_Green_500.webm`,
-                red: `${prefix}/jb2a_patreon/Library/Generic/Fire/FireRing_01_Circle_Red_500.webm`
-            },
-            '900px': {
-                blue: `${prefix}/jb2a_patreon/Library/Generic/Fire/FireRing_01_Circle_Blue_900.webm`,
-                green: `${prefix}/jb2a_patreon/Library/Generic/Fire/FireRing_01_Circle_Green_900.webm`,
-                red: `${prefix}/jb2a_patreon/Library/Generic/Fire/FireRing_01_Circle_Red_900.webm`
-            }
-        },
-        patreonDatabase.fire_trap = {
-            '01':{
-                green: `${prefix}/jb2a_patreon/Library/Generic/Traps/FireTrap01_01_Regular_Green_1000x1000.webm`,
-                orange: `${prefix}/jb2a_patreon/Library/Generic/Traps/FireTrap01_01_Regular_Orange_1000x1000.webm`
-            },
-            '02':{
-                single:{
-                    green: `${prefix}/jb2a_patreon/Library/Generic/Traps/FireTrap02_01_Regular_Green_1400x1400.webm`,
-                    orange: `${prefix}/jb2a_patreon/Library/Generic/Traps/FireTrap02_01_Regular_Orange_1400x1400.webm`
-                },
-                dual:{
-                    green: `${prefix}/jb2a_patreon/Library/Generic/Traps/FireTrapDual02_01_Regular_Green_1400x1400.webm`,
-                    orange: `${prefix}/jb2a_patreon/Library/Generic/Traps/FireTrapDual02_01_Regular_Orange_1400x1400.webm`
-                }
-            }
-        },
-        patreonDatabase.firework = {
-            '01': {
-                bluepink: {
-                    '03': `${prefix}/jb2a_patreon/Library/Generic/Fireworks/Firework03_01_Regular_BluePink_600x600.webm`,
-                },
-                green: {
-                    '02': `${prefix}/jb2a_patreon/Library/Generic/Fireworks/Firework02_01_Regular_Green_600x600.webm`,
-                },
-                greenorange: {
-                    '01': `${prefix}/jb2a_patreon/Library/Generic/Fireworks/Firework01_01_Regular_GreenOrange_600x600.webm`,
-                },
-                greenred: {
-                    '01': `${prefix}/jb2a_patreon/Library/Generic/Fireworks/Firework01_01_Regular_GreenRed_600x600.webm`,
-                    '03': `${prefix}/jb2a_patreon/Library/Generic/Fireworks/Firework03_01_Regular_GreenRed_600x600.webm`,
-                },
-                orange: {
-                    '02': `${prefix}/jb2a_patreon/Library/Generic/Fireworks/Firework02_01_Regular_Orange_600x600.webm`,
-                },
-                orangeyellow: {
-                    '01': `${prefix}/jb2a_patreon/Library/Generic/Fireworks/Firework01_01_Regular_OrangeYellow_600x600.webm`,
-                    '03': `${prefix}/jb2a_patreon/Library/Generic/Fireworks/Firework03_01_Regular_OrangeYellow_600x600.webm`
-                },
-                yellow: {
-                    '02': `${prefix}/jb2a_patreon/Library/Generic/Fireworks/Firework02_01_Regular_Yellow_600x600.webm`
-                }
-            },
-            '02': {
-                bluepink: {
-                    '03': `${prefix}/jb2a_patreon/Library/Generic/Fireworks/Firework03_02_Regular_BluePink_600x600.webm`,
-                },
-                green: {
-                    '02': `${prefix}/jb2a_patreon/Library/Generic/Fireworks/Firework02_02_Regular_Green_600x600.webm`,
-                },
-                greenorange: {
-                    '01': `${prefix}/jb2a_patreon/Library/Generic/Fireworks/Firework01_02_Regular_GreenOrange_600x600.webm`,
-                },
-                greenred: {
-                    '01': `${prefix}/jb2a_patreon/Library/Generic/Fireworks/Firework01_02_Regular_GreenRed_600x600.webm`,
-                    '03': `${prefix}/jb2a_patreon/Library/Generic/Fireworks/Firework03_02_Regular_GreenRed_600x600.webm`,
-                },
-                orange: {
-                    '02': `${prefix}/jb2a_patreon/Library/Generic/Fireworks/Firework02_02_Regular_Orange_600x600.webm`,
-                },
-                orangeyellow: {
-                    '01': `${prefix}/jb2a_patreon/Library/Generic/Fireworks/Firework01_02_Regular_OrangeYellow_600x600.webm`,
-                    '03': `${prefix}/jb2a_patreon/Library/Generic/Fireworks/Firework03_02_Regular_OrangeYellow_600x600.webm`
-                },
-                yellow: {
-                    '02': `${prefix}/jb2a_patreon/Library/Generic/Fireworks/Firework02_02_Regular_Yellow_600x600.webm`
-                }
-            }
-        },
-        patreonDatabase.flames = {
-            //[--> WILL BE REMOVED 
-            '01': {
-                blue: `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames_01_Regular_Blue_200x200.webm`,
-                green: `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames_01_Regular_Green_200x200.webm`,
-                orange: `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames_01_Regular_Orange_200x200.webm`,
-                purple: `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames_01_Regular_Purple_200x200.webm`
-            },
-            '02': {
-                blue: `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames_02_Regular_Blue_400x400.webm`,
-                green: `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames_02_Regular_Green_400x400.webm`,
-                orange: `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames_02_Regular_Orange_400x400.webm`,
-                purple: `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames_02_Regular_Purple_400x400.webm`
-            },
-            //<--] WILL BE REMOVED 
-            blue: {
-                '01': `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames_01_Regular_Blue_200x200.webm`,
-                '02': `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames_02_Regular_Blue_400x400.webm`,
-                '03': {
-                    '1x1': [
-                        `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_01_Regular_Blue_05x05ft_300x300.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_02_Regular_Blue_05x05ft_300x300.webm`
-                    ],
-                    '2x1': [
-                        `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_01_Regular_Blue_10x05ft_400x300.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_02_Regular_Blue_10x05ft_400x300.webm`
-                    ],
-                    '2x2': [
-                        `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_01_Regular_Blue_10x10ft_400x400.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_02_Regular_Blue_10x10ft_400x400.webm`
-                    ]
-                }
-            },
-            green: {
-                '01': `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames_01_Regular_Green_200x200.webm`,
-                '02': `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames_02_Regular_Green_400x400.webm`,
-                '03': {
-                    '1x1': [
-                        `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_01_Regular_Green_05x05ft_300x300.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_02_Regular_Green_05x05ft_300x300.webm`
-                    ],
-                    '2x1': [
-                        `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_01_Regular_Green_10x05ft_400x300.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_02_Regular_Green_10x05ft_400x300.webm`
-                    ],
-                    '2x2': [
-                        `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_01_Regular_Green_10x10ft_400x400.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_02_Regular_Green_10x10ft_400x400.webm`
-                    ]
-                }
-            },
-            orange: {
-                '01': `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames_01_Regular_Orange_200x200.webm`,
-                '02': `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames_02_Regular_Orange_400x400.webm`,
-                '03': {
-                    '1x1': [
-                        `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_01_Regular_Orange_05x05ft_300x300.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_02_Regular_Orange_05x05ft_300x300.webm`
-                    ],
-                    '2x1': [
-                        `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_01_Regular_Orange_10x05ft_400x300.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_02_Regular_Orange_10x05ft_400x300.webm`
-                    ],
-                    '2x2': [
-                        `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_01_Regular_Orange_10x10ft_400x400.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_02_Regular_Orange_10x10ft_400x400.webm`
-                    ]
-                }
-            },
-            purple: {
-                '01': `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames_01_Regular_Purple_200x200.webm`,
-                '02': `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames_02_Regular_Purple_400x400.webm`,
-                '03': {
-                    '1x1': [
-                        `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_01_Regular_Purple_05x05ft_300x300.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_02_Regular_Purple_05x05ft_300x300.webm`
-                    ],
-                    '2x1': [
-                        `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_01_Regular_Purple_10x05ft_400x300.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_02_Regular_Purple_10x05ft_400x300.webm`
-                    ],
-                    '2x2': [
-                        `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_01_Regular_Purple_10x10ft_400x400.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_02_Regular_Purple_10x10ft_400x400.webm`
-                    ]
-                }
-            }
-        },
-        patreonDatabase.flaming_sphere = {
-            "200px": {
-                blue: {
-                    '01': `${prefix}/jb2a_patreon/Library/2nd_Level/Flaming_Sphere/FlamingSphere_01_Blue_200x200.webm`,
-                    '02': `${prefix}/jb2a_patreon/Library/2nd_Level/Flaming_Sphere/FlamingSphere_02_Blue_200x200.webm`
-                },
-                green: `${prefix}/jb2a_patreon/Library/2nd_Level/Flaming_Sphere/FlamingSphere_01_Green_200x200.webm`,
-                greenblue: `${prefix}/jb2a_patreon/Library/2nd_Level/Flaming_Sphere/Multicoloured/FlamingSphere_01_GreenToBlue_200x200.webm`,
-                orange: {
-                    '01': `${prefix}/jb2a_patreon/Library/2nd_Level/Flaming_Sphere/FlamingSphere_01_Orange_200x200.webm`,
-                    '02': `${prefix}/jb2a_patreon/Library/2nd_Level/Flaming_Sphere/FlamingSphere_02_Orange_200x200.webm`
-                },
-                pink: `${prefix}/jb2a_patreon/Library/2nd_Level/Flaming_Sphere/FlamingSphere_01_Pink_200x200.webm`,
-                purple: {
-                    '01': `${prefix}/jb2a_patreon/Library/2nd_Level/Flaming_Sphere/FlamingSphere_01_Purple_200x200.webm`,
-                    '02': `${prefix}/jb2a_patreon/Library/2nd_Level/Flaming_Sphere/FlamingSphere_02_Purple_200x200.webm`
-                },
-                rainbow: `${prefix}/jb2a_patreon/Library/2nd_Level/Flaming_Sphere/Multicoloured/FlamingSphere_01_Rainbow_200x200.webm`,
-                red: `${prefix}/jb2a_patreon/Library/2nd_Level/Flaming_Sphere/FlamingSphere_01_Red_200x200.webm`,
-            },
-            '400px': {
-                blue: {
-                    '02': `${prefix}/jb2a_patreon/Library/2nd_Level/Flaming_Sphere/FlamingSphere_02_Blue_400x400.webm`
-                },
-                orange: {
-                    '02': `${prefix}/jb2a_patreon/Library/2nd_Level/Flaming_Sphere/FlamingSphere_02_Orange_400x400.webm`
-                },
-                purple: {
-                    '02': `${prefix}/jb2a_patreon/Library/2nd_Level/Flaming_Sphere/FlamingSphere_02_Purple_400x400.webm`
-                }
-            }
-        },
-        patreonDatabase.flurry_of_blows = {
-            _template: 'melee',
-            magical: {
-                '01': {
-                    blue: `${prefix}/jb2a_patreon/Library/Generic/Unarmed_Attacks/Flurry_Of_Blows/FlurryOfBlows_01_Regular_Blue_Magical01_800x600.webm`,
-                    dark_purple: `${prefix}/jb2a_patreon/Library/Generic/Unarmed_Attacks/Flurry_Of_Blows/FlurryOfBlows_01_Dark_Purple_Magical01_800x600.webm`,
-                    dark_red: `${prefix}/jb2a_patreon/Library/Generic/Unarmed_Attacks/Flurry_Of_Blows/FlurryOfBlows_01_Dark_Red_Magical01_800x600.webm`,
-                    green: `${prefix}/jb2a_patreon/Library/Generic/Unarmed_Attacks/Flurry_Of_Blows/FlurryOfBlows_01_Regular_Green_Magical01_800x600.webm`,
-                    orange: `${prefix}/jb2a_patreon/Library/Generic/Unarmed_Attacks/Flurry_Of_Blows/FlurryOfBlows_01_Regular_Orange_Magical01_800x600.webm`,
-                    pinkpurple: `${prefix}/jb2a_patreon/Library/Generic/Unarmed_Attacks/Flurry_Of_Blows/FlurryOfBlows_01_Regular_PinkPurple_Magical01_800x600.webm`,
-                    yellow: `${prefix}/jb2a_patreon/Library/Generic/Unarmed_Attacks/Flurry_Of_Blows/FlurryOfBlows_01_Regular_Yellow_Magical01_800x600.webm`
-                },
-                '02': {
-                    blue: `${prefix}/jb2a_patreon/Library/Generic/Unarmed_Attacks/Flurry_Of_Blows/FlurryOfBlows_01_Regular_Blue_Magical02_800x600.webm`,
-                    dark_purple: `${prefix}/jb2a_patreon/Library/Generic/Unarmed_Attacks/Flurry_Of_Blows/FlurryOfBlows_01_Dark_Purple_Magical02_800x600.webm`,
-                    dark_red: `${prefix}/jb2a_patreon/Library/Generic/Unarmed_Attacks/Flurry_Of_Blows/FlurryOfBlows_01_Dark_Red_Magical02_800x600.webm`,
-                    green: `${prefix}/jb2a_patreon/Library/Generic/Unarmed_Attacks/Flurry_Of_Blows/FlurryOfBlows_01_Regular_Green_Magical02_800x600.webm`,
-                    orange: `${prefix}/jb2a_patreon/Library/Generic/Unarmed_Attacks/Flurry_Of_Blows/FlurryOfBlows_01_Regular_Orange_Magical02_800x600.webm`,
-                    pinkpurple: `${prefix}/jb2a_patreon/Library/Generic/Unarmed_Attacks/Flurry_Of_Blows/FlurryOfBlows_01_Regular_PinkPurple_Magical02_800x600.webm`,
-                    yellow: `${prefix}/jb2a_patreon/Library/Generic/Unarmed_Attacks/Flurry_Of_Blows/FlurryOfBlows_01_Regular_Yellow_Magical02_800x600.webm`
-                }
-            },
-            physical: {
-                blue: `${prefix}/jb2a_patreon/Library/Generic/Unarmed_Attacks/Flurry_Of_Blows/FlurryOfBlows_01_Regular_Blue_Physical01_800x600.webm`,
-                dark_purple: `${prefix}/jb2a_patreon/Library/Generic/Unarmed_Attacks/Flurry_Of_Blows/FlurryOfBlows_01_Dark_Purple_Physical01_800x600.webm`,
-                dark_red: `${prefix}/jb2a_patreon/Library/Generic/Unarmed_Attacks/Flurry_Of_Blows/FlurryOfBlows_01_Dark_Red_Physical01_800x600.webm`,
-                green: `${prefix}/jb2a_patreon/Library/Generic/Unarmed_Attacks/Flurry_Of_Blows/FlurryOfBlows_01_Regular_Green_Physical01_800x600.webm`,
-                orange: `${prefix}/jb2a_patreon/Library/Generic/Unarmed_Attacks/Flurry_Of_Blows/FlurryOfBlows_01_Regular_Orange_Physical01_800x600.webm`,
-                pinkpurple: `${prefix}/jb2a_patreon/Library/Generic/Unarmed_Attacks/Flurry_Of_Blows/FlurryOfBlows_01_Regular_PinkPurple_Physical01_800x600.webm`,
-                yellow: `${prefix}/jb2a_patreon/Library/Generic/Unarmed_Attacks/Flurry_Of_Blows/FlurryOfBlows_01_Regular_Yellow_Physical01_800x600.webm`
-            },
-            no_hit: {
-                blue: `${prefix}/jb2a_patreon/Library/Generic/Unarmed_Attacks/Flurry_Of_Blows/FlurryOfBlowsNoHit_01_Regular_Blue_800x600.webm`,
-                yellow: `${prefix}/jb2a_patreon/Library/Generic/Unarmed_Attacks/Flurry_Of_Blows/FlurryOfBlowsNoHit_01_Regular_Yellow_800x600.webm`
-            }
-        },
-        patreonDatabase.fog_cloud = {
-            //[--> WILL BE REMOVED 
-            '1': {
-                white: `${prefix}/jb2a_patreon/Library/1st_Level/Fog_Cloud/FogCloud_01_White_800x800.webm`,
-            },
-            '2': {
-                white: `${prefix}/jb2a_patreon/Library/1st_Level/Fog_Cloud/FogCloud_02_Regular_White_800x800.webm`,
-                green: `${prefix}/jb2a_patreon/Library/1st_Level/Fog_Cloud/FogCloud_02_Regular_Green_800x800.webm`
-            },
-            //<--] WILL BE REMOVED 
-            '01': {
-                white: `${prefix}/jb2a_patreon/Library/1st_Level/Fog_Cloud/FogCloud_01_White_800x800.webm`,
-            },
-            '02': {
-                white: `${prefix}/jb2a_patreon/Library/1st_Level/Fog_Cloud/FogCloud_02_Regular_White_800x800.webm`,
-                green: `${prefix}/jb2a_patreon/Library/1st_Level/Fog_Cloud/FogCloud_02_Regular_Green_800x800.webm`,
-                green02: `${prefix}/jb2a_patreon/Library/1st_Level/Fog_Cloud/FogCloud_02_Regular_Green02_800x800.webm`
-            },
-            '03': {
-                green02: `${prefix}/jb2a_patreon/Library/1st_Level/Fog_Cloud/FogCloud_03_Regular_Green02_800x800.webm`,
-            }
-        },
-        patreonDatabase.footprints = {
-            human: {
-                black: `${prefix}/jb2a_patreon/Library/Generic/FootPrint/HumanFootPrint_01_Black_200x200.webm`,
-                grey: `${prefix}/jb2a_patreon/Library/Generic/FootPrint/HumanFootPrint_01_Grey_200x200.webm`
-            },
-            monster: {
-                black: `${prefix}/jb2a_patreon/Library/Generic/FootPrint/MonsterFootPrint_01_Black_200x200.webm`,
-                grey: `${prefix}/jb2a_patreon/Library/Generic/FootPrint/MonsterFootPrint_01_Grey_200x200.webm`
-            },
-            shoe: {
-                black: `${prefix}/jb2a_patreon/Library/Generic/FootPrint/ShoePrint_01_Black_200x200.webm`,
-                grey: `${prefix}/jb2a_patreon/Library/Generic/FootPrint/ShoePrint_01_Grey_200x200.webm`
-            }
-        },
-        patreonDatabase.fumes = {
-            fire: {
-                orange: `${prefix}/jb2a_patreon/Library/Generic/Smoke/Fumes_01_Fire_Orange_400x400.webm`
-            },
-            steam: {
-                white: `${prefix}/jb2a_patreon/Library/Generic/Smoke/Fumes_02_Steam_White_400x400.webm`
-            },
-            toxic: {
-                green: `${prefix}/jb2a_patreon/Library/Generic/Smoke/Fumes_03_Toxic_Green_400x400.webm`
-            }
-        },
-        patreonDatabase.glaive = {
-            melee: {
-                _template: 'melee',
-                '01': {
-                    dark_orangepurple: [
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_01_Dark_OrangePurple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_02_Dark_OrangePurple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_03_Dark_OrangePurple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_04_Dark_OrangePurple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_05_Dark_OrangePurple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_06_Dark_OrangePurple_800x600.webm`
-                    ],
-                    blue: [
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_01_Regular_Blue_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_02_Regular_Blue_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_03_Regular_Blue_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_04_Regular_Blue_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_05_Regular_Blue_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_06_Regular_Blue_800x600.webm`
-                    ],
-                    orange: [
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_01_Regular_Orange_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_02_Regular_Orange_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_03_Regular_Orange_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_04_Regular_Orange_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_05_Regular_Orange_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_06_Regular_Orange_800x600.webm`
-                    ],
-                    purple: [
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_01_Regular_Purple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_02_Regular_Purple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_03_Regular_Purple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_04_Regular_Purple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_05_Regular_Purple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_06_Regular_Purple_800x600.webm`
-                    ],
-                    white: [
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_01_Regular_White_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_02_Regular_White_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_03_Regular_White_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_04_Regular_White_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_05_Regular_White_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_06_Regular_White_800x600.webm`
-                    ]
-                },
-                '02': {
-                    dark_orangepurple: [
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_01_Dark_OrangePurple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_02_Dark_OrangePurple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_03_Dark_OrangePurple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_04_Dark_OrangePurple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_05_Dark_OrangePurple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_06_Dark_OrangePurple_800x600.webm`
-                    ],
-                    blue: [
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_01_Regular_Blue_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_02_Regular_Blue_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_03_Regular_Blue_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_04_Regular_Blue_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_05_Regular_Blue_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_06_Regular_Blue_800x600.webm`
-                    ],
-                    orange: [
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_01_Regular_Orange_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_02_Regular_Orange_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_03_Regular_Orange_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_04_Regular_Orange_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_05_Regular_Orange_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_06_Regular_Orange_800x600.webm`
-                    ],
-                    purple: [
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_01_Regular_Purple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_02_Regular_Purple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_03_Regular_Purple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_04_Regular_Purple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_05_Regular_Purple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_06_Regular_Purple_800x600.webm`
-                    ],
-                    white: [
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_01_Regular_White_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_02_Regular_White_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_03_Regular_White_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_04_Regular_White_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_05_Regular_White_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_06_Regular_White_800x600.webm`
-                    ]
-                },
-            }
-        },
-        patreonDatabase.glint = {
-            blue: {
-                few: [
-                    `${prefix}/jb2a_patreon/Library/Generic/Item/GlintFew01_01_Regular_Blue_200x200.webm`,
-                    `${prefix}/jb2a_patreon/Library/Generic/Item/GlintFew01_02_Regular_Blue_200x200.webm`,
-                    `${prefix}/jb2a_patreon/Library/Generic/Item/GlintFew01_03_Regular_Blue_200x200.webm`,
-                    `${prefix}/jb2a_patreon/Library/Generic/Item/GlintFew01_04_Regular_Blue_200x200.webm`,
-                ],
-                many: [
-                    `${prefix}/jb2a_patreon/Library/Generic/Item/GlintMany01_01_Regular_Blue_200x200.webm`,
-                    `${prefix}/jb2a_patreon/Library/Generic/Item/GlintMany01_02_Regular_Blue_200x200.webm`,
-                    `${prefix}/jb2a_patreon/Library/Generic/Item/GlintMany01_03_Regular_Blue_200x200.webm`,
-                    `${prefix}/jb2a_patreon/Library/Generic/Item/GlintMany01_04_Regular_Blue_200x200.webm`,
-                ]
-            },
-            purple: {
-                few: [
-                    `${prefix}/jb2a_patreon/Library/Generic/Item/GlintFew01_01_Regular_Purple_200x200.webm`,
-                    `${prefix}/jb2a_patreon/Library/Generic/Item/GlintFew01_02_Regular_Purple_200x200.webm`,
-                    `${prefix}/jb2a_patreon/Library/Generic/Item/GlintFew01_03_Regular_Purple_200x200.webm`,
-                    `${prefix}/jb2a_patreon/Library/Generic/Item/GlintFew01_04_Regular_Purple_200x200.webm`,
-                ],
-                many: [
-                    `${prefix}/jb2a_patreon/Library/Generic/Item/GlintMany01_01_Regular_Purple_200x200.webm`,
-                    `${prefix}/jb2a_patreon/Library/Generic/Item/GlintMany01_02_Regular_Purple_200x200.webm`,
-                    `${prefix}/jb2a_patreon/Library/Generic/Item/GlintMany01_03_Regular_Purple_200x200.webm`,
-                    `${prefix}/jb2a_patreon/Library/Generic/Item/GlintMany01_04_Regular_Purple_200x200.webm`,
-                ]
+            orangeyellow: {
+                '01': `${prefix}/jb2a_patreon/Library/Generic/Fireworks/Firework01_01_Regular_OrangeYellow_600x600.webm`,
+                '03': `${prefix}/jb2a_patreon/Library/Generic/Fireworks/Firework03_01_Regular_OrangeYellow_600x600.webm`
             },
             yellow: {
-                few: [
-                    `${prefix}/jb2a_patreon/Library/Generic/Item/GlintFew01_01_Regular_Yellow_200x200.webm`,
-                    `${prefix}/jb2a_patreon/Library/Generic/Item/GlintFew01_02_Regular_Yellow_200x200.webm`,
-                    `${prefix}/jb2a_patreon/Library/Generic/Item/GlintFew01_03_Regular_Yellow_200x200.webm`,
-                    `${prefix}/jb2a_patreon/Library/Generic/Item/GlintFew01_04_Regular_Yellow_200x200.webm`,
+                '02': `${prefix}/jb2a_patreon/Library/Generic/Fireworks/Firework02_01_Regular_Yellow_600x600.webm`
+            }
+        },
+        '02': {
+            bluepink: {
+                '03': `${prefix}/jb2a_patreon/Library/Generic/Fireworks/Firework03_02_Regular_BluePink_600x600.webm`,
+            },
+            green: {
+                '02': `${prefix}/jb2a_patreon/Library/Generic/Fireworks/Firework02_02_Regular_Green_600x600.webm`,
+            },
+            greenorange: {
+                '01': `${prefix}/jb2a_patreon/Library/Generic/Fireworks/Firework01_02_Regular_GreenOrange_600x600.webm`,
+            },
+            greenred: {
+                '01': `${prefix}/jb2a_patreon/Library/Generic/Fireworks/Firework01_02_Regular_GreenRed_600x600.webm`,
+                '03': `${prefix}/jb2a_patreon/Library/Generic/Fireworks/Firework03_02_Regular_GreenRed_600x600.webm`,
+            },
+            orange: {
+                '02': `${prefix}/jb2a_patreon/Library/Generic/Fireworks/Firework02_02_Regular_Orange_600x600.webm`,
+            },
+            orangeyellow: {
+                '01': `${prefix}/jb2a_patreon/Library/Generic/Fireworks/Firework01_02_Regular_OrangeYellow_600x600.webm`,
+                '03': `${prefix}/jb2a_patreon/Library/Generic/Fireworks/Firework03_02_Regular_OrangeYellow_600x600.webm`
+            },
+            yellow: {
+                '02': `${prefix}/jb2a_patreon/Library/Generic/Fireworks/Firework02_02_Regular_Yellow_600x600.webm`
+            }
+        }
+    },
+    patreonDatabase.flames = {
+        _metadata: {
+            name: "Flames",
+        },
+        //[--> WILL BE REMOVED
+        '01': {
+            blue: `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames_01_Regular_Blue_200x200.webm`,
+            green: `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames_01_Regular_Green_200x200.webm`,
+            orange: `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames_01_Regular_Orange_200x200.webm`,
+            purple: `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames_01_Regular_Purple_200x200.webm`
+        },
+        '02': {
+            blue: `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames_02_Regular_Blue_400x400.webm`,
+            green: `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames_02_Regular_Green_400x400.webm`,
+            orange: `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames_02_Regular_Orange_400x400.webm`,
+            purple: `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames_02_Regular_Purple_400x400.webm`
+        },
+        //<--] WILL BE REMOVED
+        blue: {
+            '01': `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames_01_Regular_Blue_200x200.webm`,
+            '02': `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames_02_Regular_Blue_400x400.webm`,
+            '03': {
+                '1x1': [
+                    `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_01_Regular_Blue_05x05ft_300x300.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_02_Regular_Blue_05x05ft_300x300.webm`
                 ],
-                many: [
-                    `${prefix}/jb2a_patreon/Library/Generic/Item/GlintMany01_01_Regular_Yellow_200x200.webm`,
-                    `${prefix}/jb2a_patreon/Library/Generic/Item/GlintMany01_02_Regular_Yellow_200x200.webm`,
-                    `${prefix}/jb2a_patreon/Library/Generic/Item/GlintMany01_03_Regular_Yellow_200x200.webm`,
-                    `${prefix}/jb2a_patreon/Library/Generic/Item/GlintMany01_04_Regular_Yellow_200x200.webm`,
+                '2x1': [
+                    `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_01_Regular_Blue_10x05ft_400x300.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_02_Regular_Blue_10x05ft_400x300.webm`
+                ],
+                '2x2': [
+                    `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_01_Regular_Blue_10x10ft_400x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_02_Regular_Blue_10x10ft_400x400.webm`
                 ]
             }
         },
-        patreonDatabase.grease = {
-            _template: 'large',
-            dark_brown: {
-                loop: `${prefix}/jb2a_patreon/Library/1st_Level/Grease/Grease_Dark_Brown_600x600.webm`
-            },
-            dark_green: {
-                loop: `${prefix}/jb2a_patreon/Library/1st_Level/Grease/Grease_Dark_Green_600x600.webm`
-            },
-            dark_grey: {
-                loop: `${prefix}/jb2a_patreon/Library/1st_Level/Grease/Grease_Dark_Grey_600x600.webm`
-            },
-            dark_purple: {
-                loop: `${prefix}/jb2a_patreon/Library/1st_Level/Grease/Grease_Dark_Purple_600x600.webm`
-            },
-            dark_red: {
-                loop: `${prefix}/jb2a_patreon/Library/1st_Level/Grease/Grease_Dark_Red_600x600.webm`
-            }
-
-        },
-        patreonDatabase.greataxe = {
-            melee: {
-                _template: 'melee',
-                fire: {
-                    dark_purple: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatAxe01_Fire_Dark_Purple_800x600.webm`,
-                    blue: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatAxe01_Fire_Regular_Blue_800x600.webm`,
-                    green: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatAxe01_Fire_Regular_Green_800x600.webm`,
-                    orange: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatAxe01_Fire_Regular_Orange_800x600.webm`,
-                    pink: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatAxe01_Fire_Regular_Pink_800x600.webm`,
-                    red: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatAxe01_Fire_Regular_Red_800x600.webm`,
-                    yellow: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatAxe01_Fire_Regular_Yellow_800x600.webm`
-                },
-                standard: {
-                    white: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatAxe01_01_Regular_White_800x600.webm`
-                }
-            },
-            throw: {
-                _template: 'ranged',
-                blue: {
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/GreatAxe01_01_Regular_Blue_15ft_1000x600.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/GreatAxe01_01_Regular_Blue_30ft_1600x600.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/GreatAxe01_01_Regular_Blue_60ft_2800x600.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/GreatAxe01_01_Regular_Blue_90ft_4000x600.webm`
-                },
-                white: {
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/GreatAxe01_01_Regular_White_15ft_1000x600.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/GreatAxe01_01_Regular_White_30ft_1600x600.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/GreatAxe01_01_Regular_White_60ft_2800x600.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/GreatAxe01_01_Regular_White_90ft_4000x600.webm`
-                }
+        green: {
+            '01': `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames_01_Regular_Green_200x200.webm`,
+            '02': `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames_02_Regular_Green_400x400.webm`,
+            '03': {
+                '1x1': [
+                    `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_01_Regular_Green_05x05ft_300x300.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_02_Regular_Green_05x05ft_300x300.webm`
+                ],
+                '2x1': [
+                    `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_01_Regular_Green_10x05ft_400x300.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_02_Regular_Green_10x05ft_400x300.webm`
+                ],
+                '2x2': [
+                    `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_01_Regular_Green_10x10ft_400x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_02_Regular_Green_10x10ft_400x400.webm`
+                ]
             }
         },
-        patreonDatabase.greatclub = {
-            _template: 'melee',
-            fire: {
-                dark_purple: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatClub01_Fire_Dark_Purple_800x600.webm`,
-                blue: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatClub01_Fire_Regular_Blue_800x600.webm`,
-                green: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatClub01_Fire_Regular_Green_800x600.webm`,
-                orange: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatClub01_Fire_Regular_Orange_800x600.webm`,
-                pink: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatClub01_Fire_Regular_Pink_800x600.webm`,
-                red: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatClub01_Fire_Regular_Red_800x600.webm`,
-                yellow: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatClub01_Fire_Regular_Yellow_800x600.webm`
-            },
-            standard: {
-                white: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatClub01_01_Regular_White_800x600.webm`
+        orange: {
+    
+            '01': `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames_01_Regular_Orange_200x200.webm`,
+            '02': `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames_02_Regular_Orange_400x400.webm`,
+            '03': {
+                '1x1': [
+                    `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_01_Regular_Orange_05x05ft_300x300.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_02_Regular_Orange_05x05ft_300x300.webm`
+                ],
+                '2x1': [
+                    `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_01_Regular_Orange_10x05ft_400x300.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_02_Regular_Orange_10x05ft_400x300.webm`
+                ],
+                '2x2': [
+                    `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_01_Regular_Orange_10x10ft_400x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_02_Regular_Orange_10x10ft_400x400.webm`
+                ]
             }
         },
-        patreonDatabase.greatsword = {
-            melee: {
-                _template: 'melee',
-                fire: {
-                    dark_purple: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatSword01_Fire_Dark_Purple_800x600.webm`,
-                    black: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatSword01_Fire_Regular_Black_800x600.webm`,
-                    blue: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatSword01_Fire_Regular_Blue_800x600.webm`,
-                    green: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatSword01_Fire_Regular_Green_800x600.webm`,
-                    orange: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatSword01_Fire_Regular_Orange_800x600.webm`,
-                    pink: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatSword01_Fire_Regular_Pink_800x600.webm`,
-                    red: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatSword01_Fire_Regular_Red_800x600.webm`,
-                    yellow: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatSword01_Fire_Regular_Yellow_800x600.webm`
-                },
-                standard: {
-                    white: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatSword01_01_Regular_White_800x600.webm`
-                }
-            },
-            return: {
-                _template: 'ranged',
-                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/GreatSword01_01_Regular_White_Return_15ft_1000x600.webm`,
-                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/GreatSword01_01_Regular_White_Return_30ft_1600x600.webm`,
-                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/GreatSword01_01_Regular_White_Return_60ft_2800x600.webm`,
-                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/GreatSword01_01_Regular_White_Return_90ft_4000x600.webm`
-            },
-            throw: {
-                _template: 'ranged',
-                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/GreatSword01_01_Regular_White_15ft_1000x600.webm`,
-                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/GreatSword01_01_Regular_White_30ft_1600x600.webm`,
-                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/GreatSword01_01_Regular_White_60ft_2800x600.webm`,
-                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/GreatSword01_01_Regular_White_90ft_4000x600.webm`
+        purple: {
+            '01': `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames_01_Regular_Purple_200x200.webm`,
+            '02': `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames_02_Regular_Purple_400x400.webm`,
+            '03': {
+                '1x1': [
+                    `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_01_Regular_Purple_05x05ft_300x300.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_02_Regular_Purple_05x05ft_300x300.webm`
+                ],
+                '2x1': [
+                    `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_01_Regular_Purple_10x05ft_400x300.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_02_Regular_Purple_10x05ft_400x300.webm`
+                ],
+                '2x2': [
+                    `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_01_Regular_Purple_10x10ft_400x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Fire/Flame/Flames03_02_Regular_Purple_10x10ft_400x400.webm`
+                ]
             }
+        }
+    },
+    patreonDatabase.flaming_sphere = {
+        _metadata: {
+            name: "Flaming Sphere",
         },
-        patreonDatabase.ground_cracks = {
+        "200px": {
             blue: {
-                '01': `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_01_Regular_Blue_600x600.webm`,
-                '02': `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_02_Regular_Blue_600x600.webm`,
-                '03': `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_03_Regular_Blue_600x600.webm`
+                '01': `${prefix}/jb2a_patreon/Library/2nd_Level/Flaming_Sphere/FlamingSphere_01_Blue_200x200.webm`,
+                '02': `${prefix}/jb2a_patreon/Library/2nd_Level/Flaming_Sphere/FlamingSphere_02_Blue_200x200.webm`
             },
-            green: {
-                '01': `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_01_Regular_Green_600x600.webm`,
-                '02': `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_02_Regular_Green_600x600.webm`,
-                '03': `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_03_Regular_Green_600x600.webm`
+            green: `${prefix}/jb2a_patreon/Library/2nd_Level/Flaming_Sphere/FlamingSphere_01_Green_200x200.webm`,
+            greenblue: `${prefix}/jb2a_patreon/Library/2nd_Level/Flaming_Sphere/Multicoloured/FlamingSphere_01_GreenToBlue_200x200.webm`,
+            orange: {
+                '01': `${prefix}/jb2a_patreon/Library/2nd_Level/Flaming_Sphere/FlamingSphere_01_Orange_200x200.webm`,
+                '02': `${prefix}/jb2a_patreon/Library/2nd_Level/Flaming_Sphere/FlamingSphere_02_Orange_200x200.webm`
+            },
+            pink: `${prefix}/jb2a_patreon/Library/2nd_Level/Flaming_Sphere/FlamingSphere_01_Pink_200x200.webm`,
+            purple: {
+                '01': `${prefix}/jb2a_patreon/Library/2nd_Level/Flaming_Sphere/FlamingSphere_01_Purple_200x200.webm`,
+                '02': `${prefix}/jb2a_patreon/Library/2nd_Level/Flaming_Sphere/FlamingSphere_02_Purple_200x200.webm`
+            },
+            rainbow: `${prefix}/jb2a_patreon/Library/2nd_Level/Flaming_Sphere/Multicoloured/FlamingSphere_01_Rainbow_200x200.webm`,
+            red: `${prefix}/jb2a_patreon/Library/2nd_Level/Flaming_Sphere/FlamingSphere_01_Red_200x200.webm`,
+        },
+        '400px': {
+            blue: {
+                '02': `${prefix}/jb2a_patreon/Library/2nd_Level/Flaming_Sphere/FlamingSphere_02_Blue_400x400.webm`
             },
             orange: {
-                '01': `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_01_Regular_Orange_600x600.webm`,
-                '02': `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_02_Regular_Orange_600x600.webm`,
-                '03': `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_03_Regular_Orange_600x600.webm`
+                '02': `${prefix}/jb2a_patreon/Library/2nd_Level/Flaming_Sphere/FlamingSphere_02_Orange_400x400.webm`
             },
             purple: {
-                '01': `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_01_Regular_Purple_600x600.webm`,
-                '02': `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_02_Regular_Purple_600x600.webm`,
-                '03': `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_03_Regular_Purple_600x600.webm`
-            },
+                '02': `${prefix}/jb2a_patreon/Library/2nd_Level/Flaming_Sphere/FlamingSphere_02_Purple_400x400.webm`
+            }
+        }
+    },
+    patreonDatabase.flurry_of_blows = {
+        _metadata: {
+            name: "Flurry of Blows",
+        },
+        _template: 'melee',
+        magical: {
             '01': {
-                blue: `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_01_Regular_Blue_600x600.webm`,
-                green: `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_01_Regular_Green_600x600.webm`,
-                orange: `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_01_Regular_Orange_600x600.webm`,
-                purple: `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_01_Regular_Purple_600x600.webm`
+                blue: `${prefix}/jb2a_patreon/Library/Generic/Unarmed_Attacks/Flurry_Of_Blows/FlurryOfBlows_01_Regular_Blue_Magical01_800x600.webm`,
+                dark_purple: `${prefix}/jb2a_patreon/Library/Generic/Unarmed_Attacks/Flurry_Of_Blows/FlurryOfBlows_01_Dark_Purple_Magical01_800x600.webm`,
+                dark_red: `${prefix}/jb2a_patreon/Library/Generic/Unarmed_Attacks/Flurry_Of_Blows/FlurryOfBlows_01_Dark_Red_Magical01_800x600.webm`,
+                green: `${prefix}/jb2a_patreon/Library/Generic/Unarmed_Attacks/Flurry_Of_Blows/FlurryOfBlows_01_Regular_Green_Magical01_800x600.webm`,
+                orange: `${prefix}/jb2a_patreon/Library/Generic/Unarmed_Attacks/Flurry_Of_Blows/FlurryOfBlows_01_Regular_Orange_Magical01_800x600.webm`,
+                pinkpurple: `${prefix}/jb2a_patreon/Library/Generic/Unarmed_Attacks/Flurry_Of_Blows/FlurryOfBlows_01_Regular_PinkPurple_Magical01_800x600.webm`,
+                yellow: `${prefix}/jb2a_patreon/Library/Generic/Unarmed_Attacks/Flurry_Of_Blows/FlurryOfBlows_01_Regular_Yellow_Magical01_800x600.webm`
             },
             '02': {
-                blue: `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_02_Regular_Blue_600x600.webm`,
-                green: `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_02_Regular_Green_600x600.webm`,
-                orange: `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_02_Regular_Orange_600x600.webm`,
-                purple: `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_02_Regular_Purple_600x600.webm`
-            },
-            '03': {
-                blue: `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_03_Regular_Blue_600x600.webm`,
-                green: `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_03_Regular_Green_600x600.webm`,
-                orange: `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_03_Regular_Orange_600x600.webm`,
-                purple: `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_03_Regular_Purple_600x600.webm`
+                blue: `${prefix}/jb2a_patreon/Library/Generic/Unarmed_Attacks/Flurry_Of_Blows/FlurryOfBlows_01_Regular_Blue_Magical02_800x600.webm`,
+                dark_purple: `${prefix}/jb2a_patreon/Library/Generic/Unarmed_Attacks/Flurry_Of_Blows/FlurryOfBlows_01_Dark_Purple_Magical02_800x600.webm`,
+                dark_red: `${prefix}/jb2a_patreon/Library/Generic/Unarmed_Attacks/Flurry_Of_Blows/FlurryOfBlows_01_Dark_Red_Magical02_800x600.webm`,
+                green: `${prefix}/jb2a_patreon/Library/Generic/Unarmed_Attacks/Flurry_Of_Blows/FlurryOfBlows_01_Regular_Green_Magical02_800x600.webm`,
+                orange: `${prefix}/jb2a_patreon/Library/Generic/Unarmed_Attacks/Flurry_Of_Blows/FlurryOfBlows_01_Regular_Orange_Magical02_800x600.webm`,
+                pinkpurple: `${prefix}/jb2a_patreon/Library/Generic/Unarmed_Attacks/Flurry_Of_Blows/FlurryOfBlows_01_Regular_PinkPurple_Magical02_800x600.webm`,
+                yellow: `${prefix}/jb2a_patreon/Library/Generic/Unarmed_Attacks/Flurry_Of_Blows/FlurryOfBlows_01_Regular_Yellow_Magical02_800x600.webm`
             }
         },
-        patreonDatabase.guiding_bolt = {
+        physical: {
+            blue: `${prefix}/jb2a_patreon/Library/Generic/Unarmed_Attacks/Flurry_Of_Blows/FlurryOfBlows_01_Regular_Blue_Physical01_800x600.webm`,
+            dark_purple: `${prefix}/jb2a_patreon/Library/Generic/Unarmed_Attacks/Flurry_Of_Blows/FlurryOfBlows_01_Dark_Purple_Physical01_800x600.webm`,
+            dark_red: `${prefix}/jb2a_patreon/Library/Generic/Unarmed_Attacks/Flurry_Of_Blows/FlurryOfBlows_01_Dark_Red_Physical01_800x600.webm`,
+            green: `${prefix}/jb2a_patreon/Library/Generic/Unarmed_Attacks/Flurry_Of_Blows/FlurryOfBlows_01_Regular_Green_Physical01_800x600.webm`,
+            orange: `${prefix}/jb2a_patreon/Library/Generic/Unarmed_Attacks/Flurry_Of_Blows/FlurryOfBlows_01_Regular_Orange_Physical01_800x600.webm`,
+            pinkpurple: `${prefix}/jb2a_patreon/Library/Generic/Unarmed_Attacks/Flurry_Of_Blows/FlurryOfBlows_01_Regular_PinkPurple_Physical01_800x600.webm`,
+            yellow: `${prefix}/jb2a_patreon/Library/Generic/Unarmed_Attacks/Flurry_Of_Blows/FlurryOfBlows_01_Regular_Yellow_Physical01_800x600.webm`
+        },
+        no_hit: {
+            blue: `${prefix}/jb2a_patreon/Library/Generic/Unarmed_Attacks/Flurry_Of_Blows/FlurryOfBlowsNoHit_01_Regular_Blue_800x600.webm`,
+            yellow: `${prefix}/jb2a_patreon/Library/Generic/Unarmed_Attacks/Flurry_Of_Blows/FlurryOfBlowsNoHit_01_Regular_Yellow_800x600.webm`
+        }
+    },
+    patreonDatabase.fog_cloud = {
+        _metadata: {
+            name: "Fog Cloud",
+        },
+        //[--> WILL BE REMOVED
+        '1': {
+            white: `${prefix}/jb2a_patreon/Library/1st_Level/Fog_Cloud/FogCloud_01_White_800x800.webm`,
+        },
+        '2': {
+            white: `${prefix}/jb2a_patreon/Library/1st_Level/Fog_Cloud/FogCloud_02_Regular_White_800x800.webm`,
+            green: `${prefix}/jb2a_patreon/Library/1st_Level/Fog_Cloud/FogCloud_02_Regular_Green_800x800.webm`
+        },
+        //<--] WILL BE REMOVED
+        '01': {
+    
+            white: `${prefix}/jb2a_patreon/Library/1st_Level/Fog_Cloud/FogCloud_01_White_800x800.webm`,
+        },
+        '02': {
+            white: `${prefix}/jb2a_patreon/Library/1st_Level/Fog_Cloud/FogCloud_02_Regular_White_800x800.webm`,
+            green: `${prefix}/jb2a_patreon/Library/1st_Level/Fog_Cloud/FogCloud_02_Regular_Green_800x800.webm`,
+            green02: `${prefix}/jb2a_patreon/Library/1st_Level/Fog_Cloud/FogCloud_02_Regular_Green02_800x800.webm`
+        },
+        '03': {
+            green02: `${prefix}/jb2a_patreon/Library/1st_Level/Fog_Cloud/FogCloud_03_Regular_Green02_800x800.webm`,
+        }
+    },
+    patreonDatabase.footprints = {
+        _metadata: {
+            name: "Footprints",
+        },
+        human: {
+            black: `${prefix}/jb2a_patreon/Library/Generic/FootPrint/HumanFootPrint_01_Black_200x200.webm`,
+            grey: `${prefix}/jb2a_patreon/Library/Generic/FootPrint/HumanFootPrint_01_Grey_200x200.webm`
+        },
+        monster: {
+            black: `${prefix}/jb2a_patreon/Library/Generic/FootPrint/MonsterFootPrint_01_Black_200x200.webm`,
+            grey: `${prefix}/jb2a_patreon/Library/Generic/FootPrint/MonsterFootPrint_01_Grey_200x200.webm`
+        },
+        shoe: {
+            black: `${prefix}/jb2a_patreon/Library/Generic/FootPrint/ShoePrint_01_Black_200x200.webm`,
+            grey: `${prefix}/jb2a_patreon/Library/Generic/FootPrint/ShoePrint_01_Grey_200x200.webm`
+        }
+    },
+    patreonDatabase.fumes = {
+        _metadata: {
+            name: "Fumes",
+        },
+        fire: {
+            orange: `${prefix}/jb2a_patreon/Library/Generic/Smoke/Fumes_01_Fire_Orange_400x400.webm`
+        },
+        steam: {
+            white: `${prefix}/jb2a_patreon/Library/Generic/Smoke/Fumes_02_Steam_White_400x400.webm`
+        },
+        toxic: {
+            green: `${prefix}/jb2a_patreon/Library/Generic/Smoke/Fumes_03_Toxic_Green_400x400.webm`
+        }
+    },
+    patreonDatabase.glaive = {
+        _metadata: {
+            name: "Glaive",
+        },    
+        melee: {
+            _template: 'melee',
+            '01': {
+                dark_orangepurple: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_01_Dark_OrangePurple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_02_Dark_OrangePurple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_03_Dark_OrangePurple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_04_Dark_OrangePurple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_05_Dark_OrangePurple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_06_Dark_OrangePurple_800x600.webm`
+                ],
+                blue: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_01_Regular_Blue_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_02_Regular_Blue_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_03_Regular_Blue_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_04_Regular_Blue_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_05_Regular_Blue_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_06_Regular_Blue_800x600.webm`
+                ],
+                orange: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_01_Regular_Orange_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_02_Regular_Orange_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_03_Regular_Orange_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_04_Regular_Orange_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_05_Regular_Orange_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_06_Regular_Orange_800x600.webm`
+                ],
+                purple: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_01_Regular_Purple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_02_Regular_Purple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_03_Regular_Purple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_04_Regular_Purple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_05_Regular_Purple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_06_Regular_Purple_800x600.webm`
+                ],
+                white: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_01_Regular_White_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_02_Regular_White_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_03_Regular_White_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_04_Regular_White_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_05_Regular_White_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_06_Regular_White_800x600.webm`
+                ]
+            },
+            '02': {
+                dark_orangepurple: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_01_Dark_OrangePurple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_02_Dark_OrangePurple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_03_Dark_OrangePurple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_04_Dark_OrangePurple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_05_Dark_OrangePurple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_06_Dark_OrangePurple_800x600.webm`
+                ],
+                blue: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_01_Regular_Blue_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_02_Regular_Blue_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_03_Regular_Blue_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_04_Regular_Blue_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_05_Regular_Blue_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_06_Regular_Blue_800x600.webm`
+                ],
+                orange: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_01_Regular_Orange_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_02_Regular_Orange_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_03_Regular_Orange_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_04_Regular_Orange_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_05_Regular_Orange_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_06_Regular_Orange_800x600.webm`
+                ],
+                purple: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_01_Regular_Purple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_02_Regular_Purple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_03_Regular_Purple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_04_Regular_Purple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_05_Regular_Purple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_06_Regular_Purple_800x600.webm`
+                ],
+                white: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_01_Regular_White_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_02_Regular_White_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_03_Regular_White_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_04_Regular_White_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_05_Regular_White_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_06_Regular_White_800x600.webm`
+                ]
+            },
+        }
+    },
+    patreonDatabase.glint = {
+        _metadata: {
+            name: "Glint",
+        },
+        blue: {
+            few: [
+                `${prefix}/jb2a_patreon/Library/Generic/Item/GlintFew01_01_Regular_Blue_200x200.webm`,
+                `${prefix}/jb2a_patreon/Library/Generic/Item/GlintFew01_02_Regular_Blue_200x200.webm`,
+                `${prefix}/jb2a_patreon/Library/Generic/Item/GlintFew01_03_Regular_Blue_200x200.webm`,
+                `${prefix}/jb2a_patreon/Library/Generic/Item/GlintFew01_04_Regular_Blue_200x200.webm`,
+            ],
+            many: [
+                `${prefix}/jb2a_patreon/Library/Generic/Item/GlintMany01_01_Regular_Blue_200x200.webm`,
+                `${prefix}/jb2a_patreon/Library/Generic/Item/GlintMany01_02_Regular_Blue_200x200.webm`,
+                `${prefix}/jb2a_patreon/Library/Generic/Item/GlintMany01_03_Regular_Blue_200x200.webm`,
+                `${prefix}/jb2a_patreon/Library/Generic/Item/GlintMany01_04_Regular_Blue_200x200.webm`,
+            ]
+        },
+        purple: {
+            few: [
+                `${prefix}/jb2a_patreon/Library/Generic/Item/GlintFew01_01_Regular_Purple_200x200.webm`,
+                `${prefix}/jb2a_patreon/Library/Generic/Item/GlintFew01_02_Regular_Purple_200x200.webm`,
+                `${prefix}/jb2a_patreon/Library/Generic/Item/GlintFew01_03_Regular_Purple_200x200.webm`,
+                `${prefix}/jb2a_patreon/Library/Generic/Item/GlintFew01_04_Regular_Purple_200x200.webm`,
+            ],
+            many: [
+                `${prefix}/jb2a_patreon/Library/Generic/Item/GlintMany01_01_Regular_Purple_200x200.webm`,
+                `${prefix}/jb2a_patreon/Library/Generic/Item/GlintMany01_02_Regular_Purple_200x200.webm`,
+                `${prefix}/jb2a_patreon/Library/Generic/Item/GlintMany01_03_Regular_Purple_200x200.webm`,
+                `${prefix}/jb2a_patreon/Library/Generic/Item/GlintMany01_04_Regular_Purple_200x200.webm`,
+            ]
+        },
+        yellow: {
+            few: [
+                `${prefix}/jb2a_patreon/Library/Generic/Item/GlintFew01_01_Regular_Yellow_200x200.webm`,
+                `${prefix}/jb2a_patreon/Library/Generic/Item/GlintFew01_02_Regular_Yellow_200x200.webm`,
+                `${prefix}/jb2a_patreon/Library/Generic/Item/GlintFew01_03_Regular_Yellow_200x200.webm`,
+                `${prefix}/jb2a_patreon/Library/Generic/Item/GlintFew01_04_Regular_Yellow_200x200.webm`,
+            ],
+            many: [
+                `${prefix}/jb2a_patreon/Library/Generic/Item/GlintMany01_01_Regular_Yellow_200x200.webm`,
+                `${prefix}/jb2a_patreon/Library/Generic/Item/GlintMany01_02_Regular_Yellow_200x200.webm`,
+                `${prefix}/jb2a_patreon/Library/Generic/Item/GlintMany01_03_Regular_Yellow_200x200.webm`,
+                `${prefix}/jb2a_patreon/Library/Generic/Item/GlintMany01_04_Regular_Yellow_200x200.webm`,
+            ]
+        }
+    },
+    patreonDatabase.grease = {
+        _metadata: {
+            name: "Grease",
+        },
+        _template: 'large',
+        dark_brown: {
+            loop: `${prefix}/jb2a_patreon/Library/1st_Level/Grease/Grease_Dark_Brown_600x600.webm`
+        },
+        dark_green: {
+            loop: `${prefix}/jb2a_patreon/Library/1st_Level/Grease/Grease_Dark_Green_600x600.webm`
+        },
+        dark_grey: {
+            loop: `${prefix}/jb2a_patreon/Library/1st_Level/Grease/Grease_Dark_Grey_600x600.webm`
+        },
+        dark_purple: {
+            loop: `${prefix}/jb2a_patreon/Library/1st_Level/Grease/Grease_Dark_Purple_600x600.webm`
+        },
+        dark_red: {
+            loop: `${prefix}/jb2a_patreon/Library/1st_Level/Grease/Grease_Dark_Red_600x600.webm`
+        }
+    
+    },
+    patreonDatabase.greataxe = {
+        _metadata: {
+            name: "Greataxe",
+            new: [ "throw.red" ]
+        },
+        melee: {
+            _template: 'melee',
+            fire: {
+                dark_purple: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatAxe01_Fire_Dark_Purple_800x600.webm`,
+                blue: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatAxe01_Fire_Regular_Blue_800x600.webm`,
+                green: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatAxe01_Fire_Regular_Green_800x600.webm`,
+                orange: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatAxe01_Fire_Regular_Orange_800x600.webm`,
+                pink: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatAxe01_Fire_Regular_Pink_800x600.webm`,
+                red: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatAxe01_Fire_Regular_Red_800x600.webm`,
+                yellow: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatAxe01_Fire_Regular_Yellow_800x600.webm`
+            },
+            standard: {
+                white: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatAxe01_01_Regular_White_800x600.webm`
+            }
+        },
+        throw: {
+            _template: 'ranged',
+            blue: {
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/GreatAxe01_01_Regular_Blue_15ft_1000x600.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/GreatAxe01_01_Regular_Blue_30ft_1600x600.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/GreatAxe01_01_Regular_Blue_60ft_2800x600.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/GreatAxe01_01_Regular_Blue_90ft_4000x600.webm`
+            },
+            red: {
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/GreatAxe01_01_Regular_Red_15ft_1000x600.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/GreatAxe01_01_Regular_Red_30ft_1600x600.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/GreatAxe01_01_Regular_Red_60ft_2800x600.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/GreatAxe01_01_Regular_Red_90ft_4000x600.webm`
+            },
+            white: {
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/GreatAxe01_01_Regular_White_15ft_1000x600.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/GreatAxe01_01_Regular_White_30ft_1600x600.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/GreatAxe01_01_Regular_White_60ft_2800x600.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/GreatAxe01_01_Regular_White_90ft_4000x600.webm`
+            },
+            yellow: {
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/GreatAxe01_01_Regular_Yellow_15ft_1000x600.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/GreatAxe01_01_Regular_Yellow_30ft_1600x600.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/GreatAxe01_01_Regular_Yellow_60ft_2800x600.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/GreatAxe01_01_Regular_Yellow_90ft_4000x600.webm`
+            }
+        }
+    },
+    patreonDatabase.greatclub = {
+        _metadata: {
+            name: "Greatclub",
+        },
+        _template: 'melee',
+        fire: {
+            dark_purple: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatClub01_Fire_Dark_Purple_800x600.webm`,
+            blue: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatClub01_Fire_Regular_Blue_800x600.webm`,
+            green: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatClub01_Fire_Regular_Green_800x600.webm`,
+            orange: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatClub01_Fire_Regular_Orange_800x600.webm`,
+            pink: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatClub01_Fire_Regular_Pink_800x600.webm`,
+            red: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatClub01_Fire_Regular_Red_800x600.webm`,
+            yellow: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatClub01_Fire_Regular_Yellow_800x600.webm`
+        },
+        standard: {
+            white: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatClub01_01_Regular_White_800x600.webm`
+        }
+    },
+    patreonDatabase.greatsword = {
+        _metadata: {
+            name: "Greatsword",
+        },    
+        melee: {
+            _template: 'melee',
+            fire: {
+                dark_purple: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatSword01_Fire_Dark_Purple_800x600.webm`,
+                black: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatSword01_Fire_Regular_Black_800x600.webm`,
+                blue: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatSword01_Fire_Regular_Blue_800x600.webm`,
+                green: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatSword01_Fire_Regular_Green_800x600.webm`,
+                orange: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatSword01_Fire_Regular_Orange_800x600.webm`,
+                pink: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatSword01_Fire_Regular_Pink_800x600.webm`,
+                red: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatSword01_Fire_Regular_Red_800x600.webm`,
+                yellow: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatSword01_Fire_Regular_Yellow_800x600.webm`
+            },
+            standard: {
+                white: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/GreatSword01_01_Regular_White_800x600.webm`
+            }
+        },
+        return: {
+            _template: 'ranged',
+            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/GreatSword01_01_Regular_White_Return_15ft_1000x600.webm`,
+            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/GreatSword01_01_Regular_White_Return_30ft_1600x600.webm`,
+            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/GreatSword01_01_Regular_White_Return_60ft_2800x600.webm`,
+            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/GreatSword01_01_Regular_White_Return_90ft_4000x600.webm`
+        },
+        throw: {
+            _template: 'ranged',
+            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/GreatSword01_01_Regular_White_15ft_1000x600.webm`,
+            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/GreatSword01_01_Regular_White_30ft_1600x600.webm`,
+            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/GreatSword01_01_Regular_White_60ft_2800x600.webm`,
+            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/GreatSword01_01_Regular_White_90ft_4000x600.webm`
+        }
+    },
+    patreonDatabase.ground_cracks = {
+        _metadata: {
+            name: "Ground Cracks",
+        },
+        blue: {
+            '01': `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_01_Regular_Blue_600x600.webm`,
+            '02': `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_02_Regular_Blue_600x600.webm`,
+            '03': `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_03_Regular_Blue_600x600.webm`
+        },
+        green: {
+            '01': `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_01_Regular_Green_600x600.webm`,
+            '02': `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_02_Regular_Green_600x600.webm`,
+            '03': `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_03_Regular_Green_600x600.webm`
+        },
+        orange: {
+            '01': `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_01_Regular_Orange_600x600.webm`,
+            '02': `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_02_Regular_Orange_600x600.webm`,
+            '03': `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_03_Regular_Orange_600x600.webm`
+        },
+        purple: {
+            '01': `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_01_Regular_Purple_600x600.webm`,
+            '02': `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_02_Regular_Purple_600x600.webm`,
+            '03': `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_03_Regular_Purple_600x600.webm`
+        },
+        '01': {
+            blue: `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_01_Regular_Blue_600x600.webm`,
+            green: `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_01_Regular_Green_600x600.webm`,
+            orange: `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_01_Regular_Orange_600x600.webm`,
+            purple: `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_01_Regular_Purple_600x600.webm`
+        },
+        '02': {
+            blue: `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_02_Regular_Blue_600x600.webm`,
+            green: `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_02_Regular_Green_600x600.webm`,
+            orange: `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_02_Regular_Orange_600x600.webm`,
+            purple: `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_02_Regular_Purple_600x600.webm`
+        },
+        '03': {
+            blue: `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_03_Regular_Blue_600x600.webm`,
+            green: `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_03_Regular_Green_600x600.webm`,
+            orange: `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_03_Regular_Orange_600x600.webm`,
+            purple: `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_03_Regular_Purple_600x600.webm`
+        }
+    },
+    patreonDatabase.guiding_bolt = {
+        _metadata: {
+            name: "Guiding Bolt",
+        },
+        _template: 'ranged',
+        '01': {
+            blueyellow: {
+                '05ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Regular_BlueYellow_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Regular_BlueYellow_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Regular_BlueYellow_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Regular_BlueYellow_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Regular_BlueYellow_90ft_4000x400.webm`
+            },
+            dark_bluewhite: {
+                '05ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Dark_BlueWhite_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Dark_BlueWhite_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Dark_BlueWhite_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Dark_BlueWhite_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Dark_BlueWhite_90ft_4000x400.webm`
+            },
+            greenorange: {
+                '05ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Regular_GreenOrange_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Regular_GreenOrange_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Regular_GreenOrange_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Regular_GreenOrange_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Regular_GreenOrange_90ft_4000x400.webm`
+            },
+            pink: {
+                '05ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Regular_Pink_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Regular_Pink_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Regular_Pink_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Regular_Pink_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Regular_Pink_90ft_4000x400.webm`
+            },
+            purplepink: {
+                '05ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Regular_PurplePink_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Regular_PurplePink_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Regular_PurplePink_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Regular_PurplePink_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Regular_PurplePink_90ft_4000x400.webm`
+            },
+            red: {
+                '05ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Regular_Red_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Regular_Red_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Regular_Red_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Regular_Red_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Regular_Red_90ft_4000x400.webm`
+            }
+        },
+        '02': {
+            blueyellow: {
+                '05ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Regular_BlueYellow_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Regular_BlueYellow_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Regular_BlueYellow_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Regular_BlueYellow_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Regular_BlueYellow_90ft_4000x400.webm`
+            },
+            dark_bluewhite: {
+                '05ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Dark_BlueWhite_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Dark_BlueWhite_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Dark_BlueWhite_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Dark_BlueWhite_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Dark_BlueWhite_90ft_4000x400.webm`
+            },
+            greenorange: {
+                '05ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Regular_GreenOrange_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Regular_GreenOrange_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Regular_GreenOrange_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Regular_GreenOrange_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Regular_GreenOrange_90ft_4000x400.webm`
+            },
+            pink: {
+                '05ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Regular_Pink_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Regular_Pink_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Regular_Pink_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Regular_Pink_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Regular_Pink_90ft_4000x400.webm`
+            },
+            purplepink: {
+                '05ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Regular_PurplePink_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Regular_PurplePink_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Regular_PurplePink_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Regular_PurplePink_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Regular_PurplePink_90ft_4000x400.webm`
+            },
+            red: {
+                '05ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Regular_Red_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Regular_Red_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Regular_Red_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Regular_Red_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Regular_Red_90ft_4000x400.webm`
+            }
+        }
+    },
+    patreonDatabase.gust_of_wind = {
+        _metadata: {
+            name: "Gust of Wind",
+        },
+        _template: 'ray',
+        default: `${prefix}/jb2a_patreon/Library/2nd_Level/Gust_Of_Wind/GustOfWind_01_White_1200x200.webm`,
+        veryfast: `${prefix}/jb2a_patreon/Library/2nd_Level/Gust_Of_Wind/GustOfWind_01_White_VeryFast_1200x200.webm`
+    },
+    patreonDatabase.halberd = {
+        _metadata: {
+            name: "Halberd",
+        },    
+        melee: {
+            _template: 'melee',
+            '01': {
+                dark_orangepurple: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_01_Dark_OrangePurple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_02_Dark_OrangePurple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_03_Dark_OrangePurple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_04_Dark_OrangePurple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_05_Dark_OrangePurple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_06_Dark_OrangePurple_800x600.webm`
+                ],
+                blue: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_01_Regular_Blue_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_02_Regular_Blue_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_03_Regular_Blue_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_04_Regular_Blue_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_05_Regular_Blue_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_06_Regular_Blue_800x600.webm`
+                ],
+                orange: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_01_Regular_Orange_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_02_Regular_Orange_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_03_Regular_Orange_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_04_Regular_Orange_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_05_Regular_Orange_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_06_Regular_Orange_800x600.webm`
+                ],
+                purple: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_01_Regular_Purple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_02_Regular_Purple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_03_Regular_Purple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_04_Regular_Purple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_05_Regular_Purple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_06_Regular_Purple_800x600.webm`
+                ],
+                white: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_01_Regular_White_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_02_Regular_White_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_03_Regular_White_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_04_Regular_White_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_05_Regular_White_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_06_Regular_White_800x600.webm`
+                ]
+            }
+        }
+    },
+    
+    patreonDatabase.hammer = {
+        _metadata: {
+            name: "Hammer",
+        },    
+        melee: {
+            _template: 'melee',
+            '01': {
+                dark_orangepurple: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_01_Dark_OrangePurple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_02_Dark_OrangePurple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_03_Dark_OrangePurple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_04_Dark_OrangePurple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_05_Dark_OrangePurple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_06_Dark_OrangePurple_800x600.webm`
+                ],
+                blue: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_01_Regular_Blue_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_02_Regular_Blue_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_03_Regular_Blue_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_04_Regular_Blue_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_05_Regular_Blue_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_06_Regular_Blue_800x600.webm`
+                ],
+                orange: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_01_Regular_Orange_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_02_Regular_Orange_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_03_Regular_Orange_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_04_Regular_Orange_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_05_Regular_Orange_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_06_Regular_Orange_800x600.webm`
+                ],
+                purple: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_01_Regular_Purple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_02_Regular_Purple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_03_Regular_Purple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_04_Regular_Purple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_05_Regular_Purple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_06_Regular_Purple_800x600.webm`
+                ],
+                white: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_01_Regular_White_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_02_Regular_White_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_03_Regular_White_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_04_Regular_White_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_05_Regular_White_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_06_Regular_White_800x600.webm`
+                ],
+                yellow: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_01_Regular_Yellow_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_02_Regular_Yellow_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_03_Regular_Yellow_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_04_Regular_Yellow_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_05_Regular_Yellow_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_06_Regular_Yellow_800x600.webm`
+                ]
+            }
+        },
+        return: {
+            _template: 'ranged',
+            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Hammer01_01_Regular_White_Return_15ft_1000x400.webm`,
+            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Hammer01_01_Regular_White_Return_30ft_1600x400.webm`,
+            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Hammer01_01_Regular_White_Return_60ft_2800x400.webm`,
+            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Hammer01_01_Regular_White_Return_90ft_4000x400.webm`
+        },
+        throw: {
+            _template: 'ranged',
+            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Hammer01_01_Regular_White_15ft_1000x400.webm`,
+            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Hammer01_01_Regular_White_30ft_1600x400.webm`,
+            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Hammer01_01_Regular_White_60ft_2800x400.webm`,
+            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Hammer01_01_Regular_White_90ft_4000x400.webm`
+        }
+    },
+    patreonDatabase.handaxe = {
+        _metadata: {
+            name: "Handaxe",
+        },    
+        melee: {
+            _template: 'melee',
+            fire: {
+                dark_purple: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/HandAxe02_Fire_Dark_Purple_800x600.webm`,
+                blue: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/HandAxe02_Fire_Regular_Blue_800x600.webm`,
+                green: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/HandAxe02_Fire_Regular_Green_800x600.webm`,
+                orange: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/HandAxe02_Fire_Regular_Orange_800x600.webm`,
+                pink: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/HandAxe02_Fire_Regular_Pink_800x600.webm`,
+                red: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/HandAxe02_Fire_Regular_Red_800x600.webm`,
+                yellow: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/HandAxe02_Fire_Regular_Yellow_800x600.webm`
+            },
+            standard: {
+                white: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/HandAxe02_01_Regular_White_800x600.webm`
+            }
+        },
+        throw: {
             _template: 'ranged',
             '01': {
-                blueyellow: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Regular_BlueYellow_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Regular_BlueYellow_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Regular_BlueYellow_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Regular_BlueYellow_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Regular_BlueYellow_90ft_4000x400.webm`
-                },
-                dark_bluewhite: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Dark_BlueWhite_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Dark_BlueWhite_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Dark_BlueWhite_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Dark_BlueWhite_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Dark_BlueWhite_90ft_4000x400.webm`
-                },
-                greenorange: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Regular_GreenOrange_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Regular_GreenOrange_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Regular_GreenOrange_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Regular_GreenOrange_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Regular_GreenOrange_90ft_4000x400.webm`
-                },
-                pink: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Regular_Pink_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Regular_Pink_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Regular_Pink_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Regular_Pink_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Regular_Pink_90ft_4000x400.webm`
-                },
-                purplepink: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Regular_PurplePink_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Regular_PurplePink_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Regular_PurplePink_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Regular_PurplePink_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Regular_PurplePink_90ft_4000x400.webm`
-                },
-                red: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Regular_Red_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Regular_Red_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Regular_Red_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Regular_Red_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_01_Regular_Red_90ft_4000x400.webm`
-                }
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/HandAxe01_01_Regular_White_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/HandAxe01_01_Regular_White_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/HandAxe01_01_Regular_White_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/HandAxe01_01_Regular_White_90ft_4000x400.webm`
             },
             '02': {
-                blueyellow: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Regular_BlueYellow_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Regular_BlueYellow_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Regular_BlueYellow_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Regular_BlueYellow_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Regular_BlueYellow_90ft_4000x400.webm`
-                },
-                dark_bluewhite: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Dark_BlueWhite_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Dark_BlueWhite_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Dark_BlueWhite_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Dark_BlueWhite_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Dark_BlueWhite_90ft_4000x400.webm`
-                },
-                greenorange: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Regular_GreenOrange_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Regular_GreenOrange_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Regular_GreenOrange_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Regular_GreenOrange_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Regular_GreenOrange_90ft_4000x400.webm`
-                },
-                pink: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Regular_Pink_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Regular_Pink_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Regular_Pink_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Regular_Pink_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Regular_Pink_90ft_4000x400.webm`
-                },
-                purplepink: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Regular_PurplePink_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Regular_PurplePink_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Regular_PurplePink_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Regular_PurplePink_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Regular_PurplePink_90ft_4000x400.webm`
-                },
-                red: {
-                    '05ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Regular_Red_05ft_600x400.webm`,
-                    '15ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Regular_Red_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Regular_Red_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Regular_Red_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/1st_Level/Guiding_Bolt/GuidingBolt_02_Regular_Red_90ft_4000x400.webm`
-                }
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/HandAxe02_01_Regular_White_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/HandAxe02_01_Regular_White_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/HandAxe02_01_Regular_White_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/HandAxe02_01_Regular_White_90ft_4000x400.webm`
             }
+        }
+    },
+    patreonDatabase.healing_generic = {
+        _metadata: {
+            name: "Healing - Generic"
         },
-        patreonDatabase.gust_of_wind = {
-            _template: 'ray',
-            default: `${prefix}/jb2a_patreon/Library/2nd_Level/Gust_Of_Wind/GustOfWind_01_White_1200x200.webm`,
-            veryfast: `${prefix}/jb2a_patreon/Library/2nd_Level/Gust_Of_Wind/GustOfWind_01_White_VeryFast_1200x200.webm`
+        '200px': {
+            blue: `${prefix}/jb2a_patreon/Library/Generic/Healing/HealingAbility_01_Blue_200x200.webm`,
+            green: `${prefix}/jb2a_patreon/Library/Generic/Healing/HealingAbility_01_Green_200x200.webm`,
+            purple: `${prefix}/jb2a_patreon/Library/Generic/Healing/HealingAbility_01_Purple_200x200.webm`,
+            red: `${prefix}/jb2a_patreon/Library/Generic/Healing/HealingAbility_01_Red_200x200.webm`,
+            yellow: `${prefix}/jb2a_patreon/Library/Generic/Healing/HealingAbility_01_Yellow_200x200.webm`
         },
-        patreonDatabase.halberd = {
-            melee: {
-                _template: 'melee',
-                '01': {
-                    dark_orangepurple: [
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_01_Dark_OrangePurple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_02_Dark_OrangePurple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_03_Dark_OrangePurple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_04_Dark_OrangePurple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_05_Dark_OrangePurple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_06_Dark_OrangePurple_800x600.webm`
-                    ],
-                    blue: [
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_01_Regular_Blue_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_02_Regular_Blue_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_03_Regular_Blue_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_04_Regular_Blue_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_05_Regular_Blue_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_06_Regular_Blue_800x600.webm`
-                    ],
-                    orange: [
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_01_Regular_Orange_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_02_Regular_Orange_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_03_Regular_Orange_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_04_Regular_Orange_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_05_Regular_Orange_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_06_Regular_Orange_800x600.webm`
-                    ],
-                    purple: [
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_01_Regular_Purple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_02_Regular_Purple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_03_Regular_Purple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_04_Regular_Purple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_05_Regular_Purple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_06_Regular_Purple_800x600.webm`
-                    ],
-                    white: [
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_01_Regular_White_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_02_Regular_White_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_03_Regular_White_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_04_Regular_White_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_05_Regular_White_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Halberd01_06_Regular_White_800x600.webm`
-                    ]
-                }
-            }
+        '400px': {
+            blue: `${prefix}/jb2a_patreon/Library/Generic/Healing/HealingAbility_01_Blue_400x400.webm`,
+            green: `${prefix}/jb2a_patreon/Library/Generic/Healing/HealingAbility_01_Green_400x400.webm`,
+            purple: `${prefix}/jb2a_patreon/Library/Generic/Healing/HealingAbility_01_Purple_400x400.webm`,
+            red: `${prefix}/jb2a_patreon/Library/Generic/Healing/HealingAbility_01_Red_400x400.webm`,
+            yellow: `${prefix}/jb2a_patreon/Library/Generic/Healing/HealingAbility_01_Yellow_400x400.webm`
         },
-
-        patreonDatabase.hammer = {
-            melee: {
-                _template: 'melee',
-                '01': {
-                    dark_orangepurple: [
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_01_Dark_OrangePurple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_02_Dark_OrangePurple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_03_Dark_OrangePurple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_04_Dark_OrangePurple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_05_Dark_OrangePurple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_06_Dark_OrangePurple_800x600.webm`
-                    ],
-                    blue: [
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_01_Regular_Blue_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_02_Regular_Blue_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_03_Regular_Blue_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_04_Regular_Blue_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_05_Regular_Blue_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_06_Regular_Blue_800x600.webm`
-                    ],
-                    orange: [
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_01_Regular_Orange_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_02_Regular_Orange_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_03_Regular_Orange_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_04_Regular_Orange_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_05_Regular_Orange_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_06_Regular_Orange_800x600.webm`
-                    ],
-                    purple: [
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_01_Regular_Purple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_02_Regular_Purple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_03_Regular_Purple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_04_Regular_Purple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_05_Regular_Purple_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_06_Regular_Purple_800x600.webm`
-                    ],
-                    white: [
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_01_Regular_White_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_02_Regular_White_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_03_Regular_White_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_04_Regular_White_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_05_Regular_White_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_06_Regular_White_800x600.webm`
-                    ],
-                    yellow: [
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_01_Regular_Yellow_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_02_Regular_Yellow_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_03_Regular_Yellow_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_04_Regular_Yellow_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_05_Regular_Yellow_800x600.webm`,
-                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Hammer01_06_Regular_Yellow_800x600.webm`
-                    ]
-                }
-            },
-            return: {
-                _template: 'ranged',
-                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Hammer01_01_Regular_White_Return_15ft_1000x400.webm`,
-                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Hammer01_01_Regular_White_Return_30ft_1600x400.webm`,
-                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Hammer01_01_Regular_White_Return_60ft_2800x400.webm`,
-                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Hammer01_01_Regular_White_Return_90ft_4000x400.webm`
-            },
-            throw: {
-                _template: 'ranged',
-                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Hammer01_01_Regular_White_15ft_1000x400.webm`,
-                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Hammer01_01_Regular_White_30ft_1600x400.webm`,
-                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Hammer01_01_Regular_White_60ft_2800x400.webm`,
-                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Hammer01_01_Regular_White_90ft_4000x400.webm`
-            }
+        burst: {
+            bluewhite: `${prefix}/jb2a_patreon/Library/Generic/Healing/HealingAbility_02_Regular_BlueWhite_Burst_600x600.webm`,
+            greenorange: `${prefix}/jb2a_patreon/Library/Generic/Healing/HealingAbility_02_Regular_GreenOrange_Burst_600x600.webm`,
+            purplepink: `${prefix}/jb2a_patreon/Library/Generic/Healing/HealingAbility_02_Regular_PurplePink_Burst_600x600.webm`,
+            tealyellow: `${prefix}/jb2a_patreon/Library/Generic/Healing/HealingAbility_02_Regular_TealYellow_Burst_600x600.webm`
         },
-        patreonDatabase.handaxe = {
-            melee: {
-                _template: 'melee',
-                fire: {
-                    dark_purple: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/HandAxe02_Fire_Dark_Purple_800x600.webm`,
-                    blue: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/HandAxe02_Fire_Regular_Blue_800x600.webm`,
-                    green: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/HandAxe02_Fire_Regular_Green_800x600.webm`,
-                    orange: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/HandAxe02_Fire_Regular_Orange_800x600.webm`,
-                    pink: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/HandAxe02_Fire_Regular_Pink_800x600.webm`,
-                    red: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/HandAxe02_Fire_Regular_Red_800x600.webm`,
-                    yellow: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/HandAxe02_Fire_Regular_Yellow_800x600.webm`
-                },
-                standard: {
-                    white: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/HandAxe02_01_Regular_White_800x600.webm`
-                }
-            },
-            throw: {
-                _template: 'ranged',
-                '01': {
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/HandAxe01_01_Regular_White_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/HandAxe01_01_Regular_White_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/HandAxe01_01_Regular_White_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/HandAxe01_01_Regular_White_90ft_4000x400.webm`
-                },
-                '02': {
-                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/HandAxe02_01_Regular_White_15ft_1000x400.webm`,
-                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/HandAxe02_01_Regular_White_30ft_1600x400.webm`,
-                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/HandAxe02_01_Regular_White_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/HandAxe02_01_Regular_White_90ft_4000x400.webm`
-                }
-            }
-        },
-        patreonDatabase.healing_generic = {
-            '200px': {
-                blue: `${prefix}/jb2a_patreon/Library/Generic/Healing/HealingAbility_01_Blue_200x200.webm`,
-                green: `${prefix}/jb2a_patreon/Library/Generic/Healing/HealingAbility_01_Green_200x200.webm`,
-                purple: `${prefix}/jb2a_patreon/Library/Generic/Healing/HealingAbility_01_Purple_200x200.webm`,
-                red: `${prefix}/jb2a_patreon/Library/Generic/Healing/HealingAbility_01_Red_200x200.webm`,
-                yellow: `${prefix}/jb2a_patreon/Library/Generic/Healing/HealingAbility_01_Yellow_200x200.webm`
-            },
-            '400px': {
-                blue: `${prefix}/jb2a_patreon/Library/Generic/Healing/HealingAbility_01_Blue_400x400.webm`,
-                green: `${prefix}/jb2a_patreon/Library/Generic/Healing/HealingAbility_01_Green_400x400.webm`,
-                purple: `${prefix}/jb2a_patreon/Library/Generic/Healing/HealingAbility_01_Purple_400x400.webm`,
-                red: `${prefix}/jb2a_patreon/Library/Generic/Healing/HealingAbility_01_Red_400x400.webm`,
-                yellow: `${prefix}/jb2a_patreon/Library/Generic/Healing/HealingAbility_01_Yellow_400x400.webm`
-            },
-            burst: {
-                bluewhite: `${prefix}/jb2a_patreon/Library/Generic/Healing/HealingAbility_02_Regular_BlueWhite_Burst_600x600.webm`,
-                greenorange: `${prefix}/jb2a_patreon/Library/Generic/Healing/HealingAbility_02_Regular_GreenOrange_Burst_600x600.webm`,
-                purplepink: `${prefix}/jb2a_patreon/Library/Generic/Healing/HealingAbility_02_Regular_PurplePink_Burst_600x600.webm`,
-                tealyellow: `${prefix}/jb2a_patreon/Library/Generic/Healing/HealingAbility_02_Regular_TealYellow_Burst_600x600.webm`
-            },
-            loop: {
-                bluewhite: `${prefix}/jb2a_patreon/Library/Generic/Healing/HealingAbility_02_Regular_BlueWhite_Loop_600x600.webm`,
-                greenorange: `${prefix}/jb2a_patreon/Library/Generic/Healing/HealingAbility_02_Regular_GreenOrange_Loop_600x600.webm`,
-                purplepink: `${prefix}/jb2a_patreon/Library/Generic/Healing/HealingAbility_02_Regular_PurplePink_Loop_600x600.webm`,
-                tealyellow: `${prefix}/jb2a_patreon/Library/Generic/Healing/HealingAbility_02_Regular_TealYellow_Loop_600x600.webm`
-            }
-        },
+        loop: {
+            bluewhite: `${prefix}/jb2a_patreon/Library/Generic/Healing/HealingAbility_02_Regular_BlueWhite_Loop_600x600.webm`,
+            greenorange: `${prefix}/jb2a_patreon/Library/Generic/Healing/HealingAbility_02_Regular_GreenOrange_Loop_600x600.webm`,
+            purplepink: `${prefix}/jb2a_patreon/Library/Generic/Healing/HealingAbility_02_Regular_PurplePink_Loop_600x600.webm`,
+            tealyellow: `${prefix}/jb2a_patreon/Library/Generic/Healing/HealingAbility_02_Regular_TealYellow_Loop_600x600.webm`
+        }
+    },
         patreonDatabase.hunters_mark = {
+            _metadata: {
+                name: "Hunter's Mark",
+            },
             loop: {
                 '01': {
                     blue: `${prefix}/jb2a_patreon/Library/1st_Level/Hunters_Mark/HuntersMark_01_Regular_Blue_Loop_200x200.webm`,
                     green: `${prefix}/jb2a_patreon/Library/1st_Level/Hunters_Mark/HuntersMark_01_Regular_Green_Loop_200x200.webm`,
-                    purple: `${prefix}/jb2a_patreon/Library/1st_Level/Hunters_Mark/HuntersMark_01_Regular_Purple_Loop_200x200.webm`
+                    purple: `${prefix}/jb2a_patreon/Library/1st_Level/Hunters_Mark/HuntersMark_01_Regular_Purple_Loop_200x200.webm`,
+                    red: `${prefix}/jb2a_patreon/Library/1st_Level/Hunters_Mark/HuntersMark_01_Regular_Red_Loop_200x200.webm`
                 },
                 '02': {
                     blue: `${prefix}/jb2a_patreon/Library/1st_Level/Hunters_Mark/HuntersMark_02_Regular_Blue_Loop_200x200.webm`,
                     green: `${prefix}/jb2a_patreon/Library/1st_Level/Hunters_Mark/HuntersMark_02_Regular_Green_Loop_200x200.webm`,
-                    purple: `${prefix}/jb2a_patreon/Library/1st_Level/Hunters_Mark/HuntersMark_02_Regular_Purple_Loop_200x200.webm`
+                    purple: `${prefix}/jb2a_patreon/Library/1st_Level/Hunters_Mark/HuntersMark_02_Regular_Purple_Loop_200x200.webm`,
+                    red: `${prefix}/jb2a_patreon/Library/1st_Level/Hunters_Mark/HuntersMark_02_Regular_Red_Loop_200x200.webm`
                 }
             },
             pulse: {
                 '01': {
                     blue: `${prefix}/jb2a_patreon/Library/1st_Level/Hunters_Mark/HuntersMark_01_Regular_Blue_Pulse_200x200.webm`,
                     green: `${prefix}/jb2a_patreon/Library/1st_Level/Hunters_Mark/HuntersMark_01_Regular_Green_Pulse_200x200.webm`,
-                    purple: `${prefix}/jb2a_patreon/Library/1st_Level/Hunters_Mark/HuntersMark_01_Regular_Purple_Pulse_200x200.webm`
+                    purple: `${prefix}/jb2a_patreon/Library/1st_Level/Hunters_Mark/HuntersMark_01_Regular_Purple_Pulse_200x200.webm`,
+                    red: `${prefix}/jb2a_patreon/Library/1st_Level/Hunters_Mark/HuntersMark_01_Regular_Red_Pulse_200x200.webm`
                 },
                 '02': {
                     blue: `${prefix}/jb2a_patreon/Library/1st_Level/Hunters_Mark/HuntersMark_02_Regular_Blue_Pulse_200x200.webm`,
                     green: `${prefix}/jb2a_patreon/Library/1st_Level/Hunters_Mark/HuntersMark_02_Regular_Green_Pulse_200x200.webm`,
-                    purple: `${prefix}/jb2a_patreon/Library/1st_Level/Hunters_Mark/HuntersMark_02_Regular_Purple_Pulse_200x200.webm`
+                    purple: `${prefix}/jb2a_patreon/Library/1st_Level/Hunters_Mark/HuntersMark_02_Regular_Purple_Pulse_200x200.webm`,
+                    red: `${prefix}/jb2a_patreon/Library/1st_Level/Hunters_Mark/HuntersMark_02_Regular_Red_Pulse_200x200.webm`
                 }
             }
         },
         patreonDatabase.ice_spikes = {
+            _metadata: {
+                name: "Ice Spikes",
+            },
             radial: {
                 burst: {
                     blue: `${prefix}/jb2a_patreon/Library/Generic/Ice/IceSpikesRadialBurst_01_Regular_Blue_1000x1000.webm`,
@@ -3807,6 +4378,9 @@ export async function jb2aPatreonDatabase(prefix) {
             }
         },
         patreonDatabase.icon = {
+            _metadata: {
+                name: "Icons"
+            },
             drop: {
                 dark_green: `${prefix}/jb2a_patreon/Library/Generic/UI/IconDrop_01_Dark_Green_200x200.webm`,
                 red: `${prefix}/jb2a_patreon/Library/Generic/UI/IconDrop_01_Regular_Red_200x200.webm`,
@@ -3888,6 +4462,9 @@ export async function jb2aPatreonDatabase(prefix) {
             }
         },
         patreonDatabase.icosahedron = {
+            _metadata: {
+                name: "Icosahedron",
+            },
             simple: {
                 blue: `${prefix}/jb2a_patreon/Library/Generic/Energy/Icosahedron_01_Regular_Blue_600x600.webm`,
                 green: `${prefix}/jb2a_patreon/Library/Generic/Energy/Icosahedron_01_Regular_Green_600x600.webm`,
@@ -3925,6 +4502,13 @@ export async function jb2aPatreonDatabase(prefix) {
         },
         patreonDatabase.impact = {
             '001': {
+                _metadata: {
+                    name: "Impact",
+                    new: [
+                        "011.blue02",
+                        "012.blue02"
+                    ]
+                },
                 blue: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_01_Regular_Blue_400x400.webm`,
                 dark_red: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_01_Dark_Red_400x400.webm`,
                 dark_purple: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_01_Dark_Purple_400x400.webm`,
@@ -3934,6 +4518,9 @@ export async function jb2aPatreonDatabase(prefix) {
                 yellow: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_01_Regular_Yellow_400x400.webm`
             },
             '002': {
+                _metadata: {
+                    name: "Impact"
+                },
                 blue: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_02_Regular_Blue_400x400.webm`,
                 dark_red: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_02_Dark_Red_400x400.webm`,
                 dark_purple: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_02_Dark_Purple_400x400.webm`,
@@ -3943,6 +4530,9 @@ export async function jb2aPatreonDatabase(prefix) {
                 yellow: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_02_Regular_Yellow_400x400.webm`
             },
             '003': {
+                _metadata: {
+                    name: "Impact"
+                },
                 blue: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_03_Regular_Blue_400x400.webm`,
                 dark_red: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_03_Dark_Red_400x400.webm`,
                 dark_purple: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_03_Dark_Purple_400x400.webm`,
@@ -3952,6 +4542,9 @@ export async function jb2aPatreonDatabase(prefix) {
                 yellow: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_03_Regular_Yellow_400x400.webm`
             },
             '004': {
+                _metadata: {
+                    name: "Impact"
+                },
                 blue: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_04_Regular_Blue_400x400.webm`,
                 dark_red: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_04_Dark_Red_400x400.webm`,
                 dark_purple: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_04_Dark_Purple_400x400.webm`,
@@ -3961,6 +4554,9 @@ export async function jb2aPatreonDatabase(prefix) {
                 yellow: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_04_Regular_Yellow_400x400.webm`
             },
             '005': {
+                _metadata: {
+                    name: "Impact"
+                },
                 blue: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_05_Regular_Blue_400x400.webm`,
                 blue02: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_05_Regular_Blue02_400x400.webm`,
                 blue03: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_05_Regular_Blue03_400x400.webm`,
@@ -3975,25 +4571,38 @@ export async function jb2aPatreonDatabase(prefix) {
                 yellow: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_05_Regular_Yellow_400x400.webm`
             },
             '006': {
+                _metadata: {
+                    name: "Impact"
+                },
                 yellow: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_06_Regular_Yellow_400x400.webm`
             },
             '007': {
+                _metadata: {
+                    name: "Impact"
+                },
                 blue: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_07_Regular_Blue_400x400.webm`,
                 green: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_07_Regular_Green_400x400.webm`,
                 pink: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_07_Regular_Pink_400x400.webm`,
                 purple: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_07_Regular_Purple_400x400.webm`,
                 orange: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_07_Regular_Orange_400x400.webm`,
                 red: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_07_Regular_Red_400x400.webm`,
+                red: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_07_Regular_Red02_400x400.webm`,
                 white: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_07_Regular_White_400x400.webm`,
                 yellow: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_07_Regular_Yellow_400x400.webm`
             },
             '008': {
+                _metadata: {
+                    name: "Impact"
+                },
                 blue: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_08_Regular_Blue_400x400.webm`,
                 green: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_08_Regular_Green_400x400.webm`,
                 orange: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_08_Regular_Orange_400x400.webm`,
                 red: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_08_Regular_Red_400x400.webm`
             },
             '009': {
+                _metadata: {
+                    name: "Impact"
+                },
                 blue: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_09_Regular_Blue_400x400.webm`,
                 green: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_09_Regular_Green_400x400.webm`,
                 pink: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_09_Regular_Pink_400x400.webm`,
@@ -4002,13 +4611,20 @@ export async function jb2aPatreonDatabase(prefix) {
                 white: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_09_Regular_White_400x400.webm`
             },
             '010': {
+                _metadata: {
+                    name: "Impact"
+                },
                 blue: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_10_Regular_Blue_400x400.webm`,
                 green: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_10_Regular_Green_400x400.webm`,
                 orange: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_10_Regular_Orange_400x400.webm`,
                 red: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_10_Regular_Red_400x400.webm`
             },
             '011': {
+                _metadata: {
+                    name: "Impact"
+                },
                 blue: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_11_Regular_Blue_400x400.webm`,
+                blue02: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_11_Regular_Blue02_400x400.webm`,
                 dark_purple: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_11_Dark_Purple_400x400.webm`,
                 dark_red: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_11_Dark_Red_400x400.webm`,
                 green: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_11_Regular_Green_400x400.webm`,
@@ -4019,7 +4635,11 @@ export async function jb2aPatreonDatabase(prefix) {
                 yellow: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_11_Regular_Yellow_400x400.webm`
             },
             '012': {
+                _metadata: {
+                    name: "Impact"
+                },
                 blue: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_12_Regular_Blue_400x400.webm`,
+                blue02: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_12_Regular_Blue02_400x400.webm`,
                 dark_purple: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_12_Dark_Purple_400x400.webm`,
                 dark_red: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_12_Dark_Red_400x400.webm`,
                 green: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_12_Regular_Green_400x400.webm`,
@@ -4047,8 +4667,16 @@ export async function jb2aPatreonDatabase(prefix) {
                 `${prefix}/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_02_Regular_Blue_600x600.webm`,
                 `${prefix}/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_03_Regular_Blue_600x600.webm`
             ],
-            boulder: `${prefix}/jb2a_patreon/Library/Generic/Impact/BoulderImpact_01_Regular_White_500x500.webm`,
+            boulder: {
+                _metadata: {
+                    name: "Impact"
+                },
+                '01': `${prefix}/jb2a_patreon/Library/Generic/Impact/BoulderImpact_01_Regular_White_500x500.webm`,
+            },
             ground_crack: {
+                _metadata: {
+                    name: "Impact"
+                },
                 blue: {
                     '01': `${prefix}/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_01_Regular_Blue_600x600.webm`,
                     '02': `${prefix}/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_02_Regular_Blue_600x600.webm`,
@@ -4161,6 +4789,8 @@ export async function jb2aPatreonDatabase(prefix) {
             ],
             red: [
                 `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_05_Regular_Red_400x400.webm`,
+                `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_07_Regular_Red_400x400.webm`,
+                `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_07_Regular_Red02_400x400.webm`,
                 `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_08_Regular_Red_400x400.webm`,
                 `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_10_Regular_Red_400x400.webm`,
                 `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_11_Regular_Red_400x400.webm`,
@@ -4185,6 +4815,9 @@ export async function jb2aPatreonDatabase(prefix) {
             ]
         },
         patreonDatabase.impact_themed = {
+            _metadata: {
+                name: "Impact - Themed",
+            },
             heart: {
                 pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Impact/ImpactHeart01_01_Regular_PinkYellow_400x400.webm`
             },
@@ -4196,10 +4829,13 @@ export async function jb2aPatreonDatabase(prefix) {
             },
             skull: {
                 pinkpurple: `${prefix}/jb2a_patreon/Library/Generic/Impact/ImpactSkull01_01_Regular_PinkPurple_400x400.webm`
-
+    
             }
         },
         patreonDatabase.ioun_stones = {
+            _metadata: {
+                name: "Ioun Stones",
+            },
             '01': {
                 blue: {
                     awareness: `${prefix}/jb2a_patreon/Library/Generic/Item/IounStone_01_Awarness_Blue_200x200.webm`,
@@ -4259,7 +4895,8 @@ export async function jb2aPatreonDatabase(prefix) {
             }
         },
         patreonDatabase.javelin = {
-            //[--> WILL BE REMOVED   
+    
+            //[--> WILL BE REMOVED
             throw: {
                 _template: 'ranged',
                 '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Javelin01_01_Regular_White_15ft_1000x400.webm`,
@@ -4267,17 +4904,20 @@ export async function jb2aPatreonDatabase(prefix) {
                 '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Javelin01_01_Regular_White_60ft_2800x400.webm`,
                 '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Javelin01_01_Regular_White_90ft_4000x400.webm`
             },
-            //<--] WILL BE REMOVED        
+            //<--] WILL BE REMOVED
             '01': {
+                _metadata: {
+                    name: "Javelin",
+                },
+                _template: 'ranged',
                 throw: {
-                    _template: 'ranged',
+    
                     '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Javelin01_01_Regular_White_15ft_1000x400.webm`,
                     '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Javelin01_01_Regular_White_30ft_1600x400.webm`,
                     '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Javelin01_01_Regular_White_60ft_2800x400.webm`,
                     '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Javelin01_01_Regular_White_90ft_4000x400.webm`
                 },
                 return: {
-                    _template: 'ranged',
                     '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Javelin01_01_Regular_White_Return_15ft_1000x600.webm`,
                     '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Javelin01_01_Regular_White_Return_30ft_1600x600.webm`,
                     '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Javelin01_01_Regular_White_Return_60ft_2800x600.webm`,
@@ -4287,16 +4927,22 @@ export async function jb2aPatreonDatabase(prefix) {
         },
         patreonDatabase.kunai = {
             throw: {
+                _metadata: {
+                    name: "Kunai",
+                },
                 _template: 'ranged',
                 '01': {
                     '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Kunai01_01_Regular_White_15ft_1000x400.webm`,
                     '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Kunai01_01_Regular_White_30ft_1600x400.webm`,
                     '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Kunai01_01_Regular_White_60ft_2800x400.webm`,
-                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Kunai01_01_Regular_White_90ft_4000x400.webm`
+                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Kunai01_01_Regular_White_90ft_4000x400.webm`,
                 }
             }
         },
         patreonDatabase.lasershot = {
+            _metadata: {
+                name: "Laser Shot",
+            },
             _template: 'ranged',
             blue: {
                 '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/LaserShot_01_Regular_Blue_05ft_600x400.webm`,
@@ -4342,6 +4988,9 @@ export async function jb2aPatreonDatabase(prefix) {
             }
         },
         patreonDatabase.lasersword = {
+            _metadata: {
+                name: "Lasersword",
+            },
             melee: {
                 _template: 'melee',
                 blue: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/LaserSword01_01_Regular_Blue_800x600.webm`,
@@ -4434,6 +5083,9 @@ export async function jb2aPatreonDatabase(prefix) {
             }
         },
         patreonDatabase.lasersword_db = {
+            _metadata: {
+                name: "Lasersword Double Bladed",
+            },
             throw: {
                 _template: 'ranged',
                 blue: {
@@ -4511,7 +5163,14 @@ export async function jb2aPatreonDatabase(prefix) {
             }
         },
         patreonDatabase.lightning_ball = {
+            _metadata: {
+                name: "Lightning Ball",
+                new: [
+                    "blue02"
+                ]
+            },        
             blue: `${prefix}/jb2a_patreon/Library/Generic/Lightning/LightningBall_01_Regular_Blue_400x400.webm`,
+            blue02: `${prefix}/jb2a_patreon/Library/Generic/Lightning/LightningBall_01_Regular_Blue02_400x400.webm`,
             dark_purple: `${prefix}/jb2a_patreon/Library/Generic/Lightning/LightningBall_01_Dark_Purple_400x400.webm`,
             dark_red: `${prefix}/jb2a_patreon/Library/Generic/Lightning/LightningBall_01_Dark_Red_400x400.webm`,
             green: `${prefix}/jb2a_patreon/Library/Generic/Lightning/LightningBall_01_Regular_Green_400x400.webm`,
@@ -4522,6 +5181,9 @@ export async function jb2aPatreonDatabase(prefix) {
             yellow: `${prefix}/jb2a_patreon/Library/Generic/Lightning/LightningBall_01_Regular_Yellow_400x400.webm`
         },
         patreonDatabase.lightning_bolt = {
+            _metadata: {
+                name: "Lightning Bolt",
+            },
             _template: 'ray',
             narrow: {
                 blue: `${prefix}/jb2a_patreon/Library/3rd_Level/Lightning_Bolt/LightningBolt_01_Regular_Blue_4000x200.webm`,
@@ -4539,14 +5201,9 @@ export async function jb2aPatreonDatabase(prefix) {
             }
         },
         patreonDatabase.lightning_strike = {
-            //[--> WILL BE REMOVED 
-            '01': `${prefix}/jb2a_patreon/Library/Generic/Lightning/LightningStrike01_01_Regular_Blue_800x800.webm`,
-            '02': `${prefix}/jb2a_patreon/Library/Generic/Lightning/LightningStrike01_02_Regular_Blue_800x800.webm`,
-            '03': `${prefix}/jb2a_patreon/Library/Generic/Lightning/LightningStrike01_03_Regular_Blue_800x800.webm`,
-            '04': `${prefix}/jb2a_patreon/Library/Generic/Lightning/LightningStrike01_04_Regular_Blue_800x800.webm`,
-            '05': `${prefix}/jb2a_patreon/Library/Generic/Lightning/LightningStrike01_05_Regular_Blue_800x800.webm`,
-            '06': `${prefix}/jb2a_patreon/Library/Generic/Lightning/LightningStrike01_06_Regular_Blue_800x800.webm`,
-            //<--] WILL BE REMOVED 
+            _metadata: {
+                name: "Lightning Strike"
+            },
             blue: [
                 `${prefix}/jb2a_patreon/Library/Generic/Lightning/LightningStrike01_01_Regular_Blue_800x800.webm`,
                 `${prefix}/jb2a_patreon/Library/Generic/Lightning/LightningStrike01_02_Regular_Blue_800x800.webm`,
@@ -4574,25 +5231,38 @@ export async function jb2aPatreonDatabase(prefix) {
         },
         patreonDatabase.liquid = {
             splash: {
+                _metadata: {
+                    name: "Liquid",
+                },
                 bright_blue: `${prefix}/jb2a_patreon/Library/Generic/Liquid/LiquidSplash01_Bright_Blue_400x400.webm`,
                 bright_green: `${prefix}/jb2a_patreon/Library/Generic/Liquid/LiquidSplash01_Bright_Green_400x400.webm`,
                 bright_purple: `${prefix}/jb2a_patreon/Library/Generic/Liquid/LiquidSplash01_Bright_Purple_400x400.webm`,
+                dark_black: `${prefix}/jb2a_patreon/Library/Generic/Liquid/LiquidSplash01_Dark_Black_400x400.webm`,
                 blue: `${prefix}/jb2a_patreon/Library/Generic/Liquid/LiquidSplash01_Regular_Blue_400x400.webm`,
                 green: `${prefix}/jb2a_patreon/Library/Generic/Liquid/LiquidSplash01_Regular_Green_400x400.webm`,
+                grey: `${prefix}/jb2a_patreon/Library/Generic/Liquid/LiquidSplash01_Regular_Grey_400x400.webm`,
                 red: `${prefix}/jb2a_patreon/Library/Generic/Liquid/LiquidSplash01_Regular_Red_400x400.webm`
             },
             splash_side: {
+                _metadata: {
+                    name: "Liquid",
+                },
                 _template: 'side_impact',
                 bright_blue: `${prefix}/jb2a_patreon/Library/Generic/Liquid/LiquidSplashSide01_Bright_Blue_600x600.webm`,
                 bright_green: `${prefix}/jb2a_patreon/Library/Generic/Liquid/LiquidSplashSide01_Bright_Green_600x600.webm`,
                 bright_purple: `${prefix}/jb2a_patreon/Library/Generic/Liquid/LiquidSplashSide01_Bright_Purple_600x600.webm`,
+                dark_black: `${prefix}/jb2a_patreon/Library/Generic/Liquid/LiquidSplashSide01_Dark_Black_600x600.webm`,
                 blue: `${prefix}/jb2a_patreon/Library/Generic/Liquid/LiquidSplashSide01_Regular_Blue_600x600.webm`,
                 green: `${prefix}/jb2a_patreon/Library/Generic/Liquid/LiquidSplashSide01_Regular_Green_600x600.webm`,
+                grey: `${prefix}/jb2a_patreon/Library/Generic/Liquid/LiquidSplashSide01_Regular_Grey_600x600.webm`,
                 red: `${prefix}/jb2a_patreon/Library/Generic/Liquid/LiquidSplashSide01_Regular_Red_600x600.webm`
             }
         },
         patreonDatabase.mace = {
-            melee: {
+            _metadata: {
+                name: "Mace",
+            },
+            melee: { 
                 _template: 'melee',
                 fire: {
                     dark_purple: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Mace01_Fire_Dark_Purple_800x600.webm`,
@@ -4655,6 +5325,9 @@ export async function jb2aPatreonDatabase(prefix) {
             }
         },
         patreonDatabase.magic_missile = {
+            _metadata: {
+                name: "Magic Missile",
+            },
             _template: 'ranged',
             blue: {
                 '05ft':
@@ -4694,7 +5367,7 @@ export async function jb2aPatreonDatabase(prefix) {
                     ]
             },
             dark_red: {
-
+    
                 '05ft':
                     [
                         `${prefix}/jb2a_patreon/Library/1st_Level/Magic_Missile/MagicMissile_01_Dark_Red_05ft_01_600x400.webm`,
@@ -4871,6 +5544,9 @@ export async function jb2aPatreonDatabase(prefix) {
         },
         patreonDatabase.magic_signs = {
             circle: {
+                _metadata: {
+                    name: "Magic Signs - Circle",
+                },
                 '01': {
                     abjuration: {
                         blue: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Abjuration_01_Blue_Circle_800x800.webm`,
@@ -5236,6 +5912,9 @@ export async function jb2aPatreonDatabase(prefix) {
                 }
             },
             rune: {
+                _metadata: {
+                    name: "Magic Signs - Rune",
+                },
                 abjuration: {
                     intro: {
                         blue: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/AbjurationRuneIntro_01_Regular_Blue_400x400.webm`,
@@ -5447,6 +6126,9 @@ export async function jb2aPatreonDatabase(prefix) {
             }
         },
         patreonDatabase.markers = {
+            _metadata: {
+                name: "Markers",
+            },
             '01': {
                 blueyellow: `${prefix}/jb2a_patreon/Library/Generic/Marker/Marker_01_Regular_BlueYellow_400x400.webm`,
                 dark_bluewhite: `${prefix}/jb2a_patreon/Library/Generic/Marker/Marker_01_Dark_BlueWhite_400x400.webm`,
@@ -5817,6 +6499,9 @@ export async function jb2aPatreonDatabase(prefix) {
             }
         },
         patreonDatabase.maul = {
+            _metadata: {
+                name: "Maul",
+            },
             melee: {
                 _template: 'melee',
                 fire: {
@@ -5834,6 +6519,9 @@ export async function jb2aPatreonDatabase(prefix) {
             }
         },
         patreonDatabase.melee_generic = {
+            _metadata: {
+                name: "Melee - Generic",
+            },
             _template: "melee",
             bludgeoning: {
                 one_handed: `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/DmgBludgeoning_01_Regular_Yellow_1Handed_800x600.webm`,
@@ -5849,6 +6537,9 @@ export async function jb2aPatreonDatabase(prefix) {
             },
         },
         patreonDatabase.moonbeam = {
+            _metadata: {
+                name: "Moonbeam",
+            },
             '01': {
                 loop: {
                     blue: `${prefix}/jb2a_patreon/Library/2nd_Level/Moonbeam/Moonbeam_01_Regular_Blue_400x400.webm`,
@@ -5873,6 +6564,9 @@ export async function jb2aPatreonDatabase(prefix) {
             }
         },
         patreonDatabase.misty_step = {
+            _metadata: {
+                name: "Misty Step",
+            },
             '01': {
                 blue: `${prefix}/jb2a_patreon/Library/2nd_Level/Misty_Step/MistyStep_01_Regular_Blue_400x400.webm`,
                 dark_black: `${prefix}/jb2a_patreon/Library/2nd_Level/Misty_Step/MistyStep_01_Dark_Black_400x400.webm`,
@@ -5895,6 +6589,9 @@ export async function jb2aPatreonDatabase(prefix) {
             }
         },
         patreonDatabase.music_notations = {
+            _metadata: {
+                name: "Music Notations",
+            },
             bass_clef: {
                 blue: `${prefix}/jb2a_patreon/Library/Generic/Music_Notation/BassClef_01_Regular_Blue_200x200.webm`,
                 green: `${prefix}/jb2a_patreon/Library/Generic/Music_Notation/BassClef_01_Regular_Green_200x200.webm`,
@@ -5939,9 +6636,18 @@ export async function jb2aPatreonDatabase(prefix) {
             }
         },
         patreonDatabase.ouija_planchette = {
+            _metadata: {
+                name: "Ouija Planchette",
+            },
             pink: `${prefix}/jb2a_patreon/Library/Generic/Item/OuijaPlanchette_01_Regular_Pink_500x500.webm`
         },
         patreonDatabase.particles = {
+            _metadata: {
+                name: "Particles",
+                new: [
+                    "inward.*"
+                ]
+            },
             outward: {
                 blue: {
                     '01': {
@@ -5990,6 +6696,152 @@ export async function jb2aPatreonDatabase(prefix) {
                         '04': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesOutward02_04_Regular_Orange_400x400.webm`,
                         '05': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesOutward02_05_Regular_Orange_400x400.webm`
                     }
+                },
+                purple: {
+                    '01': {
+                        '01': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesOutward01_01_Regular_Purple_400x400.webm`,
+                        '02': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesOutward01_02_Regular_Purple_400x400.webm`,
+                        '03': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesOutward01_03_Regular_Purple_400x400.webm`,
+                        '04': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesOutward01_04_Regular_Purple_400x400.webm`,
+                        '05': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesOutward01_05_Regular_Purple_400x400.webm`
+                    },
+                    '02': {
+                        '01': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesOutward02_01_Regular_Purple_400x400.webm`,
+                        '02': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesOutward02_02_Regular_Purple_400x400.webm`,
+                        '03': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesOutward02_03_Regular_Purple_400x400.webm`,
+                        '04': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesOutward02_04_Regular_Purple_400x400.webm`,
+                        '05': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesOutward02_05_Regular_Purple_400x400.webm`
+                    }
+                },
+                red: {
+                    '01': {
+                        '01': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesOutward01_01_Regular_Red_400x400.webm`,
+                        '02': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesOutward01_02_Regular_Red_400x400.webm`,
+                        '03': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesOutward01_03_Regular_Red_400x400.webm`,
+                        '04': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesOutward01_04_Regular_Red_400x400.webm`,
+                        '05': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesOutward01_05_Regular_Red_400x400.webm`
+                    },
+                    '02': {
+                        '01': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesOutward02_01_Regular_Red_400x400.webm`,
+                        '02': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesOutward02_02_Regular_Red_400x400.webm`,
+                        '03': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesOutward02_03_Regular_Red_400x400.webm`,
+                        '04': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesOutward02_04_Regular_Red_400x400.webm`,
+                        '05': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesOutward02_05_Regular_Red_400x400.webm`
+                    }
+                },
+                white: {
+                    '01': {
+                        '01': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesOutward01_01_Regular_White_400x400.webm`,
+                        '02': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesOutward01_02_Regular_White_400x400.webm`,
+                        '03': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesOutward01_03_Regular_White_400x400.webm`,
+                        '04': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesOutward01_04_Regular_White_400x400.webm`,
+                        '05': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesOutward01_05_Regular_White_400x400.webm`
+                    },
+                    '02': {
+                        '01': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesOutward02_01_Regular_White_400x400.webm`,
+                        '02': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesOutward02_02_Regular_White_400x400.webm`,
+                        '03': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesOutward02_03_Regular_White_400x400.webm`,
+                        '04': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesOutward02_04_Regular_White_400x400.webm`,
+                        '05': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesOutward02_05_Regular_White_400x400.webm`
+                    }
+                }
+            },
+            inward: {
+                blue: {
+                    '01': {
+                        '01': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward01_01_Regular_Blue_400x400.webm`,
+                        '02': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward01_02_Regular_Blue_400x400.webm`,
+                        '03': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward01_03_Regular_Blue_400x400.webm`,
+                        '04': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward01_04_Regular_Blue_400x400.webm`,
+                        '05': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward01_05_Regular_Blue_400x400.webm`
+                    },
+                    '02': {
+                        '01': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward02_01_Regular_Blue_400x400.webm`,
+                        '02': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward02_02_Regular_Blue_400x400.webm`,
+                        '03': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward02_03_Regular_Blue_400x400.webm`,
+                        '04': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward02_04_Regular_Blue_400x400.webm`,
+                        '05': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward02_05_Regular_Blue_400x400.webm`
+                    }
+                },
+                greenyellow: {
+                    '01': {
+                        '01': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward01_01_Regular_GreenYellow_400x400.webm`,
+                        '02': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward01_02_Regular_GreenYellow_400x400.webm`,
+                        '03': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward01_03_Regular_GreenYellow_400x400.webm`,
+                        '04': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward01_04_Regular_GreenYellow_400x400.webm`,
+                        '05': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward01_05_Regular_GreenYellow_400x400.webm`
+                    },
+                    '02': {
+                        '01': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward02_01_Regular_GreenYellow_400x400.webm`,
+                        '02': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward02_02_Regular_GreenYellow_400x400.webm`,
+                        '03': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward02_03_Regular_GreenYellow_400x400.webm`,
+                        '04': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward02_04_Regular_GreenYellow_400x400.webm`,
+                        '05': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward02_05_Regular_GreenYellow_400x400.webm`
+                    }
+                },
+                orange: {
+                    '01': {
+                        '01': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward01_01_Regular_Orange_400x400.webm`,
+                        '02': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward01_02_Regular_Orange_400x400.webm`,
+                        '03': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward01_03_Regular_Orange_400x400.webm`,
+                        '04': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward01_04_Regular_Orange_400x400.webm`,
+                        '05': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward01_05_Regular_Orange_400x400.webm`
+                    },
+                    '02': {
+                        '01': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward02_01_Regular_Orange_400x400.webm`,
+                        '02': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward02_02_Regular_Orange_400x400.webm`,
+                        '03': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward02_03_Regular_Orange_400x400.webm`,
+                        '04': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward02_04_Regular_Orange_400x400.webm`,
+                        '05': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward02_05_Regular_Orange_400x400.webm`
+                    }
+                },
+                purple: {
+                    '01': {
+                        '01': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward01_01_Regular_Purple_400x400.webm`,
+                        '02': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward01_02_Regular_Purple_400x400.webm`,
+                        '03': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward01_03_Regular_Purple_400x400.webm`,
+                        '04': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward01_04_Regular_Purple_400x400.webm`,
+                        '05': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward01_05_Regular_Purple_400x400.webm`
+                    },
+                    '02': {
+                        '01': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward02_01_Regular_Purple_400x400.webm`,
+                        '02': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward02_02_Regular_Purple_400x400.webm`,
+                        '03': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward02_03_Regular_Purple_400x400.webm`,
+                        '04': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward02_04_Regular_Purple_400x400.webm`,
+                        '05': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward02_05_Regular_Purple_400x400.webm`
+                    }
+                },
+                red: {
+                    '01': {
+                        '01': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward01_01_Regular_Red_400x400.webm`,
+                        '02': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward01_02_Regular_Red_400x400.webm`,
+                        '03': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward01_03_Regular_Red_400x400.webm`,
+                        '04': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward01_04_Regular_Red_400x400.webm`,
+                        '05': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward01_05_Regular_Red_400x400.webm`
+                    },
+                    '02': {
+                        '01': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward02_01_Regular_Red_400x400.webm`,
+                        '02': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward02_02_Regular_Red_400x400.webm`,
+                        '03': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward02_03_Regular_Red_400x400.webm`,
+                        '04': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward02_04_Regular_Red_400x400.webm`,
+                        '05': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward02_05_Regular_Red_400x400.webm`
+                    }
+                },
+                white: {
+                    '01': {
+                        '01': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward01_01_Regular_White_400x400.webm`,
+                        '02': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward01_02_Regular_White_400x400.webm`,
+                        '03': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward01_03_Regular_White_400x400.webm`,
+                        '04': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward01_04_Regular_White_400x400.webm`,
+                        '05': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward01_05_Regular_White_400x400.webm`
+                    },
+                    '02': {
+                        '01': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward02_01_Regular_White_400x400.webm`,
+                        '02': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward02_02_Regular_White_400x400.webm`,
+                        '03': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward02_03_Regular_White_400x400.webm`,
+                        '04': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward02_04_Regular_White_400x400.webm`,
+                        '05': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesInward02_05_Regular_White_400x400.webm`
+                    }
                 }
             },
             swirl: {
@@ -6009,6 +6861,22 @@ export async function jb2aPatreonDatabase(prefix) {
                         '01': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesSwirl02_01_Regular_GreenYellow_400x400.webm`
                     }
                 },
+                purple: {
+                    '01': {
+                        '01': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesSwirl01_01_Regular_Purple_400x400.webm`,
+                    },
+                    '02': {
+                        '01': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesSwirl02_01_Regular_Purple_400x400.webm`
+                    }
+                },
+                red: {
+                    '01': {
+                        '01': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesSwirl01_01_Regular_Red_400x400.webm`,
+                    },
+                    '02': {
+                        '01': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesSwirl02_01_Regular_Red_400x400.webm`
+                    }
+                },
                 orange: {
                     '01': {
                         '01': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesSwirl01_01_Regular_Orange_400x400.webm`
@@ -6016,10 +6884,21 @@ export async function jb2aPatreonDatabase(prefix) {
                     '02': {
                         '01': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesSwirl02_01_Regular_Orange_400x400.webm`
                     }
-                }
+                },
+                white: {
+                    '01': {
+                        '01': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesSwirl01_01_Regular_White_400x400.webm`,
+                    },
+                    '02': {
+                        '01': `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticlesSwirl02_01_Regular_White_400x400.webm`
+                    }
+                },
             }
-        },
+        }
         patreonDatabase.portals = {
+            _metadata: {
+                name: "Portals"
+            },
             horizontal: {
                 ring: {
                     blue: `${prefix}/jb2a_patreon/Library/Generic/Portals/Portal_Bright_Blue_H_400x400.webm`,
@@ -6116,6 +6995,9 @@ export async function jb2aPatreonDatabase(prefix) {
             }
         },
         patreonDatabase.pumpkin = {
+            _metadata: {
+                name: "Pumpkin",
+            },
             _template: 'ranged',
             toss: {
                 '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/PumpkinToss01_01_Regular_Orange_05ft_600x500.webm`,
@@ -6126,6 +7008,9 @@ export async function jb2aPatreonDatabase(prefix) {
             }
         },
         patreonDatabase.quarterstaff = {
+            _metadata: {
+                name: "Quarterstaff",
+            },
             melee: {
                 _template: 'melee',
                 '01': {
@@ -6299,6 +7184,9 @@ export async function jb2aPatreonDatabase(prefix) {
             }
         },
         patreonDatabase.rapier = {
+            _metadata: {
+                name: "Rapier",
+            },
             melee: {
                 _template: 'melee',
                 fire: {
@@ -6355,6 +7243,9 @@ export async function jb2aPatreonDatabase(prefix) {
             }
         },
         patreonDatabase.ray_of_frost = {
+            _metadata: {
+                name: "Ray of Frost",
+            },
             _template: 'ranged',
             blue: {
                 '05ft': `${prefix}/jb2a_patreon/Library/Cantrip/Ray_Of_Frost/RayOfFrost_01_Regular_Blue_05ft_600x400.webm`,
@@ -6385,7 +7276,30 @@ export async function jb2aPatreonDatabase(prefix) {
                 '90ft': `${prefix}/jb2a_patreon/Library/Cantrip/Ray_Of_Frost/RayOfFrost_01_Regular_PurpleTeal_90ft_4000x400.webm`
             }
         },
+        patreonDatabase.sacred_flame = {
+            _metadata: {
+                name: "Sacred Flame",   
+            },
+            _template: 'large',
+            source: {
+                blue: `${prefix}/jb2a_patreon/Library/Cantrip/Sacred_Flame/SacredFlameSource_01_Regular_Blue_400x400.webm`,
+                green: `${prefix}/jb2a_patreon/Library/Cantrip/Sacred_Flame/SacredFlameSource_01_Regular_Green_400x400.webm`,
+                purple: `${prefix}/jb2a_patreon/Library/Cantrip/Sacred_Flame/SacredFlameSource_01_Regular_Purple_400x400.webm`,
+                white: `${prefix}/jb2a_patreon/Library/Cantrip/Sacred_Flame/SacredFlameSource_01_Regular_White_400x400.webm`,
+                yellow: `${prefix}/jb2a_patreon/Library/Cantrip/Sacred_Flame/SacredFlameSource_01_Regular_Yellow_400x400.webm`
+            },
+            target: {
+                blue: `${prefix}/jb2a_patreon/Library/Cantrip/Sacred_Flame/SacredFlameTarget_01_Regular_Blue_400x400.webm`,
+                green: `${prefix}/jb2a_patreon/Library/Cantrip/Sacred_Flame/SacredFlameTarget_01_Regular_Green_400x400.webm`,
+                purple: `${prefix}/jb2a_patreon/Library/Cantrip/Sacred_Flame/SacredFlameTarget_01_Regular_Purple_400x400.webm`,
+                white: `${prefix}/jb2a_patreon/Library/Cantrip/Sacred_Flame/SacredFlameTarget_01_Regular_White_400x400.webm`,
+                yellow: `${prefix}/jb2a_patreon/Library/Cantrip/Sacred_Flame/SacredFlameTarget_01_Regular_Yellow_400x400.webm`
+            }
+        }
         patreonDatabase.scimitar = {
+            _metadata: {
+                name: "Scimitar",
+            },
             melee: {
                 _template: 'melee',
                 '01': {
@@ -6433,12 +7347,23 @@ export async function jb2aPatreonDatabase(prefix) {
             }
         },
         patreonDatabase.scorched_earth = {
+            _metadata: {
+                name: "Scorched Earth",
+            },
             black: `${prefix}/jb2a_patreon/Library/Generic/Fire/ScorchedEarth_01_Black_800x800.webm`,
             green: `${prefix}/jb2a_patreon/Library/Generic/Fire/ScorchedEarth_01_Green_800x800.webm`,
             orange: `${prefix}/jb2a_patreon/Library/Generic/Fire/ScorchedEarth_01_Orange_800x800.webm`,
             red: `${prefix}/jb2a_patreon/Library/Generic/Fire/ScorchedEarth_01_Red_800x800.webm`
         },
         patreonDatabase.scorching_ray = {
+            _metadata: {
+                name: "Scorching Ray",
+                new: [
+                    "01.pink*",
+                    "02.pink*",
+                    "02.purple"
+                ]
+            },
             _template: 'ranged',
             '01': {
                 blue: {
@@ -6461,6 +7386,13 @@ export async function jb2aPatreonDatabase(prefix) {
                     '30ft': `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_01_Regular_Orange_30ft_1600x400.webm`,
                     '60ft': `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_01_Regular_Orange_60ft_2800x400.webm`,
                     '90ft': `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_01_Regular_Orange_90ft_4000x400.webm`
+                },
+                pink: {
+                    '05ft': `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_01_Regular_Pink_05ft_600x400.webm`,
+                    '15ft': `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_01_Regular_Pink_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_01_Regular_Pink_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_01_Regular_Pink_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_01_Regular_Pink_90ft_4000x400.webm`
                 },
                 purple: {
                     '05ft': `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_01_Regular_Purple_05ft_600x400.webm`,
@@ -6553,6 +7485,60 @@ export async function jb2aPatreonDatabase(prefix) {
                         `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Green_90ft_03_4000x400.webm`
                     ]
                 },
+                pink: {
+                    '05ft': [
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Pink_05ft_01_600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Pink_05ft_02_600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Pink_05ft_03_600x400.webm`
+                    ],
+                    '15ft': [
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Pink_15ft_01_1000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Pink_15ft_02_1000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Pink_15ft_03_1000x400.webm`
+                    ],
+                    '30ft': [
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Pink_30ft_01_1600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Pink_30ft_02_1600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Pink_30ft_03_1600x400.webm`
+                    ],
+                    '60ft': [
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Pink_60ft_01_2800x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Pink_60ft_02_2800x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Pink_60ft_03_2800x400.webm`
+                    ],
+                    '90ft': [
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Pink_90ft_01_4000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Pink_90ft_02_4000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Pink_90ft_03_4000x400.webm`
+                    ]
+                },
+                purple: {
+                    '05ft': [
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Purple_05ft_01_600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Purple_05ft_02_600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Purple_05ft_03_600x400.webm`
+                    ],
+                    '15ft': [
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Purple_15ft_01_1000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Purple_15ft_02_1000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Purple_15ft_03_1000x400.webm`
+                    ],
+                    '30ft': [
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Purple_30ft_01_1600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Purple_30ft_02_1600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Purple_30ft_03_1600x400.webm`
+                    ],
+                    '60ft': [
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Purple_60ft_01_2800x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Purple_60ft_02_2800x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Purple_60ft_03_2800x400.webm`
+                    ],
+                    '90ft': [
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Purple_90ft_01_4000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Purple_90ft_02_4000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Purple_90ft_03_4000x400.webm`
+                    ]
+                },
                 orange: {
                     '05ft': [
                         `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Orange_05ft_01_600x400.webm`,
@@ -6653,6 +7639,78 @@ export async function jb2aPatreonDatabase(prefix) {
                     ]
                 }
             },
+            pink: {
+                '01': {
+                    '05ft': `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_01_Regular_Pink_05ft_600x400.webm`,
+                    '15ft': `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_01_Regular_Pink_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_01_Regular_Pink_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_01_Regular_Pink_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_01_Regular_Pink_90ft_4000x400.webm`
+                },
+                '02': {
+                    '05ft': [
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Pink_05ft_01_600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Pink_05ft_02_600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Pink_05ft_03_600x400.webm`
+                    ],
+                    '15ft': [
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Pink_15ft_01_1000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Pink_15ft_02_1000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Pink_15ft_03_1000x400.webm`
+                    ],
+                    '30ft': [
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Pink_30ft_01_1600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Pink_30ft_02_1600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Pink_30ft_03_1600x400.webm`
+                    ],
+                    '60ft': [
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Pink_60ft_01_2800x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Pink_60ft_02_2800x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Pink_60ft_03_2800x400.webm`
+                    ],
+                    '90ft': [
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Pink_90ft_01_4000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Pink_90ft_02_4000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Pink_90ft_03_4000x400.webm`
+                    ]
+                }
+            },
+            purple: {
+                '01': {
+                    '05ft': `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_01_Regular_Purple_05ft_600x400.webm`,
+                    '15ft': `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_01_Regular_Purple_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_01_Regular_Purple_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_01_Regular_Purple_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_01_Regular_Purple_90ft_4000x400.webm`
+                },
+                '02': {
+                    '05ft': [
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Purple_05ft_01_600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Purple_05ft_02_600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Purple_05ft_03_600x400.webm`
+                    ],
+                    '15ft': [
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Purple_15ft_01_1000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Purple_15ft_02_1000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Purple_15ft_03_1000x400.webm`
+                    ],
+                    '30ft': [
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Purple_30ft_01_1600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Purple_30ft_02_1600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Purple_30ft_03_1600x400.webm`
+                    ],
+                    '60ft': [
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Purple_60ft_01_2800x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Purple_60ft_02_2800x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Purple_60ft_03_2800x400.webm`
+                    ],
+                    '90ft': [
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Purple_90ft_01_4000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Purple_90ft_02_4000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_02_Regular_Purple_90ft_03_4000x400.webm`
+                    ]
+                }
+            },
             orange: {
                 '01': {
                     '05ft': `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_01_Regular_Orange_05ft_600x400.webm`,
@@ -6691,11 +7749,21 @@ export async function jb2aPatreonDatabase(prefix) {
             },
         },
         patreonDatabase.screen_overlay = {
+            _metadata: {
+                name: "Screen Overlay",
+            },
             '01': {
-                bad_omen: `${prefix}/jb2a_patreon/Library/Generic/Screen_Overlay/BadOmen01_01_Dark_Black_1920x1080.webm`
+                bad_omen: {
+                    dark_black: `${prefix}/jb2a_patreon/Library/Generic/Screen_Overlay/BadOmen01_01_Dark_Black_1920x1080.webm`,
+                    lightblue: `${prefix}/jb2a_patreon/Library/Generic/Screen_Overlay/BadOmen01_01_Regular_LightBlue_1920x1080.webm`,
+                    yellow: `${prefix}/jb2a_patreon/Library/Generic/Screen_Overlay/BadOmen01_01_Regular_Yellow_1920x1080.webm`
+                }
             }
         },
         patreonDatabase.shatter = {
+            _metadata: {
+                name: "Shatter",
+            },
             blue: `${prefix}/jb2a_patreon/Library/2nd_Level/Shatter/Shatter_01_Blue_400x400.webm`,
             green: `${prefix}/jb2a_patreon/Library/2nd_Level/Shatter/Shatter_01_Green_400x400.webm`,
             orange: `${prefix}/jb2a_patreon/Library/2nd_Level/Shatter/Shatter_01_Orange_400x400.webm`,
@@ -6703,6 +7771,9 @@ export async function jb2aPatreonDatabase(prefix) {
             red: `${prefix}/jb2a_patreon/Library/2nd_Level/Shatter/Shatter_01_Red_400x400.webm`
         },
         patreonDatabase.shield = {
+            _metadata: {
+                name: "Shield",
+            },
             '01': {
                 intro: {
                     blue: `${prefix}/jb2a_patreon/Library/1st_Level/Shield/Shield_01_Regular_Blue_Intro_400x400.webm`,
@@ -6795,6 +7866,9 @@ export async function jb2aPatreonDatabase(prefix) {
             }
         },
         patreonDatabase.shield_themed = {
+            _metadata: {
+                name: "Shield - Themed",
+            },
             above: {
                 eldritch_web: {
                     '01': {
@@ -6897,6 +7971,9 @@ export async function jb2aPatreonDatabase(prefix) {
             }
         },
         patreonDatabase.shimmer = {
+            _metadata: {
+                name: "Shimmer",
+            },
             '01': {
                 blue: `${prefix}/jb2a_patreon/Library/Generic/Energy/Shimmer01_01_Regular_Blue_400x400.webm`,
                 green: `${prefix}/jb2a_patreon/Library/Generic/Energy/Shimmer01_01_Regular_Green_400x400.webm`,
@@ -6905,6 +7982,9 @@ export async function jb2aPatreonDatabase(prefix) {
             }
         },
         patreonDatabase.shortsword = {
+            _metadata: {
+                name: "Shortsword",
+            },
             melee: {
                 _template: 'melee',
                 '01': {
@@ -6959,7 +8039,10 @@ export async function jb2aPatreonDatabase(prefix) {
                 }
             }
         }
-    patreonDatabase.side_impact = {
+        patreonDatabase.side_impact = {
+        _metadata: {
+            name: "Side Impact",
+        },
         _template: 'side_impact',
         heart: {
             pink_yellow: `${prefix}/jb2a_patreon/Library/Generic/Impact/SideImpactHeart01_01_Regular_PinkYellow_600x600.webm`
@@ -7034,8 +8117,11 @@ export async function jb2aPatreonDatabase(prefix) {
                 yellow: `${prefix}/jb2a_patreon/Library/Generic/Impact/PartSideImpactShockwave01_01_Regular_Yellow_600x600.webm`
             }
         }
-    },
+        },
         patreonDatabase.sleep = {
+            _metadata: {
+                name: "Sleep",
+            },
             target: {
                 dark_orangepurple: `${prefix}/jb2a_patreon/Library/1st_Level/Sleep/SleepMarker01_01_Dark_OrangePurple_400x400.webm`,
                 dark_purple: `${prefix}/jb2a_patreon/Library/1st_Level/Sleep/SleepMarker01_01_Dark_Purple_400x400.webm`,
@@ -7076,12 +8162,18 @@ export async function jb2aPatreonDatabase(prefix) {
             }
         },
         patreonDatabase.sleet_storm = {
+            _metadata: {
+                name: "Sleet Storm",
+            },
             blue: `${prefix}/jb2a_patreon/Library/3rd_Level/Sleet_Storm/SleetStorm_01_Blue_800x800.webm`,
             green: `${prefix}/jb2a_patreon/Library/3rd_Level/Sleet_Storm/SleetStorm_01_Green_800x800.webm`,
             purple: `${prefix}/jb2a_patreon/Library/3rd_Level/Sleet_Storm/SleetStorm_01_Purple_800x800.webm`,
             tealyellow: `${prefix}/jb2a_patreon/Library/3rd_Level/Sleet_Storm/SleetStorm_01_TealYellow_800x800.webm`
         },
         patreonDatabase.slingshot = {
+            _metadata: {
+                name: "Slingshot",
+            },
             _template: 'ranged',
             '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/SlingShot_01_Regular_White_05ft_600x400.webm`,
             '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/SlingShot_01_Regular_White_15ft_1000x400.webm`,
@@ -7090,6 +8182,10 @@ export async function jb2aPatreonDatabase(prefix) {
             '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/SlingShot_01_Regular_White_90ft_4000x400.webm`
         },
         patreonDatabase.smoke = {
+            _metadata: {
+                name: "Smoke",
+                new: [ "ring.01.black" ]
+            },
             puff: {
                 side: {
                     blue: [
@@ -7156,8 +8252,42 @@ export async function jb2aPatreonDatabase(prefix) {
                     ]
                 }
             },
+            ring: {
+                '01': {
+                    white: `${prefix}/jb2a_patreon/Library/Generic/Smoke/SmokeRing_01_Regular_White_800x800.webm`,
+                    black: `${prefix}/jb2a_patreon/Library/Generic/Smoke/SmokeRing_01_Dark_Black_800x800.webm`
+                }
+            }
+        },
+        patreonDatabase.smoke_line = {
+            _metadata: {
+                name: "Smoke Line",
+            },
+            '05x05ft': {
+                lightblue: `${prefix}/jb2a_patreon/Library/Generic/Smoke/SmokeLine_01_Regular_LightBlue_05x05ft_400x400.webm`,
+                lightgreen: `${prefix}/jb2a_patreon/Library/Generic/Smoke/SmokeLine_01_Regular_LightGreen_05x05ft_400x400.webm`,
+                orange: `${prefix}/jb2a_patreon/Library/Generic/Smoke/SmokeLine_01_Regular_Orange_05x05ft_400x400.webm`
+            },
+            '10x05ft': {
+                lightblue: `${prefix}/jb2a_patreon/Library/Generic/Smoke/SmokeLine_01_Regular_LightBlue_10x05ft_800x400.webm`,
+                lightgreen: `${prefix}/jb2a_patreon/Library/Generic/Smoke/SmokeLine_01_Regular_LightGreen_10x05ft_800x400.webm`,
+                orange: `${prefix}/jb2a_patreon/Library/Generic/Smoke/SmokeLine_01_Regular_Orange_10x05ft_800x400.webm`
+            },
+            '15x05ft': {
+                lightblue: `${prefix}/jb2a_patreon/Library/Generic/Smoke/SmokeLine_01_Regular_LightBlue_15x05ft_1000x400.webm`,
+                lightgreen: `${prefix}/jb2a_patreon/Library/Generic/Smoke/SmokeLine_01_Regular_LightGreen_15x05ft_1000x400.webm`,
+                orange: `${prefix}/jb2a_patreon/Library/Generic/Smoke/SmokeLine_01_Regular_Orange_15x05ft_1000x400.webm`
+            },
+            '25x05ft': {
+                lightblue: `${prefix}/jb2a_patreon/Library/Generic/Smoke/SmokeLine_01_Regular_LightBlue_25x05ft_1400x400.webm`,
+                lightgreen: `${prefix}/jb2a_patreon/Library/Generic/Smoke/SmokeLine_01_Regular_LightGreen_25x05ft_1400x400.webm`,
+                orange: `${prefix}/jb2a_patreon/Library/Generic/Smoke/SmokeLine_01_Regular_Orange_25x05ft_1400x400.webm`
+            },
         },
         patreonDatabase.sneak_attack = {
+            _metadata: {
+                name: "Sneak Attack",
+            },
             blue: `${prefix}/jb2a_patreon/Library/1st_Level/Sneak_Attack/Sneak_Attack_Regular_Blue_300x300.webm`,
             dark_green: `${prefix}/jb2a_patreon/Library/1st_Level/Sneak_Attack/Sneak_Attack_Dark_Green_300x300.webm`,
             dark_purple: `${prefix}/jb2a_patreon/Library/1st_Level/Sneak_Attack/Sneak_Attack_Dark_Purple_300x300.webm`,
@@ -7167,6 +8297,9 @@ export async function jb2aPatreonDatabase(prefix) {
             yellow: `${prefix}/jb2a_patreon/Library/1st_Level/Sneak_Attack/Sneak_Attack_Regular_Yellow_300x300.webm`
         },
         patreonDatabase.sneak_attack_text = {
+            _metadata: {
+                name: "Sneak Attack - Text",
+            },
             '01': {
                 dark_red: `${prefix}/jb2a_patreon/Library/Generic/UI/SneakAttackText_01_Dark_Red_400x400.webm`
             },
@@ -7175,6 +8308,9 @@ export async function jb2aPatreonDatabase(prefix) {
             }
         },
         patreonDatabase.snowball_toss = {
+            _metadata: {
+                name: "Snowball Toss",
+            },
             _template: 'ranged',
             white: {
                 '01': {
@@ -7187,6 +8323,9 @@ export async function jb2aPatreonDatabase(prefix) {
             }
         },
         patreonDatabase.spear = {
+            _metadata: {
+                name: "Spear",
+            },
             melee: {
                 _template: 'melee',
                 fire: {
@@ -7269,6 +8408,9 @@ export async function jb2aPatreonDatabase(prefix) {
             }
         },
         patreonDatabase.spell_projectile = {
+            _metadata: {
+                name: "Spell Projectile",
+            },
             _template: 'ranged',
             heart: {
                 pinkyellow: {
@@ -7308,20 +8450,429 @@ export async function jb2aPatreonDatabase(prefix) {
             }
         },
         patreonDatabase.sphere_of_annihilation = {
+            _metadata: {
+                name: "Sphere of Annihilation",
+            },
             '200px': {
+                dark_red: `${prefix}/jb2a_patreon/Library/Generic/Item/SphereOfAnnihilation_01_Dark_Red_200x200.webm`,
                 blue: `${prefix}/jb2a_patreon/Library/Generic/Item/SphereOfAnnihilation_01_Regular_Blue_200x200.webm`,
                 green: `${prefix}/jb2a_patreon/Library/Generic/Item/SphereOfAnnihilation_01_Regular_Green_200x200.webm`,
                 purple: `${prefix}/jb2a_patreon/Library/Generic/Item/SphereOfAnnihilation_01_Regular_Purple_200x200.webm`,
+                purplered: `${prefix}/jb2a_patreon/Library/Generic/Item/SphereOfAnnihilation_01_Regular_PurpleRed_200x200.webm`,
                 white: `${prefix}/jb2a_patreon/Library/Generic/Item/SphereOfAnnihilation_01_Regular_White_200x200.webm`
             },
             '600px': {
+                dark_red: `${prefix}/jb2a_patreon/Library/Generic/Item/SphereOfAnnihilation_01_Dark_Red_600x600.webm`,
                 blue: `${prefix}/jb2a_patreon/Library/Generic/Item/SphereOfAnnihilation_01_Regular_Blue_600x600.webm`,
                 green: `${prefix}/jb2a_patreon/Library/Generic/Item/SphereOfAnnihilation_01_Regular_Green_600x600.webm`,
                 purple: `${prefix}/jb2a_patreon/Library/Generic/Item/SphereOfAnnihilation_01_Regular_Purple_600x600.webm`,
+                purplered: `${prefix}/jb2a_patreon/Library/Generic/Item/SphereOfAnnihilation_01_Regular_PurpleRed_600x600.webm`,
                 white: `${prefix}/jb2a_patreon/Library/Generic/Item/SphereOfAnnihilation_01_Regular_White_600x600.webm`
             }
         },
+        patreonDatabase.spike_trap = {
+            _metadata: {
+                name: "Spike Trap",
+                new: true
+            },
+            '05x05ft': {
+                top: {
+                    base: {
+                        normal: {
+                            '01': {
+                                '01': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopBase01_01_Regular_Brown_05x05ft_400x400.webm`,
+                                '02': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopBase01_02_Regular_Brown_05x05ft_400x400.webm`
+                            }
+                        },
+                        rearming: {
+                            '01': {
+                                '01': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopBaseRearm01_01_Regular_Brown_05x05ft_400x400.webm`,
+                                '02': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopBaseRearm01_02_Regular_Brown_05x05ft_400x400.webm`
+                            }
+                        },
+                        continuous: {
+                            '01': {
+                                '03': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopBase01_03_Regular_Brown_05x05ft_400x400.webm`
+                            }
+                        },
+                        still_frame: {
+                            deployed: `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/Stills/SpikeTrapTopBaseDeployed01_Regular_Brown_05x05ft_400x400_StillFrame.webp`,
+                            hidden: `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/Stills/SpikeTrapTopBaseHidden01_Regular_Brown_05x05ft_400x400_StillFrame.webp`
+                        }
+                    },
+                    no_base: {
+                        normal: {
+                            '01': {
+                                '01': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopNoBase01_01_Regular_Grey_05x05ft_400x400.webm`,
+                                '02': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopNoBase01_02_Regular_Grey_05x05ft_400x400.webm`
+                            }
+                        },
+                        rearming: {
+                            '01': {
+                                '01': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopNoBaseRearm01_01_Regular_Grey_05x05ft_400x400.webm`,
+                                '02': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopNoBaseRearm01_02_Regular_Grey_05x05ft_400x400.webm`
+                            }
+                        },
+                        continuous: {
+                            '01': {
+                                '03': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopNoBase01_03_Regular_Grey_05x05ft_400x400.webm`
+                            }
+                        },
+                        still_frame: {
+                            deployed: `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/Stills/SpikeTrapTopNoBaseDeployed01_Regular_Grey_05x05ft_400x400_StillFrame.webp`,
+                        }
+                    },
+                    holes: {
+                        normal: {
+                            '01': {
+                                '01': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopHoles01_01_Regular_Grey_05x05ft_400x400.webm`,
+                                '02': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopHoles01_02_Regular_Grey_05x05ft_400x400.webm`
+                            }
+                        },
+                        rearming: {
+                            '01': {
+                                '01': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopHolesRearm01_01_Regular_Grey_05x05ft_400x400.webm`,
+                                '02': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopHolesRearm01_02_Regular_Grey_05x05ft_400x400.webm`
+                            }
+                        },
+                        continuous: {
+                            '01': {
+                                '03': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopHoles01_03_Regular_Grey_05x05ft_400x400.webm`
+                            }
+                        },
+                        still_frame: {
+                            deployed: `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/Stills/SpikeTrapTopHolesDeployed01_Regular_Grey_05x05ft_400x400_StillFrame.webp`,
+                            hidden: `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/Stills/SpikeTrapTopHolesHidden01_Dark_Black_05x05ft_400x400_StillFrame.webp`
+                        }
+                    }
+                },
+                side: {
+                    base: {
+                        normal: {
+                            '01': {
+                                '01': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapSideBase01_01_Regular_Brown_05x05ft_400x300.webm`,
+                                '02': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapSideBase01_02_Regular_Brown_05x05ft_400x300.webm`
+                            },
+                        },
+                        rearming: {
+                            '01': {
+                                '01': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapSideBaseRearm01_01_Regular_Brown_05x05ft_400x300.webm`,
+                                '02': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapSideBaseRearm01_02_Regular_Brown_05x05ft_400x300.webm`
+                            }
+                        },
+                        continuous: {
+                            '01': {
+                                '03': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapSideBase01_03_Regular_Brown_05x05ft_400x300.webm`
+                            }
+                        },
+                        still_frame: {
+                            deployed: `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/Stills/SpikeTrapSideBaseDeployed01_Regular_Brown_05x05ft_400x300_StillFrame.webp`,
+                            hidden: `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/Stills/SpikeTrapSideBaseHidden01_Regular_Brown_05x05ft_400x300_StillFrame.webp`
+                        }
+                    },
+                    holes: {
+                        normal: {
+                            '01': {
+                                '01': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapSideHoles01_01_Regular_Grey_05x05ft_400x300.webm`,
+                                '02': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapSideHoles01_02_Regular_Grey_05x05ft_400x300.webm`
+                            }
+                        },
+                        rearming: {
+                            '01': {
+                                '01': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapSideHolesRearm01_01_Regular_Grey_05x05ft_400x300.webm`,
+                                '02': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapSideHolesRearm01_02_Regular_Grey_05x05ft_400x300.webm`
+                            }
+                        },
+                        continuous: {
+                            '01': {
+                                '03': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapSideHoles01_03_Regular_Grey_05x05ft_400x300.webm`
+                            }
+                        },
+                        still_frame: {
+                            deployed: `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/Stills/SpikeTrapSideHolesDeployed01_Regular_Grey_05x05ft_400x300_StillFrame.webp`,
+                            hidden: `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/Stills/SpikeTrapSideHolesHidden01_Dark_Black_05x05ft_400x300_StillFrame.webp`
+                        }
+                    }
+                }
+            },
+            '10x05ft': {
+                top: {
+                    base: {
+                        normal: {
+                            '01': {
+                                '01': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopBase01_01_Regular_Brown_10x05ft_600x400.webm`,
+                                '02': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopBase01_02_Regular_Brown_10x05ft_600x400.webm`
+                            },
+                            '02': {
+                                '01': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopBase02_01_Regular_Brown_10x05ft_600x400.webm`,
+                                '02': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopBase02_02_Regular_Brown_10x05ft_600x400.webm`
+                            },
+                        },
+                        rearming: {
+                            '01': {
+                                '01': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopBaseRearm01_01_Regular_Brown_10x05ft_600x400.webm`,
+                                '02': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopBaseRearm01_02_Regular_Brown_10x05ft_600x400.webm`
+                            },
+                            '02': {
+                                '01': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopBaseRearm02_01_Regular_Brown_10x05ft_600x400.webm`,
+                                '02': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopBaseRearm02_02_Regular_Brown_10x05ft_600x400.webm`
+                            }
+                        },
+                        continuous: {
+                            '01': {
+                                '03': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopBase01_03_Regular_Brown_10x05ft_600x400.webm`
+                            },
+                            '02': {
+                                '03': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopBase02_03_Regular_Brown_10x05ft_600x400.webm`
+                            },
+                        },
+                        still_frame: {
+                            deployed: `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/Stills/SpikeTrapTopBaseDeployed01_Regular_Brown_10x05ft_600x400_StillFrame.webp`,
+                            hidden: `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/Stills/SpikeTrapTopBaseHidden01_Regular_Brown_10x05ft_600x400_StillFrame.webp`
+                        }
+                    },
+                    no_base: {
+                        normal: {
+                            '01': {
+                                '01': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopNoBase01_01_Regular_Grey_10x05ft_600x400.webm`,
+                                '02': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopNoBase01_02_Regular_Grey_10x05ft_600x400.webm`
+                            },
+                            '02': {
+                                '01': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopNoBase02_01_Regular_Grey_10x05ft_600x400.webm`,
+                                '02': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopNoBase02_02_Regular_Grey_10x05ft_600x400.webm`
+                            }
+                        },
+                        rearming: {
+                            '01': {
+                                '01': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopNoBaseRearm01_01_Regular_Grey_10x05ft_600x400.webm`,
+                                '02': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopNoBaseRearm01_02_Regular_Grey_10x05ft_600x400.webm`
+                            },
+                            '02': {
+                                '01': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopNoBaseRearm02_01_Regular_Grey_10x05ft_600x400.webm`,
+                                '02': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopNoBaseRearm02_02_Regular_Grey_10x05ft_600x400.webm`
+                            }
+                        },
+                        continuous: {
+                            '01': {
+                                '03': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopNoBase01_03_Regular_Grey_10x05ft_600x400.webm`
+                            },
+                            '02': {
+                                '03': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopNoBase02_03_Regular_Grey_10x05ft_600x400.webm`
+                            }
+                        },
+                        still_frame: {
+                            deployed: `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/Stills/SpikeTrapTopNoBaseDeployed01_Regular_Grey_10x05ft_600x400_StillFrame.webp`
+                        }
+                    },
+                    holes: {
+                        normal: {
+                            '01': {
+                                '01': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopHoles01_01_Regular_Grey_10x05ft_600x400.webm`,
+                                '02': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopHoles01_02_Regular_Grey_10x05ft_600x400.webm`
+                            },
+                            '02': {
+                                '01': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopHoles02_01_Regular_Grey_10x05ft_600x400.webm`,
+                                '02': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopHoles02_02_Regular_Grey_10x05ft_600x400.webm`
+                            }
+                        },
+                        rearming: {
+                            '01': {
+                                '01': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopHolesRearm01_01_Regular_Grey_10x05ft_600x400.webm`,
+                                '02': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopHolesRearm01_02_Regular_Grey_10x05ft_600x400.webm`
+                            },
+                            '02': {
+                                '01': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopHolesRearm02_01_Regular_Grey_10x05ft_600x400.webm`,
+                                '02': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopHolesRearm02_02_Regular_Grey_10x05ft_600x400.webm`
+                            }
+                        },
+                        continuous: {
+                            '01': {
+                                '03': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopHoles01_03_Regular_Grey_10x05ft_600x400.webm`
+                            },
+                            '02': {
+                                '03': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopHoles02_03_Regular_Grey_10x05ft_600x400.webm`
+                            }
+                        },
+                        still_frame: {
+                            deployed: `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/Stills/SpikeTrapTopHolesDeployed01_Regular_Grey_10x05ft_600x400_StillFrame.webp`,
+                            hidden: `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/Stills/SpikeTrapTopHolesHidden01_Dark_Black_10x05ft_600x400_StillFrame.webp`
+                        }
+                    }
+                },
+                side: {
+                    base: {
+                        normal: {
+                            '01': {
+                                '01': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapSideBase01_01_Regular_Brown_10x05ft_600x300.webm`,
+                                '02': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapSideBase01_02_Regular_Brown_10x05ft_600x300.webm`
+                            }
+                        },
+                        rearming: {
+                            '01': {
+                                '01': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapSideBaseRearm01_01_Regular_Brown_10x05ft_600x300.webm`,
+                                '02': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapSideBaseRearm01_02_Regular_Brown_10x05ft_600x300.webm`
+                            }
+                        },
+                        continuous: {
+                            '01': {
+                                '03': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapSideBase01_03_Regular_Brown_10x05ft_600x300.webm`
+                            }
+                        },
+                        still_frame: {
+                            deployed: `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/Stills/SpikeTrapSideBaseDeployed01_Regular_Brown_10x05ft_600x300_StillFrame.webp`,
+                            hidden: `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/Stills/SpikeTrapSideBaseHidden01_Regular_Brown_10x05ft_600x300_StillFrame.webp`
+                        }
+                    },
+                    holes: {
+                        normal: {
+                            '01': {
+                                '01': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapSideHoles01_01_Regular_Grey_10x05ft_600x300.webm`,
+                                '02': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapSideHoles01_02_Regular_Grey_10x05ft_600x300.webm`
+                            }
+                        },
+                        rearming: {
+                            '01': {
+                                '01': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapSideHolesRearm01_01_Regular_Grey_10x05ft_600x300.webm`,
+                                '02': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapSideHolesRearm01_02_Regular_Grey_10x05ft_600x300.webm`
+                            }
+                        },
+                        continuous: {
+                            '01': {
+                                '03': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapSideHoles01_03_Regular_Grey_10x05ft_600x300.webm`
+                            }
+                        },
+                        still_frame: {
+                            deployed: `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/Stills/SpikeTrapSideHolesDeployed01_Regular_Grey_10x05ft_600x300_StillFrame.webp`,
+                            hidden: `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/Stills/SpikeTrapSideHolesHidden01_Dark_Black_10x05ft_600x300_StillFrame.webp`
+                        }
+                    }
+                }
+            },
+            '10x10ft': {
+                top: {
+                    base: {
+                        normal: {
+                            '01': {
+                                '01': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopBase01_01_Regular_Brown_10x10ft_600x600.webm`,
+                                '02': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopBase01_02_Regular_Brown_10x10ft_600x600.webm`
+                            }
+                        },
+                        rearming: {
+                            '01': {
+                                '01': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopBaseRearm01_01_Regular_Brown_10x10ft_600x600.webm`,
+                                '02': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopBaseRearm01_02_Regular_Brown_10x10ft_600x600.webm`
+                            }
+                        },
+                        continuous: {
+                            '01': {
+                                '03': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopBase01_03_Regular_Brown_10x10ft_600x600.webm`
+                            }
+                        },
+                        still_frame: {
+                            deployed: `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/Stills/SpikeTrapTopBaseDeployed01_Regular_Brown_10x10ft_600x600_StillFrame.webp`,
+                            hidden: `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/Stills/SpikeTrapTopBaseHidden01_Regular_Brown_10x10ft_600x600_StillFrame.webp`
+                        }
+                    },
+                    no_base: {
+                        normal: {
+                            '01': {
+                                '01': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopNoBase01_01_Regular_Grey_10x10ft_600x600.webm`,
+                                '02': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopNoBase01_02_Regular_Grey_10x10ft_600x600.webm`
+                            }
+                        },
+                        rearming: {
+                            '01': {
+                                '01': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopNoBaseRearm01_01_Regular_Grey_10x10ft_600x600.webm`,
+                                '02': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopNoBaseRearm01_02_Regular_Grey_10x10ft_600x600.webm`
+                            }
+                        },
+                        continuous: {
+                            '01': {
+                                '03': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopNoBase01_03_Regular_Grey_10x10ft_600x600.webm`
+                            }
+                        },
+                        still_frame: {
+                            deployed: `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/Stills/SpikeTrapTopNoBaseDeployed01_Regular_Grey_10x10ft_600x600_StillFrame.webp`
+                        }
+                    },
+                    holes: {
+                        normal: {
+                            '01': {
+                                '01': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopHoles01_01_Regular_Grey_10x10ft_600x600.webm`,
+                                '02': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopHoles01_02_Regular_Grey_10x10ft_600x600.webm`
+                            }
+                        },
+                        rearming: {
+                            '01': {
+                                '01': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopHolesRearm01_01_Regular_Grey_10x10ft_600x600.webm`,
+                                '02': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopHolesRearm01_02_Regular_Grey_10x10ft_600x600.webm`
+                            }
+                        },
+                        continuous: {
+                            '01': {
+                                '03': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapTopHoles01_03_Regular_Grey_10x10ft_600x600.webm`
+                            }
+                        },
+                        still_frame: {
+                            deployed: `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/Stills/SpikeTrapTopHolesDeployed01_Regular_Grey_10x10ft_600x600_StillFrame.webp`,
+                            hidden: `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/Stills/SpikeTrapTopHolesHidden01_Dark_Black_10x10ft_600x600_StillFrame.webp`
+                        }
+                    }
+                },
+                side: {
+                    base: {
+                        normal: {
+                            '01': {
+                                '01': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapSideBase01_01_Regular_Brown_10x10ft_600x300.webm`,
+                                '02': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapSideBase01_02_Regular_Brown_10x10ft_600x300.webm`
+                            },
+                        },
+                        rearming: {
+                            '01': {
+                                '01': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapSideBaseRearm01_01_Regular_Brown_10x10ft_600x300.webm`,
+                                '02': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapSideBaseRearm01_02_Regular_Brown_10x10ft_600x300.webm`
+                            }
+                        },
+                        continuous: {
+                            '01': {
+                                '03': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapSideBase01_03_Regular_Brown_10x10ft_600x300.webm`
+                            }
+                        },
+                        still_frame: {
+                            deployed: `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/Stills/SpikeTrapSideBaseDeployed01_Regular_Brown_10x10ft_600x300_StillFrame.webp`,
+                            hidden: `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/Stills/SpikeTrapSideBaseHidden01_Regular_Brown_10x10ft_600x300_StillFrame.webp`
+                        }
+                    },
+                    holes: {
+                        normal: {
+                            '01': {
+                                '01': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapSideHoles01_01_Regular_Grey_10x10ft_600x300.webm`,
+                                '02': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapSideHoles01_02_Regular_Grey_10x10ft_600x300.webm`
+                            }
+                        },
+                        rearming: {
+                            '01': {
+                                '01': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapSideHolesRearm01_01_Regular_Grey_10x10ft_600x300.webm`,
+                                '02': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapSideHolesRearm01_02_Regular_Grey_10x10ft_600x300.webm`
+                            }
+                        },
+                        continuous: {
+                            '01': {
+                                '03': `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/SpikeTrapSideHoles01_03_Regular_Grey_10x10ft_600x300.webm`
+                            }
+                        },
+                        still_frame: {
+                            deployed: `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/Stills/SpikeTrapSideHolesDeployed01_Regular_Grey_10x10ft_600x300_StillFrame.webp`,
+                            hidden: `${prefix}/jb2a_patreon/Library/Generic/Traps/Spike_Trap/Stills/SpikeTrapSideHolesHidden01_Dark_Black_10x10ft_600x300_StillFrame.webp`
+                        }
+                    }
+                }
+            }
+        }
         patreonDatabase.spirit_guardians = {
+            _metadata: {
+                name: "Spirit Guardians",
+            },
             blue: {
                 ring: `${prefix}/jb2a_patreon/Library/3rd_Level/Spirit_Guardians/SpiritGuardians_01_Light_Blue_600x600.webm`,
                 no_ring: `${prefix}/jb2a_patreon/Library/3rd_Level/Spirit_Guardians/SpiritGuardiansNoRing_01_Light_Blue_600x600.webm`,
@@ -7380,6 +8931,9 @@ export async function jb2aPatreonDatabase(prefix) {
             },
         },
         patreonDatabase.spiritual_weapon = {
+            _metadata: {
+                name: "Spiritual Weapon",
+            },
             mace: {
                 flaming: {
                     blue: `${prefix}/jb2a_patreon/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Mace01_01_Flaming_Blue_200x200.webm`,
@@ -7457,8 +9011,17 @@ export async function jb2aPatreonDatabase(prefix) {
             }
         },
         patreonDatabase.static_electricity = {
+            _metadata: {
+                name: "Static Electricity",
+                new: [
+                    "01.blue02",
+                    "02.blue02",
+                    "03.blue02",
+                ]
+            },
             '01': {
                 blue: `${prefix}/jb2a_patreon/Library/Generic/Lightning/StaticElectricity_01_Regular_Blue_400x400.webm`,
+                blue02: `${prefix}/jb2a_patreon/Library/Generic/Lightning/StaticElectricity_01_Regular_Blue02_400x400.webm`,
                 dark_purple: `${prefix}/jb2a_patreon/Library/Generic/Lightning/StaticElectricity_01_Dark_Purple_400x400.webm`,
                 dark_red: `${prefix}/jb2a_patreon/Library/Generic/Lightning/StaticElectricity_01_Dark_Red_400x400.webm`,
                 green: `${prefix}/jb2a_patreon/Library/Generic/Lightning/StaticElectricity_01_Regular_Green_400x400.webm`,
@@ -7470,6 +9033,7 @@ export async function jb2aPatreonDatabase(prefix) {
             },
             '02': {
                 blue: `${prefix}/jb2a_patreon/Library/Generic/Lightning/StaticElectricity_02_Regular_Blue_400x400.webm`,
+                blue02: `${prefix}/jb2a_patreon/Library/Generic/Lightning/StaticElectricity_02_Regular_Blue02_400x400.webm`,
                 dark_purple: `${prefix}/jb2a_patreon/Library/Generic/Lightning/StaticElectricity_02_Dark_Purple_400x400.webm`,
                 dark_red: `${prefix}/jb2a_patreon/Library/Generic/Lightning/StaticElectricity_02_Dark_Red_400x400.webm`,
                 green: `${prefix}/jb2a_patreon/Library/Generic/Lightning/StaticElectricity_02_Regular_Green_400x400.webm`,
@@ -7481,6 +9045,7 @@ export async function jb2aPatreonDatabase(prefix) {
             },
             '03': {
                 blue: `${prefix}/jb2a_patreon/Library/Generic/Lightning/StaticElectricity_03_Regular_Blue_400x400.webm`,
+                blue02: `${prefix}/jb2a_patreon/Library/Generic/Lightning/StaticElectricity_03_Regular_Blue02_400x400.webm`,
                 dark_purple: `${prefix}/jb2a_patreon/Library/Generic/Lightning/StaticElectricity_03_Dark_Purple_400x400.webm`,
                 dark_red: `${prefix}/jb2a_patreon/Library/Generic/Lightning/StaticElectricity_03_Dark_Red_400x400.webm`,
                 green: `${prefix}/jb2a_patreon/Library/Generic/Lightning/StaticElectricity_03_Regular_Green_400x400.webm`,
@@ -7491,7 +9056,48 @@ export async function jb2aPatreonDatabase(prefix) {
                 yellow: `${prefix}/jb2a_patreon/Library/Generic/Lightning/StaticElectricity_03_Regular_Yellow_400x400.webm`
             }
         },
+        patreonDatabase.swirling_leaves = {
+            _metadata: {
+                name: "Swirling Leaves",
+                new: true
+            },
+            complete: {
+                '01': {
+                    green: [
+                        `${prefix}/jb2a_patreon/Library/Generic/Nature/SwirlingLeavesComplete01_01_Regular_Green_400x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Nature/SwirlingLeavesComplete01_02_Regular_Green_400x400.webm`
+                    ],
+                    greenorange: [
+                        `${prefix}/jb2a_patreon/Library/Generic/Nature/SwirlingLeavesComplete01_01_Regular_GreenOrange_400x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Nature/SwirlingLeavesComplete01_02_Regular_GreenOrange_400x400.webm`
+                    ]
+                },
+                '02' : {
+                    green: `${prefix}/jb2a_patreon/Library/Generic/Nature/SwirlingLeavesComplete02_01_Regular_Green_400x400.webm`,
+                    greenorange: `${prefix}/jb2a_patreon/Library/Generic/Nature/SwirlingLeavesComplete02_01_Regular_GreenOrange_400x400.webm`
+                }
+            },
+            loop: {
+                '01': {
+                    green: [
+                        `${prefix}/jb2a_patreon/Library/Generic/Nature/SwirlingLeavesLoop01_01_Regular_Green_400x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Nature/SwirlingLeavesLoop01_02_Regular_Green_400x400.webm`
+                    ],
+                    greenorange: [
+                        `${prefix}/jb2a_patreon/Library/Generic/Nature/SwirlingLeavesLoop01_01_Regular_GreenOrange_400x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Nature/SwirlingLeavesLoop01_02_Regular_GreenOrange_400x400.webm`
+                    ]
+                },
+                '02' : {
+                    green: `${prefix}/jb2a_patreon/Library/Generic/Nature/SwirlingLeavesLoop02_01_Regular_Green_400x400.webm`,
+                    greenorange: `${prefix}/jb2a_patreon/Library/Generic/Nature/SwirlingLeavesLoop02_01_Regular_GreenOrange_400x400.webm`                    
+                }
+            }
+        },
         patreonDatabase.swirling_sparkles = {
+            _metadata: {
+                name: "Swirling Sparkles",
+            },
             '01': {
                 blue: `${prefix}/jb2a_patreon/Library/Generic/Energy/SwirlingSparkles_01_Regular_Blue_400x400.webm`,
                 bluepink: `${prefix}/jb2a_patreon/Library/Generic/Energy/SwirlingSparkles_01_Regular_BluePink_400x400.webm`,
@@ -7500,6 +9106,9 @@ export async function jb2aPatreonDatabase(prefix) {
             }
         },
         patreonDatabase.sword = {
+            _metadata: {
+                name: "Sword",
+            },
             melee: {
                 _template: 'melee',
                 fire: {
@@ -7580,6 +9189,9 @@ export async function jb2aPatreonDatabase(prefix) {
             }
         },
         patreonDatabase.template_circle = {
+            _metadata: {
+                name: "Template - Circle",
+            },
             symbol: {
                 normal: {
                     drop: {
@@ -7770,6 +9382,9 @@ export async function jb2aPatreonDatabase(prefix) {
             },
         },
         patreonDatabase.template_square = {
+            _metadata: {
+                name: "Template - Square",
+            },
             symbol: {
                 normal: {
                     drop: {
@@ -7890,6 +9505,9 @@ export async function jb2aPatreonDatabase(prefix) {
             }
         },
         patreonDatabase.token_border = {
+            _metadata: {
+                name: "Token Border",
+            },
             circle: {
                 static: {
                     blue: {
@@ -7988,6 +9606,9 @@ export async function jb2aPatreonDatabase(prefix) {
             }
         },
         patreonDatabase.token_stage = {
+            _metadata: {
+                name: "Token Stage",
+            },
             hex: {
                 blue: {
                     '01': {
@@ -8131,6 +9752,9 @@ export async function jb2aPatreonDatabase(prefix) {
             }
         },
         patreonDatabase.toll_the_dead = {
+            _metadata: {
+                name: "Toll The Dead",
+            },
             blue: {
                 bell: `${prefix}/jb2a_patreon/Library/Cantrip/Toll_The_Dead/TollTheDeadBell_01_Regular_Blue_400x400.webm`,
                 complete: `${prefix}/jb2a_patreon/Library/Cantrip/Toll_The_Dead/TollTheDead_01_Regular_Blue_400x400.webm`,
@@ -8142,6 +9766,12 @@ export async function jb2aPatreonDatabase(prefix) {
                 complete: `${prefix}/jb2a_patreon/Library/Cantrip/Toll_The_Dead/TollTheDead_01_Regular_Green_400x400.webm`,
                 shockwave: `${prefix}/jb2a_patreon/Library/Cantrip/Toll_The_Dead/TollTheDeadShockwave_01_Regular_Green_400x400.webm`,
                 skull_smoke: `${prefix}/jb2a_patreon/Library/Cantrip/Toll_The_Dead/TollTheDeadSkullSmoke_01_Regular_Green_400x400.webm`
+            },
+            grey: {
+                bell: `${prefix}/jb2a_patreon/Library/Cantrip/Toll_The_Dead/TollTheDeadBell_01_Regular_Grey_400x400.webm`,
+                complete: `${prefix}/jb2a_patreon/Library/Cantrip/Toll_The_Dead/TollTheDead_01_Regular_Grey_400x400.webm`,
+                shockwave: `${prefix}/jb2a_patreon/Library/Cantrip/Toll_The_Dead/TollTheDeadShockwave_01_Regular_Grey_400x400.webm`,
+                skull_smoke: `${prefix}/jb2a_patreon/Library/Cantrip/Toll_The_Dead/TollTheDeadSkullSmoke_01_Regular_Grey_400x400.webm`
             },
             purple: {
                 bell: `${prefix}/jb2a_patreon/Library/Cantrip/Toll_The_Dead/TollTheDeadBell_01_Regular_Purple_400x400.webm`,
@@ -8157,6 +9787,9 @@ export async function jb2aPatreonDatabase(prefix) {
             }
         },
         patreonDatabase.thunderwave = {
+            _metadata: {
+                name: "Thunderwave",
+            },
             bottom_left: {
                 blue: `${prefix}/jb2a_patreon/Library/1st_Level/Thunderwave/Thunderwave_01_Bright_Blue_BLeft_600x600.webm`,
                 dark_purple: `${prefix}/jb2a_patreon/Library/1st_Level/Thunderwave/Thunderwave_01_Dark_Purple_BLeft_600x600.webm`,
@@ -8180,6 +9813,9 @@ export async function jb2aPatreonDatabase(prefix) {
             }
         },
         patreonDatabase.twinkling_stars = {
+            _metadata: {
+                name: "Twinkling Stars",
+            },
             points04: {
                 orange: `${prefix}/jb2a_patreon/Library/Generic/Twinkling_Stars/TwinklingStars_04_Orange_100x100.webm`,
                 white: `${prefix}/jb2a_patreon/Library/Generic/Twinkling_Stars/TwinklingStars_04_100x100.webm`
@@ -8206,6 +9842,9 @@ export async function jb2aPatreonDatabase(prefix) {
             }
         },
         patreonDatabase.ui = {
+            _metadata: {
+                name: "U.I.",
+            },
             chevrons3: {
                 green: `${prefix}/jb2a_patreon/Library/Generic/UI/3Chevrons_01_Regular_Green_200x200.webm`,
                 purple: `${prefix}/jb2a_patreon/Library/Generic/UI/3Chevrons_01_Regular_Purple_200x200.webm`,
@@ -8213,8 +9852,19 @@ export async function jb2aPatreonDatabase(prefix) {
                 yellow: `${prefix}/jb2a_patreon/Library/Generic/UI/3Chevrons_01_Regular_Yellow_200x200.webm`
             },
             critical: {
-                red: `${prefix}/jb2a_patreon/Library/Generic/UI/Critical_02_Red_200x200.webm`,
+                red: [
+                    `${prefix}/jb2a_patreon/Library/Generic/UI/Critical_02_Red_200x200.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/UI/Critical_03_Red_200x200.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/UI/Critical_04_Red_200x200.webm`,
+                ],
                 yellow: `${prefix}/jb2a_patreon/Library/Generic/UI/Critical_01_Yellow_200x200.webm`
+            },
+            critical_miss: {
+                red : [
+                    `${prefix}/jb2a_patreon/Library/Generic/UI/CriticalMiss_02_Red_200x200.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/UI/CriticalMiss_03_Red_200x200.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/UI/CriticalMiss_04_Red_200x200.webm`,
+                ]
             },
             indicator: {
                 green: {
@@ -8268,6 +9918,9 @@ export async function jb2aPatreonDatabase(prefix) {
             }
         },
         patreonDatabase.unarmed_strike = {
+            _metadata: {
+                name: "Unarmed Strike",
+            },
             _template: 'melee',
             magical: {
                 '01': {
@@ -8317,6 +9970,9 @@ export async function jb2aPatreonDatabase(prefix) {
             }
         },
         patreonDatabase.wall_of_fire = {
+            _metadata: {
+                name: "Wall of Fire",
+            },
             '100x100': {
                 blue: `${prefix}/jb2a_patreon/Library/4th_Level/Wall_Of_Fire/WallOfFire_01_Blue_100x100.webm`,
                 yellow: `${prefix}/jb2a_patreon/Library/4th_Level/Wall_Of_Fire/WallOfFire_01_Yellow_100x100.webm`
@@ -8339,6 +9995,9 @@ export async function jb2aPatreonDatabase(prefix) {
             }
         },
         patreonDatabase.wall_of_force = {
+            _metadata: {
+                name: "Wall of Force",
+            },
             horizontal: {
                 blue: `${prefix}/jb2a_patreon/Library/5th_Level/Wall_Of_Force/WallOfForce_01_Blue_H_200x200.webm`,
                 green: `${prefix}/jb2a_patreon/Library/5th_Level/Wall_Of_Force/WallOfForce_01_Green_H_200x200.webm`,
@@ -8368,6 +10027,9 @@ export async function jb2aPatreonDatabase(prefix) {
             }
         },
         patreonDatabase.ward = {
+            _metadata: {
+                name: "Ward",
+            },
             rune: {
                 dark_purple: {
                     '01': `${prefix}/jb2a_patreon/Library/Generic/Marker/WardRune_01_Dark_Purple_600x600.webm`,
@@ -8392,6 +10054,9 @@ export async function jb2aPatreonDatabase(prefix) {
             }
         },
         patreonDatabase.warhammer = {
+            _metadata: {
+                name: "Warhammer",
+            },
             melee: {
                 _template: 'melee',
                 '01': {
@@ -8439,6 +10104,9 @@ export async function jb2aPatreonDatabase(prefix) {
             }
         },
         patreonDatabase.wrench = {
+            _metadata: {
+                name: "Wrench",
+            },
             melee: {
                 _template: 'melee',
                 '01': {
@@ -8486,10 +10154,16 @@ export async function jb2aPatreonDatabase(prefix) {
             }
         },
         patreonDatabase.web = {
+            _metadata: {
+                name: "Web",
+            },
             '01': `${prefix}/jb2a_patreon/Library/2nd_Level/Web/Web_01_White_01_400x400.webm`,
             '02': `${prefix}/jb2a_patreon/Library/2nd_Level/Web/Web_01_White_02_400x400.webm`
         },
         patreonDatabase.whirlwind = {
+            _metadata: {
+                name: "Whirlwind",
+            },
             blue: `${prefix}/jb2a_patreon/Library/7th_Level/Whirlwind/Whirlwind_01_Blue_400x400.webm`,
             bluegrey: `${prefix}/jb2a_patreon/Library/7th_Level/Whirlwind/Whirlwind_01_BlueGrey_01_400x400.webm`,
             bluegrey02: `${prefix}/jb2a_patreon/Library/7th_Level/Whirlwind/Whirlwind_01_BlueGrey_02_400x400.webm`,
@@ -8498,15 +10172,24 @@ export async function jb2aPatreonDatabase(prefix) {
             red: `${prefix}/jb2a_patreon/Library/7th_Level/Whirlwind/Whirlwind_01_Red_400x400.webm`
         },
         patreonDatabase.wind_wall = {
+            _metadata: {
+                name: "Wind Wall",
+            },
             '100x100': `${prefix}/jb2a_patreon/Library/3rd_Level/Wind_Wall/WindWall_01_100x100.webm`,
             '200x100': `${prefix}/jb2a_patreon/Library/3rd_Level/Wind_Wall/WindWall_01_200x100.webm`,
             '300x100': `${prefix}/jb2a_patreon/Library/3rd_Level/Wind_Wall/WindWall_01_300x100.webm`,
             '500x100': `${prefix}/jb2a_patreon/Library/3rd_Level/Wind_Wall/WindWall_01_500x100.webm`
         },
         patreonDatabase.wind_stream = {
+            _metadata: {
+                name: "Wind stream",
+            },
             white: `${prefix}/jb2a_patreon/Library/Generic/Wind/WindStreams_01_White_20OPA_1200x1200.webm`
         },
         patreonDatabase.witch_bolt = {
+            _metadata: {
+                name: "Witch Bolt",
+            },
             _template: 'ranged',
             blue: {
                 '05ft': `${prefix}/jb2a_patreon/Library/1st_Level/Witch_Bolt/WitchBolt_01_Regular_Blue_05ft_600x400.webm`,
@@ -8557,12 +10240,23 @@ export async function jb2aPatreonDatabase(prefix) {
                 '60ft': `${prefix}/jb2a_patreon/Library/1st_Level/Witch_Bolt/WitchBolt_01_Regular_Yellow_60ft_2800x400.webm`,
                 '90ft': `${prefix}/jb2a_patreon/Library/1st_Level/Witch_Bolt/WitchBolt_01_Regular_Yellow_90ft_4000x400.webm`
             }
-        },
+        }
         patreonDatabase.zoning = {
+            _metadata: {
+                name: "Zoning",
+            },
             ground: {
                 circle: {
                     '01': {
                         '01': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCircle01_01_600x600.webp`
+                    }
+                },
+                cone: {
+                    '01': {
+                        '01': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCone01_01_600x600.webp`,
+                        '04': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCone04_01_600x600.webp`,
+                        '05': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCone05_01_600x600.webp`,
+                        '06': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCone06_01_600x600.webp`,
                     }
                 },
                 square: {
@@ -8647,6 +10341,52 @@ export async function jb2aPatreonDatabase(prefix) {
                                 '01': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCircle01In_01_Regular_RedYellow_Loop_600x600.webm`,
                                 '02': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCircle02In_01_Regular_RedYellow_Loop_600x600.webm`,
                                 '03': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCircle03In_01_Regular_RedYellow_Loop_600x600.webm`
+                            }
+                        }
+                    }
+                },
+                cone: {
+                    once: {
+                        bluegreen: {
+                            '01': {
+                                '01': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCone01In_01_Regular_BlueGreen_600x600.webm`,
+                                '02': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCone02In_01_Regular_BlueGreen_600x600.webm`,
+                                '03': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCone03In_01_Regular_BlueGreen_600x600.webm`,
+                                '04': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCone04In_01_Regular_BlueGreen_600x600.webm`,
+                                '05': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCone05In_01_Regular_BlueGreen_600x600.webm`,
+                                '06': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCone06In_01_Regular_BlueGreen_600x600.webm`
+                            }
+                        },
+                        redyellow: {
+                            '01': {
+                                '01': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCone01In_01_Regular_RedYellow_600x600.webm`,
+                                '02': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCone02In_01_Regular_RedYellow_600x600.webm`,
+                                '03': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCone03In_01_Regular_RedYellow_600x600.webm`,
+                                '04': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCone04In_01_Regular_RedYellow_600x600.webm`,
+                                '05': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCone05In_01_Regular_RedYellow_600x600.webm`,
+                                '06': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCone06In_01_Regular_RedYellow_600x600.webm`
+                            }
+                        }
+                    },
+                    loop: {
+                        bluegreen: {
+                            '01': {
+                                '01': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCone01In_01_Regular_BlueGreen_Loop_600x600.webm`,
+                                '02': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCone02In_01_Regular_BlueGreen_Loop_600x600.webm`,
+                                '03': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCone03In_01_Regular_BlueGreen_Loop_600x600.webm`,
+                                '04': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCone04In_01_Regular_BlueGreen_Loop_600x600.webm`,
+                                '05': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCone05In_01_Regular_BlueGreen_Loop_600x600.webm`,
+                                '06': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCone06In_01_Regular_BlueGreen_Loop_600x600.webm`
+                            }
+                        },
+                        redyellow: {
+                            '01': {
+                                '01': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCone01In_01_Regular_RedYellow_Loop_600x600.webm`,
+                                '02': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCone02In_01_Regular_RedYellow_Loop_600x600.webm`,
+                                '03': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCone03In_01_Regular_RedYellow_Loop_600x600.webm`,
+                                '04': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCone04In_01_Regular_RedYellow_Loop_600x600.webm`,
+                                '05': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCone05In_01_Regular_RedYellow_Loop_600x600.webm`,
+                                '06': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCone06In_01_Regular_RedYellow_Loop_600x600.webm`
                             }
                         }
                     }
@@ -8771,6 +10511,52 @@ export async function jb2aPatreonDatabase(prefix) {
                                 '01': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCircle01Out_01_Regular_RedYellow_Loop_600x600.webm`,
                                 '02': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCircle02Out_01_Regular_RedYellow_Loop_600x600.webm`,
                                 '03': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCircle03Out_01_Regular_RedYellow_Loop_600x600.webm`
+                            }
+                        }
+                    }
+                },
+                cone: {
+                    once: {
+                        bluegreen: {
+                            '01': {
+                                '01': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCone01Out_01_Regular_BlueGreen_600x600.webm`,
+                                '02': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCone02Out_01_Regular_BlueGreen_600x600.webm`,
+                                '03': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCone03Out_01_Regular_BlueGreen_600x600.webm`,
+                                '04': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCone04Out_01_Regular_BlueGreen_600x600.webm`,
+                                '05': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCone05Out_01_Regular_BlueGreen_600x600.webm`,
+                                '06': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCone06Out_01_Regular_BlueGreen_600x600.webm`
+                            }
+                        },
+                        redyellow: {
+                            '01': {
+                                '01': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCone01Out_01_Regular_RedYellow_600x600.webm`,
+                                '02': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCone02Out_01_Regular_RedYellow_600x600.webm`,
+                                '03': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCone03Out_01_Regular_RedYellow_600x600.webm`,
+                                '04': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCone04Out_01_Regular_RedYellow_600x600.webm`,
+                                '05': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCone05Out_01_Regular_RedYellow_600x600.webm`,
+                                '06': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCone06Out_01_Regular_RedYellow_600x600.webm`
+                            }
+                        }
+                    },
+                    loop: {
+                        bluegreen: {
+                            '01': {
+                                '01': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCone01Out_01_Regular_BlueGreen_Loop_600x600.webm`,
+                                '02': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCone02Out_01_Regular_BlueGreen_Loop_600x600.webm`,
+                                '03': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCone03Out_01_Regular_BlueGreen_Loop_600x600.webm`,
+                                '04': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCone04Out_01_Regular_BlueGreen_Loop_600x600.webm`,
+                                '05': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCone05Out_01_Regular_BlueGreen_Loop_600x600.webm`,
+                                '06': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCone06Out_01_Regular_BlueGreen_Loop_600x600.webm`
+                            }
+                        },
+                        redyellow: {
+                            '01': {
+                                '01': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCone01Out_01_Regular_RedYellow_Loop_600x600.webm`,
+                                '02': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCone02Out_01_Regular_RedYellow_Loop_600x600.webm`,
+                                '03': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCone03Out_01_Regular_RedYellow_Loop_600x600.webm`,
+                                '04': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCone04Out_01_Regular_RedYellow_Loop_600x600.webm`,
+                                '05': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCone05Out_01_Regular_RedYellow_Loop_600x600.webm`,
+                                '06': `${prefix}/jb2a_patreon/Library/Generic/Zoning/ZoningCone06Out_01_Regular_RedYellow_Loop_600x600.webm`
                             }
                         }
                     }
@@ -8929,7 +10715,6 @@ export async function jb2aPatreonDatabase(prefix) {
                 }
             }
         }
-
-}
-
+    
+    }
 export { patreonDatabase } 
