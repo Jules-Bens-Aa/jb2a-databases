@@ -2538,6 +2538,7 @@ export async function jb2aPatreonDatabase(prefix) {
                 _metadata: {
                     name: "Energy Strands: Multiple",
                 },
+                _template: 'ranged',
                 dark_green: {
                     '01': {
                         '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Green_05ft_600x400.webm`,

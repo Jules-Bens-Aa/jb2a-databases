@@ -577,6 +577,7 @@ export async function jb2aFreeDatabase(prefix) {
                     }
                 },
                 multiple: {
+                    _template: 'ranged',
                     purple: {
                         '01': {
                             '05ft': `${prefix}/JB2A_DnD5e/Library/Generic/Energy/EnergyStrand_Multiple01_Regular_Purple_05ft_600x400.webm`,
