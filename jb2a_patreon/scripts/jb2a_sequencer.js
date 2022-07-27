@@ -810,7 +810,6 @@ export async function jb2aPatreonDatabase(prefix) {
             cone: {
                 _metadata: {
                     name: "Breath Weapons - Cone",
-                    new: ['multicolored*']
                 },
                 _template: "cone",
                 blue: {
@@ -2250,7 +2249,6 @@ export async function jb2aPatreonDatabase(prefix) {
         in: {
             _metadata: {
                 name: "Energy Strands: IN",
-                new: ['blue*']
             },
             blue: {
                 '01': [
@@ -2652,6 +2650,14 @@ export async function jb2aPatreonDatabase(prefix) {
         yellow: `${prefix}/jb2a_patreon/Library/1st_Level/Entangle/Entangle_01_Yellow_400x400.webm`
     }
     patreonDatabase.explosion = {
+        _metadata: {
+            name: "Explosion",
+            new: [
+                '08*',
+                'side_fracture*',
+                'shrapnel*'
+            ]
+        },
         '01': {
             _metadata: {
                 name: "Explosion",
@@ -2720,10 +2726,57 @@ export async function jb2aPatreonDatabase(prefix) {
             purplepink: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/OutPulse/OutPulse_02_Regular_PurplePink_Burst_600x600.webm`,
             tealyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/OutPulse/OutPulse_02_Regular_TealYellow_Burst_600x600.webm`
         },
+        '08': {
+            _metadata: {
+                name: "Explosion",
+            },
+            blue: `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_05_Regular_Blue_400x400.webm`,
+            green: `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_05_Regular_Green_400x400.webm`,
+            orange: `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_05_Regular_Orange_400x400.webm`,
+            dark_blue: `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_05_Dark_Blue_400x400.webm`,
+            dark_green: `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_05_Dark_Green_400x400.webm`,
+            dark_orange: `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_05_Dark_Orange_400x400.webm`,
+        },
+        side_fracture: {
+            _metadata: {
+                name: "Side Fracture",
+            },
+            flask: {
+                '01': `${prefix}/jb2a_patreon/Library/Generic/Explosion/SideFractureFlask01_01_800x400.webm`,
+                '02': `${prefix}/jb2a_patreon/Library/Generic/Explosion/SideFractureFlask02_01_800x400.webm`,
+                '03': `${prefix}/jb2a_patreon/Library/Generic/Explosion/SideFractureFlask03_01_800x400.webm`,
+            }
+        },
+        shrapnel: {
+            _metadata: {
+                name: "Shrapnel",
+            },
+            bomb: {
+                '01': {
+                    black: `${prefix}/jb2a_patreon/Library/Generic/Explosion/ShrapnelBomb01_01_Regular_Black_800x800.webm`,
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Explosion/ShrapnelBomb01_01_Regular_Blue_800x800.webm`,
+                    green: `${prefix}/jb2a_patreon/Library/Generic/Explosion/ShrapnelBomb01_01_Regular_Green_800x800.webm`,
+                    grey: `${prefix}/jb2a_patreon/Library/Generic/Explosion/ShrapnelBomb01_01_Regular_Grey_800x800.webm`,
+                    red: `${prefix}/jb2a_patreon/Library/Generic/Explosion/ShrapnelBomb01_01_Regular_Red_800x800.webm`,
+                }
+            },
+            grenade: {
+                '01': {
+                    green: `${prefix}/jb2a_patreon/Library/Generic/Explosion/ShrapnelGrenade01_01_Regular_Green_800x800.webm`,
+                },
+                '02': {
+                    black: `${prefix}/jb2a_patreon/Library/Generic/Explosion/ShrapnelGrenade02_01_Regular_Black_800x800.webm`,
+                },
+                '03': {
+                    black: `${prefix}/jb2a_patreon/Library/Generic/Explosion/ShrapnelGrenade03_01_Regular_Black_800x800.webm`,
+                }
+            }
+        },
         blue: [
             `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_01_Blue_400x400.webm`,
             `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_02_Blue_400x400.webm`,
-            `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_04_Regular_Blue_400x400.webm`
+            `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_04_Regular_Blue_400x400.webm`,
+            `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_05_Regular_Blue_400x400.webm`,
         ],
         bluewhite: [
             `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_03_Dark_BlueWhite_400x400.webm`,
@@ -2743,7 +2796,8 @@ export async function jb2aPatreonDatabase(prefix) {
         green: [
             `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_01_Green_400x400.webm`,
             `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_02_Green_400x400.webm`,
-            `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_04_Regular_Green_400x400.webm`
+            `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_04_Regular_Green_400x400.webm`,
+            `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_05_Regular_Green_400x400.webm`,
         ],
         greenorange: [
             `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_03_Regular_GreenOrange_400x400.webm`,
@@ -2754,7 +2808,8 @@ export async function jb2aPatreonDatabase(prefix) {
         orange: [
             `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_01_Orange_400x400.webm`,
             `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_02_Orange_400x400.webm`,
-            `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_04_Regular_Orange_400x400.webm`
+            `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_04_Regular_Orange_400x400.webm`,
+            `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_05_Regular_Orange_400x400.webm`,
         ],
         pink: [
             `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_03_Regular_Pink_400x400.webm`
@@ -2992,6 +3047,7 @@ export async function jb2aPatreonDatabase(prefix) {
     patreonDatabase.falchion = {
         _metadata: {
             name: "Falchion",
+            new: ['black*']
         },
         melee: {
             _template: 'melee',
@@ -3003,6 +3059,14 @@ export async function jb2aPatreonDatabase(prefix) {
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_04_Dark_OrangePurple_800x600.webm`,
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_05_Dark_OrangePurple_800x600.webm`,
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_06_Dark_OrangePurple_800x600.webm`
+                ],
+                black: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_01_Regular_Black_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_02_Regular_Black_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_03_Regular_Black_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_04_Regular_Black_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_05_Regular_Black_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_06_Regular_Black_800x600.webm`
                 ],
                 blue: [
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Falchion01_01_Regular_Blue_800x600.webm`,
@@ -3717,6 +3781,7 @@ export async function jb2aPatreonDatabase(prefix) {
     patreonDatabase.glaive = {
         _metadata: {
             name: "Glaive",
+            new: ['black*']
         },    
         melee: {
             _template: 'melee',
@@ -3728,6 +3793,14 @@ export async function jb2aPatreonDatabase(prefix) {
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_04_Dark_OrangePurple_800x600.webm`,
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_05_Dark_OrangePurple_800x600.webm`,
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_06_Dark_OrangePurple_800x600.webm`
+                ],
+                black: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_01_Regular_Black_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_02_Regular_Black_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_03_Regular_Black_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_04_Regular_Black_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_05_Regular_Black_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_06_Regular_Black_800x600.webm`
                 ],
                 blue: [
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive01_01_Regular_Blue_800x600.webm`,
@@ -3770,6 +3843,14 @@ export async function jb2aPatreonDatabase(prefix) {
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_04_Dark_OrangePurple_800x600.webm`,
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_05_Dark_OrangePurple_800x600.webm`,
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_06_Dark_OrangePurple_800x600.webm`
+                ],
+                black: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_01_Regular_Black_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_02_Regular_Black_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_03_Regular_Black_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_04_Regular_Black_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_05_Regular_Black_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_06_Regular_Black_800x600.webm`
                 ],
                 blue: [
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Glaive02_01_Regular_Blue_800x600.webm`,
@@ -4372,7 +4453,8 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.icon = {
             _metadata: {
-                name: "Icons"
+                name: "Icons",
+                new: ['shield.blue*']
             },
             drop: {
                 dark_green: `${prefix}/jb2a_patreon/Library/Generic/UI/IconDrop_01_Dark_Green_200x200.webm`,
@@ -4434,6 +4516,7 @@ export async function jb2aPatreonDatabase(prefix) {
             },
             shield: {
                 dark_red: `${prefix}/jb2a_patreon/Library/Generic/UI/IconShield_01_Dark_Red_200x200.webm`,
+                blue: `${prefix}/jb2a_patreon/Library/Generic/UI/IconShield_01_Regular_Blue_200x200.webm`,
                 green: `${prefix}/jb2a_patreon/Library/Generic/UI/IconShield_01_Regular_Green_200x200.webm`,
             },
             shield_cracked: {
@@ -5220,7 +5303,6 @@ export async function jb2aPatreonDatabase(prefix) {
     patreonDatabase.liquid = {
             _metadata: {
                 name: "Liquid",
-                new: true
             },
             blob: {
                 blue: `${prefix}/jb2a_patreon/Library/Generic/Liquid/LiquidBlob01_01_Regular_Blue_400x400.webm`,
@@ -6125,7 +6207,7 @@ export async function jb2aPatreonDatabase(prefix) {
     patreonDatabase.markers = {
             _metadata: {
                 name: "Markers",
-                new: ['chain*']
+                new: ['shield.blue*']
             },
             '01': {
                 blueyellow: `${prefix}/jb2a_patreon/Library/Generic/Marker/Marker_01_Regular_BlueYellow_400x400.webm`,
@@ -6554,6 +6636,11 @@ export async function jb2aPatreonDatabase(prefix) {
                     '02': `${prefix}/jb2a_patreon/Library/Generic/Marker/MarkerShield_02_Dark_Red_400x400.webm`,
                     '03': `${prefix}/jb2a_patreon/Library/Generic/Marker/MarkerShield_03_Dark_Red_400x400.webm`
                 },
+                blue: {
+                    '01': `${prefix}/jb2a_patreon/Library/Generic/Marker/MarkerShield_01_Regular_Blue_400x400.webm`,
+                    '02': `${prefix}/jb2a_patreon/Library/Generic/Marker/MarkerShield_02_Regular_Blue_400x400.webm`,
+                    '03': `${prefix}/jb2a_patreon/Library/Generic/Marker/MarkerShield_03_Regular_Blue_400x400.webm`
+                },
                 green: {
                     '01': `${prefix}/jb2a_patreon/Library/Generic/Marker/MarkerShield_01_Regular_Green_400x400.webm`,
                     '02': `${prefix}/jb2a_patreon/Library/Generic/Marker/MarkerShield_02_Regular_Green_400x400.webm`,
@@ -6682,7 +6769,6 @@ export async function jb2aPatreonDatabase(prefix) {
     patreonDatabase.misty_step = {
             _metadata: {
                 name: "Misty Step",
-                new: ['yellow*', 'red*']
             },
             '01': {
                 blue: `${prefix}/jb2a_patreon/Library/2nd_Level/Misty_Step/MistyStep_01_Regular_Blue_400x400.webm`,
@@ -7476,7 +7562,6 @@ export async function jb2aPatreonDatabase(prefix) {
     patreonDatabase.scorching_ray = {
             _metadata: {
                 name: "Scorching Ray",
-                new: ['loop*']
             },
             _template: 'ranged',
             '01': {
@@ -8330,6 +8415,10 @@ export async function jb2aPatreonDatabase(prefix) {
     patreonDatabase.smoke = {
             _metadata: {
                 name: "Smoke",
+                new: [
+                    "puff.ring*",
+                    "puff.side['02']*"
+                ]
             },
             puff: {
                 side: {
@@ -8367,7 +8456,20 @@ export async function jb2aPatreonDatabase(prefix) {
                         `${prefix}/jb2a_patreon/Library/Generic/Smoke/SmokePuffSide01_03_Regular_Grey_400x400.webm`,
                         `${prefix}/jb2a_patreon/Library/Generic/Smoke/SmokePuffSide01_04_Regular_Grey_400x400.webm`,
                         `${prefix}/jb2a_patreon/Library/Generic/Smoke/SmokePuffSide01_05_Regular_Grey_400x400.webm`,
-                    ]
+                    ],
+                    '02': {
+                        dark_black: [
+                            `${prefix}/jb2a_patreon/Library/Generic/Smoke/SmokePuffSide02_01_Dark_Black_400x400.webm`,
+                            `${prefix}/jb2a_patreon/Library/Generic/Smoke/SmokePuffSide02_02_Dark_Black_400x400.webm`,
+                            `${prefix}/jb2a_patreon/Library/Generic/Smoke/SmokePuffSide02_03_Dark_Black_400x400.webm`
+                        ],
+                        white: [
+                            `${prefix}/jb2a_patreon/Library/Generic/Smoke/SmokePuffSide02_01_Regular_White_400x400.webm`,
+                            `${prefix}/jb2a_patreon/Library/Generic/Smoke/SmokePuffSide02_02_Regular_White_400x400.webm`,
+                            `${prefix}/jb2a_patreon/Library/Generic/Smoke/SmokePuffSide02_03_Regular_White_400x400.webm`
+                        ]
+                    }
+
                 },
                 centered: {
                     blue: [
@@ -8395,6 +8497,29 @@ export async function jb2aPatreonDatabase(prefix) {
                         `${prefix}/jb2a_patreon/Library/Generic/Smoke/SmokePuff01_02_Regular_Grey_400x400.webm`,
                         `${prefix}/jb2a_patreon/Library/Generic/Smoke/SmokePuff01_03_Regular_Grey_400x400.webm`,
                     ]
+                },
+                ring: {
+                    '01': {
+                        dark_black: [
+                            `${prefix}/jb2a_patreon/Library/Generic/Smoke/SmokePuffRing01_01_Dark_Black_400x400.webm`,
+                            `${prefix}/jb2a_patreon/Library/Generic/Smoke/SmokePuffRing01_02_Dark_Black_400x400.webm`,
+                            `${prefix}/jb2a_patreon/Library/Generic/Smoke/SmokePuffRing01_03_Dark_Black_400x400.webm`,
+                        ],
+                        white: [
+                            `${prefix}/jb2a_patreon/Library/Generic/Smoke/SmokePuffRing01_01_Regular_White_400x400.webm`,
+                            `${prefix}/jb2a_patreon/Library/Generic/Smoke/SmokePuffRing01_02_Regular_White_400x400.webm`,
+                            `${prefix}/jb2a_patreon/Library/Generic/Smoke/SmokePuffRing01_03_Regular_White_400x400.webm`,
+                        ]
+                    },
+                    '02': {
+                        dark_black: [
+                            `${prefix}/jb2a_patreon/Library/Generic/Smoke/SmokePuffRing02_01_Dark_Black_400x400.webm`,
+                        ],
+                        white: [
+                            `${prefix}/jb2a_patreon/Library/Generic/Smoke/SmokePuffRing02_01_Regular_White_400x400.webm`,
+                        ]
+                    }
+
                 }
             },
             ring: {
@@ -9198,7 +9323,6 @@ export async function jb2aPatreonDatabase(prefix) {
     patreonDatabase.swirling_leaves = {
             _metadata: {
                 name: "Swirling Leaves",
-                new: ['ranged*', 'orangepink*']
             },
             complete: {
                 '01': {
@@ -9382,28 +9506,6 @@ export async function jb2aPatreonDatabase(prefix) {
     patreonDatabase.template_circle = {
             _metadata: {
                 name: "Template - Circle",
-                new: [
-                    'vortex.loop.orange*',
-                    'vortex.loop.red*',
-                    'vortex.loop.yellow*',
-                    'whirl.loop.orange*',
-                    'whirl.loop.red*',
-                    'whirl.loop.yellow*',
-
-                    'vortex.intro.orange*',
-                    'vortex.intro.red*',
-                    'vortex.intro.yellow*',
-                    'whirl.intro.orange*',
-                    'whirl.intro.red*',
-                    'whirl.intro.yellow*',
-
-                    'vortex.outro.orange*',
-                    'vortex.outro.red*',
-                    'vortex.outro.yellow*',
-                    'whirl.outro.orange*',
-                    'whirl.outro.red*',
-                    'whirl.outro.yellow*',
-                ]
             },
             symbol: {
                 normal: {
@@ -10017,6 +10119,165 @@ export async function jb2aPatreonDatabase(prefix) {
                 shockwave: `${prefix}/jb2a_patreon/Library/Cantrip/Toll_The_Dead/TollTheDeadShockwave_01_Regular_Red_400x400.webm`,
                 skull_smoke: `${prefix}/jb2a_patreon/Library/Cantrip/Toll_The_Dead/TollTheDeadSkullSmoke_01_Regular_Red_400x400.webm`
             }
+    }
+    patreonDatabase.throwable = {
+        _metadata: {
+            name: "Throwable",
+            new: true
+        },
+        _template: 'ranged',
+        launch: {
+            cannon_ball: {
+                '01': {
+                    black: {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/LaunchCannonBall01_01_Regular_Black_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/LaunchCannonBall01_01_Regular_Black_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/LaunchCannonBall01_01_Regular_Black_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/LaunchCannonBall01_01_Regular_Black_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/LaunchCannonBall01_01_Regular_Black_90ft_4000x400.webm`
+                    }
+                }
+            },
+            grenade: {
+                '01': {
+                    green: {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/LaunchGrenade01_01_Regular_Green_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/LaunchGrenade01_01_Regular_Green_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/LaunchGrenade01_01_Regular_Green_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/LaunchGrenade01_01_Regular_Green_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/LaunchGrenade01_01_Regular_Green_90ft_4000x400.webm`
+                    }
+                },
+                '02': {
+                    blackyellow: {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/LaunchGrenade02_01_Regular_BlackYellow_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/LaunchGrenade02_01_Regular_BlackYellow_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/LaunchGrenade02_01_Regular_BlackYellow_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/LaunchGrenade02_01_Regular_BlackYellow_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/LaunchGrenade02_01_Regular_BlackYellow_90ft_4000x400.webm`
+                    }
+                },
+                '03': {
+                    blackblue: {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/LaunchGrenade03_01_Regular_BlackBlue_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/LaunchGrenade03_01_Regular_BlackBlue_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/LaunchGrenade03_01_Regular_BlackBlue_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/LaunchGrenade03_01_Regular_BlackBlue_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/LaunchGrenade03_01_Regular_BlackBlue_90ft_4000x400.webm`
+                    }
+                }
+            }
+        },
+        throw: {
+            bomb: {
+                '01': {
+                    black: {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowBomb01_01_Regular_Black_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowBomb01_01_Regular_Black_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowBomb01_01_Regular_Black_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowBomb01_01_Regular_Black_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowBomb01_01_Regular_Black_90ft_4000x400.webm`
+                    },
+                    blue: {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowBomb01_01_Regular_Blue_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowBomb01_01_Regular_Blue_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowBomb01_01_Regular_Blue_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowBomb01_01_Regular_Blue_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowBomb01_01_Regular_Blue_90ft_4000x400.webm`
+                    },
+                    green: {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowBomb01_01_Regular_Green_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowBomb01_01_Regular_Green_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowBomb01_01_Regular_Green_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowBomb01_01_Regular_Green_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowBomb01_01_Regular_Green_90ft_4000x400.webm`
+                    },
+                    grey: {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowBomb01_01_Regular_Grey_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowBomb01_01_Regular_Grey_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowBomb01_01_Regular_Grey_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowBomb01_01_Regular_Grey_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowBomb01_01_Regular_Grey_90ft_4000x400.webm`
+                    },
+                    red: {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowBomb01_01_Regular_Red_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowBomb01_01_Regular_Red_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowBomb01_01_Regular_Red_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowBomb01_01_Regular_Red_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowBomb01_01_Regular_Red_90ft_4000x400.webm`
+                    },
+                }
+            },
+            flask: {
+                '01':{
+                    orange: {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowFlask01_01_Regular_Orange_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowFlask01_01_Regular_Orange_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowFlask01_01_Regular_Orange_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowFlask01_01_Regular_Orange_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowFlask01_01_Regular_Orange_90ft_4000x400.webm`
+                    }
+                },
+                '02':{
+                    blue: {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowFlask02_01_Regular_Blue_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowFlask02_01_Regular_Blue_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowFlask02_01_Regular_Blue_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowFlask02_01_Regular_Blue_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowFlask02_01_Regular_Blue_90ft_4000x400.webm`
+                    }
+                },
+                '03':{
+                    green: {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowFlask03_01_Regular_Green_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowFlask03_01_Regular_Green_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowFlask03_01_Regular_Green_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowFlask03_01_Regular_Green_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowFlask03_01_Regular_Green_90ft_4000x400.webm`
+                    }
+                }
+            },
+            grenade: {
+                '01': {
+                    green: {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowGrenade01_01_Regular_Green_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowGrenade01_01_Regular_Green_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowGrenade01_01_Regular_Green_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowGrenade01_01_Regular_Green_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowGrenade01_01_Regular_Green_90ft_4000x400.webm`
+                    }
+                },
+                '02': {
+                    blackyellow: {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowGrenade02_01_Regular_BlackYellow_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowGrenade02_01_Regular_BlackYellow_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowGrenade02_01_Regular_BlackYellow_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowGrenade02_01_Regular_BlackYellow_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowGrenade02_01_Regular_BlackYellow_90ft_4000x400.webm`
+                    }
+                },
+                '03': {
+                    blackblue: {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowGrenade03_01_Regular_BlackBlue_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowGrenade03_01_Regular_BlackBlue_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowGrenade03_01_Regular_BlackBlue_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowGrenade03_01_Regular_BlackBlue_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowGrenade03_01_Regular_BlackBlue_90ft_4000x400.webm`
+                    }
+                },
+            },
+            stick_grenade: {
+                '01': {
+                    green: {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowStickGrenade01_01_Regular_Green_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowStickGrenade01_01_Regular_Green_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowStickGrenade01_01_Regular_Green_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowStickGrenade01_01_Regular_Green_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/ThrowStickGrenade01_01_Regular_Green_90ft_4000x400.webm`
+                    }
+                }
+            }
+        }
     }
     patreonDatabase.thunderwave = {
             _metadata: {
