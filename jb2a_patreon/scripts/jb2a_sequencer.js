@@ -15,16 +15,14 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.antilife_shell = {
         _metadata: {
-            name: "Anti-Life Shell",
-            tag: ["DnD"]
+            name: "Anti-Life Shell"
         },
         blue_no_circle: `${prefix}/jb2a_patreon/Library/5th_Level/Antilife_Shell/AntilifeShell_01_Blue_NoCircle_400x400.webm`,
         blue_with_circle: `${prefix}/jb2a_patreon/Library/5th_Level/Antilife_Shell/AntilifeShell_01_Blue_Circle_400x400.webm`
     }
     patreonDatabase.arcane_hand = {
         _metadata: {
-            name: "Arcane Hand",
-            tags: ["Bigsby"]
+            name: "Arcane Hand"
         },
         blue: `${prefix}/jb2a_patreon/Library/5th_Level/Arcane_Hand/ArcaneHand_Human_01_Idle_Blue_400x400.webm`,
         green: `${prefix}/jb2a_patreon/Library/5th_Level/Arcane_Hand/ArcaneHand_Human_01_Idle_Green_400x400.webm`,
@@ -964,10 +962,15 @@ export async function jb2aPatreonDatabase(prefix) {
         burst: {
             cone: {
                 _metadata: {
-                    name: "Breath Weapons V2 - Cone"
+                    name: "Breath Weapons V2 - Cone",
+                    new: ["dark_black*"]
                 },
                 _template: "cone100_02",
                 arcana: {
+                    dark_black: {
+                        '01': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/Breathweapon02_Arcana01_Dark_Black_Cone_Burst_800x800.webm`,
+                        '02': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/Breathweapon02_Arcana02_Dark_Black_Cone_Burst_800x800.webm`
+                    },
                     purple: {
                         '01': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/Breathweapon02_Arcana01_Regular_Purple_Cone_Burst_800x800.webm`,
                         '02': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/Breathweapon02_Arcana02_Regular_Purple_Cone_Burst_800x800.webm`
@@ -1000,6 +1003,9 @@ export async function jb2aPatreonDatabase(prefix) {
                 },
                 _template: "line100",
                 arcana: {
+                    dark_black: {
+                        '01': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Breath_Weapon/Breathweapon02_Arcana01_Dark_Black_Line_Burst_1200x400.webm`
+                    },
                     purple: {
                         '01': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Breath_Weapon/Breathweapon02_Arcana01_Regular_Purple_Line_Burst_1200x400.webm`
                     }
@@ -1028,6 +1034,10 @@ export async function jb2aPatreonDatabase(prefix) {
                     name: "Breath Weapons V2 - Cone"
                 },
                 arcana: {
+                    dark_black: {
+                        '01': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/Breathweapon02_Arcana01_Dark_Black_Cone_Loop_800x800.webm`,
+                        '02': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/Breathweapon02_Arcana02_Dark_Black_Cone_Loop_800x800.webm`
+                    },
                     purple: {
                         '01': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/Breathweapon02_Arcana01_Regular_Purple_Cone_Loop_800x800.webm`,
                         '02': `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Breath_Weapon/Breathweapon02_Arcana02_Regular_Purple_Cone_Loop_800x800.webm`
@@ -1059,6 +1069,9 @@ export async function jb2aPatreonDatabase(prefix) {
                     name: "Breath Weapons V2 - Line"
                 },
                 arcana: {
+                    dark_black: {
+                        '01': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Breath_Weapon/Breathweapon02_Arcana01_Dark_Black_Line_Loop_1200x400.webm`
+                    },
                     purple: {
                         '01': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Breath_Weapon/Breathweapon02_Arcana01_Regular_Purple_Line_Loop_1200x400.webm`
                     }
@@ -1755,8 +1768,7 @@ export async function jb2aPatreonDatabase(prefix) {
         },
         '400px': {
             _metadata: {
-                name: "Cure Wounds",
-                new: ["yellow*"]
+                name: "Cure Wounds"
             },
             blue: `${prefix}/jb2a_patreon/Library/1st_Level/Cure_Wounds/CureWounds_01_Blue_400x400.webm`,
             green: `${prefix}/jb2a_patreon/Library/1st_Level/Cure_Wounds/CureWounds_01_Green_400x400.webm`,
@@ -1969,13 +1981,10 @@ export async function jb2aPatreonDatabase(prefix) {
     patreonDatabase.detect_magic = {
         _metadata: {
             name: "Detect Magic",
-            new: [
-                "circle.yellow*",
-                "cone.yellow*"
-
-            ]
+            new: ["dark_red*"]
         },
         circle: {
+            dark_red: `${prefix}/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCircle_01_Dark_Red_1200x1200.webm`,
             blue: `${prefix}/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCircle_01_Regular_Blue_1200x1200.webm`,
             green: `${prefix}/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCircle_01_Regular_Green_1200x1200.webm`,
             greenorange: `${prefix}/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCircle_01_Regular_GreenOrange_1200x1200.webm`,
@@ -1985,6 +1994,11 @@ export async function jb2aPatreonDatabase(prefix) {
         },
         cone: {
             _template: 'cone100',
+            dark_red: {
+                '05ft': `${prefix}/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Dark_Red_05ft_300x300.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Dark_Red_15ft_500x500.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Dark_Red_30ft_800x800.webm`
+            },
             blue: {
                 '05ft': `${prefix}/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Regular_Blue_05ft_300x300.webm`,
                 '15ft': `${prefix}/jb2a_patreon/Library/1st_Level/Detect_Magic/DetectMagicCone_01_Regular_Blue_15ft_500x500.webm`,
@@ -2270,11 +2284,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.energy_beam = {
         _metadata: {
-            name: "Energy Beam",
-            new: [
-                "normal.yellow*",
-                "reverse.yellow*"
-        ]
+            name: "Energy Beam"
         },
         _template: 'ranged',
         normal: {
@@ -2506,8 +2516,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.energy_field = {
         _metadata: {
-            name: "Energy Field",
-            new: ["yellow*"]
+            name: "Energy Field"
         },
         '01': {
             blue: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyField_01_Regular_Blue_600x600.webm`,
@@ -2813,8 +2822,7 @@ export async function jb2aPatreonDatabase(prefix) {
             },
             multiple: {
                 _metadata: {
-                    name: "Energy Strands: Multiple",
-                    new: ["yellow*"]
+                    name: "Energy Strands: Multiple"
                 },
                 _template: 'ranged',
                 dark_green: {
@@ -2932,6 +2940,144 @@ export async function jb2aPatreonDatabase(prefix) {
             }
         }
     }
+    patreonDatabase.energy_wall = {
+        _metadata: {
+            name: "Energy Wall",
+            new: true
+        },
+        '01': {
+            '05x05ft': {
+                '01': {
+                    complete: {
+                        _markers: {
+                            loop: { start: 700, end: 3333 }
+                        },
+                        blue: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Blue_05x05ft_Complete_400x400.webm`,
+                        green: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Green_05x05ft_Complete_400x400.webm`,
+                        orange: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Orange_05x05ft_Complete_400x400.webm`,
+                        purple: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Purple_05x05ft_Complete_400x400.webm`,
+                        red: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Red_05x05ft_Complete_400x400.webm`
+                    },
+                    loop: {
+                        blue: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Blue_05x05ft_Loop_400x400.webm`,
+                        green: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Green_05x05ft_Loop_400x400.webm`,
+                        orange: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Orange_05x05ft_Loop_400x400.webm`,
+                        purple: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Purple_05x05ft_Loop_400x400.webm`,
+                        red: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Red_05x05ft_Loop_400x400.webm`
+                    }
+                }
+            },
+            '10x05ft': {
+                '01': {
+                    complete: {
+                        _markers: {
+                            loop: { start: 700, end: 3333 }
+                        },
+                        blue: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Blue_10x05ft_Complete_800x400.webm`,
+                        green: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Green_10x05ft_Complete_800x400.webm`,
+                        orange: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Orange_10x05ft_Complete_800x400.webm`,
+                        purple: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Purple_10x05ft_Complete_800x400.webm`,
+                        red: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Red_10x05ft_Complete_800x400.webm`
+                    },
+                    loop: {
+                        blue: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Blue_10x05ft_Loop_800x400.webm`,
+                        green: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Green_10x05ft_Loop_800x400.webm`,
+                        orange: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Orange_10x05ft_Loop_800x400.webm`,
+                        purple: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Purple_10x05ft_Loop_800x400.webm`,
+                        red: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Red_10x05ft_Loop_800x400.webm`
+                    }
+                }
+            },
+            '15x05ft': {
+                '01': {
+                    complete: {
+                        _markers: {
+                            loop: { start: 700, end: 3333 }
+                        },
+                        blue: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Blue_15x05ft_Complete_1000x400.webm`,
+                        green: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Green_15x05ft_Complete_1000x400.webm`,
+                        orange: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Orange_15x05ft_Complete_1000x400.webm`,
+                        purple: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Purple_15x05ft_Complete_1000x400.webm`,
+                        red: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Red_15x05ft_Complete_1000x400.webm`
+                    },
+                    loop: {
+                        blue: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Blue_15x05ft_Loop_1000x400.webm`,
+                        green: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Green_15x05ft_Loop_1000x400.webm`,
+                        orange: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Orange_15x05ft_Loop_1000x400.webm`,
+                        purple: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Purple_15x05ft_Loop_1000x400.webm`,
+                        red: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Red_15x05ft_Loop_1000x400.webm`
+                    }
+                }
+            },
+            '25x05ft': {
+                '01': {
+                    complete: {
+                        _markers: {
+                            loop: { start: 700, end: 3333 }
+                        },
+                        blue: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Blue_25x05ft_Complete_1400x400.webm`,
+                        green: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Green_25x05ft_Complete_1400x400.webm`,
+                        orange: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Orange_25x05ft_Complete_1400x400.webm`,
+                        purple: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Purple_25x05ft_Complete_1400x400.webm`,
+                        red: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Red_25x05ft_Complete_1400x400.webm`
+                    },
+                    loop: {
+                        blue: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Blue_25x05ft_Loop_1400x400.webm`,
+                        green: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Green_25x05ft_Loop_1400x400.webm`,
+                        orange: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Orange_25x05ft_Loop_1400x400.webm`,
+                        purple: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Purple_25x05ft_Loop_1400x400.webm`,
+                        red: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Red_25x05ft_Loop_1400x400.webm`
+                    }
+                }
+            },
+            'circle': {
+                '500x500': {
+                    '01': {
+                        complete: {
+                            _markers: {
+                            loop: { start: 700, end: 3333 }
+                        },
+                            blue: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Blue_Circle_Complete_500x500.webm`,
+                            green: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Green_Circle_Complete_500x500.webm`,
+                            orange: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Orange_Circle_Complete_500x500.webm`,
+                            purple: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Purple_Circle_Complete_500x500.webm`,
+                            red: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Red_Circle_Complete_500x500.webm`
+                        },
+                        loop: {
+                            blue: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Blue_Circle_Loop_500x500.webm`,
+                            green: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Green_Circle_Loop_500x500.webm`,
+                            orange: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Orange_Circle_Loop_500x500.webm`,
+                            purple: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Purple_Circle_Loop_500x500.webm`,
+                            red: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Red_Circle_Loop_500x500.webm`
+                        }
+                    }
+                },
+                '900x900': {
+                    '01': {
+                        complete: {
+                            _markers: {
+                            loop: { start: 700, end: 3333 }
+                        },
+                            blue: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Blue_Circle_Complete_900x900.webm`,
+                            green: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Green_Circle_Complete_900x900.webm`,
+                            orange: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Orange_Circle_Complete_900x900.webm`,
+                            purple: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Purple_Circle_Complete_900x900.webm`,
+                            red: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Red_Circle_Complete_900x900.webm`
+                        },
+                        loop: {
+                            blue: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Blue_Circle_Loop_900x900.webm`,
+                            green: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Green_Circle_Loop_900x900.webm`,
+                            orange: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Orange_Circle_Loop_900x900.webm`,
+                            purple: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Purple_Circle_Loop_900x900.webm`,
+                            red: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyWall01_01_Regular_Red_Circle_Loop_900x900.webm`
+                        }
+                    }
+                }
+            }
+        }
+
+
+    }
     patreonDatabase.eruption = {
         _metadata: {
             name: "Eruption",
@@ -2993,11 +3139,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.explosion = {
         _metadata: {
-            name: "Explosion",
-            new: [
-                "05.yellowwhite*",
-
-        ]
+            name: "Explosion"
         },
         '01': {
             _metadata: {
@@ -3021,8 +3163,7 @@ export async function jb2aPatreonDatabase(prefix) {
         },
         '03': {
             _metadata: {
-                name: "Explosion",
-                new: ["yellow*"]
+                name: "Explosion"
         },
             bluewhite: `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_03_Dark_BlueWhite_400x400.webm`,
             blueyellow: `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_03_Regular_BlueYellow_400x400.webm`,
@@ -3773,12 +3914,14 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.fireball = {
         _metadata: {
-            name: "Fireball"
+            name: "Fireball",
+            new: ["dark_red*"]
         },
         _template: 'cone100',
         loop_debris: {
             dark_green: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballLoop_01_Dark_Green_800x800.webm`,
             dark_purple: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballLoop_01_Dark_Purple_800x800.webm`,
+            dark_red: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballLoop_01_Dark_Red_800x800.webm`,
             blue: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballLoop_01_Blue_800x800.webm`,
             orange: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballLoop_01_Orange_800x800.webm`,
             purple: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballLoop_01_Purple_800x800.webm`
@@ -3786,6 +3929,7 @@ export async function jb2aPatreonDatabase(prefix) {
         loop_no_debris: {
             dark_green: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballLoopNoDebris_01_Dark_Green_800x800.webm`,
             dark_purple: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballLoopNoDebris_01_Dark_Purple_800x800.webm`,
+            dark_red: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballLoopNoDebris_01_Dark_Red_800x800.webm`,
             blue: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballLoopNoDebris_01_Blue_800x800.webm`,
             orange: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballLoopNoDebris_01_Orange_800x800.webm`,
             purple: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballLoopNoDebris_01_Purple_800x800.webm`
@@ -3793,6 +3937,7 @@ export async function jb2aPatreonDatabase(prefix) {
         explosion: {
             dark_green: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballExplosion_01_Dark_Green_800x800.webm`,
             dark_purple: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballExplosion_01_Dark_Purple_800x800.webm`,
+            dark_red: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballExplosion_01_Dark_Red_800x800.webm`,
             blue: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballExplosion_01_Blue_800x800.webm`,
             orange: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballExplosion_01_Orange_800x800.webm`,
             purple: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballExplosion_01_Purple_800x800.webm`
@@ -3812,6 +3957,13 @@ export async function jb2aPatreonDatabase(prefix) {
                 '30ft': `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballBeam_01_Dark_Purple_30ft_1600x400.webm`,
                 '60ft': `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballBeam_01_Dark_Purple_60ft_2800x400.webm`,
                 '90ft': `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballBeam_01_Dark_Purple_90ft_4000x400.webm`
+            },
+            dark_red: {
+                '05ft': `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballBeam_01_Dark_Red_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballBeam_01_Dark_Red_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballBeam_01_Dark_Red_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballBeam_01_Dark_Red_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballBeam_01_Dark_Red_90ft_4000x400.webm`
             },
             blue: {
                 '05ft': `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballBeam_01_Blue_05ft_600x400.webm`,
@@ -4558,7 +4710,13 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.ground_cracks = {
         _metadata: {
-            name: "Ground Cracks"
+            name: "Ground Cracks",
+            new: ["dark_red*"]
+        },
+        dark_red: {
+            '01': `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_01_Dark_Red_600x600.webm`,
+            '02': `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_02_Dark_Red_600x600.webm`,
+            '03': `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_03_Dark_Red_600x600.webm`
         },
         blue: {
             '01': `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_01_Regular_Blue_600x600.webm`,
@@ -4586,6 +4744,7 @@ export async function jb2aPatreonDatabase(prefix) {
             '03': `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_03_Regular_White_600x600.webm`
         },
         '01': {
+            dark_red: `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_01_Dark_Red_600x600.webm`,
             blue: `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_01_Regular_Blue_600x600.webm`,
             green: `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_01_Regular_Green_600x600.webm`,
             orange: `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_01_Regular_Orange_600x600.webm`,
@@ -4593,6 +4752,7 @@ export async function jb2aPatreonDatabase(prefix) {
             white: `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_01_Regular_White_600x600.webm`
         },
         '02': {
+            dark_red: `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_02_Dark_Red_600x600.webm`,
             blue: `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_02_Regular_Blue_600x600.webm`,
             green: `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_02_Regular_Green_600x600.webm`,
             orange: `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_02_Regular_Orange_600x600.webm`,
@@ -4600,6 +4760,7 @@ export async function jb2aPatreonDatabase(prefix) {
             white: `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_02_Regular_White_600x600.webm`
         },
         '03': {
+            dark_red: `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_03_Dark_Red_600x600.webm`,
             blue: `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_03_Regular_Blue_600x600.webm`,
             green: `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_03_Regular_Green_600x600.webm`,
             orange: `${prefix}/jb2a_patreon/Library/Generic/Fire/GroundCrackLoop_03_Regular_Orange_600x600.webm`,
@@ -4609,11 +4770,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.guiding_bolt = {
         _metadata: {
-            name: "Guiding Bolt",
-            new: [
-                "01.yellow*",
-                "02.yellow"
-        ]
+            name: "Guiding Bolt"
         },
         _template: 'ranged',
         '01': {
@@ -4887,13 +5044,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.healing_generic = {
         _metadata: {
-            name: "Healing - Generic",
-            new: [
-                "200px.yellow02",
-                "400px.yellow02",
-                "burst.yellowwhite",
-                "loop.yellowwhite"
-            ]
+            name: "Healing - Generic"
         },
         '200px': {
             blue: `${prefix}/jb2a_patreon/Library/Generic/Healing/HealingAbility_01_Blue_200x200.webm`,
@@ -4925,6 +5076,72 @@ export async function jb2aPatreonDatabase(prefix) {
             tealyellow: `${prefix}/jb2a_patreon/Library/Generic/Healing/HealingAbility_02_Regular_TealYellow_Loop_600x600.webm`,
             yellowwhite: `${prefix}/jb2a_patreon/Library/Generic/Healing/HealingAbility_02_Regular_YellowWhite_Loop_600x600.webm`
         }
+    }
+    patreonDatabase.hovering_laserweapon = {
+        _metadata: {
+            name: "Hovering Laserweapon",
+            new: true
+        },
+        one_handed:{
+            '01':{
+                dark_red: `${prefix}/jb2a_patreon/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Lasersword1H01_01_Dark_Red_400x400.webm`,
+                dark_white: `${prefix}/jb2a_patreon/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Lasersword1H01_01_Dark_White_400x400.webm`,
+                blue:{
+                    '01': `${prefix}/jb2a_patreon/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Lasersword1H01_01_Regular_Blue_400x400.webm`,
+                    '02': `${prefix}/jb2a_patreon/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Lasersword1H01_01_Regular_Blue02_400x400.webm`,
+                    '03': `${prefix}/jb2a_patreon/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Lasersword1H01_01_Regular_Blue03_400x400.webm`
+                },
+                green:{
+                    '01': `${prefix}/jb2a_patreon/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Lasersword1H01_01_Regular_Green_400x400.webm`,
+                    '02': `${prefix}/jb2a_patreon/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Lasersword1H01_01_Regular_Green02_400x400.webm`
+                },
+                orange: `${prefix}/jb2a_patreon/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Lasersword1H01_01_Regular_Orange_400x400.webm`,
+                pink: `${prefix}/jb2a_patreon/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Lasersword1H01_01_Regular_Pink_400x400.webm`,
+                red: `${prefix}/jb2a_patreon/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Lasersword1H01_01_Regular_Red_400x400.webm`,
+                white: `${prefix}/jb2a_patreon/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Lasersword1H01_01_Regular_White_400x400.webm`,
+                yellow:`${prefix}/jb2a_patreon/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Lasersword1H01_01_Regular_Yellow_400x400.webm`
+            }
+        },
+        double_bladed:{
+            '01':{
+                dark_red: `${prefix}/jb2a_patreon/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Lasersword2H01_01_Dark_Red_600x600.webm`,
+                dark_white: `${prefix}/jb2a_patreon/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Lasersword2H01_01_Dark_White_600x600.webm`,
+                blue:{
+                    '01': `${prefix}/jb2a_patreon/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Lasersword2H01_01_Regular_Blue_600x600.webm`,
+                    '02': `${prefix}/jb2a_patreon/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Lasersword2H01_01_Regular_Blue02_600x600.webm`,
+                    '03': `${prefix}/jb2a_patreon/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Lasersword2H01_01_Regular_Blue03_600x600.webm`
+                },
+                green:{
+                    '01': `${prefix}/jb2a_patreon/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Lasersword2H01_01_Regular_Green_600x600.webm`,
+                    '02': `${prefix}/jb2a_patreon/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Lasersword2H01_01_Regular_Green02_600x600.webm`
+                },
+                orange: `${prefix}/jb2a_patreon/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Lasersword2H01_01_Regular_Orange_600x600.webm`,
+                pink: `${prefix}/jb2a_patreon/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Lasersword2H01_01_Regular_Pink_600x600.webm`,
+                red: `${prefix}/jb2a_patreon/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Lasersword2H01_01_Regular_Red_600x600.webm`,
+                white: `${prefix}/jb2a_patreon/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Lasersword2H01_01_Regular_White_600x600.webm`,
+                yellow:`${prefix}/jb2a_patreon/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Lasersword2H01_01_Regular_Yellow_600x600.webm`
+            }
+        },
+        spear:{
+            '01':{
+                dark_red: `${prefix}/jb2a_patreon/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Laserspear01_01_Dark_Red_600x600.webm`,
+                dark_white: `${prefix}/jb2a_patreon/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Laserspear01_01_Dark_White_600x600.webm`,
+                blue:{
+                    '01': `${prefix}/jb2a_patreon/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Laserspear01_01_Regular_Blue_600x600.webm`,
+                    '02': `${prefix}/jb2a_patreon/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Laserspear01_01_Regular_Blue02_600x600.webm`,
+                    '03': `${prefix}/jb2a_patreon/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Laserspear01_01_Regular_Blue03_600x600.webm`
+                },
+                green:{
+                    '01': `${prefix}/jb2a_patreon/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Laserspear01_01_Regular_Green_600x600.webm`,
+                    '02': `${prefix}/jb2a_patreon/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Laserspear01_01_Regular_Green02_600x600.webm`
+                },
+                orange: `${prefix}/jb2a_patreon/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Laserspear01_01_Regular_Orange_600x600.webm`,
+                pink: `${prefix}/jb2a_patreon/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Laserspear01_01_Regular_Pink_600x600.webm`,
+                red: `${prefix}/jb2a_patreon/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Laserspear01_01_Regular_Red_600x600.webm`,
+                white: `${prefix}/jb2a_patreon/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Laserspear01_01_Regular_White_600x600.webm`,
+                yellow:`${prefix}/jb2a_patreon/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Laserspear01_01_Regular_Yellow_600x600.webm`
+            }
+        },
     }
     patreonDatabase.hunters_mark = {
             _metadata: {
@@ -4961,8 +5178,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.ice_spikes = {
             _metadata: {
-                name: "Ice Spikes",
-                new: ["grey*", "yellow*"]
+                name: "Ice Spikes"
             },
             radial: {
                 burst: {
@@ -5003,22 +5219,22 @@ export async function jb2aPatreonDatabase(prefix) {
             },
             drop: {
                 dark_green: `${prefix}/jb2a_patreon/Library/Generic/UI/IconDrop_01_Dark_Green_200x200.webm`,
-                red: `${prefix}/jb2a_patreon/Library/Generic/UI/IconDrop_01_Regular_Red_200x200.webm`,
+                red: `${prefix}/jb2a_patreon/Library/Generic/UI/IconDrop_01_Regular_Red_200x200.webm`
             },
             fear: {
                 dark_orange: `${prefix}/jb2a_patreon/Library/Generic/UI/IconFear_01_Dark_Orange_200x200.webm`,
                 dark_purple: `${prefix}/jb2a_patreon/Library/Generic/UI/IconFear_01_Dark_Purple_200x200.webm`,
-                orange: `${prefix}/jb2a_patreon/Library/Generic/UI/IconFear_01_Regular_Orange_200x200.webm`,
+                orange: `${prefix}/jb2a_patreon/Library/Generic/UI/IconFear_01_Regular_Orange_200x200.webm`
             },
             heart: {
                 dark_red: `${prefix}/jb2a_patreon/Library/Generic/UI/IconHeart_01_Dark_Red_200x200.webm`,
                 pink: `${prefix}/jb2a_patreon/Library/Generic/UI/IconHeart_01_Regular_Pink_200x200.webm`,
-                teal: `${prefix}/jb2a_patreon/Library/Generic/UI/IconHeart_01_Regular_Teal_200x200.webm`,
+                teal: `${prefix}/jb2a_patreon/Library/Generic/UI/IconHeart_01_Regular_Teal_200x200.webm`
             },
             horror: {
                 dark_teal: `${prefix}/jb2a_patreon/Library/Generic/UI/IconHorror_01_Dark_Teal_200x200.webm`,
                 purple: `${prefix}/jb2a_patreon/Library/Generic/UI/IconHorror_01_Regular_Purple_200x200.webm`,
-                teal: `${prefix}/jb2a_patreon/Library/Generic/UI/IconHorror_01_Regular_Teal_200x200.webm`,
+                teal: `${prefix}/jb2a_patreon/Library/Generic/UI/IconHorror_01_Regular_Teal_200x200.webm`
             },
             music_note: {
                 dark_red: `${prefix}/jb2a_patreon/Library/Generic/UI/IconMusicNote_01_Dark_Red_200x200.webm`,
@@ -5027,7 +5243,7 @@ export async function jb2aPatreonDatabase(prefix) {
             },
             poison: {
                 dark_green: `${prefix}/jb2a_patreon/Library/Generic/UI/IconPoison_01_Dark_Green_200x200.webm`,
-                purple: `${prefix}/jb2a_patreon/Library/Generic/UI/IconPoison_01_Regular_Purple_200x200.webm`,
+                purple: `${prefix}/jb2a_patreon/Library/Generic/UI/IconPoison_01_Regular_Purple_200x200.webm`
             },
             runes: {
                 dark_black: `${prefix}/jb2a_patreon/Library/Generic/UI/IconRunes_01_Dark_Black_200x200.webm`,
@@ -5062,20 +5278,21 @@ export async function jb2aPatreonDatabase(prefix) {
             shield: {
                 dark_red: `${prefix}/jb2a_patreon/Library/Generic/UI/IconShield_01_Dark_Red_200x200.webm`,
                 blue: `${prefix}/jb2a_patreon/Library/Generic/UI/IconShield_01_Regular_Blue_200x200.webm`,
-                green: `${prefix}/jb2a_patreon/Library/Generic/UI/IconShield_01_Regular_Green_200x200.webm`,
+                green: `${prefix}/jb2a_patreon/Library/Generic/UI/IconShield_01_Regular_Green_200x200.webm`
             },
             shield_cracked: {
                 dark_red: `${prefix}/jb2a_patreon/Library/Generic/UI/IconShieldCracked_01_Dark_Red_200x200.webm`,
-                purple: `${prefix}/jb2a_patreon/Library/Generic/UI/IconShieldCracked_01_Regular_Purple_200x200.webm`,
+                purple: `${prefix}/jb2a_patreon/Library/Generic/UI/IconShieldCracked_01_Regular_Purple_200x200.webm`
             },
             skull: {
                 dark_green: `${prefix}/jb2a_patreon/Library/Generic/UI/IconSkull_01_Dark_Green_200x200.webm`,
                 dark_orange: `${prefix}/jb2a_patreon/Library/Generic/UI/IconSkull_01_Dark_Orange_200x200.webm`,
-                purple: `${prefix}/jb2a_patreon/Library/Generic/UI/IconSkull_01_Regular_Purple_200x200.webm`,
+                dark_red: `${prefix}/jb2a_patreon/Library/Generic/UI/IconSkull_01_Dark_Red_200x200.webm`,
+                purple: `${prefix}/jb2a_patreon/Library/Generic/UI/IconSkull_01_Regular_Purple_200x200.webm`
             },
             snowflake: {
                 dark_blue: `${prefix}/jb2a_patreon/Library/Generic/UI/IconSnowflake_01_Dark_Blue_200x200.webm`,
-                blue: `${prefix}/jb2a_patreon/Library/Generic/UI/IconSnowflake_01_Regular_Blue_200x200.webm`,
+                blue: `${prefix}/jb2a_patreon/Library/Generic/UI/IconSnowflake_01_Regular_Blue_200x200.webm`
             },
             stun: {
                 dark_teal: `${prefix}/jb2a_patreon/Library/Generic/UI/IconStun_01_Dark_Teal_200x200.webm`,
@@ -5296,6 +5513,16 @@ export async function jb2aPatreonDatabase(prefix) {
             ground_crack: {
                 _metadata: {
                     name: "Impact",
+                    new: [
+                        "dark_red.01",
+                        "dark_red.02",
+                        "dark_red.03"
+                    ]
+                },
+                dark_red: {
+                    '01': `${prefix}/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_01_Dark_Red_600x600.webm`,
+                    '02': `${prefix}/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_02_Dark_Red_600x600.webm`,
+                    '03': `${prefix}/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_03_Dark_Red_600x600.webm`,
                 },
                 blue: {
                     '01': `${prefix}/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_01_Regular_Blue_600x600.webm`,
@@ -5323,6 +5550,7 @@ export async function jb2aPatreonDatabase(prefix) {
                     '03': `${prefix}/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_03_Regular_White_600x600.webm`
                 },
                 '01': {
+                    dark_red: `${prefix}/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_01_Dark_Red_600x600.webm`,
                     blue: `${prefix}/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_01_Regular_Blue_600x600.webm`,
                     green: `${prefix}/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_01_Regular_Green_600x600.webm`,
                     orange: `${prefix}/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_01_Regular_Orange_600x600.webm`,
@@ -5330,6 +5558,7 @@ export async function jb2aPatreonDatabase(prefix) {
                     white: `${prefix}/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_01_Regular_White_600x600.webm`
                 },
                 '02': {
+                    dark_red: `${prefix}/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_02_Dark_Red_600x600.webm`,
                     blue: `${prefix}/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_02_Regular_Blue_600x600.webm`,
                     green: `${prefix}/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_02_Regular_Green_600x600.webm`,
                     orange: `${prefix}/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_02_Regular_Orange_600x600.webm`,
@@ -5337,6 +5566,7 @@ export async function jb2aPatreonDatabase(prefix) {
                     white: `${prefix}/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_02_Regular_White_600x600.webm`
                 },
                 '03': {
+                    dark_red: `${prefix}/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_03_Dark_Red_600x600.webm`,
                     blue: `${prefix}/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_03_Regular_Blue_600x600.webm`,
                     green: `${prefix}/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_03_Regular_Green_600x600.webm`,
                     orange: `${prefix}/jb2a_patreon/Library/Generic/Impact/GroundCrackImpact_03_Regular_Orange_600x600.webm`,
@@ -5882,19 +6112,22 @@ export async function jb2aPatreonDatabase(prefix) {
     patreonDatabase.lightning_bolt = {
             _metadata: {
                 name: "Lightning Bolt",
+                new: ["dark_red*"]
             },
             _template: 'ray',
             narrow: {
-                blue: `${prefix}/jb2a_patreon/Library/3rd_Level/Lightning_Bolt/LightningBolt_01_Regular_Blue_4000x200.webm`,
                 dark_blue: `${prefix}/jb2a_patreon/Library/3rd_Level/Lightning_Bolt/LightningBolt_01_Dark_Blue_4000x200.webm`,
+                dark_red: `${prefix}/jb2a_patreon/Library/3rd_Level/Lightning_Bolt/LightningBolt_01_Dark_Red_4000x200.webm`,
+                blue: `${prefix}/jb2a_patreon/Library/3rd_Level/Lightning_Bolt/LightningBolt_01_Regular_Blue_4000x200.webm`,
                 green: `${prefix}/jb2a_patreon/Library/3rd_Level/Lightning_Bolt/LightningBolt_01_Regular_Green_4000x200.webm`,
                 orange: `${prefix}/jb2a_patreon/Library/3rd_Level/Lightning_Bolt/LightningBolt_01_Regular_Orange_4000x200.webm`,
                 purple: `${prefix}/jb2a_patreon/Library/3rd_Level/Lightning_Bolt/LightningBolt_01_Regular_Purple_4000x200.webm`,
                 red: `${prefix}/jb2a_patreon/Library/3rd_Level/Lightning_Bolt/LightningBolt_01_Regular_Red_4000x200.webm`
             },
             wide: {
-                blue: `${prefix}/jb2a_patreon/Library/3rd_Level/Lightning_Bolt/LightningBolt_01_Regular_Blue_4000x400.webm`,
                 dark_blue: `${prefix}/jb2a_patreon/Library/3rd_Level/Lightning_Bolt/LightningBolt_01_Dark_Blue_4000x400.webm`,
+                dark_red: `${prefix}/jb2a_patreon/Library/3rd_Level/Lightning_Bolt/LightningBolt_01_Dark_Red_4000x400.webm`,
+                blue: `${prefix}/jb2a_patreon/Library/3rd_Level/Lightning_Bolt/LightningBolt_01_Regular_Blue_4000x400.webm`,
                 green: `${prefix}/jb2a_patreon/Library/3rd_Level/Lightning_Bolt/LightningBolt_01_Regular_Green_4000x400.webm`,
                 orange: `${prefix}/jb2a_patreon/Library/3rd_Level/Lightning_Bolt/LightningBolt_01_Regular_Orange_4000x400.webm`,
                 purple: `${prefix}/jb2a_patreon/Library/3rd_Level/Lightning_Bolt/LightningBolt_01_Regular_Purple_4000x400.webm`,
@@ -5903,7 +6136,8 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.lightning_strike = {
             _metadata: {
-                name: "Lightning Strike"
+                name: "Lightning Strike",
+                new: ["red*"]
             },
             blue: [
                 `${prefix}/jb2a_patreon/Library/Generic/Lightning/LightningStrike01_01_Regular_Blue_800x800.webm`,
@@ -5920,6 +6154,14 @@ export async function jb2aPatreonDatabase(prefix) {
                 `${prefix}/jb2a_patreon/Library/Generic/Lightning/LightningStrike01_04_Regular_Purple_800x800.webm`,
                 `${prefix}/jb2a_patreon/Library/Generic/Lightning/LightningStrike01_05_Regular_Purple_800x800.webm`,
                 `${prefix}/jb2a_patreon/Library/Generic/Lightning/LightningStrike01_06_Regular_Purple_800x800.webm`
+            ],
+            red: [
+                `${prefix}/jb2a_patreon/Library/Generic/Lightning/LightningStrike01_01_Regular_Red_800x800.webm`,
+                `${prefix}/jb2a_patreon/Library/Generic/Lightning/LightningStrike01_02_Regular_Red_800x800.webm`,
+                `${prefix}/jb2a_patreon/Library/Generic/Lightning/LightningStrike01_03_Regular_Red_800x800.webm`,
+                `${prefix}/jb2a_patreon/Library/Generic/Lightning/LightningStrike01_04_Regular_Red_800x800.webm`,
+                `${prefix}/jb2a_patreon/Library/Generic/Lightning/LightningStrike01_05_Regular_Red_800x800.webm`,
+                `${prefix}/jb2a_patreon/Library/Generic/Lightning/LightningStrike01_06_Regular_Red_800x800.webm`
             ],
             yellow: [
                 `${prefix}/jb2a_patreon/Library/Generic/Lightning/LightningStrike01_01_Regular_Yellow_800x800.webm`,
@@ -6769,8 +7011,20 @@ export async function jb2aPatreonDatabase(prefix) {
             rune: {
                 _metadata: {
                     name: "Magic Signs - Rune",
+                    new: ["complete*"]
                 },
                 abjuration: {
+                    complete: {
+                        _markers: {
+                            loop: { start: 1500, end: 6500 }
+                        },
+                        blue: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/AbjurationRuneComplete_01_Regular_Blue_400x400.webm`,
+                        green: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/AbjurationRuneComplete_01_Regular_Green_400x400.webm`,
+                        pink: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/AbjurationRuneComplete_01_Regular_Pink_400x400.webm`,
+                        purple: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/AbjurationRuneComplete_01_Regular_Purple_400x400.webm`,
+                        red: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/AbjurationRuneComplete_01_Regular_Red_400x400.webm`,
+                        yellow: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/AbjurationRuneComplete_01_Regular_Yellow_400x400.webm`
+                    },
                     intro: {
                         blue: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/AbjurationRuneIntro_01_Regular_Blue_400x400.webm`,
                         green: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/AbjurationRuneIntro_01_Regular_Green_400x400.webm`,
@@ -6797,6 +7051,17 @@ export async function jb2aPatreonDatabase(prefix) {
                     }
                 },
                 conjuration: {
+                    complete: {
+                        _markers: {
+                            loop: { start: 1500, end: 6500 }
+                        },
+                        blue: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/ConjurationRuneComplete_01_Regular_Blue_400x400.webm`,
+                        green: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/ConjurationRuneComplete_01_Regular_Green_400x400.webm`,
+                        pink: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/ConjurationRuneComplete_01_Regular_Pink_400x400.webm`,
+                        purple: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/ConjurationRuneComplete_01_Regular_Purple_400x400.webm`,
+                        red: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/ConjurationRuneComplete_01_Regular_Red_400x400.webm`,
+                        yellow: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/ConjurationRuneComplete_01_Regular_Yellow_400x400.webm`
+                    },
                     intro: {
                         blue: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/ConjurationRuneIntro_01_Regular_Blue_400x400.webm`,
                         green: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/ConjurationRuneIntro_01_Regular_Green_400x400.webm`,
@@ -6823,6 +7088,17 @@ export async function jb2aPatreonDatabase(prefix) {
                     }
                 },
                 divination: {
+                    complete: {
+                        _markers: {
+                            loop: { start: 1500, end: 6500 }
+                        },
+                        blue: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/DivinationRuneComplete_01_Regular_Blue_400x400.webm`,
+                        green: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/DivinationRuneComplete_01_Regular_Green_400x400.webm`,
+                        pink: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/DivinationRuneComplete_01_Regular_Pink_400x400.webm`,
+                        purple: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/DivinationRuneComplete_01_Regular_Purple_400x400.webm`,
+                        red: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/DivinationRuneComplete_01_Regular_Red_400x400.webm`,
+                        yellow: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/DivinationRuneComplete_01_Regular_Yellow_400x400.webm`
+                    },
                     intro: {
                         blue: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/DivinationRuneIntro_01_Regular_Blue_400x400.webm`,
                         green: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/DivinationRuneIntro_01_Regular_Green_400x400.webm`,
@@ -6849,6 +7125,17 @@ export async function jb2aPatreonDatabase(prefix) {
                     }
                 },
                 enchantment: {
+                    complete: {
+                        _markers: {
+                            loop: { start: 1500, end: 6500 }
+                        },
+                        blue: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/EnchantmentRuneComplete_01_Regular_Blue_400x400.webm`,
+                        green: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/EnchantmentRuneComplete_01_Regular_Green_400x400.webm`,
+                        pink: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/EnchantmentRuneComplete_01_Regular_Pink_400x400.webm`,
+                        purple: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/EnchantmentRuneComplete_01_Regular_Purple_400x400.webm`,
+                        red: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/EnchantmentRuneComplete_01_Regular_Red_400x400.webm`,
+                        yellow: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/EnchantmentRuneComplete_01_Regular_Yellow_400x400.webm`
+                    },
                     intro: {
                         blue: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/EnchantmentRuneIntro_01_Regular_Blue_400x400.webm`,
                         green: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/EnchantmentRuneIntro_01_Regular_Green_400x400.webm`,
@@ -6875,6 +7162,17 @@ export async function jb2aPatreonDatabase(prefix) {
                     }
                 },
                 evocation: {
+                    complete: {
+                        _markers: {
+                            loop: { start: 1500, end: 6500 }
+                        },
+                        blue: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/EvocationRuneComplete_01_Regular_Blue_400x400.webm`,
+                        green: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/EvocationRuneComplete_01_Regular_Green_400x400.webm`,
+                        pink: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/EvocationRuneComplete_01_Regular_Pink_400x400.webm`,
+                        purple: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/EvocationRuneComplete_01_Regular_Purple_400x400.webm`,
+                        red: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/EvocationRuneComplete_01_Regular_Red_400x400.webm`,
+                        yellow: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/EvocationRuneComplete_01_Regular_Yellow_400x400.webm`
+                    },
                     intro: {
                         blue: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/EvocationRuneIntro_01_Regular_Blue_400x400.webm`,
                         green: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/EvocationRuneIntro_01_Regular_Green_400x400.webm`,
@@ -6901,6 +7199,17 @@ export async function jb2aPatreonDatabase(prefix) {
                     }
                 },
                 illusion: {
+                    complete: {
+                        _markers: {
+                            loop: { start: 1500, end: 6500 }
+                        },
+                        blue: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/IllusionRuneComplete_01_Regular_Blue_400x400.webm`,
+                        green: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/IllusionRuneComplete_01_Regular_Green_400x400.webm`,
+                        pink: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/IllusionRuneComplete_01_Regular_Pink_400x400.webm`,
+                        purple: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/IllusionRuneComplete_01_Regular_Purple_400x400.webm`,
+                        red: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/IllusionRuneComplete_01_Regular_Red_400x400.webm`,
+                        yellow: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/IllusionRuneComplete_01_Regular_Yellow_400x400.webm`
+                    },
                     intro: {
                         blue: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/IllusionRuneIntro_01_Regular_Blue_400x400.webm`,
                         green: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/IllusionRuneIntro_01_Regular_Green_400x400.webm`,
@@ -6927,6 +7236,17 @@ export async function jb2aPatreonDatabase(prefix) {
                     }
                 },
                 necromancy: {
+                    complete: {
+                        _markers: {
+                            loop: { start: 1500, end: 6500 }
+                        },
+                        blue: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/NecromancyRuneComplete_01_Regular_Blue_400x400.webm`,
+                        green: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/NecromancyRuneComplete_01_Regular_Green_400x400.webm`,
+                        pink: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/NecromancyRuneComplete_01_Regular_Pink_400x400.webm`,
+                        purple: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/NecromancyRuneComplete_01_Regular_Purple_400x400.webm`,
+                        red: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/NecromancyRuneComplete_01_Regular_Red_400x400.webm`,
+                        yellow: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/NecromancyRuneComplete_01_Regular_Yellow_400x400.webm`
+                    },
                     intro: {
                         blue: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/NecromancyRuneIntro_01_Regular_Blue_400x400.webm`,
                         green: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/NecromancyRuneIntro_01_Regular_Green_400x400.webm`,
@@ -6953,6 +7273,17 @@ export async function jb2aPatreonDatabase(prefix) {
                     }
                 },
                 transmutation: {
+                    complete: {
+                        _markers: {
+                            loop: { start: 1500, end: 6500 }
+                        },
+                        blue: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/TransmutationRuneComplete_01_Regular_Blue_400x400.webm`,
+                        green: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/TransmutationRuneComplete_01_Regular_Green_400x400.webm`,
+                        pink: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/TransmutationRuneComplete_01_Regular_Pink_400x400.webm`,
+                        purple: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/TransmutationRuneComplete_01_Regular_Purple_400x400.webm`,
+                        red: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/TransmutationRuneComplete_01_Regular_Red_400x400.webm`,
+                        yellow: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/TransmutationRuneComplete_01_Regular_Yellow_400x400.webm`
+                    },
                     intro: {
                         blue: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/TransmutationRuneIntro_01_Regular_Blue_400x400.webm`,
                         green: `${prefix}/jb2a_patreon/Library/Generic/Magic_Signs/Runes/TransmutationRuneIntro_01_Regular_Green_400x400.webm`,
@@ -6983,20 +7314,7 @@ export async function jb2aPatreonDatabase(prefix) {
     patreonDatabase.markers = {
             _metadata: {
                 name: "Markers",
-                new: [
-                    "01.yellow*",
-                    "02.yellow*",
-                    "bubble.intro.yellow*",
-                    "bubble.loop.yellow*",
-                    "bubble.outro.yellow*",
-                    "bubble.complete*",
-                    "light.intro.yellow02*",
-                    "light.loop.yellow02*",
-                    "light.outro.yellow02*",
-                    "light.complete*",
-                    "shield_rampart*",
-                    "smoke*"
-                ]
+                new: ["skull.dark_red*"]
             },
             '01': {
                 blueyellow: `${prefix}/jb2a_patreon/Library/Generic/Marker/Marker_01_Regular_BlueYellow_400x400.webm`,
@@ -7520,6 +7838,11 @@ export async function jb2aPatreonDatabase(prefix) {
                     '02': `${prefix}/jb2a_patreon/Library/Generic/Marker/MarkerSkull_02_Dark_Orange_400x400.webm`,
                     '03': `${prefix}/jb2a_patreon/Library/Generic/Marker/MarkerSkull_03_Dark_Orange_400x400.webm`
                 },
+                dark_red: {
+                    '01': `${prefix}/jb2a_patreon/Library/Generic/Marker/MarkerSkull_01_Dark_Red_400x400.webm`,
+                    '02': `${prefix}/jb2a_patreon/Library/Generic/Marker/MarkerSkull_02_Dark_Red_400x400.webm`,
+                    '03': `${prefix}/jb2a_patreon/Library/Generic/Marker/MarkerSkull_03_Dark_Red_400x400.webm`
+                },
                 purple: {
                     '01': `${prefix}/jb2a_patreon/Library/Generic/Marker/MarkerSkull_01_Regular_Purple_400x400.webm`,
                     '02': `${prefix}/jb2a_patreon/Library/Generic/Marker/MarkerSkull_02_Regular_Purple_400x400.webm`,
@@ -7637,14 +7960,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.moonbeam = {
             _metadata: {
-                name: "Moonbeam",
-                new: [
-                    "complete*",
-                    "loop.yellow*",
-                    "no_pulse.yellow*",
-                    "intro.yellow*",
-                    "outro.yellow*"
-                ]
+                name: "Moonbeam"
             },
             '01': {
                 complete: {
@@ -7685,6 +8001,7 @@ export async function jb2aPatreonDatabase(prefix) {
     patreonDatabase.misty_step = {
             _metadata: {
                 name: "Misty Step",
+                new: ["pink*"]
             },
             '01': {
                 blue: `${prefix}/jb2a_patreon/Library/2nd_Level/Misty_Step/MistyStep_01_Regular_Blue_400x400.webm`,
@@ -7694,6 +8011,7 @@ export async function jb2aPatreonDatabase(prefix) {
                 green: `${prefix}/jb2a_patreon/Library/2nd_Level/Misty_Step/MistyStep_01_Regular_Green_400x400.webm`,
                 grey: `${prefix}/jb2a_patreon/Library/2nd_Level/Misty_Step/MistyStep_01_Regular_Grey_400x400.webm`,
                 orange: `${prefix}/jb2a_patreon/Library/2nd_Level/Misty_Step/MistyStep_01_Regular_Orange_400x400.webm`,
+                pink: `${prefix}/jb2a_patreon/Library/2nd_Level/Misty_Step/MistyStep_01_Regular_Pink_400x400.webm`,
                 purple: `${prefix}/jb2a_patreon/Library/2nd_Level/Misty_Step/MistyStep_01_Regular_Purple_400x400.webm`,
                 yellow: `${prefix}/jb2a_patreon/Library/2nd_Level/Misty_Step/MistyStep_01_Regular_Yellow_400x400.webm`,
                 red: `${prefix}/jb2a_patreon/Library/2nd_Level/Misty_Step/MistyStep_01_Regular_Red_400x400.webm`
@@ -7706,6 +8024,7 @@ export async function jb2aPatreonDatabase(prefix) {
                 green: `${prefix}/jb2a_patreon/Library/2nd_Level/Misty_Step/MistyStep_02_Regular_Green_400x400.webm`,
                 grey: `${prefix}/jb2a_patreon/Library/2nd_Level/Misty_Step/MistyStep_02_Regular_Grey_400x400.webm`,
                 orange: `${prefix}/jb2a_patreon/Library/2nd_Level/Misty_Step/MistyStep_02_Regular_Orange_400x400.webm`,
+                pink: `${prefix}/jb2a_patreon/Library/2nd_Level/Misty_Step/MistyStep_02_Regular_Pink_400x400.webm`,
                 purple: `${prefix}/jb2a_patreon/Library/2nd_Level/Misty_Step/MistyStep_02_Regular_Purple_400x400.webm`,
                 yellow: `${prefix}/jb2a_patreon/Library/2nd_Level/Misty_Step/MistyStep_02_Regular_Yellow_400x400.webm`,
                 red: `${prefix}/jb2a_patreon/Library/2nd_Level/Misty_Step/MistyStep_02_Regular_Red_400x400.webm`
@@ -9119,11 +9438,14 @@ export async function jb2aPatreonDatabase(prefix) {
     patreonDatabase.screen_overlay = {
             _metadata: {
                 name: "Screen Overlay",
+                new: ["green*", "pink*"]
             },
             '01': {
                 bad_omen: {
                     dark_black: `${prefix}/jb2a_patreon/Library/Generic/Screen_Overlay/BadOmen01_01_Dark_Black_1920x1080.webm`,
+                    green: `${prefix}/jb2a_patreon/Library/Generic/Screen_Overlay/BadOmen01_01_Regular_Green_1920x1080.webm`,
                     lightblue: `${prefix}/jb2a_patreon/Library/Generic/Screen_Overlay/BadOmen01_01_Regular_LightBlue_1920x1080.webm`,
+                    pink: `${prefix}/jb2a_patreon/Library/Generic/Screen_Overlay/BadOmen01_01_Regular_Pink_1920x1080.webm`,
                     yellow: `${prefix}/jb2a_patreon/Library/Generic/Screen_Overlay/BadOmen01_01_Regular_Yellow_1920x1080.webm`
                 }
             }
@@ -9131,7 +9453,9 @@ export async function jb2aPatreonDatabase(prefix) {
     patreonDatabase.shatter = {
             _metadata: {
                 name: "Shatter",
+                new: ["dark_red*"]
             },
+            dark_red: `${prefix}/jb2a_patreon/Library/2nd_Level/Shatter/Shatter_01_Dark_Red_400x400.webm`,
             blue: `${prefix}/jb2a_patreon/Library/2nd_Level/Shatter/Shatter_01_Blue_400x400.webm`,
             green: `${prefix}/jb2a_patreon/Library/2nd_Level/Shatter/Shatter_01_Green_400x400.webm`,
             orange: `${prefix}/jb2a_patreon/Library/2nd_Level/Shatter/Shatter_01_Orange_400x400.webm`,
@@ -9290,11 +9614,15 @@ export async function jb2aPatreonDatabase(prefix) {
                 fire: {
                     '01': {
                         dark_green: `${prefix}/jb2a_patreon/Library/Generic/Fire/ShieldFireAbove01_01_Dark_Green_400x400.webm`,
-                        orange: `${prefix}/jb2a_patreon/Library/Generic/Fire/ShieldFireAbove01_01_Regular_Orange_400x400.webm`
+                        blue: `${prefix}/jb2a_patreon/Library/Generic/Fire/ShieldFireAbove01_01_Regular_Blue_400x400.webm`,
+                        orange: `${prefix}/jb2a_patreon/Library/Generic/Fire/ShieldFireAbove01_01_Regular_Orange_400x400.webm`,
+                        purple: `${prefix}/jb2a_patreon/Library/Generic/Fire/ShieldFireAbove01_01_Regular_Purple_400x400.webm`
                     },
                     '03': {
                         dark_green: `${prefix}/jb2a_patreon/Library/Generic/Fire/ShieldFireAbove01_03_Dark_Green_400x400.webm`,
-                        orange: `${prefix}/jb2a_patreon/Library/Generic/Fire/ShieldFireAbove01_03_Regular_Orange_400x400.webm`
+                        blue: `${prefix}/jb2a_patreon/Library/Generic/Fire/ShieldFireAbove01_03_Regular_Blue_400x400.webm`,
+                        orange: `${prefix}/jb2a_patreon/Library/Generic/Fire/ShieldFireAbove01_03_Regular_Orange_400x400.webm`,
+                        purple: `${prefix}/jb2a_patreon/Library/Generic/Fire/ShieldFireAbove01_03_Regular_Purple_400x400.webm`
                     },
                 },
                 ice: {
@@ -9336,15 +9664,21 @@ export async function jb2aPatreonDatabase(prefix) {
                 fire: {
                     '01': {
                         dark_green: `${prefix}/jb2a_patreon/Library/Generic/Fire/ShieldFireBelow01_01_Dark_Green_400x400.webm`,
-                        orange: `${prefix}/jb2a_patreon/Library/Generic/Fire/ShieldFireBelow01_01_Regular_Orange_400x400.webm`
+                        blue: `${prefix}/jb2a_patreon/Library/Generic/Fire/ShieldFireBelow01_01_Regular_Blue_400x400.webm`,
+                        orange: `${prefix}/jb2a_patreon/Library/Generic/Fire/ShieldFireBelow01_01_Regular_Orange_400x400.webm`,
+                        purple: `${prefix}/jb2a_patreon/Library/Generic/Fire/ShieldFireBelow01_01_Regular_Purple_400x400.webm`
                     },
                     '02': {
                         dark_green: `${prefix}/jb2a_patreon/Library/Generic/Fire/ShieldFireBelow01_02_Dark_Green_400x400.webm`,
-                        orange: `${prefix}/jb2a_patreon/Library/Generic/Fire/ShieldFireBelow01_02_Regular_Orange_400x400.webm`
+                        blue: `${prefix}/jb2a_patreon/Library/Generic/Fire/ShieldFireBelow01_02_Regular_Blue_400x400.webm`,
+                        orange: `${prefix}/jb2a_patreon/Library/Generic/Fire/ShieldFireBelow01_02_Regular_Orange_400x400.webm`,
+                        purple: `${prefix}/jb2a_patreon/Library/Generic/Fire/ShieldFireBelow01_02_Regular_Purple_400x400.webm`
                     },
                     '03': {
                         dark_green: `${prefix}/jb2a_patreon/Library/Generic/Fire/ShieldFireBelow01_03_Dark_Green_400x400.webm`,
-                        orange: `${prefix}/jb2a_patreon/Library/Generic/Fire/ShieldFireBelow01_03_Regular_Orange_400x400.webm`
+                        blue: `${prefix}/jb2a_patreon/Library/Generic/Fire/ShieldFireBelow01_03_Regular_Blue_400x400.webm`,
+                        orange: `${prefix}/jb2a_patreon/Library/Generic/Fire/ShieldFireBelow01_03_Regular_Orange_400x400.webm`,
+                        purple: `${prefix}/jb2a_patreon/Library/Generic/Fire/ShieldFireBelow01_03_Regular_Purple_400x400.webm`
                     }
                 },
                 ice: {
@@ -9596,12 +9930,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.smoke = {
             _metadata: {
-                name: "Smoke",
-                new: [
-                    "puff.side.green*",
-                    "puff.centered.green*",
-                    "rising*"
-                ]
+                name: "Smoke"
             },
             puff: {
                 side: {
@@ -10443,7 +10772,8 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.spiritual_weapon = {
             _metadata: {
-                name: "Spiritual Weapon"
+                name: "Spiritual Weapon",
+                new: ["trident*"]
             },
             club: {
                 '01': {
@@ -11016,6 +11346,25 @@ export async function jb2aPatreonDatabase(prefix) {
                     }
                 }
             },
+            trident: {
+                '01': {
+                    astral: {                   
+                        '01': {
+                            blue: `${prefix}/jb2a_patreon/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Trident01_01_Astral_Purple_400x400.webm`
+                        }
+                    },
+                    liquid: {                   
+                        '01': {
+                            blue: `${prefix}/jb2a_patreon/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Trident01_01_Liquid_Blue_400x400.webm`
+                        }
+                    },
+                    spectral: {                   
+                        '02': {
+                            green: `${prefix}/jb2a_patreon/Library/2nd_Level/Spiritual_Weapon/SpiritualWeapon_Trident01_02_Spectral_Green_400x400.webm`
+                        }
+                    }
+                }
+            },
             warhammer: {
                 '01': {
                     astral: {                   
@@ -11124,8 +11473,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.swirling_feathers = {
         _metadata: {
-            name: "Swirling Feathers",
-            new: true
+            name: "Swirling Feathers"
         },
         outburst: {
             '01': {
@@ -11266,8 +11614,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.swirling_sparkles = {
             _metadata: {
-                name: "Swirling Sparkles",
-                new: ["01.yellow*"]
+                name: "Swirling Sparkles"
             },
             '01': {
                 blue: `${prefix}/jb2a_patreon/Library/Generic/Energy/SwirlingSparkles_01_Regular_Blue_400x400.webm`,
@@ -11363,14 +11710,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.template_circle = {
             _metadata: {
-                name: "Template - Circle",
-                new: [
-                    "out_pulse.01.burst.yellowwhite*",
-                    "out_pulse.01.loop.yellowwhite*",
-                    "out_pulse.02.burst.yellowwhite*",
-                    "out_pulse.02.loop.yellowwhite*",
-                    "out_pulse.03.loop*",
-                ]
+                name: "Template - Circle"
             },
             symbol: {
                 normal: {
@@ -11965,8 +12305,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.toll_the_dead = {
             _metadata: {
-                name: "Toll The Dead",
-                new: ["yellow*"]
+                name: "Toll The Dead"
             },
             blue: {
                 bell: `${prefix}/jb2a_patreon/Library/Cantrip/Toll_The_Dead/TollTheDeadBell_01_Regular_Blue_400x400.webm`,
