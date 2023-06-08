@@ -1336,6 +1336,29 @@ export async function jb2aPatreonDatabase(prefix) {
             purple: `${prefix}/jb2a_patreon/Library/Generic/Fire/Campfire/Campfire_02_Regular_Purple_200x200.webm`
         }
     }
+    patreonDatabase.cast_shape = {
+        _metadata: {
+            name: "Cast Shape",
+            new: true
+        },
+        circle: {
+            '01': {
+                blue: `${prefix}/jb2a_patreon/Library/Generic/Cast/CastShapeCircle01_01_Regular_Blue_600x600.webm`,
+                green: `${prefix}/jb2a_patreon/Library/Generic/Cast/CastShapeCircle01_01_Regular_Green_600x600.webm`,
+                purple: `${prefix}/jb2a_patreon/Library/Generic/Cast/CastShapeCircle01_01_Regular_Purple_600x600.webm`,
+                yellow: `${prefix}/jb2a_patreon/Library/Generic/Cast/CastShapeCircle01_01_Regular_Yellow_600x600.webm`,
+            }
+        },
+        square: {
+            '01': {
+                blue: `${prefix}/jb2a_patreon/Library/Generic/Cast/CastShapeSquare01_01_Regular_Blue_600x600.webm`,
+                green: `${prefix}/jb2a_patreon/Library/Generic/Cast/CastShapeSquare01_01_Regular_Green_600x600.webm`,
+                purple: `${prefix}/jb2a_patreon/Library/Generic/Cast/CastShapeSquare01_01_Regular_Purple_600x600.webm`,
+                yellow: `${prefix}/jb2a_patreon/Library/Generic/Cast/CastShapeSquare01_01_Regular_Yellow_600x600.webm`,
+            }
+        },
+
+    }
     patreonDatabase.celestial_bodies = {
         _metadata: {
             name: "Celestial Bodies"
@@ -2282,8 +2305,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.energy_beam = {
         _metadata: {
-            name: "Energy Beam",
-            new: ["normal.purple*", "reverse.purple*"]
+            name: "Energy Beam"
         },
         _template: 'ranged',
         normal: {
@@ -2596,6 +2618,10 @@ export async function jb2aPatreonDatabase(prefix) {
         complete: {
             _metadata: {
                 name: "Energy Strands: Complete",
+                new: [
+                    "dark_purple*",
+                    "dark_purple02*"
+                ]
             },
             blue: {
                 '01': `${prefix}/jb2a_patreon/Library/Generic/Marker/EnergyStrands_01_Regular_Blue_600x600.webm`
@@ -2612,6 +2638,12 @@ export async function jb2aPatreonDatabase(prefix) {
             dark_red: {
                 '01': `${prefix}/jb2a_patreon/Library/Generic/Marker/EnergyStrands_01_Dark_Red_600x600.webm`
             },
+            dark_purple: {
+                '01': `${prefix}/jb2a_patreon/Library/Generic/Marker/EnergyStrands_01_Dark_Purple_600x600.webm`
+            },
+            dark_purple02: {
+                '01': `${prefix}/jb2a_patreon/Library/Generic/Marker/EnergyStrands_01_Dark_Purple02_600x600.webm`
+            },
             orange: {
                 '01': `${prefix}/jb2a_patreon/Library/Generic/Marker/EnergyStrands_01_Regular_Orange_600x600.webm`
             },
@@ -2624,7 +2656,11 @@ export async function jb2aPatreonDatabase(prefix) {
         },
         overlay: {
             _metadata: {
-                name: "Energy Strands: Overlay"
+                name: "Energy Strands: Overlay",
+                new: [
+                    "dark_purple*",
+                    "dark_purple02*"
+                ]
             },
             blue: {
                 '01': `${prefix}/jb2a_patreon/Library/Generic/Marker/EnergyStrandsOverlay_01_Regular_Blue_600x600.webm`
@@ -2641,6 +2677,12 @@ export async function jb2aPatreonDatabase(prefix) {
             dark_red: {
                 '01': `${prefix}/jb2a_patreon/Library/Generic/Marker/EnergyStrandsOverlay_01_Dark_Red_600x600.webm`
             },
+            dark_purple: {
+                '01': `${prefix}/jb2a_patreon/Library/Generic/Marker/EnergyStrandsOverlay_01_Dark_Purple_600x600.webm`
+            },
+            dark_purple02: {
+                '01': `${prefix}/jb2a_patreon/Library/Generic/Marker/EnergyStrandsOverlay_01_Dark_Purple02_600x600.webm`
+            },
             orange: {
                 '01': `${prefix}/jb2a_patreon/Library/Generic/Marker/EnergyStrandsOverlay_01_Regular_Orange_600x600.webm`
             },
@@ -2654,7 +2696,10 @@ export async function jb2aPatreonDatabase(prefix) {
         range: {
             standard: {
                 _metadata: {
-                    name: "Energy Strands: Ranged"
+                    name: "Energy Strands: Ranged",
+                    new: [
+                        "dark_purple02*"
+                    ]
                 },
             _template: 'ranged',
     
@@ -2716,6 +2761,36 @@ export async function jb2aPatreonDatabase(prefix) {
                         '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Dark_Purple_30ft_1600x400.webm`,
                         '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Dark_Purple_60ft_2800x400.webm`,
                         '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Dark_Purple_90ft_4000x400.webm`
+                    }
+                },
+                dark_purple02: {
+                    '01': {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Dark_Purple02_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Dark_Purple02_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Dark_Purple02_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Dark_Purple02_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_01_Dark_Purple02_90ft_4000x400.webm`
+                    },
+                    '02': {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Dark_Purple02_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Dark_Purple02_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Dark_Purple02_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Dark_Purple02_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_02_Dark_Purple02_90ft_4000x400.webm`
+                    },
+                    '03': {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Dark_Purple02_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Dark_Purple02_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Dark_Purple02_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Dark_Purple02_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_03_Dark_Purple02_90ft_4000x400.webm`
+                    },
+                    '04': {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Dark_Purple02_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Dark_Purple02_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Dark_Purple02_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Dark_Purple02_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_04_Dark_Purple02_90ft_4000x400.webm`
                     }
                 },
                 dark_red: {
@@ -2872,7 +2947,9 @@ export async function jb2aPatreonDatabase(prefix) {
             multiple: {
                 _metadata: {
                     name: "Energy Strands: Multiple",
-                    new: ['orange*']
+                    new: [
+                        "dark_purple02"
+                    ]
                 },
                 _template: 'ranged',
                 dark_green: {
@@ -2892,6 +2969,16 @@ export async function jb2aPatreonDatabase(prefix) {
                         '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Purple_30ft_1600x400.webm`,
                         '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Purple_60ft_2800x400.webm`,
                         '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Purple_90ft_4000x400.webm`
+                    }
+    
+                },
+                dark_purple02: {
+                    '01': {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Purple02_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Purple02_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Purple02_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Purple02_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyStrand_Multiple01_Dark_Purple02_90ft_4000x400.webm`
                     }
     
                 },
@@ -3282,8 +3369,7 @@ export async function jb2aPatreonDatabase(prefix) {
         },
         '08': {
             _metadata: {
-                name: "Explosion",
-                new: ["1200*"]
+                name: "Explosion"
             },
             "1200": {
                 blue: `${prefix}/jb2a_patreon/Library/Generic/Explosion/Explosion_05_Regular_Blue_1200x1200.webm`,
@@ -4549,8 +4635,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.fork = {
         _metadata: {
-            name: "Fork",
-            new: true
+            name: "Fork"
         },
         return: {
             _template: 'ranged',
@@ -5432,8 +5517,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.icon = {
             _metadata: {
-                name: "Icons",
-                new: ["mute*"]
+                name: "Icons"
             },
             drop: {
                 dark_green: `${prefix}/jb2a_patreon/Library/Generic/UI/IconDrop_01_Dark_Green_200x200.webm`,
@@ -5930,13 +6014,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.impact_themed = {
             _metadata: {
-                name: "Impact - Themed",
-                new: [
-                    "heart.pink*",
-                    "music_note.pink*",
-                    "heart.02*",
-                    "music_note.02*"
-            ]
+                name: "Impact - Themed"
             },
             heart: {
                 '02': {
@@ -7784,11 +7862,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.markers = {
             _metadata: {
-                name: "Markers",
-                new: [
-                    'bubble.02*',
-                    'mute*'
-                ]
+                name: "Markers"
             },
             '01': {
                 blueyellow: `${prefix}/jb2a_patreon/Library/Generic/Marker/Marker_01_Regular_BlueYellow_400x400.webm`,
@@ -7911,7 +7985,7 @@ export async function jb2aPatreonDatabase(prefix) {
                     complete: {
                         _markers: {
                             loop: { start: 2033, end: 7000 },
-                            forcedEnd: 7933
+                            //forcedEnd: 7933
                         },
                         '02': {
                             blue: `${prefix}/jb2a_patreon/Library/Generic/Marker/MarkerChainDiamond01_02_Regular_Blue_Complete_400x400.webm`,
@@ -7940,7 +8014,7 @@ export async function jb2aPatreonDatabase(prefix) {
                     complete: {
                         _markers: {
                             loop: { start: 2033, end: 7000 },
-                            forcedEnd: 7933
+                            //forcedEnd: 7933
                         },
                         '02': {
                             blue: `${prefix}/jb2a_patreon/Library/Generic/Marker/MarkerChainSpike01_02_Regular_Blue_Complete_400x400.webm`,
@@ -7969,7 +8043,7 @@ export async function jb2aPatreonDatabase(prefix) {
                     complete: {
                         _markers: {
                             loop: { start: 2033, end: 7000 },
-                            forcedEnd: 7933
+                            //forcedEnd: 7933
                         },
                         '02': {
                             blue: `${prefix}/jb2a_patreon/Library/Generic/Marker/MarkerChainSquare01_02_Regular_Blue_Complete_400x400.webm`,
@@ -7998,7 +8072,7 @@ export async function jb2aPatreonDatabase(prefix) {
                     complete: {
                         _markers: {
                             loop: { start: 2033, end: 7000 },
-                            forcedEnd: 7933
+                            //forcedEnd: 7933
                         },
                         '02': {
                             blue: `${prefix}/jb2a_patreon/Library/Generic/Marker/MarkerChainStandard01_02_Regular_Blue_Complete_400x400.webm`,
@@ -8469,7 +8543,10 @@ export async function jb2aPatreonDatabase(prefix) {
         _template: "melee",
         '01': {
             _metadata: {
-                name: "Melee Attacks - Group 01"
+                name: "Melee Attacks - Group 01",
+                new: [
+                    'Sickle*'
+                ]
             },
             butterflysword: {
                 '01': [
@@ -8503,6 +8580,14 @@ export async function jb2aPatreonDatabase(prefix) {
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_ShortSword01_02_800x600.webm`,
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_ShortSword01_03_800x600.webm`,
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_ShortSword01_04_800x600.webm`,
+                ]
+            },
+            sickle:{
+                '01': [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_Sickle01_01_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_Sickle01_02_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_Sickle01_03_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_Sickle01_04_800x600.webm`,
                 ]
             },
             trail: {
@@ -8592,9 +8677,7 @@ export async function jb2aPatreonDatabase(prefix) {
             _metadata: {
                 name: "Melee Attacks - Group 02",
                 new: [
-                    "club*",
-                    "mace*",
-                    "warhammer*"
+                    'BattleAxe*'
                 ]
             },
             trail: {
@@ -8679,6 +8762,14 @@ export async function jb2aPatreonDatabase(prefix) {
                     ]
                 }
             },
+            battleaxe: {
+                '01': [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_BattleAxe01_01_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_BattleAxe01_02_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_BattleAxe01_03_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_BattleAxe01_04_800x600.webm`,
+                ]
+            },
             bone: {
                 '01': [
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Bone01_01_800x600.webm`,
@@ -8744,7 +8835,10 @@ export async function jb2aPatreonDatabase(prefix) {
         },
         '03': {
             _metadata: {
-                name: "Melee Attacks - Group 03"
+                name: "Melee Attacks - Group 03",
+                new: [
+                    'magical_greatsword*'
+                ]
             },
             trail: {
                 '01': {
@@ -8852,6 +8946,34 @@ export async function jb2aPatreonDatabase(prefix) {
                 `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatSword01_04_800x600.webm`,
                 ]
             },
+            magical_greatsword: {
+                '01': {
+                    'dark_green': [
+                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_MagicalGreatSword01_01_Dark_Green_800x600.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_MagicalGreatSword01_02_Dark_Green_800x600.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_MagicalGreatSword01_03_Dark_Green_800x600.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_MagicalGreatSword01_04_Dark_Green_800x600.webm`
+                    ],
+                    'dark_purple': [
+                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_MagicalGreatSword01_01_Dark_Purple_800x600.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_MagicalGreatSword01_02_Dark_Purple_800x600.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_MagicalGreatSword01_03_Dark_Purple_800x600.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_MagicalGreatSword01_04_Dark_Purple_800x600.webm`
+                    ],
+                    'blue': [
+                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_MagicalGreatSword01_01_Regular_Blue_800x600.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_MagicalGreatSword01_02_Regular_Blue_800x600.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_MagicalGreatSword01_03_Regular_Blue_800x600.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_MagicalGreatSword01_04_Regular_Blue_800x600.webm`
+                    ],
+                    'orange': [
+                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_MagicalGreatSword01_01_Regular_Orange_800x600.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_MagicalGreatSword01_02_Regular_Orange_800x600.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_MagicalGreatSword01_03_Regular_Orange_800x600.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_MagicalGreatSword01_04_Regular_Orange_800x600.webm`
+                    ],
+                }
+            },
             maul: {
                 '01': [
                 `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_Maul01_01_800x600.webm`,
@@ -8863,11 +8985,7 @@ export async function jb2aPatreonDatabase(prefix) {
         },
         '04': {
             _metadata: {
-                name: "Melee Attacks - Group 04",
-                new: [
-                    "falchion*",
-                    "scimitar*"
-                ]
+                name: "Melee Attacks - Group 04"
             },
             trail: {
                 '01': {
@@ -9070,9 +9188,32 @@ export async function jb2aPatreonDatabase(prefix) {
                     ]
                 }
             }
+        },
+        '06': {
+            _metadata: {
+                name: "Melee Attacks - Group 06",
+                new: true
+            },
+            shield: {
+                '01': [
+                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group06/MeleeAttack06_Shield01_01_Regular_White_800x600.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group06/MeleeAttack06_Shield01_02_Regular_White_800x600.webm`
+                    ],
+                '02': [
+                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group06/MeleeAttack06_Shield02_01_Regular_White_800x600.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group06/MeleeAttack06_Shield02_02_Regular_White_800x600.webm`
+                    ],
+                '03': [
+                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group06/MeleeAttack06_Shield03_01_Regular_White_800x600.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group06/MeleeAttack06_Shield03_02_Regular_White_800x600.webm`
+                    ],
+                '04': [
+                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group06/MeleeAttack06_Shield04_01_Regular_White_800x600.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group06/MeleeAttack06_Shield04_02_Regular_White_800x600.webm`
+                    ]
+            }
+            }
         }
-
-    }
     patreonDatabase.melee_generic = {
             _metadata: {
                 name: "Melee - Generic"
@@ -9605,6 +9746,32 @@ export async function jb2aPatreonDatabase(prefix) {
                 },
             }
     }
+    patreonDatabase.particle_burst = {
+        _metadata: {
+            name: "Particle Burst",
+            new: true
+        },
+        '01': {
+            circle: {
+                bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticleBurstCircle01_01_Regular_BluePurple_600x600.webm`,
+                green: `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticleBurstCircle01_01_Regular_Green_600x600.webm`,
+                orangepink: `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticleBurstCircle01_01_Regular_OrangePink_600x600.webm`,
+                yellow: `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticleBurstCircle01_01_Regular_Yellow_600x600.webm`,
+            },
+            rune: {
+                bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticleBurstRune01_01_Regular_BluePurple_600x600.webm`,
+                green: `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticleBurstRune01_01_Regular_Green_600x600.webm`,
+                orangepink: `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticleBurstRune01_01_Regular_OrangePink_600x600.webm`,
+                yellow: `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticleBurstRune01_01_Regular_Yellow_600x600.webm`,
+            },
+            star: {
+                bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticleBurstStar01_01_Regular_BluePurple_600x600.webm`,
+                green: `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticleBurstStar01_01_Regular_Green_600x600.webm`,
+                orangepink: `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticleBurstStar01_01_Regular_OrangePink_600x600.webm`,
+                yellow: `${prefix}/jb2a_patreon/Library/Generic/Particles/ParticleBurstStar01_01_Regular_Yellow_600x600.webm`,
+            }
+        },
+}
     patreonDatabase.plant_growth = {
         _metadata: {
             name: "Plant Growth"
@@ -10803,10 +10970,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.shield = {
             _metadata: {
-                name: "Shield",
-                new: [
-                    "white*"
-                ]
+                name: "Shield"
             },
             '01': {
                 complete: {
@@ -11058,6 +11222,99 @@ export async function jb2aPatreonDatabase(prefix) {
                     }
                 }
             }
+    }
+    patreonDatabase.shield_attack = {
+        ranged: {
+            _metadata: {
+                name: "Shield Attack - Ranged",
+                new: true
+            },
+            _template: 'ranged',
+            throw: {
+                '01': {
+                    white: {
+                        '01': {
+                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Shield01_01_Regular_White_15ft_1000x400.webm`,
+                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Shield01_01_Regular_White_30ft_1600x400.webm`,
+                            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Shield01_01_Regular_White_60ft_2800x400.webm`,
+                            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Shield01_01_Regular_White_90ft_4000x400.webm`
+                        },
+                        '02': {
+                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Shield01_02_Regular_White_15ft_1000x400.webm`,
+                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Shield01_02_Regular_White_30ft_1600x400.webm`,
+                            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Shield01_02_Regular_White_60ft_2800x400.webm`,
+                            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Shield01_02_Regular_White_90ft_4000x400.webm`
+                        }
+                    }
+                },
+                '02': {
+                    white: {
+                        '01': {
+                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Shield02_01_Regular_White_15ft_1000x400.webm`,
+                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Shield02_01_Regular_White_30ft_1600x400.webm`,
+                            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Shield02_01_Regular_White_60ft_2800x400.webm`,
+                            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Shield02_01_Regular_White_90ft_4000x400.webm`
+                        },
+                        '02': {
+                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Shield02_02_Regular_White_15ft_1000x400.webm`,
+                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Shield02_02_Regular_White_30ft_1600x400.webm`,
+                            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Shield02_02_Regular_White_60ft_2800x400.webm`,
+                            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Shield02_02_Regular_White_90ft_4000x400.webm`
+                        }
+                    }
+                },
+                '04': {
+                    white: {
+                        '01': {
+                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Shield04_01_Regular_White_15ft_1000x400.webm`,
+                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Shield04_01_Regular_White_30ft_1600x400.webm`,
+                            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Shield04_01_Regular_White_60ft_2800x400.webm`,
+                            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Shield04_01_Regular_White_90ft_4000x400.webm`
+                        },
+                        '02': {
+                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Shield04_02_Regular_White_15ft_1000x400.webm`,
+                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Shield04_02_Regular_White_30ft_1600x400.webm`,
+                            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Shield04_02_Regular_White_60ft_2800x400.webm`,
+                            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Shield04_02_Regular_White_90ft_4000x400.webm`
+                        }
+                    }
+                },
+            },
+            return: {
+                '01': {
+                    white: {
+                        '01': {
+                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Shield01_01_Regular_White_Return_15ft_1000x400.webm`,
+                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Shield01_01_Regular_White_Return_30ft_1600x400.webm`,
+                            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Shield01_01_Regular_White_Return_60ft_2800x400.webm`,
+                            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Shield01_01_Regular_White_Return_90ft_4000x400.webm`
+                        }
+                    }
+                },
+                '02': {
+                    white: {
+                        '01': {
+                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Shield02_01_Regular_White_Return_15ft_1000x400.webm`,
+                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Shield02_01_Regular_White_Return_30ft_1600x400.webm`,
+                            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Shield02_01_Regular_White_Return_60ft_2800x400.webm`,
+                            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Shield02_01_Regular_White_Return_90ft_4000x400.webm`
+                        }
+                    }
+                },
+                '04': {
+                    white: {
+                        '01': {
+                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Shield04_01_Regular_White_Return_15ft_1000x400.webm`,
+                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Shield04_01_Regular_White_Return_30ft_1600x400.webm`,
+                            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Shield04_01_Regular_White_Return_60ft_2800x400.webm`,
+                            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Shield04_01_Regular_White_Return_90ft_4000x400.webm`
+                        }
+                    }
+                },
+            }
+            
+
+        }
     }
     patreonDatabase.shimmer = {
             _metadata: {
@@ -11598,11 +11855,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.spell_projectile = {
             _metadata: {
-                name: "Spell Projectile",
-                new: [
-                    "heart.pink*",
-                    "music_note.pink*"
-                ]
+                name: "Spell Projectile"
             },
             _template: 'ranged',
             heart: {
@@ -14805,11 +15058,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.wind_stream = {
             _metadata: {
-                name: "Wind stream",
-                new: [
-                    "200*",
-                    "400*"
-                ]
+                name: "Wind stream"
             },
             "200": {
                 white: `${prefix}/jb2a_patreon/Library/Generic/Wind/WindStreams_01_White_20OPA_200x200.webm`,
