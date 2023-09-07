@@ -300,6 +300,55 @@ export async function jb2aPatreonDatabase(prefix) {
         purplepink: `${prefix}/jb2a_patreon/Library/1st_Level/Bardic_Inspiration/BardicInspiration_01_Regular_PurplePink_400x400.webm`,
         pink: `${prefix}/jb2a_patreon/Library/1st_Level/Bardic_Inspiration/BardicInspiration_01_Regular_Pink_400x400.webm`,
     }
+    patreonDatabase.barrel = {
+        _metadata: {
+            name: "Barrel Toss",
+            new: true
+        },
+        _template: 'ranged',
+        toss: {
+            metal: {
+                '01': {
+                    '01': {
+                        green: {
+                            '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/MetalBarrelToss01_01_Regular_Green_05ft_600x400.webm`,
+                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/MetalBarrelToss01_01_Regular_Green_15ft_1000x400.webm`,
+                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/MetalBarrelToss01_01_Regular_Green_30ft_1600x400.webm`,
+                            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/MetalBarrelToss01_01_Regular_Green_60ft_2800x400.webm`,
+                            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/MetalBarrelToss01_01_Regular_Green_90ft_4000x400.webm`
+                        },
+                        red: {
+                            '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/MetalBarrelToss01_01_Regular_Red_05ft_600x400.webm`,
+                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/MetalBarrelToss01_01_Regular_Red_15ft_1000x400.webm`,
+                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/MetalBarrelToss01_01_Regular_Red_30ft_1600x400.webm`,
+                            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/MetalBarrelToss01_01_Regular_Red_60ft_2800x400.webm`,
+                            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/MetalBarrelToss01_01_Regular_Red_90ft_4000x400.webm`
+                        }
+                    }
+                }
+            },
+            wooden: {
+                '01': {
+                    '01': {
+                        brown: {
+                            '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/WoodenBarrelToss01_01_Regular_Brown_05ft_600x400.webm`,
+                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/WoodenBarrelToss01_01_Regular_Brown_15ft_1000x400.webm`,
+                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/WoodenBarrelToss01_01_Regular_Brown_30ft_1600x400.webm`,
+                            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/WoodenBarrelToss01_01_Regular_Brown_60ft_2800x400.webm`,
+                            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/WoodenBarrelToss01_01_Regular_Brown_90ft_4000x400.webm`
+                        },
+                        red: {
+                            '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/WoodenBarrelToss01_01_Regular_Red_05ft_600x400.webm`,
+                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/WoodenBarrelToss01_01_Regular_Red_15ft_1000x400.webm`,
+                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/WoodenBarrelToss01_01_Regular_Red_30ft_1600x400.webm`,
+                            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/WoodenBarrelToss01_01_Regular_Red_60ft_2800x400.webm`,
+                            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/WoodenBarrelToss01_01_Regular_Red_90ft_4000x400.webm`
+                        }
+                    }
+                }
+            },
+        }
+    }
     patreonDatabase.bite = {
         '200px': {
             blue: `${prefix}/jb2a_patreon/Library/Generic/Creature/Bite_01_Regular_Blue_200x200.webm`,
@@ -701,7 +750,10 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.boulder = {
         _metadata: {
-            name: "Boulder"
+            name: "Boulder",
+            new: [
+                'toss.02.01*'
+            ]
         },
         _template: 'ranged',
         siege: {
@@ -723,18 +775,52 @@ export async function jb2aPatreonDatabase(prefix) {
 
         toss: {
             '01': {
-                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/BoulderToss01_01_Regular_White_05ft_600x500.webm`,
-                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/BoulderToss01_01_Regular_White_15ft_1000x500.webm`,
-                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/BoulderToss01_01_Regular_White_30ft_1600x500.webm`,
-                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/BoulderToss01_01_Regular_White_60ft_2800x500.webm`,
-                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/BoulderToss01_01_Regular_White_90ft_4000x500.webm`
+                '01': {
+                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/BoulderToss01_01_Regular_White_05ft_600x500.webm`,
+                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/BoulderToss01_01_Regular_White_15ft_1000x500.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/BoulderToss01_01_Regular_White_30ft_1600x500.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/BoulderToss01_01_Regular_White_60ft_2800x500.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/BoulderToss01_01_Regular_White_90ft_4000x500.webm`
+                },
+                '02': {
+                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/BoulderToss01_02_Regular_White_05ft_600x500.webm`,
+                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/BoulderToss01_02_Regular_White_15ft_1000x500.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/BoulderToss01_02_Regular_White_30ft_1600x500.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/BoulderToss01_02_Regular_White_60ft_2800x500.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/BoulderToss01_02_Regular_White_90ft_4000x500.webm`
+                }
             },
             '02': {
-                '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/BoulderToss01_02_Regular_White_05ft_600x500.webm`,
-                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/BoulderToss01_02_Regular_White_15ft_1000x500.webm`,
-                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/BoulderToss01_02_Regular_White_30ft_1600x500.webm`,
-                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/BoulderToss01_02_Regular_White_60ft_2800x500.webm`,
-                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/BoulderToss01_02_Regular_White_90ft_4000x500.webm`
+                '01': {
+                    stone: {
+                        brown: {
+                            '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/BoulderToss02_01_Regular_Brown_05ft_600x400.webm`,
+                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/BoulderToss02_01_Regular_Brown_15ft_1000x400.webm`,
+                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/BoulderToss02_01_Regular_Brown_30ft_1600x400.webm`,
+                            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/BoulderToss02_01_Regular_Brown_60ft_2800x400.webm`,
+                            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/BoulderToss02_01_Regular_Brown_90ft_4000x400.webm`
+                        }
+                    },
+                    ice: {
+                        blue: {
+                            '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/BoulderTossIce02_01_Regular_Blue_05ft_600x400.webm`,
+                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/BoulderTossIce02_01_Regular_Blue_15ft_1000x400.webm`,
+                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/BoulderTossIce02_01_Regular_Blue_30ft_1600x400.webm`,
+                            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/BoulderTossIce02_01_Regular_Blue_60ft_2800x400.webm`,
+                            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/BoulderTossIce02_01_Regular_Blue_90ft_4000x400.webm`
+                        }
+                    },
+                    lava: {
+                        orange: {
+                            '05ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/BoulderTossLava02_01_Regular_Orange_05ft_600x400.webm`,
+                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/BoulderTossLava02_01_Regular_Orange_15ft_1000x400.webm`,
+                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/BoulderTossLava02_01_Regular_Orange_30ft_1600x400.webm`,
+                            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/BoulderTossLava02_01_Regular_Orange_60ft_2800x400.webm`,
+                            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/BoulderTossLava02_01_Regular_Orange_90ft_4000x400.webm`
+                        }
+                    }
+
+                }
             }
         }
     }
@@ -1321,8 +1407,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.caltrops = {
         _metadata: {
-            name: "Caltrops",
-            new: true
+            name: "Caltrops"
         },
         endframe: {
             '01': {
@@ -1374,8 +1459,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.cast_generic = {
         _metadata: {
-            name: "Cast - Generic",
-            new: true
+            name: "Cast - Generic"
         },
         '01': {
             dark_purple: [`${prefix}/jb2a_patreon/Library/Generic/Cast/GenericCast01_01_Dark_Purple_400x400.webm`],
@@ -1699,27 +1783,78 @@ export async function jb2aPatreonDatabase(prefix) {
     patreonDatabase.chakram = {
         _metadata: {
             name: "Chakram",
+            new: [
+                '01.return.02*',
+                '01.return.03*',
+                '01.throw.02*',
+                '01.throw.03*',
+                '02.02*',
+                '02.03*'
+            ]
         },
         _template: 'ranged',
         '01': {
             return: {
-                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram01_01_Regular_White_Return_15ft_1000x400.webm`,
-                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram01_01_Regular_White_Return_30ft_1600x400.webm`,
-                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram01_01_Regular_White_Return_60ft_2800x400.webm`,
-                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram01_01_Regular_White_Return_90ft_4000x400.webm`
+                '01': {
+                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram01_01_Regular_White_Return_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram01_01_Regular_White_Return_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram01_01_Regular_White_Return_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram01_01_Regular_White_Return_90ft_4000x400.webm`
+                },
+                '02': {
+                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram02_01_Regular_White_Return_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram02_01_Regular_White_Return_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram02_01_Regular_White_Return_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram02_01_Regular_White_Return_90ft_4000x400.webm`
+                },
+                '03': {
+                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram03_01_Regular_White_Return_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram03_01_Regular_White_Return_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram03_01_Regular_White_Return_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram03_01_Regular_White_Return_90ft_4000x400.webm`
+                }
+
             },
             throw: {
-                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram01_01_Regular_White_15ft_1000x400.webm`,
-                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram01_01_Regular_White_30ft_1600x400.webm`,
-                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram01_01_Regular_White_60ft_2800x400.webm`,
-                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram01_01_Regular_White_90ft_4000x400.webm`
+                '01': {
+                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram01_01_Regular_White_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram01_01_Regular_White_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram01_01_Regular_White_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram01_01_Regular_White_90ft_4000x400.webm`
+                },
+                '02': {
+                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram02_01_Regular_White_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram02_01_Regular_White_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram02_01_Regular_White_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram02_01_Regular_White_90ft_4000x400.webm`
+                },
+                '03': {
+                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram03_01_Regular_White_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram03_01_Regular_White_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram03_01_Regular_White_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram03_01_Regular_White_90ft_4000x400.webm`
+                }
             }
         },
         '02': {
-            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram01_02_Regular_White_15ft_1000x400.webm`,
-            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram01_02_Regular_White_30ft_1600x400.webm`,
-            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram01_02_Regular_White_60ft_2800x400.webm`,
-            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram01_02_Regular_White_90ft_4000x400.webm`
+            '01': {
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram01_02_Regular_White_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram01_02_Regular_White_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram01_02_Regular_White_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram01_02_Regular_White_90ft_4000x400.webm`
+            },
+            '02': {
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram02_02_Regular_White_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram02_02_Regular_White_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram02_02_Regular_White_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram02_02_Regular_White_90ft_4000x400.webm`
+            },
+            '03': {
+                '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram03_02_Regular_White_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram03_02_Regular_White_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram03_02_Regular_White_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Chakram03_02_Regular_White_90ft_4000x400.webm`
+            }
         }
     }
     patreonDatabase.claws = {
@@ -5361,6 +5496,7 @@ export async function jb2aPatreonDatabase(prefix) {
             yellowwhite: `${prefix}/jb2a_patreon/Library/Generic/Healing/HealingAbility_02_Regular_YellowWhite_Loop_600x600.webm`
         }
     }
+
     patreonDatabase.hovering_laserweapon = {
         _metadata: {
             name: "Hovering Laserweapon"
@@ -7901,48 +8037,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.markers = {
             _metadata: {
-                name: "Markers",
-                new: [
-                    "chain.spectral_standard*",
-                    "light_orb*",
-                    "light.complete.blue02*",
-                    "light.complete.green02*",
-                    "light.complete.pink*",
-                    "light.complete.purple*",
-                    "light.complete.purple02*",
-                    "light.complete.red*",
-                    "light.complete.red02*",
-                    "light.intro.blue02*",
-                    "light.intro.green02*",
-                    "light.intro.pink*",
-                    "light.intro.purple*",
-                    "light.intro.purple02*",
-                    "light.intro.red*",
-                    "light.intro.red02*",
-                    "light.loop.blue02*",
-                    "light.loop.green02*",
-                    "light.loop.pink*",
-                    "light.loop.purple*",
-                    "light.loop.purple02*",
-                    "light.loop.red*",
-                    "light.loop.red02*",
-                    "light.nopulse.blue02*",
-                    "light.nopulse.green02*",
-                    "light.nopulse.pink*",
-                    "light.nopulse.purple*",
-                    "light.nopulse.purple02*",
-                    "light.nopulse.red*",
-                    "light.nopulse.red02*",
-                    "light.outro.blue02*",
-                    "light.outro.green02*",
-                    "light.outro.pink*",
-                    "light.outro.purple*",
-                    "light.outro.purple02*",
-                    "light.outro.red*",
-                    "light.outro.red02*",
-
-
-                ]
+                name: "Markers"
             },
             '01': {
                 blueyellow: `${prefix}/jb2a_patreon/Library/Generic/Marker/Marker_01_Regular_BlueYellow_400x400.webm`,
@@ -8697,9 +8792,16 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.melee_attack = {
         _template: "melee",
+        
         '01': {
             _metadata: {
-                name: "Melee Attacks - Group 01"
+                name: "Melee Attacks - Group 01",
+                new: [
+                    'magic_sword.dark_green.02*',
+                    'magic_sword.dark_purple.02*',
+                    'magic_sword.blue.02*',
+                    'magic_sword.orange.02*'
+                ]
             },
             butterflysword: {
                 '01': [
@@ -8718,6 +8820,38 @@ export async function jb2aPatreonDatabase(prefix) {
                 ]
             },
             magic_sword: {
+                dark_green: {
+                    '02': [
+                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_MagicSword02_01_Dark_Green_800x600.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_MagicSword02_02_Dark_Green_800x600.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_MagicSword02_03_Dark_Green_800x600.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_MagicSword02_04_Dark_Green_800x600.webm`,
+                    ]
+                },
+                dark_purple: {
+                    '02': [
+                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_MagicSword02_01_Dark_Purple_800x600.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_MagicSword02_02_Dark_Purple_800x600.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_MagicSword02_03_Dark_Purple_800x600.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_MagicSword02_04_Dark_Purple_800x600.webm`,
+                    ],
+                },
+                blue: {
+                    '02': [
+                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_MagicSword02_01_Regular_Blue_800x600.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_MagicSword02_02_Regular_Blue_800x600.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_MagicSword02_03_Regular_Blue_800x600.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_MagicSword02_04_Regular_Blue_800x600.webm`,
+                    ]
+                },
+                orange: {
+                    '02': [
+                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_MagicSword02_01_Regular_Orange_800x600.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_MagicSword02_02_Regular_Orange_800x600.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_MagicSword02_03_Regular_Orange_800x600.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_MagicSword02_04_Regular_Orange_800x600.webm`,
+                    ]
+                },
                 yellow: {
                     '01': [
                         `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_MagicSword01_01_Regular_Yellow_800x600.webm`,
@@ -9544,6 +9678,24 @@ export async function jb2aPatreonDatabase(prefix) {
                 name: "Ouija Planchette",
             },
             pink: `${prefix}/jb2a_patreon/Library/Generic/Item/OuijaPlanchette_01_Regular_Pink_500x500.webm`
+    }
+    patreonDatabase.overcharged_sphere = {
+        _metadata: {
+            name: "Overcharged Sphere",
+            new: true
+        },
+        _template: 'ranged',
+        '01': {
+            '01': {
+                dark_purple: {
+                    '05ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/OverchargedSphere01_01_Dark_Purple_05ft_600x400.webm`,
+                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/OverchargedSphere01_01_Dark_Purple_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/OverchargedSphere01_01_Dark_Purple_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/OverchargedSphere01_01_Dark_Purple_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/OverchargedSphere01_01_Dark_Purple_90ft_4000x400.webm`
+                }
+            }
+        }
     }
     patreonDatabase.pack_hound_missile = {
         _metadata: {
@@ -10599,8 +10751,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.rolling_boulder = {
         _metadata: {
-            name: "Rolling Boulder",
-            new: true
+            name: "Rolling Boulder"
         },
         loop: {
             '01': {
@@ -10698,6 +10849,9 @@ export async function jb2aPatreonDatabase(prefix) {
     patreonDatabase.scorching_ray = {
             _metadata: {
                 name: "Scorching Ray",
+                new: [
+                    'loop.01.rainbow02*'
+                ]
             },
             _template: 'ranged',
             '01': {
@@ -10931,6 +11085,13 @@ export async function jb2aPatreonDatabase(prefix) {
                         '30ft': `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRayLoop_01_Regular_Pink_30ft_1600x400.webm`,
                         '60ft': `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRayLoop_01_Regular_Pink_60ft_2800x400.webm`,
                         '90ft': `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRayLoop_01_Regular_Pink_90ft_4000x400.webm`
+                    },
+                    rainbow02: {
+                        '05ft': `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRayLoop_01_Regular_Rainbow02_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRayLoop_01_Regular_Rainbow02_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRayLoop_01_Regular_Rainbow02_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRayLoop_01_Regular_Rainbow02_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRayLoop_01_Regular_Rainbow02_90ft_4000x400.webm`
                     },
                 }
             },
@@ -11556,6 +11717,20 @@ export async function jb2aPatreonDatabase(prefix) {
                 }
             }
     }
+    patreonDatabase.shuriken = {
+        _metadata: {
+            name: "Shuriken",
+            new: true
+        },
+        _template: 'ranged',
+        '01': {
+            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Shuriken01_01_Regular_White_15ft_1000x400.webm`,
+            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Shuriken01_01_Regular_White_30ft_1600x400.webm`,
+            '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Shuriken01_01_Regular_White_60ft_2800x400.webm`,
+            '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Shuriken01_01_Regular_White_90ft_4000x400.webm`
+        }
+
+}
     patreonDatabase.side_impact = {
         _metadata: {
             name: "Side Impact"
@@ -11937,6 +12112,33 @@ export async function jb2aPatreonDatabase(prefix) {
                     '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/SnowballToss_01_Regular_White_90ft_4000x500.webm`,
                 }
             }
+    }
+    patreonDatabase.soundwave = {
+        _metadata: {
+            name: "Soundwave",
+            _template: 'large',
+            new: true
+        },
+        '01': {
+            blue: `${prefix}/jb2a_patreon/Library/Generic/Energy/Soundwave01_01_Regular_Blue_600x600.webm`,
+            green: `${prefix}/jb2a_patreon/Library/Generic/Energy/Soundwave01_01_Regular_Green_600x600.webm`,
+            multicolored01: `${prefix}/jb2a_patreon/Library/Generic/Energy/Soundwave01_01_Regular_MultiColor01_600x600.webm`,
+            multicolored02: `${prefix}/jb2a_patreon/Library/Generic/Energy/Soundwave01_01_Regular_MultiColor02_600x600.webm`,
+            orangepurple: `${prefix}/jb2a_patreon/Library/Generic/Energy/Soundwave01_01_Regular_OrangePurple_600x600.webm`,
+            orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Energy/Soundwave01_01_Regular_OrangeYellow_600x600.webm`,
+            purple: `${prefix}/jb2a_patreon/Library/Generic/Energy/Soundwave01_01_Regular_Purple_600x600.webm`,
+            red: `${prefix}/jb2a_patreon/Library/Generic/Energy/Soundwave01_01_Regular_Red_600x600.webm`
+        },
+        '02': {
+            blue: `${prefix}/jb2a_patreon/Library/Generic/Energy/Soundwave01_02_Regular_Blue_600x600.webm`,
+            green: `${prefix}/jb2a_patreon/Library/Generic/Energy/Soundwave01_02_Regular_Green_600x600.webm`,
+            multicolored01: `${prefix}/jb2a_patreon/Library/Generic/Energy/Soundwave01_02_Regular_MultiColor01_600x600.webm`,
+            multicolored02: `${prefix}/jb2a_patreon/Library/Generic/Energy/Soundwave01_02_Regular_MultiColor02_600x600.webm`,
+            orangepurple: `${prefix}/jb2a_patreon/Library/Generic/Energy/Soundwave01_02_Regular_OrangePurple_600x600.webm`,
+            orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Energy/Soundwave01_02_Regular_OrangeYellow_600x600.webm`,
+            purple: `${prefix}/jb2a_patreon/Library/Generic/Energy/Soundwave01_02_Regular_Purple_600x600.webm`,
+            red: `${prefix}/jb2a_patreon/Library/Generic/Energy/Soundwave01_02_Regular_Red_600x600.webm`
+        },
     }
     patreonDatabase.spear = {
             _metadata: {
@@ -14022,11 +14224,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.token_stage = {
             _metadata: {
-                name: "Token Stage",
-                new: [
-                    "hex_s2*",
-                    "hex_s3*"
-                ]
+                name: "Token Stage"
             },
             hex: {
                 blue: {
@@ -14677,7 +14875,10 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.ui = {
             _metadata: {
-                name: "U.I.",
+                name: "UI",
+                new: [
+                    'heartbeat*'
+                ]
             },
             chevrons3: {
                 green: `${prefix}/jb2a_patreon/Library/Generic/UI/3Chevrons_01_Regular_Green_200x200.webm`,
@@ -14699,6 +14900,22 @@ export async function jb2aPatreonDatabase(prefix) {
                     `${prefix}/jb2a_patreon/Library/Generic/UI/CriticalMiss_03_Red_200x200.webm`,
                     `${prefix}/jb2a_patreon/Library/Generic/UI/CriticalMiss_04_Red_200x200.webm`,
                 ]
+            },
+            heartbeat: {
+                '01': {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/UI/HeartbeatECG01_01_Regular_Blue_400x400.webm`,
+                    green: `${prefix}/jb2a_patreon/Library/Generic/UI/HeartbeatECG01_01_Regular_Green_400x400.webm`,
+                    purple: `${prefix}/jb2a_patreon/Library/Generic/UI/HeartbeatECG01_01_Regular_Purple_400x400.webm`,
+                    red: `${prefix}/jb2a_patreon/Library/Generic/UI/HeartbeatECG01_01_Regular_Red_400x400.webm`,
+                    yellow: `${prefix}/jb2a_patreon/Library/Generic/UI/HeartbeatECG01_01_Regular_Yellow_400x400.webm`
+                },
+                '02': {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/UI/HeartbeatECG01_02_Regular_Blue_400x400.webm`,
+                    green: `${prefix}/jb2a_patreon/Library/Generic/UI/HeartbeatECG01_02_Regular_Green_400x400.webm`,
+                    purple: `${prefix}/jb2a_patreon/Library/Generic/UI/HeartbeatECG01_02_Regular_Purple_400x400.webm`,
+                    red: `${prefix}/jb2a_patreon/Library/Generic/UI/HeartbeatECG01_02_Regular_Red_400x400.webm`,
+                    yellow: `${prefix}/jb2a_patreon/Library/Generic/UI/HeartbeatECG01_02_Regular_Yellow_400x400.webm`
+                },
             },
             indicator: {
                 green: {
