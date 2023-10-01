@@ -8,6 +8,8 @@ export async function jb2aPatreonDatabase(prefix) {
         cone200: [200, 100, 100],
         large: [200, 0, 0],
         line100: [100, 50, 150],
+        line200: [200, 200, 200],
+        line200B: [200, 0, 300],
         melee: [200, 300, 300],
         ranged: [200, 200, 200],
         ray: [100, 0, 0],
@@ -302,8 +304,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.barrel = {
         _metadata: {
-            name: "Barrel Toss",
-            new: true
+            name: "Barrel Toss"
         },
         _template: 'ranged',
         toss: {
@@ -750,10 +751,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.boulder = {
         _metadata: {
-            name: "Boulder",
-            new: [
-                'toss.02.01*'
-            ]
+            name: "Boulder"
         },
         _template: 'ranged',
         siege: {
@@ -1459,7 +1457,14 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.cast_generic = {
         _metadata: {
-            name: "Cast - Generic"
+            name: "Cast - Generic",
+            new: [ 
+                "dark.01*",
+                "dark.side01*",
+                "fire.01*",
+                "fire.side01*",
+                "ice.01*",
+            ]
         },
         '01': {
             dark_purple: [`${prefix}/jb2a_patreon/Library/Generic/Cast/GenericCast01_01_Dark_Purple_400x400.webm`],
@@ -1472,11 +1477,36 @@ export async function jb2aPatreonDatabase(prefix) {
             dark_red: [`${prefix}/jb2a_patreon/Library/Generic/Cast/GenericCast02_01_Dark_Red_400x400.webm`],
             blue: [`${prefix}/jb2a_patreon/Library/Generic/Cast/GenericCast02_01_Regular_Blue_400x400.webm`],
             green: [`${prefix}/jb2a_patreon/Library/Generic/Cast/GenericCast02_01_Regular_Green_400x400.webm`],
+        },
+        dark: {
+            "01": {
+                red:[`${prefix}/jb2a_patreon/Library/Generic/Cast/CastDark01_01_Regular_Red_600x600.webm`]
+            },
+            "side01": {
+                red: [`${prefix}/jb2a_patreon/Library/Generic/Cast/CastSideDark01_01_Regular_Red_800x600.webm`]
+            }
+        },
+        fire: {
+            "01": {
+                orange:[`${prefix}/jb2a_patreon/Library/Generic/Cast/CastFire01_01_Regular_Orange_600x600.webm`]
+            },
+            "side01": {
+                orange: [`${prefix}/jb2a_patreon/Library/Generic/Cast/CastSideFire01_01_Regular_Orange_800x600.webm`]
+            }
+        },
+        ice: {
+            "01": {
+                blue:[`${prefix}/jb2a_patreon/Library/Generic/Cast/CastIce01_01_Regular_Blue_400x400.webm`]
+            }
         }
     }
     patreonDatabase.cast_shape = {
         _metadata: {
-            name: "Cast Shape"
+            name: "Cast Shape",
+            new: [
+                "circle.single01*",
+                "square.single01*"
+            ]
         },
         circle: {
             '01': {
@@ -1484,6 +1514,12 @@ export async function jb2aPatreonDatabase(prefix) {
                 green: `${prefix}/jb2a_patreon/Library/Generic/Cast/CastShapeCircle01_01_Regular_Green_600x600.webm`,
                 purple: `${prefix}/jb2a_patreon/Library/Generic/Cast/CastShapeCircle01_01_Regular_Purple_600x600.webm`,
                 yellow: `${prefix}/jb2a_patreon/Library/Generic/Cast/CastShapeCircle01_01_Regular_Yellow_600x600.webm`,
+            },
+            'single01': {
+                blue: `${prefix}/jb2a_patreon/Library/Generic/Cast/CastShapeCircleSingle01_01_Regular_Blue_600x600.webm`,
+                green: `${prefix}/jb2a_patreon/Library/Generic/Cast/CastShapeCircleSingle01_01_Regular_Green_600x600.webm`,
+                purple: `${prefix}/jb2a_patreon/Library/Generic/Cast/CastShapeCircleSingle01_01_Regular_Purple_600x600.webm`,
+                yellow: `${prefix}/jb2a_patreon/Library/Generic/Cast/CastShapeCircleSingle01_01_Regular_Yellow_600x600.webm`,
             }
         },
         square: {
@@ -1492,6 +1528,12 @@ export async function jb2aPatreonDatabase(prefix) {
                 green: `${prefix}/jb2a_patreon/Library/Generic/Cast/CastShapeSquare01_01_Regular_Green_600x600.webm`,
                 purple: `${prefix}/jb2a_patreon/Library/Generic/Cast/CastShapeSquare01_01_Regular_Purple_600x600.webm`,
                 yellow: `${prefix}/jb2a_patreon/Library/Generic/Cast/CastShapeSquare01_01_Regular_Yellow_600x600.webm`,
+            },
+            'single01': {
+                blue: `${prefix}/jb2a_patreon/Library/Generic/Cast/CastShapeSquareSingle01_01_Regular_Blue_600x600.webm`,
+                green: `${prefix}/jb2a_patreon/Library/Generic/Cast/CastShapeSquareSingle01_01_Regular_Green_600x600.webm`,
+                purple: `${prefix}/jb2a_patreon/Library/Generic/Cast/CastShapeSquareSingle01_01_Regular_Purple_600x600.webm`,
+                yellow: `${prefix}/jb2a_patreon/Library/Generic/Cast/CastShapeSquareSingle01_01_Regular_Yellow_600x600.webm`,
             }
         },
 
@@ -1782,15 +1824,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.chakram = {
         _metadata: {
-            name: "Chakram",
-            new: [
-                '01.return.02*',
-                '01.return.03*',
-                '01.throw.02*',
-                '01.throw.03*',
-                '02.02*',
-                '02.03*'
-            ]
+            name: "Chakram"
         },
         _template: 'ranged',
         '01': {
@@ -4765,17 +4799,7 @@ export async function jb2aPatreonDatabase(prefix) {
         _metadata: {
             name: "Fog Cloud",
         },
-        //[--> WILL BE REMOVED
-        '1': {
-            white: `${prefix}/jb2a_patreon/Library/1st_Level/Fog_Cloud/FogCloud_01_White_800x800.webm`,
-        },
-        '2': {
-            white: `${prefix}/jb2a_patreon/Library/1st_Level/Fog_Cloud/FogCloud_02_Regular_White_800x800.webm`,
-            green: `${prefix}/jb2a_patreon/Library/1st_Level/Fog_Cloud/FogCloud_02_Regular_Green_800x800.webm`
-        },
-        //<--] WILL BE REMOVED
         '01': {
-    
             white: `${prefix}/jb2a_patreon/Library/1st_Level/Fog_Cloud/FogCloud_01_White_800x800.webm`,
         },
         '02': {
@@ -5992,6 +6016,15 @@ export async function jb2aPatreonDatabase(prefix) {
                 '01': `${prefix}/jb2a_patreon/Library/Generic/Impact/BoulderImpact_01_Regular_White_500x500.webm`,
                 '02': `${prefix}/jb2a_patreon/Library/Generic/Impact/BoulderImpactNoCracks_01_Regular_White_500x500.webm`
             },
+            dark: {
+                _metadata: {
+                    name: "Impact-Dark",
+                    new: true
+                },
+                '01': {
+                    red: [`${prefix}/jb2a_patreon/Library/Generic/Impact/ImpactDark01_01_Regular_Red_600x600.webm`]
+                }
+            },
             ground_crack: {
                 _metadata: {
                     name: "Impact"
@@ -6063,6 +6096,15 @@ export async function jb2aPatreonDatabase(prefix) {
                         purple: `${prefix}/jb2a_patreon/Library/Generic/Impact/GroundCrackFrostImpact_01_Regular_Purple_600x600.webm`,
                         white: `${prefix}/jb2a_patreon/Library/Generic/Impact/GroundCrackFrostImpact_01_Regular_White_600x600.webm`,
                     }
+                }
+            },
+            fire: {
+                _metadata: {
+                    name: "Impact-Fire",
+                    new: true
+                },
+                '01': {
+                    orange: [`${prefix}/jb2a_patreon/Library/Generic/Impact/ImpactFire01_01_Regular_Orange_600x600.webm`]
                 }
             },
             frost: {
@@ -8795,13 +8837,7 @@ export async function jb2aPatreonDatabase(prefix) {
         
         '01': {
             _metadata: {
-                name: "Melee Attacks - Group 01",
-                new: [
-                    'magic_sword.dark_green.02*',
-                    'magic_sword.dark_purple.02*',
-                    'magic_sword.blue.02*',
-                    'magic_sword.orange.02*'
-                ]
+                name: "Melee Attacks - Group 01"
             },
             butterflysword: {
                 '01': [
@@ -9673,6 +9709,29 @@ export async function jb2aPatreonDatabase(prefix) {
                 purple: `${prefix}/jb2a_patreon/Library/Generic/Music_Notation/TrebleClef_01_Regular_Purple_200x200.webm`
             }
     }
+    patreonDatabase.muzzle_flash = {
+        _metadata: {
+            name: "Muzzle Flash",
+            new: true
+        },
+        burst: {
+            "01": {
+                yellow: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Muzzle_Flash/MuzzleFlashBurst01_01_Regular_Yellow_600x300.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Muzzle_Flash/MuzzleFlashBurst01_02_Regular_Yellow_600x300.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Muzzle_Flash/MuzzleFlashBurst01_03_Regular_Yellow_600x300.webm`
+                ]
+            }
+        },
+        single: {
+            "01": {
+                yellow: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Muzzle_Flash/MuzzleFlashSingle01_01_Regular_Yellow_600x300.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Muzzle_Flash/MuzzleFlashSingle01_02_Regular_Yellow_600x300.webm`
+                ]
+            }
+        }
+}
     patreonDatabase.ouija_planchette = {
             _metadata: {
                 name: "Ouija Planchette",
@@ -9681,8 +9740,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.overcharged_sphere = {
         _metadata: {
-            name: "Overcharged Sphere",
-            new: true
+            name: "Overcharged Sphere"
         },
         _template: 'ranged',
         '01': {
@@ -10848,10 +10906,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.scorching_ray = {
             _metadata: {
-                name: "Scorching Ray",
-                new: [
-                    'loop.01.rainbow02*'
-                ]
+                name: "Scorching Ray"
             },
             _template: 'ranged',
             '01': {
@@ -11719,8 +11774,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.shuriken = {
         _metadata: {
-            name: "Shuriken",
-            new: true
+            name: "Shuriken"
         },
         _template: 'ranged',
         '01': {
@@ -12116,8 +12170,7 @@ export async function jb2aPatreonDatabase(prefix) {
     patreonDatabase.soundwave = {
         _metadata: {
             name: "Soundwave",
-            _template: 'large',
-            new: true
+            _template: 'large'
         },
         '01': {
             blue: `${prefix}/jb2a_patreon/Library/Generic/Energy/Soundwave01_01_Regular_Blue_600x600.webm`,
@@ -13998,6 +14051,74 @@ export async function jb2aPatreonDatabase(prefix) {
                 }
             },
     }
+    patreonDatabase.template_line = {
+        _metadata: {
+            name: "Template - Line",
+            new: true
+        },
+        _template: "line200",
+        ice: {
+            '01': {
+                blue: {
+                    '15ft':`${prefix}/jb2a_patreon/Library/Generic/Template/Line/Ice/TemplateLineIce01_01_Regular_Blue_15ft_1000x400.webm`,
+                    '30ft':`${prefix}/jb2a_patreon/Library/Generic/Template/Line/Ice/TemplateLineIce01_01_Regular_Blue_30ft_1600x400.webm`,
+                    '60ft':`${prefix}/jb2a_patreon/Library/Generic/Template/Line/Ice/TemplateLineIce01_01_Regular_Blue_60ft_2800x400.webm`
+                }
+            }
+        },
+        lava: {
+            '01': {
+                orange: {
+                    '15ft':`${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/TemplateLineLava01_01_Regular_Orange_15ft_1000x400.webm`,
+                    '30ft':`${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/TemplateLineLava01_01_Regular_Orange_30ft_1600x400.webm`,
+                    '60ft':`${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/TemplateLineLava01_01_Regular_Orange_60ft_2800x400.webm`
+                }
+            }
+        }
+
+}
+patreonDatabase.template_line_piercing = {
+    _metadata: {
+        name: "Template - Line - Piercing",
+        new: true
+    },
+    _template: "line200B",
+    generic: {
+        '01': {
+            orange: {
+                '15ft':`${prefix}/jb2a_patreon/Library/Generic/Template/Line/Generic/Piercing_Generic01_01_Regular_Orange_1000x400.webm`,
+            }
+        }
+    },
+    nature: {
+        '01': {
+            green: {
+                '15ft':`${prefix}/jb2a_patreon/Library/Generic/Template/Line/Nature/Piercing_Nature01_01_Regular_Green_1000x400.webm`,
+            }
+        }
+    },
+    sound: {
+        '01': {
+            yellow: {
+                '15ft':`${prefix}/jb2a_patreon/Library/Generic/Template/Line/Sound/Piercing_Sound01_01_Regular_Yellow_1000x400.webm`,
+            }
+        }
+    },
+    void: {
+        '01': {
+            purple: {
+                '15ft':`${prefix}/jb2a_patreon/Library/Generic/Template/Line/Void/Piercing_Void01_01_Regular_Purple_1000x400.webm`,
+            }
+        }
+    },
+    water: {
+        '01': {
+            blue: {
+                '15ft':`${prefix}/jb2a_patreon/Library/Generic/Template/Line/Water/Piercing_Water01_01_Regular_Blue_1000x400.webm`,
+            }
+        }
+    }
+}
     patreonDatabase.template_square = {
             _metadata: {
                 name: "Template - Square",
@@ -14875,10 +14996,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.ui = {
             _metadata: {
-                name: "UI",
-                new: [
-                    'heartbeat*'
-                ]
+                name: "UI"
             },
             chevrons3: {
                 green: `${prefix}/jb2a_patreon/Library/Generic/UI/3Chevrons_01_Regular_Green_200x200.webm`,
