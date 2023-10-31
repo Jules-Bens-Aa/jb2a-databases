@@ -9203,7 +9203,10 @@ export async function jb2aPatreonDatabase(prefix) {
         },
         '03': {
             _metadata: {
-                name: "Melee Attacks - Group 03"
+                name: "Melee Attacks - Group 03",
+                new: [
+                    "greatclub.01*"
+                ]
             },
             greatbone: {
                 '01': [
@@ -9219,6 +9222,14 @@ export async function jb2aPatreonDatabase(prefix) {
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe01_02_800x600.webm`,
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe01_03_800x600.webm`,
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe01_04_800x600.webm`,
+                ]
+            },
+            greatclub: {
+                '01': [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatClub01_01_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatClub01_02_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatClub01_03_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatClub01_04_800x600.webm`,
                 ]
             },
             greatsword: {
