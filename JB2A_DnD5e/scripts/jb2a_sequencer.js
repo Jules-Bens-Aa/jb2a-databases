@@ -367,6 +367,11 @@ export async function jb2aFreeDatabase(prefix) {
             "side01": {
                 orange: [`${prefix}/JB2A_DnD5e/Library/Generic/Cast/CastSideFire01_01_Regular_Orange_800x600.webm`]
             }
+        },
+        water: {
+            "02": {
+                blue: [`${prefix}/JB2A_DnD5e/Library/Generic/Cast/CastWater02_01_Regular_Blue_400x400.webm`]
+            }
         }
     }
     freeDatabase.cast_shape = {
@@ -1693,6 +1698,11 @@ export async function jb2aFreeDatabase(prefix) {
             `${prefix}/JB2A_DnD5e/Library/Generic/Impact/GroundCrackImpact_02_Regular_Orange_600x600.webm`,
             `${prefix}/JB2A_DnD5e/Library/Generic/Impact/GroundCrackImpact_03_Regular_Orange_600x600.webm`,
         ],
+        water: {
+            "02": {
+                blue: [`${prefix}/JB2A_DnD5e/Library/Generic/Impact/ImpactWater02_01_Regular_Blue_600x600.webm`]
+            }
+        },
         yellow: [
             `${prefix}/JB2A_DnD5e/Library/Generic/Impact/Impact_06_Regular_Yellow_400x400.webm`,
             `${prefix}/JB2A_DnD5e/Library/Generic/Impact/Impact_07_Regular_Yellow_400x400.webm`
@@ -3614,7 +3624,9 @@ export async function jb2aFreeDatabase(prefix) {
         }
     }
     freeDatabase.spirit_guardians = {
-        blueyellow: `${prefix}/JB2A_DnD5e/Library/3rd_Level/Spirit_Guardians/SpiritGuardians_01_Light_BlueYellow_600x600.webm`
+        blueyellow: {
+            ring: `${prefix}/JB2A_DnD5e/Library/3rd_Level/Spirit_Guardians/SpiritGuardians_01_Light_BlueYellow_600x600.webm`
+        }
     }
     freeDatabase.spiritual_weapon = {
         club: {
