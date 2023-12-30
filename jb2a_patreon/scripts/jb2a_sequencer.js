@@ -5658,9 +5658,9 @@ export async function jb2aPatreonDatabase(prefix) {
                     purple: `${prefix}/jb2a_patreon/Library/1st_Level/Hunters_Mark/HuntersMark_06_Regular_Purple_Loop_200x200.webm`,
                 },
                 '07': {
-                    blue: `${prefix}/jb2a_patreon/Library/1st_Level/Hunters_Mark/HuntersMark_08_Regular_Blue_Loop_200x200.webm`,
-                    green: `${prefix}/jb2a_patreon/Library/1st_Level/Hunters_Mark/HuntersMark_08_Regular_Green_Loop_200x200.webm`,
-                    purple: `${prefix}/jb2a_patreon/Library/1st_Level/Hunters_Mark/HuntersMark_08_Regular_Purple_Loop_200x200.webm`,
+                    blue: `${prefix}/jb2a_patreon/Library/1st_Level/Hunters_Mark/HuntersMark_07_Regular_Blue_Loop_200x200.webm`,
+                    green: `${prefix}/jb2a_patreon/Library/1st_Level/Hunters_Mark/HuntersMark_07_Regular_Green_Loop_200x200.webm`,
+                    purple: `${prefix}/jb2a_patreon/Library/1st_Level/Hunters_Mark/HuntersMark_07_Regular_Purple_Loop_200x200.webm`,
                 },
                 '08': {
                     blue: `${prefix}/jb2a_patreon/Library/1st_Level/Hunters_Mark/HuntersMark_08_Regular_Blue_Loop_200x200.webm`,
@@ -5700,9 +5700,9 @@ export async function jb2aPatreonDatabase(prefix) {
                     purple: `${prefix}/jb2a_patreon/Library/1st_Level/Hunters_Mark/HuntersMark_06_Regular_Purple_Pulse_200x200.webm`,
                 },
                 '07': {
-                    blue: `${prefix}/jb2a_patreon/Library/1st_Level/Hunters_Mark/HuntersMark_08_Regular_Blue_Pulse_200x200.webm`,
-                    green: `${prefix}/jb2a_patreon/Library/1st_Level/Hunters_Mark/HuntersMark_08_Regular_Green_Pulse_200x200.webm`,
-                    purple: `${prefix}/jb2a_patreon/Library/1st_Level/Hunters_Mark/HuntersMark_08_Regular_Purple_Pulse_200x200.webm`,
+                    blue: `${prefix}/jb2a_patreon/Library/1st_Level/Hunters_Mark/HuntersMark_07_Regular_Blue_Pulse_200x200.webm`,
+                    green: `${prefix}/jb2a_patreon/Library/1st_Level/Hunters_Mark/HuntersMark_07_Regular_Green_Pulse_200x200.webm`,
+                    purple: `${prefix}/jb2a_patreon/Library/1st_Level/Hunters_Mark/HuntersMark_07_Regular_Purple_Pulse_200x200.webm`,
                 },
                 '08': {
                     blue: `${prefix}/jb2a_patreon/Library/1st_Level/Hunters_Mark/HuntersMark_08_Regular_Blue_Pulse_200x200.webm`,
@@ -6309,6 +6309,9 @@ export async function jb2aPatreonDatabase(prefix) {
                 },
                 greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Impact/ImpactMusicNote01_01_Regular_GreenYellow_400x400.webm`,
                 pink: `${prefix}/jb2a_patreon/Library/Generic/Impact/ImpactMusicNote01_01_Regular_Pink_400x400.webm`
+            },
+            poison: {
+                greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Impact/ImpactPoison01_01_Regular_GreenYellow_400x400.webm`
             },
             skull: {
                 pinkpurple: `${prefix}/jb2a_patreon/Library/Generic/Impact/ImpactSkull01_01_Regular_PinkPurple_400x400.webm`
@@ -11921,7 +11924,7 @@ export async function jb2aPatreonDatabase(prefix) {
                     greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Impact/PartSideImpactSlowRunes01_01_Regular_GreenYellow_600x600.webm`,
                 },
                 poison: {
-                    pinkpurple: `${prefix}/jb2a_patreon/Library/Generic/Impact/PartSideImpactSlowPoison01_01_Regular_GreenYellow_600x600.webm`,
+                    greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Impact/PartSideImpactSlowPoison01_01_Regular_GreenYellow_600x600.webm`,
                 },
                 skull: {
                     pinkpurple: `${prefix}/jb2a_patreon/Library/Generic/Impact/PartSideImpactSlowSkull01_01_Regular_PinkPurple_600x600.webm`,
@@ -15369,8 +15372,8 @@ export async function jb2aPatreonDatabase(prefix) {
             },
             no_hit: {
                 '01': {
-                    blue: `${prefix}/jb2a_patreon/Library/Generic/Unarmed_Attacks/Unarmed_Strike/UnarmedStrike_01_Regular_Blue_Physical01_800x600.webm`,
-                    yellow: `${prefix}/jb2a_patreon/Library/Generic/Unarmed_Attacks/Unarmed_Strike/UnarmedStrike_01_Regular_Yellow_Physical01_800x600.webm`
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Unarmed_Attacks/Unarmed_Strike/UnarmedStrikeNoHit_01_Regular_Blue_800x600.webm`,
+                    yellow: `${prefix}/jb2a_patreon/Library/Generic/Unarmed_Attacks/Unarmed_Strike/UnarmedStrikeNoHit_01_Regular_Yellow_800x600.webm`
                 }
             }
     }
