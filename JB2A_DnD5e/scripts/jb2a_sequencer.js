@@ -62,6 +62,159 @@ export async function jb2aFreeDatabase(prefix) {
             }
         }
     }
+    freeDatabase.aura_themed = {
+        '01': {
+            inward: {
+                complete: {
+                    _markers: {
+                        loop: { start: 2833, end: 6800 }
+                    },
+                    cold: {
+                        '01': {
+                            blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraThemedInwardCompleteCold01_01_Regular_Blue_700x700.webm`
+                        }
+                    },
+                    metal: {
+                        '01': {
+                            grey: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraThemedInwardCompleteMetal01_01_Regular_Grey_700x700.webm`
+                        }
+                    },
+                    nature: {
+                        '01': {
+                            green: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraThemedInwardCompleteNature01_01_Regular_Green_700x700.webm`,
+                        }
+                    },
+                    wood: {
+                        '01': {
+                            green: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraThemedInwardCompleteWood01_01_Regular_Green_700x700.webm`,
+                        }
+                    }
+                },
+                loop: {
+                    cold: {
+                        '01': {
+                            blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraThemedInwardLoopCold01_01_Regular_Blue_700x700.webm`
+                        }
+                    },
+                    metal: {
+                        '01': {
+                            grey: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraThemedInwardLoopMetal01_01_Regular_Grey_700x700.webm`
+                        }
+                    },
+                    nature: {
+                        '01': {
+                            green: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraThemedInwardLoopNature01_01_Regular_Green_700x700.webm`
+                        }
+                    },
+                    wood: {
+                        '01': {
+                            green: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraThemedInwardLoopWood01_01_Regular_Green_700x700.webm`
+                        }
+                    }
+                }
+            },
+            outward: {
+                complete: {
+                    _markers: {
+                        loop: { start: 2833, end: 6800 }
+                    },
+                    cold: {
+                        '01': {
+                            blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraThemedOutwardCompleteCold01_01_Regular_Blue_700x700.webm`
+                        }
+                    },
+                    metal: {
+                        '01': {
+                            grey: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraThemedOutwardCompleteMetal01_01_Regular_Grey_700x700.webm`
+                        }
+                    },
+                    nature: {
+                        '01': {
+                            green: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraThemedOutwardCompleteNature01_01_Regular_Green_700x700.webm`
+                        }
+                    },
+                    wood: {
+                        '01': {
+                            green: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraThemedOutwardCompleteWood01_01_Regular_Green_700x700.webm`
+                        }
+                    }
+                },
+                loop: {
+                    cold: {
+                        '01': {
+                            blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraThemedOutwardLoopCold01_01_Regular_Blue_700x700.webm`
+                        }
+                    },
+                    metal: {
+                        '01': {
+                            grey: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraThemedOutwardLoopMetal01_01_Regular_Grey_700x700.webm`
+                        }
+                    },
+                    nature: {
+                        '01': {
+                            green: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraThemedOutwardLoopNature01_01_Regular_Green_700x700.webm`
+                        }
+                    },
+                    wood: {
+                        '01': {
+                            green: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraThemedOutwardLoopWood01_01_Regular_Green_700x700.webm`
+                        }
+                    }
+                }
+    
+            },
+            orbit: {
+                complete: {
+                    _markers: {
+                        loop: { start: 2833, end: 6800 }
+                    },
+                    cold: {
+                        '01': {
+                            blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraThemedOrbitCompleteCold01_01_Regular_Blue_700x700.webm`
+                        }
+                    },
+                    metal: {
+                        '01': {
+                            grey: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraThemedOrbitCompleteMetal01_01_Regular_Grey_700x700.webm`
+                        }
+                    },
+                    nature: {
+                        '01': {
+                            green: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraThemedOrbitCompleteNature01_01_Regular_Green_700x700.webm`
+                        }
+                    },
+                    wood: {
+                        '01': {
+                            green: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraThemedOrbitCompleteWood01_01_Regular_Green_700x700.webm`
+                        }
+                    }
+                },
+                loop: {
+                    cold: {
+                        '01': {
+                            blue: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraThemedOrbitLoopCold01_01_Regular_Blue_700x700.webm`
+                        }
+                    },
+                    metal: {
+                        '01': {
+                            grey: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraThemedOrbitLoopMetal01_01_Regular_Grey_700x700.webm`
+                        }
+                    },
+                    nature: {
+                        '01': {
+                            green: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraThemedOrbitLoopNature01_01_Regular_Green_700x700.webm`
+                        }
+                    },
+                    wood: {
+                        '01': {
+                            green: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraThemedOrbitLoopWood01_01_Regular_Green_700x700.webm`
+                        }
+                    }
+                }
+    
+            }
+        }
+    }
     freeDatabase.bardic_inspiration = {
         greenorange: `${prefix}/JB2A_DnD5e/Library/1st_Level/Bardic_Inspiration/BardicInspiration_01_Regular_GreenOrange_400x400.webm`,
     }
@@ -97,10 +250,6 @@ export async function jb2aFreeDatabase(prefix) {
         }
     }
     freeDatabase.bats = {
-        _metadata: {
-            name: "Bats",
-            new: true
-        },
         complete: {
             _markers: {
                 loop: { start: 3033, end: 6000 }
@@ -608,6 +757,77 @@ export async function jb2aFreeDatabase(prefix) {
                     `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Club01_05_Regular_White_800x600.webm`,
                     `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Club01_06_Regular_White_800x600.webm`
                 ]
+            }
+        }
+    }
+    freeDatabase.condition = {
+        boon: {
+            "01": {
+                "001": {
+                    green: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Boon01/ConditionBoon01_001_Green_600x600.webm`
+                },
+                "002": {
+                    green: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Boon01/ConditionBoon01_002_Green_600x600.webm`
+                },
+                "003": {
+                    green: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Boon01/ConditionBoon01_003_Green_600x600.webm`
+                },
+                "004": {
+                    green: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Boon01/ConditionBoon01_004_Green_600x600.webm`
+                },
+                "005": {
+                    green: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Boon01/ConditionBoon01_005_Green_600x600.webm`
+                },
+                "006": {
+                    green: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Boon01/ConditionBoon01_006_Green_600x600.webm`
+                },
+                "007": {
+                    green: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Boon01/ConditionBoon01_007_Green_600x600.webm`
+                },
+                "008": {
+                    green: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Boon01/ConditionBoon01_008_Green_600x600.webm`
+                },
+                "009": {
+                    green: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Boon01/ConditionBoon01_009_Green_600x600.webm`
+                },
+                "010": {
+                    green: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Boon01/ConditionBoon01_010_Green_600x600.webm`
+                }
+
+            }
+        },
+        curse: {
+            "01": {
+                "001": {
+                    red: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Curse01/ConditionCurse01_001_Red_600x600.webm`,
+                },
+                "002": {
+                    red: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Curse01/ConditionCurse01_002_Red_600x600.webm`,
+                },
+                "003": {
+                    red: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Curse01/ConditionCurse01_003_Red_600x600.webm`,
+                },
+                "004": {
+                    red: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Curse01/ConditionCurse01_004_Red_600x600.webm`,
+                },
+                "005": {
+                    red: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Curse01/ConditionCurse01_005_Red_600x600.webm`,
+                },
+                "006": {
+                    red: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Curse01/ConditionCurse01_006_Red_600x600.webm`,
+                },
+                "007": {
+                    red: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Curse01/ConditionCurse01_007_Red_600x600.webm`,
+                },
+                "008": {
+                    red: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Curse01/ConditionCurse01_008_Red_600x600.webm`,
+                },
+                "009": {
+                    red: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Curse01/ConditionCurse01_009_Red_600x600.webm`,
+                },
+                "010": {
+                    red: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Curse01/ConditionCurse01_010_Red_600x600.webm`,
+                }
             }
         }
     }
@@ -1621,6 +1841,11 @@ export async function jb2aFreeDatabase(prefix) {
         },
         loop: {
             greenorange: `${prefix}/JB2A_DnD5e/Library/Generic/Healing/HealingAbility_02_Regular_GreenOrange_Loop_600x600.webm`
+        },
+        '03': {
+            burst: {
+                bluegreen: `${prefix}/JB2A_DnD5e/Library/Generic/Healing/HealingAbility_03_Regular_BlueGreen_600x600.webm`
+            }
         }
     }
     freeDatabase.hovering_laserweapon = {
@@ -2837,85 +3062,83 @@ export async function jb2aFreeDatabase(prefix) {
         '03': {
             trail: {
                 '01': {
-                    '01': {
-                        blueyellow: [
-                            `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/TrailAttack03_01_01_Regular_BlueYellow_800x600.webm`,
-                            `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/TrailAttack03_01_02_Regular_BlueYellow_800x600.webm`,
-                            `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/TrailAttack03_01_03_Regular_BlueYellow_800x600.webm`,
-                            `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/TrailAttack03_01_04_Regular_BlueYellow_800x600.webm`,
-                        ],
-                        orangered: [
-                            `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/TrailAttack03_01_01_Regular_OrangeRed_800x600.webm`,
-                            `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/TrailAttack03_01_02_Regular_OrangeRed_800x600.webm`,
-                            `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/TrailAttack03_01_03_Regular_OrangeRed_800x600.webm`,
-                            `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/TrailAttack03_01_04_Regular_OrangeRed_800x600.webm`,
-                        ],
-                        pinkpurple: [
-                            `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/TrailAttack03_01_01_Regular_PinkPurple_800x600.webm`,
-                            `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/TrailAttack03_01_02_Regular_PinkPurple_800x600.webm`,
-                            `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/TrailAttack03_01_03_Regular_PinkPurple_800x600.webm`,
-                            `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/TrailAttack03_01_04_Regular_PinkPurple_800x600.webm`,
-                        ]
-                    },
-                },
-                'greatbone': {
-                    '01': [
-                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatBone01_01_800x600.webm`,
-                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatBone01_02_800x600.webm`,
-                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatBone01_03_800x600.webm`,
-                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatBone01_04_800x600.webm`,
+                    blueyellow: [
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/TrailAttack03_01_01_Regular_BlueYellow_800x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/TrailAttack03_01_02_Regular_BlueYellow_800x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/TrailAttack03_01_03_Regular_BlueYellow_800x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/TrailAttack03_01_04_Regular_BlueYellow_800x600.webm`,
+                    ],
+                    orangered: [
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/TrailAttack03_01_01_Regular_OrangeRed_800x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/TrailAttack03_01_02_Regular_OrangeRed_800x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/TrailAttack03_01_03_Regular_OrangeRed_800x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/TrailAttack03_01_04_Regular_OrangeRed_800x600.webm`,
+                    ],
+                    pinkpurple: [
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/TrailAttack03_01_01_Regular_PinkPurple_800x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/TrailAttack03_01_02_Regular_PinkPurple_800x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/TrailAttack03_01_03_Regular_PinkPurple_800x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/TrailAttack03_01_04_Regular_PinkPurple_800x600.webm`,
                     ]
                 },
-                'greataxe': {
-                    '01': [
-                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe01_01_800x600.webm`,
-                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe01_02_800x600.webm`,
-                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe01_03_800x600.webm`,
-                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe01_04_800x600.webm`,
-                    ]
-                },
-                'greatclub': {
-                    '01': [
-                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatClub01_01_800x600.webm`,
-                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatClub01_02_800x600.webm`,
-                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatClub01_03_800x600.webm`,
-                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatClub01_04_800x600.webm`,
-                    ]
-                },
-                'greatsword': {
-                    '01': [
-                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatSword01_01_800x600.webm`,
-                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatSword01_02_800x600.webm`,
-                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatSword01_03_800x600.webm`,
-                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatSword01_04_800x600.webm`,
-                    ]
-                },
-                khybersword: {
-                    '01': [
-                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_KhyberSword01_01_800x600.webm`,
-                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_KhyberSword01_02_800x600.webm`,
-                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_KhyberSword01_03_800x600.webm`,
-                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_KhyberSword01_04_800x600.webm`,
-                    ]
-                },
-                magical_greatsword: {
-                    '01': {
-                        'orange': [
-                            `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_MagicalGreatSword01_01_Regular_Orange_800x600.webm`,
-                            `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_MagicalGreatSword01_02_Regular_Orange_800x600.webm`,
-                            `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_MagicalGreatSword01_03_Regular_Orange_800x600.webm`,
-                            `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_MagicalGreatSword01_04_Regular_Orange_800x600.webm`
-                        ],
-                    }
-                },
-                'maul': {
-                    '01': [
-                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_Maul01_01_800x600.webm`,
-                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_Maul01_02_800x600.webm`,
-                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_Maul01_03_800x600.webm`,
-                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_Maul01_04_800x600.webm`,
-                    ]
+            },
+            greatbone: {
+                '01': [
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatBone01_01_800x600.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatBone01_02_800x600.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatBone01_03_800x600.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatBone01_04_800x600.webm`,
+                ]
+            },
+            greataxe: {
+                '01': [
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe01_01_800x600.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe01_02_800x600.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe01_03_800x600.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe01_04_800x600.webm`,
+                ]
+            },
+            greatclub: {
+                '01': [
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatClub01_01_800x600.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatClub01_02_800x600.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatClub01_03_800x600.webm`,
+                    `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatClub01_04_800x600.webm`,
+                ]
+            },
+            greatsword: {
+                '01': [
+                `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatSword01_01_800x600.webm`,
+                `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatSword01_02_800x600.webm`,
+                `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatSword01_03_800x600.webm`,
+                `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatSword01_04_800x600.webm`,
+                ]
+            },
+            khybersword: {
+                '01': [
+                `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_KhyberSword01_01_800x600.webm`,
+                `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_KhyberSword01_02_800x600.webm`,
+                `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_KhyberSword01_03_800x600.webm`,
+                `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_KhyberSword01_04_800x600.webm`,
+                ]
+            },
+            magical_greatsword: {
+                '01': {
+                    'orange': [
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_MagicalGreatSword01_01_Regular_Orange_800x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_MagicalGreatSword01_02_Regular_Orange_800x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_MagicalGreatSword01_03_Regular_Orange_800x600.webm`,
+                        `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_MagicalGreatSword01_04_Regular_Orange_800x600.webm`
+                    ],
                 }
+            },
+            'maul': {
+                '01': [
+                `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_Maul01_01_800x600.webm`,
+                `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_Maul01_02_800x600.webm`,
+                `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_Maul01_03_800x600.webm`,
+                `${prefix}/JB2A_DnD5e/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_Maul01_04_800x600.webm`,
+                ]
             }
         },
         '04': {
@@ -3407,6 +3630,19 @@ export async function jb2aFreeDatabase(prefix) {
                         }
                     }
                 },
+            }
+        },
+        'beam': {
+            '001': {
+                '01': {
+                    orange: {
+                        '05ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Beam/Beam001_01_Regular_Orange_05ft_600x400.webm`,
+                        '15ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Beam/Beam001_01_Regular_Orange_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Beam/Beam001_01_Regular_Orange_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Beam/Beam001_01_Regular_Orange_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/JB2A_DnD5e/Library/Generic/RangedSpell/Beam/Beam001_01_Regular_Orange_90ft_4000x400.webm`
+                    }
+                }
             }
         }
 }
@@ -4292,6 +4528,27 @@ export async function jb2aFreeDatabase(prefix) {
                     },
                     large: {
                         bluepurple: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraLoop01_01_Regular_BluePurple_900x900.webm`
+                    }
+                }
+            },
+            "02": {
+                complete: {
+                    _markers: {
+                        loop: { start: 2033, end: 5366 }
+                    },
+                    small: {
+                        bluepink: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraComplete02_01_Regular_BluePink_500x500.webm`
+                    },
+                    large: {
+                        bluepink: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraComplete02_01_Regular_BluePink_900x900.webm`
+                    }
+                },
+                loop: {
+                    small: {
+                        bluepink: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraLoop02_01_Regular_BluePink_500x500.webm`
+                    },
+                    large: {
+                        bluepink: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/AuraLoop02_01_Regular_BluePink_900x900.webm`
                     }
                 }
             }

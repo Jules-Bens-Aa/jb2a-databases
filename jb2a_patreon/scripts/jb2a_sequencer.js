@@ -292,6 +292,210 @@ export async function jb2aPatreonDatabase(prefix) {
             }
         }
     }
+    patreonDatabase.aura_themed = {
+        _metadata: {
+            name: "Aura Themed"
+        },
+        '01': {
+            inward: {
+                complete: {
+                    _markers: {
+                        loop: { start: 2833, end: 6800 }
+                    },
+                    cold: {
+                        '01': {
+                            blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedInwardCompleteCold01_01_Regular_Blue_700x700.webm`,
+                            green: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedInwardCompleteCold01_01_Regular_Green_700x700.webm`,
+                            purple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedInwardCompleteCold01_01_Regular_Purple_700x700.webm`
+                        }
+                    },
+                    metal: {
+                        '01': {
+                            green: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedInwardCompleteMetal01_01_Regular_Green_700x700.webm`,
+                            grey: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedInwardCompleteMetal01_01_Regular_Grey_700x700.webm`,
+                            red: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedInwardCompleteMetal01_01_Regular_Red_700x700.webm`
+                        }
+                    },
+                    nature: {
+                        '01': {
+                            blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedInwardCompleteNature01_01_Regular_Blue_700x700.webm`,
+                            green: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedInwardCompleteNature01_01_Regular_Green_700x700.webm`,
+                            pink: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedInwardCompleteNature01_01_Regular_Pink_700x700.webm`,
+                        }
+                    },
+                    wood: {
+                        '01': {
+                            green: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedInwardCompleteWood01_01_Regular_Green_700x700.webm`,
+                            purple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedInwardCompleteWood01_01_Regular_Purple_700x700.webm`,
+                            red: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedInwardCompleteWood01_01_Regular_Red_700x700.webm`
+                        }
+                    }
+                },
+                loop: {
+                    cold: {
+                        '01': {
+                            blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedInwardLoopCold01_01_Regular_Blue_700x700.webm`,
+                            green: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedInwardLoopCold01_01_Regular_Green_700x700.webm`,
+                            purple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedInwardLoopCold01_01_Regular_Purple_700x700.webm`
+                        }
+                    },
+                    metal: {
+                        '01': {
+                            green: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedInwardLoopMetal01_01_Regular_Green_700x700.webm`,
+                            grey: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedInwardLoopMetal01_01_Regular_Grey_700x700.webm`,
+                            red: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedInwardLoopMetal01_01_Regular_Red_700x700.webm`
+                        }
+                    },
+                    nature: {
+                        '01': {
+                            blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedInwardLoopNature01_01_Regular_Blue_700x700.webm`,
+                            green: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedInwardLoopNature01_01_Regular_Green_700x700.webm`,
+                            pink: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedInwardLoopNature01_01_Regular_Pink_700x700.webm`,
+                        }
+                    },
+                    wood: {
+                        '01': {
+                            green: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedInwardLoopWood01_01_Regular_Green_700x700.webm`,
+                            purple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedInwardLoopWood01_01_Regular_Purple_700x700.webm`,
+                            red: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedInwardLoopWood01_01_Regular_Red_700x700.webm`
+                        }
+                    }
+                }
+            },
+            outward: {
+                complete: {
+                    _markers: {
+                        loop: { start: 2833, end: 6800 }
+                    },
+                    cold: {
+                        '01': {
+                            blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOutwardCompleteCold01_01_Regular_Blue_700x700.webm`,
+                            green: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOutwardCompleteCold01_01_Regular_Green_700x700.webm`,
+                            purple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOutwardCompleteCold01_01_Regular_Purple_700x700.webm`
+                        }
+                    },
+                    metal: {
+                        '01': {
+                            green: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOutwardCompleteMetal01_01_Regular_Green_700x700.webm`,
+                            grey: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOutwardCompleteMetal01_01_Regular_Grey_700x700.webm`,
+                            red: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOutwardCompleteMetal01_01_Regular_Red_700x700.webm`
+                        }
+                    },
+                    nature: {
+                        '01': {
+                            blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOutwardCompleteNature01_01_Regular_Blue_700x700.webm`,
+                            green: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOutwardCompleteNature01_01_Regular_Green_700x700.webm`,
+                            pink: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOutwardCompleteNature01_01_Regular_Pink_700x700.webm`,
+                        }
+                    },
+                    wood: {
+                        '01': {
+                            green: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOutwardCompleteWood01_01_Regular_Green_700x700.webm`,
+                            purple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOutwardCompleteWood01_01_Regular_Purple_700x700.webm`,
+                            red: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOutwardCompleteWood01_01_Regular_Red_700x700.webm`
+                        }
+                    }
+                },
+                loop: {
+                    cold: {
+                        '01': {
+                            blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOutwardLoopCold01_01_Regular_Blue_700x700.webm`,
+                            green: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOutwardLoopCold01_01_Regular_Green_700x700.webm`,
+                            purple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOutwardLoopCold01_01_Regular_Purple_700x700.webm`
+                        }
+                    },
+                    metal: {
+                        '01': {
+                            green: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOutwardLoopMetal01_01_Regular_Green_700x700.webm`,
+                            grey: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOutwardLoopMetal01_01_Regular_Grey_700x700.webm`,
+                            red: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOutwardLoopMetal01_01_Regular_Red_700x700.webm`
+                        }
+                    },
+                    nature: {
+                        '01': {
+                            blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOutwardLoopNature01_01_Regular_Blue_700x700.webm`,
+                            green: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOutwardLoopNature01_01_Regular_Green_700x700.webm`,
+                            pink: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOutwardLoopNature01_01_Regular_Pink_700x700.webm`,
+                        }
+                    },
+                    wood: {
+                        '01': {
+                            green: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOutwardLoopWood01_01_Regular_Green_700x700.webm`,
+                            purple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOutwardLoopWood01_01_Regular_Purple_700x700.webm`,
+                            red: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOutwardLoopWood01_01_Regular_Red_700x700.webm`
+                        }
+                    }
+                }
+    
+            },
+            orbit: {
+                complete: {
+                    _markers: {
+                        loop: { start: 2833, end: 6800 }
+                    },
+                    cold: {
+                        '01': {
+                            blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOrbitCompleteCold01_01_Regular_Blue_700x700.webm`,
+                            green: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOrbitCompleteCold01_01_Regular_Green_700x700.webm`,
+                            purple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOrbitCompleteCold01_01_Regular_Purple_700x700.webm`
+                        }
+                    },
+                    metal: {
+                        '01': {
+                            green: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOrbitCompleteMetal01_01_Regular_Green_700x700.webm`,
+                            grey: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOrbitCompleteMetal01_01_Regular_Grey_700x700.webm`,
+                            red: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOrbitCompleteMetal01_01_Regular_Red_700x700.webm`
+                        }
+                    },
+                    nature: {
+                        '01': {
+                            blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOrbitCompleteNature01_01_Regular_Blue_700x700.webm`,
+                            green: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOrbitCompleteNature01_01_Regular_Green_700x700.webm`,
+                            pink: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOrbitCompleteNature01_01_Regular_Pink_700x700.webm`,
+                        }
+                    },
+                    wood: {
+                        '01': {
+                            green: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOrbitCompleteWood01_01_Regular_Green_700x700.webm`,
+                            purple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOrbitCompleteWood01_01_Regular_Purple_700x700.webm`,
+                            red: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOrbitCompleteWood01_01_Regular_Red_700x700.webm`
+                        }
+                    }
+                },
+                loop: {
+                    cold: {
+                        '01': {
+                            blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOrbitLoopCold01_01_Regular_Blue_700x700.webm`,
+                            green: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOrbitLoopCold01_01_Regular_Green_700x700.webm`,
+                            purple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOrbitLoopCold01_01_Regular_Purple_700x700.webm`
+                        }
+                    },
+                    metal: {
+                        '01': {
+                            green: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOrbitLoopMetal01_01_Regular_Green_700x700.webm`,
+                            grey: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOrbitLoopMetal01_01_Regular_Grey_700x700.webm`,
+                            red: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOrbitLoopMetal01_01_Regular_Red_700x700.webm`
+                        }
+                    },
+                    nature: {
+                        '01': {
+                            blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOrbitLoopNature01_01_Regular_Blue_700x700.webm`,
+                            green: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOrbitLoopNature01_01_Regular_Green_700x700.webm`,
+                            pink: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOrbitLoopNature01_01_Regular_Pink_700x700.webm`,
+                        }
+                    },
+                    wood: {
+                        '01': {
+                            green: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOrbitLoopWood01_01_Regular_Green_700x700.webm`,
+                            purple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOrbitLoopWood01_01_Regular_Purple_700x700.webm`,
+                            red: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOrbitLoopWood01_01_Regular_Red_700x700.webm`
+                        }
+                    }
+                }
+    
+            }
+        }
+    }
     patreonDatabase.bardic_inspiration = {
         _metadata: {
             name: "Bardic Inspiration"
@@ -2130,6 +2334,153 @@ export async function jb2aPatreonDatabase(prefix) {
             }
         }
     }
+    patreonDatabase.condition = {
+        _metadata: {
+            name: "Conditions",
+            new: [
+                "boon.01.001.red*",
+                "boon.01.002.red*",
+                "boon.01.003.red*",
+                "boon.01.004.red*",
+                "boon.01.005.red*",
+                "boon.01.006.red*",
+                "boon.01.007.red*",
+                "boon.01.008.red*",
+                "boon.01.009.red*",
+                "boon.01.010.red*",
+                "boon.01.006*",
+                "boon.01.007*",
+                "boon.01.008*",
+                "boon.01.009*",
+                "boon.01.010*",
+                "curse.01.006*",
+                "curse.01.007*",
+                "curse.01.008*",
+                "curse.01.009*",
+                "curse.01.010*",
+            ]
+        },
+        boon: {
+            "01": {
+                "001": {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_001_Blue_600x600.webm`,
+                    green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_001_Green_600x600.webm`,
+                    yellow: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_001_Yellow_600x600.webm`,
+                    red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_001_Red_600x600.webm`,
+                },
+                "002": {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_002_Blue_600x600.webm`,
+                    green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_002_Green_600x600.webm`,
+                    yellow: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_002_Yellow_600x600.webm`,
+                    red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_002_Red_600x600.webm`,
+                },
+                "003": {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_003_Blue_600x600.webm`,
+                    green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_003_Green_600x600.webm`,
+                    yellow: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_003_Yellow_600x600.webm`,
+                    red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_003_Red_600x600.webm`,
+                },
+                "004": {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_004_Blue_600x600.webm`,
+                    green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_004_Green_600x600.webm`,
+                    yellow: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_004_Yellow_600x600.webm`,
+                    red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_004_Red_600x600.webm`,
+                },
+                "005": {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_005_Blue_600x600.webm`,
+                    green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_005_Green_600x600.webm`,
+                    yellow: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_005_Yellow_600x600.webm`,
+                    red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_005_Red_600x600.webm`,
+                },
+                "006": {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_006_Blue_600x600.webm`,
+                    green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_006_Green_600x600.webm`,
+                    yellow: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_006_Yellow_600x600.webm`,
+                    red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_006_Red_600x600.webm`,
+                },
+                "007": {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_007_Blue_600x600.webm`,
+                    green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_007_Green_600x600.webm`,
+                    yellow: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_007_Yellow_600x600.webm`,
+                    red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_007_Red_600x600.webm`,
+                },
+                "008": {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_008_Blue_600x600.webm`,
+                    green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_008_Green_600x600.webm`,
+                    yellow: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_008_Yellow_600x600.webm`,
+                    red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_008_Red_600x600.webm`,
+                },
+                "009": {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_009_Blue_600x600.webm`,
+                    green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_009_Green_600x600.webm`,
+                    yellow: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_009_Yellow_600x600.webm`,
+                    red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_009_Red_600x600.webm`,
+                },
+                "010": {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_010_Blue_600x600.webm`,
+                    green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_010_Green_600x600.webm`,
+                    yellow: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_010_Yellow_600x600.webm`,
+                    red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_010_Red_600x600.webm`,
+                }
+
+            }
+        },
+        curse: {
+            "01": {
+                "001": {
+                    green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_001_Green_600x600.webm`,
+                    purple: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_001_Purple_600x600.webm`,
+                    red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_001_Red_600x600.webm`,
+                },
+                "002": {
+                    green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_002_Green_600x600.webm`,
+                    purple: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_002_Purple_600x600.webm`,
+                    red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_002_Red_600x600.webm`,
+                },
+                "003": {
+                    green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_003_Green_600x600.webm`,
+                    purple: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_003_Purple_600x600.webm`,
+                    red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_003_Red_600x600.webm`,
+                },
+                "004": {
+                    green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_004_Green_600x600.webm`,
+                    purple: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_004_Purple_600x600.webm`,
+                    red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_004_Red_600x600.webm`,
+                },
+                "005": {
+                    green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_005_Green_600x600.webm`,
+                    purple: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_005_Purple_600x600.webm`,
+                    red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_005_Red_600x600.webm`,
+                },
+                "006": {
+                    green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_006_Green_600x600.webm`,
+                    purple: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_006_Purple_600x600.webm`,
+                    red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_006_Red_600x600.webm`,
+                },
+                "007": {
+                    green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_007_Green_600x600.webm`,
+                    purple: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_007_Purple_600x600.webm`,
+                    red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_007_Red_600x600.webm`,
+                },
+                "008": {
+                    green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_008_Green_600x600.webm`,
+                    purple: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_008_Purple_600x600.webm`,
+                    red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_008_Red_600x600.webm`,
+                },
+                "009": {
+                    green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_009_Green_600x600.webm`,
+                    purple: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_009_Purple_600x600.webm`,
+                    red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_009_Red_600x600.webm`,
+                },
+                "010": {
+                    green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_010_Green_600x600.webm`,
+                    purple: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_010_Purple_600x600.webm`,
+                    red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_010_Red_600x600.webm`,
+                }
+
+            }
+        }
+    }
     patreonDatabase.cone_of_cold = {
         _metadata: {
             name: "Cone of Cold",
@@ -2569,8 +2920,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.eldritch_blast = {
         _metadata: {
-            name: "Eldritch Blast",
-            new: ['dark_pink*']
+            name: "Eldritch Blast"
         },
         _template: 'ranged',
         dark_green: {
@@ -4112,6 +4462,48 @@ export async function jb2aPatreonDatabase(prefix) {
             name: "Eyes"
         },
         '01': {
+            single: {
+                dark_green: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Eyes/Eyes_Single01_01_Dark_Green_300x300.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Eyes/Eyes_Single01_02_Dark_Green_300x300.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Eyes/Eyes_Single01_03_Dark_Green_300x300.webm`
+                ],
+                dark_purple: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Eyes/Eyes_Single01_01_Dark_Purple_300x300.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Eyes/Eyes_Single01_02_Dark_Purple_300x300.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Eyes/Eyes_Single01_03_Dark_Purple_300x300.webm`
+                ],
+                dark_red: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Eyes/Eyes_Single01_01_Dark_Red_300x300.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Eyes/Eyes_Single01_02_Dark_Red_300x300.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Eyes/Eyes_Single01_03_Dark_Red_300x300.webm`
+                ],
+                dark_yellow: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Eyes/Eyes_Single01_01_Dark_Yellow_300x300.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Eyes/Eyes_Single01_02_Dark_Yellow_300x300.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Eyes/Eyes_Single01_03_Dark_Yellow_300x300.webm`
+                ],
+                bluegreen: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Eyes/Eyes_Single01_01_Regular_BlueGreen_300x300.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Eyes/Eyes_Single01_02_Regular_BlueGreen_300x300.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Eyes/Eyes_Single01_03_Regular_BlueGreen_300x300.webm`
+                ],
+                orangered: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Eyes/Eyes_Single01_01_Regular_OrangeRed_300x300.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Eyes/Eyes_Single01_02_Regular_OrangeRed_300x300.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Eyes/Eyes_Single01_03_Regular_OrangeRed_300x300.webm`
+                ],
+                orangeyellow: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Eyes/Eyes_Single01_01_Regular_OrangeYellow_300x300.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Eyes/Eyes_Single01_02_Regular_OrangeYellow_300x300.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Eyes/Eyes_Single01_03_Regular_OrangeYellow_300x300.webm`
+                ],
+                purple: [
+                    `${prefix}/jb2a_patreon/Library/Generic/Eyes/Eyes_Single01_01_Regular_Purple_300x300.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Eyes/Eyes_Single01_02_Regular_Purple_300x300.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Eyes/Eyes_Single01_03_Regular_Purple_300x300.webm`
+                ]
+            },
             dark_green: {
                 single: [
                     `${prefix}/jb2a_patreon/Library/Generic/Eyes/Eyes_Single01_01_Dark_Green_300x300.webm`,
@@ -5794,6 +6186,15 @@ export async function jb2aPatreonDatabase(prefix) {
             purplepink: `${prefix}/jb2a_patreon/Library/Generic/Healing/HealingAbility_02_Regular_PurplePink_Loop_600x600.webm`,
             tealyellow: `${prefix}/jb2a_patreon/Library/Generic/Healing/HealingAbility_02_Regular_TealYellow_Loop_600x600.webm`,
             yellowwhite: `${prefix}/jb2a_patreon/Library/Generic/Healing/HealingAbility_02_Regular_YellowWhite_Loop_600x600.webm`
+        },
+        '03': {
+            burst: {
+                bluegreen: `${prefix}/jb2a_patreon/Library/Generic/Healing/HealingAbility_03_Regular_BlueGreen_600x600.webm`,
+                bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Healing/HealingAbility_03_Regular_BluePurple_600x600.webm`,
+                green: `${prefix}/jb2a_patreon/Library/Generic/Healing/HealingAbility_03_Regular_Green_600x600.webm`,
+                orangepurple: `${prefix}/jb2a_patreon/Library/Generic/Healing/HealingAbility_03_Regular_OrangePurple_600x600.webm`,
+                yellow: `${prefix}/jb2a_patreon/Library/Generic/Healing/HealingAbility_03_Regular_Yellow_600x600.webm`
+            }
         }
     }
 
@@ -8405,21 +8806,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.markers = {
             _metadata: {
-                name: "Markers",
-                new: [
-                    'chain.diamond.complete.02.grey*',
-                    'chain.diamond.loop.01.grey*',
-                    'chain.diamond.loop.02.grey*',
-                    'chain.spike.complete.02.grey*',
-                    'chain.spike.loop.01.grey*',
-                    'chain.spike.loop.02.grey*',
-                    'chain.square.complete.02.grey*',
-                    'chain.square.loop.01.grey*',
-                    'chain.square.loop.02.grey*',
-                    'chain.standard.complete.02.grey*',
-                    'chain.standard.loop.01.grey*',
-                    'chain.standard.loop.02.grey*',
-                ]
+                name: "Markers"
             },
             '01': {
                 blueyellow: `${prefix}/jb2a_patreon/Library/Generic/Marker/Marker_01_Regular_BlueYellow_400x400.webm`,
@@ -10033,6 +10420,7 @@ export async function jb2aPatreonDatabase(prefix) {
                 blue: `${prefix}/jb2a_patreon/Library/2nd_Level/Misty_Step/MistyStep_01_Regular_Blue_400x400.webm`,
                 dark_black: `${prefix}/jb2a_patreon/Library/2nd_Level/Misty_Step/MistyStep_01_Dark_Black_400x400.webm`,
                 dark_green: `${prefix}/jb2a_patreon/Library/2nd_Level/Misty_Step/MistyStep_01_Dark_Green_400x400.webm`,
+                dark_purple: `${prefix}/jb2a_patreon/Library/2nd_Level/Misty_Step/MistyStep_01_Dark_Purple_400x400.webm`,
                 dark_red: `${prefix}/jb2a_patreon/Library/2nd_Level/Misty_Step/MistyStep_01_Dark_Red_400x400.webm`,
                 green: `${prefix}/jb2a_patreon/Library/2nd_Level/Misty_Step/MistyStep_01_Regular_Green_400x400.webm`,
                 grey: `${prefix}/jb2a_patreon/Library/2nd_Level/Misty_Step/MistyStep_01_Regular_Grey_400x400.webm`,
@@ -10046,6 +10434,7 @@ export async function jb2aPatreonDatabase(prefix) {
                 blue: `${prefix}/jb2a_patreon/Library/2nd_Level/Misty_Step/MistyStep_02_Regular_Blue_400x400.webm`,
                 dark_black: `${prefix}/jb2a_patreon/Library/2nd_Level/Misty_Step/MistyStep_02_Dark_Black_400x400.webm`,
                 dark_green: `${prefix}/jb2a_patreon/Library/2nd_Level/Misty_Step/MistyStep_02_Dark_Green_400x400.webm`,
+                dark_purple: `${prefix}/jb2a_patreon/Library/2nd_Level/Misty_Step/MistyStep_02_Dark_Purple_400x400.webm`,
                 dark_red: `${prefix}/jb2a_patreon/Library/2nd_Level/Misty_Step/MistyStep_02_Dark_Red_400x400.webm`,
                 green: `${prefix}/jb2a_patreon/Library/2nd_Level/Misty_Step/MistyStep_02_Regular_Green_400x400.webm`,
                 grey: `${prefix}/jb2a_patreon/Library/2nd_Level/Misty_Step/MistyStep_02_Regular_Grey_400x400.webm`,
@@ -11110,9 +11499,7 @@ export async function jb2aPatreonDatabase(prefix) {
         _metadata: {
             name: "Ranged",
             new: [
-                '04.projectile.01*',
-                '04.instant.01*',
-                'card.01.projectile.01*'
+                "beam.01*"
             ]
         },
         _template: 'ranged',
@@ -11375,6 +11762,47 @@ export async function jb2aPatreonDatabase(prefix) {
                     }
                 },
             }
+        },
+        'beam': {
+            '001': {
+                '01': {
+                    blue: {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_01_Regular_Blue_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_01_Regular_Blue_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_01_Regular_Blue_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_01_Regular_Blue_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_01_Regular_Blue_90ft_4000x400.webm`
+                    },
+                    green: {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_01_Regular_Green_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_01_Regular_Green_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_01_Regular_Green_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_01_Regular_Green_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_01_Regular_Green_90ft_4000x400.webm`
+                    },
+                    orange: {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_01_Regular_Orange_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_01_Regular_Orange_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_01_Regular_Orange_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_01_Regular_Orange_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_01_Regular_Orange_90ft_4000x400.webm`
+                    },
+                    purple: {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_01_Regular_Purple_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_01_Regular_Purple_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_01_Regular_Purple_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_01_Regular_Purple_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_01_Regular_Purple_90ft_4000x400.webm`
+                    },
+                    red: {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_01_Regular_Red_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_01_Regular_Red_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_01_Regular_Red_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_01_Regular_Red_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_01_Regular_Red_90ft_4000x400.webm`
+                    },
+                }
+            }
         }
 }
     patreonDatabase.rapier = {
@@ -11572,13 +12000,20 @@ export async function jb2aPatreonDatabase(prefix) {
             _metadata: {
                 name: "Scorching Ray",
                 new: [
-                    '01.grey*',
-                    '02.grey*',
-                    'loop.01.grey*'
+                    "01.dark_red*",
+                    "loop.01.dark_red*",
+                    "loop.01.purple*"
                 ]
             },
             _template: 'ranged',
             '01': {
+                dark_red: {
+                    '05ft': `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_01_Dark_Red_05ft_600x400.webm`,
+                    '15ft': `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_01_Dark_Red_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_01_Dark_Red_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_01_Dark_Red_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_01_Dark_Red_90ft_4000x400.webm`
+                },
                 blue: {
                     '05ft': `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_01_Regular_Blue_05ft_600x400.webm`,
                     '15ft': `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRay_01_Regular_Blue_15ft_1000x400.webm`,
@@ -11816,6 +12251,13 @@ export async function jb2aPatreonDatabase(prefix) {
             },
             loop: {
                 '01': {
+                    dark_red: {
+                        '05ft': `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRayLoop_01_Dark_Red_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRayLoop_01_Dark_Red_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRayLoop_01_Dark_Red_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRayLoop_01_Dark_Red_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRayLoop_01_Dark_Red_90ft_4000x400.webm`
+                    },
                     blue: {
                         '05ft': `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRayLoop_01_Regular_Blue_05ft_600x400.webm`,
                         '15ft': `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRayLoop_01_Regular_Blue_15ft_1000x400.webm`,
@@ -11850,6 +12292,13 @@ export async function jb2aPatreonDatabase(prefix) {
                         '30ft': `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRayLoop_01_Regular_Pink_30ft_1600x400.webm`,
                         '60ft': `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRayLoop_01_Regular_Pink_60ft_2800x400.webm`,
                         '90ft': `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRayLoop_01_Regular_Pink_90ft_4000x400.webm`
+                    },
+                    purple: {
+                        '05ft': `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRayLoop_01_Regular_Purple_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRayLoop_01_Regular_Purple_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRayLoop_01_Regular_Purple_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRayLoop_01_Regular_Purple_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRayLoop_01_Regular_Purple_90ft_4000x400.webm`
                     },
                     rainbow02: {
                         '05ft': `${prefix}/jb2a_patreon/Library/2nd_Level/Scorching_Ray/ScorchingRayLoop_01_Regular_Rainbow02_05ft_600x400.webm`,
@@ -12760,6 +13209,11 @@ export async function jb2aPatreonDatabase(prefix) {
                             `${prefix}/jb2a_patreon/Library/Generic/Smoke/SmokePuffSide02_02_Dark_Black_400x400.webm`,
                             `${prefix}/jb2a_patreon/Library/Generic/Smoke/SmokePuffSide02_03_Dark_Black_400x400.webm`
                         ],
+                        multicolored: [
+                            `${prefix}/jb2a_patreon/Library/Generic/Smoke/SmokePuffSide02_01_Regular_MultiColor01_400x400.webm`,
+                            `${prefix}/jb2a_patreon/Library/Generic/Smoke/SmokePuffSide02_02_Regular_MultiColor01_400x400.webm`,
+                            `${prefix}/jb2a_patreon/Library/Generic/Smoke/SmokePuffSide02_03_Regular_MultiColor01_400x400.webm`
+                        ],
                         white: [
                             `${prefix}/jb2a_patreon/Library/Generic/Smoke/SmokePuffSide02_01_Regular_White_400x400.webm`,
                             `${prefix}/jb2a_patreon/Library/Generic/Smoke/SmokePuffSide02_02_Regular_White_400x400.webm`,
@@ -12805,12 +13259,17 @@ export async function jb2aPatreonDatabase(prefix) {
                         dark_black: [
                             `${prefix}/jb2a_patreon/Library/Generic/Smoke/SmokePuffRing01_01_Dark_Black_400x400.webm`,
                             `${prefix}/jb2a_patreon/Library/Generic/Smoke/SmokePuffRing01_02_Dark_Black_400x400.webm`,
-                            `${prefix}/jb2a_patreon/Library/Generic/Smoke/SmokePuffRing01_03_Dark_Black_400x400.webm`,
+                            `${prefix}/jb2a_patreon/Library/Generic/Smoke/SmokePuffRing01_03_Dark_Black_400x400.webm`
+                        ],
+                        multicolored: [
+                            `${prefix}/jb2a_patreon/Library/Generic/Smoke/SmokePuffRing01_01_Regular_MultiColor01_400x400.webm`,
+                            `${prefix}/jb2a_patreon/Library/Generic/Smoke/SmokePuffRing01_02_Regular_MultiColor01_400x400.webm`,
+                            `${prefix}/jb2a_patreon/Library/Generic/Smoke/SmokePuffRing01_03_Regular_MultiColor01_400x400.webm`
                         ],
                         white: [
                             `${prefix}/jb2a_patreon/Library/Generic/Smoke/SmokePuffRing01_01_Regular_White_400x400.webm`,
                             `${prefix}/jb2a_patreon/Library/Generic/Smoke/SmokePuffRing01_02_Regular_White_400x400.webm`,
-                            `${prefix}/jb2a_patreon/Library/Generic/Smoke/SmokePuffRing01_03_Regular_White_400x400.webm`,
+                            `${prefix}/jb2a_patreon/Library/Generic/Smoke/SmokePuffRing01_03_Regular_White_400x400.webm`
                         ]
                     },
                     '02': {
@@ -13631,38 +14090,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.spiritual_weapon = {
             _metadata: {
-                name: "Spiritual Weapon",
-                new: [
-                    'club.01.spectral.02.orange*',
-                    'dagger.02.spectral.02.orange*',
-                    'falchion.01.spectral.02.orange*',
-                    'glaive.01.spectral.02.orange*',
-                    'glaive.02.spectral.02.orange*',
-                    'greataxe.01.spectral.02.orange*',
-                    'greatclub.01.spectral.02.orange*',
-                    'greatsword.01.spectral.02.orange*',
-                    'halberd.01.spectral.02.orange*',
-                    'hammer.01.spectral.02.orange*',
-                    'hammer.02.spectral.02.orange*',
-                    'handaxe.01.spectral.02.orange*',
-                    'javelin.01.spectral.02.orange*',
-                    'katana.01.spectral.02.orange*',
-                    'longsword.01.spectral.02.orange*',
-                    'mace.01.spectral.02.orange*',
-                    'maul.01.spectral.02.orange*',
-                    'quarterstaff.01.spectral.02.orange*',
-                    'quarterstaff.02.spectral.02.orange*',
-                    'quarterstaff.03.spectral.02.orange*',
-                    'quarterstaff.04.spectral.02.orange*',
-                    'rapier.01.spectral.02.orange*',
-                    'scimitar.01.spectral.02.orange*',
-                    'scythe.01.spectral.02.orange*',
-                    'shortsword.01.spectral.02.orange*',
-                    'spear.01.spectral.02.orange*',
-                    'trident.01.spectral.02.orange*',
-                    'warhammer.01.spectral.02.orange*',
-                    'wrench.01.spectral.02.orange*',
-                ]
+                name: "Spiritual Weapon"
             },
             club: {
                 '01': {
@@ -14741,21 +15169,62 @@ export async function jb2aPatreonDatabase(prefix) {
                         },
                         small: {
                             bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraComplete01_01_Regular_BluePurple_500x500.webm`,
-                            orangepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraComplete01_01_Regular_OrangePurple_500x500.webm`
+                            green: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraComplete01_01_Regular_Green_500x500.webm`,
+                            orangepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraComplete01_01_Regular_OrangePurple_500x500.webm`,
+                            yellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraComplete01_01_Regular_BluePurple_500x500.webm`
                         },
                         large: {
                             bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraComplete01_01_Regular_BluePurple_900x900.webm`,
-                            orangepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraComplete01_01_Regular_OrangePurple_900x900.webm`
+                            green: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraComplete01_01_Regular_Green_900x900.webm`,
+                            orangepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraComplete01_01_Regular_Yellow_900x900.webm`,
+                            yellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraComplete01_01_Regular_Yellow_900x900.webm`
                         }
                     },
                     loop: {
                         small: {
                             bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraLoop01_01_Regular_BluePurple_500x500.webm`,
-                            orangepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraLoop01_01_Regular_OrangePurple_500x500.webm`
+                            green: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraLoop01_01_Regular_Green_500x500.webm`,
+                            orangepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraLoop01_01_Regular_OrangePurple_500x500.webm`,
+                            yellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraLoop01_01_Regular_Yellow_500x500.webm`
                         },
                         large: {
                             bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraLoop01_01_Regular_BluePurple_900x900.webm`,
-                            orangepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraLoop01_01_Regular_OrangePurple_900x900.webm`
+                            green: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraLoop01_01_Regular_Green_900x900.webm`,
+                            orangepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraLoop01_01_Regular_OrangePurple_900x900.webm`,
+                            yellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraLoop01_01_Regular_Yellow_900x900.webm`
+                        }
+                    }
+                },
+                "02": {
+                    complete: {
+                        _markers: {
+                            loop: { start: 2033, end: 5366 }
+                        },
+                        small: {
+                            bluepink: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraComplete02_01_Regular_BluePink_500x500.webm`,
+                            green: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraComplete02_01_Regular_Green_500x500.webm`,
+                            pinkpurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraComplete02_01_Regular_PinkPurple_500x500.webm`,
+                            yellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraComplete02_01_Regular_Yellow_500x500.webm`
+                        },
+                        large: {
+                            bluepink: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraComplete02_01_Regular_BluePink_900x900.webm`,
+                            green: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraComplete02_01_Regular_Green_900x900.webm`,
+                            pinkpurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraComplete02_01_Regular_PinkPurple_900x900.webm`,
+                            yellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraComplete02_01_Regular_Yellow_900x900.webm`
+                        }
+                    },
+                    loop: {
+                        small: {
+                            bluepink: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraLoop02_01_Regular_BluePink_500x500.webm`,
+                            green: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraLoop02_01_Regular_Green_500x500.webm`,
+                            pinkpurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraLoop02_01_Regular_PinkPurple_500x500.webm`,
+                            yellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraLoop02_01_Regular_Yellow_500x500.webm`
+                        },
+                        large: {
+                            bluepink: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraLoop02_01_Regular_BluePink_900x900.webm`,
+                            green: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraLoop02_01_Regular_Green_900x900.webm`,
+                            pinkpurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraLoop02_01_Regular_PinkPurple_900x900.webm`,
+                            yellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraLoop02_01_Regular_Yellow_900x900.webm`
                         }
                     }
                 }
@@ -16660,8 +17129,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.wind_lines = {
         _metadata: {
-            name: "Wind Lines",
-            new: true
+            name: "Wind Lines"
         },
         '01': {
             '01': {
@@ -16695,10 +17163,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.wind_stream = {
             _metadata: {
-                name: "Wind stream",
-                // new: [
-                //     '02.loop.01*'
-                // ]
+                name: "Wind stream"
             },
             "200": {
                 white: `${prefix}/jb2a_patreon/Library/Generic/Wind/WindStreams_01_White_20OPA_200x200.webm`,
