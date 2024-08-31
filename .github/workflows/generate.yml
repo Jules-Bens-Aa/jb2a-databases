@@ -28,7 +28,7 @@ jobs:
               run: |
                 git config --local user.email "github-actions[bot]@users.noreply.github.com"
                 git config --local user.name "github-actions[bot]"
-                git commit -a -m "Update JSONs from ${{ github.event.push.head_commit.message }}"
+                git commit -a -m "Update JSONs from ${{ github.event.head_commit.message }}"
             - name: Push changes
               if: steps.commit.outcome == 'success'
               uses: ad-m/github-push-action@master

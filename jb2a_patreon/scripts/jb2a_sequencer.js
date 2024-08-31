@@ -20,8 +20,7 @@ export async function jb2aPatreonDatabase(prefix) {
             name: "Anti-Life Shell"
         },
         blue_no_circle: `${prefix}/jb2a_patreon/Library/5th_Level/Antilife_Shell/AntilifeShell_01_Blue_NoCircle_400x400.webm`,
-        blue_with_circle: `${prefix}/jb2a_patreon/Library/5th_Level/Antilife_Shell/AntilifeShell_01_Blue_Circle_400x400.webm`,
-        squared_circle: `${prefix}/jb2a_patreon/Library/5th_Level/Antilife_Shell/AntilifeShell_01_Blue_Circle_400x400.webm`
+        blue_with_circle: `${prefix}/jb2a_patreon/Library/5th_Level/Antilife_Shell/AntilifeShell_01_Blue_Circle_400x400.webm`
     }
     patreonDatabase.arcane_hand = {
         _metadata: {
