@@ -3,9 +3,8 @@ name: Generate JSONs
 on:
     push:
 
-permissions:                    # Global permissions configuration starts here
-    contents: read                # 'read' access to repository contents
-    pull-requests: write          # 'write' access to pull requests
+permissions:
+    contents: write
 
 jobs:
     generate:
@@ -24,13 +23,14 @@ jobs:
 
             # Commit
             - name: Commit files
+              id: commit
               continue-on-error: true
               run: |
                 git config --local user.email "github-actions[bot]@users.noreply.github.com"
                 git config --local user.name "github-actions[bot]"
                 git commit -a -m "Update JSONs from ${{ github.event.push.head_commit.message }}"
             - name: Push changes
-              if: success()
+              if: steps.commit.outcome == 'success'
               uses: ad-m/github-push-action@master
               with:
                 branch: ${{ github.head_ref }}
