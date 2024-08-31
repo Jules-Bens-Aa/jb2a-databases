@@ -294,7 +294,15 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.aura_themed = {
         _metadata: {
-            name: "Aura Themed"
+            name: "Aura Themed",
+            new: [
+                "01.inward.complete.metal.01.teal*",
+                "01.inward.loop.metal.01.teal*",
+                "01.outward.complete.metal.01.teal*",
+                "01.outward.loop.metal.01.teal*",
+                "01.orbit.complete.metal.01.teal*",
+                "01.orbit.loop.metal.01.teal*"
+            ]
         },
         '01': {
             inward: {
@@ -313,7 +321,8 @@ export async function jb2aPatreonDatabase(prefix) {
                         '01': {
                             green: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedInwardCompleteMetal01_01_Regular_Green_700x700.webm`,
                             grey: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedInwardCompleteMetal01_01_Regular_Grey_700x700.webm`,
-                            red: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedInwardCompleteMetal01_01_Regular_Red_700x700.webm`
+                            red: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedInwardCompleteMetal01_01_Regular_Red_700x700.webm`,
+                            teal: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedInwardCompleteMetal01_01_Regular_Teal_700x700.webm`
                         }
                     },
                     nature: {
@@ -343,7 +352,8 @@ export async function jb2aPatreonDatabase(prefix) {
                         '01': {
                             green: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedInwardLoopMetal01_01_Regular_Green_700x700.webm`,
                             grey: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedInwardLoopMetal01_01_Regular_Grey_700x700.webm`,
-                            red: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedInwardLoopMetal01_01_Regular_Red_700x700.webm`
+                            red: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedInwardLoopMetal01_01_Regular_Red_700x700.webm`,
+                            teal: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedInwardLoopMetal01_01_Regular_Teal_700x700.webm`
                         }
                     },
                     nature: {
@@ -378,7 +388,8 @@ export async function jb2aPatreonDatabase(prefix) {
                         '01': {
                             green: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOutwardCompleteMetal01_01_Regular_Green_700x700.webm`,
                             grey: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOutwardCompleteMetal01_01_Regular_Grey_700x700.webm`,
-                            red: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOutwardCompleteMetal01_01_Regular_Red_700x700.webm`
+                            red: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOutwardCompleteMetal01_01_Regular_Red_700x700.webm`,
+                            teal: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOutwardCompleteMetal01_01_Regular_Teal_700x700.webm`
                         }
                     },
                     nature: {
@@ -408,7 +419,8 @@ export async function jb2aPatreonDatabase(prefix) {
                         '01': {
                             green: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOutwardLoopMetal01_01_Regular_Green_700x700.webm`,
                             grey: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOutwardLoopMetal01_01_Regular_Grey_700x700.webm`,
-                            red: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOutwardLoopMetal01_01_Regular_Red_700x700.webm`
+                            red: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOutwardLoopMetal01_01_Regular_Red_700x700.webm`,
+                            teal: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOutwardLoopMetal01_01_Regular_Teal_700x700.webm`
                         }
                     },
                     nature: {
@@ -444,7 +456,8 @@ export async function jb2aPatreonDatabase(prefix) {
                         '01': {
                             green: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOrbitCompleteMetal01_01_Regular_Green_700x700.webm`,
                             grey: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOrbitCompleteMetal01_01_Regular_Grey_700x700.webm`,
-                            red: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOrbitCompleteMetal01_01_Regular_Red_700x700.webm`
+                            red: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOrbitCompleteMetal01_01_Regular_Red_700x700.webm`,
+                            teal: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOrbitCompleteMetal01_01_Regular_Teal_700x700.webm`
                         }
                     },
                     nature: {
@@ -474,7 +487,8 @@ export async function jb2aPatreonDatabase(prefix) {
                         '01': {
                             green: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOrbitLoopMetal01_01_Regular_Green_700x700.webm`,
                             grey: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOrbitLoopMetal01_01_Regular_Grey_700x700.webm`,
-                            red: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOrbitLoopMetal01_01_Regular_Red_700x700.webm`
+                            red: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOrbitLoopMetal01_01_Regular_Red_700x700.webm`,
+                            teal: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraThemedOrbitLoopMetal01_01_Regular_Teal_700x700.webm`
                         }
                     },
                     nature: {
@@ -1593,7 +1607,15 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.butterflies = {
         _metadata: {
-            name: "Butterflies"
+            name: "Butterflies",
+            new: [
+                "complete.01.red*",
+                "loop.01.red*",
+                "inward.01.red*",
+                "inward_burst.01.red*",
+                "outward.01.red*",
+                "outward_burst.01.red*"
+            ]
         },
         complete: {
             _markers: {
@@ -1603,6 +1625,7 @@ export async function jb2aPatreonDatabase(prefix) {
                 bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/ButterfliesComplete01_01_Regular_BluePurple_600x600.webm`,
                 greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/ButterfliesComplete01_01_Regular_GreenYellow_600x600.webm`,
                 white: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/ButterfliesComplete01_01_Regular_White_600x600.webm`,
+                red: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/ButterfliesComplete01_01_Regular_Red_600x600.webm`,
             }
         },
         loop: {
@@ -1610,6 +1633,7 @@ export async function jb2aPatreonDatabase(prefix) {
                 bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/ButterfliesLoop01_01_Regular_BluePurple_600x600.webm`,
                 greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/ButterfliesLoop01_01_Regular_GreenYellow_600x600.webm`,
                 white: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/ButterfliesLoop01_01_Regular_White_600x600.webm`,
+                red: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/ButterfliesLoop01_01_Regular_Red_600x600.webm`,
             }
         },
         inward: {
@@ -1617,6 +1641,7 @@ export async function jb2aPatreonDatabase(prefix) {
                 bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/ButterfliesInward01_01_Regular_BluePurple_600x600.webm`,
                 greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/ButterfliesInward01_01_Regular_GreenYellow_600x600.webm`,
                 white: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/ButterfliesInward01_01_Regular_White_600x600.webm`,
+                red: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/ButterfliesInward01_01_Regular_Red_600x600.webm`,
             }
         },
         inward_burst: {
@@ -1624,6 +1649,7 @@ export async function jb2aPatreonDatabase(prefix) {
                 bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/ButterfliesInwardBurst01_01_Regular_BluePurple_600x600.webm`,
                 greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/ButterfliesInwardBurst01_01_Regular_GreenYellow_600x600.webm`,
                 white: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/ButterfliesInwardBurst01_01_Regular_White_600x600.webm`,
+                red: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/ButterfliesInwardBurst01_01_Regular_Red_600x600.webm`,
             }
         },
         outward: {
@@ -1631,6 +1657,7 @@ export async function jb2aPatreonDatabase(prefix) {
                 bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/ButterfliesOutward01_01_Regular_BluePurple_600x600.webm`,
                 greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/ButterfliesOutward01_01_Regular_GreenYellow_600x600.webm`,
                 white: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/ButterfliesOutward01_01_Regular_White_600x600.webm`,
+                red: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/ButterfliesOutward01_01_Regular_Red_600x600.webm`,
             }
         },
         outward_burst: {
@@ -1638,6 +1665,7 @@ export async function jb2aPatreonDatabase(prefix) {
                 bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/ButterfliesOutwardBurst01_01_Regular_BluePurple_400x400.webm`,
                 greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/ButterfliesOutwardBurst01_01_Regular_GreenYellow_400x400.webm`,
                 white: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/ButterfliesOutwardBurst01_01_Regular_White_400x400.webm`,
+                red: `${prefix}/jb2a_patreon/Library/Generic/Butterflies/ButterfliesOutwardBurst01_01_Regular_Red_400x400.webm`,
             }
         },
         few: {
@@ -2338,26 +2366,16 @@ export async function jb2aPatreonDatabase(prefix) {
         _metadata: {
             name: "Conditions",
             new: [
-                "boon.01.001.red*",
-                "boon.01.002.red*",
-                "boon.01.003.red*",
-                "boon.01.004.red*",
-                "boon.01.005.red*",
-                "boon.01.006.red*",
-                "boon.01.007.red*",
-                "boon.01.008.red*",
-                "boon.01.009.red*",
-                "boon.01.010.red*",
-                "boon.01.006*",
-                "boon.01.007*",
-                "boon.01.008*",
-                "boon.01.009*",
-                "boon.01.010*",
-                "curse.01.006*",
-                "curse.01.007*",
-                "curse.01.008*",
-                "curse.01.009*",
-                "curse.01.010*",
+                "boon.01.011*",
+                "boon.01.012*",
+                "boon.01.013*",
+                "boon.01.014*",
+                "boon.01.015*",
+                "curse.01.011*",
+                "curse.01.012*",
+                "curse.01.013*",
+                "curse.01.014*",
+                "curse.01.015*",
             ]
         },
         boon: {
@@ -2365,62 +2383,92 @@ export async function jb2aPatreonDatabase(prefix) {
                 "001": {
                     blue: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_001_Blue_600x600.webm`,
                     green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_001_Green_600x600.webm`,
-                    yellow: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_001_Yellow_600x600.webm`,
                     red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_001_Red_600x600.webm`,
+                    yellow: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_001_Yellow_600x600.webm`,                    
                 },
                 "002": {
                     blue: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_002_Blue_600x600.webm`,
                     green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_002_Green_600x600.webm`,
-                    yellow: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_002_Yellow_600x600.webm`,
                     red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_002_Red_600x600.webm`,
+                    yellow: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_002_Yellow_600x600.webm`,                    
                 },
                 "003": {
                     blue: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_003_Blue_600x600.webm`,
                     green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_003_Green_600x600.webm`,
-                    yellow: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_003_Yellow_600x600.webm`,
                     red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_003_Red_600x600.webm`,
+                    yellow: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_003_Yellow_600x600.webm`,                    
                 },
                 "004": {
                     blue: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_004_Blue_600x600.webm`,
                     green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_004_Green_600x600.webm`,
-                    yellow: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_004_Yellow_600x600.webm`,
                     red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_004_Red_600x600.webm`,
+                    yellow: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_004_Yellow_600x600.webm`,                    
                 },
                 "005": {
                     blue: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_005_Blue_600x600.webm`,
                     green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_005_Green_600x600.webm`,
-                    yellow: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_005_Yellow_600x600.webm`,
                     red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_005_Red_600x600.webm`,
+                    yellow: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_005_Yellow_600x600.webm`,                    
                 },
                 "006": {
                     blue: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_006_Blue_600x600.webm`,
                     green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_006_Green_600x600.webm`,
-                    yellow: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_006_Yellow_600x600.webm`,
                     red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_006_Red_600x600.webm`,
+                    yellow: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_006_Yellow_600x600.webm`,                    
                 },
                 "007": {
                     blue: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_007_Blue_600x600.webm`,
                     green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_007_Green_600x600.webm`,
-                    yellow: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_007_Yellow_600x600.webm`,
                     red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_007_Red_600x600.webm`,
+                    yellow: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_007_Yellow_600x600.webm`,                    
                 },
                 "008": {
                     blue: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_008_Blue_600x600.webm`,
                     green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_008_Green_600x600.webm`,
-                    yellow: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_008_Yellow_600x600.webm`,
                     red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_008_Red_600x600.webm`,
+                    yellow: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_008_Yellow_600x600.webm`,                    
                 },
                 "009": {
                     blue: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_009_Blue_600x600.webm`,
                     green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_009_Green_600x600.webm`,
-                    yellow: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_009_Yellow_600x600.webm`,
                     red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_009_Red_600x600.webm`,
+                    yellow: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_009_Yellow_600x600.webm`,                    
                 },
                 "010": {
                     blue: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_010_Blue_600x600.webm`,
                     green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_010_Green_600x600.webm`,
-                    yellow: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_010_Yellow_600x600.webm`,
                     red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_010_Red_600x600.webm`,
+                    yellow: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_010_Yellow_600x600.webm`,                    
+                },
+                "011": {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_011_Blue_600x600.webm`,
+                    green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_011_Green_600x600.webm`,
+                    red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_011_Red_600x600.webm`,
+                    yellow: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_011_Yellow_600x600.webm`,                    
+                },
+                "012": {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_012_Blue_600x600.webm`,
+                    green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_012_Green_600x600.webm`,
+                    red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_012_Red_600x600.webm`,
+                    yellow: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_012_Yellow_600x600.webm`,                    
+                },
+                "013": {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_013_Blue_600x600.webm`,
+                    green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_013_Green_600x600.webm`,
+                    red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_013_Red_600x600.webm`,
+                    yellow: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_013_Yellow_600x600.webm`,                    
+                },
+                "014": {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_014_Blue_600x600.webm`,
+                    green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_014_Green_600x600.webm`,
+                    red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_014_Red_600x600.webm`,
+                    yellow: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_014_Yellow_600x600.webm`,                    
+                },
+                "015": {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_015_Blue_600x600.webm`,
+                    green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_015_Green_600x600.webm`,
+                    red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_015_Red_600x600.webm`,
+                    yellow: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_015_Yellow_600x600.webm`,                    
                 }
 
             }
@@ -2476,8 +2524,32 @@ export async function jb2aPatreonDatabase(prefix) {
                     green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_010_Green_600x600.webm`,
                     purple: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_010_Purple_600x600.webm`,
                     red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_010_Red_600x600.webm`,
+                },
+                "011": {
+                    green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_011_Green_600x600.webm`,
+                    purple: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_011_Purple_600x600.webm`,
+                    red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_011_Red_600x600.webm`,
+                },
+                "012": {
+                    green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_012_Green_600x600.webm`,
+                    purple: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_012_Purple_600x600.webm`,
+                    red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_012_Red_600x600.webm`,
+                },
+                "013": {
+                    green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_013_Green_600x600.webm`,
+                    purple: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_013_Purple_600x600.webm`,
+                    red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_013_Red_600x600.webm`,
+                },
+                "014": {
+                    green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_014_Green_600x600.webm`,
+                    purple: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_014_Purple_600x600.webm`,
+                    red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_014_Red_600x600.webm`,
+                },
+                "015": {
+                    green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_015_Green_600x600.webm`,
+                    purple: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_015_Purple_600x600.webm`,
+                    red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_015_Red_600x600.webm`,
                 }
-
             }
         }
     }
@@ -3027,14 +3099,36 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.energy_attack = {
         _metadata: {
-            name: "Energy Attack"
+            name: "Energy Attack",
+            new: [
+                '01.blue.1',
+                '01.dark_purple.1',
+                '01.multicolored01.1',
+                '01.orange.1',
+                '01.purple.1'
+            ]
         },
         '01': {
-            blue: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyAttack_01_01_Regular_Blue_1000x1000.webm`,
-            dark_purple: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyAttack_01_01_Dark_Purple_1000x1000.webm`,
-            multicolored01: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyAttack_01_01_Regular_MultiColor01_1000x1000.webm`,
-            orange: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyAttack_01_01_Regular_Orange_1000x1000.webm`,
-            purple: `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyAttack_01_01_Regular_Purple_1000x1000.webm`,
+            blue: [
+                `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyAttack_01_01_Regular_Blue_1000x1000.webm`,
+                `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyAttack_01_02_Regular_Blue_1000x1000.webm`
+            ],
+            dark_purple: [
+                `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyAttack_01_01_Dark_Purple_1000x1000.webm`,
+                `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyAttack_01_02_Dark_Purple_1000x1000.webm`
+            ],
+            multicolored01: [
+                `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyAttack_01_01_Regular_MultiColor01_1000x1000.webm`,
+                `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyAttack_01_02_Regular_MultiColor01_1000x1000.webm`
+            ],
+            orange: [
+                `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyAttack_01_01_Regular_Orange_1000x1000.webm`,
+                `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyAttack_01_02_Regular_Orange_1000x1000.webm`
+            ],
+            purple: [
+                `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyAttack_01_01_Regular_Purple_1000x1000.webm`,
+                `${prefix}/jb2a_patreon/Library/Generic/Energy/EnergyAttack_01_02_Regular_Purple_1000x1000.webm`
+            ],
         }
     }
     patreonDatabase.energy_beam = {
@@ -8806,7 +8900,13 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.markers = {
             _metadata: {
-                name: "Markers"
+                name: "Markers",
+                new: [
+                    "shield_rampart.complete.01.white",
+                    "shield_rampart.complete.03.white",
+                    "shield_rampart.loop.01.white",
+                    "shield_rampart.loop.03.white",
+                ]
             },
             '01': {
                 blueyellow: `${prefix}/jb2a_patreon/Library/Generic/Marker/Marker_01_Regular_BlueYellow_400x400.webm`,
@@ -9499,6 +9599,7 @@ export async function jb2aPatreonDatabase(prefix) {
                     '01': {
                         dark_red: `${prefix}/jb2a_patreon/Library/Generic/Marker/MarkerShieldRampart01_01_Dark_Red_400x400.webm`,
                         orange: `${prefix}/jb2a_patreon/Library/Generic/Marker/MarkerShieldRampart01_01_Regular_Orange_400x400.webm`,
+                        white: `${prefix}/jb2a_patreon/Library/Generic/Marker/MarkerShieldRampart01_01_Regular_White_400x400.webm`,
                     },
                     '02': {
                         green: `${prefix}/jb2a_patreon/Library/Generic/Marker/MarkerShieldRampart02_01_Regular_Green_400x400.webm`,
@@ -9507,6 +9608,7 @@ export async function jb2aPatreonDatabase(prefix) {
                     '03': {
                         blue: `${prefix}/jb2a_patreon/Library/Generic/Marker/MarkerShieldRampart03_01_Regular_Blue_400x400.webm`,
                         yellow: `${prefix}/jb2a_patreon/Library/Generic/Marker/MarkerShieldRampart03_01_Regular_Yellow_400x400.webm`,
+                        white: `${prefix}/jb2a_patreon/Library/Generic/Marker/MarkerShieldRampart03_01_Regular_White_400x400.webm`,
                     }
 
                 },
@@ -9514,6 +9616,7 @@ export async function jb2aPatreonDatabase(prefix) {
                     '01': {
                         dark_red: `${prefix}/jb2a_patreon/Library/Generic/Marker/MarkerShieldRampartLoop01_01_Dark_Red_400x400.webm`,
                         orange: `${prefix}/jb2a_patreon/Library/Generic/Marker/MarkerShieldRampartLoop01_01_Regular_Orange_400x400.webm`,
+                        white: `${prefix}/jb2a_patreon/Library/Generic/Marker/MarkerShieldRampartLoop01_01_Regular_White_400x400.webm`,
                     },
                     '02': {
                         green: `${prefix}/jb2a_patreon/Library/Generic/Marker/MarkerShieldRampartLoop02_01_Regular_Green_400x400.webm`,
@@ -9522,6 +9625,7 @@ export async function jb2aPatreonDatabase(prefix) {
                     '03': {
                         blue: `${prefix}/jb2a_patreon/Library/Generic/Marker/MarkerShieldRampartLoop03_01_Regular_Blue_400x400.webm`,
                         yellow: `${prefix}/jb2a_patreon/Library/Generic/Marker/MarkerShieldRampartLoop03_01_Regular_Yellow_400x400.webm`,
+                        white: `${prefix}/jb2a_patreon/Library/Generic/Marker/MarkerShieldRampartLoop03_01_Regular_White_400x400.webm`,
                     }
                 }
             },
@@ -11499,7 +11603,11 @@ export async function jb2aPatreonDatabase(prefix) {
         _metadata: {
             name: "Ranged",
             new: [
-                "beam.01*"
+                "beam.001.02*",
+                "beam.001.03*",
+                "beam.002.01*",
+                "beam.002.02*",
+                "beam.002.03*"
             ]
         },
         _template: 'ranged',
@@ -11801,6 +11909,193 @@ export async function jb2aPatreonDatabase(prefix) {
                         '60ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_01_Regular_Red_60ft_2800x400.webm`,
                         '90ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_01_Regular_Red_90ft_4000x400.webm`
                     },
+                },
+                '02': {
+                    blue: {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_02_Regular_Blue_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_02_Regular_Blue_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_02_Regular_Blue_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_02_Regular_Blue_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_02_Regular_Blue_90ft_4000x400.webm`
+                    },
+                    green: {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_02_Regular_Green_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_02_Regular_Green_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_02_Regular_Green_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_02_Regular_Green_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_02_Regular_Green_90ft_4000x400.webm`
+                    },
+                    orange: {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_02_Regular_Orange_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_02_Regular_Orange_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_02_Regular_Orange_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_02_Regular_Orange_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_02_Regular_Orange_90ft_4000x400.webm`
+                    },
+                    purple: {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_02_Regular_Purple_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_02_Regular_Purple_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_02_Regular_Purple_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_02_Regular_Purple_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_02_Regular_Purple_90ft_4000x400.webm`
+                    },
+                    red: {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_02_Regular_Red_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_02_Regular_Red_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_02_Regular_Red_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_02_Regular_Red_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_02_Regular_Red_90ft_4000x400.webm`
+                    },
+                },
+                '03': {
+                    blue: {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_03_Regular_Blue_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_03_Regular_Blue_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_03_Regular_Blue_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_03_Regular_Blue_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_03_Regular_Blue_90ft_4000x400.webm`
+                    },
+                    green: {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_03_Regular_Green_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_03_Regular_Green_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_03_Regular_Green_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_03_Regular_Green_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_03_Regular_Green_90ft_4000x400.webm`
+                    },
+                    orange: {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_03_Regular_Orange_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_03_Regular_Orange_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_03_Regular_Orange_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_03_Regular_Orange_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_03_Regular_Orange_90ft_4000x400.webm`
+                    },
+                    purple: {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_03_Regular_Purple_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_03_Regular_Purple_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_03_Regular_Purple_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_03_Regular_Purple_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_03_Regular_Purple_90ft_4000x400.webm`
+                    },
+                    red: {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_03_Regular_Red_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_03_Regular_Red_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_03_Regular_Red_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_03_Regular_Red_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam001_03_Regular_Red_90ft_4000x400.webm`
+                    },
+                }
+            },
+            '002': {
+                '01': {
+                    blue: {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_01_Regular_Blue_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_01_Regular_Blue_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_01_Regular_Blue_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_01_Regular_Blue_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_01_Regular_Blue_90ft_4000x400.webm`
+                    },
+                    green: {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_01_Regular_Green_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_01_Regular_Green_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_01_Regular_Green_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_01_Regular_Green_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_01_Regular_Green_90ft_4000x400.webm`
+                    },
+                    orange: {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_01_Regular_Orange_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_01_Regular_Orange_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_01_Regular_Orange_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_01_Regular_Orange_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_01_Regular_Orange_90ft_4000x400.webm`
+                    },
+                    purple: {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_01_Regular_Purple_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_01_Regular_Purple_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_01_Regular_Purple_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_01_Regular_Purple_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_01_Regular_Purple_90ft_4000x400.webm`
+                    },
+                    red: {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_01_Regular_Red_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_01_Regular_Red_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_01_Regular_Red_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_01_Regular_Red_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_01_Regular_Red_90ft_4000x400.webm`
+                    },
+                },
+                '02': {
+                    blue: {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_02_Regular_Blue_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_02_Regular_Blue_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_02_Regular_Blue_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_02_Regular_Blue_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_02_Regular_Blue_90ft_4000x400.webm`
+                    },
+                    green: {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_02_Regular_Green_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_02_Regular_Green_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_02_Regular_Green_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_02_Regular_Green_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_02_Regular_Green_90ft_4000x400.webm`
+                    },
+                    orange: {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_02_Regular_Orange_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_02_Regular_Orange_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_02_Regular_Orange_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_02_Regular_Orange_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_02_Regular_Orange_90ft_4000x400.webm`
+                    },
+                    purple: {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_02_Regular_Purple_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_02_Regular_Purple_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_02_Regular_Purple_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_02_Regular_Purple_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_02_Regular_Purple_90ft_4000x400.webm`
+                    },
+                    red: {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_02_Regular_Red_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_02_Regular_Red_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_02_Regular_Red_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_02_Regular_Red_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_02_Regular_Red_90ft_4000x400.webm`
+                    },
+                },
+                '03': {
+                    blue: {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_03_Regular_Blue_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_03_Regular_Blue_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_03_Regular_Blue_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_03_Regular_Blue_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_03_Regular_Blue_90ft_4000x400.webm`
+                    },
+                    green: {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_03_Regular_Green_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_03_Regular_Green_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_03_Regular_Green_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_03_Regular_Green_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_03_Regular_Green_90ft_4000x400.webm`
+                    },
+                    orange: {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_03_Regular_Orange_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_03_Regular_Orange_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_03_Regular_Orange_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_03_Regular_Orange_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_03_Regular_Orange_90ft_4000x400.webm`
+                    },
+                    purple: {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_03_Regular_Purple_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_03_Regular_Purple_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_03_Regular_Purple_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_03_Regular_Purple_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_03_Regular_Purple_90ft_4000x400.webm`
+                    },
+                    red: {
+                        '05ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_03_Regular_Red_05ft_600x400.webm`,
+                        '15ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_03_Regular_Red_15ft_1000x400.webm`,
+                        '30ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_03_Regular_Red_30ft_1600x400.webm`,
+                        '60ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_03_Regular_Red_60ft_2800x400.webm`,
+                        '90ft': `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Beam/Beam002_03_Regular_Red_90ft_4000x400.webm`
+                    },
                 }
             }
         }
@@ -11990,20 +12285,31 @@ export async function jb2aPatreonDatabase(prefix) {
     patreonDatabase.scorched_earth = {
             _metadata: {
                 name: "Scorched Earth",
+                new: [
+                    "yellow*",
+                    "02.black*",
+                    "02.green*",
+                    "02.orange*",
+                    "02.red*",
+                    "02.yellow*",
+                ]
             },
             black: `${prefix}/jb2a_patreon/Library/Generic/Fire/ScorchedEarth_01_Black_800x800.webm`,
             green: `${prefix}/jb2a_patreon/Library/Generic/Fire/ScorchedEarth_01_Green_800x800.webm`,
             orange: `${prefix}/jb2a_patreon/Library/Generic/Fire/ScorchedEarth_01_Orange_800x800.webm`,
-            red: `${prefix}/jb2a_patreon/Library/Generic/Fire/ScorchedEarth_01_Red_800x800.webm`
+            red: `${prefix}/jb2a_patreon/Library/Generic/Fire/ScorchedEarth_01_Red_800x800.webm`,
+            yellow: `${prefix}/jb2a_patreon/Library/Generic/Fire/ScorchedEarth_01_Yellow_800x800.webm`,
+            "02": {
+                black: `${prefix}/jb2a_patreon/Library/Generic/Fire/ScorchedEarth_02_Black_800x800.webm`,
+                green: `${prefix}/jb2a_patreon/Library/Generic/Fire/ScorchedEarth_02_Green_800x800.webm`,
+                orange: `${prefix}/jb2a_patreon/Library/Generic/Fire/ScorchedEarth_02_Orange_800x800.webm`,
+                red: `${prefix}/jb2a_patreon/Library/Generic/Fire/ScorchedEarth_02_Red_800x800.webm`,
+                yellow: `${prefix}/jb2a_patreon/Library/Generic/Fire/ScorchedEarth_02_Yellow_800x800.webm`
+            }
     }
     patreonDatabase.scorching_ray = {
             _metadata: {
-                name: "Scorching Ray",
-                new: [
-                    "01.dark_red*",
-                    "loop.01.dark_red*",
-                    "loop.01.purple*"
-                ]
+                name: "Scorching Ray"
             },
             _template: 'ranged',
             '01': {
@@ -12694,6 +13000,13 @@ export async function jb2aPatreonDatabase(prefix) {
     patreonDatabase.shield_themed = {
             _metadata: {
                 name: "Shield - Themed",
+                new: [
+                    "above.fire.01.dark_purple*",
+                    "above.fire.03.dark_purple*",
+                    "below.fire.01.dark_purple*",
+                    "below.fire.02.dark_purple*",
+                    "below.fire.03.dark_purple*"
+                ]
             },
             above: {
                 eldritch_web: {
@@ -12709,12 +13022,14 @@ export async function jb2aPatreonDatabase(prefix) {
                 fire: {
                     '01': {
                         dark_green: `${prefix}/jb2a_patreon/Library/Generic/Fire/ShieldFireAbove01_01_Dark_Green_400x400.webm`,
+                        dark_purple: `${prefix}/jb2a_patreon/Library/Generic/Fire/ShieldFireAbove01_01_Dark_Purple_400x400.webm`,
                         blue: `${prefix}/jb2a_patreon/Library/Generic/Fire/ShieldFireAbove01_01_Regular_Blue_400x400.webm`,
                         orange: `${prefix}/jb2a_patreon/Library/Generic/Fire/ShieldFireAbove01_01_Regular_Orange_400x400.webm`,
                         purple: `${prefix}/jb2a_patreon/Library/Generic/Fire/ShieldFireAbove01_01_Regular_Purple_400x400.webm`
                     },
                     '03': {
                         dark_green: `${prefix}/jb2a_patreon/Library/Generic/Fire/ShieldFireAbove01_03_Dark_Green_400x400.webm`,
+                        dark_purple: `${prefix}/jb2a_patreon/Library/Generic/Fire/ShieldFireAbove01_03_Dark_Purple_400x400.webm`,
                         blue: `${prefix}/jb2a_patreon/Library/Generic/Fire/ShieldFireAbove01_03_Regular_Blue_400x400.webm`,
                         orange: `${prefix}/jb2a_patreon/Library/Generic/Fire/ShieldFireAbove01_03_Regular_Orange_400x400.webm`,
                         purple: `${prefix}/jb2a_patreon/Library/Generic/Fire/ShieldFireAbove01_03_Regular_Purple_400x400.webm`
@@ -12759,18 +13074,21 @@ export async function jb2aPatreonDatabase(prefix) {
                 fire: {
                     '01': {
                         dark_green: `${prefix}/jb2a_patreon/Library/Generic/Fire/ShieldFireBelow01_01_Dark_Green_400x400.webm`,
+                        dark_purple: `${prefix}/jb2a_patreon/Library/Generic/Fire/ShieldFireBelow01_01_Dark_Purple_400x400.webm`,
                         blue: `${prefix}/jb2a_patreon/Library/Generic/Fire/ShieldFireBelow01_01_Regular_Blue_400x400.webm`,
                         orange: `${prefix}/jb2a_patreon/Library/Generic/Fire/ShieldFireBelow01_01_Regular_Orange_400x400.webm`,
                         purple: `${prefix}/jb2a_patreon/Library/Generic/Fire/ShieldFireBelow01_01_Regular_Purple_400x400.webm`
                     },
                     '02': {
                         dark_green: `${prefix}/jb2a_patreon/Library/Generic/Fire/ShieldFireBelow01_02_Dark_Green_400x400.webm`,
+                        dark_purple: `${prefix}/jb2a_patreon/Library/Generic/Fire/ShieldFireBelow01_02_Dark_Purple_400x400.webm`,
                         blue: `${prefix}/jb2a_patreon/Library/Generic/Fire/ShieldFireBelow01_02_Regular_Blue_400x400.webm`,
                         orange: `${prefix}/jb2a_patreon/Library/Generic/Fire/ShieldFireBelow01_02_Regular_Orange_400x400.webm`,
                         purple: `${prefix}/jb2a_patreon/Library/Generic/Fire/ShieldFireBelow01_02_Regular_Purple_400x400.webm`
                     },
                     '03': {
                         dark_green: `${prefix}/jb2a_patreon/Library/Generic/Fire/ShieldFireBelow01_03_Dark_Green_400x400.webm`,
+                        dark_purple: `${prefix}/jb2a_patreon/Library/Generic/Fire/ShieldFireBelow01_03_Dark_Purple_400x400.webm`,
                         blue: `${prefix}/jb2a_patreon/Library/Generic/Fire/ShieldFireBelow01_03_Regular_Blue_400x400.webm`,
                         orange: `${prefix}/jb2a_patreon/Library/Generic/Fire/ShieldFireBelow01_03_Regular_Orange_400x400.webm`,
                         purple: `${prefix}/jb2a_patreon/Library/Generic/Fire/ShieldFireBelow01_03_Regular_Purple_400x400.webm`
@@ -17768,4 +18086,4 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     
     }
-export { patreonDatabase } 
+export { patreonDatabase }
