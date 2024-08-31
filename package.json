@@ -1,0 +1,8 @@
+{
+    "type": "module",
+    "scripts": {
+        "build": "npm run build:free && npm run build:patreon",
+        "build:free": "node ./JB2A_DnD5e/generateJSON.js",
+        "build:patreon": "node ./jb2a_patreon/generateJSON.js"
+    }
+}

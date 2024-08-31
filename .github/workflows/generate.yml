@@ -1,0 +1,36 @@
+name: Generate JSONs
+
+on:
+    push:
+
+permissions:
+    contents: write
+
+jobs:
+    generate:
+        runs-on: ubuntu-latest
+        steps:
+            # Setup
+            - uses: actions/checkout@v4
+              with:
+                fetch-depth: 0
+            - uses: actions/setup-node@v4
+
+            # Create JSONs
+
+            - name: Generate JSONs
+              run: npm run build
+
+            # Commit
+            - name: Commit files
+              id: commit
+              continue-on-error: true
+              run: |
+                git config --local user.email "github-actions[bot]@users.noreply.github.com"
+                git config --local user.name "github-actions[bot]"
+                git commit -a -m "Update JSONs from ${{ github.event.head_commit.message }}"
+            - name: Push changes
+              if: steps.commit.outcome == 'success'
+              uses: ad-m/github-push-action@master
+              with:
+                branch: ${{ github.head_ref }}
