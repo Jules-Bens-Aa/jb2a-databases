@@ -16,8 +16,18 @@ jobs:
                 fetch-depth: 0
             - uses: actions/setup-node@v4
 
-            # Create JSONs
+            - name: Cache NPM Deps
+              id: cache-npm
+              uses: actions/cache@v4
+              with:
+                path: node_modules/
+                key: npm-${{ hashFiles('package-lock.json') }}
 
+            - name: Install NPM Deps
+              if: ${{ steps.cache-npm.outputs.cache-hit != 'true' }}
+              run: npm ci
+
+            # Create JSONs
             - name: Generate JSONs
               run: npm run build
 
