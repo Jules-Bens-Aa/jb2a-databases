@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"strict": true,
+		"alwaysStrict": true,
+		"noImplicitAny": true,
+		"noImplicitReturns": true,
+
+		"module": "NodeNext",
+		"target": "ESNext",
+
+		"declaration": true,
+		"noEmitOnError": true,
+
+		"verbatimModuleSyntax": true,
+		"resolveJsonModule": true
+	}
+}
