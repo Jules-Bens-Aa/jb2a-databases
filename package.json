@@ -1,23 +1,22 @@
 {
-    "private": true,
-    "type": "module",
-    "name": "jb2a-databases",
-    "scripts": {
-        "build": "tsc && npm run build:free && npm run build:patreon",
-        "build:free": "node ./JB2A_DnD5e/generateJSON.js",
-        "build:patreon": "node ./jb2a_patreon/generateJSON.js"
-    },
-    "exports": "./index.js",
-	 "types": "./index.d.ts",
-    "devDependencies": {
-        "typescript": "^5.5.4"
-    },
-    "description": "Database for our modules (Free and Patreon)",
-    "version": "1.0.0",
-    "license": "ISC",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/Jules-Bens-Aa/jb2a-databases"
-    },
-    "homepage": "https://jb2a.com/"
+	"private": true,
+	"type": "module",
+	"name": "jb2a-databases",
+	"scripts": {
+		"build": "tsc && node ./helpers/generateJSONs.js"
+	},
+	"exports": "./index.js",
+	"types": "./index.d.ts",
+	"devDependencies": {
+		"typescript": "^5.5.4",
+		"@types/node": "^22.5.4"
+	},
+	"description": "Database for our modules (Free and Patreon)",
+	"version": "1.0.0",
+	"license": "ISC",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Jules-Bens-Aa/jb2a-databases"
+	},
+	"homepage": "https://jb2a.com/"
 }
