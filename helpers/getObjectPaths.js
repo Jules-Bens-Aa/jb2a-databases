@@ -1,11 +1,10 @@
-const metadata = new Set([
+const unwantedSequencerMetadata = new Set([
     "_template",
     "_templates",
     "_markers",
     "_timeRange",
     "_timestamps",
     "_flipbook",
-    "file",
     "_metadata",
 ]);
 export function getObjectPaths(obj, path = [], recursionDepth = 0) {
@@ -26,7 +25,10 @@ export function getObjectPaths(obj, path = [], recursionDepth = 0) {
     }
     else if (typeof obj === "object" && obj !== null) {
         for (const key in obj) {
-            if (!metadata.has(key)) {
+            if (key === "file") {
+                addPath(paths, [...path, key].join("."));
+            }
+            else if (!unwantedSequencerMetadata.has(key)) {
                 getObjectPaths(obj[key], [...path, key], recursionDepth + 1).forEach((newPath) => addPath(paths, newPath));
             }
         }
