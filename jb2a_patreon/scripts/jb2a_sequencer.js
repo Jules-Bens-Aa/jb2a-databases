@@ -294,15 +294,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.aura_themed = {
         _metadata: {
-            name: "Aura Themed",
-            new: [
-                "01.inward.complete.metal.01.teal*",
-                "01.inward.loop.metal.01.teal*",
-                "01.outward.complete.metal.01.teal*",
-                "01.outward.loop.metal.01.teal*",
-                "01.orbit.complete.metal.01.teal*",
-                "01.orbit.loop.metal.01.teal*"
-            ]
+            name: "Aura Themed"
         },
         '01': {
             inward: {
@@ -1416,6 +1408,44 @@ export async function jb2aPatreonDatabase(prefix) {
             }
         }
     }
+    patreonDatabase.bubble = {
+        _metadata: {
+            name: "Bubbles",
+            new: true
+        },
+        "001": {
+            "001": {
+                complete: {
+                    _markers: {
+                        loop: { start: 2000, end: 3967 }
+                    },
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Liquid/Bubble/BubbleComplete001_001_Blue_2x2_400x400.webm`,
+                    green: `${prefix}/jb2a_patreon/Library/Generic/Liquid/Bubble/BubbleComplete001_001_Green_2x2_400x400.webm`,
+                    purple: `${prefix}/jb2a_patreon/Library/Generic/Liquid/Bubble/BubbleComplete001_001_Purple_2x2_400x400.webm`
+                },
+                loop: {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Liquid/Bubble/BubbleLoop001_001_Blue_2x2_400x400.webm`,
+                    green: `${prefix}/jb2a_patreon/Library/Generic/Liquid/Bubble/BubbleLoop001_001_Green_2x2_400x400.webm`,
+                    purple: `${prefix}/jb2a_patreon/Library/Generic/Liquid/Bubble/BubbleLoop001_001_Purple_2x2_400x400.webm`
+                }
+            },
+            "002": {
+                complete: {
+                    _markers: {
+                        loop: { start: 2000, end: 3967 }
+                    },
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Liquid/Bubble/BubbleComplete001_002_Blue_3x3_600x600.webm`,
+                    green: `${prefix}/jb2a_patreon/Library/Generic/Liquid/Bubble/BubbleComplete001_002_Green_3x3_600x600.webm`,
+                    purple: `${prefix}/jb2a_patreon/Library/Generic/Liquid/Bubble/BubbleComplete001_002_Purple_3x3_600x600.webm`
+                },
+                loop: {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Liquid/Bubble/BubbleLoop001_002_Blue_3x3_600x600.webm`,
+                    green: `${prefix}/jb2a_patreon/Library/Generic/Liquid/Bubble/BubbleLoop001_002_Green_3x3_600x600.webm`,
+                    purple: `${prefix}/jb2a_patreon/Library/Generic/Liquid/Bubble/BubbleLoop001_002_Purple_3x3_600x600.webm`
+                }
+            }
+        }
+    }
     patreonDatabase.bullet = {
         _metadata: {
             name: "Bullet"
@@ -1607,15 +1637,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.butterflies = {
         _metadata: {
-            name: "Butterflies",
-            new: [
-                "complete.01.red*",
-                "loop.01.red*",
-                "inward.01.red*",
-                "inward_burst.01.red*",
-                "outward.01.red*",
-                "outward_burst.01.red*"
-            ]
+            name: "Butterflies"
         },
         complete: {
             _markers: {
@@ -2366,16 +2388,10 @@ export async function jb2aPatreonDatabase(prefix) {
         _metadata: {
             name: "Conditions",
             new: [
-                "boon.01.011*",
-                "boon.01.012*",
-                "boon.01.013*",
-                "boon.01.014*",
-                "boon.01.015*",
-                "curse.01.011*",
-                "curse.01.012*",
-                "curse.01.013*",
-                "curse.01.014*",
-                "curse.01.015*",
+                "boon.01.016*",
+                "boon.01.017*",
+                "curse.01.016*",
+                "curse.01.017*"
             ]
         },
         boon: {
@@ -2469,6 +2485,18 @@ export async function jb2aPatreonDatabase(prefix) {
                     green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_015_Green_600x600.webm`,
                     red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_015_Red_600x600.webm`,
                     yellow: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_015_Yellow_600x600.webm`,                    
+                },
+                "016": {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_016_Blue_600x600.webm`,
+                    green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_016_Green_600x600.webm`,
+                    red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_016_Red_600x600.webm`,
+                    yellow: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_016_Yellow_600x600.webm`,                    
+                },
+                "017": {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_017_Blue_600x600.webm`,
+                    green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_017_Green_600x600.webm`,
+                    red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_017_Red_600x600.webm`,
+                    yellow: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_017_Yellow_600x600.webm`,                    
                 }
 
             }
@@ -2549,6 +2577,16 @@ export async function jb2aPatreonDatabase(prefix) {
                     green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_015_Green_600x600.webm`,
                     purple: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_015_Purple_600x600.webm`,
                     red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_015_Red_600x600.webm`,
+                },
+                "016": {
+                    green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_016_Green_600x600.webm`,
+                    purple: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_016_Purple_600x600.webm`,
+                    red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_016_Red_600x600.webm`,
+                },
+                "017": {
+                    green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_017_Green_600x600.webm`,
+                    purple: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_017_Purple_600x600.webm`,
+                    red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_017_Red_600x600.webm`,
                 }
             }
         }
@@ -3099,14 +3137,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.energy_attack = {
         _metadata: {
-            name: "Energy Attack",
-            new: [
-                '01.blue.1',
-                '01.dark_purple.1',
-                '01.multicolored01.1',
-                '01.orange.1',
-                '01.purple.1'
-            ]
+            name: "Energy Attack"
         },
         '01': {
             blue: [
@@ -7520,7 +7551,11 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.liquid = {
             _metadata: {
-                name: "Liquid"
+                name: "Liquid",
+                new: [
+                    "splash02*",
+                    "splash_side02*"
+                ]
             },
             blob: {
                 blue: `${prefix}/jb2a_patreon/Library/Generic/Liquid/LiquidBlob01_01_Regular_Blue_400x400.webm`,
@@ -7531,7 +7566,7 @@ export async function jb2aPatreonDatabase(prefix) {
             },
             splash: {
                 _metadata: {
-                    name: "Liquid",
+                    name: "Liquid Splash 01",
                 },
                 bright_blue: `${prefix}/jb2a_patreon/Library/Generic/Liquid/LiquidSplash01_Bright_Blue_400x400.webm`,
                 bright_green: `${prefix}/jb2a_patreon/Library/Generic/Liquid/LiquidSplash01_Bright_Green_400x400.webm`,
@@ -7543,9 +7578,18 @@ export async function jb2aPatreonDatabase(prefix) {
                 grey: `${prefix}/jb2a_patreon/Library/Generic/Liquid/LiquidSplash01_Regular_Grey_400x400.webm`,
                 red: `${prefix}/jb2a_patreon/Library/Generic/Liquid/LiquidSplash01_Regular_Red_400x400.webm`
             },
+            splash02: {
+                _metadata: {
+                    name: "Liquid Splash 02",
+                },
+                blue: `${prefix}/jb2a_patreon/Library/Generic/Liquid/LiquidSplash02_01_Regular_Blue_500x500.webm`,
+                green: `${prefix}/jb2a_patreon/Library/Generic/Liquid/LiquidSplash02_01_Regular_Green_500x500.webm`,
+                purple: `${prefix}/jb2a_patreon/Library/Generic/Liquid/LiquidSplash02_01_Regular_Purple_500x500.webm`,
+                red: `${prefix}/jb2a_patreon/Library/Generic/Liquid/LiquidSplash02_01_Regular_Red_500x500.webm`
+            },
             splash_side: {
                 _metadata: {
-                    name: "Liquid",
+                    name: "Liquid Splash Side 01",
                 },
                 _template: 'side_impact',
                 bright_blue: `${prefix}/jb2a_patreon/Library/Generic/Liquid/LiquidSplashSide01_Bright_Blue_600x600.webm`,
@@ -7557,6 +7601,16 @@ export async function jb2aPatreonDatabase(prefix) {
                 green: `${prefix}/jb2a_patreon/Library/Generic/Liquid/LiquidSplashSide01_Regular_Green_600x600.webm`,
                 grey: `${prefix}/jb2a_patreon/Library/Generic/Liquid/LiquidSplashSide01_Regular_Grey_600x600.webm`,
                 red: `${prefix}/jb2a_patreon/Library/Generic/Liquid/LiquidSplashSide01_Regular_Red_600x600.webm`
+            },
+            splash_side02: {
+                _metadata: {
+                    name: "Liquid Splash Side 02",
+                },
+                _template: 'side_impact',
+                blue: `${prefix}/jb2a_patreon/Library/Generic/Liquid/LiquidSplashSide02_01_Regular_Blue_600x600.webm`,
+                green: `${prefix}/jb2a_patreon/Library/Generic/Liquid/LiquidSplashSide02_01_Regular_Green_600x600.webm`,
+                purple: `${prefix}/jb2a_patreon/Library/Generic/Liquid/LiquidSplashSide02_01_Regular_Purple_600x600.webm`,
+                red: `${prefix}/jb2a_patreon/Library/Generic/Liquid/LiquidSplashSide02_01_Regular_Red_600x600.webm`
             }
     }
     patreonDatabase.mace = {
@@ -8902,10 +8956,8 @@ export async function jb2aPatreonDatabase(prefix) {
             _metadata: {
                 name: "Markers",
                 new: [
-                    "shield_rampart.complete.01.white",
-                    "shield_rampart.complete.03.white",
-                    "shield_rampart.loop.01.white",
-                    "shield_rampart.loop.03.white",
+                    "simple.001.complete*",
+                    "simple.001.loop*"
                 ]
             },
             '01': {
@@ -9626,6 +9678,89 @@ export async function jb2aPatreonDatabase(prefix) {
                         blue: `${prefix}/jb2a_patreon/Library/Generic/Marker/MarkerShieldRampartLoop03_01_Regular_Blue_400x400.webm`,
                         yellow: `${prefix}/jb2a_patreon/Library/Generic/Marker/MarkerShieldRampartLoop03_01_Regular_Yellow_400x400.webm`,
                         white: `${prefix}/jb2a_patreon/Library/Generic/Marker/MarkerShieldRampartLoop03_01_Regular_White_400x400.webm`,
+                    }
+                }
+            },
+            simple: {
+                "001": {
+                    complete: {
+                        _markers: {
+                            loop: { start: 1500, end: 3467 }
+                        },
+                        '001': {
+                            blue: `${prefix}/jb2a_patreon/Library/Generic/Marker/Simple/MarkerSimpleComplete001_001_Blue_600x600.webm`,
+                            green: `${prefix}/jb2a_patreon/Library/Generic/Marker/Simple/MarkerSimpleComplete001_001_Green_600x600.webm`,
+                            purple: `${prefix}/jb2a_patreon/Library/Generic/Marker/Simple/MarkerSimpleComplete001_001_Purple_600x600.webm`,
+                            red: `${prefix}/jb2a_patreon/Library/Generic/Marker/Simple/MarkerSimpleComplete001_001_Red_600x600.webm`,
+                            yellow: `${prefix}/jb2a_patreon/Library/Generic/Marker/Simple/MarkerSimpleComplete001_001_Yellow_600x600.webm`
+                        },
+                        '002': {
+                            blue: `${prefix}/jb2a_patreon/Library/Generic/Marker/Simple/MarkerSimpleComplete001_002_Blue_600x600.webm`,
+                            green: `${prefix}/jb2a_patreon/Library/Generic/Marker/Simple/MarkerSimpleComplete001_002_Green_600x600.webm`,
+                            purple: `${prefix}/jb2a_patreon/Library/Generic/Marker/Simple/MarkerSimpleComplete001_002_Purple_600x600.webm`,
+                            red: `${prefix}/jb2a_patreon/Library/Generic/Marker/Simple/MarkerSimpleComplete001_002_Red_600x600.webm`,
+                            yellow: `${prefix}/jb2a_patreon/Library/Generic/Marker/Simple/MarkerSimpleComplete001_002_Yellow_600x600.webm`
+                        },
+                        '003': {
+                            blue: `${prefix}/jb2a_patreon/Library/Generic/Marker/Simple/MarkerSimpleComplete001_003_Blue_600x600.webm`,
+                            green: `${prefix}/jb2a_patreon/Library/Generic/Marker/Simple/MarkerSimpleComplete001_003_Green_600x600.webm`,
+                            purple: `${prefix}/jb2a_patreon/Library/Generic/Marker/Simple/MarkerSimpleComplete001_003_Purple_600x600.webm`,
+                            red: `${prefix}/jb2a_patreon/Library/Generic/Marker/Simple/MarkerSimpleComplete001_003_Red_600x600.webm`,
+                            yellow: `${prefix}/jb2a_patreon/Library/Generic/Marker/Simple/MarkerSimpleComplete001_003_Yellow_600x600.webm`
+                        },
+                        '004': {
+                            blue: `${prefix}/jb2a_patreon/Library/Generic/Marker/Simple/MarkerSimpleComplete001_004_Blue_600x600.webm`,
+                            green: `${prefix}/jb2a_patreon/Library/Generic/Marker/Simple/MarkerSimpleComplete001_004_Green_600x600.webm`,
+                            purple: `${prefix}/jb2a_patreon/Library/Generic/Marker/Simple/MarkerSimpleComplete001_004_Purple_600x600.webm`,
+                            red: `${prefix}/jb2a_patreon/Library/Generic/Marker/Simple/MarkerSimpleComplete001_004_Red_600x600.webm`,
+                            yellow: `${prefix}/jb2a_patreon/Library/Generic/Marker/Simple/MarkerSimpleComplete001_004_Yellow_600x600.webm`
+                        },
+                        '005': {
+                            blue: `${prefix}/jb2a_patreon/Library/Generic/Marker/Simple/MarkerSimpleComplete001_005_Blue_600x600.webm`,
+                            green: `${prefix}/jb2a_patreon/Library/Generic/Marker/Simple/MarkerSimpleComplete001_005_Green_600x600.webm`,
+                            purple: `${prefix}/jb2a_patreon/Library/Generic/Marker/Simple/MarkerSimpleComplete001_005_Purple_600x600.webm`,
+                            red: `${prefix}/jb2a_patreon/Library/Generic/Marker/Simple/MarkerSimpleComplete001_005_Red_600x600.webm`,
+                            yellow: `${prefix}/jb2a_patreon/Library/Generic/Marker/Simple/MarkerSimpleComplete001_005_Yellow_600x600.webm`
+                        },
+    
+                    },
+                    loop: {
+                        '001': {
+                            blue: `${prefix}/jb2a_patreon/Library/Generic/Marker/Simple/MarkerSimpleLoop001_001_Blue_600x600.webm`,
+                            green: `${prefix}/jb2a_patreon/Library/Generic/Marker/Simple/MarkerSimpleLoop001_001_Green_600x600.webm`,
+                            purple: `${prefix}/jb2a_patreon/Library/Generic/Marker/Simple/MarkerSimpleLoop001_001_Purple_600x600.webm`,
+                            red: `${prefix}/jb2a_patreon/Library/Generic/Marker/Simple/MarkerSimpleLoop001_001_Red_600x600.webm`,
+                            yellow: `${prefix}/jb2a_patreon/Library/Generic/Marker/Simple/MarkerSimpleLoop001_001_Yellow_600x600.webm`
+                        },
+                        '002': {
+                            blue: `${prefix}/jb2a_patreon/Library/Generic/Marker/Simple/MarkerSimpleLoop001_002_Blue_600x600.webm`,
+                            green: `${prefix}/jb2a_patreon/Library/Generic/Marker/Simple/MarkerSimpleLoop001_002_Green_600x600.webm`,
+                            purple: `${prefix}/jb2a_patreon/Library/Generic/Marker/Simple/MarkerSimpleLoop001_002_Purple_600x600.webm`,
+                            red: `${prefix}/jb2a_patreon/Library/Generic/Marker/Simple/MarkerSimpleLoop001_002_Red_600x600.webm`,
+                            yellow: `${prefix}/jb2a_patreon/Library/Generic/Marker/Simple/MarkerSimpleLoop001_002_Yellow_600x600.webm`
+                        },
+                        '003': {
+                            blue: `${prefix}/jb2a_patreon/Library/Generic/Marker/Simple/MarkerSimpleLoop001_003_Blue_600x600.webm`,
+                            green: `${prefix}/jb2a_patreon/Library/Generic/Marker/Simple/MarkerSimpleLoop001_003_Green_600x600.webm`,
+                            purple: `${prefix}/jb2a_patreon/Library/Generic/Marker/Simple/MarkerSimpleLoop001_003_Purple_600x600.webm`,
+                            red: `${prefix}/jb2a_patreon/Library/Generic/Marker/Simple/MarkerSimpleLoop001_003_Red_600x600.webm`,
+                            yellow: `${prefix}/jb2a_patreon/Library/Generic/Marker/Simple/MarkerSimpleLoop001_003_Yellow_600x600.webm`
+                        },
+                        '004': {
+                            blue: `${prefix}/jb2a_patreon/Library/Generic/Marker/Simple/MarkerSimpleLoop001_004_Blue_600x600.webm`,
+                            green: `${prefix}/jb2a_patreon/Library/Generic/Marker/Simple/MarkerSimpleLoop001_004_Green_600x600.webm`,
+                            purple: `${prefix}/jb2a_patreon/Library/Generic/Marker/Simple/MarkerSimpleLoop001_004_Purple_600x600.webm`,
+                            red: `${prefix}/jb2a_patreon/Library/Generic/Marker/Simple/MarkerSimpleLoop001_004_Red_600x600.webm`,
+                            yellow: `${prefix}/jb2a_patreon/Library/Generic/Marker/Simple/MarkerSimpleLoop001_004_Yellow_600x600.webm`
+                        },
+                        '005': {
+                            blue: `${prefix}/jb2a_patreon/Library/Generic/Marker/Simple/MarkerSimpleLoop001_005_Blue_600x600.webm`,
+                            green: `${prefix}/jb2a_patreon/Library/Generic/Marker/Simple/MarkerSimpleLoop001_005_Green_600x600.webm`,
+                            purple: `${prefix}/jb2a_patreon/Library/Generic/Marker/Simple/MarkerSimpleLoop001_005_Purple_600x600.webm`,
+                            red: `${prefix}/jb2a_patreon/Library/Generic/Marker/Simple/MarkerSimpleLoop001_005_Red_600x600.webm`,
+                            yellow: `${prefix}/jb2a_patreon/Library/Generic/Marker/Simple/MarkerSimpleLoop001_005_Yellow_600x600.webm`
+                        },
+    
                     }
                 }
             },
@@ -11601,14 +11736,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.ranged = {
         _metadata: {
-            name: "Ranged",
-            new: [
-                "beam.001.02*",
-                "beam.001.03*",
-                "beam.002.01*",
-                "beam.002.02*",
-                "beam.002.03*"
-            ]
+            name: "Ranged"
         },
         _template: 'ranged',
         '01': {
@@ -12284,15 +12412,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.scorched_earth = {
             _metadata: {
-                name: "Scorched Earth",
-                new: [
-                    "yellow*",
-                    "02.black*",
-                    "02.green*",
-                    "02.orange*",
-                    "02.red*",
-                    "02.yellow*",
-                ]
+                name: "Scorched Earth"
             },
             black: `${prefix}/jb2a_patreon/Library/Generic/Fire/ScorchedEarth_01_Black_800x800.webm`,
             green: `${prefix}/jb2a_patreon/Library/Generic/Fire/ScorchedEarth_01_Green_800x800.webm`,
@@ -12999,14 +13119,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.shield_themed = {
             _metadata: {
-                name: "Shield - Themed",
-                new: [
-                    "above.fire.01.dark_purple*",
-                    "above.fire.03.dark_purple*",
-                    "below.fire.01.dark_purple*",
-                    "below.fire.02.dark_purple*",
-                    "below.fire.03.dark_purple*"
-                ]
+                name: "Shield - Themed"
             },
             above: {
                 eldritch_web: {
