@@ -478,6 +478,38 @@
 			}
 		}
 	},
+	"bubble": {
+		"001": {
+			"001": {
+				"complete": {
+					"_markers": {
+						"loop": {
+							"start": 2000,
+							"end": 3967
+						}
+					},
+					"blue": "modules/JB2A_DnD5e/Library/Generic/Liquid/Bubble/BubbleComplete001_001_Blue_2x2_400x400.webm"
+				},
+				"loop": {
+					"blue": "modules/JB2A_DnD5e/Library/Generic/Liquid/Bubble/BubbleLoop001_001_Blue_2x2_400x400.webm"
+				}
+			},
+			"002": {
+				"complete": {
+					"_markers": {
+						"loop": {
+							"start": 2000,
+							"end": 3967
+						}
+					},
+					"blue": "modules/JB2A_DnD5e/Library/Generic/Liquid/Bubble/BubbleComplete001_002_Blue_3x3_600x600.webm"
+				},
+				"loop": {
+					"blue": "modules/JB2A_DnD5e/Library/Generic/Liquid/Bubble/BubbleLoop001_002_Blue_3x3_600x600.webm"
+				}
+			}
+		}
+	},
 	"bullet": {
 		"_template": "ranged",
 		"01": {
@@ -882,6 +914,12 @@
 				},
 				"015": {
 					"green": "modules/JB2A_DnD5e/Library/Generic/Conditions/Boon01/ConditionBoon01_015_Green_600x600.webm"
+				},
+				"016": {
+					"green": "modules/JB2A_DnD5e/Library/Generic/Conditions/Boon01/ConditionBoon01_016_Green_600x600.webm"
+				},
+				"017": {
+					"green": "modules/JB2A_DnD5e/Library/Generic/Conditions/Boon01/ConditionBoon01_017_Green_600x600.webm"
 				}
 			}
 		},
@@ -931,6 +969,12 @@
 				},
 				"015": {
 					"red": "modules/JB2A_DnD5e/Library/Generic/Conditions/Curse01/ConditionCurse01_015_Red_600x600.webm"
+				},
+				"016": {
+					"red": "modules/JB2A_DnD5e/Library/Generic/Conditions/Curse01/ConditionCurse01_016_Red_600x600.webm"
+				},
+				"017": {
+					"red": "modules/JB2A_DnD5e/Library/Generic/Conditions/Curse01/ConditionCurse01_017_Red_600x600.webm"
 				}
 			}
 		}
@@ -2319,9 +2363,16 @@
 		"splash": {
 			"blue": "modules/JB2A_DnD5e/Library/Generic/Liquid/LiquidSplash01_Regular_Blue_400x400.webm"
 		},
+		"splash02": {
+			"red": "modules/JB2A_DnD5e/Library/Generic/Liquid/LiquidSplash02_01_Regular_Red_500x500.webm"
+		},
 		"splash_side": {
 			"_template": "side_impact",
 			"blue": "modules/JB2A_DnD5e/Library/Generic/Liquid/LiquidSplashSide01_Regular_Blue_600x600.webm"
+		},
+		"splash_side02": {
+			"_template": "side_impact",
+			"red": "modules/JB2A_DnD5e/Library/Generic/Liquid/LiquidSplashSide02_01_Regular_Red_600x600.webm"
 		}
 	},
 	"mace": {
@@ -3016,6 +3067,34 @@
 			"loop": {
 				"01": {
 					"orange": "modules/JB2A_DnD5e/Library/Generic/Marker/MarkerShieldRampartLoop01_01_Regular_Orange_400x400.webm"
+				}
+			}
+		},
+		"simple": {
+			"001": {
+				"complete": {
+					"_markers": {
+						"loop": {
+							"start": 1500,
+							"end": 3467
+						}
+					},
+					"001": {
+						"blue": "modules/JB2A_DnD5e/Library/Generic/Marker/Simple/MarkerSimpleComplete001_001_Blue_600x600.webm",
+						"green": "modules/JB2A_DnD5e/Library/Generic/Marker/Simple/MarkerSimpleComplete001_001_Green_600x600.webm",
+						"purple": "modules/JB2A_DnD5e/Library/Generic/Marker/Simple/MarkerSimpleComplete001_001_Purple_600x600.webm",
+						"red": "modules/JB2A_DnD5e/Library/Generic/Marker/Simple/MarkerSimpleComplete001_001_Red_600x600.webm",
+						"yellow": "modules/JB2A_DnD5e/Library/Generic/Marker/Simple/MarkerSimpleComplete001_001_Yellow_600x600.webm"
+					}
+				},
+				"loop": {
+					"001": {
+						"blue": "modules/JB2A_DnD5e/Library/Generic/Marker/Simple/MarkerSimpleLoop001_001_Blue_600x600.webm",
+						"green": "modules/JB2A_DnD5e/Library/Generic/Marker/Simple/MarkerSimpleLoop001_001_Green_600x600.webm",
+						"purple": "modules/JB2A_DnD5e/Library/Generic/Marker/Simple/MarkerSimpleLoop001_001_Purple_600x600.webm",
+						"red": "modules/JB2A_DnD5e/Library/Generic/Marker/Simple/MarkerSimpleLoop001_001_Red_600x600.webm",
+						"yellow": "modules/JB2A_DnD5e/Library/Generic/Marker/Simple/MarkerSimpleLoop001_001_Yellow_600x600.webm"
+					}
 				}
 			}
 		},
