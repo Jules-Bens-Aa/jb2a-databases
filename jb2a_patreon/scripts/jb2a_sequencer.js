@@ -2385,16 +2385,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.condition = {
         _metadata: {
-            name: "Conditions",
-            new: [
-                'boon.01.018*',
-                'boon.01.019*',
-                'boon.01.020*',
-
-                'curse.01.018*',
-                'curse.01.019*',
-                'curse.01.020*',
-            ]
+            name: "Conditions"
         },
         boon: {
             "01": {
@@ -2660,6 +2651,12 @@ export async function jb2aPatreonDatabase(prefix) {
     patreonDatabase.dagger = {
         _metadata: {
             name: "Dagger",
+            new: [
+                'throw.01.orange*',
+                'throw.02.orange*',
+                'return.01.orange*',
+                'return.02.orange*'
+            ]
         },    
         melee: {
             _template: 'melee',
@@ -2692,6 +2689,12 @@ export async function jb2aPatreonDatabase(prefix) {
                     '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Dark_Purple_Return_60ft_2800x400.webm`,
                     '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Dark_Purple_Return_90ft_4000x400.webm`
                 },
+                orange: {
+                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Orange_Return_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Orange_Return_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Orange_Return_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Orange_Return_90ft_4000x400.webm`
+                },
                 pink: {
                     '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Pink_Return_15ft_1000x400.webm`,
                     '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Pink_Return_30ft_1600x400.webm`,
@@ -2723,6 +2726,12 @@ export async function jb2aPatreonDatabase(prefix) {
                     '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Dark_Purple_Return_30ft_1600x400.webm`,
                     '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Dark_Purple_Return_60ft_2800x400.webm`,
                     '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Dark_Purple_Return_90ft_4000x400.webm`
+                },
+                orange: {
+                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Orange_Return_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Orange_Return_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Orange_Return_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Orange_Return_90ft_4000x400.webm`
                 },
                 pink: {
                     '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Pink_Return_15ft_1000x400.webm`,
@@ -2759,6 +2768,12 @@ export async function jb2aPatreonDatabase(prefix) {
                     '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Dark_Purple_60ft_2800x400.webm`,
                     '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Dark_Purple_90ft_4000x400.webm`
                 },
+                orange: {
+                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Orange_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Orange_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Orange_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Orange_90ft_4000x400.webm`
+                },
                 pink: {
                     '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Pink_15ft_1000x400.webm`,
                     '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger01_01_Regular_Pink_30ft_1600x400.webm`,
@@ -2790,6 +2805,12 @@ export async function jb2aPatreonDatabase(prefix) {
                     '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Dark_Purple_30ft_1600x400.webm`,
                     '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Dark_Purple_60ft_2800x400.webm`,
                     '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Dark_Purple_90ft_4000x400.webm`
+                },
+                orange: {
+                    '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Orange_15ft_1000x400.webm`,
+                    '30ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Orange_30ft_1600x400.webm`,
+                    '60ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Orange_60ft_2800x400.webm`,
+                    '90ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Orange_90ft_4000x400.webm`
                 },
                 pink: {
                     '15ft': `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/Dagger02_01_Regular_Pink_15ft_1000x400.webm`,
@@ -10962,7 +10983,129 @@ export async function jb2aPatreonDatabase(prefix) {
                 ]
             }
         }
-}
+    }
+    patreonDatabase.on_token_buff = {
+        _metadata: {
+            name: "On Token Buff",
+            new: [
+                '001.001.white*',
+                '001.002.white*',
+                '001.003.white*',
+                '002.001.white*',
+                '002.002.white*',
+                '002.003.white*',
+                '003.001.white*',
+                '003.002.white*',
+                '003.003.white*'
+            ]
+        },
+        '001': {
+            '001': {
+                blue: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff001_001_Blue_400x400.webm`,
+                bluepurple: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff001_001_BluePurple_400x400.webm`,
+                blueteal: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff001_001_BlueTeal_400x400.webm`,
+                greenpurple: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff001_001_GreenPurple_400x400.webm`,
+                greenyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff001_001_GreenYellow_400x400.webm`,
+                orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff001_001_OrangeYellow_400x400.webm`,
+                pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff001_001_PinkYellow_400x400.webm`,
+                purplered: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff001_001_PurpleRed_400x400.webm`,
+                white: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff001_001_White_400x400.webm`,
+            },
+            '002': {
+                blue: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff001_002_Blue_400x400.webm`,
+                bluepurple: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff001_002_BluePurple_400x400.webm`,
+                blueteal: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff001_002_BlueTeal_400x400.webm`,
+                greenpurple: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff001_002_GreenPurple_400x400.webm`,
+                greenyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff001_002_GreenYellow_400x400.webm`,
+                orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff001_002_OrangeYellow_400x400.webm`,
+                pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff001_002_PinkYellow_400x400.webm`,
+                purplered: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff001_002_PurpleRed_400x400.webm`,
+                white: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff001_002_White_400x400.webm`,
+            },
+            '003': {
+                blue: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff001_003_Blue_400x400.webm`,
+                bluepurple: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff001_003_BluePurple_400x400.webm`,
+                blueteal: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff001_003_BlueTeal_400x400.webm`,
+                greenpurple: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff001_003_GreenPurple_400x400.webm`,
+                greenyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff001_003_GreenYellow_400x400.webm`,
+                orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff001_003_OrangeYellow_400x400.webm`,
+                pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff001_003_PinkYellow_400x400.webm`,
+                purplered: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff001_003_PurpleRed_400x400.webm`,
+                white: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff001_003_White_400x400.webm`,
+            }
+        },
+        '002': {
+            '001': {
+                blue: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff002_001_Blue_400x400.webm`,
+                bluepurple: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff002_001_BluePurple_400x400.webm`,
+                blueteal: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff002_001_BlueTeal_400x400.webm`,
+                greenpurple: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff002_001_GreenPurple_400x400.webm`,
+                greenyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff002_001_GreenYellow_400x400.webm`,
+                orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff002_001_OrangeYellow_400x400.webm`,
+                pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff002_001_PinkYellow_400x400.webm`,
+                purplered: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff002_001_PurpleRed_400x400.webm`,
+                white: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff002_001_White_400x400.webm`,
+            },
+            '002': {
+                blue: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff002_002_Blue_400x400.webm`,
+                bluepurple: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff002_002_BluePurple_400x400.webm`,
+                blueteal: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff002_002_BlueTeal_400x400.webm`,
+                greenpurple: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff002_002_GreenPurple_400x400.webm`,
+                greenyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff002_002_GreenYellow_400x400.webm`,
+                orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff002_002_OrangeYellow_400x400.webm`,
+                pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff002_002_PinkYellow_400x400.webm`,
+                purplered: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff002_002_PurpleRed_400x400.webm`,
+                white: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff002_002_White_400x400.webm`,
+            },
+            '003': {
+                blue: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff002_003_Blue_400x400.webm`,
+                bluepurple: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff002_003_BluePurple_400x400.webm`,
+                blueteal: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff002_003_BlueTeal_400x400.webm`,
+                greenpurple: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff002_003_GreenPurple_400x400.webm`,
+                greenyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff002_003_GreenYellow_400x400.webm`,
+                orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff002_003_OrangeYellow_400x400.webm`,
+                pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff002_003_PinkYellow_400x400.webm`,
+                purplered: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff002_003_PurpleRed_400x400.webm`,
+                white: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff002_003_White_400x400.webm`,
+            }
+        },
+        '003': {
+            '001': {
+                blue: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff003_001_Blue_400x400.webm`,
+                bluepurple: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff003_001_BluePurple_400x400.webm`,
+                blueteal: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff003_001_BlueTeal_400x400.webm`,
+                greenpurple: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff003_001_GreenPurple_400x400.webm`,
+                greenyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff003_001_GreenYellow_400x400.webm`,
+                orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff003_001_OrangeYellow_400x400.webm`,
+                pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff003_001_PinkYellow_400x400.webm`,
+                purplered: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff003_001_PurpleRed_400x400.webm`,
+                white: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff003_001_White_400x400.webm`,
+            },
+            '002': {
+                blue: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff003_002_Blue_400x400.webm`,
+                bluepurple: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff003_002_BluePurple_400x400.webm`,
+                blueteal: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff003_002_BlueTeal_400x400.webm`,
+                greenpurple: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff003_002_GreenPurple_400x400.webm`,
+                greenyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff003_002_GreenYellow_400x400.webm`,
+                orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff003_002_OrangeYellow_400x400.webm`,
+                pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff003_002_PinkYellow_400x400.webm`,
+                purplered: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff003_002_PurpleRed_400x400.webm`,
+                white: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff003_002_White_400x400.webm`,
+            },
+            '003': {
+                blue: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff003_003_Blue_400x400.webm`,
+                bluepurple: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff003_003_BluePurple_400x400.webm`,
+                blueteal: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff003_003_BlueTeal_400x400.webm`,
+                greenpurple: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff003_003_GreenPurple_400x400.webm`,
+                greenyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff003_003_GreenYellow_400x400.webm`,
+                orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff003_003_OrangeYellow_400x400.webm`,
+                pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff003_003_PinkYellow_400x400.webm`,
+                purplered: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff003_003_PurpleRed_400x400.webm`,
+                white: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff003_003_White_400x400.webm`,
+            }
+        }
+        
+    }
     patreonDatabase.ouija_planchette = {
             _metadata: {
                 name: "Ouija Planchette",
@@ -16053,6 +16196,258 @@ export async function jb2aPatreonDatabase(prefix) {
                     }
                 }
             },
+            radar: {
+                _metadata: {
+                    name: "Template-Circle-Radar",
+                    new: true
+                },
+                loop: {
+                    '001': {
+                        '800px': {
+                            blue: [
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_001_001_Blue_15ft_800x800.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_001_002_Blue_15ft_800x800.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_001_003_Blue_15ft_800x800.webm`,
+                            ],
+                            bluepurple: [
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_001_001_BluePurple_15ft_800x800.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_001_002_BluePurple_15ft_800x800.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_001_003_BluePurple_15ft_800x800.webm`,
+                            ],
+                            blueteal: [
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_001_001_BlueTeal_15ft_800x800.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_001_002_BlueTeal_15ft_800x800.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_001_003_BlueTeal_15ft_800x800.webm`,
+                            ],
+                            greenpurple: [
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_001_001_GreenPurple_15ft_800x800.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_001_002_GreenPurple_15ft_800x800.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_001_003_GreenPurple_15ft_800x800.webm`,
+                            ],
+                            greenyellow: [
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_001_001_GreenYellow_15ft_800x800.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_001_002_GreenYellow_15ft_800x800.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_001_003_GreenYellow_15ft_800x800.webm`,
+                            ],
+                            orangeyellow: [
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_001_001_OrangeYellow_15ft_800x800.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_001_002_OrangeYellow_15ft_800x800.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_001_003_OrangeYellow_15ft_800x800.webm`,
+                            ],
+                            pinkyellow: [
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_001_001_PinkYellow_15ft_800x800.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_001_002_PinkYellow_15ft_800x800.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_001_003_PinkYellow_15ft_800x800.webm`,
+                            ],
+                            purplered: [
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_001_001_PurpleRed_15ft_800x800.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_001_002_PurpleRed_15ft_800x800.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_001_003_PurpleRed_15ft_800x800.webm`,
+                            ],
+                            white: [
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_001_001_White_15ft_800x800.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_001_002_White_15ft_800x800.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_001_003_White_15ft_800x800.webm`,
+                            ],
+                        }
+                    },
+                    '002': {
+                        '800px': {
+                            blue: [
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_002_001_Blue_15ft_800x800.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_002_002_Blue_15ft_800x800.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_002_003_Blue_15ft_800x800.webm`,
+                            ],
+                            bluepurple: [
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_002_001_BluePurple_15ft_800x800.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_002_002_BluePurple_15ft_800x800.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_002_003_BluePurple_15ft_800x800.webm`,
+                            ],
+                            blueteal: [
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_002_001_BlueTeal_15ft_800x800.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_002_002_BlueTeal_15ft_800x800.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_002_003_BlueTeal_15ft_800x800.webm`,
+                            ],
+                            greenpurple: [
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_002_001_GreenPurple_15ft_800x800.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_002_002_GreenPurple_15ft_800x800.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_002_003_GreenPurple_15ft_800x800.webm`,
+                            ],
+                            greenyellow: [
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_002_001_GreenYellow_15ft_800x800.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_002_002_GreenYellow_15ft_800x800.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_002_003_GreenYellow_15ft_800x800.webm`,
+                            ],
+                            orangeyellow: [
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_002_001_OrangeYellow_15ft_800x800.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_002_002_OrangeYellow_15ft_800x800.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_002_003_OrangeYellow_15ft_800x800.webm`,
+                            ],
+                            pinkyellow: [
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_002_001_PinkYellow_15ft_800x800.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_002_002_PinkYellow_15ft_800x800.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_002_003_PinkYellow_15ft_800x800.webm`,
+                            ],
+                            purplered: [
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_002_001_PurpleRed_15ft_800x800.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_002_002_PurpleRed_15ft_800x800.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_002_003_PurpleRed_15ft_800x800.webm`,
+                            ],
+                            white: [
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_002_001_White_15ft_800x800.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_002_002_White_15ft_800x800.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_002_003_White_15ft_800x800.webm`,
+                            ],
+                        }
+                    },
+                    '800px': {
+                        '001': {
+                            bg: {
+                                blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_BG_001_Blue_15ft_800x800.webm`,
+                                bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_BG_001_BluePurple_15ft_800x800.webm`,
+                                blueteal: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_BG_001_BlueTeal_15ft_800x800.webm`,
+                                greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_BG_001_GreenPurple_15ft_800x800.webm`,
+                                greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_BG_001_GreenYellow_15ft_800x800.webm`,
+                                orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_BG_001_OrangeYellow_15ft_800x800.webm`,
+                                pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_BG_001_PinkYellow_15ft_800x800.webm`,
+                                purplered: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_BG_001_PurpleRed_15ft_800x800.webm`,
+                                white: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_BG_001_White_15ft_800x800.webm`
+                            },
+                            pulse: {
+                                blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_Pulse_001_Blue_15ft_800x800.webm`,
+                                bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_Pulse_001_BluePurple_15ft_800x800.webm`,
+                                blueteal: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_Pulse_001_BlueTeal_15ft_800x800.webm`,
+                                greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_Pulse_001_GreenPurple_15ft_800x800.webm`,
+                                greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_Pulse_001_GreenYellow_15ft_800x800.webm`,
+                                orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_Pulse_001_OrangeYellow_15ft_800x800.webm`,
+                                pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_Pulse_001_PinkYellow_15ft_800x800.webm`,
+                                purplered: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_Pulse_001_PurpleRed_15ft_800x800.webm`,
+                                white: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_Pulse_001_White_15ft_800x800.webm`
+                            },
+                            stillframe: {
+                                blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_StillFrame_001_Blue_15ft_800x800.webp`,
+                                bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_StillFrame_001_BluePurple_15ft_800x800.webp`,
+                                blueteal: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_StillFrame_001_BlueTeal_15ft_800x800.webp`,
+                                greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_StillFrame_001_GreenPurple_15ft_800x800.webp`,
+                                greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_StillFrame_001_GreenYellow_15ft_800x800.webp`,
+                                orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_StillFrame_001_OrangeYellow_15ft_800x800.webp`,
+                                pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_StillFrame_001_PinkYellow_15ft_800x800.webp`,
+                                purplered: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_StillFrame_001_PurpleRed_15ft_800x800.webp`,
+                                white: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_StillFrame_001_White_15ft_800x800.webp`
+                            },
+                            sweep: {
+                                blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_Sweep_001_Blue_15ft_800x800.webm`,
+                                bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_Sweep_001_BluePurple_15ft_800x800.webm`,
+                                blueteal: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_Sweep_001_BlueTeal_15ft_800x800.webm`,
+                                greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_Sweep_001_GreenPurple_15ft_800x800.webm`,
+                                greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_Sweep_001_GreenYellow_15ft_800x800.webm`,
+                                orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_Sweep_001_OrangeYellow_15ft_800x800.webm`,
+                                pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_Sweep_001_PinkYellow_15ft_800x800.webm`,
+                                purplered: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_Sweep_001_PurpleRed_15ft_800x800.webm`,
+                                white: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_Sweep_001_White_15ft_800x800.webm`
+                            }
+                        },
+                        '002': {
+                            pulse: {
+                                blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_Pulse_002_Blue_15ft_800x800.webm`,
+                                bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_Pulse_002_BluePurple_15ft_800x800.webm`,
+                                blueteal: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_Pulse_002_BlueTeal_15ft_800x800.webm`,
+                                greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_Pulse_002_GreenPurple_15ft_800x800.webm`,
+                                greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_Pulse_002_GreenYellow_15ft_800x800.webm`,
+                                orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_Pulse_002_OrangeYellow_15ft_800x800.webm`,
+                                pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_Pulse_002_PinkYellow_15ft_800x800.webm`,
+                                purplered: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_Pulse_002_PurpleRed_15ft_800x800.webm`,
+                                white: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_Pulse_002_White_15ft_800x800.webm`
+                            },
+                            stillframe: {
+                                blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_StillFrame_002_Blue_15ft_800x800.webp`,
+                                bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_StillFrame_002_BluePurple_15ft_800x800.webp`,
+                                blueteal: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_StillFrame_002_BlueTeal_15ft_800x800.webp`,
+                                greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_StillFrame_002_GreenPurple_15ft_800x800.webp`,
+                                greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_StillFrame_002_GreenYellow_15ft_800x800.webp`,
+                                orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_StillFrame_002_OrangeYellow_15ft_800x800.webp`,
+                                pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_StillFrame_002_PinkYellow_15ft_800x800.webp`,
+                                purplered: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_StillFrame_002_PurpleRed_15ft_800x800.webp`,
+                                white: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_StillFrame_002_White_15ft_800x800.webp`
+                            },
+                        }
+                    },
+                    ping: {
+                        '001': {
+                            '300px': {
+                                round: {
+                                    blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_PingRound_001_Blue_Size1_300x300.webm`,
+                                    bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_PingRound_001_BluePurple_Size1_300x300.webm`,
+                                    blueteal: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_PingRound_001_BlueTeal_Size1_300x300.webm`,
+                                    greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_PingRound_001_GreenPurple_Size1_300x300.webm`,
+                                    greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_PingRound_001_GreenYellow_Size1_300x300.webm`,
+                                    orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_PingRound_001_OrangeYellow_Size1_300x300.webm`,
+                                    pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_PingRound_001_PinkYellow_Size1_300x300.webm`,
+                                    purplered: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_PingRound_001_PurpleRed_Size1_300x300.webm`,
+                                    white: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_PingRound_001_White_Size1_300x300.webm`
+                                },
+                                square: {
+                                    blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_PingSquare_001_Blue_Size1_300x300.webm`,
+                                    bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_PingSquare_001_BluePurple_Size1_300x300.webm`,
+                                    blueteal: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_PingSquare_001_BlueTeal_Size1_300x300.webm`,
+                                    greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_PingSquare_001_GreenPurple_Size1_300x300.webm`,
+                                    greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_PingSquare_001_GreenYellow_Size1_300x300.webm`,
+                                    orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_PingSquare_001_OrangeYellow_Size1_300x300.webm`,
+                                    pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_PingSquare_001_PinkYellow_Size1_300x300.webm`,
+                                    purplered: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_PingSquare_001_PurpleRed_Size1_300x300.webm`,
+                                    white: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_PingSquare_001_White_Size1_300x300.webm`
+                                },
+                                triangle: {
+                                    blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_PingTriangle_001_Blue_Size1_300x300.webm`,
+                                    bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_PingTriangle_001_BluePurple_Size1_300x300.webm`,
+                                    blueteal: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_PingTriangle_001_BlueTeal_Size1_300x300.webm`,
+                                    greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_PingTriangle_001_GreenPurple_Size1_300x300.webm`,
+                                    greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_PingTriangle_001_GreenYellow_Size1_300x300.webm`,
+                                    orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_PingTriangle_001_OrangeYellow_Size1_300x300.webm`,
+                                    pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_PingTriangle_001_PinkYellow_Size1_300x300.webm`,
+                                    purplered: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_PingTriangle_001_PurpleRed_Size1_300x300.webm`,
+                                    white: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_PingTriangle_001_White_Size1_300x300.webm`
+                                },
+                            },
+                            '500px': {
+                                round: {
+                                    blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_PingRound_001_Blue_Size2_500x500.webm`,
+                                    bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_PingRound_001_BluePurple_Size2_500x500.webm`,
+                                    blueteal: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_PingRound_001_BlueTeal_Size2_500x500.webm`,
+                                    greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_PingRound_001_GreenPurple_Size2_500x500.webm`,
+                                    greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_PingRound_001_GreenYellow_Size2_500x500.webm`,
+                                    orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_PingRound_001_OrangeYellow_Size2_500x500.webm`,
+                                    pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_PingRound_001_PinkYellow_Size2_500x500.webm`,
+                                    purplered: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_PingRound_001_PurpleRed_Size2_500x500.webm`,
+                                    white: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_PingRound_001_White_Size2_500x500.webm`
+                                },
+                                square: {
+                                    blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_PingSquare_001_Blue_Size2_500x500.webm`,
+                                    bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_PingSquare_001_BluePurple_Size2_500x500.webm`,
+                                    blueteal: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_PingSquare_001_BlueTeal_Size2_500x500.webm`,
+                                    greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_PingSquare_001_GreenPurple_Size2_500x500.webm`,
+                                    greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_PingSquare_001_GreenYellow_Size2_500x500.webm`,
+                                    orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_PingSquare_001_OrangeYellow_Size2_500x500.webm`,
+                                    pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_PingSquare_001_PinkYellow_Size2_500x500.webm`,
+                                    purplered: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_PingSquare_001_PurpleRed_Size2_500x500.webm`,
+                                    white: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_PingSquare_001_White_Size2_500x500.webm`
+                                },
+                                triangle: {
+                                    blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_PingTriangle_001_Blue_Size2_500x500.webm`,
+                                    bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_PingTriangle_001_BluePurple_Size2_500x500.webm`,
+                                    blueteal: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_PingTriangle_001_BlueTeal_Size2_500x500.webm`,
+                                    greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_PingTriangle_001_GreenPurple_Size2_500x500.webm`,
+                                    greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_PingTriangle_001_GreenYellow_Size2_500x500.webm`,
+                                    orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_PingTriangle_001_OrangeYellow_Size2_500x500.webm`,
+                                    pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_PingTriangle_001_PinkYellow_Size2_500x500.webm`,
+                                    purplered: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_PingTriangle_001_PurpleRed_Size2_500x500.webm`,
+                                    white: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_PingTriangle_001_White_Size2_500x500.webm`
+                                },
+                            }
+                        }
+                    }
+                }
+            },
             vortex: {
                 _metadata: {
                     name: "Template-Circle-Vortex"
@@ -16370,10 +16765,26 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.token_border = {
             _metadata: {
-                name: "Token Border"
+                name: "Token Border",
+                new: ['circle.static.dark_red*']
             },
             circle: {
                 static: {
+                    dark_red: {
+                        '001': `${prefix}/jb2a_patreon/Library/Generic/Token_Border/TokenBorderCircle_01_Dark_Red_400x400.webm`,
+                        '002': `${prefix}/jb2a_patreon/Library/Generic/Token_Border/TokenBorderCircle_02_Dark_Red_400x400.webm`,
+                        '003': `${prefix}/jb2a_patreon/Library/Generic/Token_Border/TokenBorderCircle_03_Dark_Red_400x400.webm`,
+                        '004': `${prefix}/jb2a_patreon/Library/Generic/Token_Border/TokenBorderCircle_04_Dark_Red_400x400.webm`,
+                        '005': `${prefix}/jb2a_patreon/Library/Generic/Token_Border/TokenBorderCircle_05_Dark_Red_400x400.webm`,
+                        '006': `${prefix}/jb2a_patreon/Library/Generic/Token_Border/TokenBorderCircle_06_Dark_Red_400x400.webm`,
+                        '007': `${prefix}/jb2a_patreon/Library/Generic/Token_Border/TokenBorderCircle_07_Dark_Red_400x400.webm`,
+                        '008': `${prefix}/jb2a_patreon/Library/Generic/Token_Border/TokenBorderCircle_08_Dark_Red_400x400.webm`,
+                        '009': `${prefix}/jb2a_patreon/Library/Generic/Token_Border/TokenBorderCircle_09_Dark_Red_400x400.webm`,
+                        '010': `${prefix}/jb2a_patreon/Library/Generic/Token_Border/TokenBorderCircle_10_Dark_Red_400x400.webm`,
+                        '011': `${prefix}/jb2a_patreon/Library/Generic/Token_Border/TokenBorderCircle_11_Dark_Red_400x400.webm`,
+                        '012': `${prefix}/jb2a_patreon/Library/Generic/Token_Border/TokenBorderCircle_12_Dark_Red_400x400.webm`,
+                        '013': `${prefix}/jb2a_patreon/Library/Generic/Token_Border/TokenBorderCircle_13_Dark_Red_400x400.webm`
+                    },
                     blue: {
                         '001': `${prefix}/jb2a_patreon/Library/Generic/Token_Border/TokenBorderCircle_01_Regular_Blue_400x400.webm`,
                         '002': `${prefix}/jb2a_patreon/Library/Generic/Token_Border/TokenBorderCircle_02_Regular_Blue_400x400.webm`,
