@@ -11,6 +11,7 @@ export async function jb2aPatreonDatabase(prefix) {
         line200: [200, 200, 200],
         line200B: [200, 0, 300],
         melee: [200, 300, 300],
+        melee_large: [200, 400, 400],
         ranged: [200, 200, 200],
         ray: [100, 0, 0],
         side_impact: [200, 100, 0]    
@@ -1410,7 +1411,11 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.bubble = {
         _metadata: {
-            name: "Bubbles"
+            name: "Bubbles",
+            new: [
+                "002.001*",
+                "002.002*"
+            ]
         },
         "001": {
             "001": {
@@ -1441,6 +1446,62 @@ export async function jb2aPatreonDatabase(prefix) {
                     blue: `${prefix}/jb2a_patreon/Library/Generic/Liquid/Bubble/BubbleLoop001_002_Blue_3x3_600x600.webm`,
                     green: `${prefix}/jb2a_patreon/Library/Generic/Liquid/Bubble/BubbleLoop001_002_Green_3x3_600x600.webm`,
                     purple: `${prefix}/jb2a_patreon/Library/Generic/Liquid/Bubble/BubbleLoop001_002_Purple_3x3_600x600.webm`
+                }
+            }
+        },
+        "002": {
+            "001": {
+                complete: {
+                    _markers: {
+                        loop: { start: 4000, end: 7967 }
+                    },
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Liquid/Bubble/BubbleComplete002_001_Blue_3x3_600x600.webm`,
+                    bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Liquid/Bubble/BubbleComplete002_001_BluePurple_3x3_600x600.webm`,
+                    blueteal: `${prefix}/jb2a_patreon/Library/Generic/Liquid/Bubble/BubbleComplete002_001_BlueTeal_3x3_600x600.webm`,
+                    greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Liquid/Bubble/BubbleComplete002_001_GreenPurple_3x3_600x600.webm`,
+                    greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Liquid/Bubble/BubbleComplete002_001_GreenYellow_3x3_600x600.webm`,
+                    orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Liquid/Bubble/BubbleComplete002_001_OrangeYellow_3x3_600x600.webm`,
+                    pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Liquid/Bubble/BubbleComplete002_001_PinkYellow_3x3_600x600.webm`,
+                    purplered: `${prefix}/jb2a_patreon/Library/Generic/Liquid/Bubble/BubbleComplete002_001_PurpleRed_3x3_600x600.webm`,
+                    white: `${prefix}/jb2a_patreon/Library/Generic/Liquid/Bubble/BubbleComplete002_001_White_3x3_600x600.webm`
+                },
+                loop: {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Liquid/Bubble/BubbleLoop002_001_Blue_3x3_600x600.webm`,
+                    bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Liquid/Bubble/BubbleLoop002_001_BluePurple_3x3_600x600.webm`,
+                    blueteal: `${prefix}/jb2a_patreon/Library/Generic/Liquid/Bubble/BubbleLoop002_001_BlueTeal_3x3_600x600.webm`,
+                    greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Liquid/Bubble/BubbleLoop002_001_GreenPurple_3x3_600x600.webm`,
+                    greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Liquid/Bubble/BubbleLoop002_001_GreenYellow_3x3_600x600.webm`,
+                    orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Liquid/Bubble/BubbleLoop002_001_OrangeYellow_3x3_600x600.webm`,
+                    pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Liquid/Bubble/BubbleLoop002_001_PinkYellow_3x3_600x600.webm`,
+                    purplered: `${prefix}/jb2a_patreon/Library/Generic/Liquid/Bubble/BubbleLoop002_001_PurpleRed_3x3_600x600.webm`,
+                    white: `${prefix}/jb2a_patreon/Library/Generic/Liquid/Bubble/BubbleLoop002_001_White_3x3_600x600.webm`
+                }
+            },
+            "002": {
+                complete: {
+                    _markers: {
+                        loop: { start: 4000, end: 7967 }
+                    },
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Liquid/Bubble/BubbleComplete002_002_Blue_3x3_600x600.webm`,
+                    bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Liquid/Bubble/BubbleComplete002_002_BluePurple_3x3_600x600.webm`,
+                    blueteal: `${prefix}/jb2a_patreon/Library/Generic/Liquid/Bubble/BubbleComplete002_002_BlueTeal_3x3_600x600.webm`,
+                    greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Liquid/Bubble/BubbleComplete002_002_GreenPurple_3x3_600x600.webm`,
+                    greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Liquid/Bubble/BubbleComplete002_002_GreenYellow_3x3_600x600.webm`,
+                    orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Liquid/Bubble/BubbleComplete002_002_OrangeYellow_3x3_600x600.webm`,
+                    pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Liquid/Bubble/BubbleComplete002_002_PinkYellow_3x3_600x600.webm`,
+                    purplered: `${prefix}/jb2a_patreon/Library/Generic/Liquid/Bubble/BubbleComplete002_002_PurpleRed_3x3_600x600.webm`,
+                    white: `${prefix}/jb2a_patreon/Library/Generic/Liquid/Bubble/BubbleComplete002_002_White_3x3_600x600.webm`
+                },
+                loop: {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Liquid/Bubble/BubbleLoop002_002_Blue_3x3_600x600.webm`,
+                    bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Liquid/Bubble/BubbleLoop002_002_BluePurple_3x3_600x600.webm`,
+                    blueteal: `${prefix}/jb2a_patreon/Library/Generic/Liquid/Bubble/BubbleLoop002_002_BlueTeal_3x3_600x600.webm`,
+                    greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Liquid/Bubble/BubbleLoop002_002_GreenPurple_3x3_600x600.webm`,
+                    greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Liquid/Bubble/BubbleLoop002_002_GreenYellow_3x3_600x600.webm`,
+                    orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Liquid/Bubble/BubbleLoop002_002_OrangeYellow_3x3_600x600.webm`,
+                    pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Liquid/Bubble/BubbleLoop002_002_PinkYellow_3x3_600x600.webm`,
+                    purplered: `${prefix}/jb2a_patreon/Library/Generic/Liquid/Bubble/BubbleLoop002_002_PurpleRed_3x3_600x600.webm`,
+                    white: `${prefix}/jb2a_patreon/Library/Generic/Liquid/Bubble/BubbleLoop002_002_White_3x3_600x600.webm`
                 }
             }
         }
@@ -1631,7 +1692,42 @@ export async function jb2aPatreonDatabase(prefix) {
                     `${prefix}/jb2a_patreon/Library/Generic/Creature/BurrowOut01_600x600_StillFrame.webp`
                 ]
             },
-            
+        },
+        ranged: {
+            _metadata: {
+                name: "Burrow - Ranged",
+                new: true
+            },
+            _template: 'ranged',
+            "01": {
+                brown: {
+                    "05ft": [
+                        `${prefix}/jb2a_patreon/Library/Generic/Creature/BurrowRanged01_01_Regular_Brown_05ft_600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Creature/BurrowRanged01_02_Regular_Brown_05ft_600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Creature/BurrowRanged01_03_Regular_Brown_05ft_600x400.webm`
+                    ],
+                    "15ft": [
+                        `${prefix}/jb2a_patreon/Library/Generic/Creature/BurrowRanged01_01_Regular_Brown_15ft_1000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Creature/BurrowRanged01_02_Regular_Brown_15ft_1000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Creature/BurrowRanged01_03_Regular_Brown_15ft_1000x400.webm`
+                    ],
+                    "30ft": [
+                        `${prefix}/jb2a_patreon/Library/Generic/Creature/BurrowRanged01_01_Regular_Brown_30ft_1600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Creature/BurrowRanged01_02_Regular_Brown_30ft_1600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Creature/BurrowRanged01_03_Regular_Brown_30ft_1600x400.webm`
+                    ],
+                    "60ft": [
+                        `${prefix}/jb2a_patreon/Library/Generic/Creature/BurrowRanged01_01_Regular_Brown_60ft_2800x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Creature/BurrowRanged01_02_Regular_Brown_60ft_2800x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Creature/BurrowRanged01_03_Regular_Brown_60ft_2800x400.webm`
+                    ],
+                    "90ft": [
+                        `${prefix}/jb2a_patreon/Library/Generic/Creature/BurrowRanged01_01_Regular_Brown_90ft_4000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Creature/BurrowRanged01_02_Regular_Brown_90ft_4000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Creature/BurrowRanged01_03_Regular_Brown_90ft_4000x400.webm`
+                    ]
+                }
+            }
         }
     }
     patreonDatabase.butterflies = {
@@ -2651,12 +2747,6 @@ export async function jb2aPatreonDatabase(prefix) {
     patreonDatabase.dagger = {
         _metadata: {
             name: "Dagger",
-            new: [
-                'throw.01.orange*',
-                'throw.02.orange*',
-                'return.01.orange*',
-                'return.02.orange*'
-            ]
         },    
         melee: {
             _template: 'melee',
@@ -5147,7 +5237,8 @@ export async function jb2aPatreonDatabase(prefix) {
             dark_red: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballLoop_01_Dark_Red_800x800.webm`,
             blue: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballLoop_01_Blue_800x800.webm`,
             orange: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballLoop_01_Orange_800x800.webm`,
-            purple: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballLoop_01_Purple_800x800.webm`
+            purple: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballLoop_01_Purple_800x800.webm`,
+            yellow: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballLoop_01_Yellow_800x800.webm`
         },
         loop_no_debris: {
             dark_green: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballLoopNoDebris_01_Dark_Green_800x800.webm`,
@@ -5155,7 +5246,8 @@ export async function jb2aPatreonDatabase(prefix) {
             dark_red: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballLoopNoDebris_01_Dark_Red_800x800.webm`,
             blue: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballLoopNoDebris_01_Blue_800x800.webm`,
             orange: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballLoopNoDebris_01_Orange_800x800.webm`,
-            purple: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballLoopNoDebris_01_Purple_800x800.webm`
+            purple: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballLoopNoDebris_01_Purple_800x800.webm`,
+            yellow: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballLoopNoDebris_01_Yellow_800x800.webm`
         },
         explosion: {
             dark_green: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballExplosion_01_Dark_Green_800x800.webm`,
@@ -5163,7 +5255,8 @@ export async function jb2aPatreonDatabase(prefix) {
             dark_red: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballExplosion_01_Dark_Red_800x800.webm`,
             blue: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballExplosion_01_Blue_800x800.webm`,
             orange: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballExplosion_01_Orange_800x800.webm`,
-            purple: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballExplosion_01_Purple_800x800.webm`
+            purple: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballExplosion_01_Purple_800x800.webm`,
+            yellow: `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballExplosion_01_Yellow_800x800.webm`
         },
         beam: {
             _template: 'ranged',
@@ -5208,6 +5301,13 @@ export async function jb2aPatreonDatabase(prefix) {
                 '30ft': `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballBeam_01_Purple_30ft_1600x400.webm`,
                 '60ft': `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballBeam_01_Purple_60ft_2800x400.webm`,
                 '90ft': `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballBeam_01_Purple_90ft_4000x400.webm`
+            },
+            yellow: {
+                '05ft': `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballBeam_01_Yellow_05ft_600x400.webm`,
+                '15ft': `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballBeam_01_Yellow_15ft_1000x400.webm`,
+                '30ft': `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballBeam_01_Yellow_30ft_1600x400.webm`,
+                '60ft': `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballBeam_01_Yellow_60ft_2800x400.webm`,
+                '90ft': `${prefix}/jb2a_patreon/Library/3rd_Level/Fireball/FireballBeam_01_Yellow_90ft_4000x400.webm`
             }
         }
     
@@ -9904,13 +10004,18 @@ export async function jb2aPatreonDatabase(prefix) {
             }
     }
     patreonDatabase.melee_attack = {
-        _template: "melee",
+        //_template: "melee",
         
         '01': {
             _metadata: {
-                name: "Melee Attacks - Group 01"
+                name: "Melee Attacks - Group 01",
+                new: [
+                    "chakram.02*",
+                    "chakram.03*"
+                ]
             },
             butterflysword: {
+                _template: "melee",
                 '01': [
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_ButterflySword01_01_800x600.webm`,
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_ButterflySword01_02_800x600.webm`,
@@ -9919,14 +10024,28 @@ export async function jb2aPatreonDatabase(prefix) {
                 ]
             },
             chakram: {
+                _template: "melee",
                 '01': [
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_Chakram01_01_800x600.webm`,
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_Chakram01_02_800x600.webm`,
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_Chakram01_03_800x600.webm`,
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_Chakram01_04_800x600.webm`,
+                ],
+                '02': [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_Chakram02_01_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_Chakram02_02_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_Chakram02_03_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_Chakram02_04_800x600.webm`
+                ],
+                '03': [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_Chakram03_01_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_Chakram03_02_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_Chakram03_03_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_Chakram03_04_800x600.webm`
                 ]
             },
             magic_sword: {
+                _template: "melee",
                 dark_green: {
                     '02': [
                         `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_MagicSword02_01_Dark_Green_800x600.webm`,
@@ -9969,6 +10088,7 @@ export async function jb2aPatreonDatabase(prefix) {
                 }
             },
             shortsword:{
+                _template: "melee",
                 '01': [
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_ShortSword01_01_800x600.webm`,
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_ShortSword01_02_800x600.webm`,
@@ -9977,6 +10097,7 @@ export async function jb2aPatreonDatabase(prefix) {
                 ]
             },
             sickle:{
+                _template: "melee",
                 '01': [
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_Sickle01_01_800x600.webm`,
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_Sickle01_02_800x600.webm`,
@@ -9985,6 +10106,7 @@ export async function jb2aPatreonDatabase(prefix) {
                 ]
             },
             trail: {
+                _template: "melee",
                 '01': {
                     blueyellow: [
                         `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/TrailAttack01_01_01_Regular_BlueYellow_800x600.webm`,
@@ -10069,9 +10191,14 @@ export async function jb2aPatreonDatabase(prefix) {
         },
         '02': {
             _metadata: {
-                name: "Melee Attacks - Group 02"
+                name: "Melee Attacks - Group 02",
+                new: [
+                    "pan.01*",
+                    "warhammer.02*"
+                ]
             },
             battleaxe: {
+                _template: "melee",
                 '01': [
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_BattleAxe01_01_800x600.webm`,
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_BattleAxe01_02_800x600.webm`,
@@ -10080,6 +10207,7 @@ export async function jb2aPatreonDatabase(prefix) {
                 ]
             },
             bone: {
+                _template: "melee",
                 '01': [
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Bone01_01_800x600.webm`,
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Bone01_02_800x600.webm`,
@@ -10088,6 +10216,7 @@ export async function jb2aPatreonDatabase(prefix) {
                 ]
             },
             club: {
+                _template: "melee",
                 '01': [
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Club01_01_800x600.webm`,
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Club01_02_800x600.webm`,
@@ -10096,6 +10225,7 @@ export async function jb2aPatreonDatabase(prefix) {
                 ]
             },
             hammer: {
+                _template: "melee",
                 '01': [
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Hammer01_01_800x600.webm`,
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Hammer01_02_800x600.webm`,
@@ -10110,6 +10240,7 @@ export async function jb2aPatreonDatabase(prefix) {
                 ]
             },
             handaxe: {
+                _template: "melee",
                 '01': [
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_HandAxe01_01_800x600.webm`,
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_HandAxe01_02_800x600.webm`,
@@ -10118,6 +10249,7 @@ export async function jb2aPatreonDatabase(prefix) {
                 ]
             },
             mace: {
+                _template: "melee",
                 '01': [
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Mace01_01_800x600.webm`,
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Mace01_02_800x600.webm`,
@@ -10125,15 +10257,32 @@ export async function jb2aPatreonDatabase(prefix) {
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Mace01_04_800x600.webm`,
                 ]
             },
+            pan: {
+                _template: "melee",
+                '01': [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Pan01_01_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Pan01_02_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Pan01_03_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Pan01_04_800x600.webm`,
+                ]
+            },
             warhammer: {
+                _template: "melee",
                 '01': [
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Warhammer01_01_800x600.webm`,
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Warhammer01_02_800x600.webm`,
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Warhammer01_03_800x600.webm`,
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Warhammer01_04_800x600.webm`,
+                ],
+                '02': [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Warhammer02_01_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Warhammer02_02_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Warhammer02_03_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Warhammer02_04_800x600.webm`,
                 ]
             },
             wrench: {
+                _template: "melee",
                 '01': [
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Wrench01_01_800x600.webm`,
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Wrench01_02_800x600.webm`,
@@ -10142,6 +10291,7 @@ export async function jb2aPatreonDatabase(prefix) {
                 ]
             },
             trail: {
+                _template: "melee",
                 '01': {
                     blueyellow: [
                         `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group02/TrailAttack02_01_01_Regular_BlueYellow_800x600.webm`,
@@ -10229,6 +10379,7 @@ export async function jb2aPatreonDatabase(prefix) {
                 name: "Melee Attacks - Group 03"
             },
             greatbone: {
+                _template: "melee",
                 '01': [
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatBone01_01_800x600.webm`,
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatBone01_02_800x600.webm`,
@@ -10237,6 +10388,7 @@ export async function jb2aPatreonDatabase(prefix) {
                 ]
             },
             greataxe: {
+                _template: "melee",
                 '01': [
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe01_01_800x600.webm`,
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe01_02_800x600.webm`,
@@ -10245,6 +10397,7 @@ export async function jb2aPatreonDatabase(prefix) {
                 ]
             },
             greatclub: {
+                _template: "melee",
                 '01': [
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatClub01_01_800x600.webm`,
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatClub01_02_800x600.webm`,
@@ -10253,6 +10406,7 @@ export async function jb2aPatreonDatabase(prefix) {
                 ]
             },
             greatsword: {
+                _template: "melee",
                 '01': [
                 `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatSword01_01_800x600.webm`,
                 `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatSword01_02_800x600.webm`,
@@ -10261,6 +10415,7 @@ export async function jb2aPatreonDatabase(prefix) {
                 ]
             },
             khybersword: {
+                _template: "melee",
                 '01': [
                 `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_KhyberSword01_01_800x600.webm`,
                 `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_KhyberSword01_02_800x600.webm`,
@@ -10269,6 +10424,7 @@ export async function jb2aPatreonDatabase(prefix) {
                 ]
             },
             magical_greatsword: {
+                _template: "melee",
                 '01': {
                     'dark_green': [
                         `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_MagicalGreatSword01_01_Dark_Green_800x600.webm`,
@@ -10297,6 +10453,7 @@ export async function jb2aPatreonDatabase(prefix) {
                 }
             },
             maul: {
+                _template: "melee",
                 '01': [
                 `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_Maul01_01_800x600.webm`,
                 `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_Maul01_02_800x600.webm`,
@@ -10305,6 +10462,7 @@ export async function jb2aPatreonDatabase(prefix) {
                 ]
             },
             trail: {
+                _template: "melee",
                 '01': {
                     blueyellow: [
                         `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/TrailAttack03_01_01_Regular_BlueYellow_800x600.webm`,
@@ -10392,6 +10550,7 @@ export async function jb2aPatreonDatabase(prefix) {
                 name: "Melee Attacks - Group 04"
             },
             falchion: {
+                _template: "melee",
                 '01': [
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group04/MeleeAttack04_Falchion01_01_800x600.webm`,
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group04/MeleeAttack04_Falchion01_02_800x600.webm`,
@@ -10400,6 +10559,7 @@ export async function jb2aPatreonDatabase(prefix) {
                 ]
             },
             katana: {
+                _template: "melee",
                 '01': [
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group04/MeleeAttack04_Katana01_01_800x600.webm`,
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group04/MeleeAttack04_Katana01_02_800x600.webm`,
@@ -10408,6 +10568,7 @@ export async function jb2aPatreonDatabase(prefix) {
                 ]
             },
             scimitar: {
+                _template: "melee",
                 '01': [
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group04/MeleeAttack04_Scimitar01_01_800x600.webm`,
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group04/MeleeAttack04_Scimitar01_02_800x600.webm`,
@@ -10416,6 +10577,7 @@ export async function jb2aPatreonDatabase(prefix) {
                 ]
             },
             trail: {
+                _template: "melee",
                 '01': {
                     blueyellow: [
                         `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group04/TrailAttack04_01_01_Regular_BlueYellow_800x600.webm`,
@@ -10500,9 +10662,22 @@ export async function jb2aPatreonDatabase(prefix) {
         },
         '05': {
             _metadata: {
-                name: "Melee Attacks - Group 05"
+                name: "Melee Attacks - Group 05",
+                new: [
+                    "nodachi.01*"
+                ]
+            },
+            nodachi: {
+                _template: "melee_large",
+                '01': [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group05/MeleeAttack05_Nodachi01_01_1000x800.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group05/MeleeAttack05_Nodachi01_02_1000x800.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group05/MeleeAttack05_Nodachi01_03_1000x800.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group05/MeleeAttack05_Nodachi01_04_1000x800.webm`,
+                ]
             },
             scythe: {
+                _template: "melee",
                 '01': [
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group05/MeleeAttack05_Scythe01_01_800x600.webm`,
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group05/MeleeAttack05_Scythe01_02_800x600.webm`,
@@ -10511,6 +10686,7 @@ export async function jb2aPatreonDatabase(prefix) {
                 ]
             },
             trail: {
+                _template: "melee",
                 '01': {
                     blueyellow: [
                         `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group05/TrailAttack05_01_01_Regular_BlueYellow_800x600.webm`,
@@ -10598,6 +10774,7 @@ export async function jb2aPatreonDatabase(prefix) {
                 name: "Melee Attacks - Group 06"
             },
             shield: {
+                _template: "melee",
                 '01': [
                         `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group06/MeleeAttack06_Shield01_01_Regular_White_800x600.webm`,
                         `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group06/MeleeAttack06_Shield01_02_Regular_White_800x600.webm`
@@ -10986,18 +11163,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.on_token_buff = {
         _metadata: {
-            name: "On Token Buff",
-            new: [
-                '001.001.white*',
-                '001.002.white*',
-                '001.003.white*',
-                '002.001.white*',
-                '002.002.white*',
-                '002.003.white*',
-                '003.001.white*',
-                '003.002.white*',
-                '003.003.white*'
-            ]
+            name: "On Token Buff"
         },
         '001': {
             '001': {
@@ -16199,7 +16365,11 @@ export async function jb2aPatreonDatabase(prefix) {
             radar: {
                 _metadata: {
                     name: "Template-Circle-Radar",
-                    new: true
+                    new: [
+                        "001.1400px*",
+                        "002.1400px*",
+                        "1400px*"
+                    ]
                 },
                 loop: {
                     '001': {
@@ -16249,6 +16419,53 @@ export async function jb2aPatreonDatabase(prefix) {
                                 `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_001_002_White_15ft_800x800.webm`,
                                 `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_001_003_White_15ft_800x800.webm`,
                             ],
+                        },
+                        '1400px': {
+                            blue: [
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_001_001_Blue_30ft_1400x1400.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_001_002_Blue_30ft_1400x1400.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_001_003_Blue_30ft_1400x1400.webm`,
+                            ],
+                            bluepurple: [
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_001_001_BluePurple_30ft_1400x1400.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_001_002_BluePurple_30ft_1400x1400.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_001_003_BluePurple_30ft_1400x1400.webm`,
+                            ],
+                            blueteal: [
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_001_001_BlueTeal_30ft_1400x1400.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_001_002_BlueTeal_30ft_1400x1400.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_001_003_BlueTeal_30ft_1400x1400.webm`,
+                            ],
+                            greenpurple: [
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_001_001_GreenPurple_30ft_1400x1400.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_001_002_GreenPurple_30ft_1400x1400.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_001_003_GreenPurple_30ft_1400x1400.webm`,
+                            ],
+                            greenyellow: [
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_001_001_GreenYellow_30ft_1400x1400.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_001_002_GreenYellow_30ft_1400x1400.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_001_003_GreenYellow_30ft_1400x1400.webm`,
+                            ],
+                            orangeyellow: [
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_001_001_OrangeYellow_30ft_1400x1400.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_001_002_OrangeYellow_30ft_1400x1400.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_001_003_OrangeYellow_30ft_1400x1400.webm`,
+                            ],
+                            pinkyellow: [
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_001_001_PinkYellow_30ft_1400x1400.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_001_002_PinkYellow_30ft_1400x1400.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_001_003_PinkYellow_30ft_1400x1400.webm`,
+                            ],
+                            purplered: [
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_001_001_PurpleRed_30ft_1400x1400.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_001_002_PurpleRed_30ft_1400x1400.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_001_003_PurpleRed_30ft_1400x1400.webm`,
+                            ],
+                            white: [
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_001_001_White_30ft_1400x1400.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_001_002_White_30ft_1400x1400.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_001_003_White_30ft_1400x1400.webm`,
+                            ],
                         }
                     },
                     '002': {
@@ -16297,6 +16514,53 @@ export async function jb2aPatreonDatabase(prefix) {
                                 `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_002_001_White_15ft_800x800.webm`,
                                 `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_002_002_White_15ft_800x800.webm`,
                                 `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_002_003_White_15ft_800x800.webm`,
+                            ],
+                        },
+                        '1400px': {
+                            blue: [
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_002_001_Blue_30ft_1400x1400.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_002_002_Blue_30ft_1400x1400.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_002_003_Blue_30ft_1400x1400.webm`,
+                            ],
+                            bluepurple: [
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_002_001_BluePurple_30ft_1400x1400.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_002_002_BluePurple_30ft_1400x1400.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_002_003_BluePurple_30ft_1400x1400.webm`,
+                            ],
+                            blueteal: [
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_002_001_BlueTeal_30ft_1400x1400.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_002_002_BlueTeal_30ft_1400x1400.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_002_003_BlueTeal_30ft_1400x1400.webm`,
+                            ],
+                            greenpurple: [
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_002_001_GreenPurple_30ft_1400x1400.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_002_002_GreenPurple_30ft_1400x1400.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_002_003_GreenPurple_30ft_1400x1400.webm`,
+                            ],
+                            greenyellow: [
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_002_001_GreenYellow_30ft_1400x1400.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_002_002_GreenYellow_30ft_1400x1400.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_002_003_GreenYellow_30ft_1400x1400.webm`,
+                            ],
+                            orangeyellow: [
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_002_001_OrangeYellow_30ft_1400x1400.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_002_002_OrangeYellow_30ft_1400x1400.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_002_003_OrangeYellow_30ft_1400x1400.webm`,
+                            ],
+                            pinkyellow: [
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_002_001_PinkYellow_30ft_1400x1400.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_002_002_PinkYellow_30ft_1400x1400.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_002_003_PinkYellow_30ft_1400x1400.webm`,
+                            ],
+                            purplered: [
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_002_001_PurpleRed_30ft_1400x1400.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_002_002_PurpleRed_30ft_1400x1400.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_002_003_PurpleRed_30ft_1400x1400.webm`,
+                            ],
+                            white: [
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_002_001_White_30ft_1400x1400.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_002_002_White_30ft_1400x1400.webm`,
+                                `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_002_003_White_30ft_1400x1400.webm`,
                             ],
                         }
                     },
@@ -16369,6 +16633,78 @@ export async function jb2aPatreonDatabase(prefix) {
                                 pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_StillFrame_002_PinkYellow_15ft_800x800.webp`,
                                 purplered: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_StillFrame_002_PurpleRed_15ft_800x800.webp`,
                                 white: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_StillFrame_002_White_15ft_800x800.webp`
+                            },
+                        }
+                    },
+                    '1400px': {
+                        '001': {
+                            bg: {
+                                blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_BG_001_Blue_30ft_1400x1400.webm`,
+                                bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_BG_001_BluePurple_30ft_1400x1400.webm`,
+                                blueteal: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_BG_001_BlueTeal_30ft_1400x1400.webm`,
+                                greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_BG_001_GreenPurple_30ft_1400x1400.webm`,
+                                greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_BG_001_GreenYellow_30ft_1400x1400.webm`,
+                                orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_BG_001_OrangeYellow_30ft_1400x1400.webm`,
+                                pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_BG_001_PinkYellow_30ft_1400x1400.webm`,
+                                purplered: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_BG_001_PurpleRed_30ft_1400x1400.webm`,
+                                white: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_BG_001_White_30ft_1400x1400.webm`
+                            },
+                            pulse: {
+                                blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_Pulse_001_Blue_30ft_1400x1400.webm`,
+                                bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_Pulse_001_BluePurple_30ft_1400x1400.webm`,
+                                blueteal: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_Pulse_001_BlueTeal_30ft_1400x1400.webm`,
+                                greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_Pulse_001_GreenPurple_30ft_1400x1400.webm`,
+                                greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_Pulse_001_GreenYellow_30ft_1400x1400.webm`,
+                                orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_Pulse_001_OrangeYellow_30ft_1400x1400.webm`,
+                                pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_Pulse_001_PinkYellow_30ft_1400x1400.webm`,
+                                purplered: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_Pulse_001_PurpleRed_30ft_1400x1400.webm`,
+                                white: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_Pulse_001_White_30ft_1400x1400.webm`
+                            },
+                            stillframe: {
+                                blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_StillFrame_001_Blue_30ft_1400x1400.webp`,
+                                bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_StillFrame_001_BluePurple_30ft_1400x1400.webp`,
+                                blueteal: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_StillFrame_001_BlueTeal_30ft_1400x1400.webp`,
+                                greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_StillFrame_001_GreenPurple_30ft_1400x1400.webp`,
+                                greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_StillFrame_001_GreenYellow_30ft_1400x1400.webp`,
+                                orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_StillFrame_001_OrangeYellow_30ft_1400x1400.webp`,
+                                pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_StillFrame_001_PinkYellow_30ft_1400x1400.webp`,
+                                purplered: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_StillFrame_001_PurpleRed_30ft_1400x1400.webp`,
+                                white: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_StillFrame_001_White_30ft_1400x1400.webp`
+                            },
+                            sweep: {
+                                blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_Sweep_001_Blue_30ft_1400x1400.webm`,
+                                bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_Sweep_001_BluePurple_30ft_1400x1400.webm`,
+                                blueteal: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_Sweep_001_BlueTeal_30ft_1400x1400.webm`,
+                                greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_Sweep_001_GreenPurple_30ft_1400x1400.webm`,
+                                greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_Sweep_001_GreenYellow_30ft_1400x1400.webm`,
+                                orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_Sweep_001_OrangeYellow_30ft_1400x1400.webm`,
+                                pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_Sweep_001_PinkYellow_30ft_1400x1400.webm`,
+                                purplered: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_Sweep_001_PurpleRed_30ft_1400x1400.webm`,
+                                white: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_Sweep_001_White_30ft_1400x1400.webm`
+                            }
+                        },
+                        '002': {
+                            pulse: {
+                                blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_Pulse_002_Blue_30ft_1400x1400.webm`,
+                                bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_Pulse_002_BluePurple_30ft_1400x1400.webm`,
+                                blueteal: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_Pulse_002_BlueTeal_30ft_1400x1400.webm`,
+                                greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_Pulse_002_GreenPurple_30ft_1400x1400.webm`,
+                                greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_Pulse_002_GreenYellow_30ft_1400x1400.webm`,
+                                orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_Pulse_002_OrangeYellow_30ft_1400x1400.webm`,
+                                pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_Pulse_002_PinkYellow_30ft_1400x1400.webm`,
+                                purplered: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_Pulse_002_PurpleRed_30ft_1400x1400.webm`,
+                                white: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_Pulse_002_White_30ft_1400x1400.webm`
+                            },
+                            stillframe: {
+                                blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_StillFrame_002_Blue_30ft_1400x1400.webp`,
+                                bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_StillFrame_002_BluePurple_30ft_1400x1400.webp`,
+                                blueteal: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_StillFrame_002_BlueTeal_30ft_1400x1400.webp`,
+                                greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_StillFrame_002_GreenPurple_30ft_1400x1400.webp`,
+                                greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_StillFrame_002_GreenYellow_30ft_1400x1400.webp`,
+                                orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_StillFrame_002_OrangeYellow_30ft_1400x1400.webp`,
+                                pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_StillFrame_002_PinkYellow_30ft_1400x1400.webp`,
+                                purplered: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_StillFrame_002_PurpleRed_30ft_1400x1400.webp`,
+                                white: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Radar/RadarLoop_StillFrame_002_White_30ft_1400x1400.webp`
                             },
                         }
                     },
@@ -16765,8 +17101,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.token_border = {
             _metadata: {
-                name: "Token Border",
-                new: ['circle.static.dark_red*']
+                name: "Token Border"
             },
             circle: {
                 static: {
