@@ -1411,11 +1411,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.bubble = {
         _metadata: {
-            name: "Bubbles",
-            new: [
-                "002.001*",
-                "002.002*"
-            ]
+            name: "Bubbles"
         },
         "001": {
             "001": {
@@ -1695,8 +1691,7 @@ export async function jb2aPatreonDatabase(prefix) {
         },
         ranged: {
             _metadata: {
-                name: "Burrow - Ranged",
-                new: true
+                name: "Burrow - Ranged"
             },
             _template: 'ranged',
             "01": {
@@ -6685,7 +6680,11 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.icon = {
             _metadata: {
-                name: "Icons"
+                name: "Icons",
+                new: [
+                    "fear.dark_red*",
+                    "fear.red*"
+                ]
             },
             drop: {
                 dark_green: `${prefix}/jb2a_patreon/Library/Generic/UI/IconDrop_01_Dark_Green_200x200.webm`,
@@ -6694,7 +6693,9 @@ export async function jb2aPatreonDatabase(prefix) {
             fear: {
                 dark_orange: `${prefix}/jb2a_patreon/Library/Generic/UI/IconFear_01_Dark_Orange_200x200.webm`,
                 dark_purple: `${prefix}/jb2a_patreon/Library/Generic/UI/IconFear_01_Dark_Purple_200x200.webm`,
-                orange: `${prefix}/jb2a_patreon/Library/Generic/UI/IconFear_01_Regular_Orange_200x200.webm`
+                dark_red: `${prefix}/jb2a_patreon/Library/Generic/UI/IconFear_01_Dark_Red_200x200.webm`,
+                orange: `${prefix}/jb2a_patreon/Library/Generic/UI/IconFear_01_Regular_Orange_200x200.webm`,
+                red: `${prefix}/jb2a_patreon/Library/Generic/UI/IconFear_01_Regular_Red_200x200.webm`
             },
             heart: {
                 dark_red: `${prefix}/jb2a_patreon/Library/Generic/UI/IconHeart_01_Dark_Red_200x200.webm`,
@@ -9117,7 +9118,11 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.markers = {
             _metadata: {
-                name: "Markers"
+                name: "Markers",
+                new: [
+                    "fear.dark_red*",
+                    "fear.red*"
+                ]
             },
             '01': {
                 blueyellow: `${prefix}/jb2a_patreon/Library/Generic/Marker/Marker_01_Regular_BlueYellow_400x400.webm`,
@@ -9415,10 +9420,20 @@ export async function jb2aPatreonDatabase(prefix) {
                     '02': `${prefix}/jb2a_patreon/Library/Generic/Marker/MarkerFear_02_Dark_Purple_400x400.webm`,
                     '03': `${prefix}/jb2a_patreon/Library/Generic/Marker/MarkerFear_03_Dark_Purple_400x400.webm`
                 },
+                dark_red: {
+                    '01': `${prefix}/jb2a_patreon/Library/Generic/Marker/MarkerFear_01_Dark_Red_400x400.webm`,
+                    '02': `${prefix}/jb2a_patreon/Library/Generic/Marker/MarkerFear_02_Dark_Red_400x400.webm`,
+                    '03': `${prefix}/jb2a_patreon/Library/Generic/Marker/MarkerFear_03_Dark_Red_400x400.webm`
+                },
                 orange: {
                     '01': `${prefix}/jb2a_patreon/Library/Generic/Marker/MarkerFear_01_Regular_Orange_400x400.webm`,
                     '02': `${prefix}/jb2a_patreon/Library/Generic/Marker/MarkerFear_02_Regular_Orange_400x400.webm`,
                     '03': `${prefix}/jb2a_patreon/Library/Generic/Marker/MarkerFear_03_Regular_Orange_400x400.webm`
+                },
+                red: {
+                    '01': `${prefix}/jb2a_patreon/Library/Generic/Marker/MarkerFear_01_Regular_Red_400x400.webm`,
+                    '02': `${prefix}/jb2a_patreon/Library/Generic/Marker/MarkerFear_02_Regular_Red_400x400.webm`,
+                    '03': `${prefix}/jb2a_patreon/Library/Generic/Marker/MarkerFear_03_Regular_Red_400x400.webm`
                 }
             },
             heart: {
@@ -10008,11 +10023,7 @@ export async function jb2aPatreonDatabase(prefix) {
         
         '01': {
             _metadata: {
-                name: "Melee Attacks - Group 01",
-                new: [
-                    "chakram.02*",
-                    "chakram.03*"
-                ]
+                name: "Melee Attacks - Group 01"
             },
             butterflysword: {
                 _template: "melee",
@@ -10191,11 +10202,7 @@ export async function jb2aPatreonDatabase(prefix) {
         },
         '02': {
             _metadata: {
-                name: "Melee Attacks - Group 02",
-                new: [
-                    "pan.01*",
-                    "warhammer.02*"
-                ]
+                name: "Melee Attacks - Group 02"
             },
             battleaxe: {
                 _template: "melee",
@@ -10662,10 +10669,7 @@ export async function jb2aPatreonDatabase(prefix) {
         },
         '05': {
             _metadata: {
-                name: "Melee Attacks - Group 05",
-                new: [
-                    "nodachi.01*"
-                ]
+                name: "Melee Attacks - Group 05"
             },
             nodachi: {
                 _template: "melee_large",
@@ -11402,6 +11406,38 @@ export async function jb2aPatreonDatabase(prefix) {
     patreonDatabase.particles = {
             _metadata: {
                 name: "Particles",
+                new: ["002.001.complete"]
+            },
+            "002": {
+                "001": {
+                    complete: {
+                        _markers: {
+                            loop: { start: 2000, end: 3967 }
+                        },
+                        few: {
+                            blue: `${prefix}/jb2a_patreon/Library/Generic/Particles/Particles002/ParticlesComplete002_001_Few_Blue_600x600.webm`,
+                            bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Particles/Particles002/ParticlesComplete002_001_Few_BluePurple_600x600.webm`,
+                            blueteal: `${prefix}/jb2a_patreon/Library/Generic/Particles/Particles002/ParticlesComplete002_001_Few_BlueTeal_600x600.webm`,
+                            greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Particles/Particles002/ParticlesComplete002_001_Few_GreenPurple_600x600.webm`,
+                            greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Particles/Particles002/ParticlesComplete002_001_Few_GreenYellow_600x600.webm`,
+                            orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Particles/Particles002/ParticlesComplete002_001_Few_OrangeYellow_600x600.webm`,
+                            pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Particles/Particles002/ParticlesComplete002_001_Few_PinkYellow_600x600.webm`,
+                            purplered: `${prefix}/jb2a_patreon/Library/Generic/Particles/Particles002/ParticlesComplete002_001_Few_PurpleRed_600x600.webm`,
+                            white: `${prefix}/jb2a_patreon/Library/Generic/Particles/Particles002/ParticlesComplete002_001_Few_White_600x600.webm`
+                        },
+                        many: {
+                            blue: `${prefix}/jb2a_patreon/Library/Generic/Particles/Particles002/ParticlesComplete002_001_Many_Blue_600x600.webm`,
+                            bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Particles/Particles002/ParticlesComplete002_001_Many_BluePurple_600x600.webm`,
+                            blueteal: `${prefix}/jb2a_patreon/Library/Generic/Particles/Particles002/ParticlesComplete002_001_Many_BlueTeal_600x600.webm`,
+                            greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Particles/Particles002/ParticlesComplete002_001_Many_GreenPurple_600x600.webm`,
+                            greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Particles/Particles002/ParticlesComplete002_001_Many_GreenYellow_600x600.webm`,
+                            orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Particles/Particles002/ParticlesComplete002_001_Many_OrangeYellow_600x600.webm`,
+                            pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Particles/Particles002/ParticlesComplete002_001_Many_PinkYellow_600x600.webm`,
+                            purplered: `${prefix}/jb2a_patreon/Library/Generic/Particles/Particles002/ParticlesComplete002_001_Many_PurpleRed_600x600.webm`,
+                            white: `${prefix}/jb2a_patreon/Library/Generic/Particles/Particles002/ParticlesComplete002_001_Many_White_600x600.webm`
+                        }
+                    }
+                }
             },
             outward: {
                 blue: {
@@ -16110,7 +16146,10 @@ export async function jb2aPatreonDatabase(prefix) {
 
             aura: {
                 _metadata: {
-                    name: "Template-Circle-Aura"
+                    name: "Template-Circle-Aura",
+                    new: [
+                        "03.outward*"
+                    ]
                 },
                 "01": {
                     complete: {
@@ -16175,6 +16214,385 @@ export async function jb2aPatreonDatabase(prefix) {
                             green: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraLoop02_01_Regular_Green_900x900.webm`,
                             pinkpurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraLoop02_01_Regular_PinkPurple_900x900.webm`,
                             yellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/AuraLoop02_01_Regular_Yellow_900x900.webm`
+                        }
+                    }
+                },
+                "03": {
+                    outward: {
+                        "001": {
+                            complete: {
+                                _markers: {
+                                    loop: { start: 3000, end: 5967 }
+                                },
+                                combined: {
+                                    blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Complete_001_Blue_1400x1400.webm`,
+                                    bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Complete_001_BluePurple_1400x1400.webm`,
+                                    blueteal: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Complete_001_BlueTeal_1400x1400.webm`,
+                                    greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Complete_001_GreenPurple_1400x1400.webm`,
+                                    greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Complete_001_GreenYellow_1400x1400.webm`,
+                                    orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Complete_001_OrangeYellow_1400x1400.webm`,
+                                    pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Complete_001_PinkYellow_1400x1400.webm`,
+                                    purplered: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Complete_001_PurpleRed_1400x1400.webm`,
+                                    white: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Complete_001_White_1400x1400.webm`
+                                },
+                                part01: {
+                                    blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Complete_001_Blue_1400x1400.webm`,
+                                    bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Complete_001_BluePurple_1400x1400.webm`,
+                                    blueteal: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Complete_001_BlueTeal_1400x1400.webm`,
+                                    greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Complete_001_GreenPurple_1400x1400.webm`,
+                                    greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Complete_001_GreenYellow_1400x1400.webm`,
+                                    orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Complete_001_OrangeYellow_1400x1400.webm`,
+                                    pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Complete_001_PinkYellow_1400x1400.webm`,
+                                    purplered: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Complete_001_PurpleRed_1400x1400.webm`,
+                                    white: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Complete_001_White_1400x1400.webm`
+                                },
+                                part02: {
+                                    blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Complete_001_Blue_1000x1000.webm`,
+                                    bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Complete_001_BluePurple_1000x1000.webm`,
+                                    blueteal: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Complete_001_BlueTeal_1000x1000.webm`,
+                                    greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Complete_001_GreenPurple_1000x1000.webm`,
+                                    greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Complete_001_GreenYellow_1000x1000.webm`,
+                                    orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Complete_001_OrangeYellow_1000x1000.webm`,
+                                    pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Complete_001_PinkYellow_1000x1000.webm`,
+                                    purplered: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Complete_001_PurpleRed_1000x1000.webm`,
+                                    white: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Complete_001_White_1000x1000.webm`
+                                }
+                            },
+                            loop: {
+                                combined: {
+                                    blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Loop_001_Blue_1400x1400.webm`,
+                                    bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Loop_001_BluePurple_1400x1400.webm`,
+                                    blueteal: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Loop_001_BlueTeal_1400x1400.webm`,
+                                    greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Loop_001_GreenPurple_1400x1400.webm`,
+                                    greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Loop_001_GreenYellow_1400x1400.webm`,
+                                    orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Loop_001_OrangeYellow_1400x1400.webm`,
+                                    pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Loop_001_PinkYellow_1400x1400.webm`,
+                                    purplered: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Loop_001_PurpleRed_1400x1400.webm`,
+                                    white: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Loop_001_White_1400x1400.webm`
+                                },
+                                part01: {
+                                    blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Loop_001_Blue_1400x1400.webm`,
+                                    bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Loop_001_BluePurple_1400x1400.webm`,
+                                    blueteal: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Loop_001_BlueTeal_1400x1400.webm`,
+                                    greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Loop_001_GreenPurple_1400x1400.webm`,
+                                    greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Loop_001_GreenYellow_1400x1400.webm`,
+                                    orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Loop_001_OrangeYellow_1400x1400.webm`,
+                                    pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Loop_001_PinkYellow_1400x1400.webm`,
+                                    purplered: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Loop_001_PurpleRed_1400x1400.webm`,
+                                    white: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Loop_001_White_1400x1400.webm`
+                                },
+                                part02: {
+                                    blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Loop_001_Blue_1000x1000.webm`,
+                                    bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Loop_001_BluePurple_1000x1000.webm`,
+                                    blueteal: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Loop_001_BlueTeal_1000x1000.webm`,
+                                    greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Loop_001_GreenPurple_1000x1000.webm`,
+                                    greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Loop_001_GreenYellow_1000x1000.webm`,
+                                    orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Loop_001_OrangeYellow_1000x1000.webm`,
+                                    pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Loop_001_PinkYellow_1000x1000.webm`,
+                                    purplered: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Loop_001_PurpleRed_1000x1000.webm`,
+                                    white: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Loop_001_White_1000x1000.webm`
+                                }
+                            }
+                        },
+                        "002": {
+                            complete: {
+                                _markers: {
+                                    loop: { start: 3000, end: 5967 }
+                                },
+                                combined: {
+                                    blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Complete_002_Blue_1400x1400.webm`,
+                                    bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Complete_002_BluePurple_1400x1400.webm`,
+                                    blueteal: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Complete_002_BlueTeal_1400x1400.webm`,
+                                    greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Complete_002_GreenPurple_1400x1400.webm`,
+                                    greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Complete_002_GreenYellow_1400x1400.webm`,
+                                    orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Complete_002_OrangeYellow_1400x1400.webm`,
+                                    pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Complete_002_PinkYellow_1400x1400.webm`,
+                                    purplered: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Complete_002_PurpleRed_1400x1400.webm`,
+                                    white: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Complete_002_White_1400x1400.webm`
+                                },
+                                part01: {
+                                    blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Complete_002_Blue_1400x1400.webm`,
+                                    bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Complete_002_BluePurple_1400x1400.webm`,
+                                    blueteal: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Complete_002_BlueTeal_1400x1400.webm`,
+                                    greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Complete_002_GreenPurple_1400x1400.webm`,
+                                    greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Complete_002_GreenYellow_1400x1400.webm`,
+                                    orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Complete_002_OrangeYellow_1400x1400.webm`,
+                                    pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Complete_002_PinkYellow_1400x1400.webm`,
+                                    purplered: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Complete_002_PurpleRed_1400x1400.webm`,
+                                    white: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Complete_002_White_1400x1400.webm`
+                                },
+                                part02: {
+                                    blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Complete_002_Blue_1000x1000.webm`,
+                                    bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Complete_002_BluePurple_1000x1000.webm`,
+                                    blueteal: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Complete_002_BlueTeal_1000x1000.webm`,
+                                    greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Complete_002_GreenPurple_1000x1000.webm`,
+                                    greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Complete_002_GreenYellow_1000x1000.webm`,
+                                    orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Complete_002_OrangeYellow_1000x1000.webm`,
+                                    pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Complete_002_PinkYellow_1000x1000.webm`,
+                                    purplered: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Complete_002_PurpleRed_1000x1000.webm`,
+                                    white: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Complete_002_White_1000x1000.webm`
+                                }
+                            },
+                            loop: {
+                                combined: {
+                                    blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Loop_002_Blue_1400x1400.webm`,
+                                    bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Loop_002_BluePurple_1400x1400.webm`,
+                                    blueteal: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Loop_002_BlueTeal_1400x1400.webm`,
+                                    greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Loop_002_GreenPurple_1400x1400.webm`,
+                                    greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Loop_002_GreenYellow_1400x1400.webm`,
+                                    orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Loop_002_OrangeYellow_1400x1400.webm`,
+                                    pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Loop_002_PinkYellow_1400x1400.webm`,
+                                    purplered: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Loop_002_PurpleRed_1400x1400.webm`,
+                                    white: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Loop_002_White_1400x1400.webm`
+                                },
+                                part01: {
+                                    blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Loop_002_Blue_1400x1400.webm`,
+                                    bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Loop_002_BluePurple_1400x1400.webm`,
+                                    blueteal: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Loop_002_BlueTeal_1400x1400.webm`,
+                                    greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Loop_002_GreenPurple_1400x1400.webm`,
+                                    greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Loop_002_GreenYellow_1400x1400.webm`,
+                                    orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Loop_002_OrangeYellow_1400x1400.webm`,
+                                    pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Loop_002_PinkYellow_1400x1400.webm`,
+                                    purplered: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Loop_002_PurpleRed_1400x1400.webm`,
+                                    white: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Loop_002_White_1400x1400.webm`
+                                },
+                                part02: {
+                                    blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Loop_002_Blue_1000x1000.webm`,
+                                    bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Loop_002_BluePurple_1000x1000.webm`,
+                                    blueteal: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Loop_002_BlueTeal_1000x1000.webm`,
+                                    greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Loop_002_GreenPurple_1000x1000.webm`,
+                                    greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Loop_002_GreenYellow_1000x1000.webm`,
+                                    orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Loop_002_OrangeYellow_1000x1000.webm`,
+                                    pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Loop_002_PinkYellow_1000x1000.webm`,
+                                    purplered: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Loop_002_PurpleRed_1000x1000.webm`,
+                                    white: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Loop_002_White_1000x1000.webm`
+                                }
+                            }
+                        },
+                        "003": {
+                            complete: {
+                                _markers: {
+                                    loop: { start: 3000, end: 5967 }
+                                },
+                                combined: {
+                                    blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Complete_003_Blue_1400x1400.webm`,
+                                    bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Complete_003_BluePurple_1400x1400.webm`,
+                                    blueteal: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Complete_003_BlueTeal_1400x1400.webm`,
+                                    greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Complete_003_GreenPurple_1400x1400.webm`,
+                                    greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Complete_003_GreenYellow_1400x1400.webm`,
+                                    orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Complete_003_OrangeYellow_1400x1400.webm`,
+                                    pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Complete_003_PinkYellow_1400x1400.webm`,
+                                    purplered: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Complete_003_PurpleRed_1400x1400.webm`,
+                                    white: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Complete_003_White_1400x1400.webm`
+                                },
+                                part01: {
+                                    blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Complete_003_Blue_1400x1400.webm`,
+                                    bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Complete_003_BluePurple_1400x1400.webm`,
+                                    blueteal: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Complete_003_BlueTeal_1400x1400.webm`,
+                                    greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Complete_003_GreenPurple_1400x1400.webm`,
+                                    greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Complete_003_GreenYellow_1400x1400.webm`,
+                                    orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Complete_003_OrangeYellow_1400x1400.webm`,
+                                    pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Complete_003_PinkYellow_1400x1400.webm`,
+                                    purplered: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Complete_003_PurpleRed_1400x1400.webm`,
+                                    white: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Complete_003_White_1400x1400.webm`
+                                },
+                                part02: {
+                                    blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Complete_003_Blue_1000x1000.webm`,
+                                    bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Complete_003_BluePurple_1000x1000.webm`,
+                                    blueteal: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Complete_003_BlueTeal_1000x1000.webm`,
+                                    greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Complete_003_GreenPurple_1000x1000.webm`,
+                                    greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Complete_003_GreenYellow_1000x1000.webm`,
+                                    orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Complete_003_OrangeYellow_1000x1000.webm`,
+                                    pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Complete_003_PinkYellow_1000x1000.webm`,
+                                    purplered: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Complete_003_PurpleRed_1000x1000.webm`,
+                                    white: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Complete_003_White_1000x1000.webm`
+                                }
+                            },
+                            loop: {
+                                combined: {
+                                    blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Loop_003_Blue_1400x1400.webm`,
+                                    bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Loop_003_BluePurple_1400x1400.webm`,
+                                    blueteal: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Loop_003_BlueTeal_1400x1400.webm`,
+                                    greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Loop_003_GreenPurple_1400x1400.webm`,
+                                    greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Loop_003_GreenYellow_1400x1400.webm`,
+                                    orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Loop_003_OrangeYellow_1400x1400.webm`,
+                                    pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Loop_003_PinkYellow_1400x1400.webm`,
+                                    purplered: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Loop_003_PurpleRed_1400x1400.webm`,
+                                    white: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Loop_003_White_1400x1400.webm`
+                                },
+                                part01: {
+                                    blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Loop_003_Blue_1400x1400.webm`,
+                                    bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Loop_003_BluePurple_1400x1400.webm`,
+                                    blueteal: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Loop_003_BlueTeal_1400x1400.webm`,
+                                    greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Loop_003_GreenPurple_1400x1400.webm`,
+                                    greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Loop_003_GreenYellow_1400x1400.webm`,
+                                    orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Loop_003_OrangeYellow_1400x1400.webm`,
+                                    pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Loop_003_PinkYellow_1400x1400.webm`,
+                                    purplered: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Loop_003_PurpleRed_1400x1400.webm`,
+                                    white: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Loop_003_White_1400x1400.webm`
+                                },
+                                part02: {
+                                    blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Loop_003_Blue_1000x1000.webm`,
+                                    bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Loop_003_BluePurple_1000x1000.webm`,
+                                    blueteal: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Loop_003_BlueTeal_1000x1000.webm`,
+                                    greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Loop_003_GreenPurple_1000x1000.webm`,
+                                    greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Loop_003_GreenYellow_1000x1000.webm`,
+                                    orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Loop_003_OrangeYellow_1000x1000.webm`,
+                                    pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Loop_003_PinkYellow_1000x1000.webm`,
+                                    purplered: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Loop_003_PurpleRed_1000x1000.webm`,
+                                    white: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Loop_003_White_1000x1000.webm`
+                                }
+                            }                            
+                        },
+                        "004": {
+                            complete: {
+                                _markers: {
+                                    loop: { start: 3000, end: 5967 }
+                                },
+                                combined: {
+                                    blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Complete_004_Blue_1400x1400.webm`,
+                                    bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Complete_004_BluePurple_1400x1400.webm`,
+                                    blueteal: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Complete_004_BlueTeal_1400x1400.webm`,
+                                    greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Complete_004_GreenPurple_1400x1400.webm`,
+                                    greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Complete_004_GreenYellow_1400x1400.webm`,
+                                    orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Complete_004_OrangeYellow_1400x1400.webm`,
+                                    pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Complete_004_PinkYellow_1400x1400.webm`,
+                                    purplered: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Complete_004_PurpleRed_1400x1400.webm`,
+                                    white: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Complete_004_White_1400x1400.webm`
+                                },
+                                part01: {
+                                    blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Complete_004_Blue_1400x1400.webm`,
+                                    bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Complete_004_BluePurple_1400x1400.webm`,
+                                    blueteal: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Complete_004_BlueTeal_1400x1400.webm`,
+                                    greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Complete_004_GreenPurple_1400x1400.webm`,
+                                    greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Complete_004_GreenYellow_1400x1400.webm`,
+                                    orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Complete_004_OrangeYellow_1400x1400.webm`,
+                                    pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Complete_004_PinkYellow_1400x1400.webm`,
+                                    purplered: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Complete_004_PurpleRed_1400x1400.webm`,
+                                    white: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Complete_004_White_1400x1400.webm`
+                                },
+                                part02: {
+                                    blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Complete_004_Blue_1000x1000.webm`,
+                                    bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Complete_004_BluePurple_1000x1000.webm`,
+                                    blueteal: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Complete_004_BlueTeal_1000x1000.webm`,
+                                    greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Complete_004_GreenPurple_1000x1000.webm`,
+                                    greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Complete_004_GreenYellow_1000x1000.webm`,
+                                    orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Complete_004_OrangeYellow_1000x1000.webm`,
+                                    pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Complete_004_PinkYellow_1000x1000.webm`,
+                                    purplered: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Complete_004_PurpleRed_1000x1000.webm`,
+                                    white: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Complete_004_White_1000x1000.webm`
+                                }
+                            },
+                            loop: {
+                                combined: {
+                                    blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Loop_004_Blue_1400x1400.webm`,
+                                    bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Loop_004_BluePurple_1400x1400.webm`,
+                                    blueteal: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Loop_004_BlueTeal_1400x1400.webm`,
+                                    greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Loop_004_GreenPurple_1400x1400.webm`,
+                                    greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Loop_004_GreenYellow_1400x1400.webm`,
+                                    orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Loop_004_OrangeYellow_1400x1400.webm`,
+                                    pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Loop_004_PinkYellow_1400x1400.webm`,
+                                    purplered: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Loop_004_PurpleRed_1400x1400.webm`,
+                                    white: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Loop_004_White_1400x1400.webm`
+                                },
+                                part01: {
+                                    blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Loop_004_Blue_1400x1400.webm`,
+                                    bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Loop_004_BluePurple_1400x1400.webm`,
+                                    blueteal: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Loop_004_BlueTeal_1400x1400.webm`,
+                                    greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Loop_004_GreenPurple_1400x1400.webm`,
+                                    greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Loop_004_GreenYellow_1400x1400.webm`,
+                                    orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Loop_004_OrangeYellow_1400x1400.webm`,
+                                    pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Loop_004_PinkYellow_1400x1400.webm`,
+                                    purplered: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Loop_004_PurpleRed_1400x1400.webm`,
+                                    white: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Loop_004_White_1400x1400.webm`
+                                },
+                                part02: {
+                                    blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Loop_004_Blue_1000x1000.webm`,
+                                    bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Loop_004_BluePurple_1000x1000.webm`,
+                                    blueteal: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Loop_004_BlueTeal_1000x1000.webm`,
+                                    greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Loop_004_GreenPurple_1000x1000.webm`,
+                                    greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Loop_004_GreenYellow_1000x1000.webm`,
+                                    orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Loop_004_OrangeYellow_1000x1000.webm`,
+                                    pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Loop_004_PinkYellow_1000x1000.webm`,
+                                    purplered: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Loop_004_PurpleRed_1000x1000.webm`,
+                                    white: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Loop_004_White_1000x1000.webm`
+                                }
+                            }
+                        },
+                        "005": {
+                            complete: {
+                                _markers: {
+                                    loop: { start: 3000, end: 5967 }
+                                },
+                                combined: {
+                                    blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Complete_005_Blue_1400x1400.webm`,
+                                    bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Complete_005_BluePurple_1400x1400.webm`,
+                                    blueteal: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Complete_005_BlueTeal_1400x1400.webm`,
+                                    greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Complete_005_GreenPurple_1400x1400.webm`,
+                                    greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Complete_005_GreenYellow_1400x1400.webm`,
+                                    orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Complete_005_OrangeYellow_1400x1400.webm`,
+                                    pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Complete_005_PinkYellow_1400x1400.webm`,
+                                    purplered: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Complete_005_PurpleRed_1400x1400.webm`,
+                                    white: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Complete_005_White_1400x1400.webm`
+                                },
+                                part01: {
+                                    blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Complete_005_Blue_1400x1400.webm`,
+                                    bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Complete_005_BluePurple_1400x1400.webm`,
+                                    blueteal: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Complete_005_BlueTeal_1400x1400.webm`,
+                                    greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Complete_005_GreenPurple_1400x1400.webm`,
+                                    greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Complete_005_GreenYellow_1400x1400.webm`,
+                                    orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Complete_005_OrangeYellow_1400x1400.webm`,
+                                    pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Complete_005_PinkYellow_1400x1400.webm`,
+                                    purplered: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Complete_005_PurpleRed_1400x1400.webm`,
+                                    white: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Complete_005_White_1400x1400.webm`
+                                },
+                                part02: {
+                                    blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Complete_005_Blue_1000x1000.webm`,
+                                    bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Complete_005_BluePurple_1000x1000.webm`,
+                                    blueteal: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Complete_005_BlueTeal_1000x1000.webm`,
+                                    greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Complete_005_GreenPurple_1000x1000.webm`,
+                                    greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Complete_005_GreenYellow_1000x1000.webm`,
+                                    orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Complete_005_OrangeYellow_1000x1000.webm`,
+                                    pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Complete_005_PinkYellow_1000x1000.webm`,
+                                    purplered: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Complete_005_PurpleRed_1000x1000.webm`,
+                                    white: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Complete_005_White_1000x1000.webm`
+                                }
+                            },
+                            loop: {
+                                combined: {
+                                    blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Loop_005_Blue_1400x1400.webm`,
+                                    bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Loop_005_BluePurple_1400x1400.webm`,
+                                    blueteal: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Loop_005_BlueTeal_1400x1400.webm`,
+                                    greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Loop_005_GreenPurple_1400x1400.webm`,
+                                    greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Loop_005_GreenYellow_1400x1400.webm`,
+                                    orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Loop_005_OrangeYellow_1400x1400.webm`,
+                                    pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Loop_005_PinkYellow_1400x1400.webm`,
+                                    purplered: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Loop_005_PurpleRed_1400x1400.webm`,
+                                    white: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003_Outward_Loop_005_White_1400x1400.webm`
+                                },
+                                part01: {
+                                    blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Loop_005_Blue_1400x1400.webm`,
+                                    bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Loop_005_BluePurple_1400x1400.webm`,
+                                    blueteal: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Loop_005_BlueTeal_1400x1400.webm`,
+                                    greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Loop_005_GreenPurple_1400x1400.webm`,
+                                    greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Loop_005_GreenYellow_1400x1400.webm`,
+                                    orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Loop_005_OrangeYellow_1400x1400.webm`,
+                                    pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Loop_005_PinkYellow_1400x1400.webm`,
+                                    purplered: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Loop_005_PurpleRed_1400x1400.webm`,
+                                    white: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part01_Outward_Loop_005_White_1400x1400.webm`
+                                },
+                                part02: {
+                                    blue: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Loop_005_Blue_1000x1000.webm`,
+                                    bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Loop_005_BluePurple_1000x1000.webm`,
+                                    blueteal: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Loop_005_BlueTeal_1000x1000.webm`,
+                                    greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Loop_005_GreenPurple_1000x1000.webm`,
+                                    greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Loop_005_GreenYellow_1000x1000.webm`,
+                                    orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Loop_005_OrangeYellow_1000x1000.webm`,
+                                    pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Loop_005_PinkYellow_1000x1000.webm`,
+                                    purplered: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Loop_005_PurpleRed_1000x1000.webm`,
+                                    white: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura003/Aura003Part02_Outward_Loop_005_White_1000x1000.webm`
+                                }
+                            }
                         }
                     }
                 }
@@ -16364,12 +16782,7 @@ export async function jb2aPatreonDatabase(prefix) {
             },
             radar: {
                 _metadata: {
-                    name: "Template-Circle-Radar",
-                    new: [
-                        "001.1400px*",
-                        "002.1400px*",
-                        "1400px*"
-                    ]
+                    name: "Template-Circle-Radar"
                 },
                 loop: {
                     '001': {
@@ -16786,7 +17199,12 @@ export async function jb2aPatreonDatabase(prefix) {
             },
             vortex: {
                 _metadata: {
-                    name: "Template-Circle-Vortex"
+                    name: "Template-Circle-Vortex",
+                    new: [
+                        "loop.red02*",
+                        "intro.red02*",
+                        "outro.red02*"
+                    ]
                 },
                 loop: {
                     dark_black: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Vortex_01_Dark_Black_600x600.webm`,
@@ -16795,6 +17213,7 @@ export async function jb2aPatreonDatabase(prefix) {
                     orange: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Vortex_01_Regular_Orange_600x600.webm`,
                     purple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Vortex_01_Regular_Purple_600x600.webm`,
                     red: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Vortex_01_Regular_Red_600x600.webm`,
+                    red02: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Vortex_01_Regular_Red02_600x600.webm`,
                     yellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Vortex_01_Regular_Yellow_600x600.webm`
                 },
                 intro: {
@@ -16804,6 +17223,7 @@ export async function jb2aPatreonDatabase(prefix) {
                     orange: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/VortexIntro_01_Regular_Orange_600x600.webm`,
                     purple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/VortexIntro_01_Regular_Purple_600x600.webm`,
                     red: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/VortexIntro_01_Regular_Red_600x600.webm`,
+                    red02: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/VortexIntro_01_Regular_Red02_600x600.webm`,
                     yellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/VortexIntro_01_Regular_Yellow_600x600.webm`
                 },
                 outro: {
@@ -16813,12 +17233,18 @@ export async function jb2aPatreonDatabase(prefix) {
                     orange: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/VortexOutro_01_Regular_Orange_600x600.webm`,
                     purple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/VortexOutro_01_Regular_Purple_600x600.webm`,
                     red: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/VortexOutro_01_Regular_Red_600x600.webm`,
+                    red02: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/VortexOutro_01_Regular_Red02_600x600.webm`,
                     yellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/VortexOutro_01_Regular_Yellow_600x600.webm`,
                 }
             },
             whirl: {
                 _metadata: {
-                    name: "Template-Circle-Whirl"
+                    name: "Template-Circle-Whirl",
+                    new: [
+                        "loop.red02*",
+                        "intro.red02*",
+                        "outro.red02*"
+                    ]
                 },
                 loop: {
                     dark_black: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Whirl_01_Dark_Black_600x600.webm`,
@@ -16827,6 +17253,7 @@ export async function jb2aPatreonDatabase(prefix) {
                     orange: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Whirl_01_Regular_Orange_600x600.webm`,
                     purple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Whirl_01_Regular_Purple_600x600.webm`,
                     red: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Whirl_01_Regular_Red_600x600.webm`,
+                    red02: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Whirl_01_Regular_Red02_600x600.webm`,
                     yellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Whirl_01_Regular_Yellow_600x600.webm`
                 },
                 intro: {
@@ -16836,6 +17263,7 @@ export async function jb2aPatreonDatabase(prefix) {
                     orange: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/WhirlIntro_01_Regular_Orange_600x600.webm`,
                     purple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/WhirlIntro_01_Regular_Purple_600x600.webm`,
                     red: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/WhirlIntro_01_Regular_Red_600x600.webm`,
+                    red02: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/WhirlIntro_01_Regular_Red02_600x600.webm`,
                     yellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/WhirlIntro_01_Regular_Yellow_600x600.webm`
 
                 },
@@ -16846,6 +17274,7 @@ export async function jb2aPatreonDatabase(prefix) {
                     orange: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/WhirlOutro_01_Regular_Orange_600x600.webm`,
                     purple: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/WhirlOutro_01_Regular_Purple_600x600.webm`,
                     red: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/WhirlOutro_01_Regular_Red_600x600.webm`,
+                    red02: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/WhirlOutro_01_Regular_Red02_600x600.webm`,
                     yellow: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/WhirlOutro_01_Regular_Yellow_600x600.webm`
                 }
             },
