@@ -4106,6 +4106,90 @@
 			}
 		}
 	},
+	"ranged_missile": {
+		"001": {
+			"_template": "ranged",
+			"blue": {
+				"05ft": [
+					"modules/JB2A_DnD5e/Library/Generic/RangedSpell/Missile/001/RangedMissile001_01_Blue_05ft_600x400.webm",
+					"modules/JB2A_DnD5e/Library/Generic/RangedSpell/Missile/001/RangedMissile001_02_Blue_05ft_600x400.webm",
+					"modules/JB2A_DnD5e/Library/Generic/RangedSpell/Missile/001/RangedMissile001_03_Blue_05ft_600x400.webm",
+					"modules/JB2A_DnD5e/Library/Generic/RangedSpell/Missile/001/RangedMissile001_04_Blue_05ft_600x400.webm"
+				],
+				"15ft": [
+					"modules/JB2A_DnD5e/Library/Generic/RangedSpell/Missile/001/RangedMissile001_01_Blue_15ft_1000x400.webm",
+					"modules/JB2A_DnD5e/Library/Generic/RangedSpell/Missile/001/RangedMissile001_02_Blue_15ft_1000x400.webm",
+					"modules/JB2A_DnD5e/Library/Generic/RangedSpell/Missile/001/RangedMissile001_03_Blue_15ft_1000x400.webm",
+					"modules/JB2A_DnD5e/Library/Generic/RangedSpell/Missile/001/RangedMissile001_04_Blue_15ft_1000x400.webm"
+				],
+				"30ft": [
+					"modules/JB2A_DnD5e/Library/Generic/RangedSpell/Missile/001/RangedMissile001_01_Blue_30ft_1600x400.webm",
+					"modules/JB2A_DnD5e/Library/Generic/RangedSpell/Missile/001/RangedMissile001_02_Blue_30ft_1600x400.webm",
+					"modules/JB2A_DnD5e/Library/Generic/RangedSpell/Missile/001/RangedMissile001_03_Blue_30ft_1600x400.webm",
+					"modules/JB2A_DnD5e/Library/Generic/RangedSpell/Missile/001/RangedMissile001_04_Blue_30ft_1600x400.webm"
+				],
+				"60ft": [
+					"modules/JB2A_DnD5e/Library/Generic/RangedSpell/Missile/001/RangedMissile001_01_Blue_60ft_2800x400.webm",
+					"modules/JB2A_DnD5e/Library/Generic/RangedSpell/Missile/001/RangedMissile001_02_Blue_60ft_2800x400.webm",
+					"modules/JB2A_DnD5e/Library/Generic/RangedSpell/Missile/001/RangedMissile001_03_Blue_60ft_2800x400.webm",
+					"modules/JB2A_DnD5e/Library/Generic/RangedSpell/Missile/001/RangedMissile001_04_Blue_60ft_2800x400.webm"
+				],
+				"90ft": [
+					"modules/JB2A_DnD5e/Library/Generic/RangedSpell/Missile/001/RangedMissile001_01_Blue_90ft_4000x400.webm",
+					"modules/JB2A_DnD5e/Library/Generic/RangedSpell/Missile/001/RangedMissile001_02_Blue_90ft_4000x400.webm",
+					"modules/JB2A_DnD5e/Library/Generic/RangedSpell/Missile/001/RangedMissile001_03_Blue_90ft_4000x400.webm",
+					"modules/JB2A_DnD5e/Library/Generic/RangedSpell/Missile/001/RangedMissile001_04_Blue_90ft_4000x400.webm"
+				]
+			}
+		},
+		"missile_only": {
+			"_template": "ranged",
+			"001": {
+				"blue": {
+					"05ft": [
+						"modules/JB2A_DnD5e/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_01_Blue_05ft_600x400.webm",
+						"modules/JB2A_DnD5e/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_02_Blue_05ft_600x400.webm",
+						"modules/JB2A_DnD5e/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_03_Blue_05ft_600x400.webm",
+						"modules/JB2A_DnD5e/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_04_Blue_05ft_600x400.webm"
+					],
+					"15ft": [
+						"modules/JB2A_DnD5e/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_01_Blue_15ft_1000x400.webm",
+						"modules/JB2A_DnD5e/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_02_Blue_15ft_1000x400.webm",
+						"modules/JB2A_DnD5e/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_03_Blue_15ft_1000x400.webm",
+						"modules/JB2A_DnD5e/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_04_Blue_15ft_1000x400.webm"
+					],
+					"30ft": [
+						"modules/JB2A_DnD5e/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_01_Blue_30ft_1600x400.webm",
+						"modules/JB2A_DnD5e/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_02_Blue_30ft_1600x400.webm",
+						"modules/JB2A_DnD5e/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_03_Blue_30ft_1600x400.webm",
+						"modules/JB2A_DnD5e/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_04_Blue_30ft_1600x400.webm"
+					],
+					"60ft": [
+						"modules/JB2A_DnD5e/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_01_Blue_60ft_2800x400.webm",
+						"modules/JB2A_DnD5e/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_02_Blue_60ft_2800x400.webm",
+						"modules/JB2A_DnD5e/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_03_Blue_60ft_2800x400.webm",
+						"modules/JB2A_DnD5e/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_04_Blue_60ft_2800x400.webm"
+					],
+					"90ft": [
+						"modules/JB2A_DnD5e/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_01_Blue_90ft_4000x400.webm",
+						"modules/JB2A_DnD5e/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_02_Blue_90ft_4000x400.webm",
+						"modules/JB2A_DnD5e/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_03_Blue_90ft_4000x400.webm",
+						"modules/JB2A_DnD5e/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_04_Blue_90ft_4000x400.webm"
+					]
+				}
+			}
+		},
+		"cast": {
+			"001": {
+				"blue": "modules/JB2A_DnD5e/Library/Generic/RangedSpell/Missile/001/Cast/RangedMissileCast001_01_Blue_600x600.webm"
+			}
+		},
+		"hit": {
+			"001": {
+				"blue": "modules/JB2A_DnD5e/Library/Generic/RangedSpell/Missile/001/Hit/RangedMissileHit001_01_Blue_600x600.webm"
+			}
+		}
+	},
 	"rapier": {
 		"melee": {
 			"_template": "melee",
