@@ -2476,7 +2476,29 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.condition = {
         _metadata: {
-            name: "Conditions"
+            name: "Conditions",
+            new: [
+                '001.blue*',
+                '002.blue*',
+                '003.blue*',
+                '004.blue*',
+                '005.blue*',
+                '006.blue*',
+                '007.blue*',
+                '008.blue*',
+                '009.blue*',
+                '010.blue*',
+                '011.blue*',
+                '012.blue*',
+                '013.blue*',
+                '014.blue*',
+                '015.blue*',
+                '016.blue*',
+                '017.blue*',
+                '018.blue*',
+                '019.blue*',
+                '020.blue*',
+            ]
         },
         boon: {
             "01": {
@@ -2606,101 +2628,121 @@ export async function jb2aPatreonDatabase(prefix) {
         curse: {
             "01": {
                 "001": {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_001_Blue_600x600.webm`,
                     green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_001_Green_600x600.webm`,
                     purple: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_001_Purple_600x600.webm`,
                     red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_001_Red_600x600.webm`,
                 },
                 "002": {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_002_Blue_600x600.webm`,
                     green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_002_Green_600x600.webm`,
                     purple: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_002_Purple_600x600.webm`,
                     red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_002_Red_600x600.webm`,
                 },
                 "003": {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_003_Blue_600x600.webm`,
                     green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_003_Green_600x600.webm`,
                     purple: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_003_Purple_600x600.webm`,
                     red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_003_Red_600x600.webm`,
                 },
                 "004": {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_004_Blue_600x600.webm`,
                     green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_004_Green_600x600.webm`,
                     purple: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_004_Purple_600x600.webm`,
                     red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_004_Red_600x600.webm`,
                 },
                 "005": {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_005_Blue_600x600.webm`,
                     green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_005_Green_600x600.webm`,
                     purple: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_005_Purple_600x600.webm`,
                     red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_005_Red_600x600.webm`,
                 },
                 "006": {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_006_Blue_600x600.webm`,
                     green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_006_Green_600x600.webm`,
                     purple: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_006_Purple_600x600.webm`,
                     red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_006_Red_600x600.webm`,
                 },
                 "007": {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_007_Blue_600x600.webm`,
                     green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_007_Green_600x600.webm`,
                     purple: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_007_Purple_600x600.webm`,
                     red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_007_Red_600x600.webm`,
                 },
                 "008": {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_008_Blue_600x600.webm`,
                     green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_008_Green_600x600.webm`,
                     purple: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_008_Purple_600x600.webm`,
                     red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_008_Red_600x600.webm`,
                 },
                 "009": {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_009_Blue_600x600.webm`,
                     green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_009_Green_600x600.webm`,
                     purple: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_009_Purple_600x600.webm`,
                     red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_009_Red_600x600.webm`,
                 },
                 "010": {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_010_Blue_600x600.webm`,
                     green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_010_Green_600x600.webm`,
                     purple: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_010_Purple_600x600.webm`,
                     red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_010_Red_600x600.webm`,
                 },
                 "011": {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_011_Blue_600x600.webm`,
                     green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_011_Green_600x600.webm`,
                     purple: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_011_Purple_600x600.webm`,
                     red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_011_Red_600x600.webm`,
                 },
                 "012": {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_012_Blue_600x600.webm`,
                     green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_012_Green_600x600.webm`,
                     purple: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_012_Purple_600x600.webm`,
                     red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_012_Red_600x600.webm`,
                 },
                 "013": {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_013_Blue_600x600.webm`,
                     green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_013_Green_600x600.webm`,
                     purple: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_013_Purple_600x600.webm`,
                     red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_013_Red_600x600.webm`,
                 },
                 "014": {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_014_Blue_600x600.webm`,
                     green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_014_Green_600x600.webm`,
                     purple: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_014_Purple_600x600.webm`,
                     red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_014_Red_600x600.webm`,
                 },
                 "015": {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_015_Blue_600x600.webm`,
                     green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_015_Green_600x600.webm`,
                     purple: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_015_Purple_600x600.webm`,
                     red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_015_Red_600x600.webm`,
                 },
                 "016": {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_016_Blue_600x600.webm`,
                     green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_016_Green_600x600.webm`,
                     purple: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_016_Purple_600x600.webm`,
                     red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_016_Red_600x600.webm`,
                 },
                 "017": {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_017_Blue_600x600.webm`,
                     green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_017_Green_600x600.webm`,
                     purple: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_017_Purple_600x600.webm`,
                     red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_017_Red_600x600.webm`,
                 },
                 "018": {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_018_Blue_600x600.webm`,
                     green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_018_Green_600x600.webm`,
                     purple: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_018_Purple_600x600.webm`,
                     red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_018_Red_600x600.webm`,
                 },
                 "019": {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_019_Blue_600x600.webm`,
                     green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_019_Green_600x600.webm`,
                     purple: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_019_Purple_600x600.webm`,
                     red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_019_Red_600x600.webm`,
                 },
                 "020": {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_020_Blue_600x600.webm`,
                     green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_020_Green_600x600.webm`,
                     purple: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_020_Purple_600x600.webm`,
                     red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_020_Red_600x600.webm`,
@@ -6680,11 +6722,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.icon = {
             _metadata: {
-                name: "Icons",
-                new: [
-                    "fear.dark_red*",
-                    "fear.red*"
-                ]
+                name: "Icons"
             },
             drop: {
                 dark_green: `${prefix}/jb2a_patreon/Library/Generic/UI/IconDrop_01_Dark_Green_200x200.webm`,
@@ -9118,11 +9156,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.markers = {
             _metadata: {
-                name: "Markers",
-                new: [
-                    "fear.dark_red*",
-                    "fear.red*"
-                ]
+                name: "Markers"
             },
             '01': {
                 blueyellow: `${prefix}/jb2a_patreon/Library/Generic/Marker/Marker_01_Regular_BlueYellow_400x400.webm`,
@@ -11405,8 +11439,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.particles = {
             _metadata: {
-                name: "Particles",
-                new: ["002.001.complete"]
+                name: "Particles"
             },
             "002": {
                 "001": {
@@ -12782,7 +12815,627 @@ export async function jb2aPatreonDatabase(prefix) {
                 }
             }
         }
-}
+    }
+    patreonDatabase.ranged_missile = {
+        _metadata: {
+            name: "Ranged Missile",
+            new: true
+        },
+
+        '001': {
+            _template: 'ranged',
+            blue: {
+                '05ft': [
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_01_Blue_05ft_600x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_02_Blue_05ft_600x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_03_Blue_05ft_600x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_04_Blue_05ft_600x400.webm`
+                ],
+                '15ft': [
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_01_Blue_15ft_1000x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_02_Blue_15ft_1000x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_03_Blue_15ft_1000x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_04_Blue_15ft_1000x400.webm`
+                ],
+                '30ft': [
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_01_Blue_30ft_1600x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_02_Blue_30ft_1600x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_03_Blue_30ft_1600x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_04_Blue_30ft_1600x400.webm`
+                ],
+                '60ft': [
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_01_Blue_60ft_2800x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_02_Blue_60ft_2800x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_03_Blue_60ft_2800x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_04_Blue_60ft_2800x400.webm`
+                ],
+                '90ft': [
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_01_Blue_90ft_4000x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_02_Blue_90ft_4000x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_03_Blue_90ft_4000x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_04_Blue_90ft_4000x400.webm`
+                ],
+            },
+            bluepurple: {
+                '05ft': [
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_01_BluePurple_05ft_600x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_02_BluePurple_05ft_600x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_03_BluePurple_05ft_600x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_04_BluePurple_05ft_600x400.webm`
+                ],
+                '15ft': [
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_01_BluePurple_15ft_1000x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_02_BluePurple_15ft_1000x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_03_BluePurple_15ft_1000x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_04_BluePurple_15ft_1000x400.webm`
+                ],
+                '30ft': [
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_01_BluePurple_30ft_1600x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_02_BluePurple_30ft_1600x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_03_BluePurple_30ft_1600x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_04_BluePurple_30ft_1600x400.webm`
+                ],
+                '60ft': [
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_01_BluePurple_60ft_2800x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_02_BluePurple_60ft_2800x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_03_BluePurple_60ft_2800x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_04_BluePurple_60ft_2800x400.webm`
+                ],
+                '90ft': [
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_01_BluePurple_90ft_4000x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_02_BluePurple_90ft_4000x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_03_BluePurple_90ft_4000x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_04_BluePurple_90ft_4000x400.webm`
+                ],
+            },
+            blueteal: {
+                '05ft': [
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_01_BlueTeal_05ft_600x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_02_BlueTeal_05ft_600x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_03_BlueTeal_05ft_600x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_04_BlueTeal_05ft_600x400.webm`
+                ],
+                '15ft': [
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_01_BlueTeal_15ft_1000x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_02_BlueTeal_15ft_1000x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_03_BlueTeal_15ft_1000x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_04_BlueTeal_15ft_1000x400.webm`
+                ],
+                '30ft': [
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_01_BlueTeal_30ft_1600x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_02_BlueTeal_30ft_1600x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_03_BlueTeal_30ft_1600x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_04_BlueTeal_30ft_1600x400.webm`
+                ],
+                '60ft': [
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_01_BlueTeal_60ft_2800x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_02_BlueTeal_60ft_2800x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_03_BlueTeal_60ft_2800x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_04_BlueTeal_60ft_2800x400.webm`
+                ],
+                '90ft': [
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_01_BlueTeal_90ft_4000x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_02_BlueTeal_90ft_4000x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_03_BlueTeal_90ft_4000x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_04_BlueTeal_90ft_4000x400.webm`
+                ],
+            },
+            greenpurple: {
+                '05ft': [
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_01_GreenPurple_05ft_600x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_02_GreenPurple_05ft_600x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_03_GreenPurple_05ft_600x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_04_GreenPurple_05ft_600x400.webm`
+                ],
+                '15ft': [
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_01_GreenPurple_15ft_1000x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_02_GreenPurple_15ft_1000x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_03_GreenPurple_15ft_1000x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_04_GreenPurple_15ft_1000x400.webm`
+                ],
+                '30ft': [
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_01_GreenPurple_30ft_1600x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_02_GreenPurple_30ft_1600x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_03_GreenPurple_30ft_1600x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_04_GreenPurple_30ft_1600x400.webm`
+                ],
+                '60ft': [
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_01_GreenPurple_60ft_2800x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_02_GreenPurple_60ft_2800x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_03_GreenPurple_60ft_2800x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_04_GreenPurple_60ft_2800x400.webm`
+                ],
+                '90ft': [
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_01_GreenPurple_90ft_4000x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_02_GreenPurple_90ft_4000x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_03_GreenPurple_90ft_4000x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_04_GreenPurple_90ft_4000x400.webm`
+                ],
+            },
+            greenyellow: {
+                '05ft': [
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_01_GreenYellow_05ft_600x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_02_GreenYellow_05ft_600x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_03_GreenYellow_05ft_600x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_04_GreenYellow_05ft_600x400.webm`
+                ],
+                '15ft': [
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_01_GreenYellow_15ft_1000x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_02_GreenYellow_15ft_1000x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_03_GreenYellow_15ft_1000x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_04_GreenYellow_15ft_1000x400.webm`
+                ],
+                '30ft': [
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_01_GreenYellow_30ft_1600x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_02_GreenYellow_30ft_1600x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_03_GreenYellow_30ft_1600x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_04_GreenYellow_30ft_1600x400.webm`
+                ],
+                '60ft': [
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_01_GreenYellow_60ft_2800x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_02_GreenYellow_60ft_2800x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_03_GreenYellow_60ft_2800x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_04_GreenYellow_60ft_2800x400.webm`
+                ],
+                '90ft': [
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_01_GreenYellow_90ft_4000x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_02_GreenYellow_90ft_4000x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_03_GreenYellow_90ft_4000x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_04_GreenYellow_90ft_4000x400.webm`
+                ],
+            },
+            orangeyellow: {
+                '05ft': [
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_01_OrangeYellow_05ft_600x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_02_OrangeYellow_05ft_600x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_03_OrangeYellow_05ft_600x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_04_OrangeYellow_05ft_600x400.webm`
+                ],
+                '15ft': [
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_01_OrangeYellow_15ft_1000x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_02_OrangeYellow_15ft_1000x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_03_OrangeYellow_15ft_1000x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_04_OrangeYellow_15ft_1000x400.webm`
+                ],
+                '30ft': [
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_01_OrangeYellow_30ft_1600x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_02_OrangeYellow_30ft_1600x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_03_OrangeYellow_30ft_1600x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_04_OrangeYellow_30ft_1600x400.webm`
+                ],
+                '60ft': [
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_01_OrangeYellow_60ft_2800x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_02_OrangeYellow_60ft_2800x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_03_OrangeYellow_60ft_2800x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_04_OrangeYellow_60ft_2800x400.webm`
+                ],
+                '90ft': [
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_01_OrangeYellow_90ft_4000x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_02_OrangeYellow_90ft_4000x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_03_OrangeYellow_90ft_4000x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_04_OrangeYellow_90ft_4000x400.webm`
+                ],
+            },
+            pinkyellow: {
+                '05ft': [
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_01_PinkYellow_05ft_600x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_02_PinkYellow_05ft_600x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_03_PinkYellow_05ft_600x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_04_PinkYellow_05ft_600x400.webm`
+                ],
+                '15ft': [
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_01_PinkYellow_15ft_1000x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_02_PinkYellow_15ft_1000x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_03_PinkYellow_15ft_1000x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_04_PinkYellow_15ft_1000x400.webm`
+                ],
+                '30ft': [
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_01_PinkYellow_30ft_1600x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_02_PinkYellow_30ft_1600x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_03_PinkYellow_30ft_1600x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_04_PinkYellow_30ft_1600x400.webm`
+                ],
+                '60ft': [
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_01_PinkYellow_60ft_2800x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_02_PinkYellow_60ft_2800x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_03_PinkYellow_60ft_2800x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_04_PinkYellow_60ft_2800x400.webm`
+                ],
+                '90ft': [
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_01_PinkYellow_90ft_4000x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_02_PinkYellow_90ft_4000x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_03_PinkYellow_90ft_4000x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_04_PinkYellow_90ft_4000x400.webm`
+                ],
+            },
+            purplered: {
+                '05ft': [
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_01_PurpleRed_05ft_600x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_02_PurpleRed_05ft_600x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_03_PurpleRed_05ft_600x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_04_PurpleRed_05ft_600x400.webm`
+                ],
+                '15ft': [
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_01_PurpleRed_15ft_1000x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_02_PurpleRed_15ft_1000x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_03_PurpleRed_15ft_1000x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_04_PurpleRed_15ft_1000x400.webm`
+                ],
+                '30ft': [
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_01_PurpleRed_30ft_1600x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_02_PurpleRed_30ft_1600x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_03_PurpleRed_30ft_1600x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_04_PurpleRed_30ft_1600x400.webm`
+                ],
+                '60ft': [
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_01_PurpleRed_60ft_2800x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_02_PurpleRed_60ft_2800x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_03_PurpleRed_60ft_2800x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_04_PurpleRed_60ft_2800x400.webm`
+                ],
+                '90ft': [
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_01_PurpleRed_90ft_4000x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_02_PurpleRed_90ft_4000x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_03_PurpleRed_90ft_4000x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_04_PurpleRed_90ft_4000x400.webm`
+                ],
+            },
+            white: {
+                '05ft': [
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_01_White_05ft_600x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_02_White_05ft_600x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_03_White_05ft_600x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_04_White_05ft_600x400.webm`
+                ],
+                '15ft': [
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_01_White_15ft_1000x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_02_White_15ft_1000x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_03_White_15ft_1000x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_04_White_15ft_1000x400.webm`
+                ],
+                '30ft': [
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_01_White_30ft_1600x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_02_White_30ft_1600x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_03_White_30ft_1600x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_04_White_30ft_1600x400.webm`
+                ],
+                '60ft': [
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_01_White_60ft_2800x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_02_White_60ft_2800x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_03_White_60ft_2800x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_04_White_60ft_2800x400.webm`
+                ],
+                '90ft': [
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_01_White_90ft_4000x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_02_White_90ft_4000x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_03_White_90ft_4000x400.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/RangedMissile001_04_White_90ft_4000x400.webm`
+                ],
+            }
+            
+
+        },
+        'missile_only': {
+            _template: 'ranged',
+            '001': {
+                blue: {
+                    '05ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_01_Blue_05ft_600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_02_Blue_05ft_600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_03_Blue_05ft_600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_04_Blue_05ft_600x400.webm`
+                    ],
+                    '15ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_01_Blue_15ft_1000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_02_Blue_15ft_1000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_03_Blue_15ft_1000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_04_Blue_15ft_1000x400.webm`
+                    ],
+                    '30ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_01_Blue_30ft_1600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_02_Blue_30ft_1600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_03_Blue_30ft_1600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_04_Blue_30ft_1600x400.webm`
+                    ],
+                    '60ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_01_Blue_60ft_2800x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_02_Blue_60ft_2800x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_03_Blue_60ft_2800x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_04_Blue_60ft_2800x400.webm`
+                    ],
+                    '90ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_01_Blue_90ft_4000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_02_Blue_90ft_4000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_03_Blue_90ft_4000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_04_Blue_90ft_4000x400.webm`
+                    ],
+                },
+                bluepurple: {
+                    '05ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_01_BluePurple_05ft_600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_02_BluePurple_05ft_600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_03_BluePurple_05ft_600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_04_BluePurple_05ft_600x400.webm`
+                    ],
+                    '15ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_01_BluePurple_15ft_1000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_02_BluePurple_15ft_1000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_03_BluePurple_15ft_1000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_04_BluePurple_15ft_1000x400.webm`
+                    ],
+                    '30ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_01_BluePurple_30ft_1600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_02_BluePurple_30ft_1600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_03_BluePurple_30ft_1600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_04_BluePurple_30ft_1600x400.webm`
+                    ],
+                    '60ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_01_BluePurple_60ft_2800x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_02_BluePurple_60ft_2800x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_03_BluePurple_60ft_2800x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_04_BluePurple_60ft_2800x400.webm`
+                    ],
+                    '90ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_01_BluePurple_90ft_4000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_02_BluePurple_90ft_4000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_03_BluePurple_90ft_4000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_04_BluePurple_90ft_4000x400.webm`
+                    ],
+                },
+                blueteal: {
+                    '05ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_01_BlueTeal_05ft_600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_02_BlueTeal_05ft_600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_03_BlueTeal_05ft_600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_04_BlueTeal_05ft_600x400.webm`
+                    ],
+                    '15ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_01_BlueTeal_15ft_1000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_02_BlueTeal_15ft_1000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_03_BlueTeal_15ft_1000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_04_BlueTeal_15ft_1000x400.webm`
+                    ],
+                    '30ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_01_BlueTeal_30ft_1600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_02_BlueTeal_30ft_1600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_03_BlueTeal_30ft_1600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_04_BlueTeal_30ft_1600x400.webm`
+                    ],
+                    '60ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_01_BlueTeal_60ft_2800x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_02_BlueTeal_60ft_2800x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_03_BlueTeal_60ft_2800x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_04_BlueTeal_60ft_2800x400.webm`
+                    ],
+                    '90ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_01_BlueTeal_90ft_4000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_02_BlueTeal_90ft_4000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_03_BlueTeal_90ft_4000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_04_BlueTeal_90ft_4000x400.webm`
+                    ],
+                },
+                greenpurple: {
+                    '05ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_01_GreenPurple_05ft_600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_02_GreenPurple_05ft_600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_03_GreenPurple_05ft_600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_04_GreenPurple_05ft_600x400.webm`
+                    ],
+                    '15ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_01_GreenPurple_15ft_1000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_02_GreenPurple_15ft_1000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_03_GreenPurple_15ft_1000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_04_GreenPurple_15ft_1000x400.webm`
+                    ],
+                    '30ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_01_GreenPurple_30ft_1600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_02_GreenPurple_30ft_1600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_03_GreenPurple_30ft_1600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_04_GreenPurple_30ft_1600x400.webm`
+                    ],
+                    '60ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_01_GreenPurple_60ft_2800x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_02_GreenPurple_60ft_2800x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_03_GreenPurple_60ft_2800x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_04_GreenPurple_60ft_2800x400.webm`
+                    ],
+                    '90ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_01_GreenPurple_90ft_4000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_02_GreenPurple_90ft_4000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_03_GreenPurple_90ft_4000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_04_GreenPurple_90ft_4000x400.webm`
+                    ],
+                },
+                greenyellow: {
+                    '05ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_01_GreenYellow_05ft_600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_02_GreenYellow_05ft_600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_03_GreenYellow_05ft_600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_04_GreenYellow_05ft_600x400.webm`
+                    ],
+                    '15ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_01_GreenYellow_15ft_1000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_02_GreenYellow_15ft_1000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_03_GreenYellow_15ft_1000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_04_GreenYellow_15ft_1000x400.webm`
+                    ],
+                    '30ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_01_GreenYellow_30ft_1600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_02_GreenYellow_30ft_1600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_03_GreenYellow_30ft_1600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_04_GreenYellow_30ft_1600x400.webm`
+                    ],
+                    '60ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_01_GreenYellow_60ft_2800x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_02_GreenYellow_60ft_2800x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_03_GreenYellow_60ft_2800x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_04_GreenYellow_60ft_2800x400.webm`
+                    ],
+                    '90ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_01_GreenYellow_90ft_4000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_02_GreenYellow_90ft_4000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_03_GreenYellow_90ft_4000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_04_GreenYellow_90ft_4000x400.webm`
+                    ],
+                },
+                orangeyellow: {
+                    '05ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_01_OrangeYellow_05ft_600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_02_OrangeYellow_05ft_600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_03_OrangeYellow_05ft_600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_04_OrangeYellow_05ft_600x400.webm`
+                    ],
+                    '15ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_01_OrangeYellow_15ft_1000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_02_OrangeYellow_15ft_1000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_03_OrangeYellow_15ft_1000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_04_OrangeYellow_15ft_1000x400.webm`
+                    ],
+                    '30ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_01_OrangeYellow_30ft_1600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_02_OrangeYellow_30ft_1600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_03_OrangeYellow_30ft_1600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_04_OrangeYellow_30ft_1600x400.webm`
+                    ],
+                    '60ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_01_OrangeYellow_60ft_2800x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_02_OrangeYellow_60ft_2800x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_03_OrangeYellow_60ft_2800x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_04_OrangeYellow_60ft_2800x400.webm`
+                    ],
+                    '90ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_01_OrangeYellow_90ft_4000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_02_OrangeYellow_90ft_4000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_03_OrangeYellow_90ft_4000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_04_OrangeYellow_90ft_4000x400.webm`
+                    ],
+                },
+                pinkyellow: {
+                    '05ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_01_PinkYellow_05ft_600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_02_PinkYellow_05ft_600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_03_PinkYellow_05ft_600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_04_PinkYellow_05ft_600x400.webm`
+                    ],
+                    '15ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_01_PinkYellow_15ft_1000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_02_PinkYellow_15ft_1000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_03_PinkYellow_15ft_1000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_04_PinkYellow_15ft_1000x400.webm`
+                    ],
+                    '30ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_01_PinkYellow_30ft_1600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_02_PinkYellow_30ft_1600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_03_PinkYellow_30ft_1600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_04_PinkYellow_30ft_1600x400.webm`
+                    ],
+                    '60ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_01_PinkYellow_60ft_2800x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_02_PinkYellow_60ft_2800x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_03_PinkYellow_60ft_2800x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_04_PinkYellow_60ft_2800x400.webm`
+                    ],
+                    '90ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_01_PinkYellow_90ft_4000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_02_PinkYellow_90ft_4000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_03_PinkYellow_90ft_4000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_04_PinkYellow_90ft_4000x400.webm`
+                    ],
+                },
+                purplered: {
+                    '05ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_01_PurpleRed_05ft_600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_02_PurpleRed_05ft_600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_03_PurpleRed_05ft_600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_04_PurpleRed_05ft_600x400.webm`
+                    ],
+                    '15ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_01_PurpleRed_15ft_1000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_02_PurpleRed_15ft_1000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_03_PurpleRed_15ft_1000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_04_PurpleRed_15ft_1000x400.webm`
+                    ],
+                    '30ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_01_PurpleRed_30ft_1600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_02_PurpleRed_30ft_1600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_03_PurpleRed_30ft_1600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_04_PurpleRed_30ft_1600x400.webm`
+                    ],
+                    '60ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_01_PurpleRed_60ft_2800x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_02_PurpleRed_60ft_2800x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_03_PurpleRed_60ft_2800x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_04_PurpleRed_60ft_2800x400.webm`
+                    ],
+                    '90ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_01_PurpleRed_90ft_4000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_02_PurpleRed_90ft_4000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_03_PurpleRed_90ft_4000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_04_PurpleRed_90ft_4000x400.webm`
+                    ],
+                },
+                white: {
+                    '05ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_01_White_05ft_600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_02_White_05ft_600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_03_White_05ft_600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_04_White_05ft_600x400.webm`
+                    ],
+                    '15ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_01_White_15ft_1000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_02_White_15ft_1000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_03_White_15ft_1000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_04_White_15ft_1000x400.webm`
+                    ],
+                    '30ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_01_White_30ft_1600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_02_White_30ft_1600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_03_White_30ft_1600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_04_White_30ft_1600x400.webm`
+                    ],
+                    '60ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_01_White_60ft_2800x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_02_White_60ft_2800x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_03_White_60ft_2800x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_04_White_60ft_2800x400.webm`
+                    ],
+                    '90ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_01_White_90ft_4000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_02_White_90ft_4000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_03_White_90ft_4000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/MissileOnly/RangedMissileOnly001_04_White_90ft_4000x400.webm`
+                    ],
+                }
+            }
+
+        },
+        'cast': {
+            '001': {
+                blue: `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/Cast/RangedMissileCast001_01_Blue_600x600.webm`,
+                bluepurple: `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/Cast/RangedMissileCast001_01_BluePurple_600x600.webm`,
+                blueteal: `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/Cast/RangedMissileCast001_01_BlueTeal_600x600.webm`,
+                greenpurple: `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/Cast/RangedMissileCast001_01_GreenPurple_600x600.webm`,
+                greenyellow: `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/Cast/RangedMissileCast001_01_GreenYellow_600x600.webm`,
+                orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/Cast/RangedMissileCast001_01_OrangeYellow_600x600.webm`,
+                pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/Cast/RangedMissileCast001_01_PinkYellow_600x600.webm`,
+                purplered: `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/Cast/RangedMissileCast001_01_PurpleRed_600x600.webm`,
+                white: `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/Cast/RangedMissileCast001_01_White_600x600.webm`
+            }
+        },
+        'hit': {
+            '001': {
+                blue: `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/Hit/RangedMissileHit001_01_Blue_600x600.webm`,
+                bluepurple: `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/Hit/RangedMissileHit001_01_BluePurple_600x600.webm`,
+                blueteal: `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/Hit/RangedMissileHit001_01_BlueTeal_600x600.webm`,
+                greenpurple: `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/Hit/RangedMissileHit001_01_GreenPurple_600x600.webm`,
+                greenyellow: `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/Hit/RangedMissileHit001_01_GreenYellow_600x600.webm`,
+                orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/Hit/RangedMissileHit001_01_OrangeYellow_600x600.webm`,
+                pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/Hit/RangedMissileHit001_01_PinkYellow_600x600.webm`,
+                purplered: `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/Hit/RangedMissileHit001_01_PurpleRed_600x600.webm`,
+                white: `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/Hit/RangedMissileHit001_01_White_600x600.webm`
+            }
+        }
+    }
     patreonDatabase.rapier = {
             _metadata: {
                 name: "Rapier",
@@ -16146,10 +16799,7 @@ export async function jb2aPatreonDatabase(prefix) {
 
             aura: {
                 _metadata: {
-                    name: "Template-Circle-Aura",
-                    new: [
-                        "03.outward*"
-                    ]
+                    name: "Template-Circle-Aura"
                 },
                 "01": {
                     complete: {
@@ -17199,12 +17849,7 @@ export async function jb2aPatreonDatabase(prefix) {
             },
             vortex: {
                 _metadata: {
-                    name: "Template-Circle-Vortex",
-                    new: [
-                        "loop.red02*",
-                        "intro.red02*",
-                        "outro.red02*"
-                    ]
+                    name: "Template-Circle-Vortex"
                 },
                 loop: {
                     dark_black: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Vortex_01_Dark_Black_600x600.webm`,
@@ -17239,12 +17884,7 @@ export async function jb2aPatreonDatabase(prefix) {
             },
             whirl: {
                 _metadata: {
-                    name: "Template-Circle-Whirl",
-                    new: [
-                        "loop.red02*",
-                        "intro.red02*",
-                        "outro.red02*"
-                    ]
+                    name: "Template-Circle-Whirl"
                 },
                 loop: {
                     dark_black: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Whirl_01_Dark_Black_600x600.webm`,
