@@ -16,6 +16,66 @@ export async function jb2aPatreonDatabase(prefix) {
         ray: [100, 0, 0],
         side_impact: [200, 100, 0]    
     }
+    patreonDatabase.ambient_fog = {
+        _metadata: {
+            name: "Ambient Fog",
+            new: true
+        },
+        
+        "001": {
+            complete: {
+                _markers: {
+                    loop: { start: 3000, end: 5958 }
+                },
+                small: {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Fog/AmbientFog001_001_Complete_Blue_500x500.webm`,
+                    bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Fog/AmbientFog001_001_Complete_BluePurple_500x500.webm`,
+                    blueteal: `${prefix}/jb2a_patreon/Library/Generic/Fog/AmbientFog001_001_Complete_BlueTeal_500x500.webm`,
+                    greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Fog/AmbientFog001_001_Complete_GreenPurple_500x500.webm`,
+                    greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Fog/AmbientFog001_001_Complete_GreenYellow_500x500.webm`,
+                    orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Fog/AmbientFog001_001_Complete_OrangeYellow_500x500.webm`,
+                    pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Fog/AmbientFog001_001_Complete_PinkYellow_500x500.webm`,
+                    purplered: `${prefix}/jb2a_patreon/Library/Generic/Fog/AmbientFog001_001_Complete_PurpleRed_500x500.webm`,
+                    white: `${prefix}/jb2a_patreon/Library/Generic/Fog/AmbientFog001_001_Complete_White_500x500.webm`
+                },
+                large: {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Fog/AmbientFog001_001_Complete_Blue_1200x1200.webm`,
+                    bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Fog/AmbientFog001_001_Complete_BluePurple_1200x1200.webm`,
+                    blueteal: `${prefix}/jb2a_patreon/Library/Generic/Fog/AmbientFog001_001_Complete_BlueTeal_1200x1200.webm`,
+                    greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Fog/AmbientFog001_001_Complete_GreenPurple_1200x1200.webm`,
+                    greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Fog/AmbientFog001_001_Complete_GreenYellow_1200x1200.webm`,
+                    orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Fog/AmbientFog001_001_Complete_OrangeYellow_1200x1200.webm`,
+                    pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Fog/AmbientFog001_001_Complete_PinkYellow_1200x1200.webm`,
+                    purplered: `${prefix}/jb2a_patreon/Library/Generic/Fog/AmbientFog001_001_Complete_PurpleRed_1200x1200.webm`,
+                    white: `${prefix}/jb2a_patreon/Library/Generic/Fog/AmbientFog001_001_Complete_White_1200x1200.webm`
+                }
+            },
+            loop: {
+                small: {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Fog/AmbientFog001_001_Loop_Blue_500x500.webm`,
+                    bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Fog/AmbientFog001_001_Loop_BluePurple_500x500.webm`,
+                    blueteal: `${prefix}/jb2a_patreon/Library/Generic/Fog/AmbientFog001_001_Loop_BlueTeal_500x500.webm`,
+                    greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Fog/AmbientFog001_001_Loop_GreenPurple_500x500.webm`,
+                    greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Fog/AmbientFog001_001_Loop_GreenYellow_500x500.webm`,
+                    orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Fog/AmbientFog001_001_Loop_OrangeYellow_500x500.webm`,
+                    pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Fog/AmbientFog001_001_Loop_PinkYellow_500x500.webm`,
+                    purplered: `${prefix}/jb2a_patreon/Library/Generic/Fog/AmbientFog001_001_Loop_PurpleRed_500x500.webm`,
+                    white: `${prefix}/jb2a_patreon/Library/Generic/Fog/AmbientFog001_001_Loop_White_500x500.webm`
+                },
+                large: {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Fog/AmbientFog001_001_Loop_Blue_1200x1200.webm`,
+                    bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Fog/AmbientFog001_001_Loop_BluePurple_1200x1200.webm`,
+                    blueteal: `${prefix}/jb2a_patreon/Library/Generic/Fog/AmbientFog001_001_Loop_BlueTeal_1200x1200.webm`,
+                    greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Fog/AmbientFog001_001_Loop_GreenPurple_1200x1200.webm`,
+                    greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Fog/AmbientFog001_001_Loop_GreenYellow_1200x1200.webm`,
+                    orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Fog/AmbientFog001_001_Loop_OrangeYellow_1200x1200.webm`,
+                    pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Fog/AmbientFog001_001_Loop_PinkYellow_1200x1200.webm`,
+                    purplered: `${prefix}/jb2a_patreon/Library/Generic/Fog/AmbientFog001_001_Loop_PurpleRed_1200x1200.webm`,
+                    white: `${prefix}/jb2a_patreon/Library/Generic/Fog/AmbientFog001_001_Loop_White_1200x1200.webm`
+                }
+            }
+        }
+    }
     patreonDatabase.antilife_shell = {
         _metadata: {
             name: "Anti-Life Shell"
@@ -1055,7 +1115,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.braziers = {
         _metadata: {
-            name: "Braziers"
+            name: "Braziers",
         },
         blue: {
             bordered: {
@@ -1136,6 +1196,33 @@ export async function jb2aPatreonDatabase(prefix) {
             soft_edge: {
                 '01': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Coal_01_SoftEdge_Orange_10x10_500x500.webm`,
                 '02': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Coal_02_SoftEdge_Orange_10x10_500x500.webm`
+            }
+        },
+        purple: {
+            bordered: {
+                '01': {
+                    '05x05ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_01_Wall_Purple_05x05ft_200x200.webm`,
+                    '10x05ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_01_Wall_Purple_10x05ft_400x200.webm`,
+                    '10x10ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_01_Wall_Purple_10x10ft_400x400.webm`
+                },
+                '02': {
+                    '05x05ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_02_Wall_Purple_05x05ft_200x200.webm`,
+                    '10x05ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_02_Wall_Purple_10x05ft_400x200.webm`,
+                    '10x10ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_02_Wall_Purple_10x10ft_400x400.webm`
+                },
+                '03': {
+                    '05x05ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_03_Wall_Purple_05x05ft_200x200.webm`,
+                    '10x05ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_03_Wall_Purple_10x05ft_400x200.webm`,
+                    '10x10ft': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Brazier_03_Wall_Purple_10x10ft_400x400.webm`
+                }
+            },
+            hard_edge: {
+                '01': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Coal_01_HardEdge_Purple_10x10_500x500.webm`,
+                '02': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Coal_02_HardEdge_Purple_10x10_500x500.webm`
+            },
+            soft_edge: {
+                '01': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Coal_01_SoftEdge_Purple_10x10_500x500.webm`,
+                '02': `${prefix}/jb2a_patreon/Library/Generic/Fire/Brazier/Coal_02_SoftEdge_Purple_10x10_500x500.webm`
             }
         },
         unlit: {
@@ -1920,18 +2007,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.cast_generic = {
         _metadata: {
-            name: "Cast - Generic",
-            new: [
-                "03.blue*",
-                "03.bluepurple*",
-                "03.blueteal*",
-                "03.greenpurple*",
-                "03.greenYellow*",
-                "03.orangeyellow*",
-                "03.pinkyellow*",
-                "03.purplered*",
-                "03.white*",
-            ]
+            name: "Cast - Generic"
         },
         '01': {
             dark_purple: [`${prefix}/jb2a_patreon/Library/Generic/Cast/GenericCast01_01_Dark_Purple_400x400.webm`],
@@ -2498,7 +2574,21 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.condition = {
         _metadata: {
-            name: "Conditions"
+            name: "Conditions",
+            new: [
+                "boon.01.021*",
+                "boon.01.022*",
+                "boon.01.023*",
+                "boon.01.024*",
+                "boon.02.021*",
+                "boon.02.022*",
+                "boon.02.023*",
+                "boon.02.024*",
+                "curse.01.021*",
+                "curse.01.022*",
+                "curse.01.023*",
+                "curse.01.024*",
+            ]
         },
         boon: {
             "01": {
@@ -2621,7 +2711,107 @@ export async function jb2aPatreonDatabase(prefix) {
                     green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_020_Green_600x600.webm`,
                     red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_020_Red_600x600.webm`,
                     yellow: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_020_Yellow_600x600.webm`,                    
+                },
+                "021": {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_021_Blue_600x600.webm`,
+                    green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_021_Green_600x600.webm`,
+                    red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_021_Red_600x600.webm`,
+                    yellow: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_021_Yellow_600x600.webm`,                    
+                },
+                "022": {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_022_Blue_600x600.webm`,
+                    green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_022_Green_600x600.webm`,
+                    red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_022_Red_600x600.webm`,
+                    yellow: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_022_Yellow_600x600.webm`,                    
+                },
+                "023": {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_023_Blue_600x600.webm`,
+                    green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_023_Green_600x600.webm`,
+                    red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_023_Red_600x600.webm`,
+                    yellow: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_023_Yellow_600x600.webm`,                    
+                },
+                "024": {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_024_Blue_600x600.webm`,
+                    green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_024_Green_600x600.webm`,
+                    red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_024_Red_600x600.webm`,
+                    yellow: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon01/ConditionBoon01_024_Yellow_600x600.webm`,                    
                 }
+
+            },
+            "02": {
+                "001": {
+                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon02/ConditionBoon02_001_Refraction_600x600.webm`                   
+                },
+                "002": {
+                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon02/ConditionBoon02_002_Refraction_600x600.webm`                
+                },
+                "003": {
+                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon02/ConditionBoon02_003_Refraction_600x600.webm`                  
+                },
+                "004": {
+                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon02/ConditionBoon02_004_Refraction_600x600.webm`                  
+                },
+                "005": {
+                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon02/ConditionBoon02_005_Refraction_600x600.webm`                  
+                },
+                "006": {
+                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon02/ConditionBoon02_006_Refraction_600x600.webm`                   
+                },
+                "007": {
+                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon02/ConditionBoon02_007_Refraction_600x600.webm`                  
+                },
+                "008": {
+                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon02/ConditionBoon02_008_Refraction_600x600.webm`                  
+                },
+                "009": {
+                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon02/ConditionBoon02_009_Refraction_600x600.webm`                   
+                },
+                "010": {
+                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon02/ConditionBoon02_010_Refraction_600x600.webm`                 
+                },
+                "011": {
+                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon02/ConditionBoon02_011_Refraction_600x600.webm`                   
+                },
+                "012": {
+                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon02/ConditionBoon02_012_Refraction_600x600.webm`                  
+                },
+                "013": {
+                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon02/ConditionBoon02_013_Refraction_600x600.webm`                   
+                },
+                "014": {
+                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon02/ConditionBoon02_014_Refraction_600x600.webm`                  
+                },
+                "015": {
+                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon02/ConditionBoon02_015_Refraction_600x600.webm`                   
+                },
+                "016": {
+                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon02/ConditionBoon02_016_Refraction_600x600.webm`                   
+                },
+                "017": {
+                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon02/ConditionBoon02_017_Refraction_600x600.webm`                   
+                },
+                "018": {
+                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon02/ConditionBoon02_018_Refraction_600x600.webm`                   
+                },
+                "019": {
+                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon02/ConditionBoon02_019_Refraction_600x600.webm`                   
+                },
+                "020": {
+                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon02/ConditionBoon02_020_Refraction_600x600.webm`                   
+                },
+                "021": {
+                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon02/ConditionBoon02_021_Refraction_600x600.webm`                   
+                },
+                "022": {
+                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon02/ConditionBoon02_022_Refraction_600x600.webm`                   
+                },
+                "023": {
+                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon02/ConditionBoon02_023_Refraction_600x600.webm`                   
+                },
+                "024": {
+                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Boon02/ConditionBoon02_024_Refraction_600x600.webm`                   
+                },
+                
 
             }
         },
@@ -2746,6 +2936,30 @@ export async function jb2aPatreonDatabase(prefix) {
                     green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_020_Green_600x600.webm`,
                     purple: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_020_Purple_600x600.webm`,
                     red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_020_Red_600x600.webm`,
+                },
+                "021": {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_021_Blue_600x600.webm`,
+                    green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_021_Green_600x600.webm`,
+                    purple: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_021_Purple_600x600.webm`,
+                    red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_021_Red_600x600.webm`,
+                },
+                "022": {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_022_Blue_600x600.webm`,
+                    green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_022_Green_600x600.webm`,
+                    purple: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_022_Purple_600x600.webm`,
+                    red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_022_Red_600x600.webm`,
+                },
+                "023": {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_023_Blue_600x600.webm`,
+                    green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_023_Green_600x600.webm`,
+                    purple: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_023_Purple_600x600.webm`,
+                    red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_023_Red_600x600.webm`,
+                },
+                "024": {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_024_Blue_600x600.webm`,
+                    green: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_024_Green_600x600.webm`,
+                    purple: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_024_Purple_600x600.webm`,
+                    red: `${prefix}/jb2a_patreon/Library/Generic/Conditions/Curse01/ConditionCurse01_024_Red_600x600.webm`,
                 }
             }
         }
@@ -3103,12 +3317,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.divine_smite = {
         _metadata: {
-            name: "Divine Smite",
-            new: [
-                "caster.reversed.red*",
-                "caster.standard.red*",
-                "target.red*"
-            ]
+            name: "Divine Smite"
         },
         caster: {
             reversed: {
@@ -11210,7 +11419,15 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.on_token_buff = {
         _metadata: {
-            name: "On Token Buff"
+            name: "On Token Buff",
+            new: [
+                "001.004*",
+                "001.005*",
+                "002.004*",
+                "002.005*",
+                "003.004*",
+                "003.005*"
+            ]
         },
         '001': {
             '001': {
@@ -11245,6 +11462,28 @@ export async function jb2aPatreonDatabase(prefix) {
                 pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff001_003_PinkYellow_400x400.webm`,
                 purplered: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff001_003_PurpleRed_400x400.webm`,
                 white: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff001_003_White_400x400.webm`,
+            },
+            '004': {
+                blue: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff001_004_Blue_400x400.webm`,
+                bluepurple: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff001_004_BluePurple_400x400.webm`,
+                blueteal: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff001_004_BlueTeal_400x400.webm`,
+                greenpurple: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff001_004_GreenPurple_400x400.webm`,
+                greenyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff001_004_GreenYellow_400x400.webm`,
+                orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff001_004_OrangeYellow_400x400.webm`,
+                pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff001_004_PinkYellow_400x400.webm`,
+                purplered: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff001_004_PurpleRed_400x400.webm`,
+                white: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff001_004_White_400x400.webm`,
+            },
+            '005': {
+                blue: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff001_005_Blue_400x400.webm`,
+                bluepurple: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff001_005_BluePurple_400x400.webm`,
+                blueteal: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff001_005_BlueTeal_400x400.webm`,
+                greenpurple: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff001_005_GreenPurple_400x400.webm`,
+                greenyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff001_005_GreenYellow_400x400.webm`,
+                orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff001_005_OrangeYellow_400x400.webm`,
+                pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff001_005_PinkYellow_400x400.webm`,
+                purplered: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff001_005_PurpleRed_400x400.webm`,
+                white: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff001_005_White_400x400.webm`,
             }
         },
         '002': {
@@ -11280,6 +11519,28 @@ export async function jb2aPatreonDatabase(prefix) {
                 pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff002_003_PinkYellow_400x400.webm`,
                 purplered: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff002_003_PurpleRed_400x400.webm`,
                 white: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff002_003_White_400x400.webm`,
+            },
+            '004': {
+                blue: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff002_004_Blue_400x400.webm`,
+                bluepurple: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff002_004_BluePurple_400x400.webm`,
+                blueteal: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff002_004_BlueTeal_400x400.webm`,
+                greenpurple: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff002_004_GreenPurple_400x400.webm`,
+                greenyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff002_004_GreenYellow_400x400.webm`,
+                orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff002_004_OrangeYellow_400x400.webm`,
+                pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff002_004_PinkYellow_400x400.webm`,
+                purplered: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff002_004_PurpleRed_400x400.webm`,
+                white: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff002_004_White_400x400.webm`,
+            },
+            '005': {
+                blue: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff002_005_Blue_400x400.webm`,
+                bluepurple: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff002_005_BluePurple_400x400.webm`,
+                blueteal: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff002_005_BlueTeal_400x400.webm`,
+                greenpurple: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff002_005_GreenPurple_400x400.webm`,
+                greenyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff002_005_GreenYellow_400x400.webm`,
+                orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff002_005_OrangeYellow_400x400.webm`,
+                pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff002_005_PinkYellow_400x400.webm`,
+                purplered: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff002_005_PurpleRed_400x400.webm`,
+                white: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff002_005_White_400x400.webm`,
             }
         },
         '003': {
@@ -11315,6 +11576,28 @@ export async function jb2aPatreonDatabase(prefix) {
                 pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff003_003_PinkYellow_400x400.webm`,
                 purplered: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff003_003_PurpleRed_400x400.webm`,
                 white: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff003_003_White_400x400.webm`,
+            },
+            '004': {
+                blue: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff003_004_Blue_400x400.webm`,
+                bluepurple: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff003_004_BluePurple_400x400.webm`,
+                blueteal: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff003_004_BlueTeal_400x400.webm`,
+                greenpurple: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff003_004_GreenPurple_400x400.webm`,
+                greenyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff003_004_GreenYellow_400x400.webm`,
+                orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff003_004_OrangeYellow_400x400.webm`,
+                pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff003_004_PinkYellow_400x400.webm`,
+                purplered: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff003_004_PurpleRed_400x400.webm`,
+                white: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff003_004_White_400x400.webm`,
+            },
+            '005': {
+                blue: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff003_005_Blue_400x400.webm`,
+                bluepurple: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff003_005_BluePurple_400x400.webm`,
+                blueteal: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff003_005_BlueTeal_400x400.webm`,
+                greenpurple: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff003_005_GreenPurple_400x400.webm`,
+                greenyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff003_005_GreenYellow_400x400.webm`,
+                orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff003_005_OrangeYellow_400x400.webm`,
+                pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff003_005_PinkYellow_400x400.webm`,
+                purplered: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff003_005_PurpleRed_400x400.webm`,
+                white: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff003_005_White_400x400.webm`,
             }
         }
         
@@ -12827,8 +13110,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.ranged_helix = {
         _metadata: {
-            name: "Ranged Helix",
-            new: true
+            name: "Ranged Helix"
         },
 
         '001': {
@@ -16978,9 +17260,6 @@ export async function jb2aPatreonDatabase(prefix) {
             aura: {
                 _metadata: {
                     name: "Template-Circle-Aura",
-                     new: [
-                        "03.inward*"
-                     ]
                 },
                 "01": {
                     complete: {
@@ -17803,6 +18082,174 @@ export async function jb2aPatreonDatabase(prefix) {
                             }
                         }
                     }
+                },
+                "04": {
+                    inward: {
+                        "001": {
+                            complete: {
+                                _markers: {
+                                    loop: { start: 3000, end: 5967 }
+                                },
+                                combined: {
+                                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura004/Aura004_Inward_Complete_001_Refraction_1400x1400.webm`
+                                },
+                                part01: {
+                                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura004/Aura004Part01_Inward_Complete_001_Refraction_1400x1400.webm`
+                                },
+                                part02: {
+                                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura004/Aura004Part02_Inward_Complete_001_Refraction_1000x1000.webm`
+                                }
+                            },
+                            loop: {
+                                combined: {
+                                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura004/Aura004_Inward_Loop_001_Refraction_1400x1400.webm`
+                                },
+                                part01: {
+                                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura004/Aura004Part01_Inward_Loop_001_Refraction_1400x1400.webm`
+                                },
+                                part02: {
+                                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura004/Aura004Part02_Inward_Loop_001_Refraction_1000x1000.webm`
+                                }
+                            }
+                        },
+                        "002": {
+                            complete: {
+                                _markers: {
+                                    loop: { start: 3000, end: 5967 }
+                                },
+                                combined: {
+                                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura004/Aura004_Inward_Complete_002_Refraction_1400x1400.webm`
+                                },
+                                part01: {
+                                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura004/Aura004Part01_Inward_Complete_002_Refraction_1400x1400.webm`
+                                },
+                                part02: {
+                                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura004/Aura004Part02_Inward_Complete_002_Refraction_1000x1000.webm`
+                                }
+                            },
+                            loop: {
+                                combined: {
+                                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura004/Aura004_Inward_Loop_002_Refraction_1400x1400.webm`
+                                },
+                                part01: {
+                                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura004/Aura004Part01_Inward_Loop_002_Refraction_1400x1400.webm`
+                                },
+                                part02: {
+                                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura004/Aura004Part02_Inward_Loop_002_Refraction_1000x1000.webm`
+                                }
+                            }
+                        },
+                        "003": {
+                            complete: {
+                                _markers: {
+                                    loop: { start: 3000, end: 5967 }
+                                },
+                                combined: {
+                                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura004/Aura004_Inward_Complete_003_Refraction_1400x1400.webm`
+                                },
+                                part01: {
+                                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura004/Aura004Part01_Inward_Complete_003_Refraction_1400x1400.webm`
+                                },
+                                part02: {
+                                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura004/Aura004Part02_Inward_Complete_003_Refraction_1000x1000.webm`
+                                }
+                            },
+                            loop: {
+                                combined: {
+                                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura004/Aura004_Inward_Loop_003_Refraction_1400x1400.webm`
+                                },
+                                part01: {
+                                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura004/Aura004Part01_Inward_Loop_003_Refraction_1400x1400.webm`
+                                },
+                                part02: {
+                                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura004/Aura004Part02_Inward_Loop_003_Refraction_1000x1000.webm`
+                                }
+                            }
+                        }
+                    },
+                    outward: {
+                        "001": {
+                            complete: {
+                                _markers: {
+                                    loop: { start: 3000, end: 5967 }
+                                },
+                                combined: {
+                                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura004/Aura004_Outward_Complete_001_Refraction_1400x1400.webm`
+                                },
+                                part01: {
+                                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura004/Aura004Part01_Outward_Complete_001_Refraction_1400x1400.webm`
+                                },
+                                part02: {
+                                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura004/Aura004Part02_Outward_Complete_001_Refraction_1000x1000.webm`
+                                }
+                            },
+                            loop: {
+                                combined: {
+                                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura004/Aura004_Outward_Loop_001_Refraction_1400x1400.webm`
+                                },
+                                part01: {
+                                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura004/Aura004Part01_Outward_Loop_001_Refraction_1400x1400.webm`
+                                },
+                                part02: {
+                                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura004/Aura004Part02_Outward_Loop_001_Refraction_1000x1000.webm`
+                                }
+                            }
+                        },
+                        "002": {
+                            complete: {
+                                _markers: {
+                                    loop: { start: 3000, end: 5967 }
+                                },
+                                combined: {
+                                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura004/Aura004_Outward_Complete_002_Refraction_1400x1400.webm`
+                                },
+                                part01: {
+                                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura004/Aura004Part01_Outward_Complete_002_Refraction_1400x1400.webm`
+                                },
+                                part02: {
+                                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura004/Aura004Part02_Outward_Complete_002_Refraction_1000x1000.webm`
+                                }
+                            },
+                            loop: {
+                                combined: {
+                                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura004/Aura004_Outward_Loop_002_Refraction_1400x1400.webm`
+                                },
+                                part01: {
+                                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura004/Aura004Part01_Outward_Loop_002_Refraction_1400x1400.webm`
+                                },
+                                part02: {
+                                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura004/Aura004Part02_Outward_Loop_002_Refraction_1000x1000.webm`
+                                }
+                            }
+                        },
+                        "003": {
+                            complete: {
+                                _markers: {
+                                    loop: { start: 3000, end: 5967 }
+                                },
+                                combined: {
+                                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura004/Aura004_Outward_Complete_003_Refraction_1400x1400.webm`
+                                },
+                                part01: {
+                                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura004/Aura004Part01_Outward_Complete_003_Refraction_1400x1400.webm`
+                                },
+                                part02: {
+                                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura004/Aura004Part02_Outward_Complete_003_Refraction_1000x1000.webm`
+                                }
+                            },
+                            loop: {
+                                combined: {
+                                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura004/Aura004_Outward_Loop_003_Refraction_1400x1400.webm`
+                                },
+                                part01: {
+                                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura004/Aura004Part01_Outward_Loop_003_Refraction_1400x1400.webm`
+                                },
+                                part02: {
+                                    refraction: `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Aura/Aura004/Aura004Part02_Outward_Loop_003_Refraction_1000x1000.webm`
+                                }
+                            }
+                        }
+                    },
                 }
             },
             lightning: {
@@ -18764,6 +19211,18 @@ export async function jb2aPatreonDatabase(prefix) {
                     },
                     green: {
                         '001': `${prefix}/jb2a_patreon/Library/Generic/Token_Border/TokenBorderCircle_01_Regular_Green_400x400.webm`,
+                        '002': `${prefix}/jb2a_patreon/Library/Generic/Token_Border/TokenBorderCircle_02_Regular_Green_400x400.webm`,
+                        '003': `${prefix}/jb2a_patreon/Library/Generic/Token_Border/TokenBorderCircle_03_Regular_Green_400x400.webm`,
+                        '004': `${prefix}/jb2a_patreon/Library/Generic/Token_Border/TokenBorderCircle_04_Regular_Green_400x400.webm`,
+                        '005': `${prefix}/jb2a_patreon/Library/Generic/Token_Border/TokenBorderCircle_05_Regular_Green_400x400.webm`,
+                        '006': `${prefix}/jb2a_patreon/Library/Generic/Token_Border/TokenBorderCircle_06_Regular_Green_400x400.webm`,
+                        '007': `${prefix}/jb2a_patreon/Library/Generic/Token_Border/TokenBorderCircle_07_Regular_Green_400x400.webm`,
+                        '008': `${prefix}/jb2a_patreon/Library/Generic/Token_Border/TokenBorderCircle_08_Regular_Green_400x400.webm`,
+                        '009': `${prefix}/jb2a_patreon/Library/Generic/Token_Border/TokenBorderCircle_09_Regular_Green_400x400.webm`,
+                        '010': `${prefix}/jb2a_patreon/Library/Generic/Token_Border/TokenBorderCircle_10_Regular_Green_400x400.webm`,
+                        '011': `${prefix}/jb2a_patreon/Library/Generic/Token_Border/TokenBorderCircle_11_Regular_Green_400x400.webm`,
+                        '012': `${prefix}/jb2a_patreon/Library/Generic/Token_Border/TokenBorderCircle_12_Regular_Green_400x400.webm`,
+                        '013': `${prefix}/jb2a_patreon/Library/Generic/Token_Border/TokenBorderCircle_13_Regular_Green_400x400.webm`
                     },
                     orange: {
                         '001': `${prefix}/jb2a_patreon/Library/Generic/Token_Border/TokenBorderCircle_01_Regular_Orange_400x400.webm`,
@@ -18811,6 +19270,21 @@ export async function jb2aPatreonDatabase(prefix) {
                         '011': `${prefix}/jb2a_patreon/Library/Generic/Token_Border/TokenBorderCircleSpin_11_Regular_Blue_400x400.webm`,
                         '012': `${prefix}/jb2a_patreon/Library/Generic/Token_Border/TokenBorderCircleSpin_12_Regular_Blue_400x400.webm`,
                         '013': `${prefix}/jb2a_patreon/Library/Generic/Token_Border/TokenBorderCircleSpin_13_Regular_Blue_400x400.webm`
+                    },
+                    green: {
+                        '001': `${prefix}/jb2a_patreon/Library/Generic/Token_Border/TokenBorderCircleSpin_01_Regular_Green_400x400.webm`,
+                        '002': `${prefix}/jb2a_patreon/Library/Generic/Token_Border/TokenBorderCircleSpin_02_Regular_Green_400x400.webm`,
+                        '003': `${prefix}/jb2a_patreon/Library/Generic/Token_Border/TokenBorderCircleSpin_03_Regular_Green_400x400.webm`,
+                        '004': `${prefix}/jb2a_patreon/Library/Generic/Token_Border/TokenBorderCircleSpin_04_Regular_Green_400x400.webm`,
+                        '005': `${prefix}/jb2a_patreon/Library/Generic/Token_Border/TokenBorderCircleSpin_05_Regular_Green_400x400.webm`,
+                        '006': `${prefix}/jb2a_patreon/Library/Generic/Token_Border/TokenBorderCircleSpin_06_Regular_Green_400x400.webm`,
+                        '007': `${prefix}/jb2a_patreon/Library/Generic/Token_Border/TokenBorderCircleSpin_07_Regular_Green_400x400.webm`,
+                        '008': `${prefix}/jb2a_patreon/Library/Generic/Token_Border/TokenBorderCircleSpin_08_Regular_Green_400x400.webm`,
+                        '009': `${prefix}/jb2a_patreon/Library/Generic/Token_Border/TokenBorderCircleSpin_09_Regular_Green_400x400.webm`,
+                        '010': `${prefix}/jb2a_patreon/Library/Generic/Token_Border/TokenBorderCircleSpin_10_Regular_Green_400x400.webm`,
+                        '011': `${prefix}/jb2a_patreon/Library/Generic/Token_Border/TokenBorderCircleSpin_11_Regular_Green_400x400.webm`,
+                        '012': `${prefix}/jb2a_patreon/Library/Generic/Token_Border/TokenBorderCircleSpin_12_Regular_Green_400x400.webm`,
+                        '013': `${prefix}/jb2a_patreon/Library/Generic/Token_Border/TokenBorderCircleSpin_13_Regular_Green_400x400.webm`
                     },
                     orange: {
                         '001': `${prefix}/jb2a_patreon/Library/Generic/Token_Border/TokenBorderCircleSpin_01_Regular_Orange_400x400.webm`,
@@ -19971,6 +20445,303 @@ export async function jb2aPatreonDatabase(prefix) {
                             `${prefix}/jb2a_patreon/Library/Generic/Nature/VineElementalLoop03_02_Dark_Orange_300x300.webm`,
                             `${prefix}/jb2a_patreon/Library/Generic/Nature/VineElementalLoop03_03_Dark_Orange_300x300.webm`
                         ]
+                    }
+                }
+            }
+        }
+    }
+
+    patreonDatabase.volley_of_projectiles_Circle = {
+        _metadata: {
+            name: "Volley of Projectiles - Circle"
+        },
+        "arrow": {
+            "001": {
+                "001": {
+                    blue: {
+                        "10ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Projectile/VolleyProjectileArrow001_001_01_Circle_Blue_10ft_500x500.webm`,
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Projectile/VolleyProjectileArrow001_001_01_Circle_Blue_15ft_700x700.webm`,
+                        "20ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Projectile/VolleyProjectileArrow001_001_01_Circle_Blue_20ft_900x900.webm`
+                    },
+                    bluepurple: {
+                        "10ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Projectile/VolleyProjectileArrow001_001_01_Circle_BluePurple_10ft_500x500.webm`,
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Projectile/VolleyProjectileArrow001_001_01_Circle_BluePurple_15ft_700x700.webm`,
+                        "20ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Projectile/VolleyProjectileArrow001_001_01_Circle_BluePurple_20ft_900x900.webm`
+                    },
+                    blueteal: {
+                        "10ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Projectile/VolleyProjectileArrow001_001_01_Circle_BlueTeal_10ft_500x500.webm`,
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Projectile/VolleyProjectileArrow001_001_01_Circle_BlueTeal_15ft_700x700.webm`,
+                        "20ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Projectile/VolleyProjectileArrow001_001_01_Circle_BlueTeal_20ft_900x900.webm`
+                    },
+                    greenpurple: {
+                        "10ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Projectile/VolleyProjectileArrow001_001_01_Circle_GreenPurple_10ft_500x500.webm`,
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Projectile/VolleyProjectileArrow001_001_01_Circle_GreenPurple_15ft_700x700.webm`,
+                        "20ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Projectile/VolleyProjectileArrow001_001_01_Circle_GreenPurple_20ft_900x900.webm`
+                    },
+                    greenyellow: {
+                        "10ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Projectile/VolleyProjectileArrow001_001_01_Circle_GreenYellow_10ft_500x500.webm`,
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Projectile/VolleyProjectileArrow001_001_01_Circle_GreenYellow_15ft_700x700.webm`,
+                        "20ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Projectile/VolleyProjectileArrow001_001_01_Circle_GreenYellow_20ft_900x900.webm`
+                    },
+                    orangeyellow: {
+                        "10ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Projectile/VolleyProjectileArrow001_001_01_Circle_OrangeYellow_10ft_500x500.webm`,
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Projectile/VolleyProjectileArrow001_001_01_Circle_OrangeYellow_15ft_700x700.webm`,
+                        "20ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Projectile/VolleyProjectileArrow001_001_01_Circle_OrangeYellow_20ft_900x900.webm`
+                    },
+                    pinkyellow: {
+                        "10ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Projectile/VolleyProjectileArrow001_001_01_Circle_PinkYellow_10ft_500x500.webm`,
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Projectile/VolleyProjectileArrow001_001_01_Circle_PinkYellow_15ft_700x700.webm`,
+                        "20ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Projectile/VolleyProjectileArrow001_001_01_Circle_PinkYellow_20ft_900x900.webm`
+                    },
+                    purplered: {
+                        "10ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Projectile/VolleyProjectileArrow001_001_01_Circle_PurpleRed_10ft_500x500.webm`,
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Projectile/VolleyProjectileArrow001_001_01_Circle_PurpleRed_15ft_700x700.webm`,
+                        "20ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Projectile/VolleyProjectileArrow001_001_01_Circle_PurpleRed_20ft_900x900.webm`
+                    },
+                    white: {
+                        "10ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Projectile/VolleyProjectileArrow001_001_01_Circle_White_10ft_500x500.webm`,
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Projectile/VolleyProjectileArrow001_001_01_Circle_White_15ft_700x700.webm`,
+                        "20ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Circle/Projectile/VolleyProjectileArrow001_001_01_Circle_White_20ft_900x900.webm`
+                    },
+                    
+                }
+            }
+        }
+    }
+    patreonDatabase.volley_of_projectiles_Cone5e = {
+        _metadata: {
+            name: "Volley of Projectiles - Cone 5e"
+        },
+        _template: "cone100",
+
+        "arrow": {
+            "001": {
+                "001": {
+                    blue: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_001_01_Cone5e_Blue_15ft_500x500.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_001_01_Cone5e_Blue_30ft_800x800.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_001_01_Cone5e_Blue_60ft_1400x1400.webm`
+                    },
+                    bluepurple: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_001_01_Cone5e_BluePurple_15ft_500x500.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_001_01_Cone5e_BluePurple_30ft_800x800.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_001_01_Cone5e_BluePurple_60ft_1400x1400.webm`
+                    },
+                    blueteal: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_001_01_Cone5e_BlueTeal_15ft_500x500.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_001_01_Cone5e_BlueTeal_30ft_800x800.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_001_01_Cone5e_BlueTeal_60ft_1400x1400.webm`
+                    },
+                    greenpurple: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_001_01_Cone5e_GreenPurple_15ft_500x500.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_001_01_Cone5e_GreenPurple_30ft_800x800.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_001_01_Cone5e_GreenPurple_60ft_1400x1400.webm`
+                    },
+                    greenyellow: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_001_01_Cone5e_GreenYellow_15ft_500x500.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_001_01_Cone5e_GreenYellow_30ft_800x800.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_001_01_Cone5e_GreenYellow_60ft_1400x1400.webm`
+                    },
+                    orangeyellow: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_001_01_Cone5e_OrangeYellow_15ft_500x500.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_001_01_Cone5e_OrangeYellow_30ft_800x800.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_001_01_Cone5e_OrangeYellow_60ft_1400x1400.webm`
+                    },
+                    pinkyellow: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_001_01_Cone5e_PinkYellow_15ft_500x500.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_001_01_Cone5e_PinkYellow_30ft_800x800.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_001_01_Cone5e_PinkYellow_60ft_1400x1400.webm`
+                    },
+                    purplered: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_001_01_Cone5e_PurpleRed_15ft_500x500.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_001_01_Cone5e_PurpleRed_30ft_800x800.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_001_01_Cone5e_PurpleRed_60ft_1400x1400.webm`
+                    },
+                    white: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_001_01_Cone5e_White_15ft_500x500.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_001_01_Cone5e_White_30ft_800x800.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_001_01_Cone5e_White_60ft_1400x1400.webm`
+                    },
+                    
+                }
+            }
+        }
+    }
+    patreonDatabase.volley_of_projectiles_ConePF2e = {
+        _metadata: {
+            name: "Volley of Projectiles - Cone PF2e"
+        },
+        _template: "cone100",
+        "arrow": {
+            "001": {
+                "001": {
+                    blue: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_001_01_ConePF2e_Blue_15ft_500x600.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_001_01_ConePF2e_Blue_30ft_800x1000.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_001_01_ConePF2e_Blue_60ft_1400x1800.webm`
+                    },
+                    bluepurple: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_001_01_ConePF2e_BluePurple_15ft_500x600.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_001_01_ConePF2e_BluePurple_30ft_800x1000.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_001_01_ConePF2e_BluePurple_60ft_1400x1800.webm`
+                    },
+                    blueteal: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_001_01_ConePF2e_BlueTeal_15ft_500x600.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_001_01_ConePF2e_BlueTeal_30ft_800x1000.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_001_01_ConePF2e_BlueTeal_60ft_1400x1800.webm`
+                    },
+                    greenpurple: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_001_01_ConePF2e_GreenPurple_15ft_500x600.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_001_01_ConePF2e_GreenPurple_30ft_800x1000.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_001_01_ConePF2e_GreenPurple_60ft_1400x1800.webm`
+                    },
+                    greenyellow: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_001_01_ConePF2e_GreenYellow_15ft_500x600.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_001_01_ConePF2e_GreenYellow_30ft_800x1000.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_001_01_ConePF2e_GreenYellow_60ft_1400x1800.webm`
+                    },
+                    orangeyellow: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_001_01_ConePF2e_OrangeYellow_15ft_500x600.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_001_01_ConePF2e_OrangeYellow_30ft_800x1000.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_001_01_ConePF2e_OrangeYellow_60ft_1400x1800.webm`
+                    },
+                    pinkyellow: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_001_01_ConePF2e_PinkYellow_15ft_500x600.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_001_01_ConePF2e_PinkYellow_30ft_800x1000.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_001_01_ConePF2e_PinkYellow_60ft_1400x1800.webm`
+                    },
+                    purplered: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_001_01_ConePF2e_PurpleRed_15ft_500x600.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_001_01_ConePF2e_PurpleRed_30ft_800x1000.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_001_01_ConePF2e_PurpleRed_60ft_1400x1800.webm`
+                    },
+                    white: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_001_01_ConePF2e_White_15ft_500x600.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_001_01_ConePF2e_White_30ft_800x1000.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_001_01_ConePF2e_White_60ft_1400x1800.webm`
+                    }
+                }
+            }
+        }
+    }
+    patreonDatabase.volley_of_projectiles_Line = {
+        _metadata: {
+            name: "Volley of Projectiles - Line"
+        },
+        _template: 'ranged',
+
+        "bullet": {
+            "001": {
+                "001": {
+                    blue: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_001_01_Line_Blue_15ft_1000x400.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_001_01_Line_Blue_30ft_1600x400.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_001_01_Line_Blue_60ft_2800x400.webm`,
+                        "90ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_001_01_Line_Blue_90ft_4000x400.webm`
+                    },
+                    bluepurple: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_001_01_Line_BluePurple_15ft_1000x400.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_001_01_Line_BluePurple_30ft_1600x400.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_001_01_Line_BluePurple_60ft_2800x400.webm`,
+                        "90ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_001_01_Line_BluePurple_90ft_4000x400.webm`
+                    },
+                    blueteal: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_001_01_Line_BlueTeal_15ft_1000x400.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_001_01_Line_BlueTeal_30ft_1600x400.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_001_01_Line_BlueTeal_60ft_2800x400.webm`,
+                        "90ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_001_01_Line_BlueTeal_90ft_4000x400.webm`
+                    },
+                    greenpurple: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_001_01_Line_GreenPurple_15ft_1000x400.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_001_01_Line_GreenPurple_30ft_1600x400.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_001_01_Line_GreenPurple_60ft_2800x400.webm`,
+                        "90ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_001_01_Line_GreenPurple_90ft_4000x400.webm`
+                    },
+                    greenyellow: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_001_01_Line_GreenYellow_15ft_1000x400.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_001_01_Line_GreenYellow_30ft_1600x400.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_001_01_Line_GreenYellow_60ft_2800x400.webm`,
+                        "90ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_001_01_Line_GreenYellow_90ft_4000x400.webm`
+                    },
+                    orangeyellow: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_001_01_Line_OrangeYellow_15ft_1000x400.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_001_01_Line_OrangeYellow_30ft_1600x400.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_001_01_Line_OrangeYellow_60ft_2800x400.webm`,
+                        "90ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_001_01_Line_OrangeYellow_90ft_4000x400.webm`
+                    },
+                    pinkyellow: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_001_01_Line_PinkYellow_15ft_1000x400.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_001_01_Line_PinkYellow_30ft_1600x400.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_001_01_Line_PinkYellow_60ft_2800x400.webm`,
+                        "90ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_001_01_Line_PinkYellow_90ft_4000x400.webm`
+                    },
+                    purplered: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_001_01_Line_PurpleRed_15ft_1000x400.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_001_01_Line_PurpleRed_30ft_1600x400.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_001_01_Line_PurpleRed_60ft_2800x400.webm`,
+                        "90ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_001_01_Line_PurpleRed_90ft_4000x400.webm`
+                    },
+                    white: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_001_01_Line_White_15ft_1000x400.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_001_01_Line_White_30ft_1600x400.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_001_01_Line_White_60ft_2800x400.webm`,
+                        "90ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_001_01_Line_White_90ft_4000x400.webm`
+                    }
+                },
+                "002": {
+                    blue: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_002_01_Line_Blue_15ft_1000x400.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_002_01_Line_Blue_30ft_1600x400.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_002_01_Line_Blue_60ft_2800x400.webm`,
+                        "90ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_002_01_Line_Blue_90ft_4000x400.webm`
+                    },
+                    bluepurple: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_002_01_Line_BluePurple_15ft_1000x400.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_002_01_Line_BluePurple_30ft_1600x400.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_002_01_Line_BluePurple_60ft_2800x400.webm`,
+                        "90ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_002_01_Line_BluePurple_90ft_4000x400.webm`
+                    },
+                    blueteal: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_002_01_Line_BlueTeal_15ft_1000x400.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_002_01_Line_BlueTeal_30ft_1600x400.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_002_01_Line_BlueTeal_60ft_2800x400.webm`,
+                        "90ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_002_01_Line_BlueTeal_90ft_4000x400.webm`
+                    },
+                    greenpurple: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_002_01_Line_GreenPurple_15ft_1000x400.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_002_01_Line_GreenPurple_30ft_1600x400.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_002_01_Line_GreenPurple_60ft_2800x400.webm`,
+                        "90ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_002_01_Line_GreenPurple_90ft_4000x400.webm`
+                    },
+                    greenyellow: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_002_01_Line_GreenYellow_15ft_1000x400.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_002_01_Line_GreenYellow_30ft_1600x400.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_002_01_Line_GreenYellow_60ft_2800x400.webm`,
+                        "90ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_002_01_Line_GreenYellow_90ft_4000x400.webm`
+                    },
+                    orangeyellow: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_002_01_Line_OrangeYellow_15ft_1000x400.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_002_01_Line_OrangeYellow_30ft_1600x400.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_002_01_Line_OrangeYellow_60ft_2800x400.webm`,
+                        "90ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_002_01_Line_OrangeYellow_90ft_4000x400.webm`
+                    },
+                    pinkyellow: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_002_01_Line_PinkYellow_15ft_1000x400.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_002_01_Line_PinkYellow_30ft_1600x400.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_002_01_Line_PinkYellow_60ft_2800x400.webm`,
+                        "90ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_002_01_Line_PinkYellow_90ft_4000x400.webm`
+                    },
+                    purplered: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_002_01_Line_PurpleRed_15ft_1000x400.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_002_01_Line_PurpleRed_30ft_1600x400.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_002_01_Line_PurpleRed_60ft_2800x400.webm`,
+                        "90ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_002_01_Line_PurpleRed_90ft_4000x400.webm`
+                    },
+                    white: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_002_01_Line_White_15ft_1000x400.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_002_01_Line_White_30ft_1600x400.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_002_01_Line_White_60ft_2800x400.webm`,
+                        "90ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_002_01_Line_White_90ft_4000x400.webm`
                     }
                 }
             }

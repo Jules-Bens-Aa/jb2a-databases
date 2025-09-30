@@ -16,6 +16,29 @@ export async function jb2aFreeDatabase(prefix) {
         ray: [100, 0, 0],
         side_impact: [200, 100, 0]
     }
+    freeDatabase.ambient_fog = {            
+            "001": {
+                complete: {
+                    _markers: {
+                        loop: { start: 3000, end: 5958 }
+                    },
+                    small: {
+                        white: `${prefix}/JB2A_DnD5e/Library/Generic/Fog/AmbientFog001_001_Complete_White_500x500.webm`
+                    },
+                    large: {
+                        white: `${prefix}/JB2A_DnD5e/Library/Generic/Fog/AmbientFog001_001_Complete_White_1200x1200.webm`
+                    }
+                },
+                loop: {
+                    small: {
+                        white: `${prefix}/JB2A_DnD5e/Library/Generic/Fog/AmbientFog001_001_Loop_White_500x500.webm`
+                    },
+                    large: {
+                        white: `${prefix}/JB2A_DnD5e/Library/Generic/Fog/AmbientFog001_001_Loop_White_1200x1200.webm`
+                    }
+                }
+            }
+    }
     freeDatabase.antilife_shell = {
         blue_no_circle: `${prefix}/JB2A_DnD5e/Library/5th_Level/Antilife_Shell/AntilifeShell_01_Blue_NoCircle_400x400.webm`,
         blue_with_circle: `${prefix}/JB2A_DnD5e/Library/5th_Level/Antilife_Shell/AntilifeShell_01_Blue_Circle_400x400.webm`
@@ -875,8 +898,37 @@ export async function jb2aFreeDatabase(prefix) {
                 },
                 "020": {
                     green: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Boon01/ConditionBoon01_020_Green_600x600.webm`
+                },
+                "021": {
+                    green: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Boon01/ConditionBoon01_021_Green_600x600.webm`
+                },
+                "022": {
+                    green: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Boon01/ConditionBoon01_022_Green_600x600.webm`
+                },
+                "023": {
+                    green: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Boon01/ConditionBoon01_023_Green_600x600.webm`
+                },
+                "024": {
+                    green: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Boon01/ConditionBoon01_024_Green_600x600.webm`
                 }
 
+            },
+            "02": {
+                "001": {
+                    refraction: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Boon02/ConditionBoon02_001_Refraction_600x600.webm`                   
+                },
+                "002": {
+                    refraction: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Boon02/ConditionBoon02_002_Refraction_600x600.webm`                
+                },
+                "003": {
+                    refraction: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Boon02/ConditionBoon02_003_Refraction_600x600.webm`                  
+                },
+                "004": {
+                    refraction: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Boon02/ConditionBoon02_004_Refraction_600x600.webm`                  
+                },
+                "005": {
+                    refraction: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Boon02/ConditionBoon02_005_Refraction_600x600.webm`                  
+                }
             }
         },
         curse: {
@@ -940,6 +992,18 @@ export async function jb2aFreeDatabase(prefix) {
                 },
                 "020": {
                     red: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Curse01/ConditionCurse01_020_Red_600x600.webm`,
+                },
+                "021": {
+                    red: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Curse01/ConditionCurse01_021_Red_600x600.webm`,
+                },
+                "022": {
+                    red: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Curse01/ConditionCurse01_022_Red_600x600.webm`,
+                },
+                "023": {
+                    red: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Curse01/ConditionCurse01_023_Red_600x600.webm`,
+                },
+                "024": {
+                    red: `${prefix}/JB2A_DnD5e/Library/Generic/Conditions/Curse01/ConditionCurse01_024_Red_600x600.webm`,
                 }
             }
         }
@@ -3538,15 +3602,15 @@ export async function jb2aFreeDatabase(prefix) {
     freeDatabase.on_token_buff = {
             '001': {
                 '001': {
-                    blue: `${prefix}/JB2A_DnD5e/Library/Generic/On_Token/Buff/Ontoken_Buff001_001_Blue_400x400.webm`,
-                    bluepurple: `${prefix}/JB2A_DnD5e/Library/Generic/On_Token/Buff/Ontoken_Buff001_001_BluePurple_400x400.webm`,
-                    blueteal: `${prefix}/JB2A_DnD5e/Library/Generic/On_Token/Buff/Ontoken_Buff001_001_BlueTeal_400x400.webm`,
-                    greenpurple: `${prefix}/JB2A_DnD5e/Library/Generic/On_Token/Buff/Ontoken_Buff001_001_GreenPurple_400x400.webm`,
-                    greenyellow: `${prefix}/JB2A_DnD5e/Library/Generic/On_Token/Buff/Ontoken_Buff001_001_GreenYellow_400x400.webm`,
-                    orangeyellow: `${prefix}/JB2A_DnD5e/Library/Generic/On_Token/Buff/Ontoken_Buff001_001_OrangeYellow_400x400.webm`,
-                    pinkyellow: `${prefix}/JB2A_DnD5e/Library/Generic/On_Token/Buff/Ontoken_Buff001_001_PinkYellow_400x400.webm`,
-                    purplered: `${prefix}/JB2A_DnD5e/Library/Generic/On_Token/Buff/Ontoken_Buff001_001_PurpleRed_400x400.webm`,
-                    white: `${prefix}/JB2A_DnD5e/Library/Generic/On_Token/Buff/Ontoken_Buff001_001_White_400x400.webm`
+                    blue:           `${prefix}/JB2A_DnD5e/Library/Generic/On_Token/Buff/Ontoken_Buff001_001_Blue_400x400.webm`,
+                    bluepurple:     `${prefix}/JB2A_DnD5e/Library/Generic/On_Token/Buff/Ontoken_Buff001_001_BluePurple_400x400.webm`,
+                    blueteal:       `${prefix}/JB2A_DnD5e/Library/Generic/On_Token/Buff/Ontoken_Buff001_001_BlueTeal_400x400.webm`,
+                    greenpurple:    `${prefix}/JB2A_DnD5e/Library/Generic/On_Token/Buff/Ontoken_Buff001_001_GreenPurple_400x400.webm`,
+                    greenyellow:    `${prefix}/JB2A_DnD5e/Library/Generic/On_Token/Buff/Ontoken_Buff001_001_GreenYellow_400x400.webm`,
+                    orangeyellow:   `${prefix}/JB2A_DnD5e/Library/Generic/On_Token/Buff/Ontoken_Buff001_001_OrangeYellow_400x400.webm`,
+                    pinkyellow:     `${prefix}/JB2A_DnD5e/Library/Generic/On_Token/Buff/Ontoken_Buff001_001_PinkYellow_400x400.webm`,
+                    purplered:      `${prefix}/JB2A_DnD5e/Library/Generic/On_Token/Buff/Ontoken_Buff001_001_PurpleRed_400x400.webm`,
+                    white:          `${prefix}/JB2A_DnD5e/Library/Generic/On_Token/Buff/Ontoken_Buff001_001_White_400x400.webm`
                 }
             }            
     }
@@ -5261,7 +5325,67 @@ export async function jb2aFreeDatabase(prefix) {
                         }
                     }
                 }
-            }
+            },
+            "04": {
+                inward: {
+                    "001": {
+                        complete: {
+                            _markers: {
+                                loop: { start: 3000, end: 5967 }
+                            },
+                            combined: {
+                                refraction: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura004/Aura004_Inward_Complete_001_Refraction_1400x1400.webm`
+                            },
+                            part01: {
+                                refraction: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura004/Aura004Part01_Inward_Complete_001_Refraction_1400x1400.webm`
+                            },
+                            part02: {
+                                refraction: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura004/Aura004Part02_Inward_Complete_001_Refraction_1000x1000.webm`
+                            }
+                        },
+                        loop: {
+                            combined: {
+                                refraction: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura004/Aura004_Inward_Loop_001_Refraction_1400x1400.webm`
+                            },
+                            part01: {
+                                refraction: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura004/Aura004Part01_Inward_Loop_001_Refraction_1400x1400.webm`
+                            },
+                            part02: {
+                                refraction: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura004/Aura004Part02_Inward_Loop_001_Refraction_1000x1000.webm`
+                            }
+                        }
+                    }
+                },
+                outward: {
+                    "001": {
+                        complete: {
+                            _markers: {
+                                loop: { start: 3000, end: 5967 }
+                            },
+                            combined: {
+                                refraction: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura004/Aura004_Outward_Complete_001_Refraction_1400x1400.webm`
+                            },
+                            part01: {
+                                refraction: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura004/Aura004Part01_Outward_Complete_001_Refraction_1400x1400.webm`
+                            },
+                            part02: {
+                                refraction: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura004/Aura004Part02_Outward_Complete_001_Refraction_1000x1000.webm`
+                            }
+                        },
+                        loop: {
+                            combined: {
+                                refraction: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura004/Aura004_Outward_Loop_001_Refraction_1400x1400.webm`
+                            },
+                            part01: {
+                                refraction: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura004/Aura004Part01_Outward_Loop_001_Refraction_1400x1400.webm`
+                            },
+                            part02: {
+                                refraction: `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Aura/Aura004/Aura004Part02_Outward_Loop_001_Refraction_1000x1000.webm`
+                            }
+                        }
+                    }
+                },
+                }
         },
         lightning: {
             "01": {
@@ -5839,6 +5963,73 @@ freeDatabase.template_line_piercing = {
                 }
             }
         }
+    }
+
+    freeDatabase.volley_of_projectiles_Circle = {
+            "arrow": {
+                "001": {
+                    "001": {
+                        orangeyellow: {
+                            "10ft": `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Projectile/VolleyProjectileArrow001_001_01_Circle_OrangeYellow_10ft_500x500.webm`,
+                            "15ft": `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Projectile/VolleyProjectileArrow001_001_01_Circle_OrangeYellow_15ft_700x700.webm`,
+                            "20ft": `${prefix}/JB2A_DnD5e/Library/Generic/Template/Circle/Projectile/VolleyProjectileArrow001_001_01_Circle_OrangeYellow_20ft_900x900.webm`
+                        },                        
+                    }
+                }
+            }
+    }
+    freeDatabase.volley_of_projectiles_Cone5e = {
+            _template: "cone100",
+    
+            "arrow": {
+                "001": {
+                    "001": {
+                        orangeyellow: {
+                            "15ft": `${prefix}/JB2A_DnD5e/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_001_01_Cone5e_OrangeYellow_15ft_500x500.webm`,
+                            "30ft": `${prefix}/JB2A_DnD5e/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_001_01_Cone5e_OrangeYellow_30ft_800x800.webm`,
+                            "60ft": `${prefix}/JB2A_DnD5e/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_001_01_Cone5e_OrangeYellow_60ft_1400x1400.webm`
+                        }                        
+                    }
+                }
+            }
+    }
+    freeDatabase.volley_of_projectiles_ConePF2e = {
+            _template: "cone100",
+            "arrow": {
+                "001": {
+                    "001": {
+                        orangeyellow: {
+                            "15ft": `${prefix}/JB2A_DnD5e/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_001_01_ConePF2e_OrangeYellow_15ft_500x600.webm`,
+                            "30ft": `${prefix}/JB2A_DnD5e/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_001_01_ConePF2e_OrangeYellow_30ft_800x1000.webm`,
+                            "60ft": `${prefix}/JB2A_DnD5e/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_001_01_ConePF2e_OrangeYellow_60ft_1400x1800.webm`
+                        }
+                    }
+                }
+            }
+    }
+    freeDatabase.volley_of_projectiles_Line = {
+            _template: 'ranged',
+    
+            "bullet": {
+                "001": {
+                    "001": {
+                        orangeyellow: {
+                            "15ft": `${prefix}/JB2A_DnD5e/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_001_01_Line_OrangeYellow_15ft_1000x400.webm`,
+                            "30ft": `${prefix}/JB2A_DnD5e/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_001_01_Line_OrangeYellow_30ft_1600x400.webm`,
+                            "60ft": `${prefix}/JB2A_DnD5e/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_001_01_Line_OrangeYellow_60ft_2800x400.webm`,
+                            "90ft": `${prefix}/JB2A_DnD5e/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_001_01_Line_OrangeYellow_90ft_4000x400.webm`
+                        }
+                    },
+                    "002": {
+                        orangeyellow: {
+                            "15ft": `${prefix}/JB2A_DnD5e/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_002_01_Line_OrangeYellow_15ft_1000x400.webm`,
+                            "30ft": `${prefix}/JB2A_DnD5e/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_002_01_Line_OrangeYellow_30ft_1600x400.webm`,
+                            "60ft": `${prefix}/JB2A_DnD5e/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_002_01_Line_OrangeYellow_60ft_2800x400.webm`,
+                            "90ft": `${prefix}/JB2A_DnD5e/Library/Generic/Template/Line/Projectile/VolleyProjectileBullet001_002_01_Line_OrangeYellow_90ft_4000x400.webm`
+                        }
+                    }
+                }
+            }
     }
     freeDatabase.wall_of_fire = {
         '100x100': {
