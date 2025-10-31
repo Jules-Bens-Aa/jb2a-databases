@@ -18,8 +18,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.ambient_fog = {
         _metadata: {
-            name: "Ambient Fog",
-            new: true
+            name: "Ambient Fog"
         },
         
         "001": {
@@ -2574,21 +2573,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.condition = {
         _metadata: {
-            name: "Conditions",
-            new: [
-                "boon.01.021*",
-                "boon.01.022*",
-                "boon.01.023*",
-                "boon.01.024*",
-                "boon.02.021*",
-                "boon.02.022*",
-                "boon.02.023*",
-                "boon.02.024*",
-                "curse.01.021*",
-                "curse.01.022*",
-                "curse.01.023*",
-                "curse.01.024*",
-            ]
+            name: "Conditions"
         },
         boon: {
             "01": {
@@ -10249,6 +10234,120 @@ export async function jb2aPatreonDatabase(prefix) {
                 }
             }
     }
+    patreonDatabase.markers_scifi = {
+            _metadata: {
+                name: "Markers - Sci-Fi",
+                new: true
+            },
+            "001": {
+                complete: {
+                    _markers: {
+                        loop: { start: 1200, end: 4200 }
+                    },
+                    "001": {
+                        blue: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiComplete001_001_Blue_600x600.webm`,
+                        bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiComplete001_001_BluePurple_600x600.webm`,
+                        blueteal: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiComplete001_001_BlueTeal_600x600.webm`,
+                        greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiComplete001_001_GreenPurple_600x600.webm`,
+                        greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiComplete001_001_Greenyellow_600x600.webm`,
+                        orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiComplete001_001_OrangeYellow_600x600.webm`,
+                        pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiComplete001_001_PinkYellow_600x600.webm`,
+                        purplered: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiComplete001_001_PurpleRed_600x600.webm`,
+                        white: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiComplete001_001_White_600x600.webm`
+                    },
+                    "002": {
+                        blue: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiComplete001_002_Blue_600x600.webm`,
+                        bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiComplete001_002_BluePurple_600x600.webm`,
+                        blueteal: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiComplete001_002_BlueTeal_600x600.webm`,
+                        greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiComplete001_002_GreenPurple_600x600.webm`,
+                        greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiComplete001_002_Greenyellow_600x600.webm`,
+                        orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiComplete001_002_OrangeYellow_600x600.webm`,
+                        pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiComplete001_002_PinkYellow_600x600.webm`,
+                        purplered: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiComplete001_002_PurpleRed_600x600.webm`,
+                        white: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiComplete001_002_White_600x600.webm`
+                    },
+                    "003": {
+                        blue: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiComplete001_003_Blue_600x600.webm`,
+                        bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiComplete001_003_BluePurple_600x600.webm`,
+                        blueteal: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiComplete001_003_BlueTeal_600x600.webm`,
+                        greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiComplete001_003_GreenPurple_600x600.webm`,
+                        greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiComplete001_003_Greenyellow_600x600.webm`,
+                        orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiComplete001_003_OrangeYellow_600x600.webm`,
+                        pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiComplete001_003_PinkYellow_600x600.webm`,
+                        purplered: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiComplete001_003_PurpleRed_600x600.webm`,
+                        white: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiComplete001_003_White_600x600.webm`
+                    }
+
+                },
+                loop: {
+                    "001": {
+                        blue: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiLoop001_001_Blue_600x600.webm`,
+                        bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiLoop001_001_BluePurple_600x600.webm`,
+                        blueteal: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiLoop001_001_BlueTeal_600x600.webm`,
+                        greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiLoop001_001_GreenPurple_600x600.webm`,
+                        greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiLoop001_001_Greenyellow_600x600.webm`,
+                        orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiLoop001_001_OrangeYellow_600x600.webm`,
+                        pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiLoop001_001_PinkYellow_600x600.webm`,
+                        purplered: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiLoop001_001_PurpleRed_600x600.webm`,
+                        white: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiLoop001_001_White_600x600.webm`
+                    },
+                    "002": {
+                        blue: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiLoop001_002_Blue_600x600.webm`,
+                        bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiLoop001_002_BluePurple_600x600.webm`,
+                        blueteal: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiLoop001_002_BlueTeal_600x600.webm`,
+                        greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiLoop001_002_GreenPurple_600x600.webm`,
+                        greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiLoop001_002_Greenyellow_600x600.webm`,
+                        orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiLoop001_002_OrangeYellow_600x600.webm`,
+                        pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiLoop001_002_PinkYellow_600x600.webm`,
+                        purplered: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiLoop001_002_PurpleRed_600x600.webm`,
+                        white: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiLoop001_002_White_600x600.webm`
+                    },
+                    "003": {
+                        blue: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiLoop001_003_Blue_600x600.webm`,
+                        bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiLoop001_003_BluePurple_600x600.webm`,
+                        blueteal: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiLoop001_003_BlueTeal_600x600.webm`,
+                        greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiLoop001_003_GreenPurple_600x600.webm`,
+                        greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiLoop001_003_Greenyellow_600x600.webm`,
+                        orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiLoop001_003_OrangeYellow_600x600.webm`,
+                        pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiLoop001_003_PinkYellow_600x600.webm`,
+                        purplered: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiLoop001_003_PurpleRed_600x600.webm`,
+                        white: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiLoop001_003_White_600x600.webm`
+                    }
+                }
+            },
+            "002": {
+                complete: {
+                    _markers: {
+                        loop: { start: 1200, end: 4200 }
+                    },
+                    "001": {
+                        blue: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiComplete002_001_Blue_600x600.webm`,
+                        bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiComplete002_001_BluePurple_600x600.webm`,
+                        blueteal: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiComplete002_001_BlueTeal_600x600.webm`,
+                        greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiComplete002_001_GreenPurple_600x600.webm`,
+                        greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiComplete002_001_Greenyellow_600x600.webm`,
+                        orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiComplete002_001_OrangeYellow_600x600.webm`,
+                        pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiComplete002_001_PinkYellow_600x600.webm`,
+                        purplered: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiComplete002_001_PurpleRed_600x600.webm`,
+                        white: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiComplete002_001_White_600x600.webm`
+                    }
+                },
+                loop: {
+                    "001": {
+                        blue: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiLoop002_001_Blue_600x600.webm`,
+                        bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiLoop002_001_BluePurple_600x600.webm`,
+                        blueteal: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiLoop002_001_BlueTeal_600x600.webm`,
+                        greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiLoop002_001_GreenPurple_600x600.webm`,
+                        greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiLoop002_001_Greenyellow_600x600.webm`,
+                        orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiLoop002_001_OrangeYellow_600x600.webm`,
+                        pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiLoop002_001_PinkYellow_600x600.webm`,
+                        purplered: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiLoop002_001_PurpleRed_600x600.webm`,
+                        white: `${prefix}/jb2a_patreon/Library/Generic/Marker/SciFi/MarkerScifiLoop002_001_White_600x600.webm`
+                    }
+                }
+            }
+
+    }
     patreonDatabase.maul = {
             _metadata: {
                 name: "Maul",
@@ -11419,15 +11518,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.on_token_buff = {
         _metadata: {
-            name: "On Token Buff",
-            new: [
-                "001.004*",
-                "001.005*",
-                "002.004*",
-                "002.005*",
-                "003.004*",
-                "003.005*"
-            ]
+            name: "On Token Buff"
         },
         '001': {
             '001': {
@@ -11601,6 +11692,25 @@ export async function jb2aPatreonDatabase(prefix) {
             }
         }
         
+    }
+    patreonDatabase.on_token_target = {
+        _metadata: {
+            name: "On Token Target",
+            new: true
+        },
+        '001': {
+            '001': {
+                blue: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Target/Ontoken_Target001_001_Blue_500x500.webm`,
+                bluepurple: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Target/Ontoken_Target001_001_BluePurple_500x500.webm`,
+                blueteal: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Target/Ontoken_Target001_001_BlueTeal_500x500.webm`,
+                greenpurple: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Target/Ontoken_Target001_001_GreenPurple_500x500.webm`,
+                greenyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Target/Ontoken_Target001_001_GreenYellow_500x500.webm`,
+                orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Target/Ontoken_Target001_001_OrangeYellow_500x500.webm`,
+                pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Target/Ontoken_Target001_001_PinkYellow_500x500.webm`,
+                purplered: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Target/Ontoken_Target001_001_PurpleRed_500x500.webm`,
+                white: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Target/Ontoken_Target001_001_White_500x500.webm`
+            }
+        }
     }
     patreonDatabase.ouija_planchette = {
             _metadata: {
