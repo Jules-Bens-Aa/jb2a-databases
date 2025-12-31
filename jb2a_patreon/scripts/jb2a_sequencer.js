@@ -11694,11 +11694,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.on_token_target = {
         _metadata: {
-            name: "On Token Target",
-            new: [
-                "001.002*",
-                "001.003*"
-            ]
+            name: "On Token Target"
         },
         '001': {
             '001': {
@@ -17393,11 +17389,7 @@ export async function jb2aPatreonDatabase(prefix) {
 
             aura: {
                 _metadata: {
-                    name: "Template-Circle-Aura",
-                    new: [
-                        "04.inward.004*",
-                        "04.outward.004*"
-                    ]
+                    name: "Template-Circle-Aura"
                 },
                 "01": {
                     complete: {
@@ -19046,8 +19038,7 @@ export async function jb2aPatreonDatabase(prefix) {
             },
             smoke: {
                 _metadata: {
-                    name: "Template-Circle-Smoke",
-                    new: true
+                    name: "Template-Circle-Smoke"
                 },
                 "001": {
                     complete: {
@@ -19229,10 +19220,99 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.template_cone_5e = {
         _metadata: {
-            name: "Template - Cone 5e"
+            name: "Template - Cone 5e",
+            new: ["001.001*"]
         },
         _template: "cone100",
-
+        "001": {
+            "001": {
+                    blue: {
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/001/TemplateCone5e001_001_Blue_30ft_800x800.webm`
+                    },
+                    bluepurple: {
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/001/TemplateCone5e001_001_BluePurple_30ft_800x800.webm`
+                    },
+                    blueteal: {
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/001/TemplateCone5e001_001_BlueTeal_30ft_800x800.webm`
+                    },
+                    greenpurple: {
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/001/TemplateCone5e001_001_GreenPurple_30ft_800x800.webm`
+                    },
+                    greenyellow: {
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/001/TemplateCone5e001_001_GreenYellow_30ft_800x800.webm`
+                    },
+                    orangeyellow: {
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/001/TemplateCone5e001_001_OrangeYellow_30ft_800x800.webm`
+                    },
+                    pinkyellow: {
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/001/TemplateCone5e001_001_PinkYellow_30ft_800x800.webm`
+                    },
+                    purplered: {
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/001/TemplateCone5e001_001_PurpleRed_30ft_800x800.webm`
+                    },
+                    white: {
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/001/TemplateCone5e001_001_White_30ft_800x800.webm`
+                    }
+            },
+            "002": {
+                    blue: {
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/001/TemplateCone5e001_002_Blue_30ft_800x800.webm`
+                    },
+                    bluepurple: {
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/001/TemplateCone5e001_002_BluePurple_30ft_800x800.webm`
+                    },
+                    blueteal: {
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/001/TemplateCone5e001_002_BlueTeal_30ft_800x800.webm`
+                    },
+                    greenpurple: {
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/001/TemplateCone5e001_002_GreenPurple_30ft_800x800.webm`
+                    },
+                    greenyellow: {
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/001/TemplateCone5e001_002_GreenYellow_30ft_800x800.webm`
+                    },
+                    orangeyellow: {
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/001/TemplateCone5e001_002_OrangeYellow_30ft_800x800.webm`
+                    },
+                    pinkyellow: {
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/001/TemplateCone5e001_002_PinkYellow_30ft_800x800.webm`
+                    },
+                    purplered: {
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/001/TemplateCone5e001_002_PurpleRed_30ft_800x800.webm`
+                    },
+                    white: {
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/001/TemplateCone5e001_002_White_30ft_800x800.webm`
+                    }
+            },
+            "003": {
+                    blue: {
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/001/TemplateCone5e001_003_Blue_30ft_800x800.webm`
+                    },
+                    bluepurple: {
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/001/TemplateCone5e001_003_BluePurple_30ft_800x800.webm`
+                    },
+                    blueteal: {
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/001/TemplateCone5e001_003_BlueTeal_30ft_800x800.webm`
+                    },
+                    greenpurple: {
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/001/TemplateCone5e001_003_GreenPurple_30ft_800x800.webm`
+                    },
+                    greenyellow: {
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/001/TemplateCone5e001_003_GreenYellow_30ft_800x800.webm`
+                    },
+                    orangeyellow: {
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/001/TemplateCone5e001_003_OrangeYellow_30ft_800x800.webm`
+                    },
+                    pinkyellow: {
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/001/TemplateCone5e001_003_PinkYellow_30ft_800x800.webm`
+                    },
+                    purplered: {
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/001/TemplateCone5e001_003_PurpleRed_30ft_800x800.webm`
+                    },
+                    white: {
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/001/TemplateCone5e001_003_White_30ft_800x800.webm`
+                    }
+            },
+        },
         lightning: {
             "01": {
                 complete: {
@@ -19253,10 +19333,99 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.template_cone_PF2e = {
         _metadata: {
-            name: "Template - Cone PF2e"
+            name: "Template - Cone PF2e",
+            new: ["001.001*"]
         },
         _template: "cone100",
-
+        "001": {
+            "001": {
+                    blue: {
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/001/TemplateConePF2e001_001_Blue_30ft_800x1000.webm`
+                    },
+                    bluepurple: {
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/001/TemplateConePF2e001_001_BluePurple_30ft_800x1000.webm`
+                    },
+                    blueteal: {
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/001/TemplateConePF2e001_001_BlueTeal_30ft_800x1000.webm`
+                    },
+                    greenpurple: {
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/001/TemplateConePF2e001_001_GreenPurple_30ft_800x1000.webm`
+                    },
+                    greenyellow: {
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/001/TemplateConePF2e001_001_GreenYellow_30ft_800x1000.webm`
+                    },
+                    orangeyellow: {
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/001/TemplateConePF2e001_001_OrangeYellow_30ft_800x1000.webm`
+                    },
+                    pinkyellow: {
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/001/TemplateConePF2e001_001_PinkYellow_30ft_800x1000.webm`
+                    },
+                    purplered: {
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/001/TemplateConePF2e001_001_PurpleRed_30ft_800x1000.webm`
+                    },
+                    white: {
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/001/TemplateConePF2e001_001_White_30ft_800x1000.webm`
+                    }
+            },
+            "002": {
+                    blue: {
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/001/TemplateConePF2e001_002_Blue_30ft_800x1000.webm`
+                    },
+                    bluepurple: {
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/001/TemplateConePF2e001_002_BluePurple_30ft_800x1000.webm`
+                    },
+                    blueteal: {
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/001/TemplateConePF2e001_002_BlueTeal_30ft_800x1000.webm`
+                    },
+                    greenpurple: {
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/001/TemplateConePF2e001_002_GreenPurple_30ft_800x1000.webm`
+                    },
+                    greenyellow: {
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/001/TemplateConePF2e001_002_GreenYellow_30ft_800x1000.webm`
+                    },
+                    orangeyellow: {
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/001/TemplateConePF2e001_002_OrangeYellow_30ft_800x1000.webm`
+                    },
+                    pinkyellow: {
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/001/TemplateConePF2e001_002_PinkYellow_30ft_800x1000.webm`
+                    },
+                    purplered: {
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/001/TemplateConePF2e001_002_PurpleRed_30ft_800x1000.webm`
+                    },
+                    white: {
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/001/TemplateConePF2e001_002_White_30ft_800x1000.webm`
+                    }
+            },
+            "003": {
+                    blue: {
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/001/TemplateConePF2e001_003_Blue_30ft_800x1000.webm`
+                    },
+                    bluepurple: {
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/001/TemplateConePF2e001_003_BluePurple_30ft_800x1000.webm`
+                    },
+                    blueteal: {
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/001/TemplateConePF2e001_003_BlueTeal_30ft_800x1000.webm`
+                    },
+                    greenpurple: {
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/001/TemplateConePF2e001_003_GreenPurple_30ft_800x1000.webm`
+                    },
+                    greenyellow: {
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/001/TemplateConePF2e001_003_GreenYellow_30ft_800x1000.webm`
+                    },
+                    orangeyellow: {
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/001/TemplateConePF2e001_003_OrangeYellow_30ft_800x1000.webm`
+                    },
+                    pinkyellow: {
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/001/TemplateConePF2e001_003_PinkYellow_30ft_800x1000.webm`
+                    },
+                    purplered: {
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/001/TemplateConePF2e001_003_PurpleRed_30ft_800x1000.webm`
+                    },
+                    white: {
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/001/TemplateConePF2e001_003_White_30ft_800x1000.webm`
+                    }
+            },
+        },
         lightning: {
             "01": {
                 complete: {
