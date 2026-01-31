@@ -7865,6 +7865,42 @@ export async function jb2aPatreonDatabase(prefix) {
                 }
             }
     }
+    patreonDatabase.lava_spout = {
+        _metadata: {
+            name: "Lava Spout",
+            new: true
+        },
+        "001": {
+            "001": {
+                complete: {
+                _markers: {
+                    loop: { start: 1500, end: 4500 }
+                },
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Lava/Spout001/LavaSpoutComplete001_001_Blue_600x600.webm`,
+                    bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Lava/Spout001/LavaSpoutComplete001_001_BluePurple_600x600.webm`,
+                    blueteal: `${prefix}/jb2a_patreon/Library/Generic/Lava/Spout001/LavaSpoutComplete001_001_BlueTeal_600x600.webm`,
+                    greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Lava/Spout001/LavaSpoutComplete001_001_GreenPurple_600x600.webm`,
+                    greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Lava/Spout001/LavaSpoutComplete001_001_GreenYellow_600x600.webm`,
+                    orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Lava/Spout001/LavaSpoutComplete001_001_OrangeYellow_600x600.webm`,
+                    pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Lava/Spout001/LavaSpoutComplete001_001_PinkYellow_600x600.webm`,
+                    purplered: `${prefix}/jb2a_patreon/Library/Generic/Lava/Spout001/LavaSpoutComplete001_001_PurpleRed_600x600.webm`,
+                    white: `${prefix}/jb2a_patreon/Library/Generic/Lava/Spout001/LavaSpoutComplete001_001_White_600x600.webm`
+                },
+                loop: {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Lava/Spout001/LavaSpoutLoop001_001_Blue_600x600.webm`,
+                    bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Lava/Spout001/LavaSpoutLoop001_001_BluePurple_600x600.webm`,
+                    blueteal: `${prefix}/jb2a_patreon/Library/Generic/Lava/Spout001/LavaSpoutLoop001_001_BlueTeal_600x600.webm`,
+                    greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Lava/Spout001/LavaSpoutLoop001_001_GreenPurple_600x600.webm`,
+                    greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Lava/Spout001/LavaSpoutLoop001_001_GreenYellow_600x600.webm`,
+                    orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Lava/Spout001/LavaSpoutLoop001_001_OrangeYellow_600x600.webm`,
+                    pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Lava/Spout001/LavaSpoutLoop001_001_PinkYellow_600x600.webm`,
+                    purplered: `${prefix}/jb2a_patreon/Library/Generic/Lava/Spout001/LavaSpoutLoop001_001_PurpleRed_600x600.webm`,
+                    white: `${prefix}/jb2a_patreon/Library/Generic/Lava/Spout001/LavaSpoutLoop001_001_White_600x600.webm`
+                }
+
+            }
+        }
+    }
     patreonDatabase.lightning_ball = {
             _metadata: {
                 name: "Lightning Ball",
@@ -19220,8 +19256,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.template_cone_5e = {
         _metadata: {
-            name: "Template - Cone 5e",
-            new: ["001.001*"]
+            name: "Template - Cone 5e"
         },
         _template: "cone100",
         "001": {
@@ -19333,8 +19368,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.template_cone_PF2e = {
         _metadata: {
-            name: "Template - Cone PF2e",
-            new: ["001.001*"]
+            name: "Template - Cone PF2e"
         },
         _template: "cone100",
         "001": {
@@ -19446,7 +19480,8 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.template_line = {
         _metadata: {
-            name: "Template - Line"
+            name: "Template - Line",
+            new: ['lava-spout*']
         },
         _template: "line200",
         ice: {
@@ -19464,6 +19499,109 @@ export async function jb2aPatreonDatabase(prefix) {
                     '15ft':`${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/TemplateLineLava01_01_Regular_Orange_15ft_1000x400.webm`,
                     '30ft':`${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/TemplateLineLava01_01_Regular_Orange_30ft_1600x400.webm`,
                     '60ft':`${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/TemplateLineLava01_01_Regular_Orange_60ft_2800x400.webm`
+                }
+            }
+        },
+        "lava-spout": {
+            "001": {
+                "001": {
+                    complete: {
+                    _markers: {
+                        loop: { start: 1500, end: 4500 }
+                    },
+                        blue: {
+                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutComplete001_001_Blue_15ft_1000x600.webm`,
+                            '20ft': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutComplete001_001_Blue_20ft_1200x600.webm`,
+                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutComplete001_001_Blue_30ft_1600x600.webm`
+                        },
+                        bluepurple: {
+                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutComplete001_001_BluePurple_15ft_1000x600.webm`,
+                            '20ft': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutComplete001_001_BluePurple_20ft_1200x600.webm`,
+                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutComplete001_001_BluePurple_30ft_1600x600.webm`
+                        },
+                        blueteal: {
+                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutComplete001_001_BlueTeal_15ft_1000x600.webm`,
+                            '20ft': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutComplete001_001_BlueTeal_20ft_1200x600.webm`,
+                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutComplete001_001_BlueTeal_30ft_1600x600.webm`
+                        },
+                        greenpurple: {
+                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutComplete001_001_GreenPurple_15ft_1000x600.webm`,
+                            '20ft': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutComplete001_001_GreenPurple_20ft_1200x600.webm`,
+                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutComplete001_001_GreenPurple_30ft_1600x600.webm`
+                        },
+                        greenyellow: {
+                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutComplete001_001_GreenYellow_15ft_1000x600.webm`,
+                            '20ft': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutComplete001_001_GreenYellow_20ft_1200x600.webm`,
+                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutComplete001_001_GreenYellow_30ft_1600x600.webm`
+                        },
+                        orangeyellow: {
+                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutComplete001_001_OrangeYellow_15ft_1000x600.webm`,
+                            '20ft': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutComplete001_001_OrangeYellow_20ft_1200x600.webm`,
+                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutComplete001_001_OrangeYellow_30ft_1600x600.webm`
+                        },
+                        pinkyellow: {
+                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutComplete001_001_PinkYellow_15ft_1000x600.webm`,
+                            '20ft': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutComplete001_001_PinkYellow_20ft_1200x600.webm`,
+                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutComplete001_001_PinkYellow_30ft_1600x600.webm`
+                        },
+                        purplered: {
+                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutComplete001_001_PurpleRed_15ft_1000x600.webm`,
+                            '20ft': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutComplete001_001_PurpleRed_20ft_1200x600.webm`,
+                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutComplete001_001_PurpleRed_30ft_1600x600.webm`
+                        },
+                        white: {
+                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutComplete001_001_White_15ft_1000x600.webm`,
+                            '20ft': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutComplete001_001_White_20ft_1200x600.webm`,
+                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutComplete001_001_White_30ft_1600x600.webm`
+                        }
+                    },
+                    loop: {
+                        blue: {
+                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutLoop001_001_Blue_15ft_1000x600.webm`,
+                            '20ft': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutLoop001_001_Blue_20ft_1200x600.webm`,
+                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutLoop001_001_Blue_30ft_1600x600.webm`
+                        },
+                        bluepurple: {
+                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutLoop001_001_BluePurple_15ft_1000x600.webm`,
+                            '20ft': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutLoop001_001_BluePurple_20ft_1200x600.webm`,
+                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutLoop001_001_BluePurple_30ft_1600x600.webm`
+                        },
+                        blueteal: {
+                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutLoop001_001_BlueTeal_15ft_1000x600.webm`,
+                            '20ft': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutLoop001_001_BlueTeal_20ft_1200x600.webm`,
+                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutLoop001_001_BlueTeal_30ft_1600x600.webm`
+                        },
+                        greenpurple: {
+                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutLoop001_001_GreenPurple_15ft_1000x600.webm`,
+                            '20ft': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutLoop001_001_GreenPurple_20ft_1200x600.webm`,
+                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutLoop001_001_GreenPurple_30ft_1600x600.webm`
+                        },
+                        greenyellow: {
+                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutLoop001_001_GreenYellow_15ft_1000x600.webm`,
+                            '20ft': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutLoop001_001_GreenYellow_20ft_1200x600.webm`,
+                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutLoop001_001_GreenYellow_30ft_1600x600.webm`
+                        },
+                        orangeyellow: {
+                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutLoop001_001_OrangeYellow_15ft_1000x600.webm`,
+                            '20ft': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutLoop001_001_OrangeYellow_20ft_1200x600.webm`,
+                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutLoop001_001_OrangeYellow_30ft_1600x600.webm`
+                        },
+                        pinkyellow: {
+                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutLoop001_001_PinkYellow_15ft_1000x600.webm`,
+                            '20ft': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutLoop001_001_PinkYellow_20ft_1200x600.webm`,
+                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutLoop001_001_PinkYellow_30ft_1600x600.webm`
+                        },
+                        purplered: {
+                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutLoop001_001_PurpleRed_15ft_1000x600.webm`,
+                            '20ft': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutLoop001_001_PurpleRed_20ft_1200x600.webm`,
+                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutLoop001_001_PurpleRed_30ft_1600x600.webm`
+                        },
+                        white: {
+                            '15ft': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutLoop001_001_White_15ft_1000x600.webm`,
+                            '20ft': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutLoop001_001_White_20ft_1200x600.webm`,
+                            '30ft': `${prefix}/jb2a_patreon/Library/Generic/Template/Line/Lava/Spout001/TemplateLineLavaSpoutLoop001_001_White_30ft_1600x600.webm`
+                        }
+                    }
                 }
             }
         }
