@@ -7203,6 +7203,96 @@ export async function jb2aPatreonDatabase(prefix) {
                 red: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_12_Regular_Red_400x400.webm`,
                 yellow: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_12_Regular_Yellow_400x400.webm`
             },
+            '013': {
+                _metadata: {
+                    name: "Impact",
+                    new: true
+                },
+                "001": {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact013/Impact013_001_Blue_400x400.webm`,
+                    bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact013/Impact013_001_BluePurple_400x400.webm`,
+                    blueteal: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact013/Impact013_001_BlueTeal_400x400.webm`,
+                    greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact013/Impact013_001_GreenPurple_400x400.webm`,
+                    greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact013/Impact013_001_GreenYellow_400x400.webm`,
+                    orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact013/Impact013_001_OrangeYellow_400x400.webm`,
+                    pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact013/Impact013_001_PinkYellow_400x400.webm`,
+                    purplered: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact013/Impact013_001_PurpleRed_400x400.webm`,
+                    white: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact013/Impact013_001_White_400x400.webm`
+                },
+                "002": {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact013/Impact013_002_Blue_400x400.webm`,
+                    bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact013/Impact013_002_BluePurple_400x400.webm`,
+                    blueteal: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact013/Impact013_002_BlueTeal_400x400.webm`,
+                    greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact013/Impact013_002_GreenPurple_400x400.webm`,
+                    greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact013/Impact013_002_GreenYellow_400x400.webm`,
+                    orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact013/Impact013_002_OrangeYellow_400x400.webm`,
+                    pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact013/Impact013_002_PinkYellow_400x400.webm`,
+                    purplered: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact013/Impact013_002_PurpleRed_400x400.webm`,
+                    white: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact013/Impact013_002_White_400x400.webm`
+                },
+                "003": {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact013/Impact013_003_Blue_400x400.webm`,
+                    bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact013/Impact013_003_BluePurple_400x400.webm`,
+                    blueteal: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact013/Impact013_003_BlueTeal_400x400.webm`,
+                    greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact013/Impact013_003_GreenPurple_400x400.webm`,
+                    greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact013/Impact013_003_GreenYellow_400x400.webm`,
+                    orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact013/Impact013_003_OrangeYellow_400x400.webm`,
+                    pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact013/Impact013_003_PinkYellow_400x400.webm`,
+                    purplered: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact013/Impact013_003_PurpleRed_400x400.webm`,
+                    white: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact013/Impact013_003_White_400x400.webm`
+                }
+
+            },
+            '014': {
+                _metadata: {
+                    name: "Impact",
+                    new: true
+                },
+                "001": {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact014/Impact014_001_Blue_400x400.webm`,
+                    bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact014/Impact014_001_BluePurple_400x400.webm`,
+                    blueteal: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact014/Impact014_001_BlueTeal_400x400.webm`,
+                    greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact014/Impact014_001_GreenPurple_400x400.webm`,
+                    greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact014/Impact014_001_GreenYellow_400x400.webm`,
+                    orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact014/Impact014_001_OrangeYellow_400x400.webm`,
+                    pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact014/Impact014_001_PinkYellow_400x400.webm`,
+                    purplered: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact014/Impact014_001_PurpleRed_400x400.webm`,
+                    white: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact014/Impact014_001_White_400x400.webm`
+                },
+                "002": {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact014/Impact014_002_Blue_400x400.webm`,
+                    bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact014/Impact014_002_BluePurple_400x400.webm`,
+                    blueteal: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact014/Impact014_002_BlueTeal_400x400.webm`,
+                    greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact014/Impact014_002_GreenPurple_400x400.webm`,
+                    greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact014/Impact014_002_GreenYellow_400x400.webm`,
+                    orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact014/Impact014_002_OrangeYellow_400x400.webm`,
+                    pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact014/Impact014_002_PinkYellow_400x400.webm`,
+                    purplered: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact014/Impact014_002_PurpleRed_400x400.webm`,
+                    white: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact014/Impact014_002_White_400x400.webm`
+                },
+                "003": {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact014/Impact014_003_Blue_400x400.webm`,
+                    bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact014/Impact014_003_BluePurple_400x400.webm`,
+                    blueteal: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact014/Impact014_003_BlueTeal_400x400.webm`,
+                    greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact014/Impact014_003_GreenPurple_400x400.webm`,
+                    greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact014/Impact014_003_GreenYellow_400x400.webm`,
+                    orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact014/Impact014_003_OrangeYellow_400x400.webm`,
+                    pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact014/Impact014_003_PinkYellow_400x400.webm`,
+                    purplered: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact014/Impact014_003_PurpleRed_400x400.webm`,
+                    white: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact014/Impact014_003_White_400x400.webm`
+                },
+                "004": {
+                    blue: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact014/Impact014_004_Blue_400x400.webm`,
+                    bluepurple: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact014/Impact014_004_BluePurple_400x400.webm`,
+                    blueteal: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact014/Impact014_004_BlueTeal_400x400.webm`,
+                    greenpurple: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact014/Impact014_004_GreenPurple_400x400.webm`,
+                    greenyellow: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact014/Impact014_004_GreenYellow_400x400.webm`,
+                    orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact014/Impact014_004_OrangeYellow_400x400.webm`,
+                    pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact014/Impact014_004_PinkYellow_400x400.webm`,
+                    purplered: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact014/Impact014_004_PurpleRed_400x400.webm`,
+                    white: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact014/Impact014_004_White_400x400.webm`
+                }
+            },
             blue: [
                 `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_01_Regular_Blue_400x400.webm`,
                 `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact_02_Regular_Blue_400x400.webm`,
@@ -7867,8 +7957,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.lava_spout = {
         _metadata: {
-            name: "Lava Spout",
-            new: true
+            name: "Lava Spout"
         },
         "001": {
             "001": {
@@ -19480,8 +19569,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.template_line = {
         _metadata: {
-            name: "Template - Line",
-            new: ['lava-spout*']
+            name: "Template - Line"
         },
         _template: "line200",
         ice: {
@@ -21120,7 +21208,11 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.volley_of_projectiles_Cone5e = {
         _metadata: {
-            name: "Volley of Projectiles - Cone 5e"
+            name: "Volley of Projectiles - Cone 5e",
+            new: [
+                "arrow.001.002*",
+                "arrow.001.003*"
+            ]
         },
         _template: "cone100",
 
@@ -21171,15 +21263,112 @@ export async function jb2aPatreonDatabase(prefix) {
                         "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_001_01_Cone5e_White_15ft_500x500.webm`,
                         "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_001_01_Cone5e_White_30ft_800x800.webm`,
                         "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_001_01_Cone5e_White_60ft_1400x1400.webm`
+                    }
+                },
+                "002": {
+                    blue: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_002_01_Cone5e_Blue_15ft_500x500.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_002_01_Cone5e_Blue_30ft_800x800.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_002_01_Cone5e_Blue_60ft_1400x1400.webm`
                     },
-                    
+                    bluepurple: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_002_01_Cone5e_BluePurple_15ft_500x500.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_002_01_Cone5e_BluePurple_30ft_800x800.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_002_01_Cone5e_BluePurple_60ft_1400x1400.webm`
+                    },
+                    blueteal: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_002_01_Cone5e_BlueTeal_15ft_500x500.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_002_01_Cone5e_BlueTeal_30ft_800x800.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_002_01_Cone5e_BlueTeal_60ft_1400x1400.webm`
+                    },
+                    greenpurple: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_002_01_Cone5e_GreenPurple_15ft_500x500.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_002_01_Cone5e_GreenPurple_30ft_800x800.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_002_01_Cone5e_GreenPurple_60ft_1400x1400.webm`
+                    },
+                    greenyellow: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_002_01_Cone5e_GreenYellow_15ft_500x500.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_002_01_Cone5e_GreenYellow_30ft_800x800.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_002_01_Cone5e_GreenYellow_60ft_1400x1400.webm`
+                    },
+                    orangeyellow: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_002_01_Cone5e_OrangeYellow_15ft_500x500.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_002_01_Cone5e_OrangeYellow_30ft_800x800.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_002_01_Cone5e_OrangeYellow_60ft_1400x1400.webm`
+                    },
+                    pinkyellow: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_002_01_Cone5e_PinkYellow_15ft_500x500.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_002_01_Cone5e_PinkYellow_30ft_800x800.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_002_01_Cone5e_PinkYellow_60ft_1400x1400.webm`
+                    },
+                    purplered: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_002_01_Cone5e_PurpleRed_15ft_500x500.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_002_01_Cone5e_PurpleRed_30ft_800x800.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_002_01_Cone5e_PurpleRed_60ft_1400x1400.webm`
+                    },
+                    white: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_002_01_Cone5e_White_15ft_500x500.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_002_01_Cone5e_White_30ft_800x800.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_002_01_Cone5e_White_60ft_1400x1400.webm`
+                    }
+                },
+                "003": {
+                    blue: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_003_01_Cone5e_Blue_15ft_500x500.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_003_01_Cone5e_Blue_30ft_800x800.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_003_01_Cone5e_Blue_60ft_1400x1400.webm`
+                    },
+                    bluepurple: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_003_01_Cone5e_BluePurple_15ft_500x500.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_003_01_Cone5e_BluePurple_30ft_800x800.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_003_01_Cone5e_BluePurple_60ft_1400x1400.webm`
+                    },
+                    blueteal: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_003_01_Cone5e_BlueTeal_15ft_500x500.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_003_01_Cone5e_BlueTeal_30ft_800x800.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_003_01_Cone5e_BlueTeal_60ft_1400x1400.webm`
+                    },
+                    greenpurple: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_003_01_Cone5e_GreenPurple_15ft_500x500.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_003_01_Cone5e_GreenPurple_30ft_800x800.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_003_01_Cone5e_GreenPurple_60ft_1400x1400.webm`
+                    },
+                    greenyellow: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_003_01_Cone5e_GreenYellow_15ft_500x500.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_003_01_Cone5e_GreenYellow_30ft_800x800.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_003_01_Cone5e_GreenYellow_60ft_1400x1400.webm`
+                    },
+                    orangeyellow: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_003_01_Cone5e_OrangeYellow_15ft_500x500.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_003_01_Cone5e_OrangeYellow_30ft_800x800.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_003_01_Cone5e_OrangeYellow_60ft_1400x1400.webm`
+                    },
+                    pinkyellow: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_003_01_Cone5e_PinkYellow_15ft_500x500.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_003_01_Cone5e_PinkYellow_30ft_800x800.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_003_01_Cone5e_PinkYellow_60ft_1400x1400.webm`
+                    },
+                    purplered: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_003_01_Cone5e_PurpleRed_15ft_500x500.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_003_01_Cone5e_PurpleRed_30ft_800x800.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_003_01_Cone5e_PurpleRed_60ft_1400x1400.webm`
+                    },
+                    white: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_003_01_Cone5e_White_15ft_500x500.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_003_01_Cone5e_White_30ft_800x800.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/5e/VolleyProjectileArrow001_003_01_Cone5e_White_60ft_1400x1400.webm`
+                    }
                 }
             }
         }
     }
     patreonDatabase.volley_of_projectiles_ConePF2e = {
         _metadata: {
-            name: "Volley of Projectiles - Cone PF2e"
+            name: "Volley of Projectiles - Cone PF2e",
+            new: [
+                "arrow.001.002*",
+                "arrow.001.003*"
+            ]
         },
         _template: "cone100",
         "arrow": {
@@ -21229,6 +21418,100 @@ export async function jb2aPatreonDatabase(prefix) {
                         "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_001_01_ConePF2e_White_15ft_500x600.webm`,
                         "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_001_01_ConePF2e_White_30ft_800x1000.webm`,
                         "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_001_01_ConePF2e_White_60ft_1400x1800.webm`
+                    }
+                },
+                "002": {
+                    blue: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_002_01_ConePF2e_Blue_15ft_500x600.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_002_01_ConePF2e_Blue_30ft_800x1000.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_002_01_ConePF2e_Blue_60ft_1400x1800.webm`
+                    },
+                    bluepurple: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_002_01_ConePF2e_BluePurple_15ft_500x600.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_002_01_ConePF2e_BluePurple_30ft_800x1000.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_002_01_ConePF2e_BluePurple_60ft_1400x1800.webm`
+                    },
+                    blueteal: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_002_01_ConePF2e_BlueTeal_15ft_500x600.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_002_01_ConePF2e_BlueTeal_30ft_800x1000.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_002_01_ConePF2e_BlueTeal_60ft_1400x1800.webm`
+                    },
+                    greenpurple: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_002_01_ConePF2e_GreenPurple_15ft_500x600.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_002_01_ConePF2e_GreenPurple_30ft_800x1000.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_002_01_ConePF2e_GreenPurple_60ft_1400x1800.webm`
+                    },
+                    greenyellow: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_002_01_ConePF2e_GreenYellow_15ft_500x600.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_002_01_ConePF2e_GreenYellow_30ft_800x1000.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_002_01_ConePF2e_GreenYellow_60ft_1400x1800.webm`
+                    },
+                    orangeyellow: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_002_01_ConePF2e_OrangeYellow_15ft_500x600.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_002_01_ConePF2e_OrangeYellow_30ft_800x1000.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_002_01_ConePF2e_OrangeYellow_60ft_1400x1800.webm`
+                    },
+                    pinkyellow: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_002_01_ConePF2e_PinkYellow_15ft_500x600.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_002_01_ConePF2e_PinkYellow_30ft_800x1000.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_002_01_ConePF2e_PinkYellow_60ft_1400x1800.webm`
+                    },
+                    purplered: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_002_01_ConePF2e_PurpleRed_15ft_500x600.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_002_01_ConePF2e_PurpleRed_30ft_800x1000.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_002_01_ConePF2e_PurpleRed_60ft_1400x1800.webm`
+                    },
+                    white: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_002_01_ConePF2e_White_15ft_500x600.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_002_01_ConePF2e_White_30ft_800x1000.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_002_01_ConePF2e_White_60ft_1400x1800.webm`
+                    }
+                },
+                "003": {
+                    blue: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_003_01_ConePF2e_Blue_15ft_500x600.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_003_01_ConePF2e_Blue_30ft_800x1000.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_003_01_ConePF2e_Blue_60ft_1400x1800.webm`
+                    },
+                    bluepurple: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_003_01_ConePF2e_BluePurple_15ft_500x600.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_003_01_ConePF2e_BluePurple_30ft_800x1000.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_003_01_ConePF2e_BluePurple_60ft_1400x1800.webm`
+                    },
+                    blueteal: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_003_01_ConePF2e_BlueTeal_15ft_500x600.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_003_01_ConePF2e_BlueTeal_30ft_800x1000.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_003_01_ConePF2e_BlueTeal_60ft_1400x1800.webm`
+                    },
+                    greenpurple: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_003_01_ConePF2e_GreenPurple_15ft_500x600.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_003_01_ConePF2e_GreenPurple_30ft_800x1000.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_003_01_ConePF2e_GreenPurple_60ft_1400x1800.webm`
+                    },
+                    greenyellow: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_003_01_ConePF2e_GreenYellow_15ft_500x600.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_003_01_ConePF2e_GreenYellow_30ft_800x1000.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_003_01_ConePF2e_GreenYellow_60ft_1400x1800.webm`
+                    },
+                    orangeyellow: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_003_01_ConePF2e_OrangeYellow_15ft_500x600.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_003_01_ConePF2e_OrangeYellow_30ft_800x1000.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_003_01_ConePF2e_OrangeYellow_60ft_1400x1800.webm`
+                    },
+                    pinkyellow: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_003_01_ConePF2e_PinkYellow_15ft_500x600.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_003_01_ConePF2e_PinkYellow_30ft_800x1000.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_003_01_ConePF2e_PinkYellow_60ft_1400x1800.webm`
+                    },
+                    purplered: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_003_01_ConePF2e_PurpleRed_15ft_500x600.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_003_01_ConePF2e_PurpleRed_30ft_800x1000.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_003_01_ConePF2e_PurpleRed_60ft_1400x1800.webm`
+                    },
+                    white: {
+                        "15ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_003_01_ConePF2e_White_15ft_500x600.webm`,
+                        "30ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_003_01_ConePF2e_White_30ft_800x1000.webm`,
+                        "60ft": `${prefix}/jb2a_patreon/Library/Generic/Template/Cone/Projectile/PF2e/VolleyProjectileArrow001_003_01_ConePF2e_White_60ft_1400x1800.webm`
                     }
                 }
             }
