@@ -4805,6 +4805,33 @@ export async function jb2aPatreonDatabase(prefix) {
                         '03': `${prefix}/jb2a_patreon/Library/TMFX/Border/Circle/BorderSimple_03_Circle_Normal_500.webm`,
                         '04': `${prefix}/jb2a_patreon/Library/TMFX/Border/Circle/BorderSimple_04_Circle_Normal_500.webm`
                     }
+                },
+                square: {
+                    inpulse: {
+                        '01': {
+                            fast: `${prefix}/jb2a_patreon/Library/TMFX/Border/Square/BorderInPulse_01_Square_Fast_500.webm`,
+                            normal: `${prefix}/jb2a_patreon/Library/TMFX/Border/Square/BorderInPulse_01_Square_Normal_500.webm`
+                        },
+                        '02': {
+                            fast: `${prefix}/jb2a_patreon/Library/TMFX/Border/Square/BorderInPulse_02_Square_Fast_500.webm`,
+                            normal: `${prefix}/jb2a_patreon/Library/TMFX/Border/Square/BorderInPulse_02_Square_Normal_500.webm`
+                        }
+                    },
+                    outpulse: {
+                        '01': {
+                            fast: `${prefix}/jb2a_patreon/Library/TMFX/Border/Square/BorderOutPulse_01_Square_Fast_500.webm`,
+                            normal: `${prefix}/jb2a_patreon/Library/TMFX/Border/Square/BorderOutPulse_01_Square_Normal_500.webm`
+                        },
+                        '02': {
+                            fast: `${prefix}/jb2a_patreon/Library/TMFX/Border/Square/BorderOutPulse_02_Square_Fast_500.webm`,
+                            normal: `${prefix}/jb2a_patreon/Library/TMFX/Border/Square/BorderOutPulse_02_Square_Normal_500.webm`
+                        }
+                    },
+                    simple: {
+                        '01': `${prefix}/jb2a_patreon/Library/TMFX/Border/Square/BorderSimple_01_Square_Normal_500.webm`,
+                        '02': `${prefix}/jb2a_patreon/Library/TMFX/Border/Square/BorderSimple_02_Square_Normal_500.webm`,
+                        '03': `${prefix}/jb2a_patreon/Library/TMFX/Border/Square/BorderSimple_03_Square_Normal_500.webm`
+                    }
                 }
             },
             inflow: {
