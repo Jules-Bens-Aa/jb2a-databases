@@ -3884,6 +3884,34 @@
 			}
 		}
 	},
+	"on_token_cast": {
+		"initiate": {
+			"001": {
+				"instant": {
+					"combined": {
+						"blue": [
+							"modules/JB2A_DnD5e/Library/Generic/On_Token/Cast/Initiate/001/Blue/OnToken_Cast_Initiate_Instant_001_001_Blue_3x3_600x600.webm"
+						]
+					},
+					"part01": {
+						"blue": [
+							"modules/JB2A_DnD5e/Library/Generic/On_Token/Cast/Initiate/001/Blue/OnToken_Cast_Initiate_InstantP01_001_001_Blue_3x3_600x600.webm"
+						]
+					},
+					"part02": {
+						"blue": [
+							"modules/JB2A_DnD5e/Library/Generic/On_Token/Cast/Initiate/001/Blue/OnToken_Cast_Initiate_InstantP02_001_001_Blue_3x3_600x600.webm"
+						]
+					},
+					"still_frame": {
+						"blue": [
+							"modules/JB2A_DnD5e/Library/Generic/On_Token/Cast/Initiate/001/Blue/OnToken_Cast_Initiate_Still_001_001_Blue_3x3_600x600.webp"
+						]
+					}
+				}
+			}
+		}
+	},
 	"on_token_target": {
 		"001": {
 			"001": {
@@ -4299,10 +4327,6 @@
 		}
 	},
 	"ranged_helix": {
-		"_metadata": {
-			"name": "Ranged Helix",
-			"new": true
-		},
 		"001": {
 			"_template": "ranged",
 			"blue": {
@@ -6045,6 +6069,48 @@
 		}
 	},
 	"template_square": {
+		"raindrops": {
+			"001": {
+				"5x5": {
+					"instant": {
+						"combined": {
+							"blue": [
+								"modules/JB2A_DnD5e/Library/Generic/Template/Square/Raindrop/001/Blue/Template_Square_Raindrops_Instant_001_001_Blue_5x5_500x500.webm"
+							]
+						},
+						"part01": {
+							"blue": [
+								"modules/JB2A_DnD5e/Library/Generic/Template/Square/Raindrop/001/Blue/Template_Square_Raindrops_InstantP01_001_001_Blue_5x5_500x500.webm"
+							]
+						},
+						"part02": {
+							"blue": [
+								"modules/JB2A_DnD5e/Library/Generic/Template/Square/Raindrop/001/Blue/Template_Square_Raindrops_InstantP02_001_001_Blue_3x3_300x300.webm"
+							]
+						}
+					}
+				},
+				"7x7": {
+					"instant": {
+						"combined": {
+							"blue": [
+								"modules/JB2A_DnD5e/Library/Generic/Template/Square/Raindrop/001/Blue/Template_Square_Raindrops_Instant_001_001_Blue_7x7_700x700.webm"
+							]
+						},
+						"part01": {
+							"blue": [
+								"modules/JB2A_DnD5e/Library/Generic/Template/Square/Raindrop/001/Blue/Template_Square_Raindrops_InstantP01_001_001_Blue_7x7_700x700.webm"
+							]
+						},
+						"part02": {
+							"blue": [
+								"modules/JB2A_DnD5e/Library/Generic/Template/Square/Raindrop/001/Blue/Template_Square_Raindrops_InstantP02_001_001_Blue_5x5_500x500.webm"
+							]
+						}
+					}
+				}
+			}
+		},
 		"symbol": {
 			"normal": {
 				"drop": {

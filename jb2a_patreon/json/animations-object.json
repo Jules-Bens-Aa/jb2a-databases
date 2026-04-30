@@ -4892,7 +4892,10 @@
 	},
 	"extras": {
 		"_metadata": {
-			"name": "Extras"
+			"name": "Extras",
+			"new": [
+				"tmfx.border.square*"
+			]
 		},
 		"tmfx": {
 			"border": {
@@ -7353,8 +7356,7 @@
 		},
 		"013": {
 			"_metadata": {
-				"name": "Impact",
-				"new": true
+				"name": "Impact"
 			},
 			"001": {
 				"blue": "modules/jb2a_patreon/Library/Generic/Impact/Impact013/Impact013_001_Blue_400x400.webm",
@@ -7392,8 +7394,7 @@
 		},
 		"014": {
 			"_metadata": {
-				"name": "Impact",
-				"new": true
+				"name": "Impact"
 			},
 			"001": {
 				"blue": "modules/jb2a_patreon/Library/Generic/Impact/Impact014/Impact014_001_Blue_400x400.webm",
@@ -12018,6 +12019,170 @@
 				"pinkyellow": "modules/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff003_005_PinkYellow_400x400.webm",
 				"purplered": "modules/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff003_005_PurpleRed_400x400.webm",
 				"white": "modules/jb2a_patreon/Library/Generic/On_Token/Buff/Ontoken_Buff003_005_White_400x400.webm"
+			}
+		}
+	},
+	"on_token_cast": {
+		"_metadata": {
+			"name": "On Token Cast",
+			"new": true
+		},
+		"initiate": {
+			"001": {
+				"instant": {
+					"combined": {
+						"blue": [
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/Blue/OnToken_Cast_Initiate_Instant_001_001_Blue_3x3_600x600.webm",
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/Blue/OnToken_Cast_Initiate_Instant_001_002_Blue_3x3_600x600.webm"
+						],
+						"bluepurple": [
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/BluePurple/OnToken_Cast_Initiate_Instant_001_001_BluePurple_3x3_600x600.webm",
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/BluePurple/OnToken_Cast_Initiate_Instant_001_002_BluePurple_3x3_600x600.webm"
+						],
+						"blueteal": [
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/BlueTeal/OnToken_Cast_Initiate_Instant_001_001_BlueTeal_3x3_600x600.webm",
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/BlueTeal/OnToken_Cast_Initiate_Instant_001_002_BlueTeal_3x3_600x600.webm"
+						],
+						"greenpurple": [
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/GreenPurple/OnToken_Cast_Initiate_Instant_001_001_GreenPurple_3x3_600x600.webm",
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/GreenPurple/OnToken_Cast_Initiate_Instant_001_002_GreenPurple_3x3_600x600.webm"
+						],
+						"greenyellow": [
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/GreenYellow/OnToken_Cast_Initiate_Instant_001_001_GreenYellow_3x3_600x600.webm",
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/GreenYellow/OnToken_Cast_Initiate_Instant_001_002_GreenYellow_3x3_600x600.webm"
+						],
+						"orangeyellow": [
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/OrangeYellow/OnToken_Cast_Initiate_Instant_001_001_OrangeYellow_3x3_600x600.webm",
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/OrangeYellow/OnToken_Cast_Initiate_Instant_001_002_OrangeYellow_3x3_600x600.webm"
+						],
+						"pinkyellow": [
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/PinkYellow/OnToken_Cast_Initiate_Instant_001_001_PinkYellow_3x3_600x600.webm",
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/PinkYellow/OnToken_Cast_Initiate_Instant_001_002_PinkYellow_3x3_600x600.webm"
+						],
+						"purplered": [
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/PurpleRed/OnToken_Cast_Initiate_Instant_001_001_PurpleRed_3x3_600x600.webm",
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/PurpleRed/OnToken_Cast_Initiate_Instant_001_002_PurpleRed_3x3_600x600.webm"
+						],
+						"white": [
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/White/OnToken_Cast_Initiate_Instant_001_001_White_3x3_600x600.webm",
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/White/OnToken_Cast_Initiate_Instant_001_002_White_3x3_600x600.webm"
+						]
+					},
+					"part01": {
+						"blue": [
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/Blue/OnToken_Cast_Initiate_InstantP01_001_001_Blue_3x3_600x600.webm",
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/Blue/OnToken_Cast_Initiate_InstantP01_001_002_Blue_3x3_600x600.webm"
+						],
+						"bluepurple": [
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/BluePurple/OnToken_Cast_Initiate_InstantP01_001_001_BluePurple_3x3_600x600.webm",
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/BluePurple/OnToken_Cast_Initiate_InstantP01_001_002_BluePurple_3x3_600x600.webm"
+						],
+						"blueteal": [
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/BlueTeal/OnToken_Cast_Initiate_InstantP01_001_001_BlueTeal_3x3_600x600.webm",
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/BlueTeal/OnToken_Cast_Initiate_InstantP01_001_002_BlueTeal_3x3_600x600.webm"
+						],
+						"greenpurple": [
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/GreenPurple/OnToken_Cast_Initiate_InstantP01_001_001_GreenPurple_3x3_600x600.webm",
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/GreenPurple/OnToken_Cast_Initiate_InstantP01_001_002_GreenPurple_3x3_600x600.webm"
+						],
+						"greenyellow": [
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/GreenYellow/OnToken_Cast_Initiate_InstantP01_001_001_GreenYellow_3x3_600x600.webm",
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/GreenYellow/OnToken_Cast_Initiate_InstantP01_001_002_GreenYellow_3x3_600x600.webm"
+						],
+						"orangeyellow": [
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/OrangeYellow/OnToken_Cast_Initiate_InstantP01_001_001_OrangeYellow_3x3_600x600.webm",
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/OrangeYellow/OnToken_Cast_Initiate_InstantP01_001_002_OrangeYellow_3x3_600x600.webm"
+						],
+						"pinkyellow": [
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/PinkYellow/OnToken_Cast_Initiate_InstantP01_001_001_PinkYellow_3x3_600x600.webm",
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/PinkYellow/OnToken_Cast_Initiate_InstantP01_001_002_PinkYellow_3x3_600x600.webm"
+						],
+						"purplered": [
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/PurpleRed/OnToken_Cast_Initiate_InstantP01_001_001_PurpleRed_3x3_600x600.webm",
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/PurpleRed/OnToken_Cast_Initiate_InstantP01_001_002_PurpleRed_3x3_600x600.webm"
+						],
+						"white": [
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/White/OnToken_Cast_Initiate_InstantP01_001_001_White_3x3_600x600.webm",
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/White/OnToken_Cast_Initiate_InstantP01_001_002_White_3x3_600x600.webm"
+						]
+					},
+					"part02": {
+						"blue": [
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/Blue/OnToken_Cast_Initiate_InstantP02_001_001_Blue_3x3_600x600.webm",
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/Blue/OnToken_Cast_Initiate_InstantP02_001_002_Blue_3x3_600x600.webm"
+						],
+						"bluepurple": [
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/BluePurple/OnToken_Cast_Initiate_InstantP02_001_001_BluePurple_3x3_600x600.webm",
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/BluePurple/OnToken_Cast_Initiate_InstantP02_001_002_BluePurple_3x3_600x600.webm"
+						],
+						"blueteal": [
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/BlueTeal/OnToken_Cast_Initiate_InstantP02_001_001_BlueTeal_3x3_600x600.webm",
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/BlueTeal/OnToken_Cast_Initiate_InstantP02_001_002_BlueTeal_3x3_600x600.webm"
+						],
+						"greenpurple": [
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/GreenPurple/OnToken_Cast_Initiate_InstantP02_001_001_GreenPurple_3x3_600x600.webm",
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/GreenPurple/OnToken_Cast_Initiate_InstantP02_001_002_GreenPurple_3x3_600x600.webm"
+						],
+						"greenyellow": [
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/GreenYellow/OnToken_Cast_Initiate_InstantP02_001_001_GreenYellow_3x3_600x600.webm",
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/GreenYellow/OnToken_Cast_Initiate_InstantP02_001_002_GreenYellow_3x3_600x600.webm"
+						],
+						"orangeyellow": [
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/OrangeYellow/OnToken_Cast_Initiate_InstantP02_001_001_OrangeYellow_3x3_600x600.webm",
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/OrangeYellow/OnToken_Cast_Initiate_InstantP02_001_002_OrangeYellow_3x3_600x600.webm"
+						],
+						"pinkyellow": [
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/PinkYellow/OnToken_Cast_Initiate_InstantP02_001_001_PinkYellow_3x3_600x600.webm",
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/PinkYellow/OnToken_Cast_Initiate_InstantP02_001_002_PinkYellow_3x3_600x600.webm"
+						],
+						"purplered": [
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/PurpleRed/OnToken_Cast_Initiate_InstantP02_001_001_PurpleRed_3x3_600x600.webm",
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/PurpleRed/OnToken_Cast_Initiate_InstantP02_001_002_PurpleRed_3x3_600x600.webm"
+						],
+						"white": [
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/White/OnToken_Cast_Initiate_InstantP02_001_001_White_3x3_600x600.webm",
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/White/OnToken_Cast_Initiate_InstantP02_001_002_White_3x3_600x600.webm"
+						]
+					},
+					"still_frame": {
+						"blue": [
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/Blue/OnToken_Cast_Initiate_Still_001_001_Blue_3x3_600x600.webp",
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/Blue/OnToken_Cast_Initiate_Still_001_002_Blue_3x3_600x600.webp"
+						],
+						"bluepurple": [
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/BluePurple/OnToken_Cast_Initiate_Still_001_001_BluePurple_3x3_600x600.webp",
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/BluePurple/OnToken_Cast_Initiate_Still_001_002_BluePurple_3x3_600x600.webp"
+						],
+						"blueteal": [
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/BlueTeal/OnToken_Cast_Initiate_Still_001_001_BlueTeal_3x3_600x600.webp",
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/BlueTeal/OnToken_Cast_Initiate_Still_001_002_BlueTeal_3x3_600x600.webp"
+						],
+						"greenpurple": [
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/GreenPurple/OnToken_Cast_Initiate_Still_001_001_GreenPurple_3x3_600x600.webp",
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/GreenPurple/OnToken_Cast_Initiate_Still_001_002_GreenPurple_3x3_600x600.webp"
+						],
+						"greenyellow": [
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/GreenYellow/OnToken_Cast_Initiate_Still_001_001_GreenYellow_3x3_600x600.webp",
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/GreenYellow/OnToken_Cast_Initiate_Still_001_002_GreenYellow_3x3_600x600.webp"
+						],
+						"orangeyellow": [
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/OrangeYellow/OnToken_Cast_Initiate_Still_001_001_OrangeYellow_3x3_600x600.webp",
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/OrangeYellow/OnToken_Cast_Initiate_Still_001_002_OrangeYellow_3x3_600x600.webp"
+						],
+						"pinkyellow": [
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/PinkYellow/OnToken_Cast_Initiate_Still_001_001_PinkYellow_3x3_600x600.webp",
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/PinkYellow/OnToken_Cast_Initiate_Still_001_002_PinkYellow_3x3_600x600.webp"
+						],
+						"purplered": [
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/PurpleRed/OnToken_Cast_Initiate_Still_001_001_PurpleRed_3x3_600x600.webp",
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/PurpleRed/OnToken_Cast_Initiate_Still_001_002_PurpleRed_3x3_600x600.webp"
+						],
+						"white": [
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/White/OnToken_Cast_Initiate_Still_001_001_White_3x3_600x600.webp",
+							"modules/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/White/OnToken_Cast_Initiate_Still_001_002_White_3x3_600x600.webp"
+						]
+					}
+				}
 			}
 		}
 	},
@@ -20222,7 +20387,196 @@
 	},
 	"template_square": {
 		"_metadata": {
-			"name": "Template - Square"
+			"name": "Template - Square",
+			"new": [
+				"raindrops*"
+			]
+		},
+		"raindrops": {
+			"001": {
+				"5x5": {
+					"instant": {
+						"combined": {
+							"blue": [
+								"modules/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/Blue/Template_Square_Raindrops_Instant_001_001_Blue_5x5_500x500.webm"
+							],
+							"bluepurple": [
+								"modules/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/BluePurple/Template_Square_Raindrops_Instant_001_001_BluePurple_5x5_500x500.webm"
+							],
+							"blueteal": [
+								"modules/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/BlueTeal/Template_Square_Raindrops_Instant_001_001_BlueTeal_5x5_500x500.webm"
+							],
+							"greenpurple": [
+								"modules/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/GreenPurple/Template_Square_Raindrops_Instant_001_001_GreenPurple_5x5_500x500.webm"
+							],
+							"greenyellow": [
+								"modules/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/GreenYellow/Template_Square_Raindrops_Instant_001_001_GreenYellow_5x5_500x500.webm"
+							],
+							"orangeyellow": [
+								"modules/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/OrangeYellow/Template_Square_Raindrops_Instant_001_001_OrangeYellow_5x5_500x500.webm"
+							],
+							"pinkyellow": [
+								"modules/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/PinkYellow/Template_Square_Raindrops_Instant_001_001_PinkYellow_5x5_500x500.webm"
+							],
+							"purplered": [
+								"modules/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/PurpleRed/Template_Square_Raindrops_Instant_001_001_PurpleRed_5x5_500x500.webm"
+							],
+							"white": [
+								"modules/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/White/Template_Square_Raindrops_Instant_001_001_White_5x5_500x500.webm"
+							]
+						},
+						"part01": {
+							"blue": [
+								"modules/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/Blue/Template_Square_Raindrops_InstantP01_001_001_Blue_5x5_500x500.webm"
+							],
+							"bluepurple": [
+								"modules/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/BluePurple/Template_Square_Raindrops_InstantP01_001_001_BluePurple_5x5_500x500.webm"
+							],
+							"blueteal": [
+								"modules/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/BlueTeal/Template_Square_Raindrops_InstantP01_001_001_BlueTeal_5x5_500x500.webm"
+							],
+							"greenpurple": [
+								"modules/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/GreenPurple/Template_Square_Raindrops_InstantP01_001_001_GreenPurple_5x5_500x500.webm"
+							],
+							"greenyellow": [
+								"modules/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/GreenYellow/Template_Square_Raindrops_InstantP01_001_001_GreenYellow_5x5_500x500.webm"
+							],
+							"orangeyellow": [
+								"modules/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/OrangeYellow/Template_Square_Raindrops_InstantP01_001_001_OrangeYellow_5x5_500x500.webm"
+							],
+							"pinkyellow": [
+								"modules/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/PinkYellow/Template_Square_Raindrops_InstantP01_001_001_PinkYellow_5x5_500x500.webm"
+							],
+							"purplered": [
+								"modules/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/PurpleRed/Template_Square_Raindrops_InstantP01_001_001_PurpleRed_5x5_500x500.webm"
+							],
+							"white": [
+								"modules/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/White/Template_Square_Raindrops_InstantP01_001_001_White_5x5_500x500.webm"
+							]
+						},
+						"part02": {
+							"blue": [
+								"modules/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/Blue/Template_Square_Raindrops_InstantP02_001_001_Blue_3x3_300x300.webm"
+							],
+							"bluepurple": [
+								"modules/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/BluePurple/Template_Square_Raindrops_InstantP02_001_001_BluePurple_3x3_300x300.webm"
+							],
+							"blueteal": [
+								"modules/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/BlueTeal/Template_Square_Raindrops_InstantP02_001_001_BlueTeal_3x3_300x300.webm"
+							],
+							"greenpurple": [
+								"modules/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/GreenPurple/Template_Square_Raindrops_InstantP02_001_001_GreenPurple_3x3_300x300.webm"
+							],
+							"greenyellow": [
+								"modules/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/GreenYellow/Template_Square_Raindrops_InstantP02_001_001_GreenYellow_3x3_300x300.webm"
+							],
+							"orangeyellow": [
+								"modules/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/OrangeYellow/Template_Square_Raindrops_InstantP02_001_001_OrangeYellow_3x3_300x300.webm"
+							],
+							"pinkyellow": [
+								"modules/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/PinkYellow/Template_Square_Raindrops_InstantP02_001_001_PinkYellow_3x3_300x300.webm"
+							],
+							"purplered": [
+								"modules/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/PurpleRed/Template_Square_Raindrops_InstantP02_001_001_PurpleRed_3x3_300x300.webm"
+							],
+							"white": [
+								"modules/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/White/Template_Square_Raindrops_InstantP02_001_001_White_3x3_300x300.webm"
+							]
+						}
+					}
+				},
+				"7x7": {
+					"instant": {
+						"combined": {
+							"blue": [
+								"modules/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/Blue/Template_Square_Raindrops_Instant_001_001_Blue_7x7_700x700.webm"
+							],
+							"bluepurple": [
+								"modules/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/BluePurple/Template_Square_Raindrops_Instant_001_001_BluePurple_7x7_700x700.webm"
+							],
+							"blueteal": [
+								"modules/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/BlueTeal/Template_Square_Raindrops_Instant_001_001_BlueTeal_7x7_700x700.webm"
+							],
+							"greenpurple": [
+								"modules/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/GreenPurple/Template_Square_Raindrops_Instant_001_001_GreenPurple_7x7_700x700.webm"
+							],
+							"greenyellow": [
+								"modules/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/GreenYellow/Template_Square_Raindrops_Instant_001_001_GreenYellow_7x7_700x700.webm"
+							],
+							"orangeyellow": [
+								"modules/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/OrangeYellow/Template_Square_Raindrops_Instant_001_001_OrangeYellow_7x7_700x700.webm"
+							],
+							"pinkyellow": [
+								"modules/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/PinkYellow/Template_Square_Raindrops_Instant_001_001_PinkYellow_7x7_700x700.webm"
+							],
+							"purplered": [
+								"modules/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/PurpleRed/Template_Square_Raindrops_Instant_001_001_PurpleRed_7x7_700x700.webm"
+							],
+							"white": [
+								"modules/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/White/Template_Square_Raindrops_Instant_001_001_White_7x7_700x700.webm"
+							]
+						},
+						"part01": {
+							"blue": [
+								"modules/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/Blue/Template_Square_Raindrops_InstantP01_001_001_Blue_7x7_700x700.webm"
+							],
+							"bluepurple": [
+								"modules/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/BluePurple/Template_Square_Raindrops_InstantP01_001_001_BluePurple_7x7_700x700.webm"
+							],
+							"blueteal": [
+								"modules/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/BlueTeal/Template_Square_Raindrops_InstantP01_001_001_BlueTeal_7x7_700x700.webm"
+							],
+							"greenpurple": [
+								"modules/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/GreenPurple/Template_Square_Raindrops_InstantP01_001_001_GreenPurple_7x7_700x700.webm"
+							],
+							"greenyellow": [
+								"modules/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/GreenYellow/Template_Square_Raindrops_InstantP01_001_001_GreenYellow_7x7_700x700.webm"
+							],
+							"orangeyellow": [
+								"modules/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/OrangeYellow/Template_Square_Raindrops_InstantP01_001_001_OrangeYellow_7x7_700x700.webm"
+							],
+							"pinkyellow": [
+								"modules/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/PinkYellow/Template_Square_Raindrops_InstantP01_001_001_PinkYellow_7x7_700x700.webm"
+							],
+							"purplered": [
+								"modules/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/PurpleRed/Template_Square_Raindrops_InstantP01_001_001_PurpleRed_7x7_700x700.webm"
+							],
+							"white": [
+								"modules/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/White/Template_Square_Raindrops_InstantP01_001_001_White_7x7_700x700.webm"
+							]
+						},
+						"part02": {
+							"blue": [
+								"modules/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/Blue/Template_Square_Raindrops_InstantP02_001_001_Blue_5x5_500x500.webm"
+							],
+							"bluepurple": [
+								"modules/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/BluePurple/Template_Square_Raindrops_InstantP02_001_001_BluePurple_5x5_500x500.webm"
+							],
+							"blueteal": [
+								"modules/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/BlueTeal/Template_Square_Raindrops_InstantP02_001_001_BlueTeal_5x5_500x500.webm"
+							],
+							"greenpurple": [
+								"modules/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/GreenPurple/Template_Square_Raindrops_InstantP02_001_001_GreenPurple_5x5_500x500.webm"
+							],
+							"greenyellow": [
+								"modules/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/GreenYellow/Template_Square_Raindrops_InstantP02_001_001_GreenYellow_5x5_500x500.webm"
+							],
+							"orangeyellow": [
+								"modules/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/OrangeYellow/Template_Square_Raindrops_InstantP02_001_001_OrangeYellow_5x5_500x500.webm"
+							],
+							"pinkyellow": [
+								"modules/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/PinkYellow/Template_Square_Raindrops_InstantP02_001_001_PinkYellow_5x5_500x500.webm"
+							],
+							"purplered": [
+								"modules/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/PurpleRed/Template_Square_Raindrops_InstantP02_001_001_PurpleRed_5x5_500x500.webm"
+							],
+							"white": [
+								"modules/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/White/Template_Square_Raindrops_InstantP02_001_001_White_5x5_500x500.webm"
+							]
+						}
+					}
+				}
+			}
 		},
 		"symbol": {
 			"normal": {
@@ -21142,7 +21496,12 @@
 	},
 	"ui": {
 		"_metadata": {
-			"name": "UI"
+			"name": "UI",
+			"new": [
+				"failure*",
+				"hit*",
+				"success*"
+			]
 		},
 		"chevrons3": {
 			"green": "modules/jb2a_patreon/Library/Generic/UI/3Chevrons_01_Regular_Green_200x200.webm",
@@ -21165,6 +21524,11 @@
 				"modules/jb2a_patreon/Library/Generic/UI/CriticalMiss_04_Red_200x200.webm"
 			]
 		},
+		"failure": {
+			"red": [
+				"modules/jb2a_patreon/Library/Generic/UI/Failure_01_Red_200x200.webm"
+			]
+		},
 		"heartbeat": {
 			"01": {
 				"blue": "modules/jb2a_patreon/Library/Generic/UI/HeartbeatECG01_01_Regular_Blue_400x400.webm",
@@ -21180,6 +21544,11 @@
 				"red": "modules/jb2a_patreon/Library/Generic/UI/HeartbeatECG01_02_Regular_Red_400x400.webm",
 				"yellow": "modules/jb2a_patreon/Library/Generic/UI/HeartbeatECG01_02_Regular_Yellow_400x400.webm"
 			}
+		},
+		"hit": {
+			"blue": [
+				"modules/jb2a_patreon/Library/Generic/UI/Hit_01_Blue_200x200.webm"
+			]
 		},
 		"indicator": {
 			"green": {
@@ -21230,6 +21599,11 @@
 		"miss": {
 			"red": "modules/jb2a_patreon/Library/Generic/UI/Miss_01_Red_200x200.webm",
 			"white": "modules/jb2a_patreon/Library/Generic/UI/Miss_02_White_200x200.webm"
+		},
+		"success": {
+			"green": [
+				"modules/jb2a_patreon/Library/Generic/UI/Success_01_Green_200x200.webm"
+			]
 		}
 	},
 	"unarmed_strike": {
@@ -21681,11 +22055,7 @@
 	},
 	"volley_of_projectiles_Cone5e": {
 		"_metadata": {
-			"name": "Volley of Projectiles - Cone 5e",
-			"new": [
-				"arrow.001.002*",
-				"arrow.001.003*"
-			]
+			"name": "Volley of Projectiles - Cone 5e"
 		},
 		"_template": "cone100",
 		"arrow": {
@@ -21836,11 +22206,7 @@
 	},
 	"volley_of_projectiles_ConePF2e": {
 		"_metadata": {
-			"name": "Volley of Projectiles - Cone PF2e",
-			"new": [
-				"arrow.001.002*",
-				"arrow.001.003*"
-			]
+			"name": "Volley of Projectiles - Cone PF2e"
 		},
 		"_template": "cone100",
 		"arrow": {
