@@ -4775,6 +4775,7 @@ export async function jb2aPatreonDatabase(prefix) {
     patreonDatabase.extras = {
         _metadata: {
             name: "Extras",
+            new: ["tmfx.border.square*"]
         },
         tmfx: {
             border: {
@@ -7232,8 +7233,7 @@ export async function jb2aPatreonDatabase(prefix) {
             },
             '013': {
                 _metadata: {
-                    name: "Impact",
-                    new: true
+                    name: "Impact"
                 },
                 "001": {
                     blue: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact013/Impact013_001_Blue_400x400.webm`,
@@ -7272,8 +7272,7 @@ export async function jb2aPatreonDatabase(prefix) {
             },
             '014': {
                 _metadata: {
-                    name: "Impact",
-                    new: true
+                    name: "Impact"
                 },
                 "001": {
                     blue: `${prefix}/jb2a_patreon/Library/Generic/Impact/Impact014/Impact014_001_Blue_400x400.webm`,
@@ -11843,6 +11842,170 @@ export async function jb2aPatreonDatabase(prefix) {
             }
         }
         
+    }
+    patreonDatabase.on_token_cast = {
+        _metadata: {
+            name: "On Token Cast",
+            new: true
+        },
+        initiate: {
+            '001': {
+                instant: {
+                    combined: {
+                        blue: [
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/Blue/OnToken_Cast_Initiate_Instant_001_001_Blue_3x3_600x600.webm`,
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/Blue/OnToken_Cast_Initiate_Instant_001_002_Blue_3x3_600x600.webm`
+                        ],
+                        bluepurple: [
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/BluePurple/OnToken_Cast_Initiate_Instant_001_001_BluePurple_3x3_600x600.webm`,
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/BluePurple/OnToken_Cast_Initiate_Instant_001_002_BluePurple_3x3_600x600.webm`
+                        ],
+                        blueteal: [
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/BlueTeal/OnToken_Cast_Initiate_Instant_001_001_BlueTeal_3x3_600x600.webm`,
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/BlueTeal/OnToken_Cast_Initiate_Instant_001_002_BlueTeal_3x3_600x600.webm`
+                        ],
+                        greenpurple: [
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/GreenPurple/OnToken_Cast_Initiate_Instant_001_001_GreenPurple_3x3_600x600.webm`,
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/GreenPurple/OnToken_Cast_Initiate_Instant_001_002_GreenPurple_3x3_600x600.webm`
+                        ],
+                        greenyellow: [
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/GreenYellow/OnToken_Cast_Initiate_Instant_001_001_GreenYellow_3x3_600x600.webm`,
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/GreenYellow/OnToken_Cast_Initiate_Instant_001_002_GreenYellow_3x3_600x600.webm`
+                        ],
+                        orangeyellow: [
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/OrangeYellow/OnToken_Cast_Initiate_Instant_001_001_OrangeYellow_3x3_600x600.webm`,
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/OrangeYellow/OnToken_Cast_Initiate_Instant_001_002_OrangeYellow_3x3_600x600.webm`
+                        ],
+                        pinkyellow: [
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/PinkYellow/OnToken_Cast_Initiate_Instant_001_001_PinkYellow_3x3_600x600.webm`,
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/PinkYellow/OnToken_Cast_Initiate_Instant_001_002_PinkYellow_3x3_600x600.webm`
+                        ],
+                        purplered: [
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/PurpleRed/OnToken_Cast_Initiate_Instant_001_001_PurpleRed_3x3_600x600.webm`,
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/PurpleRed/OnToken_Cast_Initiate_Instant_001_002_PurpleRed_3x3_600x600.webm`
+                        ],
+                        white: [
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/White/OnToken_Cast_Initiate_Instant_001_001_White_3x3_600x600.webm`,
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/White/OnToken_Cast_Initiate_Instant_001_002_White_3x3_600x600.webm`
+                        ]
+                    },
+                    part01: {
+                        blue: [
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/Blue/OnToken_Cast_Initiate_InstantP01_001_001_Blue_3x3_600x600.webm`,
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/Blue/OnToken_Cast_Initiate_InstantP01_001_002_Blue_3x3_600x600.webm`
+                        ],
+                        bluepurple: [
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/BluePurple/OnToken_Cast_Initiate_InstantP01_001_001_BluePurple_3x3_600x600.webm`,
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/BluePurple/OnToken_Cast_Initiate_InstantP01_001_002_BluePurple_3x3_600x600.webm`
+                        ],
+                        blueteal: [
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/BlueTeal/OnToken_Cast_Initiate_InstantP01_001_001_BlueTeal_3x3_600x600.webm`,
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/BlueTeal/OnToken_Cast_Initiate_InstantP01_001_002_BlueTeal_3x3_600x600.webm`
+                        ],
+                        greenpurple: [
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/GreenPurple/OnToken_Cast_Initiate_InstantP01_001_001_GreenPurple_3x3_600x600.webm`,
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/GreenPurple/OnToken_Cast_Initiate_InstantP01_001_002_GreenPurple_3x3_600x600.webm`
+                        ],
+                        greenyellow: [
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/GreenYellow/OnToken_Cast_Initiate_InstantP01_001_001_GreenYellow_3x3_600x600.webm`,
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/GreenYellow/OnToken_Cast_Initiate_InstantP01_001_002_GreenYellow_3x3_600x600.webm`
+                        ],
+                        orangeyellow: [
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/OrangeYellow/OnToken_Cast_Initiate_InstantP01_001_001_OrangeYellow_3x3_600x600.webm`,
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/OrangeYellow/OnToken_Cast_Initiate_InstantP01_001_002_OrangeYellow_3x3_600x600.webm`
+                        ],
+                        pinkyellow: [
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/PinkYellow/OnToken_Cast_Initiate_InstantP01_001_001_PinkYellow_3x3_600x600.webm`,
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/PinkYellow/OnToken_Cast_Initiate_InstantP01_001_002_PinkYellow_3x3_600x600.webm`
+                        ],
+                        purplered: [
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/PurpleRed/OnToken_Cast_Initiate_InstantP01_001_001_PurpleRed_3x3_600x600.webm`,
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/PurpleRed/OnToken_Cast_Initiate_InstantP01_001_002_PurpleRed_3x3_600x600.webm`
+                        ],
+                        white: [
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/White/OnToken_Cast_Initiate_InstantP01_001_001_White_3x3_600x600.webm`,
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/White/OnToken_Cast_Initiate_InstantP01_001_002_White_3x3_600x600.webm`
+                        ]
+                    },
+                    part02: {
+                        blue: [
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/Blue/OnToken_Cast_Initiate_InstantP02_001_001_Blue_3x3_600x600.webm`,
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/Blue/OnToken_Cast_Initiate_InstantP02_001_002_Blue_3x3_600x600.webm`
+                        ],
+                        bluepurple: [
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/BluePurple/OnToken_Cast_Initiate_InstantP02_001_001_BluePurple_3x3_600x600.webm`,
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/BluePurple/OnToken_Cast_Initiate_InstantP02_001_002_BluePurple_3x3_600x600.webm`
+                        ],
+                        blueteal: [
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/BlueTeal/OnToken_Cast_Initiate_InstantP02_001_001_BlueTeal_3x3_600x600.webm`,
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/BlueTeal/OnToken_Cast_Initiate_InstantP02_001_002_BlueTeal_3x3_600x600.webm`
+                        ],
+                        greenpurple: [
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/GreenPurple/OnToken_Cast_Initiate_InstantP02_001_001_GreenPurple_3x3_600x600.webm`,
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/GreenPurple/OnToken_Cast_Initiate_InstantP02_001_002_GreenPurple_3x3_600x600.webm`
+                        ],
+                        greenyellow: [
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/GreenYellow/OnToken_Cast_Initiate_InstantP02_001_001_GreenYellow_3x3_600x600.webm`,
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/GreenYellow/OnToken_Cast_Initiate_InstantP02_001_002_GreenYellow_3x3_600x600.webm`
+                        ],
+                        orangeyellow: [
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/OrangeYellow/OnToken_Cast_Initiate_InstantP02_001_001_OrangeYellow_3x3_600x600.webm`,
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/OrangeYellow/OnToken_Cast_Initiate_InstantP02_001_002_OrangeYellow_3x3_600x600.webm`
+                        ],
+                        pinkyellow: [
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/PinkYellow/OnToken_Cast_Initiate_InstantP02_001_001_PinkYellow_3x3_600x600.webm`,
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/PinkYellow/OnToken_Cast_Initiate_InstantP02_001_002_PinkYellow_3x3_600x600.webm`
+                        ],
+                        purplered: [
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/PurpleRed/OnToken_Cast_Initiate_InstantP02_001_001_PurpleRed_3x3_600x600.webm`,
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/PurpleRed/OnToken_Cast_Initiate_InstantP02_001_002_PurpleRed_3x3_600x600.webm`
+                        ],
+                        white: [
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/White/OnToken_Cast_Initiate_InstantP02_001_001_White_3x3_600x600.webm`,
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/White/OnToken_Cast_Initiate_InstantP02_001_002_White_3x3_600x600.webm`
+                        ]
+                    },
+                    still_frame: {
+                        blue: [
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/Blue/OnToken_Cast_Initiate_Still_001_001_Blue_3x3_600x600.webp`,
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/Blue/OnToken_Cast_Initiate_Still_001_002_Blue_3x3_600x600.webp`
+                        ],
+                        bluepurple: [
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/BluePurple/OnToken_Cast_Initiate_Still_001_001_BluePurple_3x3_600x600.webp`,
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/BluePurple/OnToken_Cast_Initiate_Still_001_002_BluePurple_3x3_600x600.webp`
+                        ],
+                        blueteal: [
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/BlueTeal/OnToken_Cast_Initiate_Still_001_001_BlueTeal_3x3_600x600.webp`,
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/BlueTeal/OnToken_Cast_Initiate_Still_001_002_BlueTeal_3x3_600x600.webp`
+                        ],
+                        greenpurple: [
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/GreenPurple/OnToken_Cast_Initiate_Still_001_001_GreenPurple_3x3_600x600.webp`,
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/GreenPurple/OnToken_Cast_Initiate_Still_001_002_GreenPurple_3x3_600x600.webp`
+                        ],
+                        greenyellow: [
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/GreenYellow/OnToken_Cast_Initiate_Still_001_001_GreenYellow_3x3_600x600.webp`,
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/GreenYellow/OnToken_Cast_Initiate_Still_001_002_GreenYellow_3x3_600x600.webp`
+                        ],
+                        orangeyellow: [
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/OrangeYellow/OnToken_Cast_Initiate_Still_001_001_OrangeYellow_3x3_600x600.webp`,
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/OrangeYellow/OnToken_Cast_Initiate_Still_001_002_OrangeYellow_3x3_600x600.webp`
+                        ],
+                        pinkyellow: [
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/PinkYellow/OnToken_Cast_Initiate_Still_001_001_PinkYellow_3x3_600x600.webp`,
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/PinkYellow/OnToken_Cast_Initiate_Still_001_002_PinkYellow_3x3_600x600.webp`
+                        ],
+                        purplered: [
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/PurpleRed/OnToken_Cast_Initiate_Still_001_001_PurpleRed_3x3_600x600.webp`,
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/PurpleRed/OnToken_Cast_Initiate_Still_001_002_PurpleRed_3x3_600x600.webp`
+                        ],
+                        white: [
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/White/OnToken_Cast_Initiate_Still_001_001_White_3x3_600x600.webp`,
+                            `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/White/OnToken_Cast_Initiate_Still_001_002_White_3x3_600x600.webp`
+                        ]
+                    }
+                }
+            }
+        }
     }
     patreonDatabase.on_token_target = {
         _metadata: {
@@ -19778,6 +19941,85 @@ export async function jb2aPatreonDatabase(prefix) {
     patreonDatabase.template_square = {
             _metadata: {
                 name: "Template - Square",
+                new: ["raindrops*"]
+            },
+            raindrops: {
+                '001': {
+                    '5x5': {
+                        instant: {
+                            combined: {
+                                blue: [`${prefix}/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/Blue/Template_Square_Raindrops_Instant_001_001_Blue_5x5_500x500.webm`],
+                                bluepurple: [`${prefix}/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/BluePurple/Template_Square_Raindrops_Instant_001_001_BluePurple_5x5_500x500.webm`],
+                                blueteal: [`${prefix}/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/BlueTeal/Template_Square_Raindrops_Instant_001_001_BlueTeal_5x5_500x500.webm`],
+                                greenpurple: [`${prefix}/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/GreenPurple/Template_Square_Raindrops_Instant_001_001_GreenPurple_5x5_500x500.webm`],
+                                greenyellow: [`${prefix}/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/GreenYellow/Template_Square_Raindrops_Instant_001_001_GreenYellow_5x5_500x500.webm`],
+                                orangeyellow: [`${prefix}/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/OrangeYellow/Template_Square_Raindrops_Instant_001_001_OrangeYellow_5x5_500x500.webm`],
+                                pinkyellow: [`${prefix}/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/PinkYellow/Template_Square_Raindrops_Instant_001_001_PinkYellow_5x5_500x500.webm`],
+                                purplered: [`${prefix}/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/PurpleRed/Template_Square_Raindrops_Instant_001_001_PurpleRed_5x5_500x500.webm`],
+                                white: [`${prefix}/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/White/Template_Square_Raindrops_Instant_001_001_White_5x5_500x500.webm`],
+                            },
+                            part01: {
+                                blue: [`${prefix}/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/Blue/Template_Square_Raindrops_InstantP01_001_001_Blue_5x5_500x500.webm`],
+                                bluepurple: [`${prefix}/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/BluePurple/Template_Square_Raindrops_InstantP01_001_001_BluePurple_5x5_500x500.webm`],
+                                blueteal: [`${prefix}/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/BlueTeal/Template_Square_Raindrops_InstantP01_001_001_BlueTeal_5x5_500x500.webm`],
+                                greenpurple: [`${prefix}/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/GreenPurple/Template_Square_Raindrops_InstantP01_001_001_GreenPurple_5x5_500x500.webm`],
+                                greenyellow: [`${prefix}/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/GreenYellow/Template_Square_Raindrops_InstantP01_001_001_GreenYellow_5x5_500x500.webm`],
+                                orangeyellow: [`${prefix}/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/OrangeYellow/Template_Square_Raindrops_InstantP01_001_001_OrangeYellow_5x5_500x500.webm`],
+                                pinkyellow: [`${prefix}/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/PinkYellow/Template_Square_Raindrops_InstantP01_001_001_PinkYellow_5x5_500x500.webm`],
+                                purplered: [`${prefix}/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/PurpleRed/Template_Square_Raindrops_InstantP01_001_001_PurpleRed_5x5_500x500.webm`],
+                                white: [`${prefix}/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/White/Template_Square_Raindrops_InstantP01_001_001_White_5x5_500x500.webm`],
+                            },
+                            part02: {
+                                blue: [`${prefix}/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/Blue/Template_Square_Raindrops_InstantP02_001_001_Blue_3x3_300x300.webm`],
+                                bluepurple: [`${prefix}/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/BluePurple/Template_Square_Raindrops_InstantP02_001_001_BluePurple_3x3_300x300.webm`],
+                                blueteal: [`${prefix}/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/BlueTeal/Template_Square_Raindrops_InstantP02_001_001_BlueTeal_3x3_300x300.webm`],
+                                greenpurple: [`${prefix}/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/GreenPurple/Template_Square_Raindrops_InstantP02_001_001_GreenPurple_3x3_300x300.webm`],
+                                greenyellow: [`${prefix}/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/GreenYellow/Template_Square_Raindrops_InstantP02_001_001_GreenYellow_3x3_300x300.webm`],
+                                orangeyellow: [`${prefix}/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/OrangeYellow/Template_Square_Raindrops_InstantP02_001_001_OrangeYellow_3x3_300x300.webm`],
+                                pinkyellow: [`${prefix}/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/PinkYellow/Template_Square_Raindrops_InstantP02_001_001_PinkYellow_3x3_300x300.webm`],
+                                purplered: [`${prefix}/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/PurpleRed/Template_Square_Raindrops_InstantP02_001_001_PurpleRed_3x3_300x300.webm`],
+                                white: [`${prefix}/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/White/Template_Square_Raindrops_InstantP02_001_001_White_3x3_300x300.webm`],
+                            }
+                        }
+                    },
+                    '7x7': {
+                        instant: {
+                            combined: {
+                                blue: [`${prefix}/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/Blue/Template_Square_Raindrops_Instant_001_001_Blue_7x7_700x700.webm`],
+                                bluepurple: [`${prefix}/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/BluePurple/Template_Square_Raindrops_Instant_001_001_BluePurple_7x7_700x700.webm`],
+                                blueteal: [`${prefix}/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/BlueTeal/Template_Square_Raindrops_Instant_001_001_BlueTeal_7x7_700x700.webm`],
+                                greenpurple: [`${prefix}/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/GreenPurple/Template_Square_Raindrops_Instant_001_001_GreenPurple_7x7_700x700.webm`],
+                                greenyellow: [`${prefix}/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/GreenYellow/Template_Square_Raindrops_Instant_001_001_GreenYellow_7x7_700x700.webm`],
+                                orangeyellow: [`${prefix}/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/OrangeYellow/Template_Square_Raindrops_Instant_001_001_OrangeYellow_7x7_700x700.webm`],
+                                pinkyellow: [`${prefix}/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/PinkYellow/Template_Square_Raindrops_Instant_001_001_PinkYellow_7x7_700x700.webm`],
+                                purplered: [`${prefix}/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/PurpleRed/Template_Square_Raindrops_Instant_001_001_PurpleRed_7x7_700x700.webm`],
+                                white: [`${prefix}/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/White/Template_Square_Raindrops_Instant_001_001_White_7x7_700x700.webm`],
+                            },
+                            part01: {
+                                blue: [`${prefix}/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/Blue/Template_Square_Raindrops_InstantP01_001_001_Blue_7x7_700x700.webm`],
+                                bluepurple: [`${prefix}/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/BluePurple/Template_Square_Raindrops_InstantP01_001_001_BluePurple_7x7_700x700.webm`],
+                                blueteal: [`${prefix}/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/BlueTeal/Template_Square_Raindrops_InstantP01_001_001_BlueTeal_7x7_700x700.webm`],
+                                greenpurple: [`${prefix}/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/GreenPurple/Template_Square_Raindrops_InstantP01_001_001_GreenPurple_7x7_700x700.webm`],
+                                greenyellow: [`${prefix}/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/GreenYellow/Template_Square_Raindrops_InstantP01_001_001_GreenYellow_7x7_700x700.webm`],
+                                orangeyellow: [`${prefix}/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/OrangeYellow/Template_Square_Raindrops_InstantP01_001_001_OrangeYellow_7x7_700x700.webm`],
+                                pinkyellow: [`${prefix}/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/PinkYellow/Template_Square_Raindrops_InstantP01_001_001_PinkYellow_7x7_700x700.webm`],
+                                purplered: [`${prefix}/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/PurpleRed/Template_Square_Raindrops_InstantP01_001_001_PurpleRed_7x7_700x700.webm`],
+                                white: [`${prefix}/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/White/Template_Square_Raindrops_InstantP01_001_001_White_7x7_700x700.webm`],
+                            },
+                            part02: {
+                                blue: [`${prefix}/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/Blue/Template_Square_Raindrops_InstantP02_001_001_Blue_5x5_500x500.webm`],
+                                bluepurple: [`${prefix}/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/BluePurple/Template_Square_Raindrops_InstantP02_001_001_BluePurple_5x5_500x500.webm`],
+                                blueteal: [`${prefix}/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/BlueTeal/Template_Square_Raindrops_InstantP02_001_001_BlueTeal_5x5_500x500.webm`],
+                                greenpurple: [`${prefix}/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/GreenPurple/Template_Square_Raindrops_InstantP02_001_001_GreenPurple_5x5_500x500.webm`],
+                                greenyellow: [`${prefix}/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/GreenYellow/Template_Square_Raindrops_InstantP02_001_001_GreenYellow_5x5_500x500.webm`],
+                                orangeyellow: [`${prefix}/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/OrangeYellow/Template_Square_Raindrops_InstantP02_001_001_OrangeYellow_5x5_500x500.webm`],
+                                pinkyellow: [`${prefix}/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/PinkYellow/Template_Square_Raindrops_InstantP02_001_001_PinkYellow_5x5_500x500.webm`],
+                                purplered: [`${prefix}/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/PurpleRed/Template_Square_Raindrops_InstantP02_001_001_PurpleRed_5x5_500x500.webm`],
+                                white: [`${prefix}/jb2a_patreon/Library/Generic/Template/Square/Raindrop/001/White/Template_Square_Raindrops_InstantP02_001_001_White_5x5_500x500.webm`],
+                            }
+                        }
+                    }
+                }
             },
             symbol: {
                 normal: {
@@ -20697,7 +20939,12 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.ui = {
             _metadata: {
-                name: "UI"
+                name: "UI",
+                new: [
+                    "failure*",
+                    "hit*",
+                    "success*"
+                ]
             },
             chevrons3: {
                 green: `${prefix}/jb2a_patreon/Library/Generic/UI/3Chevrons_01_Regular_Green_200x200.webm`,
@@ -20720,6 +20967,9 @@ export async function jb2aPatreonDatabase(prefix) {
                     `${prefix}/jb2a_patreon/Library/Generic/UI/CriticalMiss_04_Red_200x200.webm`,
                 ]
             },
+            failure: {
+                red: [`${prefix}/jb2a_patreon/Library/Generic/UI/Failure_01_Red_200x200.webm`]
+            },
             heartbeat: {
                 '01': {
                     blue: `${prefix}/jb2a_patreon/Library/Generic/UI/HeartbeatECG01_01_Regular_Blue_400x400.webm`,
@@ -20735,6 +20985,9 @@ export async function jb2aPatreonDatabase(prefix) {
                     red: `${prefix}/jb2a_patreon/Library/Generic/UI/HeartbeatECG01_02_Regular_Red_400x400.webm`,
                     yellow: `${prefix}/jb2a_patreon/Library/Generic/UI/HeartbeatECG01_02_Regular_Yellow_400x400.webm`
                 },
+            },
+            hit: {
+                blue: [`${prefix}/jb2a_patreon/Library/Generic/UI/Hit_01_Blue_200x200.webm`]
             },
             indicator: {
                 green: {
@@ -20785,6 +21038,9 @@ export async function jb2aPatreonDatabase(prefix) {
             miss: {
                 red: `${prefix}/jb2a_patreon/Library/Generic/UI/Miss_01_Red_200x200.webm`,
                 white: `${prefix}/jb2a_patreon/Library/Generic/UI/Miss_02_White_200x200.webm`
+            },
+            success: {
+                green: [`${prefix}/jb2a_patreon/Library/Generic/UI/Success_01_Green_200x200.webm`]
             }
     }
     patreonDatabase.unarmed_strike = {
@@ -21235,11 +21491,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.volley_of_projectiles_Cone5e = {
         _metadata: {
-            name: "Volley of Projectiles - Cone 5e",
-            new: [
-                "arrow.001.002*",
-                "arrow.001.003*"
-            ]
+            name: "Volley of Projectiles - Cone 5e"
         },
         _template: "cone100",
 
@@ -21391,11 +21643,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.volley_of_projectiles_ConePF2e = {
         _metadata: {
-            name: "Volley of Projectiles - Cone PF2e",
-            new: [
-                "arrow.001.002*",
-                "arrow.001.003*"
-            ]
+            name: "Volley of Projectiles - Cone PF2e"
         },
         _template: "cone100",
         "arrow": {
