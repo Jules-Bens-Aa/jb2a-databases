@@ -2025,7 +2025,7 @@ export async function jb2aPatreonDatabase(prefix) {
             bluepurple: [`${prefix}/jb2a_patreon/Library/Generic/Cast/GenericCast03_01_BluePurple_600x600.webm`],
             blueteal: [`${prefix}/jb2a_patreon/Library/Generic/Cast/GenericCast03_01_BlueTeal_600x600.webm`],
             greenpurple: [`${prefix}/jb2a_patreon/Library/Generic/Cast/GenericCast03_01_GreenPurple_600x600.webm`],
-            greenYellow: [`${prefix}/jb2a_patreon/Library/Generic/Cast/GenericCast03_01_GreenYellow_600x600.webm`],
+            greenyellow: [`${prefix}/jb2a_patreon/Library/Generic/Cast/GenericCast03_01_GreenYellow_600x600.webm`],
             orangeyellow: [`${prefix}/jb2a_patreon/Library/Generic/Cast/GenericCast03_01_OrangeYellow_600x600.webm`],
             pinkyellow: [`${prefix}/jb2a_patreon/Library/Generic/Cast/GenericCast03_01_PinkYellow_600x600.webm`],
             purplered: [`${prefix}/jb2a_patreon/Library/Generic/Cast/GenericCast03_01_PurpleRed_600x600.webm`],
@@ -2116,7 +2116,8 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.celestial_bodies = {
         _metadata: {
-            name: "Celestial Bodies"
+            name: "Celestial Bodies",
+            new: [ "black_hole.001*" ]
         },
         asteroid: {
             disk: {
@@ -2205,6 +2206,39 @@ export async function jb2aPatreonDatabase(prefix) {
                         '04': `${prefix}/jb2a_patreon/Library/Generic/Celestial_Bodies/AsteroidSingleIron04_01_Regular_Red_400x400.webm`
                     }
                 }                
+            }
+        },
+        black_hole: {
+            '001': {
+                '8x8': {
+                    'outward': {
+                        'complete': {
+                            _markers: {
+                                loop: { start: 1100, end: 4100 }
+                            },
+                            blue: [`${prefix}/jb2a_patreon/Library/Generic/Celestial_Bodies/Black_Hole/001/Blue/Tile_Disk_BlackHole_OutwardComplete_001_001_Blue_8x8_800x800.webm`],
+                            bluepurple: [`${prefix}/jb2a_patreon/Library/Generic/Celestial_Bodies/Black_Hole/001/BluePurple/Tile_Disk_BlackHole_OutwardComplete_001_001_BluePurple_8x8_800x800.webm`],
+                            blueteal: [`${prefix}/jb2a_patreon/Library/Generic/Celestial_Bodies/Black_Hole/001/BlueTeal/Tile_Disk_BlackHole_OutwardComplete_001_001_BlueTeal_8x8_800x800.webm`],
+                            greenpurple: [`${prefix}/jb2a_patreon/Library/Generic/Celestial_Bodies/Black_Hole/001/GreenPurple/Tile_Disk_BlackHole_OutwardComplete_001_001_GreenPurple_8x8_800x800.webm`],
+                            greenyellow: [`${prefix}/jb2a_patreon/Library/Generic/Celestial_Bodies/Black_Hole/001/GreenYellow/Tile_Disk_BlackHole_OutwardComplete_001_001_GreenYellow_8x8_800x800.webm`],
+                            orangeyellow: [`${prefix}/jb2a_patreon/Library/Generic/Celestial_Bodies/Black_Hole/001/OrangeYellow/Tile_Disk_BlackHole_OutwardComplete_001_001_OrangeYellow_8x8_800x800.webm`],
+                            pinkyellow: [`${prefix}/jb2a_patreon/Library/Generic/Celestial_Bodies/Black_Hole/001/PinkYellow/Tile_Disk_BlackHole_OutwardComplete_001_001_PinkYellow_8x8_800x800.webm`],
+                            purplered: [`${prefix}/jb2a_patreon/Library/Generic/Celestial_Bodies/Black_Hole/001/PurpleRed/Tile_Disk_BlackHole_OutwardComplete_001_001_PurpleRed_8x8_800x800.webm`],
+                            white: [`${prefix}/jb2a_patreon/Library/Generic/Celestial_Bodies/Black_Hole/001/White/Tile_Disk_BlackHole_OutwardComplete_001_001_White_8x8_800x800.webm`]
+                        },
+                        'loop': {
+                            blue: [`${prefix}/jb2a_patreon/Library/Generic/Celestial_Bodies/Black_Hole/001/Blue/Tile_Disk_BlackHole_OutwardLoop_001_001_Blue_8x8_800x800.webm`],
+                            bluepurple: [`${prefix}/jb2a_patreon/Library/Generic/Celestial_Bodies/Black_Hole/001/BluePurple/Tile_Disk_BlackHole_OutwardLoop_001_001_BluePurple_8x8_800x800.webm`],
+                            blueteal: [`${prefix}/jb2a_patreon/Library/Generic/Celestial_Bodies/Black_Hole/001/BlueTeal/Tile_Disk_BlackHole_OutwardLoop_001_001_BlueTeal_8x8_800x800.webm`],
+                            greenpurple: [`${prefix}/jb2a_patreon/Library/Generic/Celestial_Bodies/Black_Hole/001/GreenPurple/Tile_Disk_BlackHole_OutwardLoop_001_001_GreenPurple_8x8_800x800.webm`],
+                            greenyellow: [`${prefix}/jb2a_patreon/Library/Generic/Celestial_Bodies/Black_Hole/001/GreenYellow/Tile_Disk_BlackHole_OutwardLoop_001_001_GreenYellow_8x8_800x800.webm`],
+                            orangeyellow: [`${prefix}/jb2a_patreon/Library/Generic/Celestial_Bodies/Black_Hole/001/OrangeYellow/Tile_Disk_BlackHole_OutwardLoop_001_001_OrangeYellow_8x8_800x800.webm`],
+                            pinkyellow: [`${prefix}/jb2a_patreon/Library/Generic/Celestial_Bodies/Black_Hole/001/PinkYellow/Tile_Disk_BlackHole_OutwardLoop_001_001_PinkYellow_8x8_800x800.webm`],
+                            purplered: [`${prefix}/jb2a_patreon/Library/Generic/Celestial_Bodies/Black_Hole/001/PurpleRed/Tile_Disk_BlackHole_OutwardLoop_001_001_PurpleRed_8x8_800x800.webm`],
+                            white: [`${prefix}/jb2a_patreon/Library/Generic/Celestial_Bodies/Black_Hole/001/White/Tile_Disk_BlackHole_OutwardLoop_001_001_White_8x8_800x800.webm`]
+                        }
+                    }
+                }
             }
         },
         planet: {
@@ -4774,8 +4808,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.extras = {
         _metadata: {
-            name: "Extras",
-            new: ["tmfx.border.square*"]
+            name: "Extras"
         },
         tmfx: {
             border: {
@@ -11845,8 +11878,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.on_token_cast = {
         _metadata: {
-            name: "On Token Cast",
-            new: true
+            name: "On Token Cast"
         },
         initiate: {
             '001': {
@@ -14338,6 +14370,215 @@ export async function jb2aPatreonDatabase(prefix) {
                 pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/Hit/RangedMissileHit001_01_PinkYellow_600x600.webm`,
                 purplered: `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/Hit/RangedMissileHit001_01_PurpleRed_600x600.webm`,
                 white: `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Missile/001/Hit/RangedMissileHit001_01_White_600x600.webm`
+            }
+        }
+    }
+    patreonDatabase.ranged_slash = {
+        _metadata: {
+            name: "Ranged Slash",
+            new: true
+        },
+        _template: 'ranged',
+        instant: {
+            '001': {
+                blue: {
+                    '15ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/Blue/Ranged_Projectile_Slash_Instant_001_001_Blue_15ft_1000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/Blue/Ranged_Projectile_Slash_Instant_001_002_Blue_15ft_1000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/Blue/Ranged_Projectile_Slash_Instant_001_003_Blue_15ft_1000x400.webm`
+                    ],
+                    '30ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/Blue/Ranged_Projectile_Slash_Instant_001_001_Blue_30ft_1600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/Blue/Ranged_Projectile_Slash_Instant_001_002_Blue_30ft_1600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/Blue/Ranged_Projectile_Slash_Instant_001_003_Blue_30ft_1600x400.webm`
+                    ],
+                    '60ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/Blue/Ranged_Projectile_Slash_Instant_001_001_Blue_60ft_2800x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/Blue/Ranged_Projectile_Slash_Instant_001_002_Blue_60ft_2800x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/Blue/Ranged_Projectile_Slash_Instant_001_003_Blue_60ft_2800x400.webm`
+                    ],
+                    '90ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/Blue/Ranged_Projectile_Slash_Instant_001_001_Blue_90ft_4000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/Blue/Ranged_Projectile_Slash_Instant_001_002_Blue_90ft_4000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/Blue/Ranged_Projectile_Slash_Instant_001_003_Blue_90ft_4000x400.webm`
+                    ]
+                },
+                bluepurple: {
+                    '15ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/BluePurple/Ranged_Projectile_Slash_Instant_001_001_BluePurple_15ft_1000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/BluePurple/Ranged_Projectile_Slash_Instant_001_002_BluePurple_15ft_1000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/BluePurple/Ranged_Projectile_Slash_Instant_001_003_BluePurple_15ft_1000x400.webm`
+                    ],
+                    '30ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/BluePurple/Ranged_Projectile_Slash_Instant_001_001_BluePurple_30ft_1600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/BluePurple/Ranged_Projectile_Slash_Instant_001_002_BluePurple_30ft_1600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/BluePurple/Ranged_Projectile_Slash_Instant_001_003_BluePurple_30ft_1600x400.webm`
+                    ],
+                    '60ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/BluePurple/Ranged_Projectile_Slash_Instant_001_001_BluePurple_60ft_2800x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/BluePurple/Ranged_Projectile_Slash_Instant_001_002_BluePurple_60ft_2800x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/BluePurple/Ranged_Projectile_Slash_Instant_001_003_BluePurple_60ft_2800x400.webm`
+                    ],
+                    '90ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/BluePurple/Ranged_Projectile_Slash_Instant_001_001_BluePurple_90ft_4000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/BluePurple/Ranged_Projectile_Slash_Instant_001_002_BluePurple_90ft_4000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/BluePurple/Ranged_Projectile_Slash_Instant_001_003_BluePurple_90ft_4000x400.webm`
+                    ]
+                },
+                blueteal: {
+                    '15ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/BlueTeal/Ranged_Projectile_Slash_Instant_001_001_BlueTeal_15ft_1000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/BlueTeal/Ranged_Projectile_Slash_Instant_001_002_BlueTeal_15ft_1000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/BlueTeal/Ranged_Projectile_Slash_Instant_001_003_BlueTeal_15ft_1000x400.webm`
+                    ],
+                    '30ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/BlueTeal/Ranged_Projectile_Slash_Instant_001_001_BlueTeal_30ft_1600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/BlueTeal/Ranged_Projectile_Slash_Instant_001_002_BlueTeal_30ft_1600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/BlueTeal/Ranged_Projectile_Slash_Instant_001_003_BlueTeal_30ft_1600x400.webm`
+                    ],
+                    '60ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/BlueTeal/Ranged_Projectile_Slash_Instant_001_001_BlueTeal_60ft_2800x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/BlueTeal/Ranged_Projectile_Slash_Instant_001_002_BlueTeal_60ft_2800x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/BlueTeal/Ranged_Projectile_Slash_Instant_001_003_BlueTeal_60ft_2800x400.webm`
+                    ],
+                    '90ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/BlueTeal/Ranged_Projectile_Slash_Instant_001_001_BlueTeal_90ft_4000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/BlueTeal/Ranged_Projectile_Slash_Instant_001_002_BlueTeal_90ft_4000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/BlueTeal/Ranged_Projectile_Slash_Instant_001_003_BlueTeal_90ft_4000x400.webm`
+                    ]
+                },
+                greenpurple: {
+                    '15ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/GreenPurple/Ranged_Projectile_Slash_Instant_001_001_GreenPurple_15ft_1000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/GreenPurple/Ranged_Projectile_Slash_Instant_001_002_GreenPurple_15ft_1000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/GreenPurple/Ranged_Projectile_Slash_Instant_001_003_GreenPurple_15ft_1000x400.webm`
+                    ],
+                    '30ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/GreenPurple/Ranged_Projectile_Slash_Instant_001_001_GreenPurple_30ft_1600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/GreenPurple/Ranged_Projectile_Slash_Instant_001_002_GreenPurple_30ft_1600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/GreenPurple/Ranged_Projectile_Slash_Instant_001_003_GreenPurple_30ft_1600x400.webm`
+                    ],
+                    '60ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/GreenPurple/Ranged_Projectile_Slash_Instant_001_001_GreenPurple_60ft_2800x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/GreenPurple/Ranged_Projectile_Slash_Instant_001_002_GreenPurple_60ft_2800x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/GreenPurple/Ranged_Projectile_Slash_Instant_001_003_GreenPurple_60ft_2800x400.webm`
+                    ],
+                    '90ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/GreenPurple/Ranged_Projectile_Slash_Instant_001_001_GreenPurple_90ft_4000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/GreenPurple/Ranged_Projectile_Slash_Instant_001_002_GreenPurple_90ft_4000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/GreenPurple/Ranged_Projectile_Slash_Instant_001_003_GreenPurple_90ft_4000x400.webm`
+                    ]
+                },
+                greenyellow: {
+                    '15ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/GreenYellow/Ranged_Projectile_Slash_Instant_001_001_GreenYellow_15ft_1000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/GreenYellow/Ranged_Projectile_Slash_Instant_001_002_GreenYellow_15ft_1000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/GreenYellow/Ranged_Projectile_Slash_Instant_001_003_GreenYellow_15ft_1000x400.webm`
+                    ],
+                    '30ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/GreenYellow/Ranged_Projectile_Slash_Instant_001_001_GreenYellow_30ft_1600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/GreenYellow/Ranged_Projectile_Slash_Instant_001_002_GreenYellow_30ft_1600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/GreenYellow/Ranged_Projectile_Slash_Instant_001_003_GreenYellow_30ft_1600x400.webm`
+                    ],
+                    '60ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/GreenYellow/Ranged_Projectile_Slash_Instant_001_001_GreenYellow_60ft_2800x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/GreenYellow/Ranged_Projectile_Slash_Instant_001_002_GreenYellow_60ft_2800x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/GreenYellow/Ranged_Projectile_Slash_Instant_001_003_GreenYellow_60ft_2800x400.webm`
+                    ],
+                    '90ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/GreenYellow/Ranged_Projectile_Slash_Instant_001_001_GreenYellow_90ft_4000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/GreenYellow/Ranged_Projectile_Slash_Instant_001_002_GreenYellow_90ft_4000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/GreenYellow/Ranged_Projectile_Slash_Instant_001_003_GreenYellow_90ft_4000x400.webm`
+                    ]
+                },
+                orangeyellow: {
+                    '15ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/OrangeYellow/Ranged_Projectile_Slash_Instant_001_001_OrangeYellow_15ft_1000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/OrangeYellow/Ranged_Projectile_Slash_Instant_001_002_OrangeYellow_15ft_1000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/OrangeYellow/Ranged_Projectile_Slash_Instant_001_003_OrangeYellow_15ft_1000x400.webm`
+                    ],
+                    '30ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/OrangeYellow/Ranged_Projectile_Slash_Instant_001_001_OrangeYellow_30ft_1600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/OrangeYellow/Ranged_Projectile_Slash_Instant_001_002_OrangeYellow_30ft_1600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/OrangeYellow/Ranged_Projectile_Slash_Instant_001_003_OrangeYellow_30ft_1600x400.webm`
+                    ],
+                    '60ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/OrangeYellow/Ranged_Projectile_Slash_Instant_001_001_OrangeYellow_60ft_2800x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/OrangeYellow/Ranged_Projectile_Slash_Instant_001_002_OrangeYellow_60ft_2800x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/OrangeYellow/Ranged_Projectile_Slash_Instant_001_003_OrangeYellow_60ft_2800x400.webm`
+                    ],
+                    '90ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/OrangeYellow/Ranged_Projectile_Slash_Instant_001_001_OrangeYellow_90ft_4000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/OrangeYellow/Ranged_Projectile_Slash_Instant_001_002_OrangeYellow_90ft_4000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/OrangeYellow/Ranged_Projectile_Slash_Instant_001_003_OrangeYellow_90ft_4000x400.webm`
+                    ]
+                },
+                pinkyellow: {
+                    '15ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/PinkYellow/Ranged_Projectile_Slash_Instant_001_001_PinkYellow_15ft_1000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/PinkYellow/Ranged_Projectile_Slash_Instant_001_002_PinkYellow_15ft_1000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/PinkYellow/Ranged_Projectile_Slash_Instant_001_003_PinkYellow_15ft_1000x400.webm`
+                    ],
+                    '30ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/PinkYellow/Ranged_Projectile_Slash_Instant_001_001_PinkYellow_30ft_1600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/PinkYellow/Ranged_Projectile_Slash_Instant_001_002_PinkYellow_30ft_1600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/PinkYellow/Ranged_Projectile_Slash_Instant_001_003_PinkYellow_30ft_1600x400.webm`
+                    ],
+                    '60ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/PinkYellow/Ranged_Projectile_Slash_Instant_001_001_PinkYellow_60ft_2800x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/PinkYellow/Ranged_Projectile_Slash_Instant_001_002_PinkYellow_60ft_2800x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/PinkYellow/Ranged_Projectile_Slash_Instant_001_003_PinkYellow_60ft_2800x400.webm`
+                    ],
+                    '90ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/PinkYellow/Ranged_Projectile_Slash_Instant_001_001_PinkYellow_90ft_4000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/PinkYellow/Ranged_Projectile_Slash_Instant_001_002_PinkYellow_90ft_4000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/PinkYellow/Ranged_Projectile_Slash_Instant_001_003_PinkYellow_90ft_4000x400.webm`
+                    ]
+                },
+                purplered: {
+                    '15ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/PurpleRed/Ranged_Projectile_Slash_Instant_001_001_PurpleRed_15ft_1000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/PurpleRed/Ranged_Projectile_Slash_Instant_001_002_PurpleRed_15ft_1000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/PurpleRed/Ranged_Projectile_Slash_Instant_001_003_PurpleRed_15ft_1000x400.webm`
+                    ],
+                    '30ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/PurpleRed/Ranged_Projectile_Slash_Instant_001_001_PurpleRed_30ft_1600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/PurpleRed/Ranged_Projectile_Slash_Instant_001_002_PurpleRed_30ft_1600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/PurpleRed/Ranged_Projectile_Slash_Instant_001_003_PurpleRed_30ft_1600x400.webm`
+                    ],
+                    '60ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/PurpleRed/Ranged_Projectile_Slash_Instant_001_001_PurpleRed_60ft_2800x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/PurpleRed/Ranged_Projectile_Slash_Instant_001_002_PurpleRed_60ft_2800x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/PurpleRed/Ranged_Projectile_Slash_Instant_001_003_PurpleRed_60ft_2800x400.webm`
+                    ],
+                    '90ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/PurpleRed/Ranged_Projectile_Slash_Instant_001_001_PurpleRed_90ft_4000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/PurpleRed/Ranged_Projectile_Slash_Instant_001_002_PurpleRed_90ft_4000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/PurpleRed/Ranged_Projectile_Slash_Instant_001_003_PurpleRed_90ft_4000x400.webm`
+                    ]
+                },
+                white: {
+                    '15ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/White/Ranged_Projectile_Slash_Instant_001_001_White_15ft_1000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/White/Ranged_Projectile_Slash_Instant_001_002_White_15ft_1000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/White/Ranged_Projectile_Slash_Instant_001_003_White_15ft_1000x400.webm`
+                    ],
+                    '30ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/White/Ranged_Projectile_Slash_Instant_001_001_White_30ft_1600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/White/Ranged_Projectile_Slash_Instant_001_002_White_30ft_1600x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/White/Ranged_Projectile_Slash_Instant_001_003_White_30ft_1600x400.webm`
+                    ],
+                    '60ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/White/Ranged_Projectile_Slash_Instant_001_001_White_60ft_2800x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/White/Ranged_Projectile_Slash_Instant_001_002_White_60ft_2800x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/White/Ranged_Projectile_Slash_Instant_001_003_White_60ft_2800x400.webm`
+                    ],
+                    '90ft': [
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/White/Ranged_Projectile_Slash_Instant_001_001_White_90ft_4000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/White/Ranged_Projectile_Slash_Instant_001_002_White_90ft_4000x400.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/RangedSpell/Slash/001/White/Ranged_Projectile_Slash_Instant_001_003_White_90ft_4000x400.webm`
+                    ]
+                }
             }
         }
     }
@@ -19940,8 +20181,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.template_square = {
             _metadata: {
-                name: "Template - Square",
-                new: ["raindrops*"]
+                name: "Template - Square"
             },
             raindrops: {
                 '001': {
@@ -20939,12 +21179,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.ui = {
             _metadata: {
-                name: "UI",
-                new: [
-                    "failure*",
-                    "hit*",
-                    "success*"
-                ]
+                name: "UI"
             },
             chevrons3: {
                 green: `${prefix}/jb2a_patreon/Library/Generic/UI/3Chevrons_01_Regular_Green_200x200.webm`,
