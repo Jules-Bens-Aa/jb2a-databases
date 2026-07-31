@@ -2116,8 +2116,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.celestial_bodies = {
         _metadata: {
-            name: "Celestial Bodies",
-            new: [ "black_hole.001*" ]
+            name: "Celestial Bodies"
         },
         asteroid: {
             disk: {
@@ -10552,12 +10551,22 @@ export async function jb2aPatreonDatabase(prefix) {
                 }
             }
     }
-    patreonDatabase.melee_attack = {
-        //_template: "melee",
-        
+    patreonDatabase.melee_attack = {        
         '01': {
             _metadata: {
-                name: "Melee Attacks - Group 01"
+                name: "Melee Attacks - Group 01",
+                new: [
+                    "bonesword.01*"
+                ]
+            },
+            bonesword: {
+                _template: "melee",
+                '01': [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_BoneSword01_01_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_BoneSword01_02_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_BoneSword01_03_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_BoneSword01_04_800x600.webm`,
+                ]
             },
             butterflysword: {
                 _template: "melee",
@@ -10917,7 +10926,11 @@ export async function jb2aPatreonDatabase(prefix) {
         },
         '03': {
             _metadata: {
-                name: "Melee Attacks - Group 03"
+                name: "Melee Attacks - Group 03",
+                new: [
+                    "greatsword.02*",
+                    "greataxe.02*"
+                ]
             },
             greatbone: {
                 _template: "melee",
@@ -10935,7 +10948,63 @@ export async function jb2aPatreonDatabase(prefix) {
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe01_02_800x600.webm`,
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe01_03_800x600.webm`,
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe01_04_800x600.webm`,
-                ]
+                ],
+                '02': {
+                    'blue': [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe02_01_Blue_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe02_02_Blue_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe02_03_Blue_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe02_04_Blue_800x600.webm`,
+                    ],
+                    'bluepurple': [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe02_01_BluePurple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe02_02_BluePurple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe02_03_BluePurple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe02_04_BluePurple_800x600.webm`,
+                    ],
+                    'blueteal': [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe02_01_BlueTeal_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe02_02_BlueTeal_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe02_03_BlueTeal_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe02_04_BlueTeal_800x600.webm`,
+                    ],
+                    'greenpurple': [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe02_01_GreenPurple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe02_02_GreenPurple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe02_03_GreenPurple_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe02_04_GreenPurple_800x600.webm`,
+                    ],
+                    'greenyellow': [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe02_01_GreenYellow_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe02_02_GreenYellow_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe02_03_GreenYellow_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe02_04_GreenYellow_800x600.webm`,
+                    ],
+                    'orangeyellow': [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe02_01_OrangeYellow_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe02_02_OrangeYellow_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe02_03_OrangeYellow_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe02_04_OrangeYellow_800x600.webm`,
+                    ],
+                    'pinkyellow': [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe02_01_PinkYellow_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe02_02_PinkYellow_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe02_03_PinkYellow_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe02_04_PinkYellow_800x600.webm`,
+                    ],
+                    'purplered': [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe02_01_PurpleRed_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe02_02_PurpleRed_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe02_03_PurpleRed_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe02_04_PurpleRed_800x600.webm`,
+                    ],
+                    'white': [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe02_01_White_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe02_02_White_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe02_03_White_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatAxe02_04_White_800x600.webm`,
+                    ],
+                }
             },
             greatclub: {
                 _template: "melee",
@@ -10953,7 +11022,13 @@ export async function jb2aPatreonDatabase(prefix) {
                 `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatSword01_02_800x600.webm`,
                 `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatSword01_03_800x600.webm`,
                 `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatSword01_04_800x600.webm`,
-                ]
+                ],
+                '02': [
+                `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatSword02_01_800x600.webm`,
+                `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatSword02_02_800x600.webm`,
+                `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatSword02_03_800x600.webm`,
+                `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_GreatSword02_04_800x600.webm`
+                ],
             },
             khybersword: {
                 _template: "melee",
@@ -14375,8 +14450,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.ranged_slash = {
         _metadata: {
-            name: "Ranged Slash",
-            new: true
+            name: "Ranged Slash"
         },
         _template: 'ranged',
         instant: {
