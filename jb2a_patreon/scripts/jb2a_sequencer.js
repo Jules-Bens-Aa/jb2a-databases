@@ -10556,7 +10556,8 @@ export async function jb2aPatreonDatabase(prefix) {
             _metadata: {
                 name: "Melee Attacks - Group 01",
                 new: [
-                    "bonesword.01*"
+                    "flail*",
+                    "sword_chainsaw*"
                 ]
             },
             bonesword: {
@@ -10596,6 +10597,21 @@ export async function jb2aPatreonDatabase(prefix) {
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_Chakram03_02_800x600.webm`,
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_Chakram03_03_800x600.webm`,
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_Chakram03_04_800x600.webm`
+                ]
+            },
+            flail: {
+                _template: "melee",
+                '01': [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_Flail01_01_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_Flail01_02_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_Flail01_03_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_Flail01_04_800x600.webm`,
+                ],
+                '02': [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_Flail02_01_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_Flail02_02_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_Flail02_03_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_Flail02_04_800x600.webm`,
                 ]
             },
             magic_sword: {
@@ -10657,6 +10673,15 @@ export async function jb2aPatreonDatabase(prefix) {
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_Sickle01_02_800x600.webm`,
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_Sickle01_03_800x600.webm`,
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_Sickle01_04_800x600.webm`,
+                ]
+            },
+            sword_chainsaw: {
+                _template: "melee",
+                '01': [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_SwordChainSaw01_01_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_SwordChainSaw01_02_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_SwordChainSaw01_03_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_SwordChainSaw01_04_800x600.webm`,
                 ]
             },
             trail: {
@@ -10926,11 +10951,7 @@ export async function jb2aPatreonDatabase(prefix) {
         },
         '03': {
             _metadata: {
-                name: "Melee Attacks - Group 03",
-                new: [
-                    "greatsword.02*",
-                    "greataxe.02*"
-                ]
+                name: "Melee Attacks - Group 03"
             },
             greatbone: {
                 _template: "melee",
