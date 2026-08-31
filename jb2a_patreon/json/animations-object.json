@@ -621,6 +621,54 @@
 			}
 		}
 	},
+	"ball_bearing": {
+		"_metadata": {
+			"name": "Ball Bearings",
+			"new": true
+		},
+		"endframe": {
+			"top": {
+				"001": {
+					"1x1": {
+						"blue": "modules/jb2a_patreon/Library/Generic/Traps/Ball_Bearing/001/Template_Circle_BallBearings_001_001_Blue_1x1_300_Endframe.webp",
+						"brown": "modules/jb2a_patreon/Library/Generic/Traps/Ball_Bearing/001/Template_Circle_BallBearings_001_001_Brown_1x1_300_Endframe.webp",
+						"green": "modules/jb2a_patreon/Library/Generic/Traps/Ball_Bearing/001/Template_Circle_BallBearings_001_001_Green_1x1_300_Endframe.webp",
+						"grey": "modules/jb2a_patreon/Library/Generic/Traps/Ball_Bearing/001/Template_Circle_BallBearings_001_001_Grey_1x1_300_Endframe.webp",
+						"multicolored": "modules/jb2a_patreon/Library/Generic/Traps/Ball_Bearing/001/Template_Circle_BallBearings_001_001_MultiColor_1x1_300_Endframe.webp",
+						"purple": "modules/jb2a_patreon/Library/Generic/Traps/Ball_Bearing/001/Template_Circle_BallBearings_001_001_Purple_1x1_300_Endframe.webp"
+					},
+					"2x2": {
+						"blue": "modules/jb2a_patreon/Library/Generic/Traps/Ball_Bearing/001/Template_Circle_BallBearings_001_001_Blue_2x2_600_Endframe.webp",
+						"brown": "modules/jb2a_patreon/Library/Generic/Traps/Ball_Bearing/001/Template_Circle_BallBearings_001_001_Brown_2x2_600_Endframe.webp",
+						"green": "modules/jb2a_patreon/Library/Generic/Traps/Ball_Bearing/001/Template_Circle_BallBearings_001_001_Green_2x2_600_Endframe.webp",
+						"grey": "modules/jb2a_patreon/Library/Generic/Traps/Ball_Bearing/001/Template_Circle_BallBearings_001_001_Grey_2x2_600_Endframe.webp",
+						"multicolored": "modules/jb2a_patreon/Library/Generic/Traps/Ball_Bearing/001/Template_Circle_BallBearings_001_001_MultiColor_2x2_600_Endframe.webp",
+						"purple": "modules/jb2a_patreon/Library/Generic/Traps/Ball_Bearing/001/Template_Circle_BallBearings_001_001_Purple_2x2_600_Endframe.webp"
+					}
+				}
+			}
+		},
+		"top": {
+			"001": {
+				"1x1": {
+					"blue": "modules/jb2a_patreon/Library/Generic/Traps/Ball_Bearing/001/Template_Circle_BallBearings_001_001_Blue_1x1_300.webm",
+					"brown": "modules/jb2a_patreon/Library/Generic/Traps/Ball_Bearing/001/Template_Circle_BallBearings_001_001_Brown_1x1_300.webm",
+					"green": "modules/jb2a_patreon/Library/Generic/Traps/Ball_Bearing/001/Template_Circle_BallBearings_001_001_Green_1x1_300.webm",
+					"grey": "modules/jb2a_patreon/Library/Generic/Traps/Ball_Bearing/001/Template_Circle_BallBearings_001_001_Grey_1x1_300.webm",
+					"multicolored": "modules/jb2a_patreon/Library/Generic/Traps/Ball_Bearing/001/Template_Circle_BallBearings_001_001_MultiColor_1x1_300.webm",
+					"purple": "modules/jb2a_patreon/Library/Generic/Traps/Ball_Bearing/001/Template_Circle_BallBearings_001_001_Purple_1x1_300.webm"
+				},
+				"2x2": {
+					"blue": "modules/jb2a_patreon/Library/Generic/Traps/Ball_Bearing/001/Template_Circle_BallBearings_001_001_Blue_2x2_600.webm",
+					"brown": "modules/jb2a_patreon/Library/Generic/Traps/Ball_Bearing/001/Template_Circle_BallBearings_001_001_Brown_2x2_600.webm",
+					"green": "modules/jb2a_patreon/Library/Generic/Traps/Ball_Bearing/001/Template_Circle_BallBearings_001_001_Green_2x2_600.webm",
+					"grey": "modules/jb2a_patreon/Library/Generic/Traps/Ball_Bearing/001/Template_Circle_BallBearings_001_001_Grey_2x2_600.webm",
+					"multicolored": "modules/jb2a_patreon/Library/Generic/Traps/Ball_Bearing/001/Template_Circle_BallBearings_001_001_MultiColor_2x2_600.webm",
+					"purple": "modules/jb2a_patreon/Library/Generic/Traps/Ball_Bearing/001/Template_Circle_BallBearings_001_001_Purple_2x2_600.webm"
+				}
+			}
+		}
+	},
 	"bardic_inspiration": {
 		"_metadata": {
 			"name": "Bardic Inspiration"
@@ -6873,7 +6921,11 @@
 	},
 	"handaxe": {
 		"_metadata": {
-			"name": "Handaxe"
+			"name": "Handaxe",
+			"new": [
+				"return.01*",
+				"return.02*"
+			]
 		},
 		"melee": {
 			"_template": "melee",
@@ -6889,6 +6941,21 @@
 			},
 			"standard": {
 				"white": "modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/HandAxe02_01_Regular_White_800x600.webm"
+			}
+		},
+		"return": {
+			"_template": "ranged",
+			"01": {
+				"15ft": "modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/HandAxe01_01_Regular_White_Return_15ft_1000x400.webm",
+				"30ft": "modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/HandAxe01_01_Regular_White_Return_30ft_1600x400.webm",
+				"60ft": "modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/HandAxe01_01_Regular_White_Return_60ft_2800x400.webm",
+				"90ft": "modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/HandAxe01_01_Regular_White_Return_90ft_4000x400.webm"
+			},
+			"02": {
+				"15ft": "modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/HandAxe02_01_Regular_White_Return_15ft_1000x400.webm",
+				"30ft": "modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/HandAxe02_01_Regular_White_Return_30ft_1600x400.webm",
+				"60ft": "modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/HandAxe02_01_Regular_White_Return_60ft_2800x400.webm",
+				"90ft": "modules/jb2a_patreon/Library/Generic/Weapon_Attacks/Ranged/HandAxe02_01_Regular_White_Return_90ft_4000x400.webm"
 			}
 		},
 		"throw": {
@@ -10772,11 +10839,7 @@
 	"melee_attack": {
 		"01": {
 			"_metadata": {
-				"name": "Melee Attacks - Group 01",
-				"new": [
-					"flail*",
-					"sword_chainsaw*"
-				]
+				"name": "Melee Attacks - Group 01"
 			},
 			"bonesword": {
 				"_template": "melee",
@@ -23004,10 +23067,46 @@
 	},
 	"web": {
 		"_metadata": {
-			"name": "Web"
+			"name": "Web",
+			"new": [
+				"complete.002*",
+				"loop.002*"
+			]
 		},
 		"01": "modules/jb2a_patreon/Library/2nd_Level/Web/Web_01_White_01_400x400.webm",
-		"02": "modules/jb2a_patreon/Library/2nd_Level/Web/Web_01_White_02_400x400.webm"
+		"02": "modules/jb2a_patreon/Library/2nd_Level/Web/Web_01_White_02_400x400.webm",
+		"complete": {
+			"_markers": {
+				"loop": {
+					"start": 1000,
+					"end": 5000
+				}
+			},
+			"002": {
+				"blue": "modules/jb2a_patreon/Library/Generic/Template/Circle/Web/002/Template_Circle_WebComplete_002_001_Blue_5x5_1000.webm",
+				"bluepurple": "modules/jb2a_patreon/Library/Generic/Template/Circle/Web/002/Template_Circle_WebComplete_002_001_BluePurple_5x5_1000.webm",
+				"blueteal": "modules/jb2a_patreon/Library/Generic/Template/Circle/Web/002/Template_Circle_WebComplete_002_001_BlueTeal_5x5_1000.webm",
+				"greenpurple": "modules/jb2a_patreon/Library/Generic/Template/Circle/Web/002/Template_Circle_WebComplete_002_001_GreenPurple_5x5_1000.webm",
+				"greenyellow": "modules/jb2a_patreon/Library/Generic/Template/Circle/Web/002/Template_Circle_WebComplete_002_001_GreenYellow_5x5_1000.webm",
+				"orangeyellow": "modules/jb2a_patreon/Library/Generic/Template/Circle/Web/002/Template_Circle_WebComplete_002_001_OrangeYellow_5x5_1000.webm",
+				"pinkyellow": "modules/jb2a_patreon/Library/Generic/Template/Circle/Web/002/Template_Circle_WebComplete_002_001_PinkYellow_5x5_1000.webm",
+				"purplered": "modules/jb2a_patreon/Library/Generic/Template/Circle/Web/002/Template_Circle_WebComplete_002_001_PurpleRed_5x5_1000.webm",
+				"white": "modules/jb2a_patreon/Library/Generic/Template/Circle/Web/002/Template_Circle_WebComplete_002_001_White_5x5_1000.webm"
+			}
+		},
+		"loop": {
+			"002": {
+				"blue": "modules/jb2a_patreon/Library/Generic/Template/Circle/Web/002/Template_Circle_WebLoop_002_001_Blue_5x5_1000.webm",
+				"bluepurple": "modules/jb2a_patreon/Library/Generic/Template/Circle/Web/002/Template_Circle_WebLoop_002_001_BluePurple_5x5_1000.webm",
+				"blueteal": "modules/jb2a_patreon/Library/Generic/Template/Circle/Web/002/Template_Circle_WebLoop_002_001_BlueTeal_5x5_1000.webm",
+				"greenpurple": "modules/jb2a_patreon/Library/Generic/Template/Circle/Web/002/Template_Circle_WebLoop_002_001_GreenPurple_5x5_1000.webm",
+				"greenyellow": "modules/jb2a_patreon/Library/Generic/Template/Circle/Web/002/Template_Circle_WebLoop_002_001_GreenYellow_5x5_1000.webm",
+				"orangeyellow": "modules/jb2a_patreon/Library/Generic/Template/Circle/Web/002/Template_Circle_WebLoop_002_001_OrangeYellow_5x5_1000.webm",
+				"pinkyellow": "modules/jb2a_patreon/Library/Generic/Template/Circle/Web/002/Template_Circle_WebLoop_002_001_PinkYellow_5x5_1000.webm",
+				"purplered": "modules/jb2a_patreon/Library/Generic/Template/Circle/Web/002/Template_Circle_WebLoop_002_001_PurpleRed_5x5_1000.webm",
+				"white": "modules/jb2a_patreon/Library/Generic/Template/Circle/Web/002/Template_Circle_WebLoop_002_001_White_5x5_1000.webm"
+			}
+		}
 	},
 	"whirlwind": {
 		"_metadata": {
