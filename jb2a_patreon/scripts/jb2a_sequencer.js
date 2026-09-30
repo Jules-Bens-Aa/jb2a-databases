@@ -564,8 +564,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.ball_bearing = {
         _metadata: {
-            name: "Ball Bearings",
-            new: true
+            name: "Ball Bearings"
         },
         'endframe': {
             'top': {
@@ -6759,11 +6758,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.handaxe = {
         _metadata: {
-            name: "Handaxe",
-            new: [
-                "return.01*",
-                "return.02*"
-            ]
+            name: "Handaxe"
         },    
         melee: {
             _template: 'melee',
@@ -10621,7 +10616,10 @@ export async function jb2aPatreonDatabase(prefix) {
     patreonDatabase.melee_attack = {        
         '01': {
             _metadata: {
-                name: "Melee Attacks - Group 01"
+                name: "Melee Attacks - Group 01",
+                new: [
+                    "magic_sword.dark_red.02*"
+                ]
             },
             bonesword: {
                 _template: "melee",
@@ -10693,6 +10691,14 @@ export async function jb2aPatreonDatabase(prefix) {
                         `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_MagicSword02_02_Dark_Purple_800x600.webm`,
                         `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_MagicSword02_03_Dark_Purple_800x600.webm`,
                         `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_MagicSword02_04_Dark_Purple_800x600.webm`,
+                    ],
+                },
+                dark_red: {
+                    '02': [
+                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_MagicSword02_01_Dark_Red_800x600.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_MagicSword02_02_Dark_Red_800x600.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_MagicSword02_03_Dark_Red_800x600.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group01/MeleeAttack01_MagicSword02_04_Dark_Red_800x600.webm`,
                     ],
                 },
                 blue: {
@@ -10833,7 +10839,22 @@ export async function jb2aPatreonDatabase(prefix) {
         },
         '02': {
             _metadata: {
-                name: "Melee Attacks - Group 02"
+                name: "Melee Attacks - Group 02",
+                new: [
+                    "baguette.01*",
+                    "dry_sausage.01*",
+                    "pickaxe.01*",
+                    "rolling_pin.01*"
+                ]
+            },
+            baguette: {
+                _template: "melee",
+                '01': [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Baguette01_01_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Baguette01_02_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Baguette01_03_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Baguette01_04_800x600.webm`,
+                ]
             },
             battleaxe: {
                 _template: "melee",
@@ -10860,6 +10881,15 @@ export async function jb2aPatreonDatabase(prefix) {
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Club01_02_800x600.webm`,
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Club01_03_800x600.webm`,
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Club01_04_800x600.webm`,
+                ]
+            },
+            dry_sausage: {
+                _template: "melee",
+                '01': [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_DrySausage01_01_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_DrySausage01_02_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_DrySausage01_03_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_DrySausage01_04_800x600.webm`,
                 ]
             },
             hammer: {
@@ -10902,6 +10932,24 @@ export async function jb2aPatreonDatabase(prefix) {
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Pan01_02_800x600.webm`,
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Pan01_03_800x600.webm`,
                     `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_Pan01_04_800x600.webm`,
+                ]
+            },
+            pickaxe: {
+                _template: "melee",
+                '01': [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_PickAxe01_01_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_PickAxe01_02_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_PickAxe01_03_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_PickAxe01_04_800x600.webm`,
+                ]
+            },
+            rolling_pin: {
+                _template: "melee",
+                '01': [
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_RollingPin01_01_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_RollingPin01_02_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_RollingPin01_03_800x600.webm`,
+                    `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group02/MeleeAttack02_RollingPin01_04_800x600.webm`,
                 ]
             },
             warhammer: {
@@ -11014,7 +11062,10 @@ export async function jb2aPatreonDatabase(prefix) {
         },
         '03': {
             _metadata: {
-                name: "Melee Attacks - Group 03"
+                name: "Melee Attacks - Group 03",
+                new: [
+                    "magical_greatsword.01.dark_red*"
+                ]
             },
             greatbone: {
                 _template: "melee",
@@ -11137,6 +11188,12 @@ export async function jb2aPatreonDatabase(prefix) {
                         `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_MagicalGreatSword01_02_Dark_Purple_800x600.webm`,
                         `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_MagicalGreatSword01_03_Dark_Purple_800x600.webm`,
                         `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_MagicalGreatSword01_04_Dark_Purple_800x600.webm`
+                    ],
+                    'dark_red': [
+                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_MagicalGreatSword01_01_Dark_Red_800x600.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_MagicalGreatSword01_02_Dark_Red_800x600.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_MagicalGreatSword01_03_Dark_Red_800x600.webm`,
+                        `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_MagicalGreatSword01_04_Dark_Red_800x600.webm`
                     ],
                     'blue': [
                         `${prefix}/jb2a_patreon/Library/Generic/Weapon_Attacks/Melee/Group03/MeleeAttack03_MagicalGreatSword01_01_Regular_Blue_800x600.webm`,
@@ -12037,7 +12094,10 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.on_token_cast = {
         _metadata: {
-            name: "On Token Cast"
+            name: "On Token Cast",
+            new: [
+                "initiate.002*"
+            ]
         },
         initiate: {
             '001': {
@@ -12193,6 +12253,54 @@ export async function jb2aPatreonDatabase(prefix) {
                             `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/White/OnToken_Cast_Initiate_Still_001_001_White_3x3_600x600.webp`,
                             `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/001/White/OnToken_Cast_Initiate_Still_001_002_White_3x3_600x600.webp`
                         ]
+                    }
+                }
+            },
+            '002': {
+                instant: {
+                    combined: {
+                        blue: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/002/Blue/OnToken_Cast_Initiate_Instant_002_001_Blue_5x5_1000x1000.webm`,
+                        bluepurple: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/002/BluePurple/OnToken_Cast_Initiate_Instant_002_001_BluePurple_5x5_1000x1000.webm`,
+                        blueteal: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/002/BlueTeal/OnToken_Cast_Initiate_Instant_002_001_BlueTeal_5x5_1000x1000.webm`,
+                        greenpurple: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/002/GreenPurple/OnToken_Cast_Initiate_Instant_002_001_GreenPurple_5x5_1000x1000.webm`,
+                        greenyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/002/GreenYellow/OnToken_Cast_Initiate_Instant_002_001_GreenYellow_5x5_1000x1000.webm`,
+                        orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/002/OrangeYellow/OnToken_Cast_Initiate_Instant_002_001_OrangeYellow_5x5_1000x1000.webm`,
+                        pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/002/PinkYellow/OnToken_Cast_Initiate_Instant_002_001_PinkYellow_5x5_1000x1000.webm`,
+                        purplered: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/002/PurpleRed/OnToken_Cast_Initiate_Instant_002_001_PurpleRed_5x5_1000x1000.webm`,
+                        white: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/002/White/OnToken_Cast_Initiate_Instant_002_001_White_5x5_1000x1000.webm`
+                    },
+                    part01: {
+                        blue: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/002/Blue/OnToken_Cast_Initiate_InstantPart01_002_001_Blue_5x5_1000x1000.webm`,
+                        bluepurple: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/002/BluePurple/OnToken_Cast_Initiate_InstantPart01_002_001_BluePurple_5x5_1000x1000.webm`,
+                        blueteal: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/002/BlueTeal/OnToken_Cast_Initiate_InstantPart01_002_001_BlueTeal_5x5_1000x1000.webm`,
+                        greenpurple: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/002/GreenPurple/OnToken_Cast_Initiate_InstantPart01_002_001_GreenPurple_5x5_1000x1000.webm`,
+                        greenyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/002/GreenYellow/OnToken_Cast_Initiate_InstantPart01_002_001_GreenYellow_5x5_1000x1000.webm`,
+                        orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/002/OrangeYellow/OnToken_Cast_Initiate_InstantPart01_002_001_OrangeYellow_5x5_1000x1000.webm`,
+                        pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/002/PinkYellow/OnToken_Cast_Initiate_InstantPart01_002_001_PinkYellow_5x5_1000x1000.webm`,
+                        purplered: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/002/PurpleRed/OnToken_Cast_Initiate_InstantPart01_002_001_PurpleRed_5x5_1000x1000.webm`,
+                        white: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/002/White/OnToken_Cast_Initiate_InstantPart01_002_001_White_5x5_1000x1000.webm`
+                    },
+                    part02: {
+                        blue: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/002/Blue/OnToken_Cast_Initiate_InstantPart02_002_001_Blue_5x5_1000x1000.webm`,
+                        bluepurple: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/002/BluePurple/OnToken_Cast_Initiate_InstantPart02_002_001_BluePurple_5x5_1000x1000.webm`,
+                        blueteal: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/002/BlueTeal/OnToken_Cast_Initiate_InstantPart02_002_001_BlueTeal_5x5_1000x1000.webm`,
+                        greenpurple: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/002/GreenPurple/OnToken_Cast_Initiate_InstantPart02_002_001_GreenPurple_5x5_1000x1000.webm`,
+                        greenyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/002/GreenYellow/OnToken_Cast_Initiate_InstantPart02_002_001_GreenYellow_5x5_1000x1000.webm`,
+                        orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/002/OrangeYellow/OnToken_Cast_Initiate_InstantPart02_002_001_OrangeYellow_5x5_1000x1000.webm`,
+                        pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/002/PinkYellow/OnToken_Cast_Initiate_InstantPart02_002_001_PinkYellow_5x5_1000x1000.webm`,
+                        purplered: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/002/PurpleRed/OnToken_Cast_Initiate_InstantPart02_002_001_PurpleRed_5x5_1000x1000.webm`,
+                        white: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/002/White/OnToken_Cast_Initiate_InstantPart02_002_001_White_5x5_1000x1000.webm`
+                    },
+                    part03: {
+                        blue: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/002/Blue/OnToken_Cast_Initiate_InstantPart03_002_001_Blue_5x5_1000x1000.webm`,
+                        bluepurple: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/002/BluePurple/OnToken_Cast_Initiate_InstantPart03_002_001_BluePurple_5x5_1000x1000.webm`,
+                        blueteal: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/002/BlueTeal/OnToken_Cast_Initiate_InstantPart03_002_001_BlueTeal_5x5_1000x1000.webm`,
+                        greenpurple: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/002/GreenPurple/OnToken_Cast_Initiate_InstantPart03_002_001_GreenPurple_5x5_1000x1000.webm`,
+                        greenyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/002/GreenYellow/OnToken_Cast_Initiate_InstantPart03_002_001_GreenYellow_5x5_1000x1000.webm`,
+                        orangeyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/002/OrangeYellow/OnToken_Cast_Initiate_InstantPart03_002_001_OrangeYellow_5x5_1000x1000.webm`,
+                        pinkyellow: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/002/PinkYellow/OnToken_Cast_Initiate_InstantPart03_002_001_PinkYellow_5x5_1000x1000.webm`,
+                        purplered: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/002/PurpleRed/OnToken_Cast_Initiate_InstantPart03_002_001_PurpleRed_5x5_1000x1000.webm`,
+                        white: `${prefix}/jb2a_patreon/Library/Generic/On_Token/Cast/Initiate/002/White/OnToken_Cast_Initiate_InstantPart03_002_001_White_5x5_1000x1000.webm`
                     }
                 }
             }
@@ -22468,11 +22576,7 @@ export async function jb2aPatreonDatabase(prefix) {
     }
     patreonDatabase.web = {
             _metadata: {
-                name: "Web",
-                new: [
-                    "complete.002*",
-                    "loop.002*"
-                ]
+                name: "Web"
             },
             '01': `${prefix}/jb2a_patreon/Library/2nd_Level/Web/Web_01_White_01_400x400.webm`,
             '02': `${prefix}/jb2a_patreon/Library/2nd_Level/Web/Web_01_White_02_400x400.webm`,
